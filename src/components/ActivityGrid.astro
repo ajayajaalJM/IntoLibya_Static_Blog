@@ -5,7 +5,7 @@ interface Activity {
   id: string;
   title: string;
   location?: string;
-  duration?: string;
+  duration?: string | number;
   price?: number;
   image?: string;
   display?: boolean;
@@ -21,48 +21,64 @@ try {
 } catch {
   activities = [];
 }
+
+function formatDuration(duration: string | number | undefined): string {
+  if (duration == null || duration === '') return '';
+  const raw = String(duration).trim();
+  if (/hour/i.test(raw)) return raw;
+  const hours = Number(raw);
+  if (!Number.isNaN(hours)) {
+    return `${hours} ${hours === 1 ? 'hour' : 'hours'}`;
+  }
+  return raw;
+}
+
+function activityMeta(a: Activity): string {
+  const parts = [a.location, formatDuration(a.duration)].filter(Boolean);
+  return parts.join(' · ');
+}
 ---
 
-<section id="activities" class="scroll-mt-20 px-4 py-14 md:px-8 md:py-20">
+<section id="activities" class="scroll-mt-20 px-4 py-8 md:px-8 md:py-10">
   <div class="mx-auto max-w-6xl">
-    <div class="mb-8 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
+    <div class="mb-5 flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
       <div>
-        <p class="text-sm font-bold uppercase tracking-widest text-brass">Activities</p>
-        <h2 class="mt-2 text-2xl font-black uppercase tracking-wide text-charcoal md:text-3xl">
+        <p class="text-xs font-bold uppercase tracking-widest text-brass">Activities</p>
+        <h2 class="mt-1 text-xl font-black uppercase tracking-wide text-charcoal md:text-2xl">
           Activities & Experiences
         </h2>
+        <p class="mt-1 text-sm text-muted">Add experiences to your TourBuilder itinerary.</p>
       </div>
       <a href="/tourbuilder/search/" class="text-sm font-bold text-brass hover:underline shrink-0">
         All activities →
       </a>
     </div>
     {activities.length ? (
-      <div class="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+      <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {activities.map((a) => (
           <a
             href={activityUrl(a)}
-            class="card group overflow-hidden border-l-8 border-mint transition hover:-translate-y-1 active:scale-[0.99]"
+            class="card group flex flex-col overflow-hidden border-l-8 border-mint transition hover:-translate-y-1 active:scale-[0.99]"
           >
-            <div class="hero-arch mx-3 mt-3 h-40 overflow-hidden bg-sand sm:mx-4 sm:mt-4">
+            <div class="tile-media mx-3 mt-3 h-36">
               {a.image && (
                 <img
                   src={a.image}
                   alt={a.title}
-                  class="h-full w-full object-cover"
+                  class="transition group-hover:scale-105"
                   loading="lazy"
                   width="400"
                   height="280"
                 />
               )}
             </div>
-            <div class="p-4 sm:p-5">
+            <div class="flex flex-1 flex-col p-3 sm:p-4">
               <h3 class="font-bold leading-snug text-charcoal group-hover:text-brass">{a.title}</h3>
-              <p class="mt-1 text-sm text-muted">
-                {a.location}{a.duration ? ` · ${a.duration}` : ''}
-              </p>
+              {activityMeta(a) && <p class="mt-1 text-sm text-muted">{activityMeta(a)}</p>}
               {a.price != null && (
-                <p class="mt-2 text-sm font-bold text-brass">From {a.price} USD</p>
+                <p class="mt-1 text-sm font-bold text-brass">From {a.price} USD</p>
               )}
+              <span class="btn-primary mt-3 w-full justify-center py-2.5 text-xs">Add to trip →</span>
             </div>
           </a>
         ))}

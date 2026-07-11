@@ -104,4 +104,17 @@ body {
 
 .hero-arch {
   border-radius: 160px 160px 32px 32px;
+  overflow: hidden;
+  isolation: isolate;
+  -webkit-mask-image: -webkit-radial-gradient(white, black);
+  clip-path: inset(0 round 160px 160px 32px 32px);
+}
+
+.tile-media {
+  @apply overflow-hidden rounded-2xl bg-sand;
+}
+
+.hero-arch-media,
+.tile-media img {
+  @apply h-full w-full object-cover;
 }

@@ -12,7 +12,7 @@
     "import:wp": "tsx scripts/import-wordpress-to-md.ts",
     "import:status": "tsx scripts/import-wordpress-to-md.ts --status",
     "validate:urls": "tsx scripts/validate-url-parity.ts",
-    "writer": "vite --config tools/blog-writer/vite.config.ts"
+    "writer": "node tools/blog-writer/serve.mjs"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.3",

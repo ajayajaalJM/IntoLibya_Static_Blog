@@ -7,6 +7,7 @@ import EventsGrid from '../components/EventsGrid.astro';
 import BlogPreview from '../components/BlogPreview.astro';
 import Testimonial from '../components/Testimonial.astro';
 import FinalCTA from '../components/FinalCTA.astro';
+import ConversionNudge from '../components/ConversionNudge.astro';
 import { getSiteConfig } from '../lib/site';
 
 const site = getSiteConfig();
@@ -43,31 +44,53 @@ const jsonLd = {
 >
   <HeroCTA />
 
-  <section class="px-4 py-12 md:px-8 md:py-16">
+  <TourPackagesGrid />
+
+  <section class="px-4 py-6 md:px-8">
     <div class="mx-auto max-w-6xl">
-      <p class="text-sm font-bold uppercase tracking-widest text-brass">How it works</p>
-      <h2 class="mt-2 text-2xl font-black uppercase tracking-wide text-charcoal md:text-3xl">
-        Build your trip in 3 steps
-      </h2>
-      <div class="mt-8 grid gap-4 sm:grid-cols-2 md:grid-cols-3 md:gap-6">
+      <ConversionNudge />
+    </div>
+  </section>
+
+  <EventsGrid />
+
+  <section class="px-4 py-6 md:px-8">
+    <div class="mx-auto max-w-6xl">
+      <ConversionNudge />
+    </div>
+  </section>
+
+  <ActivityGrid />
+
+  <section class="px-4 py-8 md:px-8 md:py-10">
+    <div class="mx-auto max-w-6xl">
+      <div class="mb-5 flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
+        <div>
+          <p class="text-xs font-bold uppercase tracking-widest text-brass">How it works</p>
+          <h2 class="text-xl font-black uppercase tracking-wide text-charcoal md:text-2xl">
+            Build your trip in 3 steps
+          </h2>
+        </div>
+        <a href={site.primaryCtaUrl} class="inline-flex min-h-11 items-center justify-center rounded-full border-2 border-brass/30 bg-brass/10 px-5 py-2.5 text-xs font-extrabold text-brass transition hover:bg-brass hover:text-white sm:text-sm">
+          {site.primaryCtaText} →
+        </a>
+      </div>
+      <div class="grid gap-3 sm:grid-cols-3 md:gap-4">
         {[
-          { step: '1', title: 'Pick a tour or activities', body: 'Start from a package, event, or hand-pick experiences across Libya.', accent: 'border-mint' },
+          { step: '1', title: 'Pick a tour or activities', body: 'Start from a package, event, or hand-pick experiences.', accent: 'border-mint' },
           { step: '2', title: 'Build your itinerary', body: 'Add activities day by day in TourBuilder booking.', accent: 'border-brass' },
-          { step: '3', title: 'Submit for a quote', body: 'Send your plan to IntoLibya and get a tailored proposal.', accent: 'border-sand' },
+          { step: '3', title: 'Submit for a quote', body: 'Send your plan to IntoLibya for a tailored proposal.', accent: 'border-sand' },
         ].map((item) => (
-          <div class={`card border-l-8 ${item.accent} p-5 sm:p-6`}>
-            <span class="text-3xl font-black text-brass">{item.step}</span>
-            <h3 class="mt-3 text-lg font-bold text-charcoal">{item.title}</h3>
-            <p class="mt-2 text-sm leading-relaxed text-muted">{item.body}</p>
+          <div class={`card border-l-8 ${item.accent} p-4 sm:p-5`}>
+            <span class="text-2xl font-black text-brass">{item.step}</span>
+            <h3 class="mt-2 text-base font-bold text-charcoal">{item.title}</h3>
+            <p class="mt-1 text-sm leading-relaxed text-muted">{item.body}</p>
           </div>
         ))}
       </div>
     </div>
   </section>
 
-  <TourPackagesGrid />
-  <EventsGrid />
-  <ActivityGrid />
   <Testimonial />
   <BlogPreview />
   <FinalCTA />

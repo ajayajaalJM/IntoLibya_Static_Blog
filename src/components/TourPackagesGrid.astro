@@ -17,16 +17,16 @@ try {
 }
 ---
 
-<section id="tours" class="scroll-mt-20 bg-white px-4 py-14 md:px-8 md:py-20">
+<section id="tours" class="scroll-mt-20 bg-white px-4 py-8 md:px-8 md:py-10">
   <div class="mx-auto max-w-6xl">
-    <div class="mb-8 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
+    <div class="mb-5 flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
       <div>
-        <p class="text-sm font-bold uppercase tracking-widest text-brass">Tour packages</p>
-        <h2 class="mt-2 text-2xl font-black uppercase tracking-wide text-charcoal md:text-3xl">
+        <p class="text-xs font-bold uppercase tracking-widest text-brass">Tour packages</p>
+        <h2 class="mt-1 text-xl font-black uppercase tracking-wide text-charcoal md:text-2xl">
           Multi-day Libya itineraries
         </h2>
-        <p class="mt-2 max-w-2xl text-sm text-muted md:text-base">
-          Choose a curated package — opens in TourBuilder booking with the itinerary ready to customize.
+        <p class="mt-1 max-w-2xl text-sm text-muted">
+          Pick a package — opens in TourBuilder with the itinerary ready to customize.
         </p>
       </div>
       <a href="/tourbuilder/tour-packages/" class="text-sm font-bold text-brass hover:underline shrink-0">
@@ -35,29 +35,29 @@ try {
     </div>
 
     {tours.length ? (
-      <div class="grid gap-5 sm:grid-cols-2 xl:grid-cols-4">
+      <div class="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
         {tours.map((t) => (
           <a
             href={tourBookingUrl(t.id)}
             class="card group flex flex-col overflow-hidden border-l-8 border-brass transition hover:-translate-y-1 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brass"
           >
-            <div class="hero-arch mx-3 mt-3 h-44 overflow-hidden bg-sand sm:mx-4 sm:mt-4 sm:h-48">
+            <div class="hero-arch mx-3 mt-3 h-36 overflow-hidden bg-sand sm:mx-3 sm:mt-3 sm:h-40">
               <img
                 src={tourImageUrl(t.id)}
                 alt={t.title}
-                class="h-full w-full object-cover transition group-hover:scale-105"
+                class="hero-arch-media transition group-hover:scale-105"
                 loading="lazy"
                 width="400"
                 height="300"
               />
             </div>
-            <div class="flex flex-1 flex-col p-4 sm:p-5">
+            <div class="flex flex-1 flex-col p-3 sm:p-4">
               <span class="text-xs font-bold uppercase tracking-wide text-brass">{t.days} days</span>
-              <h3 class="mt-1 text-lg font-bold text-charcoal group-hover:text-brass">{t.title}</h3>
+              <h3 class="mt-1 text-base font-bold text-charcoal group-hover:text-brass">{t.title}</h3>
               {t.description && (
-                <p class="mt-2 line-clamp-3 flex-1 text-sm leading-relaxed text-muted">{t.description}</p>
+                <p class="mt-1 line-clamp-2 flex-1 text-sm leading-relaxed text-muted">{t.description}</p>
               )}
-              <span class="btn-primary mt-4 w-full justify-center text-xs sm:text-sm">
+              <span class="btn-primary mt-3 w-full justify-center py-2.5 text-xs">
                 Add to booking →
               </span>
             </div>

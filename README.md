@@ -27,8 +27,10 @@ Throttle via `.env`: `IMPORT_BATCH_SIZE`, `IMPORT_DELAY_MS`, `IMPORT_PAGE_DELAY_
 ## Dev blog writer (local only)
 
 ```bash
-npm run writer   # http://localhost:5174 — not deployed (see .vercelignore)
+npm run writer
 ```
+
+Opens at **http://localhost:5174** — local only, not deployed (see `.vercelignore`).
 
 ## Build
 

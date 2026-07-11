@@ -2,7 +2,7 @@
 import { getSiteConfig } from '../lib/site';
 
 interface Props {
-  variant?: 'default' | 'light';
+  variant?: 'default' | 'light' | 'hero';
 }
 
 const { variant = 'default' } = Astro.props;
@@ -13,17 +13,21 @@ const site = getSiteConfig();
   <a
     href={site.primaryCtaUrl}
     class:list={[
-      'btn-primary',
+      'btn-primary min-h-11 px-6 py-3 text-sm font-extrabold',
       variant === 'light' && 'bg-white text-charcoal hover:bg-whitewash',
+      variant === 'hero' &&
+        'border-2 border-brass bg-brass text-white shadow-[0_8px_28px_rgba(0,0,0,0.45)] hover:brightness-110',
     ]}
   >
-    {site.primaryCtaText}
+    {site.primaryCtaText} →
   </a>
   <a
     href={site.secondaryCtaUrl}
     class:list={[
-      'btn-secondary',
+      'btn-secondary min-h-11 px-6 py-3 text-sm font-bold',
       variant === 'light' && 'border-white/40 bg-transparent text-white hover:bg-white/10',
+      variant === 'hero' &&
+        'border-2 border-white/90 bg-white/15 text-white backdrop-blur-sm shadow-[0_8px_28px_rgba(0,0,0,0.35)] hover:bg-white/25',
     ]}
   >
     {site.secondaryCtaText}
