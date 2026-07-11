@@ -1,0 +1,157 @@
+---
+import { getSiteConfig } from '../lib/site';
+import TourBuilderBanner from './TourBuilderBanner.astro';
+
+const site = getSiteConfig();
+const slides = site.heroSlides ?? [];
+---
+
+<section class="relative overflow-hidden">
+  <!-- Mobile-first: full-bleed hero carousel -->
+  <div class="hero-carousel relative md:hidden" data-hero-carousel>
+    <div class="hero-carousel-track flex snap-x snap-mandatory overflow-x-auto scroll-smooth">
+      {slides.map((slide, i) => (
+        <a
+          href={slide.href}
+          class="hero-slide relative min-w-full snap-center"
+          aria-label={slide.title}
+        >
+          <img
+            src={slide.image}
+            alt=""
+            class="h-[min(70vh,520px)] w-full object-cover"
+            width="800"
+            height="520"
+            loading={i === 0 ? 'eager' : 'lazy'}
+            fetchpriority={i === 0 ? 'high' : 'auto'}
+          />
+          <div class="absolute inset-0 bg-gradient-to-t from-charcoal/80 via-charcoal/20 to-transparent"></div>
+          <div class="absolute bottom-0 left-0 right-0 p-5 pb-8 text-white">
+            <p class="text-xs font-bold uppercase tracking-widest text-brass">{site.heroHeadline}</p>
+            <h1 class="mt-2 text-2xl font-black leading-tight">{slide.title}</h1>
+            {slide.subtitle && <p class="mt-2 text-sm text-white/90">{slide.subtitle}</p>}
+          </div>
+        </a>
+      ))}
+    </div>
+    {slides.length > 1 && (
+      <div class="absolute bottom-3 left-0 right-0 flex justify-center gap-2" aria-hidden="true">
+        {slides.map((_, i) => (
+          <span class="hero-dot h-2 w-2 rounded-full bg-white/40" data-index={i}></span>
+        ))}
+      </div>
+    )}
+  </div>
+
+  <!-- Mobile copy + CTAs below carousel -->
+  <div class="px-4 pb-8 pt-6 md:hidden">
+    <p class="text-base text-muted">{site.heroSubheadline}</p>
+    <div class="mt-6">
+      <TourBuilderBanner />
+    </div>
+  </div>
+
+  <!-- Desktop: split layout -->
+  <div class="hidden px-4 pb-16 pt-10 md:block md:px-8 md:pb-24 md:pt-12">
+    <div class="mx-auto grid max-w-6xl items-center gap-10 lg:grid-cols-2">
+      <div>
+        <p class="mb-3 text-sm font-bold uppercase tracking-widest text-brass">Libya Tours</p>
+        <h1 class="text-4xl font-black leading-tight text-charcoal lg:text-5xl">{site.heroHeadline}</h1>
+        <p class="mt-5 text-lg leading-relaxed text-muted">{site.heroSubheadline}</p>
+        <div class="mt-8">
+          <TourBuilderBanner />
+        </div>
+      </div>
+      <div class="hero-carousel-desktop relative" data-hero-carousel>
+        <div class="hero-arch relative min-h-[360px] overflow-hidden bg-sand shadow-[0_12px_32px_rgba(45,42,38,0.08)]">
+          {slides.map((slide, i) => (
+            <a
+              href={slide.href}
+              class:list={['hero-slide-desktop absolute inset-0 transition-opacity duration-500', i === 0 ? 'opacity-100' : 'opacity-0 pointer-events-none']}
+              data-index={i}
+            >
+              <img
+                src={slide.image}
+                alt={slide.title}
+                class="h-full min-h-[360px] w-full object-cover"
+                width="640"
+                height="480"
+                loading={i === 0 ? 'eager' : 'lazy'}
+              />
+              <div class="absolute inset-0 bg-gradient-to-t from-charcoal/60 to-transparent"></div>
+              <div class="absolute bottom-6 left-6 right-6 rounded-2xl bg-white/90 p-4 backdrop-blur">
+                <p class="text-sm font-bold text-charcoal">{slide.title}</p>
+                {slide.subtitle && <p class="text-xs text-muted">{slide.subtitle}</p>}
+              </div>
+            </a>
+          ))}
+        </div>
+        {slides.length > 1 && (
+          <div class="mt-4 flex justify-center gap-2">
+            {slides.map((_, i) => (
+              <button type="button" class="hero-dot-desktop h-2.5 w-2.5 rounded-full bg-border" data-index={i} aria-label={`Slide ${i + 1}`}></button>
+            ))}
+          </div>
+        )}
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  function initCarousel(root: HTMLElement, slideSelector: string, dotSelector: string, intervalMs = 5500) {
+    const slides = Array.from(root.querySelectorAll<HTMLElement>(slideSelector));
+    const dots = Array.from(root.querySelectorAll<HTMLElement>(dotSelector));
+    if (slides.length <= 1) return;
+
+    let index = 0;
+    let timer: ReturnType<typeof setInterval> | undefined;
+
+    const show = (i: number) => {
+      index = i;
+      slides.forEach((s, j) => {
+        const active = j === i;
+        if (root.classList.contains('hero-carousel')) {
+          // mobile scroll
+        } else {
+          s.classList.toggle('opacity-100', active);
+          s.classList.toggle('opacity-0', !active);
+          s.classList.toggle('pointer-events-none', !active);
+        }
+      });
+      dots.forEach((d, j) => {
+        d.classList.toggle('bg-brass', j === i);
+        d.classList.toggle('bg-white/40', j !== i && root.classList.contains('hero-carousel'));
+        d.classList.toggle('bg-border', j !== i && !root.classList.contains('hero-carousel'));
+      });
+      const track = root.querySelector('.hero-carousel-track');
+      if (track) track.scrollTo({ left: index * track.clientWidth, behavior: 'smooth' });
+    };
+
+    dots.forEach((d, i) => d.addEventListener('click', () => show(i)));
+    show(0);
+    timer = setInterval(() => show((index + 1) % slides.length), intervalMs);
+    root.addEventListener('mouseenter', () => timer && clearInterval(timer));
+    root.addEventListener('mouseleave', () => {
+      timer = setInterval(() => show((index + 1) % slides.length), intervalMs);
+    });
+  }
+
+  document.querySelectorAll<HTMLElement>('[data-hero-carousel]').forEach((root) => {
+    if (root.classList.contains('hero-carousel')) {
+      initCarousel(root, '.hero-slide', '.hero-dot');
+    } else {
+      initCarousel(root, '.hero-slide-desktop', '.hero-dot-desktop');
+    }
+  });
+</script>
+
+<style>
+  .hero-carousel-track {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .hero-carousel-track::-webkit-scrollbar {
+    display: none;
+  }
+</style>

@@ -1,0 +1,109 @@
+---
+import { getSiteConfig } from '../lib/site';
+
+interface Props {
+  currentPath?: string;
+}
+
+const { currentPath = '/' } = Astro.props;
+const site = getSiteConfig();
+
+const navLinks = [
+  { href: '/tourbuilder/booking/', label: 'Build Trip' },
+  { href: '/#tours', label: 'Tours' },
+  { href: '/#events', label: 'Events' },
+  { href: '/#activities', label: 'Activities' },
+  { href: '/en/', label: 'Blog' },
+];
+---
+
+<header class="sticky top-0 z-50 border-b border-border/60 bg-whitewash/95 backdrop-blur-md">
+  <div class="mx-auto flex max-w-6xl items-center justify-between gap-3 px-4 py-3 md:gap-4 md:px-8">
+    <a href="/" class="flex min-w-0 shrink items-center gap-2">
+      <img
+        src={site.logo}
+        alt="IntoLibya"
+        class="h-11 w-auto object-contain md:h-12"
+        width="48"
+        height="48"
+      />
+    </a>
+
+    <nav class="hidden items-center gap-5 text-sm font-medium text-muted lg:flex" aria-label="Main">
+      {navLinks.map((link) => (
+        <a href={link.href} class="whitespace-nowrap hover:text-brass">{link.label}</a>
+      ))}
+    </nav>
+
+    <div class="flex shrink-0 items-center gap-2">
+      <a href={site.primaryCtaUrl} class="btn-primary hidden px-4 py-2.5 text-xs sm:inline-flex md:text-sm">
+        {site.primaryCtaText}
+      </a>
+      <button
+        type="button"
+        class="inline-flex h-11 w-11 items-center justify-center rounded-full border-2 border-brass/30 bg-white text-brass shadow-sm transition hover:border-brass hover:bg-brass/5 lg:hidden"
+        aria-expanded="false"
+        aria-controls="mobile-nav"
+        id="menu-toggle"
+      >
+        <span class="sr-only">Open menu</span>
+        <svg class="h-5 w-5 menu-icon-open" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" d="M4 7h16M4 12h16M4 17h16" />
+        </svg>
+        <svg class="hidden h-5 w-5 menu-icon-close" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" d="M6 6l12 12M18 6L6 18" />
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <div id="mobile-nav" class="hidden border-t border-border/60 bg-gradient-to-b from-whitewash to-sand/40 lg:hidden" hidden>
+    <nav class="mx-auto flex max-w-md flex-col items-center gap-3 px-6 py-6" aria-label="Mobile">
+      {navLinks.map((link) => (
+        <a
+          href={link.href}
+          class="mobile-nav-link w-full max-w-sm rounded-full border-2 border-border bg-white px-6 py-4 text-center text-lg font-extrabold tracking-wide text-charcoal shadow-[0_8px_24px_rgba(45,42,38,0.06)] transition hover:border-brass hover:bg-brass hover:text-white active:scale-[0.98]"
+        >
+          {link.label}
+        </a>
+      ))}
+      <a
+        href={site.primaryCtaUrl}
+        class="btn-primary mt-2 w-full max-w-sm justify-center py-4 text-base font-extrabold shadow-[0_8px_24px_rgba(194,159,93,0.35)]"
+      >
+        {site.primaryCtaText}
+      </a>
+    </nav>
+  </div>
+</header>
+
+<style>
+  #menu-toggle[aria-expanded='true'] {
+    border-color: var(--color-brass);
+    background-color: rgb(194 159 93 / 0.12);
+  }
+</style>
+
+<script>
+  const toggle = document.getElementById('menu-toggle');
+  const panel = document.getElementById('mobile-nav');
+  const openIcon = toggle?.querySelector('.menu-icon-open');
+  const closeIcon = toggle?.querySelector('.menu-icon-close');
+
+  toggle?.addEventListener('click', () => {
+    const open = panel?.hasAttribute('hidden');
+    if (open) {
+      panel?.removeAttribute('hidden');
+      panel?.classList.remove('hidden');
+      toggle.setAttribute('aria-expanded', 'true');
+      openIcon?.classList.add('hidden');
+      closeIcon?.classList.remove('hidden');
+    } else {
+      panel?.setAttribute('hidden', '');
+      panel?.classList.add('hidden');
+      toggle.setAttribute('aria-expanded', 'false');
+      openIcon?.classList.remove('hidden');
+      closeIcon?.classList.add('hidden');
+    }
+  });
+</script>

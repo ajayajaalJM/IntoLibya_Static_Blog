@@ -1,0 +1,104 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import FinalCTA from '../components/FinalCTA.astro';
+import { getCollection, render } from 'astro:content';
+import { getAllPosts, getTranslationSiblings } from '../lib/posts';
+import { LANG_LABELS, type Lang } from '../lib/post-schema';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('posts');
+  return posts.map((post) => {
+    const segments = post.data.canonicalPath.replace(/^\/|\/$/g, '').split('/');
+    return {
+      params: { path: segments.join('/') },
+      props: { post, id: post.id },
+    };
+  });
+}
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+const allPosts = await getAllPosts();
+const siblings = getTranslationSiblings(post, allPosts);
+const siteUrl = Astro.site?.href?.replace(/\/$/, '') || 'https://intolibya.com';
+const lang = post.data.lang as Lang;
+
+const hreflangAlternates = [
+  { lang, href: `${siteUrl}${post.data.canonicalPath}` },
+  ...siblings.map((s) => ({
+    lang: s.data.lang,
+    href: `${siteUrl}${s.data.canonicalPath}`,
+  })),
+  { lang: 'x-default', href: `${siteUrl}${post.data.canonicalPath}` },
+];
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: post.data.seo.title,
+  description: post.data.seo.description,
+  datePublished: post.data.publishedAt.toISOString(),
+  mainEntityOfPage: post.data.seo.canonical,
+  image: post.data.featuredImage ? `${siteUrl}${post.data.featuredImage}` : undefined,
+  publisher: { '@type': 'Organization', name: 'IntoLibya', url: siteUrl },
+  inLanguage: lang,
+};
+---
+
+<BaseLayout
+  title={post.data.seo.title}
+  description={post.data.seo.description}
+  canonical={post.data.seo.canonical}
+  ogImage={post.data.featuredImage}
+  lang={lang}
+  hreflangAlternates={hreflangAlternates}
+  jsonLd={jsonLd}
+>
+  <article class="px-4 py-10 md:px-8">
+    <div class="mx-auto max-w-3xl">
+      <nav class="mb-6 text-sm text-muted">
+        <a href={`/${lang}/`} class="hover:text-brass">{LANG_LABELS[lang]} Blog</a>
+        <span aria-hidden="true"> / </span>
+        <span>{post.data.title}</span>
+      </nav>
+
+      {post.data.featuredImage && (
+        <img
+          src={post.data.featuredImage}
+          alt=""
+          class="hero-arch mb-8 h-64 w-full object-cover md:h-80"
+          loading="eager"
+        />
+      )}
+
+      <header class="mb-8">
+        <time class="text-sm text-muted" datetime={post.data.publishedAt.toISOString()}>
+          {post.data.publishedAt.toLocaleDateString(lang, { year: 'numeric', month: 'long', day: 'numeric' })}
+        </time>
+        <h1 class="mt-3 text-3xl font-black leading-tight text-charcoal md:text-4xl">{post.data.title}</h1>
+      </header>
+
+      {siblings.length > 0 && (
+        <div class="mb-8 flex flex-wrap gap-2">
+          {[{ lang, path: post.data.canonicalPath, current: true }, ...siblings.map((s) => ({ lang: s.data.lang, path: s.data.canonicalPath, current: false }))].map((t) => (
+            <a
+              href={t.path}
+              class:list={[
+                'rounded-full px-3 py-1 text-xs font-bold',
+                t.current ? 'bg-mint text-charcoal' : 'bg-sand text-muted hover:bg-brass hover:text-white',
+              ]}
+              hreflang={t.lang}
+            >
+              {LANG_LABELS[t.lang as Lang]}
+            </a>
+          ))}
+        </div>
+      )}
+
+      <div class="prose-blog">
+        <Content />
+      </div>
+    </div>
+  </article>
+  <FinalCTA />
+</BaseLayout>

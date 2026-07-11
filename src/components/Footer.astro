@@ -1,0 +1,33 @@
+---
+import { getSiteConfig } from '../lib/site';
+
+const site = getSiteConfig();
+const year = new Date().getFullYear();
+---
+
+<footer class="mt-16 bg-charcoal text-whitewash">
+  <div class="mx-auto grid max-w-6xl gap-8 px-4 py-12 md:grid-cols-3 md:px-8">
+    <div>
+      <img src={site.logoDark} alt="IntoLibya" class="mb-4 h-12 w-auto object-contain" width="48" height="48" />
+      <p class="text-sm text-white/70">Curated Libya tours, travel guides, and custom itineraries.</p>
+    </div>
+    <div>
+      <h3 class="mb-3 text-sm font-bold uppercase tracking-wide text-brass">Explore</h3>
+      <ul class="space-y-2 text-sm text-white/80">
+        <li><a href="/tourbuilder/" class="hover:text-brass">TourBuilder</a></li>
+        <li><a href="/en/" class="hover:text-brass">Travel Blog</a></li>
+        <li><a href="/tourbuilder/search/" class="hover:text-brass">Activities</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3 class="mb-3 text-sm font-bold uppercase tracking-wide text-brass">Connect</h3>
+      <ul class="space-y-2 text-sm text-white/80">
+        <li><a href={site.social.facebook} class="hover:text-brass" rel="noopener">Facebook</a></li>
+        <li><a href={site.social.instagram} class="hover:text-brass" rel="noopener">Instagram</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="border-t border-white/10 py-4 text-center text-xs text-white/50">
+    © {year} IntoLibya. All rights reserved.
+  </div>
+</footer>

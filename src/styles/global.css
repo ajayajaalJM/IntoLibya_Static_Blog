@@ -1,0 +1,107 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "InterLocal";
+  src: url("/assets/fonts/Inter-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "InterLocal";
+  src: url("/assets/fonts/Inter-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "InterLocal";
+  src: url("/assets/fonts/Inter-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --color-brass: #c29f5d;
+  --color-mint: #a6d8c2;
+  --color-whitewash: #fcfaee;
+  --color-charcoal: #2d2a26;
+  --color-muted: #837a71;
+  --color-sand: #f0e8dd;
+  --color-border: #eae2d5;
+  --font-sans: "InterLocal", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-whitewash);
+  color: var(--color-charcoal);
+}
+
+.prose-blog h2,
+.prose-blog h3,
+.prose-blog h4 {
+  font-weight: 700;
+  margin-top: 1.75em;
+  margin-bottom: 0.75em;
+  color: var(--color-charcoal);
+}
+
+.prose-blog p {
+  margin-bottom: 1.25em;
+  line-height: 1.7;
+}
+
+.prose-blog a {
+  color: var(--color-brass);
+  text-decoration: underline;
+}
+
+.prose-blog img {
+  border-radius: 1rem;
+  margin: 1.5em 0;
+  max-width: 100%;
+  height: auto;
+}
+
+.prose-blog ul,
+.prose-blog ol {
+  margin: 1em 0 1.5em 1.5em;
+}
+
+.prose-blog blockquote {
+  border-left: 4px solid var(--color-mint);
+  padding-left: 1rem;
+  color: var(--color-muted);
+  font-style: italic;
+}
+
+[dir="rtl"] .prose-blog ul,
+[dir="rtl"] .prose-blog ol {
+  margin-right: 1.5em;
+  margin-left: 0;
+}
+
+.btn-primary {
+  @apply inline-flex min-h-12 items-center justify-center rounded-full bg-brass px-5 py-3 text-sm font-extrabold text-white transition hover:opacity-90 active:scale-[0.98];
+}
+
+.btn-secondary {
+  @apply inline-flex min-h-12 items-center justify-center rounded-full border-2 border-border bg-white px-5 py-3 text-sm font-bold text-charcoal transition hover:bg-sand active:scale-[0.98];
+}
+
+.card {
+  @apply rounded-3xl bg-white shadow-[0_12px_32px_rgba(45,42,38,0.05)];
+}
+
+.hero-arch {
+  border-radius: 160px 160px 32px 32px;
+}

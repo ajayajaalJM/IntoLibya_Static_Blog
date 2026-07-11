@@ -1,0 +1,22 @@
+# IntoLibya
+
+> IntoLibya offers curated Libya tours, travel guides, and a TourBuilder to design custom itineraries across Tripoli, Sabratha, Ghadames, Leptis Magna, and the Sahara.
+
+## Primary URLs
+
+- [Homepage](https://intolibya.com/): Visit Libya and start building your trip
+- [TourBuilder](https://intolibya.com/tourbuilder/): Build and submit custom Libya itineraries
+- [English Blog](https://intolibya.com/en/): Travel tips and Libya guides
+- [Activities](https://intolibya.com/tourbuilder/search/): Browse Libya tours and experiences
+
+## Topics
+
+- Libya tourism and visa information
+- Safety and travel tips for Libya
+- Tripoli, Sabratha, Ghadames, Leptis Magna, Sahara desert tours
+- Custom tour planning via TourBuilder
+
+## Contact
+
+- Website: https://intolibya.com
+- Email: info@intolibya.com

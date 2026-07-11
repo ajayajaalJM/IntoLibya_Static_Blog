@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://intolibya.com/sitemap-index.xml

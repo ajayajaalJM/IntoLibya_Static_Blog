@@ -1,0 +1,68 @@
+---
+import '../styles/global.css';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { getSiteConfig } from '../lib/site';
+
+interface Props {
+  title: string;
+  description?: string;
+  canonical?: string;
+  ogImage?: string;
+  lang?: string;
+  dir?: 'ltr' | 'rtl';
+  hreflangAlternates?: Array<{ lang: string; href: string }>;
+  jsonLd?: Record<string, unknown> | Record<string, unknown>[];
+}
+
+const {
+  title,
+  description = 'IntoLibya — curated Libya tours, travel tips, and TourBuilder itineraries.',
+  canonical,
+  ogImage = '/assets/branding/logo-icon-512.png',
+  lang = 'en',
+  dir = lang === 'ar' ? 'rtl' : 'ltr',
+  hreflangAlternates = [],
+  jsonLd,
+} = Astro.props;
+
+const site = getSiteConfig();
+const siteUrl = Astro.site?.href?.replace(/\/$/, '') || 'https://intolibya.com';
+const canonicalUrl = canonical || Astro.url.href;
+const ogImageUrl = ogImage.startsWith('http') ? ogImage : `${siteUrl}${ogImage}`;
+---
+
+<!doctype html>
+<html lang={lang} dir={dir}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href={site.favicon} />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonicalUrl} />
+    {hreflangAlternates.map((alt) => (
+      <link rel="alternate" hreflang={alt.lang} href={alt.href} />
+    ))}
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:image" content={ogImageUrl} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImageUrl} />
+    <link rel="preconnect" href="https://cdn.intolibya.com" />
+    {jsonLd && (
+      <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+    )}
+  </head>
+  <body class="min-h-screen flex flex-col">
+    <Header />
+    <main class="flex-1">
+      <slot />
+    </main>
+    <Footer />
+  </body>
+</html>

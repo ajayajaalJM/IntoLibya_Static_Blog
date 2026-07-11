@@ -1,0 +1,23 @@
+{
+  "trailingSlash": true,
+  "redirects": [
+    { "source": "/blog", "destination": "/en/", "permanent": true },
+    { "source": "/blog/", "destination": "/en/", "permanent": true },
+    { "source": "/checkout/:path*", "destination": "/tourbuilder/booking/", "permanent": true },
+    { "source": "/cart/:path*", "destination": "/tourbuilder/booking/", "permanent": true },
+    { "source": "/wp-travel-engine-:path*", "destination": "/tourbuilder/", "permanent": true }
+  ],
+  "rewrites": [
+    { "source": "/tourbuilder/:path*", "destination": "https://intolibya.com/tourbuilder/:path*" }
+  ],
+  "headers": [
+    {
+      "source": "/assets/(.*)",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }]
+    },
+    {
+      "source": "/media/(.*)",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+---
+import { getSiteConfig } from '../lib/site';
+
+interface Props {
+  variant?: 'default' | 'light';
+}
+
+const { variant = 'default' } = Astro.props;
+const site = getSiteConfig();
+---
+
+<div class="flex flex-wrap gap-3">
+  <a
+    href={site.primaryCtaUrl}
+    class:list={[
+      'btn-primary',
+      variant === 'light' && 'bg-white text-charcoal hover:bg-whitewash',
+    ]}
+  >
+    {site.primaryCtaText}
+  </a>
+  <a
+    href={site.secondaryCtaUrl}
+    class:list={[
+      'btn-secondary',
+      variant === 'light' && 'border-white/40 bg-transparent text-white hover:bg-white/10',
+    ]}
+  >
+    {site.secondaryCtaText}
+  </a>
+</div>

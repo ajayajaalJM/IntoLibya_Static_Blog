@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>IntoLibya Blog Writer (dev only)</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>IntoLibya Blog Writer</h1>
+      <p>Local dev tool — generates Markdown for <code>src/content/posts/</code>. Not deployed to production.</p>
+    </header>
+    <main class="grid">
+      <form id="form" class="panel">
+        <label>Title <input name="title" required /></label>
+        <label>Slug <input name="slug" required placeholder="my-post-slug" /></label>
+        <label>Language
+          <select name="lang">
+            <option value="en">English</option>
+            <option value="es">Español</option>
+            <option value="fr">Français</option>
+            <option value="de">Deutsch</option>
+            <option value="ar">العربية</option>
+          </select>
+        </label>
+        <label>Published date <input name="publishedAt" type="date" /></label>
+        <label>Translation group <input name="translationGroup" placeholder="base-slug-without-lang-suffix" /></label>
+        <label>Featured image path <input name="featuredImage" placeholder="/media/2026/03/hero.jpg" /></label>
+        <label>SEO title <input name="seoTitle" /></label>
+        <label>SEO description <textarea name="seoDescription" rows="3"></textarea></label>
+        <label>HTML body <textarea name="body" rows="14" placeholder="<p>Post content...</p>"></textarea></label>
+        <div class="actions">
+          <button type="submit">Generate Markdown</button>
+          <button type="button" id="copy">Copy</button>
+          <button type="button" id="download">Download .md</button>
+        </div>
+        <p class="path" id="targetPath"></p>
+      </form>
+      <section class="panel">
+        <h2>Output</h2>
+        <pre id="output">Fill the form and click Generate.</pre>
+      </section>
+    </main>
+    <script type="module" src="./main.ts"></script>
+  </body>
+</html>

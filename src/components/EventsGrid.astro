@@ -1,0 +1,106 @@
+---
+import { eventBookingUrl, eventSlug } from '../lib/tourbuilder-links';
+
+interface EventItem {
+  id: string;
+  title: string;
+  days: number;
+  price?: number;
+  description?: string;
+  overview?: string;
+  image?: string;
+  images?: string[];
+  scheduleType?: string;
+  isLibyanOnly?: boolean;
+}
+
+let events: EventItem[] = [];
+try {
+  const res = await fetch('https://cdn.intolibya.com/json/events.json');
+  if (res.ok) events = await res.json();
+} catch {
+  events = [];
+}
+
+function eventImage(e: EventItem): string {
+  if (e.image) return e.image;
+  if (e.images?.[0]) return e.images[0];
+  return '/assets/heroes/hero_sahara.jpg';
+}
+
+function eventDescription(e: EventItem): string {
+  return (e.overview || e.description || '').slice(0, 180);
+}
+---
+
+<section id="events" class="scroll-mt-20 px-4 py-14 md:px-8 md:py-20">
+  <div class="mx-auto max-w-6xl">
+    <div class="mb-8 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
+      <div>
+        <p class="text-sm font-bold uppercase tracking-widest text-brass">Festivals & events</p>
+        <h2 class="mt-2 text-2xl font-black uppercase tracking-wide text-charcoal md:text-3xl">
+          Events we run
+        </h2>
+        <p class="mt-2 max-w-2xl text-sm text-muted md:text-base">
+          Join a scheduled group trip — tap to open TourBuilder booking with the event loaded on your calendar.
+        </p>
+      </div>
+      <a href="/tourbuilder/festivals-and-events/" class="text-sm font-bold text-brass hover:underline shrink-0">
+        All events →
+      </a>
+    </div>
+
+    {events.length ? (
+      <div class="grid gap-6 md:grid-cols-2">
+        {events.map((e) => (
+          <article class="card group overflow-hidden border-l-8 border-mint">
+            <div class="grid sm:grid-cols-[minmax(0,1fr)_minmax(0,1.2fr)]">
+              <div class="hero-arch relative m-3 h-48 overflow-hidden bg-sand sm:m-4 sm:h-auto sm:min-h-[220px]">
+                <img
+                  src={eventImage(e)}
+                  alt=""
+                  class="h-full w-full object-cover"
+                  loading="lazy"
+                  width="480"
+                  height="320"
+                />
+                {e.isLibyanOnly && (
+                  <span class="absolute left-3 top-3 rounded-full bg-charcoal/85 px-3 py-1 text-xs font-bold text-white">
+                    Libya residents
+                  </span>
+                )}
+              </div>
+              <div class="flex flex-col p-4 sm:p-5 sm:pl-0">
+                <span class="text-xs font-bold uppercase tracking-wide text-brass">
+                  {e.days} days · {e.scheduleType === 'fixed' ? 'Fixed dates' : 'Scheduled'}
+                </span>
+                <h3 class="mt-2 text-xl font-bold leading-snug text-charcoal">{e.title}</h3>
+                {eventDescription(e) && (
+                  <p class="mt-2 line-clamp-4 flex-1 text-sm leading-relaxed text-muted">
+                    {eventDescription(e)}
+                  </p>
+                )}
+                {e.price != null && (
+                  <p class="mt-3 text-sm font-bold text-charcoal">From {e.price} USD</p>
+                )}
+                <div class="mt-4 flex flex-col gap-2 sm:flex-row">
+                  <a href={eventBookingUrl(e.id)} class="btn-primary flex-1 justify-center text-sm">
+                    Book this event →
+                  </a>
+                  <a
+                    href={`/tourbuilder/festivals-and-events/${eventSlug(e)}/`}
+                    class="btn-secondary flex-1 justify-center text-sm"
+                  >
+                    Details
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+        ))}
+      </div>
+    ) : (
+      <p class="text-muted">Events loading from TourBuilder CDN…</p>
+    )}
+  </div>
+</section>

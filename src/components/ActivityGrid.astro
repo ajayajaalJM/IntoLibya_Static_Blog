@@ -1,0 +1,74 @@
+---
+import { activityUrl } from '../lib/tourbuilder-links';
+
+interface Activity {
+  id: string;
+  title: string;
+  location?: string;
+  duration?: string;
+  price?: number;
+  image?: string;
+  display?: boolean;
+}
+
+let activities: Activity[] = [];
+try {
+  const res = await fetch('https://cdn.intolibya.com/json/activities.json');
+  if (res.ok) {
+    const data = (await res.json()) as Activity[];
+    activities = data.filter((a) => a.display !== false).slice(0, 6);
+  }
+} catch {
+  activities = [];
+}
+---
+
+<section id="activities" class="scroll-mt-20 px-4 py-14 md:px-8 md:py-20">
+  <div class="mx-auto max-w-6xl">
+    <div class="mb-8 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
+      <div>
+        <p class="text-sm font-bold uppercase tracking-widest text-brass">Activities</p>
+        <h2 class="mt-2 text-2xl font-black uppercase tracking-wide text-charcoal md:text-3xl">
+          Activities & Experiences
+        </h2>
+      </div>
+      <a href="/tourbuilder/search/" class="text-sm font-bold text-brass hover:underline shrink-0">
+        All activities →
+      </a>
+    </div>
+    {activities.length ? (
+      <div class="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+        {activities.map((a) => (
+          <a
+            href={activityUrl(a)}
+            class="card group overflow-hidden border-l-8 border-mint transition hover:-translate-y-1 active:scale-[0.99]"
+          >
+            <div class="hero-arch mx-3 mt-3 h-40 overflow-hidden bg-sand sm:mx-4 sm:mt-4">
+              {a.image && (
+                <img
+                  src={a.image}
+                  alt={a.title}
+                  class="h-full w-full object-cover"
+                  loading="lazy"
+                  width="400"
+                  height="280"
+                />
+              )}
+            </div>
+            <div class="p-4 sm:p-5">
+              <h3 class="font-bold leading-snug text-charcoal group-hover:text-brass">{a.title}</h3>
+              <p class="mt-1 text-sm text-muted">
+                {a.location}{a.duration ? ` · ${a.duration}` : ''}
+              </p>
+              {a.price != null && (
+                <p class="mt-2 text-sm font-bold text-brass">From {a.price} USD</p>
+              )}
+            </div>
+          </a>
+        ))}
+      </div>
+    ) : (
+      <p class="text-muted">Activities loading from TourBuilder CDN…</p>
+    )}
+  </div>
+</section>

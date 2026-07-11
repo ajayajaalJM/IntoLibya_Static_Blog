@@ -1,0 +1,17 @@
+---
+import { getSiteConfig } from '../lib/site';
+
+const site = getSiteConfig();
+---
+
+<section class="px-4 py-12 md:px-8 md:py-16">
+  <div class="mx-auto max-w-4xl px-1">
+    <div class="card border-l-8 border-brass p-8 md:p-10">
+      <blockquote class="text-lg leading-relaxed text-charcoal md:text-xl">"{site.testimonial.quote}"</blockquote>
+      <footer class="mt-6">
+        <p class="font-bold text-charcoal">{site.testimonial.author}</p>
+        <p class="text-sm text-muted">{site.testimonial.role}</p>
+      </footer>
+    </div>
+  </div>
+</section>
