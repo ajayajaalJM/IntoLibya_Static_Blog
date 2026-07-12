@@ -20,6 +20,15 @@ export interface SiteConfig {
   heroSlides?: HeroSlide[];
   testimonial: { quote: string; author: string; role: string };
   social: { facebook: string; instagram: string };
+  contact: {
+    email: string;
+    phone: string;
+    phoneTel: string;
+    whatsapp: string;
+    whatsappMessage: string;
+    instagramHandle: string;
+  };
+  quote: { text: string; author: string };
 }
 
 export function getSiteConfig(): SiteConfig {

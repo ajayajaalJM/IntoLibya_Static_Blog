@@ -54,5 +54,17 @@
   "social": {
     "facebook": "https://www.facebook.com/p/IntoLibya-61565181426385/",
     "instagram": "https://www.instagram.com/intolibya/"
+  },
+  "contact": {
+    "email": "info@intolibya.com",
+    "phone": "+218 91 000 0000",
+    "phoneTel": "+218910000000",
+    "whatsapp": "218910000000",
+    "whatsappMessage": "Hello IntoLibya, I would like to plan a trip to Libya.",
+    "instagramHandle": "@intolibya"
+  },
+  "quote": {
+    "text": "We will not surrender. We win, or we die.",
+    "author": "Omar al-Mukhtar"
   }
 }
