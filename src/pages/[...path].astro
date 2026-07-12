@@ -43,6 +43,7 @@ const jsonLd = {
   datePublished: post.data.publishedAt.toISOString(),
   mainEntityOfPage: post.data.seo.canonical,
   image: `${siteUrl}${ogImage}`,
+  author: { '@type': 'Organization', name: 'IntoLibya', url: siteUrl },
   publisher: { '@type': 'Organization', name: 'IntoLibya', url: siteUrl },
   inLanguage: lang,
 };
@@ -53,6 +54,10 @@ const jsonLd = {
   description={post.data.seo.description}
   canonical={post.data.seo.canonical}
   ogImage={ogImage}
+  ogType="article"
+  articlePublishedTime={post.data.publishedAt.toISOString()}
+  articleAuthor="IntoLibya"
+  articleSection={`${LANG_LABELS[lang]} Travel Blog`}
   lang={lang}
   hreflangAlternates={hreflangAlternates}
   jsonLd={jsonLd}

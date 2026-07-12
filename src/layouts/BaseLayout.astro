@@ -13,6 +13,12 @@ interface Props {
   ogImage?: string;
   /** When set, also emit a vertical Pinterest-friendly og:image (homepage / blog indexes). */
   pinterestImage?: string;
+  /** Open Graph type — use `article` on blog posts for Pinterest Article Rich Pins. */
+  ogType?: 'website' | 'article';
+  /** Article Rich Pin extras (only used when ogType is article). */
+  articlePublishedTime?: string;
+  articleAuthor?: string;
+  articleSection?: string;
   lang?: string;
   dir?: 'ltr' | 'rtl';
   hreflangAlternates?: Array<{ lang: string; href: string }>;
@@ -27,6 +33,10 @@ const {
   canonical,
   ogImage,
   pinterestImage,
+  ogType = 'website',
+  articlePublishedTime,
+  articleAuthor,
+  articleSection,
   lang = 'en',
   dir = lang === 'ar' ? 'rtl' : 'ltr',
   hreflangAlternates = [],
@@ -47,6 +57,7 @@ const pinImageUrl = pinterestImage
     ? pinterestImage
     : `${siteUrl}${pinterestImage}`
   : undefined;
+const authorName = articleAuthor || siteName;
 ---
 
 <!doctype html>
@@ -61,7 +72,7 @@ const pinImageUrl = pinterestImage
     {hreflangAlternates.map((alt) => (
       <link rel="alternate" hreflang={alt.lang} href={alt.href} />
     ))}
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content={ogType} />
     <meta property="og:site_name" content={siteName} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
@@ -75,14 +86,20 @@ const pinImageUrl = pinterestImage
     <meta property="og:image:alt" content={`${siteName} — ${title}`} />
     {pinImageUrl && (
       <>
-        {/* Secondary: Pinterest prefers ~2:3; listed after so FB uses the 1.91:1 card first */}
+        {/* Secondary vertical image for Pinterest (2:3) */}
         <meta property="og:image" content={pinImageUrl} />
         <meta property="og:image:secure_url" content={pinImageUrl} />
         <meta property="og:image:type" content="image/jpeg" />
         <meta property="og:image:width" content={String(PIN_WIDTH)} />
         <meta property="og:image:height" content={String(PIN_HEIGHT)} />
         <meta property="og:image:alt" content={`${siteName} — ${title}`} />
-        <meta name="pinterest-rich-pin" content="true" />
+      </>
+    )}
+    {ogType === 'article' && (
+      <>
+        <meta property="article:published_time" content={articlePublishedTime} />
+        <meta property="article:author" content={authorName} />
+        {articleSection && <meta property="article:section" content={articleSection} />}
       </>
     )}
     <meta name="twitter:card" content="summary_large_image" />
