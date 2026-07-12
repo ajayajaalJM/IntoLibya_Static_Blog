@@ -92,44 +92,45 @@ const lostMessages = [
           <a
             href={dest.href}
             class:list={[
-              'not-found-card group relative overflow-hidden rounded-2xl border border-border/80 bg-white/90 p-5 text-left shadow-[0_12px_32px_rgba(45,42,38,0.06)] backdrop-blur-sm transition hover:-translate-y-1 hover:border-brass/40 hover:shadow-[0_18px_40px_rgba(194,159,93,0.18)]',
-              dest.featured && 'featured sm:col-span-2 sm:flex sm:items-center sm:gap-5 sm:p-6',
+              'not-found-card group relative flex items-center gap-4 overflow-hidden rounded-2xl border border-border/80 bg-white/90 p-4 text-left shadow-[0_12px_32px_rgba(45,42,38,0.06)] backdrop-blur-sm transition hover:-translate-y-1 hover:border-brass/40 hover:shadow-[0_18px_40px_rgba(194,159,93,0.18)] md:p-5',
+              dest.featured && 'featured sm:col-span-2 sm:gap-5 sm:p-6',
             ]}
             style={`animation-delay: ${index * 90}ms`}
           >
             <div class:list={['absolute inset-0 bg-gradient-to-br opacity-70', dest.accent]} aria-hidden="true"></div>
+
             <span
               class:list={[
-                'not-found-card-icon relative inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-white/80 text-brass shadow-sm',
-                dest.featured && 'sm:h-14 sm:w-14',
+                'not-found-card-icon relative flex shrink-0 items-center justify-center rounded-2xl border border-brass/20 bg-gradient-to-br from-white to-sand/80 text-brass shadow-[inset_0_1px_0_rgba(255,255,255,0.9)]',
+                dest.featured ? 'h-14 w-14' : 'h-12 w-12',
               ]}
               aria-hidden="true"
             >
               {dest.icon === 'home' && (
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" class="h-5 w-5">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M4 10.5 12 4l8 6.5V19a1 1 0 01-1 1h-5v-6H10v6H5a1 1 0 01-1-1v-8.5z" />
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="not-found-icon-svg">
+                  <path d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
                 </svg>
               )}
               {dest.icon === 'compass' && (
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" class="h-5 w-5">
-                  <circle cx="12" cy="12" r="9" />
-                  <path stroke-linecap="round" d="m14.5 9.5-2 5-5 2 2-5 5-2z" fill="currentColor" stroke="none" />
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="not-found-icon-svg">
+                  <path d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                  <path d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
                 </svg>
               )}
               {dest.icon === 'calendar' && (
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" class="h-5 w-5">
-                  <rect x="4" y="5" width="16" height="16" rx="2" />
-                  <path stroke-linecap="round" d="M8 3v4M16 3v4M4 11h16" />
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="not-found-icon-svg">
+                  <path d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5" />
                 </svg>
               )}
               {dest.icon === 'activity' && (
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" class="h-5 w-5">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M13 3 5 14h6l-1 7 8-11h-6l1-7z" />
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="not-found-icon-svg">
+                  <path d="M9.813 15.904 9 18.75l-.813-2.846a4.5 4.5 0 0 0-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 0 0 3.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 0 0 3.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 0 0-3.09 3.09ZM18.259 8.715 18 9.75l-.259-1.035a3.375 3.375 0 0 0-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 0 0 2.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 0 0 2.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 0 0-2.456 2.456ZM16.894 20.567 16.5 21.75l-.394-1.183a2.25 2.25 0 0 0-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 0 0 1.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 0 0 1.423 1.423l1.183.394-1.183.394a2.25 2.25 0 0 0-1.423 1.423Z" />
                 </svg>
               )}
             </span>
-            <span class="relative mt-3 block sm:mt-0">
-              <span class="flex items-center gap-2 text-base font-extrabold text-charcoal group-hover:text-brass">
+
+            <span class="relative min-w-0 flex-1">
+              <span class="flex flex-wrap items-center gap-2 text-base font-extrabold text-charcoal group-hover:text-brass">
                 {dest.label}
                 {dest.featured && (
                   <span class="rounded-full bg-brass px-2 py-0.5 text-[10px] font-bold uppercase tracking-wide text-white">
@@ -137,10 +138,13 @@ const lostMessages = [
                   </span>
                 )}
               </span>
-              <span class="mt-1 block text-sm text-muted">{dest.description}</span>
+              <span class="mt-0.5 block text-sm leading-snug text-muted">{dest.description}</span>
             </span>
-            <span class="not-found-card-arrow relative mt-3 inline-flex text-sm font-bold text-brass sm:absolute sm:right-5 sm:top-1/2 sm:mt-0 sm:-translate-y-1/2">
-              Go →
+
+            <span class="not-found-card-arrow relative flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-brass/15 bg-white/70 text-brass" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4">
+                <path d="M9 5l7 7-7 7" />
+              </svg>
             </span>
           </a>
         ))}
@@ -234,16 +238,39 @@ const lostMessages = [
     animation: cardRise 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
   }
 
+  .not-found-card-icon {
+    transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+  }
+
+  .not-found-icon-svg {
+    height: 1.375rem;
+    width: 1.375rem;
+    flex-shrink: 0;
+  }
+
+  .featured .not-found-icon-svg {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+
+  .not-found-card:hover .not-found-card-icon {
+    transform: scale(1.04);
+    border-color: rgb(194 159 93 / 0.45);
+    box-shadow: 0 8px 20px rgb(194 159 93 / 0.16);
+  }
+
   .not-found-card-arrow {
-    transition: transform 0.25s ease;
+    transition: transform 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
   }
 
   .not-found-card:hover .not-found-card-arrow {
-    transform: translateX(4px);
+    transform: translateX(3px);
+    background-color: rgb(194 159 93 / 0.12);
+    border-color: rgb(194 159 93 / 0.35);
   }
 
   .not-found-card.featured:hover .not-found-card-arrow {
-    transform: translateY(-50%) translateX(4px);
+    transform: translateX(3px);
   }
 
   @keyframes duneDrift {
