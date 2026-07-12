@@ -246,6 +246,15 @@ export function blogWriterDevApiPlugin(repoRoot: string): Plugin {
               if (!file.path.startsWith('src/content/posts/') || !file.path.endsWith('.md')) {
                 throw new Error(`Invalid path: ${file.path}`);
               }
+              const parsed = matter(file.content);
+              const featuredImage = String(parsed.data.featuredImage ?? '').trim();
+              if (!featuredImage) {
+                json(res, 400, {
+                  ok: false,
+                  error: 'Featured image (hero) is required on every post before publishing',
+                });
+                return;
+              }
               const fullPath = path.join(repoRoot, file.path);
               await fs.mkdir(path.dirname(fullPath), { recursive: true });
               await fs.writeFile(fullPath, file.content, 'utf8');

@@ -22,7 +22,7 @@ const {
   title,
   description = 'IntoLibya — curated Libya tours, travel tips, and TourBuilder itineraries.',
   canonical,
-  ogImage = '/assets/branding/logo-icon-512.png',
+  ogImage,
   lang = 'en',
   dir = lang === 'ar' ? 'rtl' : 'ltr',
   hreflangAlternates = [],
@@ -33,7 +33,10 @@ const {
 const site = getSiteConfig();
 const siteUrl = Astro.site?.href?.replace(/\/$/, '') || 'https://intolibya.com';
 const canonicalUrl = canonical || Astro.url.href;
-const ogImageUrl = ogImage.startsWith('http') ? ogImage : `${siteUrl}${ogImage}`;
+const resolvedOgImage = ogImage || site.ogImage || site.logo;
+const ogImageUrl = resolvedOgImage.startsWith('http')
+  ? resolvedOgImage
+  : `${siteUrl}${resolvedOgImage}`;
 ---
 
 <!doctype html>
@@ -53,6 +56,7 @@ const ogImageUrl = ogImage.startsWith('http') ? ogImage : `${siteUrl}${ogImage}`
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonicalUrl} />
     <meta property="og:image" content={ogImageUrl} />
+    <meta property="og:image:alt" content={title} />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />

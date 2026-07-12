@@ -3,6 +3,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import OptimizedImage from '../../components/OptimizedImage.astro';
 import { getPostsByLang } from '../../lib/posts';
 import { LANG_LABELS, LANGS, type Lang } from '../../lib/post-schema';
+import { getSiteConfig } from '../../lib/site';
 
 export async function getStaticPaths() {
   return LANGS.map((lang) => ({ params: { lang } }));
@@ -10,6 +11,7 @@ export async function getStaticPaths() {
 
 const { lang } = Astro.params as { lang: Lang };
 const posts = await getPostsByLang(lang);
+const site = getSiteConfig();
 const siteUrl = Astro.site?.href?.replace(/\/$/, '') || 'https://intolibya.com';
 
 const hreflangAlternates = LANGS.map((l) => ({
@@ -22,6 +24,7 @@ const hreflangAlternates = LANGS.map((l) => ({
   title={`${LANG_LABELS[lang]} Travel Blog — IntoLibya`}
   description={`Libya travel tips and guides in ${LANG_LABELS[lang]}. Plan your trip with IntoLibya.`}
   canonical={`${siteUrl}/${lang}`}
+  ogImage={site.ogImage}
   lang={lang}
   hreflangAlternates={hreflangAlternates}
 >
@@ -49,19 +52,17 @@ const hreflangAlternates = LANGS.map((l) => ({
         <div class="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {posts.map((post) => (
             <a href={post.data.canonicalPath} class="card group overflow-hidden p-0 transition hover:-translate-y-1">
-              {post.data.featuredImage && (
-                <OptimizedImage
-                  src={post.data.featuredImage}
-                  alt=""
-                  width={640}
-                  height={360}
-                  widths={[320, 480, 640]}
-                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                  class="h-44 w-full object-cover"
-                  loading="lazy"
-                  quality={70}
-                />
-              )}
+              <OptimizedImage
+                src={post.data.featuredImage}
+                alt=""
+                width={640}
+                height={360}
+                widths={[320, 480, 640]}
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                class="h-44 w-full object-cover"
+                loading="lazy"
+                quality={70}
+              />
               <div class="p-5">
                 <time class="text-xs text-muted" datetime={post.data.publishedAt.toISOString()}>
                   {post.data.publishedAt.toLocaleDateString(lang)}

@@ -255,6 +255,9 @@ async function processPost(state: ImportState, entry: ProgressEntry, mediaHashes
       featuredImage = await downloadMedia(featuredUrl, mediaHashes);
       await sleep(500);
     }
+    if (!featuredImage) {
+      throw new Error(`WP#${post.id} has no featured/hero image — required for publishing`);
+    }
 
     const htmlBody = sanitizeWpHtml(post.content?.rendered || '');
     const excerpt = decodeHtml((post.excerpt?.rendered || '').replace(/<[^>]+>/g, '').trim());

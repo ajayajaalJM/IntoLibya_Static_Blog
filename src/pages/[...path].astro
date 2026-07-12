@@ -40,7 +40,7 @@ const jsonLd = {
   description: post.data.seo.description,
   datePublished: post.data.publishedAt.toISOString(),
   mainEntityOfPage: post.data.seo.canonical,
-  image: post.data.featuredImage ? `${siteUrl}${post.data.featuredImage}` : undefined,
+  image: `${siteUrl}${post.data.featuredImage}`,
   publisher: { '@type': 'Organization', name: 'IntoLibya', url: siteUrl },
   inLanguage: lang,
 };
@@ -63,21 +63,19 @@ const jsonLd = {
         <span>{post.data.title}</span>
       </nav>
 
-      {post.data.featuredImage && (
-        <OptimizedImage
-          src={post.data.featuredImage}
-          alt=""
-          width={1200}
-          height={675}
-          widths={[640, 960, 1200]}
-          sizes="(max-width: 768px) 100vw, 720px"
-          pictureClass="hero-arch mb-8 block overflow-hidden"
-          class="h-64 w-full object-cover md:h-80"
-          loading="eager"
-          fetchpriority="high"
-          quality={70}
-        />
-      )}
+      <OptimizedImage
+        src={post.data.featuredImage}
+        alt=""
+        width={1200}
+        height={675}
+        widths={[640, 960, 1200]}
+        sizes="(max-width: 768px) 100vw, 720px"
+        pictureClass="hero-arch mb-8 block overflow-hidden"
+        class="h-64 w-full object-cover md:h-80"
+        loading="eager"
+        fetchpriority="high"
+        quality={70}
+      />
 
       <header class="mb-8">
         <time class="text-sm text-muted" datetime={post.data.publishedAt.toISOString()}>

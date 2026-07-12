@@ -58,13 +58,13 @@ export function buildMarkdown(
     lang: draft.lang,
     publishedAt: shared.publishedAt,
     translationGroup: shared.translationGroup,
+    featuredImage: shared.featuredImage,
     seo: {
       title: draft.seoTitle || draft.title,
       description: draft.seoDescription || excerpt,
       canonical,
     },
   };
-  if (shared.featuredImage) fm.featuredImage = shared.featuredImage;
   if (excerpt) fm.excerpt = excerpt;
 
   const yamlBlock = yamlDump(fm, { lineWidth: -1 }).trimEnd();
@@ -87,6 +87,9 @@ export function buildAllMarkdown(
     featuredImage: string;
   },
 ): GeneratedFile[] {
+  if (!shared.featuredImage?.trim()) {
+    throw new Error('Featured image (hero) is required before publishing');
+  }
   const baseSlug = shared.translationGroup;
   const files = [buildMarkdown({ ...primary, lang: 'en' }, baseSlug, shared)];
   for (const draft of translations) {

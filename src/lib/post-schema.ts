@@ -46,7 +46,8 @@ export const postFrontmatterSchema = z.object({
   wpImportId: z.number().optional(),
   publishedAt: z.coerce.date(),
   translationGroup: z.string(),
-  featuredImage: z.string().optional(),
+  /** Required hero image — used on the post page and as the social OG image. */
+  featuredImage: z.string().min(1, 'featuredImage (hero) is required'),
   excerpt: z.string().optional(),
   seo: z.object({
     title: z.string(),

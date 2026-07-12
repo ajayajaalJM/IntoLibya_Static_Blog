@@ -12,6 +12,8 @@ export interface SiteConfig {
   logo: string;
   logoDark: string;
   favicon: string;
+  /** Default Open Graph / Twitter share image (absolute path on this site). */
+  ogImage: string;
   heroHeadline: string;
   heroSubheadline: string;
   primaryCtaText: string;

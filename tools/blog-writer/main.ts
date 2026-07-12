@@ -294,6 +294,13 @@ async function translateAndSaveAll() {
     return;
   }
 
+  const shared = sharedMeta();
+  if (!shared.featuredImage) {
+    targetPath.textContent = 'Add a featured image path (hero) before publishing. Example: /media/2026/03/hero.jpg';
+    (form.elements.namedItem('featuredImage') as HTMLInputElement).focus();
+    return;
+  }
+
   const saveBtn = document.getElementById('save-all') as HTMLButtonElement;
   saveBtn.disabled = true;
   saveBtn.textContent = 'Translating…';
@@ -327,7 +334,6 @@ async function translateAndSaveAll() {
     regeneratePreview();
     saveBtn.textContent = 'Saving…';
 
-    const shared = sharedMeta();
     const translationDrafts = TARGET_LANGS.map((lang) => readTranslationDraft(lang));
     const files = buildAllMarkdown(english, translationDrafts, shared);
 

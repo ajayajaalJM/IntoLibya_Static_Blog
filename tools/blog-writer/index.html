@@ -32,8 +32,11 @@
               <input name="baseSlug" placeholder="auto-generated-from-title" />
             </label>
             <p class="hint">English URL: <code id="primary-slug-preview">/en/your-post-slug/</code></p>
-            <label>Published date <input name="publishedAt" type="date" /></label>
-            <label>Featured image path <input name="featuredImage" placeholder="/media/2026/03/hero.jpg" /></label>
+            <label>Published date <input name="publishedAt" type="date" required /></label>
+            <label>Featured image path (hero / OG)
+              <input name="featuredImage" required placeholder="/media/2026/03/hero.jpg" />
+            </label>
+            <p class="hint">Required. Shown as the post hero and social share image.</p>
             <label>SEO title <input name="seoTitle" placeholder="Optional — defaults to title" /></label>
             <label>SEO description <textarea name="seoDescription" rows="2" placeholder="Optional — excerpt from body"></textarea></label>
             <label>HTML body <textarea name="body" rows="12" placeholder="<p>Post content...</p>"></textarea></label>
