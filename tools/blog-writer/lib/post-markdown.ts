@@ -30,7 +30,7 @@ export function slugForLang(baseSlug: string, lang: Lang): string {
 }
 
 export function canonicalPathForLang(baseSlug: string, lang: Lang): string {
-  return `/${lang}/${slugForLang(baseSlug, lang)}/`;
+  return `/${lang}/${slugForLang(baseSlug, lang)}`;
 }
 
 function stripHtml(html: string): string {

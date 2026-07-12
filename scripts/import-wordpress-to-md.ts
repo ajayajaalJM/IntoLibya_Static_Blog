@@ -91,7 +91,7 @@ async function wpFetch(url: string, attempt = 1): Promise<Response> {
 function parseCanonicalPath(link: string): string {
   const u = new URL(link);
   let p = u.pathname;
-  if (!p.endsWith('/')) p += '/';
+  if (p.length > 1 && p.endsWith('/')) p = p.replace(/\/+$/, '');
   return p;
 }
 

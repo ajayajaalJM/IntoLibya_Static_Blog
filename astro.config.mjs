@@ -5,12 +5,12 @@ import vercel from '@astrojs/vercel';
 import sitemap from '@astrojs/sitemap';
 import rehypeRaw from 'rehype-raw';
 import { rehypeOptimizeBlogImages } from './src/lib/rehype-optimize-blog-images.ts';
-import { rehypeNormalizeTourbuilderLinks } from './src/lib/rehype-normalize-tourbuilder-links.ts';
+import { rehypeNormalizeInternalLinks } from './src/lib/rehype-normalize-internal-links.ts';
 
 // https://astro.build/config
 export default defineConfig({
   site: 'https://intolibya.com',
-  trailingSlash: 'always',
+  trailingSlash: 'never',
   output: 'static',
   adapter: vercel({
     imageService: true,
@@ -38,7 +38,7 @@ export default defineConfig({
   },
   integrations: [sitemap()],
   markdown: {
-    rehypePlugins: [rehypeRaw, rehypeOptimizeBlogImages, rehypeNormalizeTourbuilderLinks],
+    rehypePlugins: [rehypeRaw, rehypeOptimizeBlogImages, rehypeNormalizeInternalLinks],
   },
   vite: {
     plugins: [tailwindcss()],

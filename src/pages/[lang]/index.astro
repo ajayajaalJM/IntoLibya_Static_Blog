@@ -14,14 +14,14 @@ const siteUrl = Astro.site?.href?.replace(/\/$/, '') || 'https://intolibya.com';
 
 const hreflangAlternates = LANGS.map((l) => ({
   lang: l,
-  href: `${siteUrl}/${l}/`,
+  href: `${siteUrl}/${l}`,
 }));
 ---
 
 <BaseLayout
   title={`${LANG_LABELS[lang]} Travel Blog — IntoLibya`}
   description={`Libya travel tips and guides in ${LANG_LABELS[lang]}. Plan your trip with IntoLibya.`}
-  canonical={`${siteUrl}/${lang}/`}
+  canonical={`${siteUrl}/${lang}`}
   lang={lang}
   hreflangAlternates={hreflangAlternates}
 >
@@ -33,7 +33,7 @@ const hreflangAlternates = LANGS.map((l) => ({
       <div class="mt-6 flex flex-wrap gap-2">
         {LANGS.map((l) => (
           <a
-            href={`/${l}/`}
+            href={`/${l}`}
             class:list={[
               'rounded-full px-3 py-1 text-xs font-bold',
               l === lang ? 'bg-mint text-charcoal' : 'bg-sand text-muted hover:bg-brass hover:text-white',

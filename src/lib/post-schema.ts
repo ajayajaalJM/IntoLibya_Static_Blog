@@ -1,4 +1,5 @@
 import { z } from 'zod';
+import { stripTrailingSlash } from './paths';
 
 export const LANGS = [
   'en', 'es', 'pl', 'ja', 'zh', 'nl', 'de', 'fr', 'it', 'pt', 'ru', 'ar',
@@ -40,7 +41,7 @@ export const WP_CATEGORY_TO_LANG: Record<number, Lang> = {
 export const postFrontmatterSchema = z.object({
   title: z.string(),
   slug: z.string(),
-  canonicalPath: z.string(),
+  canonicalPath: z.string().transform(stripTrailingSlash),
   lang: z.enum(LANGS),
   wpImportId: z.number().optional(),
   publishedAt: z.coerce.date(),
@@ -50,7 +51,7 @@ export const postFrontmatterSchema = z.object({
   seo: z.object({
     title: z.string(),
     description: z.string(),
-    canonical: z.string().url(),
+    canonical: z.string().url().transform(stripTrailingSlash),
   }),
 });
 
