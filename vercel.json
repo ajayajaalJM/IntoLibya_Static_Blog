@@ -7,9 +7,9 @@
     { "source": "/cart/:path*", "destination": "/tourbuilder/booking/", "permanent": true },
     { "source": "/wp-travel-engine-:path*", "destination": "/tourbuilder/", "permanent": true },
     { "source": "/TourBuilder", "destination": "/tourbuilder/", "permanent": true },
-    { "source": "/TourBuilder/:path*", "destination": "/tourbuilder/:path*", "permanent": true },
+    { "source": "/TourBuilder/(.*)", "destination": "/tourbuilder/$1", "permanent": true },
     { "source": "/Tourbuilder", "destination": "/tourbuilder/", "permanent": true },
-    { "source": "/Tourbuilder/:path*", "destination": "/tourbuilder/:path*", "permanent": true }
+    { "source": "/Tourbuilder/(.*)", "destination": "/tourbuilder/$1", "permanent": true }
   ],
   "rewrites": [
     {
@@ -26,6 +26,18 @@
     },
     {
       "source": "/tourbuilder/:path*",
+      "destination": "https://tourbuilder.netlify.app/:path*"
+    },
+    {
+      "source": "/TourBuilder",
+      "destination": "https://tourbuilder.netlify.app/"
+    },
+    {
+      "source": "/TourBuilder/:path*/",
+      "destination": "https://tourbuilder.netlify.app/:path*"
+    },
+    {
+      "source": "/TourBuilder/:path*",
       "destination": "https://tourbuilder.netlify.app/:path*"
     }
   ],
