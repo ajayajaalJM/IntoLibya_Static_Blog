@@ -1,3 +1,5 @@
 tools/
 .import-state/
-scripts/
+scripts/import-wordpress-to-md.ts
+scripts/validate-url-parity.ts
+scripts/start.sh
