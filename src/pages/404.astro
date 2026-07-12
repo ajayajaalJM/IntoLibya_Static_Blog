@@ -1,0 +1,356 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getSiteConfig } from '../lib/site';
+
+const site = getSiteConfig();
+const siteUrl = Astro.site?.href?.replace(/\/$/, '') || 'https://intolibya.com';
+
+const destinations = [
+  {
+    href: '/',
+    label: 'Home',
+    description: 'Back to the main oasis',
+    icon: 'home',
+    accent: 'from-brass/20 to-brass/5',
+  },
+  {
+    href: site.primaryCtaUrl,
+    label: 'TourBuilder',
+    description: 'Design your Libya adventure',
+    icon: 'compass',
+    accent: 'from-mint/25 to-mint/5',
+    featured: true,
+  },
+  {
+    href: '/#events',
+    label: 'Events',
+    description: 'Festivals, tours & happenings',
+    icon: 'calendar',
+    accent: 'from-brass/15 to-sand',
+  },
+  {
+    href: '/#activities',
+    label: 'Activities',
+    description: 'Walking tours, markets & more',
+    icon: 'activity',
+    accent: 'from-sand to-whitewash',
+  },
+];
+
+const lostMessages = [
+  'Looks like this oasis dried up.',
+  'You’ve wandered off the caravan route.',
+  'Even the Sahara couldn’t find this page.',
+  'Wrong turn in the medina?',
+  'This Roman ruin seems to have crumbled away.',
+  'The dunes shifted — this URL is gone.',
+];
+---
+
+<BaseLayout
+  title="Page not found — IntoLibya"
+  description="This page got lost in the Sahara. Head back home or build your Libya trip with TourBuilder."
+  canonical={`${siteUrl}/404/`}
+>
+  <section class="not-found relative min-h-[calc(100vh-8rem)] overflow-hidden px-4 py-10 md:px-8 md:py-14">
+    <div class="not-found-bg" aria-hidden="true">
+      <div class="not-found-dune not-found-dune-1"></div>
+      <div class="not-found-dune not-found-dune-2"></div>
+      <div class="not-found-dune not-found-dune-3"></div>
+      <div class="not-found-stars"></div>
+    </div>
+
+    <div class="relative z-10 mx-auto max-w-4xl text-center">
+      <div class="not-found-compass mx-auto mb-6" aria-hidden="true">
+        <svg viewBox="0 0 96 96" fill="none" class="h-20 w-20 md:h-24 md:w-24">
+          <circle cx="48" cy="48" r="44" stroke="currentColor" stroke-width="2" class="text-brass/40" />
+          <circle cx="48" cy="48" r="34" stroke="currentColor" stroke-width="1.5" class="text-brass/25" />
+          <g class="not-found-needle">
+            <path d="M48 18 L52 48 L48 44 L44 48 Z" fill="#c29f5d" />
+            <path d="M48 78 L44 48 L48 52 L52 48 Z" fill="#837a71" opacity="0.85" />
+          </g>
+          <circle cx="48" cy="48" r="4" fill="#c29f5d" />
+        </svg>
+      </div>
+
+      <p class="text-xs font-extrabold uppercase tracking-[0.22em] text-brass">Lost in Libya</p>
+
+      <h1 class="not-found-code mt-3 font-black tracking-tight text-charcoal">
+        <span class="not-found-digit">4</span>
+        <span class="not-found-digit not-found-digit-mid">0</span>
+        <span class="not-found-digit">4</span>
+      </h1>
+
+      <p class="mt-4 text-lg font-bold text-charcoal md:text-xl">This page isn’t on the map</p>
+
+      <p id="not-found-message" class="mt-2 min-h-[1.75rem] text-base text-muted transition-opacity duration-500 md:text-lg">
+        {lostMessages[0]}
+      </p>
+
+      <div class="not-found-grid mt-10 grid gap-3 sm:grid-cols-2">
+        {destinations.map((dest, index) => (
+          <a
+            href={dest.href}
+            class:list={[
+              'not-found-card group relative overflow-hidden rounded-2xl border border-border/80 bg-white/90 p-5 text-left shadow-[0_12px_32px_rgba(45,42,38,0.06)] backdrop-blur-sm transition hover:-translate-y-1 hover:border-brass/40 hover:shadow-[0_18px_40px_rgba(194,159,93,0.18)]',
+              dest.featured && 'featured sm:col-span-2 sm:flex sm:items-center sm:gap-5 sm:p-6',
+            ]}
+            style={`animation-delay: ${index * 90}ms`}
+          >
+            <div class:list={['absolute inset-0 bg-gradient-to-br opacity-70', dest.accent]} aria-hidden="true"></div>
+            <span
+              class:list={[
+                'not-found-card-icon relative inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-white/80 text-brass shadow-sm',
+                dest.featured && 'sm:h-14 sm:w-14',
+              ]}
+              aria-hidden="true"
+            >
+              {dest.icon === 'home' && (
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" class="h-5 w-5">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M4 10.5 12 4l8 6.5V19a1 1 0 01-1 1h-5v-6H10v6H5a1 1 0 01-1-1v-8.5z" />
+                </svg>
+              )}
+              {dest.icon === 'compass' && (
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" class="h-5 w-5">
+                  <circle cx="12" cy="12" r="9" />
+                  <path stroke-linecap="round" d="m14.5 9.5-2 5-5 2 2-5 5-2z" fill="currentColor" stroke="none" />
+                </svg>
+              )}
+              {dest.icon === 'calendar' && (
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" class="h-5 w-5">
+                  <rect x="4" y="5" width="16" height="16" rx="2" />
+                  <path stroke-linecap="round" d="M8 3v4M16 3v4M4 11h16" />
+                </svg>
+              )}
+              {dest.icon === 'activity' && (
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" class="h-5 w-5">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M13 3 5 14h6l-1 7 8-11h-6l1-7z" />
+                </svg>
+              )}
+            </span>
+            <span class="relative mt-3 block sm:mt-0">
+              <span class="flex items-center gap-2 text-base font-extrabold text-charcoal group-hover:text-brass">
+                {dest.label}
+                {dest.featured && (
+                  <span class="rounded-full bg-brass px-2 py-0.5 text-[10px] font-bold uppercase tracking-wide text-white">
+                    Start here
+                  </span>
+                )}
+              </span>
+              <span class="mt-1 block text-sm text-muted">{dest.description}</span>
+            </span>
+            <span class="not-found-card-arrow relative mt-3 inline-flex text-sm font-bold text-brass sm:absolute sm:right-5 sm:top-1/2 sm:mt-0 sm:-translate-y-1/2">
+              Go →
+            </span>
+          </a>
+        ))}
+      </div>
+
+      <p class="mt-8 text-sm text-muted">
+        Need a hand?
+        <a href={`mailto:${site.contact.email}`} class="font-semibold text-brass underline-offset-2 hover:underline">
+          {site.contact.email}
+        </a>
+      </p>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .not-found-bg {
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(ellipse 80% 50% at 50% -10%, rgb(194 159 93 / 0.18), transparent 55%),
+      linear-gradient(180deg, var(--color-whitewash) 0%, var(--color-sand) 55%, #e8dcc8 100%);
+  }
+
+  .not-found-dune {
+    position: absolute;
+    bottom: -5%;
+    left: -10%;
+    width: 120%;
+    height: 38%;
+    border-radius: 50% 50% 0 0;
+    background: linear-gradient(180deg, rgb(194 159 93 / 0.12) 0%, rgb(194 159 93 / 0.04) 100%);
+    animation: duneDrift 14s ease-in-out infinite alternate;
+  }
+
+  .not-found-dune-2 {
+    bottom: -12%;
+    height: 32%;
+    opacity: 0.7;
+    animation-duration: 18s;
+    animation-direction: alternate-reverse;
+  }
+
+  .not-found-dune-3 {
+    bottom: -18%;
+    height: 26%;
+    opacity: 0.45;
+    animation-duration: 22s;
+  }
+
+  .not-found-stars {
+    position: absolute;
+    inset: 0;
+    background-image:
+      radial-gradient(circle at 15% 18%, rgb(194 159 93 / 0.35) 0 1px, transparent 2px),
+      radial-gradient(circle at 72% 24%, rgb(194 159 93 / 0.25) 0 1px, transparent 2px),
+      radial-gradient(circle at 38% 12%, rgb(194 159 93 / 0.2) 0 1px, transparent 2px),
+      radial-gradient(circle at 88% 32%, rgb(194 159 93 / 0.18) 0 1px, transparent 2px);
+    animation: twinkle 6s ease-in-out infinite alternate;
+  }
+
+  .not-found-compass {
+    color: var(--color-brass);
+    animation: compassBob 4s ease-in-out infinite;
+  }
+
+  .not-found-needle {
+    transform-origin: 48px 48px;
+    animation: needleWobble 5s ease-in-out infinite;
+  }
+
+  .not-found-code {
+    font-size: clamp(4.5rem, 18vw, 8rem);
+    line-height: 0.95;
+  }
+
+  .not-found-digit {
+    display: inline-block;
+    animation: digitFloat 3.2s ease-in-out infinite;
+  }
+
+  .not-found-digit-mid {
+    animation-delay: 0.35s;
+  }
+
+  .not-found-digit:last-child {
+    animation-delay: 0.7s;
+  }
+
+  .not-found-card {
+    animation: cardRise 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+
+  .not-found-card-arrow {
+    transition: transform 0.25s ease;
+  }
+
+  .not-found-card:hover .not-found-card-arrow {
+    transform: translateX(4px);
+  }
+
+  .not-found-card.featured:hover .not-found-card-arrow {
+    transform: translateY(-50%) translateX(4px);
+  }
+
+  @keyframes duneDrift {
+    from {
+      transform: translateX(-2%) scale(1);
+    }
+    to {
+      transform: translateX(2%) scale(1.03);
+    }
+  }
+
+  @keyframes twinkle {
+    from {
+      opacity: 0.45;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes compassBob {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-6px);
+    }
+  }
+
+  @keyframes needleWobble {
+    0%,
+    100% {
+      transform: rotate(-8deg);
+    }
+    50% {
+      transform: rotate(8deg);
+    }
+  }
+
+  @keyframes digitFloat {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-8px);
+    }
+  }
+
+  @keyframes cardRise {
+    from {
+      opacity: 0;
+      transform: translateY(18px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .not-found-dune,
+    .not-found-stars,
+    .not-found-compass,
+    .not-found-needle,
+    .not-found-digit,
+    .not-found-card {
+      animation: none;
+    }
+  }
+</style>
+
+<script define:vars={{ lostMessages }}>
+  const messageEl = document.getElementById('not-found-message');
+  if (messageEl && lostMessages.length > 1) {
+    let index = 0;
+
+    window.setInterval(() => {
+      messageEl.style.opacity = '0';
+      window.setTimeout(() => {
+        index = (index + 1) % lostMessages.length;
+        messageEl.textContent = lostMessages[index];
+        messageEl.style.opacity = '1';
+      }, 280);
+    }, 4200);
+  }
+
+  const section = document.querySelector('.not-found');
+  const digits = document.querySelectorAll('.not-found-digit');
+
+  section?.addEventListener('mousemove', (event) => {
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+    const rect = section.getBoundingClientRect();
+    const x = (event.clientX - rect.left) / rect.width - 0.5;
+    const y = (event.clientY - rect.top) / rect.height - 0.5;
+
+    digits.forEach((digit, i) => {
+      const depth = (i - 1) * 4;
+      digit.style.transform = `translate(${x * depth}px, ${y * depth}px)`;
+    });
+  });
+
+  section?.addEventListener('mouseleave', () => {
+    digits.forEach((digit) => {
+      digit.style.transform = '';
+    });
+  });
+</script>
