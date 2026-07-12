@@ -87,13 +87,13 @@ const lostMessages = [
         {lostMessages[0]}
       </p>
 
-      <div class="not-found-grid mt-10 grid gap-3 sm:grid-cols-2">
+      <div class="not-found-grid mt-10 grid gap-3 sm:grid-cols-2 md:grid-cols-3">
         {destinations.map((dest, index) => (
           <a
             href={dest.href}
             class:list={[
               'not-found-card group relative flex items-center gap-4 overflow-hidden rounded-2xl border border-border/80 bg-white/90 p-4 text-left shadow-[0_12px_32px_rgba(45,42,38,0.06)] backdrop-blur-sm transition hover:-translate-y-1 hover:border-brass/40 hover:shadow-[0_18px_40px_rgba(194,159,93,0.18)] md:p-5',
-              dest.featured && 'featured sm:col-span-2 sm:gap-5 sm:p-6',
+              dest.featured && 'featured sm:col-span-2 sm:gap-5 sm:p-6 md:col-span-3 md:order-first',
             ]}
             style={`animation-delay: ${index * 90}ms`}
           >
