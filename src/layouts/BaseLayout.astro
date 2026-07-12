@@ -14,6 +14,8 @@ interface Props {
   dir?: 'ltr' | 'rtl';
   hreflangAlternates?: Array<{ lang: string; href: string }>;
   jsonLd?: Record<string, unknown> | Record<string, unknown>[];
+  /** Optional LCP image preload (from getImage). */
+  lcpImage?: { src: string; type?: string };
 }
 
 const {
@@ -25,6 +27,7 @@ const {
   dir = lang === 'ar' ? 'rtl' : 'ltr',
   hreflangAlternates = [],
   jsonLd,
+  lcpImage,
 } = Astro.props;
 
 const site = getSiteConfig();
@@ -55,6 +58,16 @@ const ogImageUrl = ogImage.startsWith('http') ? ogImage : `${siteUrl}${ogImage}`
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={ogImageUrl} />
     <link rel="preconnect" href="https://cdn.intolibya.com" />
+    {lcpImage && (
+      <link
+        rel="preload"
+        as="image"
+        href={lcpImage.src}
+        type={lcpImage.type}
+        fetchpriority="high"
+      />
+    )}
+    <slot name="head" />
     {jsonLd && (
       <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
     )}

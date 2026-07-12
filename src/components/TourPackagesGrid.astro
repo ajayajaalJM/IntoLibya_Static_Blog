@@ -1,5 +1,6 @@
 ---
 import { tourBookingUrl, tourImageUrl } from '../lib/tourbuilder-links';
+import OptimizedImage from './OptimizedImage.astro';
 
 interface Tour {
   id: string;
@@ -42,13 +43,16 @@ try {
             class="card group flex flex-col overflow-hidden border-l-8 border-brass transition hover:-translate-y-1 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brass"
           >
             <div class="hero-arch mx-3 mt-3 h-36 overflow-hidden bg-sand sm:mx-3 sm:mt-3 sm:h-40">
-              <img
+              <OptimizedImage
                 src={tourImageUrl(t.id)}
                 alt={t.title}
+                width={640}
+                height={480}
+                widths={[320, 480, 640]}
+                sizes="(max-width: 640px) 100vw, (max-width: 1280px) 50vw, 25vw"
                 class="hero-arch-media transition group-hover:scale-105"
                 loading="lazy"
-                width="400"
-                height="300"
+                quality={70}
               />
             </div>
             <div class="flex flex-1 flex-col p-3 sm:p-4">

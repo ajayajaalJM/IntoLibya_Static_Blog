@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import OptimizedImage from '../../components/OptimizedImage.astro';
 import { getPostsByLang } from '../../lib/posts';
 import { LANG_LABELS, LANGS, type Lang } from '../../lib/post-schema';
 
@@ -49,7 +50,17 @@ const hreflangAlternates = LANGS.map((l) => ({
           {posts.map((post) => (
             <a href={post.data.canonicalPath} class="card group overflow-hidden p-0 transition hover:-translate-y-1">
               {post.data.featuredImage && (
-                <img src={post.data.featuredImage} alt="" class="h-44 w-full object-cover" loading="lazy" />
+                <OptimizedImage
+                  src={post.data.featuredImage}
+                  alt=""
+                  width={640}
+                  height={360}
+                  widths={[320, 480, 640]}
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                  class="h-44 w-full object-cover"
+                  loading="lazy"
+                  quality={70}
+                />
               )}
               <div class="p-5">
                 <time class="text-xs text-muted" datetime={post.data.publishedAt.toISOString()}>

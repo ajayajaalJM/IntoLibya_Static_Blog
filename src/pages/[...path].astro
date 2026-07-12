@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import FinalCTA from '../components/FinalCTA.astro';
+import OptimizedImage from '../components/OptimizedImage.astro';
 import { getCollection, render } from 'astro:content';
 import { getAllPosts, getTranslationSiblings } from '../lib/posts';
 import { LANG_LABELS, type Lang } from '../lib/post-schema';
@@ -63,11 +64,18 @@ const jsonLd = {
       </nav>
 
       {post.data.featuredImage && (
-        <img
+        <OptimizedImage
           src={post.data.featuredImage}
           alt=""
-          class="hero-arch mb-8 h-64 w-full object-cover md:h-80"
+          width={1200}
+          height={675}
+          widths={[640, 960, 1200]}
+          sizes="(max-width: 768px) 100vw, 720px"
+          pictureClass="hero-arch mb-8 block overflow-hidden"
+          class="h-64 w-full object-cover md:h-80"
           loading="eager"
+          fetchpriority="high"
+          quality={70}
         />
       )}
 

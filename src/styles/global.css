@@ -115,6 +115,15 @@ body {
 }
 
 .hero-arch-media,
-.tile-media img {
+.tile-media img,
+.tile-media :global(img),
+.hero-arch :global(img) {
   @apply h-full w-full object-cover;
+}
+
+.tile-media :global(picture),
+.hero-arch :global(picture) {
+  display: block;
+  height: 100%;
+  width: 100%;
 }

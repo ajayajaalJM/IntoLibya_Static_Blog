@@ -48,6 +48,10 @@ PUBLIC_GA_MEASUREMENT_ID=G-XXXXXXXXXX
 
 When set, every page loads GA4 and fires click events for CTAs, nav, footer, contact (phone / email / WhatsApp), social, TourBuilder cards, blog links, and outbound links. Leave blank to disable.
 
+## Images
+
+Production uses **Vercel Image Optimization** (AVIF/WebP + responsive `srcset`) via Astro’s `<Picture>` component. Hero LCP is preloaded. Keep `imageService: true` on the Vercel adapter in `astro.config.mjs`.
+
 ## Dev blog writer (local only)
 
 ```bash

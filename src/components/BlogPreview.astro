@@ -1,8 +1,8 @@
 ---
 import { getLatestPosts } from '../lib/posts';
+import OptimizedImage from './OptimizedImage.astro';
 
 const posts = await getLatestPosts('en', 3);
-const siteUrl = Astro.site?.href?.replace(/\/$/, '') || 'https://intolibya.com';
 ---
 
 <section class="bg-white px-4 py-8 md:px-8 md:py-10" data-ga-section="blog_preview">
@@ -20,7 +20,17 @@ const siteUrl = Astro.site?.href?.replace(/\/$/, '') || 'https://intolibya.com';
           <a href={post.data.canonicalPath} class="card group overflow-hidden p-0 transition hover:-translate-y-1">
             {post.data.featuredImage && (
               <div class="hero-arch mx-3 mt-3 h-36 overflow-hidden bg-sand">
-                <img src={post.data.featuredImage} alt="" class="hero-arch-media" loading="lazy" />
+                <OptimizedImage
+                  src={post.data.featuredImage}
+                  alt=""
+                  width={640}
+                  height={400}
+                  widths={[320, 480, 640]}
+                  sizes="(max-width: 768px) 100vw, 33vw"
+                  class="hero-arch-media"
+                  loading="lazy"
+                  quality={70}
+                />
               </div>
             )}
             <div class="p-4">

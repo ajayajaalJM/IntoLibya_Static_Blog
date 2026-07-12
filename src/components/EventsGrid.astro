@@ -1,5 +1,6 @@
 ---
 import { eventBookingUrl, eventSlug } from '../lib/tourbuilder-links';
+import OptimizedImage from './OptimizedImage.astro';
 
 interface EventItem {
   id: string;
@@ -55,13 +56,16 @@ function eventDescription(e: EventItem): string {
         {events.map((e) => (
           <article class="card group flex flex-col overflow-hidden border-l-8 border-mint">
             <div class="tile-media mx-4 mt-4 h-52 sm:h-56">
-              <img
+              <OptimizedImage
                 src={eventImage(e)}
                 alt=""
+                width={800}
+                height={500}
+                widths={[400, 640, 800]}
+                sizes="(max-width: 768px) 100vw, 50vw"
                 class="transition group-hover:scale-105"
                 loading="lazy"
-                width="640"
-                height="400"
+                quality={70}
               />
             </div>
 

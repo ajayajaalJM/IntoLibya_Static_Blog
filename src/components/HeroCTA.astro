@@ -1,20 +1,28 @@
 ---
 import { getSiteConfig } from '../lib/site';
+import { resolveLocalImage, heroTripoli } from '../lib/local-images';
 import TourBuilderBanner from './TourBuilderBanner.astro';
+import OptimizedImage from './OptimizedImage.astro';
 
 const site = getSiteConfig();
-const heroImage = site.heroSlides?.[0]?.image ?? '/assets/heroes/hero_tripoli.jpg';
+const heroPath = site.heroSlides?.[0]?.image ?? '/assets/heroes/hero_tripoli.jpg';
+const heroAsset = resolveLocalImage(heroPath) ?? heroTripoli;
 ---
 
 <section class="hero-full relative flex min-h-[min(56vh,420px)] items-end overflow-hidden md:min-h-[min(82vh,680px)] md:items-center">
-  <img
-    src={heroImage}
+  <OptimizedImage
+    src={heroAsset}
     alt=""
-    class="hero-full-bg absolute inset-0 h-full w-full object-cover object-center md:scale-105"
-    width="1600"
-    height="900"
+    width={1600}
+    height={900}
+    widths={[640, 960, 1280, 1600]}
+    sizes="100vw"
+    pictureClass="absolute inset-0 block h-full w-full"
+    class="hero-full-bg h-full w-full object-cover object-center md:scale-105"
     loading="eager"
     fetchpriority="high"
+    decoding="async"
+    quality={70}
   />
   <div
     class="absolute inset-0 bg-gradient-to-t from-charcoal via-charcoal/75 to-charcoal/35 md:bg-gradient-to-r md:from-charcoal/92 md:via-charcoal/65 md:to-charcoal/20"
@@ -53,7 +61,7 @@ const heroImage = site.heroSlides?.[0]?.image ?? '/assets/heroes/hero_tripoli.jp
 
 <style>
   @media (min-width: 768px) {
-    .hero-full img.hero-full-bg {
+    .hero-full :global(img.hero-full-bg) {
       animation: heroKenBurns 24s ease-in-out infinite alternate;
     }
   }
@@ -68,7 +76,7 @@ const heroImage = site.heroSlides?.[0]?.image ?? '/assets/heroes/hero_tripoli.jp
   }
 
   @media (prefers-reduced-motion: reduce) {
-    .hero-full img.hero-full-bg {
+    .hero-full :global(img.hero-full-bg) {
       animation: none;
       transform: scale(1.05);
     }

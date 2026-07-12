@@ -1,5 +1,6 @@
 ---
 import { activityUrl } from '../lib/tourbuilder-links';
+import OptimizedImage from './OptimizedImage.astro';
 
 interface Activity {
   id: string;
@@ -62,13 +63,16 @@ function activityMeta(a: Activity): string {
           >
             <div class="tile-media mx-3 mt-3 h-36">
               {a.image && (
-                <img
+                <OptimizedImage
                   src={a.image}
                   alt={a.title}
+                  width={640}
+                  height={400}
+                  widths={[320, 480, 640]}
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                   class="transition group-hover:scale-105"
                   loading="lazy"
-                  width="400"
-                  height="280"
+                  quality={70}
                 />
               )}
             </div>
@@ -78,7 +82,6 @@ function activityMeta(a: Activity): string {
               {a.price != null && (
                 <p class="mt-1 text-sm font-bold text-brass">From {a.price} USD</p>
               )}
-              <span class="btn-primary mt-3 w-full justify-center py-2.5 text-xs">Add to trip →</span>
             </div>
           </a>
         ))}

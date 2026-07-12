@@ -9,9 +9,20 @@ import Testimonial from '../components/Testimonial.astro';
 import FinalCTA from '../components/FinalCTA.astro';
 import ConversionNudge from '../components/ConversionNudge.astro';
 import { getSiteConfig } from '../lib/site';
+import { getImage } from 'astro:assets';
+import { resolveLocalImage, heroTripoli } from '../lib/local-images';
 
 const site = getSiteConfig();
 const siteUrl = Astro.site?.href?.replace(/\/$/, '') || 'https://intolibya.com';
+
+const heroPath = site.heroSlides?.[0]?.image ?? '/assets/heroes/hero_tripoli.jpg';
+const heroAsset = resolveLocalImage(heroPath) ?? heroTripoli;
+const lcp = await getImage({
+  src: heroAsset,
+  width: 1280,
+  format: 'avif',
+  quality: 70,
+});
 
 const jsonLd = {
   '@context': 'https://schema.org',
@@ -41,6 +52,7 @@ const jsonLd = {
   description={site.heroSubheadline}
   canonical={`${siteUrl}/`}
   jsonLd={jsonLd}
+  lcpImage={{ src: lcp.src, type: 'image/avif' }}
 >
   <HeroCTA />
 
