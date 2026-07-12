@@ -1,14 +1,31 @@
 {
-  "trailingSlash": true,
+  "trailingSlash": false,
   "redirects": [
     { "source": "/blog", "destination": "/en/", "permanent": true },
     { "source": "/blog/", "destination": "/en/", "permanent": true },
-    { "source": "/checkout/:path*", "destination": "/tourbuilder/booking/", "permanent": true },
-    { "source": "/cart/:path*", "destination": "/tourbuilder/booking/", "permanent": true },
-    { "source": "/wp-travel-engine-:path*", "destination": "/tourbuilder/", "permanent": true }
+    { "source": "/checkout", "destination": "/tourbuilder/booking", "permanent": true },
+    { "source": "/checkout/", "destination": "/tourbuilder/booking", "permanent": true },
+    { "source": "/checkout/:path*", "destination": "/tourbuilder/booking", "permanent": true },
+    { "source": "/cart", "destination": "/tourbuilder/booking", "permanent": true },
+    { "source": "/cart/", "destination": "/tourbuilder/booking", "permanent": true },
+    { "source": "/cart/:path*", "destination": "/tourbuilder/booking", "permanent": true },
+    { "source": "/wp-travel-engine-:path*", "destination": "/tourbuilder", "permanent": true },
+    { "source": "/TourBuilder", "destination": "/tourbuilder", "permanent": true },
+    { "source": "/TourBuilder/", "destination": "/tourbuilder", "permanent": true },
+    { "source": "/TourBuilder/:path*/", "destination": "/tourbuilder/:path*", "permanent": true },
+    { "source": "/TourBuilder/:path*", "destination": "/tourbuilder/:path*", "permanent": true },
+    { "source": "/tourbuilder/", "destination": "/tourbuilder", "permanent": true },
+    { "source": "/tourbuilder/:path*/", "destination": "/tourbuilder/:path*", "permanent": true }
   ],
   "rewrites": [
-    { "source": "/tourbuilder/:path*", "destination": "https://intolibya.com/tourbuilder/:path*" }
+    {
+      "source": "/tourbuilder",
+      "destination": "https://tourbuilder.netlify.app"
+    },
+    {
+      "source": "/tourbuilder/:path*",
+      "destination": "https://tourbuilder.netlify.app/:path*"
+    }
   ],
   "headers": [
     {

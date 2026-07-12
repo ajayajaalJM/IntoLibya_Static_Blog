@@ -1,4 +1,5 @@
 import siteData from '../../data/site.json';
+import { normalizeTourbuilderHref } from './tourbuilder-links';
 
 export interface HeroSlide {
   image: string;
@@ -32,5 +33,12 @@ export interface SiteConfig {
 }
 
 export function getSiteConfig(): SiteConfig {
-  return siteData as SiteConfig;
+  const site = structuredClone(siteData) as SiteConfig;
+  site.primaryCtaUrl = normalizeTourbuilderHref(site.primaryCtaUrl);
+  site.secondaryCtaUrl = normalizeTourbuilderHref(site.secondaryCtaUrl);
+  site.heroSlides = site.heroSlides?.map((slide) => ({
+    ...slide,
+    href: normalizeTourbuilderHref(slide.href),
+  }));
+  return site;
 }

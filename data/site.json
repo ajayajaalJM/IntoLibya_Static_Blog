@@ -5,45 +5,45 @@
   "heroHeadline": "Visit Libya Today",
   "heroSubheadline": "Tripoli, Sabratha, Ghadames, Leptis Magna and the Sahara — build your adventure with IntoLibya TourBuilder.",
   "primaryCtaText": "Build Your Trip",
-  "primaryCtaUrl": "/tourbuilder/booking/",
+  "primaryCtaUrl": "/tourbuilder/booking",
   "secondaryCtaText": "Browse Activities",
-  "secondaryCtaUrl": "/tourbuilder/search/",
+  "secondaryCtaUrl": "/tourbuilder/search",
   "heroSlides": [
     {
       "image": "/assets/heroes/hero_tripoli.jpg",
       "title": "Plan your trip across Libya",
       "subtitle": "Organize your itinerary with ease",
-      "href": "/tourbuilder/booking/"
+      "href": "/tourbuilder/booking"
     },
     {
       "image": "/assets/heroes/hero_tripoli_old_town.jpg",
       "title": "Old Town Tripoli",
       "subtitle": "Explore the medina with a local guide",
-      "href": "/tourbuilder/activity/tripoli-walking-tour-a1/"
+      "href": "/tourbuilder/activity/tripoli-walking-tour-a1"
     },
     {
       "image": "/assets/heroes/hero_acacus.jpg",
       "title": "Acacus Mountains",
       "subtitle": "Desert wilderness and ancient rock art",
-      "href": "/tourbuilder/activity/acacus-mountains-camping-a39/"
+      "href": "/tourbuilder/activity/acacus-mountains-camping-a39"
     },
     {
       "image": "/assets/heroes/hero_sabratha.jpg",
       "title": "Sabratha",
       "subtitle": "Roman ruins by the Mediterranean",
-      "href": "/tourbuilder/search/?locationId=l4"
+      "href": "/tourbuilder/search?locationId=l4"
     },
     {
       "image": "/assets/heroes/hero_sahara.jpg",
       "title": "Sahara Desert",
       "subtitle": "Vast dunes and stargazing",
-      "href": "/tourbuilder/search/?locationId=l7"
+      "href": "/tourbuilder/search?locationId=l7"
     },
     {
       "image": "/assets/heroes/hero_east_libya.jpg",
       "title": "East Libya",
       "subtitle": "History, culture, and Cyrenaica",
-      "href": "/tourbuilder/search/?locationId=l6"
+      "href": "/tourbuilder/search?locationId=l6"
     }
   ],
   "testimonial": {

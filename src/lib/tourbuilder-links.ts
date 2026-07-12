@@ -1,4 +1,9 @@
-/** TourBuilder URL helpers — keep in sync with TourBuilder/scripts/lib/slugs.js */
+/** TourBuilder URL helpers — keep in sync with TourBuilder/scripts/lib/slugs.js
+ *  Paths must stay under `/tourbuilder` and must NOT use a trailing slash
+ *  (Netlify 301s `/tourbuilder/booking/` → `/booking`, which 404s on the blog host).
+ */
+
+export const TOURBUILDER_BASE = '/tourbuilder';
 
 export function slugify(text: string): string {
   return String(text || '')
@@ -26,19 +31,55 @@ export function eventSlug(event: { title?: string; days?: number }): string {
   return `${titleSlug}-libya-event`;
 }
 
+/** Strip trailing slash from TourBuilder paths (preserve query/hash). */
+export function normalizeTourbuilderHref(href: string): string {
+  if (!href) return href;
+  try {
+    const abs = href.startsWith('http') ? new URL(href) : null;
+    const path = abs ? abs.pathname : href.split(/[?#]/)[0];
+    const rest = abs ? `${abs.search}${abs.hash}` : href.slice(path.length);
+    const isTourbuilder = /\/tourbuilder(\/|$)/i.test(path);
+
+    if (!isTourbuilder) return href;
+
+    let normalizedPath = path.replace(/\/+$/, '');
+    if (!normalizedPath) normalizedPath = TOURBUILDER_BASE;
+    if (/^\/tourbuilder$/i.test(normalizedPath)) normalizedPath = TOURBUILDER_BASE;
+
+    if (abs) {
+      abs.pathname = normalizedPath;
+      return abs.toString();
+    }
+    return `${normalizedPath}${rest}`;
+  } catch {
+    return href.replace(/\/+(?=[?#]|$)/, '');
+  }
+}
+
 export function tourBookingUrl(tourId: string): string {
-  return `/tourbuilder/booking/?selectedTour=${encodeURIComponent(tourId)}`;
+  return normalizeTourbuilderHref(
+    `${TOURBUILDER_BASE}/booking?selectedTour=${encodeURIComponent(tourId)}`,
+  );
 }
 
 export function eventBookingUrl(eventId: string, occurrenceStart?: string): string {
   const qs = new URLSearchParams({ selectedEvent: eventId });
   if (occurrenceStart) qs.set('occurrenceStart', occurrenceStart);
-  return `/tourbuilder/booking/?${qs.toString()}`;
+  return normalizeTourbuilderHref(`${TOURBUILDER_BASE}/booking?${qs.toString()}`);
 }
 
 export function activityUrl(activity: { id: string; title: string }): string {
   const slug = slugify(`${activity.title}-${activity.id}`);
-  return `/tourbuilder/activity/${slug}/`;
+  return normalizeTourbuilderHref(`${TOURBUILDER_BASE}/activity/${slug}`);
+}
+
+export function tourbuilderPath(...segments: string[]): string {
+  const cleaned = segments
+    .map((s) => String(s || '').replace(/^\/+|\/+$/g, ''))
+    .filter(Boolean);
+  return normalizeTourbuilderHref(
+    cleaned.length ? `${TOURBUILDER_BASE}/${cleaned.join('/')}` : TOURBUILDER_BASE,
+  );
 }
 
 /** Static tour id → local image filename */

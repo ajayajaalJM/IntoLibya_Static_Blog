@@ -151,7 +151,7 @@ gtag('config', ${JSON.stringify(measurementId)}, { anonymize_ip: true, send_page
               };
             }
 
-            if (/\/tourbuilder\/booking\/?/i.test(path)) {
+            if (/\/tourbuilder\/booking\/?$/i.test(path) || /\/tourbuilder\/booking\?/i.test(href)) {
               return {
                 event: 'cta_click',
                 cta_name: 'build_trip',
@@ -178,7 +178,7 @@ gtag('config', ${JSON.stringify(measurementId)}, { anonymize_ip: true, send_page
                 section: section,
               };
             }
-            if (/\/tourbuilder\/tour-packages\//i.test(path) || /[?&]tourId=/i.test(href)) {
+            if (/\/tourbuilder\/tour-packages/i.test(path) || /[?&]tourId=/i.test(href) || /[?&]selectedTour=/i.test(href)) {
               return {
                 event: 'tourbuilder_click',
                 item_type: 'tour_package',
@@ -187,7 +187,7 @@ gtag('config', ${JSON.stringify(measurementId)}, { anonymize_ip: true, send_page
                 section: section,
               };
             }
-            if (/\/tourbuilder\/festivals-and-events\//i.test(path) || /[?&]eventId=/i.test(href)) {
+            if (/\/tourbuilder\/festivals-and-events/i.test(path) || /[?&]eventId=/i.test(href) || /[?&]selectedEvent=/i.test(href)) {
               return {
                 event: 'tourbuilder_click',
                 item_type: 'event',
@@ -196,7 +196,7 @@ gtag('config', ${JSON.stringify(measurementId)}, { anonymize_ip: true, send_page
                 section: section,
               };
             }
-            if (/\/tourbuilder\//i.test(path)) {
+            if (/\/tourbuilder(\/|$)/i.test(path)) {
               return {
                 event: 'tourbuilder_click',
                 item_type: 'hub',

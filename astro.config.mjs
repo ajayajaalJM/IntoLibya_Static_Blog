@@ -5,6 +5,7 @@ import vercel from '@astrojs/vercel';
 import sitemap from '@astrojs/sitemap';
 import rehypeRaw from 'rehype-raw';
 import { rehypeOptimizeBlogImages } from './src/lib/rehype-optimize-blog-images.ts';
+import { rehypeNormalizeTourbuilderLinks } from './src/lib/rehype-normalize-tourbuilder-links.ts';
 
 // https://astro.build/config
 export default defineConfig({
@@ -37,7 +38,7 @@ export default defineConfig({
   },
   integrations: [sitemap()],
   markdown: {
-    rehypePlugins: [rehypeRaw, rehypeOptimizeBlogImages],
+    rehypePlugins: [rehypeRaw, rehypeOptimizeBlogImages, rehypeNormalizeTourbuilderLinks],
   },
   vite: {
     plugins: [tailwindcss()],
