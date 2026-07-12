@@ -43,7 +43,13 @@ const whatsappUrl = `https://wa.me/${site.contact.whatsapp}?text=${encodeURIComp
       ))}
     </nav>
 
-    <div class="flex shrink-0 items-center gap-2">
+    <div class="flex shrink-0 items-center gap-2 sm:gap-3">
+      <a
+        href={`mailto:${site.contact.email}`}
+        class="hidden text-xs text-muted/80 transition hover:text-brass sm:inline"
+      >
+        {site.contact.email}
+      </a>
       <a
         href={site.primaryCtaUrl}
         data-ga-event="cta_click"
@@ -120,17 +126,6 @@ const whatsappUrl = `https://wa.me/${site.contact.whatsapp}?text=${encodeURIComp
     <section class="mobile-drawer-contact" aria-label="Contact">
       <p class="mobile-drawer-label">Contact</p>
       <ul class="mobile-drawer-contact-list">
-        <li>
-          <a href={`tel:${site.contact.phoneTel}`} class="mobile-drawer-contact-link">
-            <span class="mobile-drawer-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path stroke-linecap="round" d="M5 4h4l2 5-2.5 1.5a11 11 0 005 5L15 13l5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2z"/></svg>
-            </span>
-            <span>
-              <span class="mobile-drawer-contact-title">Phone</span>
-              <span class="mobile-drawer-contact-value">{site.contact.phone}</span>
-            </span>
-          </a>
-        </li>
         <li>
           <a href={whatsappUrl} class="mobile-drawer-contact-link" rel="noopener noreferrer" target="_blank">
             <span class="mobile-drawer-icon" aria-hidden="true">
