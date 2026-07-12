@@ -16,6 +16,8 @@ export interface SiteConfig {
   ogImage: string;
   /** Vertical Pinterest pin for homepage / blog indexes (not used on individual posts). */
   pinterestImage: string;
+  /** Brand name for og:site_name and similar meta. */
+  siteName: string;
   heroHeadline: string;
   heroSubheadline: string;
   primaryCtaText: string;

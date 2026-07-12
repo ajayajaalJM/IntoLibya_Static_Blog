@@ -102,7 +102,7 @@ async function generateBrandShareImages(): Promise<{ og: string; pin: string }> 
   const ogDest = path.join(publicDir, DEFAULT_OG_IMAGE.replace(/^\/+/, ''));
   const pinDest = path.join(publicDir, DEFAULT_PINTEREST_IMAGE.replace(/^\/+/, ''));
 
-  await sharp(await composeBrandOnCanvas(OG_WIDTH, OG_HEIGHT, 0.9)).toFile(ogDest);
+  await sharp(await composeBrandOnCanvas(OG_WIDTH, OG_HEIGHT, 0.92)).toFile(ogDest);
   await sharp(await composeBrandOnCanvas(PIN_WIDTH, PIN_HEIGHT, 0.82)).toFile(pinDest);
 
   return { og: DEFAULT_OG_IMAGE, pin: DEFAULT_PINTEREST_IMAGE };

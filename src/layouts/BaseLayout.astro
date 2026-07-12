@@ -4,7 +4,7 @@ import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import GoogleAnalytics from '../components/GoogleAnalytics.astro';
 import { getSiteConfig } from '../lib/site';
-import { OG_HEIGHT, OG_WIDTH, PIN_HEIGHT, PIN_WIDTH } from '../lib/og';
+import { OG_HEIGHT, OG_WIDTH, PIN_HEIGHT, PIN_WIDTH, SITE_NAME } from '../lib/og';
 
 interface Props {
   title: string;
@@ -36,6 +36,7 @@ const {
 
 const site = getSiteConfig();
 const siteUrl = Astro.site?.href?.replace(/\/$/, '') || 'https://intolibya.com';
+const siteName = site.siteName || SITE_NAME;
 const canonicalUrl = canonical || Astro.url.href;
 const resolvedOgImage = ogImage || site.ogImage || site.logo;
 const ogImageUrl = resolvedOgImage.startsWith('http')
@@ -61,19 +62,26 @@ const pinImageUrl = pinterestImage
       <link rel="alternate" hreflang={alt.lang} href={alt.href} />
     ))}
     <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={siteName} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonicalUrl} />
+    {/* Primary share image: Facebook/LinkedIn/X — always 1200×630 (1.91:1) */}
     <meta property="og:image" content={ogImageUrl} />
+    <meta property="og:image:secure_url" content={ogImageUrl} />
+    <meta property="og:image:type" content="image/jpeg" />
     <meta property="og:image:width" content={String(OG_WIDTH)} />
     <meta property="og:image:height" content={String(OG_HEIGHT)} />
-    <meta property="og:image:alt" content={title} />
+    <meta property="og:image:alt" content={`${siteName} — ${title}`} />
     {pinImageUrl && (
       <>
+        {/* Secondary: Pinterest prefers ~2:3; listed after so FB uses the 1.91:1 card first */}
         <meta property="og:image" content={pinImageUrl} />
+        <meta property="og:image:secure_url" content={pinImageUrl} />
+        <meta property="og:image:type" content="image/jpeg" />
         <meta property="og:image:width" content={String(PIN_WIDTH)} />
         <meta property="og:image:height" content={String(PIN_HEIGHT)} />
-        <meta property="og:image:alt" content={title} />
+        <meta property="og:image:alt" content={`${siteName} — ${title}`} />
         <meta name="pinterest-rich-pin" content="true" />
       </>
     )}
