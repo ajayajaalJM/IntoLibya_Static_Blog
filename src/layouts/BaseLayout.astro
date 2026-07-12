@@ -4,13 +4,15 @@ import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import GoogleAnalytics from '../components/GoogleAnalytics.astro';
 import { getSiteConfig } from '../lib/site';
-import { OG_HEIGHT, OG_WIDTH } from '../lib/og';
+import { OG_HEIGHT, OG_WIDTH, PIN_HEIGHT, PIN_WIDTH } from '../lib/og';
 
 interface Props {
   title: string;
   description?: string;
   canonical?: string;
   ogImage?: string;
+  /** When set, also emit a vertical Pinterest-friendly og:image (homepage / blog indexes). */
+  pinterestImage?: string;
   lang?: string;
   dir?: 'ltr' | 'rtl';
   hreflangAlternates?: Array<{ lang: string; href: string }>;
@@ -24,6 +26,7 @@ const {
   description = 'IntoLibya — curated Libya tours, travel tips, and TourBuilder itineraries.',
   canonical,
   ogImage,
+  pinterestImage,
   lang = 'en',
   dir = lang === 'ar' ? 'rtl' : 'ltr',
   hreflangAlternates = [],
@@ -38,6 +41,11 @@ const resolvedOgImage = ogImage || site.ogImage || site.logo;
 const ogImageUrl = resolvedOgImage.startsWith('http')
   ? resolvedOgImage
   : `${siteUrl}${resolvedOgImage}`;
+const pinImageUrl = pinterestImage
+  ? pinterestImage.startsWith('http')
+    ? pinterestImage
+    : `${siteUrl}${pinterestImage}`
+  : undefined;
 ---
 
 <!doctype html>
@@ -60,6 +68,15 @@ const ogImageUrl = resolvedOgImage.startsWith('http')
     <meta property="og:image:width" content={String(OG_WIDTH)} />
     <meta property="og:image:height" content={String(OG_HEIGHT)} />
     <meta property="og:image:alt" content={title} />
+    {pinImageUrl && (
+      <>
+        <meta property="og:image" content={pinImageUrl} />
+        <meta property="og:image:width" content={String(PIN_WIDTH)} />
+        <meta property="og:image:height" content={String(PIN_HEIGHT)} />
+        <meta property="og:image:alt" content={title} />
+        <meta name="pinterest-rich-pin" content="true" />
+      </>
+    )}
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />

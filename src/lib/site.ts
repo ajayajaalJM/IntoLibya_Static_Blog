@@ -14,6 +14,8 @@ export interface SiteConfig {
   favicon: string;
   /** Default Open Graph / Twitter share image (absolute path on this site). */
   ogImage: string;
+  /** Vertical Pinterest pin for homepage / blog indexes (not used on individual posts). */
+  pinterestImage: string;
   heroHeadline: string;
   heroSubheadline: string;
   primaryCtaText: string;
