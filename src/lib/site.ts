@@ -19,7 +19,7 @@ export interface SiteConfig {
   secondaryCtaUrl: string;
   heroSlides?: HeroSlide[];
   testimonial: { quote: string; author: string; role: string };
-  social: { facebook: string; instagram: string };
+  social: { facebook: string; instagram: string; youtube: string };
   contact: {
     email: string;
     phone: string;

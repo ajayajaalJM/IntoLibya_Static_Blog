@@ -6,9 +6,23 @@ High-performance Astro site for [intolibya.com](https://intolibya.com) — conve
 
 ```bash
 npm install
-cp .env.example .env   # add WP credentials for import
-npm run dev
+cp .env.example .env   # add WP / OpenAI / GA credentials
 ```
+
+Set `PUBLIC_GA_MEASUREMENT_ID` in `.env` to your GA4 Measurement ID (`G-XXXXXXXXXX`). Leave it blank to disable analytics.
+
+## Run locally
+
+Start the Astro blog and the dev blog writer together:
+
+```bash
+./scripts/start.sh
+```
+
+- **Blog** — http://localhost:4321
+- **Writer** — http://localhost:5174 (local only, not deployed)
+
+Press `Ctrl+C` to stop both. To run them separately: `npm run dev` and `npm run writer`.
 
 ## WordPress import (slow, resumable)
 
@@ -23,6 +37,16 @@ npm run import:wp -- --from-cache   # WP down — write from local cache
 ```
 
 Throttle via `.env`: `IMPORT_BATCH_SIZE`, `IMPORT_DELAY_MS`, `IMPORT_PAGE_DELAY_MS`.
+
+## Google Analytics
+
+Set your GA4 Measurement ID in `.env` (and in Vercel env vars for production):
+
+```bash
+PUBLIC_GA_MEASUREMENT_ID=G-XXXXXXXXXX
+```
+
+When set, every page loads GA4 and fires click events for CTAs, nav, footer, contact (phone / email / WhatsApp), social, TourBuilder cards, blog links, and outbound links. Leave blank to disable.
 
 ## Dev blog writer (local only)
 

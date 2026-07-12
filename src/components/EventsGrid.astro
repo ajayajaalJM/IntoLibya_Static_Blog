@@ -33,7 +33,7 @@ function eventDescription(e: EventItem): string {
 }
 ---
 
-<section id="events" class="scroll-mt-20 px-4 py-8 md:px-8 md:py-10">
+<section id="events" class="scroll-mt-20 px-4 py-8 md:px-8 md:py-10" data-ga-section="events">
   <div class="mx-auto max-w-6xl">
     <div class="mb-5 flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
       <div>
@@ -90,7 +90,12 @@ function eventDescription(e: EventItem): string {
               )}
 
               <div class="mt-5 flex flex-col gap-3 sm:flex-row">
-                <a href={eventBookingUrl(e.id)} class="btn-primary flex-1 justify-center py-3 text-sm">
+                <a
+                  href={eventBookingUrl(e.id)}
+                  data-ga-event="cta_click"
+                  data-ga-label="Book Event"
+                  class="btn-primary flex-1 justify-center py-3 text-sm"
+                >
                   Book Now →
                 </a>
                 <a

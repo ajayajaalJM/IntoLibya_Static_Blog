@@ -17,6 +17,7 @@ const site = getSiteConfig();
       'rounded-3xl border border-white/15 bg-charcoal p-6 shadow-[0_20px_50px_rgba(45,42,38,0.18)] sm:p-8',
     className,
   ]}
+  data-ga-section={variant === 'footer' ? 'final_cta' : 'conversion_nudge'}
 >
   <div class="flex flex-col gap-5 lg:flex-row lg:items-center lg:justify-between">
     <div class:list={[variant === 'footer' ? 'max-w-xl text-white' : 'max-w-2xl']}>
@@ -51,6 +52,8 @@ const site = getSiteConfig();
     <div class="flex shrink-0 flex-col gap-3 sm:flex-row lg:flex-col xl:flex-row">
       <a
         href={site.primaryCtaUrl}
+        data-ga-event="cta_click"
+        data-ga-label="Build Your Trip"
         class:list={[
           'inline-flex min-h-12 items-center justify-center rounded-full px-6 py-3 text-sm font-extrabold transition active:scale-[0.98]',
           variant === 'footer'
@@ -62,6 +65,8 @@ const site = getSiteConfig();
       </a>
       <a
         href={site.secondaryCtaUrl}
+        data-ga-event="cta_click"
+        data-ga-label="Browse Activities"
         class:list={[
           'inline-flex min-h-12 items-center justify-center rounded-full border-2 px-6 py-3 text-sm font-bold transition active:scale-[0.98]',
           variant === 'footer'

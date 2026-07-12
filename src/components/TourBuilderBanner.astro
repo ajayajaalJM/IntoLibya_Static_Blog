@@ -9,9 +9,11 @@ const { variant = 'default' } = Astro.props;
 const site = getSiteConfig();
 ---
 
-<div class="flex flex-wrap gap-3">
+<div class="flex flex-wrap gap-3" data-ga-section={variant === 'hero' ? 'hero' : 'tourbuilder_banner'}>
   <a
     href={site.primaryCtaUrl}
+    data-ga-event="cta_click"
+    data-ga-label="Build Your Trip"
     class:list={[
       'btn-primary min-h-11 px-6 py-3 text-sm font-extrabold',
       variant === 'light' && 'bg-white text-charcoal hover:bg-whitewash',
@@ -23,6 +25,8 @@ const site = getSiteConfig();
   </a>
   <a
     href={site.secondaryCtaUrl}
+    data-ga-event="cta_click"
+    data-ga-label="Browse Activities"
     class:list={[
       'btn-secondary min-h-11 px-6 py-3 text-sm font-bold',
       variant === 'light' && 'border-white/40 bg-transparent text-white hover:bg-white/10',

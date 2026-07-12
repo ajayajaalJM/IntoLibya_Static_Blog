@@ -71,7 +71,12 @@ const jsonLd = {
             Build your trip in 3 steps
           </h2>
         </div>
-        <a href={site.primaryCtaUrl} class="inline-flex min-h-11 items-center justify-center rounded-full border-2 border-brass/30 bg-brass/10 px-5 py-2.5 text-xs font-extrabold text-brass transition hover:bg-brass hover:text-white sm:text-sm">
+        <a
+          href={site.primaryCtaUrl}
+          data-ga-event="cta_click"
+          data-ga-label="Build Your Trip"
+          class="inline-flex min-h-11 items-center justify-center rounded-full border-2 border-brass/30 bg-brass/10 px-5 py-2.5 text-xs font-extrabold text-brass transition hover:bg-brass hover:text-white sm:text-sm"
+        >
           {site.primaryCtaText} →
         </a>
       </div>
