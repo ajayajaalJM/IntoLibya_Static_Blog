@@ -5,6 +5,7 @@ import OptimizedImage from '../components/OptimizedImage.astro';
 import { getCollection, render } from 'astro:content';
 import { getAllPosts, getTranslationSiblings } from '../lib/posts';
 import { LANG_LABELS, type Lang } from '../lib/post-schema';
+import { ogPathForFeaturedImage } from '../lib/og';
 
 export async function getStaticPaths() {
   const posts = await getCollection('posts');
@@ -23,6 +24,7 @@ const allPosts = await getAllPosts();
 const siblings = getTranslationSiblings(post, allPosts);
 const siteUrl = Astro.site?.href?.replace(/\/$/, '') || 'https://intolibya.com';
 const lang = post.data.lang as Lang;
+const ogImage = ogPathForFeaturedImage(post.data.featuredImage);
 
 const hreflangAlternates = [
   { lang, href: `${siteUrl}${post.data.canonicalPath}` },
@@ -40,7 +42,7 @@ const jsonLd = {
   description: post.data.seo.description,
   datePublished: post.data.publishedAt.toISOString(),
   mainEntityOfPage: post.data.seo.canonical,
-  image: `${siteUrl}${post.data.featuredImage}`,
+  image: `${siteUrl}${ogImage}`,
   publisher: { '@type': 'Organization', name: 'IntoLibya', url: siteUrl },
   inLanguage: lang,
 };
@@ -50,7 +52,7 @@ const jsonLd = {
   title={post.data.seo.title}
   description={post.data.seo.description}
   canonical={post.data.seo.canonical}
-  ogImage={post.data.featuredImage}
+  ogImage={ogImage}
   lang={lang}
   hreflangAlternates={hreflangAlternates}
   jsonLd={jsonLd}

@@ -24,3 +24,7 @@ pnpm-debug.log*
 .idea/
 .vercel
 .import-state/
+
+# Generated Open Graph post crops (rebuilt by `npm run generate:og` / prebuild)
+public/media/og/posts/
+public/og/

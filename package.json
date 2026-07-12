@@ -7,6 +7,8 @@
   },
   "scripts": {
     "dev": "astro dev",
+    "generate:og": "tsx scripts/generate-og-images.ts",
+    "prebuild": "npm run generate:og",
     "build": "astro build",
     "preview": "astro preview",
     "import:wp": "tsx scripts/import-wordpress-to-md.ts",

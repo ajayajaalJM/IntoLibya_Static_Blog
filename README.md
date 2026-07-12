@@ -24,6 +24,8 @@ Start the Astro blog and the dev blog writer together:
 
 Press `Ctrl+C` to stop both. To run them separately: `npm run dev` and `npm run writer`.
 
+Open Graph share images (1200×630) are generated with `npm run generate:og` (also runs automatically before `npm run build`).
+
 ## WordPress import (slow, resumable)
 
 Imports posts to `src/content/posts/{lang}/{slug}.md` with checkpointing in `.import-state/`.
