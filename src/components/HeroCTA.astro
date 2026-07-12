@@ -6,11 +6,11 @@ const site = getSiteConfig();
 const heroImage = site.heroSlides?.[0]?.image ?? '/assets/heroes/hero_tripoli.jpg';
 ---
 
-<section class="hero-full relative flex min-h-[min(88vh,720px)] items-end overflow-hidden md:min-h-[min(82vh,680px)] md:items-center">
+<section class="hero-full relative flex min-h-[min(56vh,420px)] items-end overflow-hidden md:min-h-[min(82vh,680px)] md:items-center">
   <img
     src={heroImage}
     alt=""
-    class="absolute inset-0 h-full w-full scale-105 object-cover"
+    class="hero-full-bg absolute inset-0 h-full w-full object-cover object-center md:scale-105"
     width="1600"
     height="900"
     loading="eager"
@@ -25,25 +25,25 @@ const heroImage = site.heroSlides?.[0]?.image ?? '/assets/heroes/hero_tripoli.jp
     aria-hidden="true"
   ></div>
 
-  <div class="relative z-10 w-full px-4 pb-10 pt-24 md:px-8 md:py-16">
+  <div class="relative z-10 w-full px-4 pb-6 pt-14 md:px-8 md:py-16">
     <div class="mx-auto max-w-6xl">
       <div
-        class="max-w-xl rounded-3xl border border-white/15 bg-charcoal/45 p-6 shadow-[0_20px_60px_rgba(0,0,0,0.45)] backdrop-blur-md md:max-w-2xl md:bg-charcoal/50 md:p-8 lg:max-w-xl lg:bg-transparent lg:p-0 lg:shadow-none lg:backdrop-blur-none lg:border-0"
+        class="max-w-xl rounded-2xl border border-white/15 bg-charcoal/50 p-5 shadow-[0_16px_40px_rgba(0,0,0,0.4)] backdrop-blur-md md:max-w-2xl md:rounded-3xl md:bg-charcoal/50 md:p-8 lg:max-w-xl lg:bg-transparent lg:p-0 lg:shadow-none lg:backdrop-blur-none lg:border-0"
       >
-        <p class="text-xs font-extrabold uppercase tracking-[0.2em] text-brass drop-shadow-sm md:text-sm">
+        <p class="text-[10px] font-extrabold uppercase tracking-[0.2em] text-brass drop-shadow-sm md:text-sm">
           Libya Tours
         </p>
         <h1
-          class="mt-2 text-3xl font-black leading-[1.05] tracking-tight text-white drop-shadow-[0_2px_12px_rgba(0,0,0,0.6)] sm:text-4xl md:text-5xl lg:text-[3.25rem]"
+          class="mt-1.5 text-2xl font-black leading-[1.05] tracking-tight text-white drop-shadow-[0_2px_12px_rgba(0,0,0,0.6)] sm:text-3xl md:mt-2 md:text-5xl lg:text-[3.25rem]"
         >
           {site.heroHeadline}
         </h1>
         <p
-          class="mt-4 max-w-lg text-base leading-relaxed text-white/95 drop-shadow-[0_1px_8px_rgba(0,0,0,0.5)] md:text-lg"
+          class="mt-3 max-w-lg text-sm leading-relaxed text-white/95 drop-shadow-[0_1px_8px_rgba(0,0,0,0.5)] md:mt-4 md:text-lg"
         >
           {site.heroSubheadline}
         </p>
-        <div class="mt-6 md:mt-8">
+        <div class="mt-4 md:mt-8">
           <TourBuilderBanner variant="hero" />
         </div>
       </div>
@@ -52,8 +52,10 @@ const heroImage = site.heroSlides?.[0]?.image ?? '/assets/heroes/hero_tripoli.jp
 </section>
 
 <style>
-  .hero-full img {
-    animation: heroKenBurns 24s ease-in-out infinite alternate;
+  @media (min-width: 768px) {
+    .hero-full img.hero-full-bg {
+      animation: heroKenBurns 24s ease-in-out infinite alternate;
+    }
   }
 
   @keyframes heroKenBurns {
@@ -66,7 +68,7 @@ const heroImage = site.heroSlides?.[0]?.image ?? '/assets/heroes/hero_tripoli.jp
   }
 
   @media (prefers-reduced-motion: reduce) {
-    .hero-full img {
+    .hero-full img.hero-full-bg {
       animation: none;
       transform: scale(1.05);
     }

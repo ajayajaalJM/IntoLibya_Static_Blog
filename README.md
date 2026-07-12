@@ -32,6 +32,12 @@ npm run writer
 
 Opens at **http://localhost:5174** — local only, not deployed (see `.vercelignore`).
 
+- Write in **English only**
+- Click **Translate & save all** to auto-translate into all blog languages and save to `src/content/posts/`
+- Use the **Library** tab to browse and edit existing post groups
+
+Requires `OPENAI_API_KEY` in `.env` for automatic translations.
+
 ## Build
 
 ```bash
