@@ -1,0 +1,106 @@
+---
+import OptimizedImage from './OptimizedImage.astro';
+import { getSiteConfig } from '../lib/site';
+import feed from '../../data/instagram-feed.json';
+
+const site = getSiteConfig();
+const profileUrl = site.social.instagram;
+const handle = site.contact.instagramHandle;
+const items = (feed.items ?? []).slice(0, 9);
+
+type MediaKind = 'reel' | 'post' | 'carousel';
+
+function kindLabel(kind: MediaKind) {
+  if (kind === 'reel') return 'Reel';
+  if (kind === 'carousel') return 'Carousel';
+  return 'Post';
+}
+---
+
+{
+  items.length > 0 && (
+    <section class="bg-white px-4 py-8 md:px-8 md:py-10" data-ga-section="instagram_feed">
+      <div class="mx-auto max-w-6xl">
+        <div class="mb-5 flex flex-wrap items-end justify-between gap-4">
+          <div>
+            <p class="text-xs font-bold uppercase tracking-widest text-brass">On Instagram</p>
+            <h2 class="mt-1 text-xl font-black uppercase tracking-wide text-charcoal md:text-2xl">
+              From {handle}
+            </h2>
+            <p class="mt-2 max-w-xl text-sm text-muted">
+              Watch the latest from Libya — tap a Reel to open it on Instagram.
+            </p>
+          </div>
+          <a
+            href={profileUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn-secondary shrink-0 text-sm"
+          >
+            Follow {handle}
+          </a>
+        </div>
+
+        <div class="instagram-grid mx-auto grid max-w-3xl grid-cols-3 gap-[2px] overflow-hidden bg-charcoal/10 sm:max-w-4xl md:max-w-5xl">
+          {items.map((item) => {
+            const kind = (item.mediaKind ?? 'post') as MediaKind;
+            return (
+              <a
+                href={item.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="instagram-tile group relative block overflow-hidden bg-sand"
+                aria-label={`${kindLabel(kind)}: ${item.title}`}
+              >
+                <div class="relative aspect-[9/16] overflow-hidden">
+                  <OptimizedImage
+                    src={item.image}
+                    alt={item.title}
+                    width={480}
+                    height={854}
+                    widths={[240, 360, 480]}
+                    sizes="(max-width: 640px) 33vw, (max-width: 1024px) 28vw, 280px"
+                    class="h-full w-full object-cover transition duration-500 ease-out group-hover:scale-[1.04] motion-reduce:transition-none motion-reduce:group-hover:scale-100"
+                    loading="lazy"
+                    quality={70}
+                  />
+                  <div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-charcoal/35 via-transparent to-transparent opacity-0 transition group-hover:opacity-100 motion-reduce:opacity-0" />
+
+                  {kind === 'reel' && (
+                    <span
+                      class="pointer-events-none absolute right-2 top-2 text-white drop-shadow-[0_1px_2px_rgba(0,0,0,0.55)]"
+                      aria-hidden="true"
+                    >
+                      <svg viewBox="0 0 24 24" class="h-5 w-5 fill-current sm:h-6 sm:w-6">
+                        <path d="M8 5.14v13.72L19.5 12 8 5.14z" />
+                      </svg>
+                    </span>
+                  )}
+
+                  {kind === 'carousel' && (
+                    <span
+                      class="pointer-events-none absolute right-2 top-2 text-white drop-shadow-[0_1px_2px_rgba(0,0,0,0.55)]"
+                      aria-hidden="true"
+                    >
+                      <svg viewBox="0 0 24 24" class="h-5 w-5 fill-current sm:h-6 sm:w-6">
+                        <path d="M4 6h12v12H4V6zm14-2v12h2V4h-2zM6 18v2h12v-2H6z" />
+                      </svg>
+                    </span>
+                  )}
+                </div>
+              </a>
+            );
+          })}
+        </div>
+      </div>
+    </section>
+  )
+}
+
+<style>
+  @media (prefers-reduced-motion: reduce) {
+    .instagram-tile :global(img) {
+      transition: none !important;
+    }
+  }
+</style>

@@ -16,6 +16,7 @@
         <nav class="app-nav">
           <button type="button" class="nav-link is-active" data-view="write">Write</button>
           <button type="button" class="nav-link" data-view="library">Library</button>
+          <button type="button" class="nav-link" data-view="instagram">Instagram</button>
         </nav>
       </div>
     </header>
@@ -92,6 +93,57 @@
           <button type="button" id="refresh-library" class="btn-secondary">Refresh</button>
         </div>
         <div id="library-list" class="library-list"></div>
+      </section>
+    </main>
+
+    <main class="grid view-instagram hidden" id="view-instagram">
+      <section class="panel instagram-panel">
+        <div class="library-header">
+          <div>
+            <h2>Homepage Instagram feed</h2>
+            <p class="toolbar-note">
+              Curate tiles for the homepage section. Changes write to
+              <code>data/instagram-feed.json</code> and show on the next deploy.
+            </p>
+          </div>
+          <button type="button" id="refresh-instagram" class="btn-secondary">Refresh</button>
+        </div>
+
+        <p class="hint" id="instagram-status">Loading feed…</p>
+        <div id="instagram-list" class="instagram-list"></div>
+
+        <form id="instagram-form" class="instagram-form fieldset">
+          <legend>Add item</legend>
+          <div class="instagram-form-grid">
+            <label>Instagram URL
+              <input name="url" type="url" required placeholder="https://www.instagram.com/reel/XXXX/" />
+            </label>
+            <label>Title / alt text
+              <input name="title" placeholder="Auto-filled from OG when possible" />
+            </label>
+            <label>Media kind
+              <select name="mediaKind">
+                <option value="reel">Reel</option>
+                <option value="post">Post</option>
+                <option value="carousel">Carousel</option>
+              </select>
+            </label>
+            <label>ID (filename slug)
+              <input name="id" placeholder="auto-from-title" />
+            </label>
+            <label class="instagram-file-label">Poster image (optional if OG works)
+              <input name="image" type="file" accept="image/*" />
+            </label>
+            <label>Or existing image path
+              <input name="imagePath" placeholder="/media/instagram/my-poster.jpg" />
+            </label>
+          </div>
+          <div class="actions">
+            <button type="submit" class="btn-secondary">Add to list</button>
+            <button type="button" id="save-instagram" class="btn-generate">Save feed</button>
+          </div>
+          <p class="hint">Paste a Reel/post URL — OG image is fetched automatically when valid. Homepage shows a 3×3 grid (first 9). Edit URLs inline on each card.</p>
+        </form>
       </section>
     </main>
 

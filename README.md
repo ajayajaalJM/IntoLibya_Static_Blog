@@ -65,6 +65,7 @@ Opens at **http://localhost:5174** — local only, not deployed (see `.vercelign
 - Write in **English only**
 - Click **Translate & save all** to auto-translate into all blog languages and save to `src/content/posts/`
 - Use the **Library** tab to browse and edit existing post groups
+- Use the **Instagram** tab (`#instagram`) to curate the homepage Instagram tiles (`data/instagram-feed.json` + posters in `public/media/instagram/`). Paste/edit Reel URLs, click **Fetch OG** to pull the poster, then **Save feed** and deploy. Homepage shows a 3×3 Reels-style grid.
 
 Requires `OPENAI_API_KEY` in `.env` for automatic translations.
 

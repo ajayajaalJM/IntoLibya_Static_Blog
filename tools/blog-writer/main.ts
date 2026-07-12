@@ -54,6 +54,14 @@ interface LoadedPost {
   path: string;
 }
 
+interface InstagramFeedItem {
+  id: string;
+  url: string;
+  title: string;
+  image: string;
+  mediaKind: 'reel' | 'post' | 'carousel';
+}
+
 const form = document.getElementById('form') as HTMLFormElement;
 const englishPreview = document.getElementById('english-preview') as HTMLPreElement;
 const outputTabs = document.getElementById('output-tabs') as HTMLDivElement;
@@ -64,6 +72,10 @@ const translationsRoot = document.getElementById('translations') as HTMLDivEleme
 const libraryList = document.getElementById('library-list') as HTMLDivElement;
 const viewWrite = document.getElementById('view-write') as HTMLElement;
 const viewLibrary = document.getElementById('view-library') as HTMLElement;
+const viewInstagram = document.getElementById('view-instagram') as HTMLElement;
+const instagramList = document.getElementById('instagram-list') as HTMLDivElement;
+const instagramStatus = document.getElementById('instagram-status') as HTMLParagraphElement;
+const instagramForm = document.getElementById('instagram-form') as HTMLFormElement;
 
 const baseSlugInput = form.elements.namedItem('baseSlug') as HTMLInputElement;
 const titleInput = form.elements.namedItem('title') as HTMLInputElement;
@@ -86,6 +98,8 @@ let activeOutputLang: Lang = 'en';
 let editingGroup: string | null = null;
 const outputs = new Map<Lang, GeneratedFile>();
 const progressState = new Map<Lang, LangProgress>();
+let instagramItems: InstagramFeedItem[] = [];
+let instagramUpdatedAt: string | null = null;
 
 dateInput.value = new Date().toISOString().slice(0, 10);
 
@@ -466,13 +480,248 @@ async function loadLibrary() {
   });
 }
 
-function showView(view: 'write' | 'library') {
+function showView(view: 'write' | 'library' | 'instagram') {
   viewWrite.classList.toggle('hidden', view !== 'write');
   viewLibrary.classList.toggle('hidden', view !== 'library');
+  viewInstagram.classList.toggle('hidden', view !== 'instagram');
   document.querySelectorAll<HTMLButtonElement>('.nav-link').forEach((btn) => {
     btn.classList.toggle('is-active', btn.dataset.view === view);
   });
   if (view === 'library') void loadLibrary();
+  if (view === 'instagram') void loadInstagramFeed();
+}
+
+function slugifyId(value: string): string {
+  return slugify(value).slice(0, 64) || `ig-${Date.now()}`;
+}
+
+function renderInstagramList() {
+  if (!instagramItems.length) {
+    instagramList.innerHTML = '<p class="hint">No items yet. Add a Reel, post, or carousel below.</p>';
+    return;
+  }
+
+  instagramList.innerHTML = instagramItems
+    .map((item, index) => `
+      <article class="instagram-card" data-index="${index}">
+        <img src="${item.image}?t=${Date.now()}" alt="" loading="lazy" />
+        <div class="instagram-card-body">
+          <label class="instagram-inline-label">Title
+            <input class="ig-title" type="text" value="${escapeAttr(item.title)}" />
+          </label>
+          <label class="instagram-inline-label">Instagram URL
+            <div class="instagram-url-row">
+              <input class="ig-url" type="url" value="${escapeAttr(item.url)}" placeholder="https://www.instagram.com/reel/XXXX/" />
+              <button type="button" class="ig-fetch-og">Fetch OG</button>
+            </div>
+          </label>
+          <div class="instagram-inline-meta">
+            <label class="instagram-inline-label">Kind
+              <select class="ig-kind">
+                <option value="reel"${item.mediaKind === 'reel' ? ' selected' : ''}>Reel</option>
+                <option value="post"${item.mediaKind === 'post' ? ' selected' : ''}>Post</option>
+                <option value="carousel"${item.mediaKind === 'carousel' ? ' selected' : ''}>Carousel</option>
+              </select>
+            </label>
+            <p class="library-meta"><code>${escapeHtml(item.image)}</code></p>
+          </div>
+        </div>
+        <div class="instagram-card-actions">
+          <button type="button" class="ig-up" ${index === 0 ? 'disabled' : ''}>↑</button>
+          <button type="button" class="ig-down" ${index === instagramItems.length - 1 ? 'disabled' : ''}>↓</button>
+          <button type="button" class="danger ig-remove">Remove</button>
+        </div>
+      </article>
+    `)
+    .join('');
+
+  instagramList.querySelectorAll<HTMLElement>('.instagram-card').forEach((card) => {
+    const index = Number(card.dataset.index);
+    const titleInput = card.querySelector<HTMLInputElement>('.ig-title');
+    const urlInput = card.querySelector<HTMLInputElement>('.ig-url');
+    const kindSelect = card.querySelector<HTMLSelectElement>('.ig-kind');
+
+    titleInput?.addEventListener('change', () => {
+      instagramItems[index].title = titleInput.value.trim() || instagramItems[index].title;
+      updateInstagramStatus('Unsaved changes — click Save feed.');
+    });
+
+    urlInput?.addEventListener('change', () => {
+      const nextUrl = urlInput.value.trim();
+      instagramItems[index].url = nextUrl;
+      updateInstagramStatus('Unsaved changes — click Save feed.');
+      if (isValidInstagramUrl(nextUrl)) {
+        void fetchOgForItem(index, nextUrl);
+      }
+    });
+
+    kindSelect?.addEventListener('change', () => {
+      instagramItems[index].mediaKind = kindSelect.value as InstagramFeedItem['mediaKind'];
+      updateInstagramStatus('Unsaved changes — click Save feed.');
+    });
+
+    card.querySelector('.ig-fetch-og')?.addEventListener('click', () => {
+      const nextUrl = urlInput?.value.trim() || instagramItems[index].url;
+      void fetchOgForItem(index, nextUrl);
+    });
+
+    card.querySelector('.ig-up')?.addEventListener('click', () => {
+      if (index <= 0) return;
+      const [item] = instagramItems.splice(index, 1);
+      instagramItems.splice(index - 1, 0, item);
+      renderInstagramList();
+    });
+    card.querySelector('.ig-down')?.addEventListener('click', () => {
+      if (index >= instagramItems.length - 1) return;
+      const [item] = instagramItems.splice(index, 1);
+      instagramItems.splice(index + 1, 0, item);
+      renderInstagramList();
+    });
+    card.querySelector('.ig-remove')?.addEventListener('click', () => {
+      instagramItems.splice(index, 1);
+      renderInstagramList();
+      updateInstagramStatus('Unsaved changes — click Save feed.');
+    });
+  });
+}
+
+function escapeAttr(value: string): string {
+  return value
+    .replace(/&/g, '&amp;')
+    .replace(/"/g, '&quot;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;');
+}
+
+function escapeHtml(value: string): string {
+  return escapeAttr(value).replace(/'/g, '&#39;');
+}
+
+function isValidInstagramUrl(value: string): boolean {
+  try {
+    const parsed = new URL(value);
+    return /(^|\.)instagram\.com$/i.test(parsed.hostname);
+  } catch {
+    return false;
+  }
+}
+
+function updateInstagramStatus(message?: string) {
+  const when = instagramUpdatedAt
+    ? new Date(instagramUpdatedAt).toLocaleString()
+    : 'never';
+  const base = `${instagramItems.length} item(s) · last saved ${when} · homepage shows first 9 (3×3)`;
+  instagramStatus.textContent = message ? `${message} ${base}` : base;
+}
+
+async function loadInstagramFeed() {
+  instagramStatus.textContent = 'Loading feed…';
+  const res = await fetch('/api/instagram-feed');
+  const data = await res.json() as {
+    ok: boolean;
+    feed?: { updatedAt: string | null; items: InstagramFeedItem[] };
+    error?: string;
+  };
+  if (!res.ok || !data.ok || !data.feed) {
+    instagramStatus.textContent = data.error || 'Could not load Instagram feed.';
+    return;
+  }
+  instagramItems = Array.isArray(data.feed.items) ? [...data.feed.items] : [];
+  instagramUpdatedAt = data.feed.updatedAt;
+  renderInstagramList();
+  updateInstagramStatus();
+}
+
+async function uploadInstagramImage(id: string, file: File): Promise<string> {
+  const body = new FormData();
+  body.append('id', id);
+  body.append('image', file);
+  const res = await fetch('/api/instagram-image', { method: 'POST', body });
+  const data = await res.json() as { ok: boolean; path?: string; error?: string };
+  if (!res.ok || !data.ok || !data.path) {
+    throw new Error(data.error || 'Image upload failed');
+  }
+  return data.path;
+}
+
+async function fetchOgPreview(url: string, id?: string): Promise<{
+  title: string;
+  image: string;
+  mediaKind: InstagramFeedItem['mediaKind'];
+}> {
+  const res = await fetch('/api/instagram-og', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ url, id }),
+  });
+  const data = await res.json() as {
+    ok: boolean;
+    title?: string;
+    image?: string;
+    mediaKind?: InstagramFeedItem['mediaKind'];
+    error?: string;
+  };
+  if (!res.ok || !data.ok || !data.image) {
+    throw new Error(data.error || 'OG fetch failed');
+  }
+  return {
+    title: data.title || 'Instagram post',
+    image: data.image,
+    mediaKind: data.mediaKind || 'post',
+  };
+}
+
+async function fetchOgForItem(index: string | number, url: string) {
+  const i = Number(index);
+  if (!isValidInstagramUrl(url)) {
+    updateInstagramStatus('Enter a valid Instagram URL first.');
+    return;
+  }
+  updateInstagramStatus('Fetching OG image…');
+  try {
+    const preview = await fetchOgPreview(url, instagramItems[i].id);
+    instagramItems[i].url = url;
+    instagramItems[i].image = preview.image;
+    if (!instagramItems[i].title || instagramItems[i].title.startsWith('http')) {
+      instagramItems[i].title = preview.title;
+    } else if (preview.title && preview.title !== 'Instagram post') {
+      instagramItems[i].title = preview.title;
+    }
+    instagramItems[i].mediaKind = preview.mediaKind;
+    renderInstagramList();
+    updateInstagramStatus('OG image updated — click Save feed.');
+  } catch (err) {
+    updateInstagramStatus(err instanceof Error ? err.message : 'OG fetch failed.');
+  }
+}
+
+async function saveInstagramFeed() {
+  const saveBtn = document.getElementById('save-instagram') as HTMLButtonElement;
+  saveBtn.disabled = true;
+  updateInstagramStatus('Saving…');
+  try {
+    const res = await fetch('/api/instagram-feed', {
+      method: 'PUT',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ items: instagramItems }),
+    });
+    const data = await res.json() as {
+      ok: boolean;
+      feed?: { updatedAt: string; items: InstagramFeedItem[] };
+      error?: string;
+    };
+    if (!res.ok || !data.ok || !data.feed) {
+      throw new Error(data.error || 'Save failed');
+    }
+    instagramItems = data.feed.items;
+    instagramUpdatedAt = data.feed.updatedAt;
+    renderInstagramList();
+    updateInstagramStatus('Saved. Deploy to publish on the live site.');
+  } catch (err) {
+    updateInstagramStatus(err instanceof Error ? err.message : 'Save failed.');
+  } finally {
+    saveBtn.disabled = false;
+  }
 }
 
 function downloadFile(filename: string, content: string) {
@@ -506,7 +755,7 @@ form.addEventListener('change', regeneratePreview);
 form.addEventListener('submit', (e) => e.preventDefault());
 
 document.querySelectorAll<HTMLButtonElement>('.nav-link').forEach((btn) => {
-  btn.addEventListener('click', () => showView(btn.dataset.view as 'write' | 'library'));
+  btn.addEventListener('click', () => showView(btn.dataset.view as 'write' | 'library' | 'instagram'));
 });
 
 document.getElementById('save-all')?.addEventListener('click', () => {
@@ -516,6 +765,73 @@ document.getElementById('save-all')?.addEventListener('click', () => {
 document.getElementById('new-post')?.addEventListener('click', resetWriter);
 document.getElementById('refresh-library')?.addEventListener('click', () => {
   void loadLibrary();
+});
+document.getElementById('refresh-instagram')?.addEventListener('click', () => {
+  void loadInstagramFeed();
+});
+document.getElementById('save-instagram')?.addEventListener('click', () => {
+  void saveInstagramFeed();
+});
+
+instagramForm.addEventListener('submit', async (e) => {
+  e.preventDefault();
+  const fd = new FormData(instagramForm);
+  const titleInput = String(fd.get('title') ?? '').trim();
+  const url = String(fd.get('url') ?? '').trim();
+  let mediaKind = String(fd.get('mediaKind') ?? 'reel') as InstagramFeedItem['mediaKind'];
+  const idInput = String(fd.get('id') ?? '').trim();
+  const imagePath = String(fd.get('imagePath') ?? '').trim();
+  const fileInput = instagramForm.elements.namedItem('image') as HTMLInputElement;
+  const file = fileInput.files?.[0];
+  const id = slugifyId(idInput || titleInput || url);
+
+  if (!url) {
+    updateInstagramStatus('Instagram URL is required.');
+    return;
+  }
+  if (!isValidInstagramUrl(url)) {
+    updateInstagramStatus('URL must be an instagram.com link.');
+    return;
+  }
+  if (instagramItems.some((item) => item.id === id)) {
+    updateInstagramStatus(`ID "${id}" already exists — choose another.`);
+    return;
+  }
+
+  try {
+    let image = imagePath;
+    let title = titleInput;
+
+    if (file) {
+      updateInstagramStatus('Uploading poster…');
+      image = await uploadInstagramImage(id, file);
+    } else if (!image) {
+      updateInstagramStatus('Fetching OG image…');
+      const preview = await fetchOgPreview(url, id);
+      image = preview.image;
+      title = title || preview.title;
+      mediaKind = preview.mediaKind;
+    }
+
+    if (!image) {
+      updateInstagramStatus('Could not resolve a poster — upload one or use Fetch OG.');
+      return;
+    }
+
+    instagramItems.push({
+      id,
+      url,
+      title: title || 'Instagram post',
+      image,
+      mediaKind,
+    });
+    instagramForm.reset();
+    (instagramForm.elements.namedItem('mediaKind') as HTMLSelectElement).value = 'reel';
+    renderInstagramList();
+    updateInstagramStatus('Added to list — click Save feed to write files.');
+  } catch (err) {
+    updateInstagramStatus(err instanceof Error ? err.message : 'Could not add item.');
+  }
 });
 
 document.getElementById('copy')?.addEventListener('click', async () => {
@@ -535,3 +851,4 @@ document.getElementById('download-all')?.addEventListener('click', () => {
 });
 
 if (location.hash === '#library') showView('library');
+if (location.hash === '#instagram') showView('instagram');

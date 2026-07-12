@@ -14,6 +14,21 @@ interface TranslatePayload {
   body: string;
 }
 
+interface InstagramFeedItem {
+  id: string;
+  url: string;
+  title: string;
+  image: string;
+  mediaKind: 'reel' | 'post' | 'carousel';
+}
+
+interface MultipartFile {
+  name: string;
+  filename: string;
+  contentType: string;
+  data: Buffer;
+}
+
 interface PostRecord {
   lang: Lang;
   slug: string;
@@ -47,6 +62,180 @@ async function readBody(req: import('http').IncomingMessage): Promise<string> {
   const chunks: Buffer[] = [];
   for await (const chunk of req) chunks.push(chunk as Buffer);
   return Buffer.concat(chunks).toString('utf8');
+}
+
+async function readBodyBuffer(req: import('http').IncomingMessage): Promise<Buffer> {
+  const chunks: Buffer[] = [];
+  for await (const chunk of req) chunks.push(chunk as Buffer);
+  return Buffer.concat(chunks);
+}
+
+function parseMultipart(buffer: Buffer, boundary: string): { fields: Record<string, string>; files: MultipartFile[] } {
+  const delim = Buffer.from(`--${boundary}`);
+  const fields: Record<string, string> = {};
+  const files: MultipartFile[] = [];
+  let start = buffer.indexOf(delim) + delim.length;
+
+  while (start !== -1 && start < buffer.length) {
+    if (buffer[start] === 45 && buffer[start + 1] === 45) break;
+    if (buffer[start] === 13 && buffer[start + 1] === 10) start += 2;
+
+    const next = buffer.indexOf(delim, start);
+    const part = buffer.subarray(start, next === -1 ? buffer.length : next - 2);
+    const headerEnd = part.indexOf('\r\n\r\n');
+    if (headerEnd === -1) {
+      start = next === -1 ? -1 : next + delim.length;
+      continue;
+    }
+
+    const headers = part.subarray(0, headerEnd).toString('utf8');
+    const body = part.subarray(headerEnd + 4);
+    const nameMatch = /name="([^"]+)"/i.exec(headers);
+    const filenameMatch = /filename="([^"]*)"/i.exec(headers);
+    const typeMatch = /Content-Type:\s*([^\r\n]+)/i.exec(headers);
+    const name = nameMatch?.[1] ?? '';
+
+    if (filenameMatch) {
+      files.push({
+        name,
+        filename: filenameMatch[1] || 'upload.bin',
+        contentType: typeMatch?.[1]?.trim() || 'application/octet-stream',
+        data: body,
+      });
+    } else if (name) {
+      fields[name] = body.toString('utf8');
+    }
+
+    start = next === -1 ? -1 : next + delim.length;
+  }
+
+  return { fields, files };
+}
+
+function extensionForUpload(filename: string, contentType: string): string {
+  const fromName = path.extname(filename).toLowerCase();
+  if (['.jpg', '.jpeg', '.png', '.webp', '.avif', '.gif'].includes(fromName)) {
+    return fromName === '.jpeg' ? '.jpg' : fromName;
+  }
+  if (contentType.includes('png')) return '.png';
+  if (contentType.includes('webp')) return '.webp';
+  if (contentType.includes('avif')) return '.avif';
+  if (contentType.includes('gif')) return '.gif';
+  return '.jpg';
+}
+
+function isInstagramUrl(value: string): boolean {
+  try {
+    const parsed = new URL(value);
+    return /(^|\.)instagram\.com$/i.test(parsed.hostname);
+  } catch {
+    return false;
+  }
+}
+
+function mediaKindFromUrl(value: string): InstagramFeedItem['mediaKind'] {
+  if (/\/reel\//i.test(value) || /\/reels\//i.test(value)) return 'reel';
+  if (/\/p\//i.test(value)) return 'post';
+  return 'post';
+}
+
+function decodeHtmlEntities(value: string): string {
+  return value
+    .replace(/&amp;/g, '&')
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&#x([0-9a-f]+);/gi, (_, hex) => String.fromCharCode(parseInt(hex, 16)))
+    .replace(/&#(\d+);/g, (_, num) => String.fromCharCode(Number(num)));
+}
+
+function extractMetaContent(html: string, property: string): string | null {
+  const patterns = [
+    new RegExp(`<meta[^>]+property=["']${property}["'][^>]+content=["']([^"']+)["']`, 'i'),
+    new RegExp(`<meta[^>]+content=["']([^"']+)["'][^>]+property=["']${property}["']`, 'i'),
+    new RegExp(`<meta[^>]+name=["']${property}["'][^>]+content=["']([^"']+)["']`, 'i'),
+    new RegExp(`<meta[^>]+content=["']([^"']+)["'][^>]+name=["']${property}["']`, 'i'),
+  ];
+  for (const pattern of patterns) {
+    const match = pattern.exec(html);
+    if (match?.[1]) return decodeHtmlEntities(match[1]);
+  }
+  return null;
+}
+
+async function fetchInstagramPreview(instagramUrl: string): Promise<{
+  title: string;
+  imageUrl: string;
+  mediaKind: InstagramFeedItem['mediaKind'];
+}> {
+  const mediaKind = mediaKindFromUrl(instagramUrl);
+  const headers = {
+    'User-Agent':
+      'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+    Accept: 'text/html,application/json',
+  };
+
+  // Prefer public oEmbed when available (no Graph token).
+  try {
+    const oembedUrl = `https://www.instagram.com/api/v1/oembed/?url=${encodeURIComponent(instagramUrl)}`;
+    const oembedRes = await fetch(oembedUrl, { headers: { ...headers, Accept: 'application/json' } });
+    if (oembedRes.ok) {
+      const oembed = (await oembedRes.json()) as { title?: string; thumbnail_url?: string };
+      if (oembed.thumbnail_url) {
+        return {
+          title: (oembed.title || 'Instagram post').trim(),
+          imageUrl: oembed.thumbnail_url,
+          mediaKind,
+        };
+      }
+    }
+  } catch {
+    // Fall through to HTML OG tags.
+  }
+
+  const pageRes = await fetch(instagramUrl, { headers, redirect: 'follow' });
+  if (!pageRes.ok) {
+    throw new Error(`Could not fetch Instagram URL (${pageRes.status})`);
+  }
+  const html = await pageRes.text();
+  const imageUrl =
+    extractMetaContent(html, 'og:image') ||
+    extractMetaContent(html, 'og:image:secure_url') ||
+    extractMetaContent(html, 'twitter:image');
+  if (!imageUrl) {
+    throw new Error('No OG image found for that Instagram URL. Upload a poster manually.');
+  }
+  const title =
+    extractMetaContent(html, 'og:title') ||
+    extractMetaContent(html, 'twitter:title') ||
+    'Instagram post';
+
+  return { title: title.trim(), imageUrl, mediaKind };
+}
+
+async function downloadOgImage(repoRoot: string, id: string, imageUrl: string): Promise<string> {
+  const safeId = id.replace(/[^a-zA-Z0-9_-]/g, '-').replace(/-+/g, '-').slice(0, 64) || `ig-${Date.now()}`;
+  const imageRes = await fetch(imageUrl, {
+    headers: {
+      'User-Agent':
+        'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+      Accept: 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8',
+      Referer: 'https://www.instagram.com/',
+    },
+  });
+  if (!imageRes.ok) {
+    throw new Error(`Could not download OG image (${imageRes.status})`);
+  }
+
+  const contentType = imageRes.headers.get('content-type') || 'image/jpeg';
+  const ext = extensionForUpload(new URL(imageUrl).pathname, contentType);
+  const relative = `/media/instagram/${safeId}${ext}`;
+  const fullPath = path.join(repoRoot, 'public', relative.replace(/^\//, ''));
+  await fs.mkdir(path.dirname(fullPath), { recursive: true });
+  const buffer = Buffer.from(await imageRes.arrayBuffer());
+  await fs.writeFile(fullPath, buffer);
+  return relative;
 }
 
 function json(res: import('http').ServerResponse, status: number, data: unknown) {
@@ -261,6 +450,117 @@ export function blogWriterDevApiPlugin(repoRoot: string): Plugin {
               saved.push(file.path);
             }
             json(res, 200, { ok: true, saved });
+            return;
+          }
+
+          if (req.method === 'GET' && url.pathname === '/api/instagram-feed') {
+            const feedPath = path.join(repoRoot, 'data/instagram-feed.json');
+            const raw = await fs.readFile(feedPath, 'utf8').catch(() => null);
+            if (!raw) {
+              json(res, 200, { ok: true, feed: { updatedAt: null, items: [] } });
+              return;
+            }
+            json(res, 200, { ok: true, feed: JSON.parse(raw) });
+            return;
+          }
+
+          if (req.method === 'PUT' && url.pathname === '/api/instagram-feed') {
+            const payload = JSON.parse(await readBody(req)) as { items?: InstagramFeedItem[] };
+            if (!Array.isArray(payload.items)) {
+              json(res, 400, { ok: false, error: 'items array is required' });
+              return;
+            }
+
+            const items: InstagramFeedItem[] = [];
+            for (const item of payload.items) {
+              const id = String(item.id ?? '').trim();
+              const itemUrl = String(item.url ?? '').trim();
+              const title = String(item.title ?? '').trim();
+              const image = String(item.image ?? '').trim();
+              const mediaKind = String(item.mediaKind ?? 'post').trim() as InstagramFeedItem['mediaKind'];
+
+              if (!id || !itemUrl || !title || !image) {
+                json(res, 400, { ok: false, error: 'Each item needs id, url, title, and image' });
+                return;
+              }
+              if (!['reel', 'post', 'carousel'].includes(mediaKind)) {
+                json(res, 400, { ok: false, error: `Invalid mediaKind: ${mediaKind}` });
+                return;
+              }
+              if (!/^https?:\/\/(www\.)?instagram\.com\//i.test(itemUrl)) {
+                json(res, 400, { ok: false, error: 'URL must be an instagram.com link' });
+                return;
+              }
+              if (!image.startsWith('/media/instagram/')) {
+                json(res, 400, { ok: false, error: 'Image must be under /media/instagram/' });
+                return;
+              }
+
+              items.push({ id, url: itemUrl, title, image, mediaKind });
+            }
+
+            const feed = {
+              updatedAt: new Date().toISOString(),
+              items,
+            };
+            const feedPath = path.join(repoRoot, 'data/instagram-feed.json');
+            await fs.mkdir(path.dirname(feedPath), { recursive: true });
+            await fs.writeFile(feedPath, `${JSON.stringify(feed, null, 2)}\n`, 'utf8');
+            json(res, 200, { ok: true, feed });
+            return;
+          }
+
+          if (req.method === 'POST' && url.pathname === '/api/instagram-image') {
+            const contentType = req.headers['content-type'] || '';
+            if (!contentType.includes('multipart/form-data')) {
+              json(res, 400, { ok: false, error: 'Expected multipart/form-data' });
+              return;
+            }
+
+            const boundaryMatch = /boundary=(?:"([^"]+)"|([^;]+))/i.exec(contentType);
+            const boundary = boundaryMatch?.[1] || boundaryMatch?.[2];
+            if (!boundary) {
+              json(res, 400, { ok: false, error: 'Missing multipart boundary' });
+              return;
+            }
+
+            const body = await readBodyBuffer(req);
+            const parsed = parseMultipart(body, boundary);
+            const file = parsed.files.find((f) => f.name === 'image' || f.name === 'file');
+            const idField = parsed.fields.id?.trim() || `ig-${Date.now()}`;
+            const safeId = idField.replace(/[^a-zA-Z0-9_-]/g, '-').replace(/-+/g, '-').slice(0, 64);
+            if (!file?.data.length) {
+              json(res, 400, { ok: false, error: 'Image file is required' });
+              return;
+            }
+
+            const ext = extensionForUpload(file.filename, file.contentType);
+            const relative = `/media/instagram/${safeId}${ext}`;
+            const fullPath = path.join(repoRoot, 'public', relative.replace(/^\//, ''));
+            await fs.mkdir(path.dirname(fullPath), { recursive: true });
+            await fs.writeFile(fullPath, file.data);
+            json(res, 200, { ok: true, path: relative, id: safeId });
+            return;
+          }
+
+          if (req.method === 'POST' && url.pathname === '/api/instagram-og') {
+            const payload = JSON.parse(await readBody(req)) as { url?: string; id?: string };
+            const instagramUrl = String(payload.url ?? '').trim();
+            if (!instagramUrl || !isInstagramUrl(instagramUrl)) {
+              json(res, 400, { ok: false, error: 'A valid Instagram URL is required' });
+              return;
+            }
+
+            const idHint = String(payload.id ?? '').trim() || `ig-${Date.now()}`;
+            const preview = await fetchInstagramPreview(instagramUrl);
+            const imagePath = await downloadOgImage(repoRoot, idHint, preview.imageUrl);
+            json(res, 200, {
+              ok: true,
+              url: instagramUrl,
+              title: preview.title,
+              mediaKind: preview.mediaKind,
+              image: imagePath,
+            });
             return;
           }
 
