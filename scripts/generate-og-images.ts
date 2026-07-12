@@ -19,9 +19,9 @@ const postsDir = path.join(root, 'src/content/posts');
 const publicDir = path.join(root, 'public');
 const ogDir = path.join(publicDir, 'media/og');
 const ogPostsDir = path.join(ogDir, 'posts');
-const brandShareSrc = path.join(publicDir, 'assets/branding/brand-share.png');
+const socialBannerSrc = path.join(publicDir, 'assets/branding/social-banner.png');
 
-/** Warm sand from the brand artwork — used when letterboxing to OG / pin ratios. */
+/** Warm sand from the brand artwork — used when letterboxing to pin ratio. */
 const SAND = { r: 237, g: 230, b: 217 };
 
 async function ensureDir(dir: string) {
@@ -53,20 +53,21 @@ async function writeCoverOg(sourcePublicPath: string, destPublicPath: string): P
 }
 
 /**
- * Place brand artwork on a sand canvas without stretching or cropping the logo stack.
+ * Place artwork on a sand canvas without stretching (used for vertical Pinterest pin).
  */
-async function composeBrandOnCanvas(
+async function composeOnCanvas(
+  sourcePath: string,
   width: number,
   height: number,
   maxContentRatio = 0.88,
 ): Promise<Buffer> {
-  if (!(await fileExists(brandShareSrc))) {
-    throw new Error('Missing public/assets/branding/brand-share.png');
+  if (!(await fileExists(sourcePath))) {
+    throw new Error(`Missing source image: ${sourcePath}`);
   }
 
   const maxW = Math.round(width * maxContentRatio);
   const maxH = Math.round(height * maxContentRatio);
-  const artwork = await sharp(brandShareSrc)
+  const artwork = await sharp(sourcePath)
     .rotate()
     .resize(maxW, maxH, { fit: 'inside', withoutEnlargement: false })
     .png()
@@ -95,15 +96,27 @@ async function composeBrandOnCanvas(
     .toBuffer();
 }
 
-/** Homepage / blog-index OG (1200×630) + Pinterest pin (1000×1500). */
-async function generateBrandShareImages(): Promise<{ og: string; pin: string }> {
+/**
+ * Homepage / blog-index OG from social-banner (already ~1.91:1 → exact 1200×630)
+ * plus a letterboxed Pinterest pin.
+ */
+async function generateSocialBannerImages(): Promise<{ og: string; pin: string }> {
   await ensureDir(ogDir);
+  if (!(await fileExists(socialBannerSrc))) {
+    throw new Error('Missing public/assets/branding/social-banner.png');
+  }
 
   const ogDest = path.join(publicDir, DEFAULT_OG_IMAGE.replace(/^\/+/, ''));
   const pinDest = path.join(publicDir, DEFAULT_PINTEREST_IMAGE.replace(/^\/+/, ''));
 
-  await sharp(await composeBrandOnCanvas(OG_WIDTH, OG_HEIGHT, 0.92)).toFile(ogDest);
-  await sharp(await composeBrandOnCanvas(PIN_WIDTH, PIN_HEIGHT, 0.82)).toFile(pinDest);
+  // Source is already ~1.91:1 — cover into exact OG dimensions.
+  await sharp(socialBannerSrc)
+    .rotate()
+    .resize(OG_WIDTH, OG_HEIGHT, { fit: 'cover', position: 'centre' })
+    .jpeg({ quality: 90, mozjpeg: true })
+    .toFile(ogDest);
+
+  await sharp(await composeOnCanvas(socialBannerSrc, PIN_WIDTH, PIN_HEIGHT, 0.92)).toFile(pinDest);
 
   return { og: DEFAULT_OG_IMAGE, pin: DEFAULT_PINTEREST_IMAGE };
 }
@@ -128,8 +141,8 @@ async function collectFeaturedImages(): Promise<string[]> {
 }
 
 async function main() {
-  console.log(`Generating brand OG ${OG_WIDTH}×${OG_HEIGHT} + Pinterest pin ${PIN_WIDTH}×${PIN_HEIGHT}…`);
-  const brand = await generateBrandShareImages();
+  console.log(`Generating social-banner OG ${OG_WIDTH}×${OG_HEIGHT} + pin ${PIN_WIDTH}×${PIN_HEIGHT}…`);
+  const brand = await generateSocialBannerImages();
   console.log(`✓ ${brand.og}`);
   console.log(`✓ ${brand.pin}`);
 
