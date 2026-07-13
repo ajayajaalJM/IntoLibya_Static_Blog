@@ -1,0 +1,30 @@
+---
+/**
+ * Renders HTML body segments interleaved with in-body galleries.
+ * Body HTML is already rehype-processed when using Astro Content render;
+ * for marker-split paths we apply the same Vercel image URL rewrite lightly.
+ */
+import ImageGallery from './ImageGallery.astro';
+import type { Gallery } from '../lib/gallery-schema';
+import { splitBodyWithGalleries } from '../lib/galleries';
+import { optimizeInlineHtmlImages } from '../lib/optimize-inline-html';
+
+interface Props {
+  body: string;
+  galleries: Gallery[];
+}
+
+const { body, galleries } = Astro.props;
+const inBody = galleries.filter((g) => g.position === 'in-body');
+const segments = splitBodyWithGalleries(body, inBody);
+---
+
+{
+  segments.map((segment) =>
+    segment.type === 'gallery' ? (
+      <ImageGallery gallery={segment.gallery} />
+    ) : (
+      <div class="gallery-body-segment" set:html={optimizeInlineHtmlImages(segment.html)} />
+    ),
+  )
+}

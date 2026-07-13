@@ -1,5 +1,8 @@
 import { dump as yamlDump } from 'js-yaml';
+import type { Gallery } from '../../../src/lib/gallery-schema';
 import { LANGS, type Lang } from '../../../src/lib/post-schema';
+
+export type ContentKind = 'post' | 'destination';
 
 export interface PostDraft {
   lang: Lang;
@@ -29,12 +32,21 @@ export function slugForLang(baseSlug: string, lang: Lang): string {
   return lang === 'en' ? baseSlug : `${baseSlug}-${lang}`;
 }
 
-export function canonicalPathForLang(baseSlug: string, lang: Lang): string {
-  return `/${lang}/${slugForLang(baseSlug, lang)}`;
+export function canonicalPathForLang(
+  baseSlug: string,
+  lang: Lang,
+  kind: ContentKind = 'post',
+): string {
+  const slug = slugForLang(baseSlug, lang);
+  return kind === 'destination' ? `/${lang}/destination/${slug}` : `/${lang}/${slug}`;
 }
 
 function stripHtml(html: string): string {
   return html.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+}
+
+function contentDir(kind: ContentKind): string {
+  return kind === 'destination' ? 'destinations' : 'posts';
 }
 
 export function buildMarkdown(
@@ -44,10 +56,14 @@ export function buildMarkdown(
     publishedAt: string;
     translationGroup: string;
     featuredImage: string;
+    galleries?: Gallery[];
+    contentKind?: ContentKind;
+    draft?: boolean;
   },
 ): GeneratedFile {
+  const kind = shared.contentKind ?? 'post';
   const slug = slugForLang(baseSlug, draft.lang);
-  const canonicalPath = canonicalPathForLang(baseSlug, draft.lang);
+  const canonicalPath = canonicalPathForLang(baseSlug, draft.lang, kind);
   const canonical = `https://intolibya.com${canonicalPath}`;
   const excerpt = stripHtml(draft.body).slice(0, 160);
 
@@ -59,12 +75,14 @@ export function buildMarkdown(
     publishedAt: shared.publishedAt,
     translationGroup: shared.translationGroup,
     featuredImage: shared.featuredImage,
+    galleries: shared.galleries ?? [],
     seo: {
       title: draft.seoTitle || draft.title,
       description: draft.seoDescription || excerpt,
       canonical,
     },
   };
+  if (shared.draft) fm.draft = true;
   if (excerpt) fm.excerpt = excerpt;
 
   const yamlBlock = yamlDump(fm, { lineWidth: -1 }).trimEnd();
@@ -73,7 +91,7 @@ export function buildMarkdown(
   return {
     lang: draft.lang,
     md: `---\n${yamlBlock}\n---\n\n${body ? `${body}\n` : ''}`,
-    path: `src/content/posts/${draft.lang}/${slug}.md`,
+    path: `src/content/${contentDir(kind)}/${draft.lang}/${slug}.md`,
     slug,
   };
 }
@@ -85,6 +103,9 @@ export function buildAllMarkdown(
     publishedAt: string;
     translationGroup: string;
     featuredImage: string;
+    galleries?: Gallery[];
+    contentKind?: ContentKind;
+    draft?: boolean;
   },
 ): GeneratedFile[] {
   if (!shared.featuredImage?.trim()) {

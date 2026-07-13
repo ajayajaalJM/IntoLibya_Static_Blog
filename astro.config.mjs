@@ -6,6 +6,7 @@ import sitemap from '@astrojs/sitemap';
 import rehypeRaw from 'rehype-raw';
 import { rehypeOptimizeBlogImages } from './src/lib/rehype-optimize-blog-images.ts';
 import { rehypeNormalizeInternalLinks } from './src/lib/rehype-normalize-internal-links.ts';
+import { rehypeEnsureHrBeforeH2 } from './src/lib/rehype-ensure-hr-before-h2.ts';
 
 // https://astro.build/config
 export default defineConfig({
@@ -38,7 +39,12 @@ export default defineConfig({
   },
   integrations: [sitemap()],
   markdown: {
-    rehypePlugins: [rehypeRaw, rehypeOptimizeBlogImages, rehypeNormalizeInternalLinks],
+    rehypePlugins: [
+      rehypeRaw,
+      rehypeEnsureHrBeforeH2,
+      rehypeOptimizeBlogImages,
+      rehypeNormalizeInternalLinks,
+    ],
   },
   vite: {
     plugins: [tailwindcss()],

@@ -1,0 +1,49 @@
+---
+import OptimizedImage from './OptimizedImage.astro';
+import type { Gallery } from '../lib/gallery-schema';
+
+interface Props {
+  gallery: Gallery;
+  /** Absolute site origin for JSON-LD consumers (optional). */
+  siteUrl?: string;
+}
+
+const { gallery } = Astro.props;
+const titleId = gallery.title ? `gallery-${gallery.id}-title` : undefined;
+---
+
+<figure
+  class="image-gallery my-10"
+  data-gallery-id={gallery.id}
+  aria-labelledby={titleId}
+>
+  {gallery.title && (
+    <figcaption id={titleId} class="mb-4 text-lg font-bold text-charcoal">
+      {gallery.title}
+    </figcaption>
+  )}
+  <ul class="grid list-none gap-4 p-0 sm:grid-cols-2">
+    {gallery.images.map((image) => (
+      <li class="m-0 p-0">
+        <figure class="m-0">
+          <OptimizedImage
+            src={image.src}
+            alt={image.alt}
+            width={960}
+            height={640}
+            widths={[400, 640, 960]}
+            sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 360px"
+            pictureClass="block overflow-hidden rounded-sm"
+            class="h-56 w-full object-cover md:h-64"
+            loading="lazy"
+            decoding="async"
+            quality={70}
+          />
+          {image.caption && (
+            <figcaption class="mt-2 text-sm text-muted">{image.caption}</figcaption>
+          )}
+        </figure>
+      </li>
+    ))}
+  </ul>
+</figure>

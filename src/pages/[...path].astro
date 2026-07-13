@@ -2,24 +2,35 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import FinalCTA from '../components/FinalCTA.astro';
 import OptimizedImage from '../components/OptimizedImage.astro';
+import ImageGallery from '../components/ImageGallery.astro';
+import BodyWithGalleries from '../components/BodyWithGalleries.astro';
 import { getCollection, render } from 'astro:content';
 import { getAllPosts, getTranslationSiblings } from '../lib/posts';
+import { galleriesAt, galleryImageObjects } from '../lib/galleries';
 import { LANG_LABELS, type Lang } from '../lib/post-schema';
 import { ogPathForFeaturedImage } from '../lib/og';
 
 export async function getStaticPaths() {
   const posts = await getCollection('posts');
-  return posts.map((post) => {
-    const segments = post.data.canonicalPath.replace(/^\/|\/$/g, '').split('/');
-    return {
-      params: { path: segments.join('/') },
-      props: { post, id: post.id },
-    };
-  });
+  return posts
+    .filter((post) => post.data.draft !== true)
+    .map((post) => {
+      const segments = post.data.canonicalPath.replace(/^\/|\/$/g, '').split('/');
+      return {
+        params: { path: segments.join('/') },
+        props: { post, id: post.id },
+      };
+    });
 }
 
 const { post } = Astro.props;
-const { Content } = await render(post);
+const galleries = post.data.galleries ?? [];
+const inBodyGalleries = galleriesAt(galleries, 'in-body');
+const afterHero = galleriesAt(galleries, 'after-hero');
+const afterBody = galleriesAt(galleries, 'after-body');
+const useSplitBody = inBodyGalleries.length > 0;
+
+const { Content } = useSplitBody ? { Content: null as null } : await render(post);
 const allPosts = await getAllPosts();
 const siblings = getTranslationSiblings(post, allPosts);
 const siteUrl = Astro.site?.href?.replace(/\/$/, '') || 'https://intolibya.com';
@@ -35,18 +46,26 @@ const hreflangAlternates = [
   { lang: 'x-default', href: `${siteUrl}${post.data.canonicalPath}` },
 ];
 
-const jsonLd = {
-  '@context': 'https://schema.org',
-  '@type': 'Article',
-  headline: post.data.seo.title,
-  description: post.data.seo.description,
-  datePublished: post.data.publishedAt.toISOString(),
-  mainEntityOfPage: post.data.seo.canonical,
-  image: `${siteUrl}${ogImage}`,
-  author: { '@type': 'Organization', name: 'IntoLibya', url: siteUrl },
-  publisher: { '@type': 'Organization', name: 'IntoLibya', url: siteUrl },
-  inLanguage: lang,
-};
+const imageObjects = galleryImageObjects(galleries, siteUrl);
+
+const jsonLd: Record<string, unknown>[] = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: post.data.seo.title,
+    description: post.data.seo.description,
+    datePublished: post.data.publishedAt.toISOString(),
+    mainEntityOfPage: post.data.seo.canonical,
+    image: [`${siteUrl}${ogImage}`, ...imageObjects.map((img) => img.contentUrl)],
+    author: { '@type': 'Organization', name: 'IntoLibya', url: siteUrl },
+    publisher: { '@type': 'Organization', name: 'IntoLibya', url: siteUrl },
+    inLanguage: lang,
+  },
+  ...imageObjects.map((img) => ({
+    '@context': 'https://schema.org',
+    ...img,
+  })),
+];
 ---
 
 <BaseLayout
@@ -108,9 +127,17 @@ const jsonLd = {
         </div>
       )}
 
+      {afterHero.map((gallery) => <ImageGallery gallery={gallery} />)}
+
       <div class="prose-blog">
-        <Content />
+        {useSplitBody ? (
+          <BodyWithGalleries body={post.body} galleries={galleries} />
+        ) : (
+          Content ? <Content /> : null
+        )}
       </div>
+
+      {afterBody.map((gallery) => <ImageGallery gallery={gallery} />)}
     </div>
   </article>
   <FinalCTA />

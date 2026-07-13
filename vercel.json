@@ -1,21 +1,1561 @@
 {
   "trailingSlash": false,
   "redirects": [
-    { "source": "/blog", "destination": "/en", "permanent": true },
-    { "source": "/blog/", "destination": "/en", "permanent": true },
-    { "source": "/checkout", "destination": "/tourbuilder/booking", "permanent": true },
-    { "source": "/checkout/", "destination": "/tourbuilder/booking", "permanent": true },
-    { "source": "/checkout/:path*", "destination": "/tourbuilder/booking", "permanent": true },
-    { "source": "/cart", "destination": "/tourbuilder/booking", "permanent": true },
-    { "source": "/cart/", "destination": "/tourbuilder/booking", "permanent": true },
-    { "source": "/cart/:path*", "destination": "/tourbuilder/booking", "permanent": true },
-    { "source": "/wp-travel-engine-:path*", "destination": "/tourbuilder", "permanent": true },
-    { "source": "/TourBuilder", "destination": "/tourbuilder", "permanent": true },
-    { "source": "/TourBuilder/", "destination": "/tourbuilder", "permanent": true },
-    { "source": "/TourBuilder/:path*/", "destination": "/tourbuilder/:path*", "permanent": true },
-    { "source": "/TourBuilder/:path*", "destination": "/tourbuilder/:path*", "permanent": true },
-    { "source": "/tourbuilder/", "destination": "/tourbuilder", "permanent": true },
-    { "source": "/tourbuilder/:path*/", "destination": "/tourbuilder/:path*", "permanent": true }
+    {
+      "source": "/blog",
+      "destination": "/en",
+      "permanent": true
+    },
+    {
+      "source": "/blog/",
+      "destination": "/en",
+      "permanent": true
+    },
+    {
+      "source": "/checkout",
+      "destination": "/tourbuilder/booking",
+      "permanent": true
+    },
+    {
+      "source": "/checkout/",
+      "destination": "/tourbuilder/booking",
+      "permanent": true
+    },
+    {
+      "source": "/checkout/:path*",
+      "destination": "/tourbuilder/booking",
+      "permanent": true
+    },
+    {
+      "source": "/cart",
+      "destination": "/tourbuilder/booking",
+      "permanent": true
+    },
+    {
+      "source": "/cart/",
+      "destination": "/tourbuilder/booking",
+      "permanent": true
+    },
+    {
+      "source": "/cart/:path*",
+      "destination": "/tourbuilder/booking",
+      "permanent": true
+    },
+    {
+      "source": "/wp-travel-engine-:path*",
+      "destination": "/tourbuilder",
+      "permanent": true
+    },
+    {
+      "source": "/TourBuilder",
+      "destination": "/tourbuilder",
+      "permanent": true
+    },
+    {
+      "source": "/TourBuilder/",
+      "destination": "/tourbuilder",
+      "permanent": true
+    },
+    {
+      "source": "/TourBuilder/:path*/",
+      "destination": "/tourbuilder/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/TourBuilder/:path*",
+      "destination": "/tourbuilder/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/tourbuilder/",
+      "destination": "/tourbuilder",
+      "permanent": true
+    },
+    {
+      "source": "/tourbuilder/:path*/",
+      "destination": "/tourbuilder/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/en/tripoli",
+      "destination": "/en/destination/tripoli",
+      "permanent": true
+    },
+    {
+      "source": "/en/tripoli/",
+      "destination": "/en/destination/tripoli",
+      "permanent": true
+    },
+    {
+      "source": "/es/tripoli-es",
+      "destination": "/es/destination/tripoli-es",
+      "permanent": true
+    },
+    {
+      "source": "/es/tripoli-es/",
+      "destination": "/es/destination/tripoli-es",
+      "permanent": true
+    },
+    {
+      "source": "/pl/tripoli-pl",
+      "destination": "/pl/destination/tripoli-pl",
+      "permanent": true
+    },
+    {
+      "source": "/pl/tripoli-pl/",
+      "destination": "/pl/destination/tripoli-pl",
+      "permanent": true
+    },
+    {
+      "source": "/ja/tripoli-ja",
+      "destination": "/ja/destination/tripoli-ja",
+      "permanent": true
+    },
+    {
+      "source": "/ja/tripoli-ja/",
+      "destination": "/ja/destination/tripoli-ja",
+      "permanent": true
+    },
+    {
+      "source": "/zh/tripoli-zh",
+      "destination": "/zh/destination/tripoli-zh",
+      "permanent": true
+    },
+    {
+      "source": "/zh/tripoli-zh/",
+      "destination": "/zh/destination/tripoli-zh",
+      "permanent": true
+    },
+    {
+      "source": "/nl/tripoli-nl",
+      "destination": "/nl/destination/tripoli-nl",
+      "permanent": true
+    },
+    {
+      "source": "/nl/tripoli-nl/",
+      "destination": "/nl/destination/tripoli-nl",
+      "permanent": true
+    },
+    {
+      "source": "/de/tripoli-de",
+      "destination": "/de/destination/tripoli-de",
+      "permanent": true
+    },
+    {
+      "source": "/de/tripoli-de/",
+      "destination": "/de/destination/tripoli-de",
+      "permanent": true
+    },
+    {
+      "source": "/fr/tripoli-fr",
+      "destination": "/fr/destination/tripoli-fr",
+      "permanent": true
+    },
+    {
+      "source": "/fr/tripoli-fr/",
+      "destination": "/fr/destination/tripoli-fr",
+      "permanent": true
+    },
+    {
+      "source": "/it/tripoli-it",
+      "destination": "/it/destination/tripoli-it",
+      "permanent": true
+    },
+    {
+      "source": "/it/tripoli-it/",
+      "destination": "/it/destination/tripoli-it",
+      "permanent": true
+    },
+    {
+      "source": "/pt/tripoli-pt",
+      "destination": "/pt/destination/tripoli-pt",
+      "permanent": true
+    },
+    {
+      "source": "/pt/tripoli-pt/",
+      "destination": "/pt/destination/tripoli-pt",
+      "permanent": true
+    },
+    {
+      "source": "/ru/tripoli-ru",
+      "destination": "/ru/destination/tripoli-ru",
+      "permanent": true
+    },
+    {
+      "source": "/ru/tripoli-ru/",
+      "destination": "/ru/destination/tripoli-ru",
+      "permanent": true
+    },
+    {
+      "source": "/ar/tripoli-ar",
+      "destination": "/ar/destination/tripoli-ar",
+      "permanent": true
+    },
+    {
+      "source": "/ar/tripoli-ar/",
+      "destination": "/ar/destination/tripoli-ar",
+      "permanent": true
+    },
+    {
+      "source": "/en/ghadames",
+      "destination": "/en/destination/ghadames",
+      "permanent": true
+    },
+    {
+      "source": "/en/ghadames/",
+      "destination": "/en/destination/ghadames",
+      "permanent": true
+    },
+    {
+      "source": "/es/ghadames-es",
+      "destination": "/es/destination/ghadames-es",
+      "permanent": true
+    },
+    {
+      "source": "/es/ghadames-es/",
+      "destination": "/es/destination/ghadames-es",
+      "permanent": true
+    },
+    {
+      "source": "/pl/ghadames-pl",
+      "destination": "/pl/destination/ghadames-pl",
+      "permanent": true
+    },
+    {
+      "source": "/pl/ghadames-pl/",
+      "destination": "/pl/destination/ghadames-pl",
+      "permanent": true
+    },
+    {
+      "source": "/ja/ghadames-ja",
+      "destination": "/ja/destination/ghadames-ja",
+      "permanent": true
+    },
+    {
+      "source": "/ja/ghadames-ja/",
+      "destination": "/ja/destination/ghadames-ja",
+      "permanent": true
+    },
+    {
+      "source": "/zh/ghadames-zh",
+      "destination": "/zh/destination/ghadames-zh",
+      "permanent": true
+    },
+    {
+      "source": "/zh/ghadames-zh/",
+      "destination": "/zh/destination/ghadames-zh",
+      "permanent": true
+    },
+    {
+      "source": "/nl/ghadames-nl",
+      "destination": "/nl/destination/ghadames-nl",
+      "permanent": true
+    },
+    {
+      "source": "/nl/ghadames-nl/",
+      "destination": "/nl/destination/ghadames-nl",
+      "permanent": true
+    },
+    {
+      "source": "/de/ghadames-de",
+      "destination": "/de/destination/ghadames-de",
+      "permanent": true
+    },
+    {
+      "source": "/de/ghadames-de/",
+      "destination": "/de/destination/ghadames-de",
+      "permanent": true
+    },
+    {
+      "source": "/fr/ghadames-fr",
+      "destination": "/fr/destination/ghadames-fr",
+      "permanent": true
+    },
+    {
+      "source": "/fr/ghadames-fr/",
+      "destination": "/fr/destination/ghadames-fr",
+      "permanent": true
+    },
+    {
+      "source": "/it/ghadames-it",
+      "destination": "/it/destination/ghadames-it",
+      "permanent": true
+    },
+    {
+      "source": "/it/ghadames-it/",
+      "destination": "/it/destination/ghadames-it",
+      "permanent": true
+    },
+    {
+      "source": "/pt/ghadames-pt",
+      "destination": "/pt/destination/ghadames-pt",
+      "permanent": true
+    },
+    {
+      "source": "/pt/ghadames-pt/",
+      "destination": "/pt/destination/ghadames-pt",
+      "permanent": true
+    },
+    {
+      "source": "/ru/ghadames-ru",
+      "destination": "/ru/destination/ghadames-ru",
+      "permanent": true
+    },
+    {
+      "source": "/ru/ghadames-ru/",
+      "destination": "/ru/destination/ghadames-ru",
+      "permanent": true
+    },
+    {
+      "source": "/ar/ghadames-ar",
+      "destination": "/ar/destination/ghadames-ar",
+      "permanent": true
+    },
+    {
+      "source": "/ar/ghadames-ar/",
+      "destination": "/ar/destination/ghadames-ar",
+      "permanent": true
+    },
+    {
+      "source": "/en/sabratha",
+      "destination": "/en/destination/sabratha",
+      "permanent": true
+    },
+    {
+      "source": "/en/sabratha/",
+      "destination": "/en/destination/sabratha",
+      "permanent": true
+    },
+    {
+      "source": "/es/sabratha-es",
+      "destination": "/es/destination/sabratha-es",
+      "permanent": true
+    },
+    {
+      "source": "/es/sabratha-es/",
+      "destination": "/es/destination/sabratha-es",
+      "permanent": true
+    },
+    {
+      "source": "/pl/sabratha-pl",
+      "destination": "/pl/destination/sabratha-pl",
+      "permanent": true
+    },
+    {
+      "source": "/pl/sabratha-pl/",
+      "destination": "/pl/destination/sabratha-pl",
+      "permanent": true
+    },
+    {
+      "source": "/ja/sabratha-ja",
+      "destination": "/ja/destination/sabratha-ja",
+      "permanent": true
+    },
+    {
+      "source": "/ja/sabratha-ja/",
+      "destination": "/ja/destination/sabratha-ja",
+      "permanent": true
+    },
+    {
+      "source": "/zh/sabratha-zh",
+      "destination": "/zh/destination/sabratha-zh",
+      "permanent": true
+    },
+    {
+      "source": "/zh/sabratha-zh/",
+      "destination": "/zh/destination/sabratha-zh",
+      "permanent": true
+    },
+    {
+      "source": "/nl/sabratha-nl",
+      "destination": "/nl/destination/sabratha-nl",
+      "permanent": true
+    },
+    {
+      "source": "/nl/sabratha-nl/",
+      "destination": "/nl/destination/sabratha-nl",
+      "permanent": true
+    },
+    {
+      "source": "/de/sabratha-de",
+      "destination": "/de/destination/sabratha-de",
+      "permanent": true
+    },
+    {
+      "source": "/de/sabratha-de/",
+      "destination": "/de/destination/sabratha-de",
+      "permanent": true
+    },
+    {
+      "source": "/fr/sabratha-fr",
+      "destination": "/fr/destination/sabratha-fr",
+      "permanent": true
+    },
+    {
+      "source": "/fr/sabratha-fr/",
+      "destination": "/fr/destination/sabratha-fr",
+      "permanent": true
+    },
+    {
+      "source": "/it/sabratha-it",
+      "destination": "/it/destination/sabratha-it",
+      "permanent": true
+    },
+    {
+      "source": "/it/sabratha-it/",
+      "destination": "/it/destination/sabratha-it",
+      "permanent": true
+    },
+    {
+      "source": "/pt/sabratha-pt",
+      "destination": "/pt/destination/sabratha-pt",
+      "permanent": true
+    },
+    {
+      "source": "/pt/sabratha-pt/",
+      "destination": "/pt/destination/sabratha-pt",
+      "permanent": true
+    },
+    {
+      "source": "/ru/sabratha-ru",
+      "destination": "/ru/destination/sabratha-ru",
+      "permanent": true
+    },
+    {
+      "source": "/ru/sabratha-ru/",
+      "destination": "/ru/destination/sabratha-ru",
+      "permanent": true
+    },
+    {
+      "source": "/ar/sabratha-ar",
+      "destination": "/ar/destination/sabratha-ar",
+      "permanent": true
+    },
+    {
+      "source": "/ar/sabratha-ar/",
+      "destination": "/ar/destination/sabratha-ar",
+      "permanent": true
+    },
+    {
+      "source": "/en/sebha",
+      "destination": "/en/destination/sebha",
+      "permanent": true
+    },
+    {
+      "source": "/en/sebha/",
+      "destination": "/en/destination/sebha",
+      "permanent": true
+    },
+    {
+      "source": "/es/sebha-es",
+      "destination": "/es/destination/sebha-es",
+      "permanent": true
+    },
+    {
+      "source": "/es/sebha-es/",
+      "destination": "/es/destination/sebha-es",
+      "permanent": true
+    },
+    {
+      "source": "/pl/sebha-pl",
+      "destination": "/pl/destination/sebha-pl",
+      "permanent": true
+    },
+    {
+      "source": "/pl/sebha-pl/",
+      "destination": "/pl/destination/sebha-pl",
+      "permanent": true
+    },
+    {
+      "source": "/ja/sebha-ja",
+      "destination": "/ja/destination/sebha-ja",
+      "permanent": true
+    },
+    {
+      "source": "/ja/sebha-ja/",
+      "destination": "/ja/destination/sebha-ja",
+      "permanent": true
+    },
+    {
+      "source": "/zh/sebha-zh",
+      "destination": "/zh/destination/sebha-zh",
+      "permanent": true
+    },
+    {
+      "source": "/zh/sebha-zh/",
+      "destination": "/zh/destination/sebha-zh",
+      "permanent": true
+    },
+    {
+      "source": "/nl/sebha-nl",
+      "destination": "/nl/destination/sebha-nl",
+      "permanent": true
+    },
+    {
+      "source": "/nl/sebha-nl/",
+      "destination": "/nl/destination/sebha-nl",
+      "permanent": true
+    },
+    {
+      "source": "/de/sebha-de",
+      "destination": "/de/destination/sebha-de",
+      "permanent": true
+    },
+    {
+      "source": "/de/sebha-de/",
+      "destination": "/de/destination/sebha-de",
+      "permanent": true
+    },
+    {
+      "source": "/fr/sebha-fr",
+      "destination": "/fr/destination/sebha-fr",
+      "permanent": true
+    },
+    {
+      "source": "/fr/sebha-fr/",
+      "destination": "/fr/destination/sebha-fr",
+      "permanent": true
+    },
+    {
+      "source": "/it/sebha-it",
+      "destination": "/it/destination/sebha-it",
+      "permanent": true
+    },
+    {
+      "source": "/it/sebha-it/",
+      "destination": "/it/destination/sebha-it",
+      "permanent": true
+    },
+    {
+      "source": "/pt/sebha-pt",
+      "destination": "/pt/destination/sebha-pt",
+      "permanent": true
+    },
+    {
+      "source": "/pt/sebha-pt/",
+      "destination": "/pt/destination/sebha-pt",
+      "permanent": true
+    },
+    {
+      "source": "/ru/sebha-ru",
+      "destination": "/ru/destination/sebha-ru",
+      "permanent": true
+    },
+    {
+      "source": "/ru/sebha-ru/",
+      "destination": "/ru/destination/sebha-ru",
+      "permanent": true
+    },
+    {
+      "source": "/ar/sebha-ar",
+      "destination": "/ar/destination/sebha-ar",
+      "permanent": true
+    },
+    {
+      "source": "/ar/sebha-ar/",
+      "destination": "/ar/destination/sebha-ar",
+      "permanent": true
+    },
+    {
+      "source": "/en/shahat",
+      "destination": "/en/destination/shahat",
+      "permanent": true
+    },
+    {
+      "source": "/en/shahat/",
+      "destination": "/en/destination/shahat",
+      "permanent": true
+    },
+    {
+      "source": "/es/shahat-es",
+      "destination": "/es/destination/shahat-es",
+      "permanent": true
+    },
+    {
+      "source": "/es/shahat-es/",
+      "destination": "/es/destination/shahat-es",
+      "permanent": true
+    },
+    {
+      "source": "/pl/shahat-pl",
+      "destination": "/pl/destination/shahat-pl",
+      "permanent": true
+    },
+    {
+      "source": "/pl/shahat-pl/",
+      "destination": "/pl/destination/shahat-pl",
+      "permanent": true
+    },
+    {
+      "source": "/ja/shahat-ja",
+      "destination": "/ja/destination/shahat-ja",
+      "permanent": true
+    },
+    {
+      "source": "/ja/shahat-ja/",
+      "destination": "/ja/destination/shahat-ja",
+      "permanent": true
+    },
+    {
+      "source": "/zh/shahat-zh",
+      "destination": "/zh/destination/shahat-zh",
+      "permanent": true
+    },
+    {
+      "source": "/zh/shahat-zh/",
+      "destination": "/zh/destination/shahat-zh",
+      "permanent": true
+    },
+    {
+      "source": "/nl/shahat-nl",
+      "destination": "/nl/destination/shahat-nl",
+      "permanent": true
+    },
+    {
+      "source": "/nl/shahat-nl/",
+      "destination": "/nl/destination/shahat-nl",
+      "permanent": true
+    },
+    {
+      "source": "/de/shahat-de",
+      "destination": "/de/destination/shahat-de",
+      "permanent": true
+    },
+    {
+      "source": "/de/shahat-de/",
+      "destination": "/de/destination/shahat-de",
+      "permanent": true
+    },
+    {
+      "source": "/fr/shahat-fr",
+      "destination": "/fr/destination/shahat-fr",
+      "permanent": true
+    },
+    {
+      "source": "/fr/shahat-fr/",
+      "destination": "/fr/destination/shahat-fr",
+      "permanent": true
+    },
+    {
+      "source": "/it/shahat-it",
+      "destination": "/it/destination/shahat-it",
+      "permanent": true
+    },
+    {
+      "source": "/it/shahat-it/",
+      "destination": "/it/destination/shahat-it",
+      "permanent": true
+    },
+    {
+      "source": "/pt/shahat-pt",
+      "destination": "/pt/destination/shahat-pt",
+      "permanent": true
+    },
+    {
+      "source": "/pt/shahat-pt/",
+      "destination": "/pt/destination/shahat-pt",
+      "permanent": true
+    },
+    {
+      "source": "/ru/shahat-ru",
+      "destination": "/ru/destination/shahat-ru",
+      "permanent": true
+    },
+    {
+      "source": "/ru/shahat-ru/",
+      "destination": "/ru/destination/shahat-ru",
+      "permanent": true
+    },
+    {
+      "source": "/ar/shahat-ar",
+      "destination": "/ar/destination/shahat-ar",
+      "permanent": true
+    },
+    {
+      "source": "/ar/shahat-ar/",
+      "destination": "/ar/destination/shahat-ar",
+      "permanent": true
+    },
+    {
+      "source": "/en/susa",
+      "destination": "/en/destination/susa",
+      "permanent": true
+    },
+    {
+      "source": "/en/susa/",
+      "destination": "/en/destination/susa",
+      "permanent": true
+    },
+    {
+      "source": "/es/susa-es",
+      "destination": "/es/destination/susa-es",
+      "permanent": true
+    },
+    {
+      "source": "/es/susa-es/",
+      "destination": "/es/destination/susa-es",
+      "permanent": true
+    },
+    {
+      "source": "/pl/susa-pl",
+      "destination": "/pl/destination/susa-pl",
+      "permanent": true
+    },
+    {
+      "source": "/pl/susa-pl/",
+      "destination": "/pl/destination/susa-pl",
+      "permanent": true
+    },
+    {
+      "source": "/ja/susa-ja",
+      "destination": "/ja/destination/susa-ja",
+      "permanent": true
+    },
+    {
+      "source": "/ja/susa-ja/",
+      "destination": "/ja/destination/susa-ja",
+      "permanent": true
+    },
+    {
+      "source": "/zh/susa-zh",
+      "destination": "/zh/destination/susa-zh",
+      "permanent": true
+    },
+    {
+      "source": "/zh/susa-zh/",
+      "destination": "/zh/destination/susa-zh",
+      "permanent": true
+    },
+    {
+      "source": "/nl/susa-nl",
+      "destination": "/nl/destination/susa-nl",
+      "permanent": true
+    },
+    {
+      "source": "/nl/susa-nl/",
+      "destination": "/nl/destination/susa-nl",
+      "permanent": true
+    },
+    {
+      "source": "/de/susa-de",
+      "destination": "/de/destination/susa-de",
+      "permanent": true
+    },
+    {
+      "source": "/de/susa-de/",
+      "destination": "/de/destination/susa-de",
+      "permanent": true
+    },
+    {
+      "source": "/fr/susa-fr",
+      "destination": "/fr/destination/susa-fr",
+      "permanent": true
+    },
+    {
+      "source": "/fr/susa-fr/",
+      "destination": "/fr/destination/susa-fr",
+      "permanent": true
+    },
+    {
+      "source": "/it/susa-it",
+      "destination": "/it/destination/susa-it",
+      "permanent": true
+    },
+    {
+      "source": "/it/susa-it/",
+      "destination": "/it/destination/susa-it",
+      "permanent": true
+    },
+    {
+      "source": "/pt/susa-pt",
+      "destination": "/pt/destination/susa-pt",
+      "permanent": true
+    },
+    {
+      "source": "/pt/susa-pt/",
+      "destination": "/pt/destination/susa-pt",
+      "permanent": true
+    },
+    {
+      "source": "/ru/susa-ru",
+      "destination": "/ru/destination/susa-ru",
+      "permanent": true
+    },
+    {
+      "source": "/ru/susa-ru/",
+      "destination": "/ru/destination/susa-ru",
+      "permanent": true
+    },
+    {
+      "source": "/ar/susa-ar",
+      "destination": "/ar/destination/susa-ar",
+      "permanent": true
+    },
+    {
+      "source": "/ar/susa-ar/",
+      "destination": "/ar/destination/susa-ar",
+      "permanent": true
+    },
+    {
+      "source": "/en/gaberoun",
+      "destination": "/en/destination/gaberoun",
+      "permanent": true
+    },
+    {
+      "source": "/en/gaberoun/",
+      "destination": "/en/destination/gaberoun",
+      "permanent": true
+    },
+    {
+      "source": "/es/gaberoun-es",
+      "destination": "/es/destination/gaberoun-es",
+      "permanent": true
+    },
+    {
+      "source": "/es/gaberoun-es/",
+      "destination": "/es/destination/gaberoun-es",
+      "permanent": true
+    },
+    {
+      "source": "/pl/gaberoun-pl",
+      "destination": "/pl/destination/gaberoun-pl",
+      "permanent": true
+    },
+    {
+      "source": "/pl/gaberoun-pl/",
+      "destination": "/pl/destination/gaberoun-pl",
+      "permanent": true
+    },
+    {
+      "source": "/ja/gaberoun-ja",
+      "destination": "/ja/destination/gaberoun-ja",
+      "permanent": true
+    },
+    {
+      "source": "/ja/gaberoun-ja/",
+      "destination": "/ja/destination/gaberoun-ja",
+      "permanent": true
+    },
+    {
+      "source": "/zh/gaberoun-zh",
+      "destination": "/zh/destination/gaberoun-zh",
+      "permanent": true
+    },
+    {
+      "source": "/zh/gaberoun-zh/",
+      "destination": "/zh/destination/gaberoun-zh",
+      "permanent": true
+    },
+    {
+      "source": "/nl/gaberoun-nl",
+      "destination": "/nl/destination/gaberoun-nl",
+      "permanent": true
+    },
+    {
+      "source": "/nl/gaberoun-nl/",
+      "destination": "/nl/destination/gaberoun-nl",
+      "permanent": true
+    },
+    {
+      "source": "/de/gaberoun-de",
+      "destination": "/de/destination/gaberoun-de",
+      "permanent": true
+    },
+    {
+      "source": "/de/gaberoun-de/",
+      "destination": "/de/destination/gaberoun-de",
+      "permanent": true
+    },
+    {
+      "source": "/fr/gaberoun-fr",
+      "destination": "/fr/destination/gaberoun-fr",
+      "permanent": true
+    },
+    {
+      "source": "/fr/gaberoun-fr/",
+      "destination": "/fr/destination/gaberoun-fr",
+      "permanent": true
+    },
+    {
+      "source": "/it/gaberoun-it",
+      "destination": "/it/destination/gaberoun-it",
+      "permanent": true
+    },
+    {
+      "source": "/it/gaberoun-it/",
+      "destination": "/it/destination/gaberoun-it",
+      "permanent": true
+    },
+    {
+      "source": "/pt/gaberoun-pt",
+      "destination": "/pt/destination/gaberoun-pt",
+      "permanent": true
+    },
+    {
+      "source": "/pt/gaberoun-pt/",
+      "destination": "/pt/destination/gaberoun-pt",
+      "permanent": true
+    },
+    {
+      "source": "/ru/gaberoun-ru",
+      "destination": "/ru/destination/gaberoun-ru",
+      "permanent": true
+    },
+    {
+      "source": "/ru/gaberoun-ru/",
+      "destination": "/ru/destination/gaberoun-ru",
+      "permanent": true
+    },
+    {
+      "source": "/ar/gaberoun-ar",
+      "destination": "/ar/destination/gaberoun-ar",
+      "permanent": true
+    },
+    {
+      "source": "/ar/gaberoun-ar/",
+      "destination": "/ar/destination/gaberoun-ar",
+      "permanent": true
+    },
+    {
+      "source": "/en/leptis-magna",
+      "destination": "/en/destination/leptis-magna",
+      "permanent": true
+    },
+    {
+      "source": "/en/leptis-magna/",
+      "destination": "/en/destination/leptis-magna",
+      "permanent": true
+    },
+    {
+      "source": "/es/leptis-magna-es",
+      "destination": "/es/destination/leptis-magna-es",
+      "permanent": true
+    },
+    {
+      "source": "/es/leptis-magna-es/",
+      "destination": "/es/destination/leptis-magna-es",
+      "permanent": true
+    },
+    {
+      "source": "/pl/leptis-magna-pl",
+      "destination": "/pl/destination/leptis-magna-pl",
+      "permanent": true
+    },
+    {
+      "source": "/pl/leptis-magna-pl/",
+      "destination": "/pl/destination/leptis-magna-pl",
+      "permanent": true
+    },
+    {
+      "source": "/ja/leptis-magna-ja",
+      "destination": "/ja/destination/leptis-magna-ja",
+      "permanent": true
+    },
+    {
+      "source": "/ja/leptis-magna-ja/",
+      "destination": "/ja/destination/leptis-magna-ja",
+      "permanent": true
+    },
+    {
+      "source": "/zh/leptis-magna-zh",
+      "destination": "/zh/destination/leptis-magna-zh",
+      "permanent": true
+    },
+    {
+      "source": "/zh/leptis-magna-zh/",
+      "destination": "/zh/destination/leptis-magna-zh",
+      "permanent": true
+    },
+    {
+      "source": "/nl/leptis-magna-nl",
+      "destination": "/nl/destination/leptis-magna-nl",
+      "permanent": true
+    },
+    {
+      "source": "/nl/leptis-magna-nl/",
+      "destination": "/nl/destination/leptis-magna-nl",
+      "permanent": true
+    },
+    {
+      "source": "/de/leptis-magna-de",
+      "destination": "/de/destination/leptis-magna-de",
+      "permanent": true
+    },
+    {
+      "source": "/de/leptis-magna-de/",
+      "destination": "/de/destination/leptis-magna-de",
+      "permanent": true
+    },
+    {
+      "source": "/fr/leptis-magna-fr",
+      "destination": "/fr/destination/leptis-magna-fr",
+      "permanent": true
+    },
+    {
+      "source": "/fr/leptis-magna-fr/",
+      "destination": "/fr/destination/leptis-magna-fr",
+      "permanent": true
+    },
+    {
+      "source": "/it/leptis-magna-it",
+      "destination": "/it/destination/leptis-magna-it",
+      "permanent": true
+    },
+    {
+      "source": "/it/leptis-magna-it/",
+      "destination": "/it/destination/leptis-magna-it",
+      "permanent": true
+    },
+    {
+      "source": "/pt/leptis-magna-pt",
+      "destination": "/pt/destination/leptis-magna-pt",
+      "permanent": true
+    },
+    {
+      "source": "/pt/leptis-magna-pt/",
+      "destination": "/pt/destination/leptis-magna-pt",
+      "permanent": true
+    },
+    {
+      "source": "/ru/leptis-magna-ru",
+      "destination": "/ru/destination/leptis-magna-ru",
+      "permanent": true
+    },
+    {
+      "source": "/ru/leptis-magna-ru/",
+      "destination": "/ru/destination/leptis-magna-ru",
+      "permanent": true
+    },
+    {
+      "source": "/ar/leptis-magna-ar",
+      "destination": "/ar/destination/leptis-magna-ar",
+      "permanent": true
+    },
+    {
+      "source": "/ar/leptis-magna-ar/",
+      "destination": "/ar/destination/leptis-magna-ar",
+      "permanent": true
+    },
+    {
+      "source": "/en/um-el-ma",
+      "destination": "/en/destination/um-el-ma",
+      "permanent": true
+    },
+    {
+      "source": "/en/um-el-ma/",
+      "destination": "/en/destination/um-el-ma",
+      "permanent": true
+    },
+    {
+      "source": "/es/um-el-ma-es",
+      "destination": "/es/destination/um-el-ma-es",
+      "permanent": true
+    },
+    {
+      "source": "/es/um-el-ma-es/",
+      "destination": "/es/destination/um-el-ma-es",
+      "permanent": true
+    },
+    {
+      "source": "/pl/um-el-ma-pl",
+      "destination": "/pl/destination/um-el-ma-pl",
+      "permanent": true
+    },
+    {
+      "source": "/pl/um-el-ma-pl/",
+      "destination": "/pl/destination/um-el-ma-pl",
+      "permanent": true
+    },
+    {
+      "source": "/ja/um-el-ma-ja",
+      "destination": "/ja/destination/um-el-ma-ja",
+      "permanent": true
+    },
+    {
+      "source": "/ja/um-el-ma-ja/",
+      "destination": "/ja/destination/um-el-ma-ja",
+      "permanent": true
+    },
+    {
+      "source": "/zh/um-el-ma-zh",
+      "destination": "/zh/destination/um-el-ma-zh",
+      "permanent": true
+    },
+    {
+      "source": "/zh/um-el-ma-zh/",
+      "destination": "/zh/destination/um-el-ma-zh",
+      "permanent": true
+    },
+    {
+      "source": "/nl/um-el-ma-nl",
+      "destination": "/nl/destination/um-el-ma-nl",
+      "permanent": true
+    },
+    {
+      "source": "/nl/um-el-ma-nl/",
+      "destination": "/nl/destination/um-el-ma-nl",
+      "permanent": true
+    },
+    {
+      "source": "/de/um-el-ma-de",
+      "destination": "/de/destination/um-el-ma-de",
+      "permanent": true
+    },
+    {
+      "source": "/de/um-el-ma-de/",
+      "destination": "/de/destination/um-el-ma-de",
+      "permanent": true
+    },
+    {
+      "source": "/fr/um-el-ma-fr",
+      "destination": "/fr/destination/um-el-ma-fr",
+      "permanent": true
+    },
+    {
+      "source": "/fr/um-el-ma-fr/",
+      "destination": "/fr/destination/um-el-ma-fr",
+      "permanent": true
+    },
+    {
+      "source": "/it/um-el-ma-it",
+      "destination": "/it/destination/um-el-ma-it",
+      "permanent": true
+    },
+    {
+      "source": "/it/um-el-ma-it/",
+      "destination": "/it/destination/um-el-ma-it",
+      "permanent": true
+    },
+    {
+      "source": "/pt/um-el-ma-pt",
+      "destination": "/pt/destination/um-el-ma-pt",
+      "permanent": true
+    },
+    {
+      "source": "/pt/um-el-ma-pt/",
+      "destination": "/pt/destination/um-el-ma-pt",
+      "permanent": true
+    },
+    {
+      "source": "/ru/um-el-ma-ru",
+      "destination": "/ru/destination/um-el-ma-ru",
+      "permanent": true
+    },
+    {
+      "source": "/ru/um-el-ma-ru/",
+      "destination": "/ru/destination/um-el-ma-ru",
+      "permanent": true
+    },
+    {
+      "source": "/ar/um-el-ma-ar",
+      "destination": "/ar/destination/um-el-ma-ar",
+      "permanent": true
+    },
+    {
+      "source": "/ar/um-el-ma-ar/",
+      "destination": "/ar/destination/um-el-ma-ar",
+      "permanent": true
+    },
+    {
+      "source": "/en/acacus-mountains",
+      "destination": "/en/destination/acacus-mountains",
+      "permanent": true
+    },
+    {
+      "source": "/en/acacus-mountains/",
+      "destination": "/en/destination/acacus-mountains",
+      "permanent": true
+    },
+    {
+      "source": "/es/acacus-mountains-es",
+      "destination": "/es/destination/acacus-mountains-es",
+      "permanent": true
+    },
+    {
+      "source": "/es/acacus-mountains-es/",
+      "destination": "/es/destination/acacus-mountains-es",
+      "permanent": true
+    },
+    {
+      "source": "/pl/acacus-mountains-pl",
+      "destination": "/pl/destination/acacus-mountains-pl",
+      "permanent": true
+    },
+    {
+      "source": "/pl/acacus-mountains-pl/",
+      "destination": "/pl/destination/acacus-mountains-pl",
+      "permanent": true
+    },
+    {
+      "source": "/ja/acacus-mountains-ja",
+      "destination": "/ja/destination/acacus-mountains-ja",
+      "permanent": true
+    },
+    {
+      "source": "/ja/acacus-mountains-ja/",
+      "destination": "/ja/destination/acacus-mountains-ja",
+      "permanent": true
+    },
+    {
+      "source": "/zh/acacus-mountains-zh",
+      "destination": "/zh/destination/acacus-mountains-zh",
+      "permanent": true
+    },
+    {
+      "source": "/zh/acacus-mountains-zh/",
+      "destination": "/zh/destination/acacus-mountains-zh",
+      "permanent": true
+    },
+    {
+      "source": "/nl/acacus-mountains-nl",
+      "destination": "/nl/destination/acacus-mountains-nl",
+      "permanent": true
+    },
+    {
+      "source": "/nl/acacus-mountains-nl/",
+      "destination": "/nl/destination/acacus-mountains-nl",
+      "permanent": true
+    },
+    {
+      "source": "/de/acacus-mountains-de",
+      "destination": "/de/destination/acacus-mountains-de",
+      "permanent": true
+    },
+    {
+      "source": "/de/acacus-mountains-de/",
+      "destination": "/de/destination/acacus-mountains-de",
+      "permanent": true
+    },
+    {
+      "source": "/fr/acacus-mountains-fr",
+      "destination": "/fr/destination/acacus-mountains-fr",
+      "permanent": true
+    },
+    {
+      "source": "/fr/acacus-mountains-fr/",
+      "destination": "/fr/destination/acacus-mountains-fr",
+      "permanent": true
+    },
+    {
+      "source": "/it/acacus-mountains-it",
+      "destination": "/it/destination/acacus-mountains-it",
+      "permanent": true
+    },
+    {
+      "source": "/it/acacus-mountains-it/",
+      "destination": "/it/destination/acacus-mountains-it",
+      "permanent": true
+    },
+    {
+      "source": "/pt/acacus-mountains-pt",
+      "destination": "/pt/destination/acacus-mountains-pt",
+      "permanent": true
+    },
+    {
+      "source": "/pt/acacus-mountains-pt/",
+      "destination": "/pt/destination/acacus-mountains-pt",
+      "permanent": true
+    },
+    {
+      "source": "/ru/acacus-mountains-ru",
+      "destination": "/ru/destination/acacus-mountains-ru",
+      "permanent": true
+    },
+    {
+      "source": "/ru/acacus-mountains-ru/",
+      "destination": "/ru/destination/acacus-mountains-ru",
+      "permanent": true
+    },
+    {
+      "source": "/ar/acacus-mountains-ar",
+      "destination": "/ar/destination/acacus-mountains-ar",
+      "permanent": true
+    },
+    {
+      "source": "/ar/acacus-mountains-ar/",
+      "destination": "/ar/destination/acacus-mountains-ar",
+      "permanent": true
+    },
+    {
+      "source": "/tripoli",
+      "destination": "/en/destination/tripoli",
+      "permanent": true
+    },
+    {
+      "source": "/tripoli/",
+      "destination": "/en/destination/tripoli",
+      "permanent": true
+    },
+    {
+      "source": "/ghadames",
+      "destination": "/en/destination/ghadames",
+      "permanent": true
+    },
+    {
+      "source": "/ghadames/",
+      "destination": "/en/destination/ghadames",
+      "permanent": true
+    },
+    {
+      "source": "/sabratha",
+      "destination": "/en/destination/sabratha",
+      "permanent": true
+    },
+    {
+      "source": "/sabratha/",
+      "destination": "/en/destination/sabratha",
+      "permanent": true
+    },
+    {
+      "source": "/sebha",
+      "destination": "/en/destination/sebha",
+      "permanent": true
+    },
+    {
+      "source": "/sebha/",
+      "destination": "/en/destination/sebha",
+      "permanent": true
+    },
+    {
+      "source": "/shahat",
+      "destination": "/en/destination/shahat",
+      "permanent": true
+    },
+    {
+      "source": "/shahat/",
+      "destination": "/en/destination/shahat",
+      "permanent": true
+    },
+    {
+      "source": "/susa",
+      "destination": "/en/destination/susa",
+      "permanent": true
+    },
+    {
+      "source": "/susa/",
+      "destination": "/en/destination/susa",
+      "permanent": true
+    },
+    {
+      "source": "/gaberoun",
+      "destination": "/en/destination/gaberoun",
+      "permanent": true
+    },
+    {
+      "source": "/gaberoun/",
+      "destination": "/en/destination/gaberoun",
+      "permanent": true
+    },
+    {
+      "source": "/leptis-magna",
+      "destination": "/en/destination/leptis-magna",
+      "permanent": true
+    },
+    {
+      "source": "/leptis-magna/",
+      "destination": "/en/destination/leptis-magna",
+      "permanent": true
+    },
+    {
+      "source": "/um-el-ma",
+      "destination": "/en/destination/um-el-ma",
+      "permanent": true
+    },
+    {
+      "source": "/um-el-ma/",
+      "destination": "/en/destination/um-el-ma",
+      "permanent": true
+    },
+    {
+      "source": "/acacus-mountains",
+      "destination": "/en/destination/acacus-mountains",
+      "permanent": true
+    },
+    {
+      "source": "/acacus-mountains/",
+      "destination": "/en/destination/acacus-mountains",
+      "permanent": true
+    },
+    {
+      "source": "/ghat",
+      "destination": "/en/destination/ghat",
+      "permanent": true
+    },
+    {
+      "source": "/ghat/",
+      "destination": "/en/destination/ghat",
+      "permanent": true
+    },
+    {
+      "source": "/jebel-nafusa",
+      "destination": "/en/destination/jebel-nafusa",
+      "permanent": true
+    },
+    {
+      "source": "/jebel-nafusa/",
+      "destination": "/en/destination/jebel-nafusa",
+      "permanent": true
+    },
+    {
+      "source": "/waw-an-namus",
+      "destination": "/en/destination/waw-an-namus",
+      "permanent": true
+    },
+    {
+      "source": "/waw-an-namus/",
+      "destination": "/en/destination/waw-an-namus",
+      "permanent": true
+    },
+    {
+      "source": "/germa",
+      "destination": "/en/destination/germa",
+      "permanent": true
+    },
+    {
+      "source": "/germa/",
+      "destination": "/en/destination/germa",
+      "permanent": true
+    },
+    {
+      "source": "/benghazi",
+      "destination": "/en/destination/benghazi",
+      "permanent": true
+    },
+    {
+      "source": "/benghazi/",
+      "destination": "/en/destination/benghazi",
+      "permanent": true
+    },
+    {
+      "source": "/tobruk",
+      "destination": "/en/destination/tobruk",
+      "permanent": true
+    },
+    {
+      "source": "/tobruk/",
+      "destination": "/en/destination/tobruk",
+      "permanent": true
+    },
+    {
+      "source": "/ptolemais",
+      "destination": "/en/destination/ptolemais",
+      "permanent": true
+    },
+    {
+      "source": "/ptolemais/",
+      "destination": "/en/destination/ptolemais",
+      "permanent": true
+    },
+    {
+      "source": "/qasr-libya",
+      "destination": "/en/destination/qasr-libya",
+      "permanent": true
+    },
+    {
+      "source": "/qasr-libya/",
+      "destination": "/en/destination/qasr-libya",
+      "permanent": true
+    },
+    {
+      "source": "/jebel-akhdar",
+      "destination": "/en/destination/jebel-akhdar",
+      "permanent": true
+    },
+    {
+      "source": "/jebel-akhdar/",
+      "destination": "/en/destination/jebel-akhdar",
+      "permanent": true
+    },
+    {
+      "source": "/misrata",
+      "destination": "/en/destination/misrata",
+      "permanent": true
+    },
+    {
+      "source": "/misrata/",
+      "destination": "/en/destination/misrata",
+      "permanent": true
+    },
+    {
+      "source": "/wadi-mathendous",
+      "destination": "/en/destination/wadi-mathendous",
+      "permanent": true
+    },
+    {
+      "source": "/wadi-mathendous/",
+      "destination": "/en/destination/wadi-mathendous",
+      "permanent": true
+    },
+    {
+      "source": "/waddan",
+      "destination": "/en/destination/waddan",
+      "permanent": true
+    },
+    {
+      "source": "/waddan/",
+      "destination": "/en/destination/waddan",
+      "permanent": true
+    },
+    {
+      "source": "/cyrene",
+      "destination": "/en/destination/shahat",
+      "permanent": true
+    },
+    {
+      "source": "/cyrene/",
+      "destination": "/en/destination/shahat",
+      "permanent": true
+    },
+    {
+      "source": "/apollonia",
+      "destination": "/en/destination/susa",
+      "permanent": true
+    },
+    {
+      "source": "/apollonia/",
+      "destination": "/en/destination/susa",
+      "permanent": true
+    },
+    {
+      "source": "/tolmeita",
+      "destination": "/en/destination/ptolemais",
+      "permanent": true
+    },
+    {
+      "source": "/tolmeita/",
+      "destination": "/en/destination/ptolemais",
+      "permanent": true
+    },
+    {
+      "source": "/garama",
+      "destination": "/en/destination/germa",
+      "permanent": true
+    },
+    {
+      "source": "/garama/",
+      "destination": "/en/destination/germa",
+      "permanent": true
+    },
+    {
+      "source": "/tadrart-acacus",
+      "destination": "/en/destination/acacus-mountains",
+      "permanent": true
+    },
+    {
+      "source": "/tadrart-acacus/",
+      "destination": "/en/destination/acacus-mountains",
+      "permanent": true
+    },
+    {
+      "source": "/ubari",
+      "destination": "/en/destination/gaberoun",
+      "permanent": true
+    },
+    {
+      "source": "/ubari/",
+      "destination": "/en/destination/gaberoun",
+      "permanent": true
+    }
   ],
   "rewrites": [
     {
@@ -30,15 +1570,30 @@
   "headers": [
     {
       "source": "/assets/(.*)",
-      "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }]
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
     },
     {
       "source": "/media/og/:path*",
-      "headers": [{ "key": "Cache-Control", "value": "public, max-age=3600, must-revalidate" }]
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600, must-revalidate"
+        }
+      ]
     },
     {
       "source": "/media/(.*)",
-      "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }]
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
     }
   ]
 }

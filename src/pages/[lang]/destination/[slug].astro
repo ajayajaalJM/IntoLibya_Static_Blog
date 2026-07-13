@@ -1,0 +1,197 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import FinalCTA from '../../../components/FinalCTA.astro';
+import OptimizedImage from '../../../components/OptimizedImage.astro';
+import ImageGallery from '../../../components/ImageGallery.astro';
+import BodyWithGalleries from '../../../components/BodyWithGalleries.astro';
+import { getCollection, render } from 'astro:content';
+import { getAllDestinations, getDestinationTranslationSiblings } from '../../../lib/destinations';
+import { galleriesAt, galleryImageObjects } from '../../../lib/galleries';
+import { LANG_LABELS, type Lang } from '../../../lib/post-schema';
+import { ogPathForFeaturedImage } from '../../../lib/og';
+
+export async function getStaticPaths() {
+  const destinations = await getCollection('destinations');
+  return destinations
+    .filter((destination) => destination.data.draft !== true)
+    .map((destination) => ({
+      params: {
+        lang: destination.data.lang,
+        slug: destination.data.slug,
+      },
+      props: { destination },
+    }));
+}
+
+const { destination } = Astro.props;
+const galleries = destination.data.galleries ?? [];
+const inBodyGalleries = galleriesAt(galleries, 'in-body');
+const afterHero = galleriesAt(galleries, 'after-hero');
+const afterBody = galleriesAt(galleries, 'after-body');
+const useSplitBody = inBodyGalleries.length > 0;
+
+const { Content } = useSplitBody
+  ? { Content: null as null }
+  : await render(destination);
+const allDestinations = await getAllDestinations();
+const siblings = getDestinationTranslationSiblings(destination, allDestinations);
+const siteUrl = Astro.site?.href?.replace(/\/$/, '') || 'https://intolibya.com';
+const lang = destination.data.lang as Lang;
+const ogImage = ogPathForFeaturedImage(destination.data.featuredImage);
+
+const hreflangAlternates = [
+  { lang, href: `${siteUrl}${destination.data.canonicalPath}` },
+  ...siblings.map((s) => ({
+    lang: s.data.lang,
+    href: `${siteUrl}${s.data.canonicalPath}`,
+  })),
+  { lang: 'x-default', href: `${siteUrl}${destination.data.canonicalPath}` },
+];
+
+const imageObjects = galleryImageObjects(galleries, siteUrl);
+if (destination.data.featuredImage) {
+  imageObjects.unshift({
+    '@type': 'ImageObject',
+    contentUrl: `${siteUrl}${destination.data.featuredImage}`,
+    description: destination.data.title,
+    name: destination.data.title,
+  });
+}
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'TouristDestination',
+    name: destination.data.title,
+    description: destination.data.seo.description,
+    url: destination.data.seo.canonical,
+    image: imageObjects.map((img) => img.contentUrl),
+    inLanguage: lang,
+    touristType: 'International travelers',
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'Home',
+        item: siteUrl,
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: 'Destinations',
+        item: `${siteUrl}/${lang}/destinations`,
+      },
+      {
+        '@type': 'ListItem',
+        position: 3,
+        name: destination.data.title,
+        item: destination.data.seo.canonical,
+      },
+    ],
+  },
+  ...imageObjects.map((img) => ({
+    '@context': 'https://schema.org',
+    ...img,
+  })),
+];
+---
+
+<BaseLayout
+  title={destination.data.seo.title}
+  description={destination.data.seo.description}
+  canonical={destination.data.seo.canonical}
+  ogImage={ogImage}
+  ogType="article"
+  articlePublishedTime={destination.data.publishedAt.toISOString()}
+  articleAuthor="IntoLibya"
+  articleSection={`${LANG_LABELS[lang]} Destinations`}
+  lang={lang}
+  hreflangAlternates={hreflangAlternates}
+  jsonLd={jsonLd}
+>
+  <article class="px-4 py-10 md:px-8">
+    <div class="mx-auto max-w-3xl">
+      <nav class="mb-6 text-sm text-muted" aria-label="Breadcrumb">
+        <a href="/" class="hover:text-brass">Home</a>
+        <span aria-hidden="true"> / </span>
+        <a href={`/${lang}/destinations`} class="hover:text-brass">Destinations</a>
+        <span aria-hidden="true"> / </span>
+        <span>{destination.data.title}</span>
+      </nav>
+
+      <OptimizedImage
+        src={destination.data.featuredImage}
+        alt={destination.data.title}
+        width={1200}
+        height={675}
+        widths={[640, 960, 1200]}
+        sizes="(max-width: 768px) 100vw, 720px"
+        pictureClass="hero-arch mb-8 block overflow-hidden"
+        class="h-64 w-full object-cover md:h-80"
+        loading="eager"
+        fetchpriority="high"
+        quality={70}
+      />
+
+      <header class="mb-8">
+        <time class="text-sm text-muted" datetime={destination.data.publishedAt.toISOString()}>
+          {destination.data.publishedAt.toLocaleDateString(lang, {
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric',
+          })}
+        </time>
+        <h1 class="mt-3 text-3xl font-black leading-tight text-charcoal md:text-4xl">
+          {destination.data.title}
+        </h1>
+      </header>
+
+      {
+        siblings.length > 0 && (
+          <div class="mb-8 flex flex-wrap gap-2">
+            {[
+              { lang, path: destination.data.canonicalPath, current: true },
+              ...siblings.map((s) => ({
+                lang: s.data.lang,
+                path: s.data.canonicalPath,
+                current: false,
+              })),
+            ].map((t) => (
+              <a
+                href={t.path}
+                class:list={[
+                  'rounded-full px-3 py-1 text-xs font-bold',
+                  t.current
+                    ? 'bg-mint text-charcoal'
+                    : 'bg-sand text-muted hover:bg-brass hover:text-white',
+                ]}
+                hreflang={t.lang}
+              >
+                {LANG_LABELS[t.lang as Lang]}
+              </a>
+            ))}
+          </div>
+        )
+      }
+
+      {afterHero.map((gallery) => <ImageGallery gallery={gallery} />)}
+
+      <div class="prose-blog">
+        {
+          useSplitBody ? (
+            <BodyWithGalleries body={destination.body} galleries={galleries} />
+          ) : Content ? (
+            <Content />
+          ) : null
+        }
+      </div>
+
+      {afterBody.map((gallery) => <ImageGallery gallery={gallery} />)}
+    </div>
+  </article>
+  <FinalCTA />
+</BaseLayout>

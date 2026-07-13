@@ -14,7 +14,9 @@
     "import:wp": "tsx scripts/import-wordpress-to-md.ts",
     "import:status": "tsx scripts/import-wordpress-to-md.ts --status",
     "validate:urls": "tsx scripts/validate-url-parity.ts",
-    "writer": "node tools/blog-writer/serve.mjs"
+    "writer": "node tools/blog-writer/serve.mjs",
+    "migrate:destinations": "tsx scripts/migrate-places-to-destinations.ts",
+    "sync:destination-redirects": "tsx scripts/sync-destination-short-redirects.ts"
   },
   "dependencies": {
     "@astrojs/markdown-remark": "^7.2.1",

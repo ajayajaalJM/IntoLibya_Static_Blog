@@ -1,0 +1,282 @@
+[
+  {
+    "source": "/tripoli",
+    "destination": "/en/destination/tripoli",
+    "permanent": true
+  },
+  {
+    "source": "/tripoli/",
+    "destination": "/en/destination/tripoli",
+    "permanent": true
+  },
+  {
+    "source": "/ghadames",
+    "destination": "/en/destination/ghadames",
+    "permanent": true
+  },
+  {
+    "source": "/ghadames/",
+    "destination": "/en/destination/ghadames",
+    "permanent": true
+  },
+  {
+    "source": "/sabratha",
+    "destination": "/en/destination/sabratha",
+    "permanent": true
+  },
+  {
+    "source": "/sabratha/",
+    "destination": "/en/destination/sabratha",
+    "permanent": true
+  },
+  {
+    "source": "/sebha",
+    "destination": "/en/destination/sebha",
+    "permanent": true
+  },
+  {
+    "source": "/sebha/",
+    "destination": "/en/destination/sebha",
+    "permanent": true
+  },
+  {
+    "source": "/shahat",
+    "destination": "/en/destination/shahat",
+    "permanent": true
+  },
+  {
+    "source": "/shahat/",
+    "destination": "/en/destination/shahat",
+    "permanent": true
+  },
+  {
+    "source": "/susa",
+    "destination": "/en/destination/susa",
+    "permanent": true
+  },
+  {
+    "source": "/susa/",
+    "destination": "/en/destination/susa",
+    "permanent": true
+  },
+  {
+    "source": "/gaberoun",
+    "destination": "/en/destination/gaberoun",
+    "permanent": true
+  },
+  {
+    "source": "/gaberoun/",
+    "destination": "/en/destination/gaberoun",
+    "permanent": true
+  },
+  {
+    "source": "/leptis-magna",
+    "destination": "/en/destination/leptis-magna",
+    "permanent": true
+  },
+  {
+    "source": "/leptis-magna/",
+    "destination": "/en/destination/leptis-magna",
+    "permanent": true
+  },
+  {
+    "source": "/um-el-ma",
+    "destination": "/en/destination/um-el-ma",
+    "permanent": true
+  },
+  {
+    "source": "/um-el-ma/",
+    "destination": "/en/destination/um-el-ma",
+    "permanent": true
+  },
+  {
+    "source": "/acacus-mountains",
+    "destination": "/en/destination/acacus-mountains",
+    "permanent": true
+  },
+  {
+    "source": "/acacus-mountains/",
+    "destination": "/en/destination/acacus-mountains",
+    "permanent": true
+  },
+  {
+    "source": "/ghat",
+    "destination": "/en/destination/ghat",
+    "permanent": true
+  },
+  {
+    "source": "/ghat/",
+    "destination": "/en/destination/ghat",
+    "permanent": true
+  },
+  {
+    "source": "/jebel-nafusa",
+    "destination": "/en/destination/jebel-nafusa",
+    "permanent": true
+  },
+  {
+    "source": "/jebel-nafusa/",
+    "destination": "/en/destination/jebel-nafusa",
+    "permanent": true
+  },
+  {
+    "source": "/waw-an-namus",
+    "destination": "/en/destination/waw-an-namus",
+    "permanent": true
+  },
+  {
+    "source": "/waw-an-namus/",
+    "destination": "/en/destination/waw-an-namus",
+    "permanent": true
+  },
+  {
+    "source": "/germa",
+    "destination": "/en/destination/germa",
+    "permanent": true
+  },
+  {
+    "source": "/germa/",
+    "destination": "/en/destination/germa",
+    "permanent": true
+  },
+  {
+    "source": "/benghazi",
+    "destination": "/en/destination/benghazi",
+    "permanent": true
+  },
+  {
+    "source": "/benghazi/",
+    "destination": "/en/destination/benghazi",
+    "permanent": true
+  },
+  {
+    "source": "/tobruk",
+    "destination": "/en/destination/tobruk",
+    "permanent": true
+  },
+  {
+    "source": "/tobruk/",
+    "destination": "/en/destination/tobruk",
+    "permanent": true
+  },
+  {
+    "source": "/ptolemais",
+    "destination": "/en/destination/ptolemais",
+    "permanent": true
+  },
+  {
+    "source": "/ptolemais/",
+    "destination": "/en/destination/ptolemais",
+    "permanent": true
+  },
+  {
+    "source": "/qasr-libya",
+    "destination": "/en/destination/qasr-libya",
+    "permanent": true
+  },
+  {
+    "source": "/qasr-libya/",
+    "destination": "/en/destination/qasr-libya",
+    "permanent": true
+  },
+  {
+    "source": "/jebel-akhdar",
+    "destination": "/en/destination/jebel-akhdar",
+    "permanent": true
+  },
+  {
+    "source": "/jebel-akhdar/",
+    "destination": "/en/destination/jebel-akhdar",
+    "permanent": true
+  },
+  {
+    "source": "/misrata",
+    "destination": "/en/destination/misrata",
+    "permanent": true
+  },
+  {
+    "source": "/misrata/",
+    "destination": "/en/destination/misrata",
+    "permanent": true
+  },
+  {
+    "source": "/wadi-mathendous",
+    "destination": "/en/destination/wadi-mathendous",
+    "permanent": true
+  },
+  {
+    "source": "/wadi-mathendous/",
+    "destination": "/en/destination/wadi-mathendous",
+    "permanent": true
+  },
+  {
+    "source": "/waddan",
+    "destination": "/en/destination/waddan",
+    "permanent": true
+  },
+  {
+    "source": "/waddan/",
+    "destination": "/en/destination/waddan",
+    "permanent": true
+  },
+  {
+    "source": "/cyrene",
+    "destination": "/en/destination/shahat",
+    "permanent": true
+  },
+  {
+    "source": "/cyrene/",
+    "destination": "/en/destination/shahat",
+    "permanent": true
+  },
+  {
+    "source": "/apollonia",
+    "destination": "/en/destination/susa",
+    "permanent": true
+  },
+  {
+    "source": "/apollonia/",
+    "destination": "/en/destination/susa",
+    "permanent": true
+  },
+  {
+    "source": "/tolmeita",
+    "destination": "/en/destination/ptolemais",
+    "permanent": true
+  },
+  {
+    "source": "/tolmeita/",
+    "destination": "/en/destination/ptolemais",
+    "permanent": true
+  },
+  {
+    "source": "/garama",
+    "destination": "/en/destination/germa",
+    "permanent": true
+  },
+  {
+    "source": "/garama/",
+    "destination": "/en/destination/germa",
+    "permanent": true
+  },
+  {
+    "source": "/tadrart-acacus",
+    "destination": "/en/destination/acacus-mountains",
+    "permanent": true
+  },
+  {
+    "source": "/tadrart-acacus/",
+    "destination": "/en/destination/acacus-mountains",
+    "permanent": true
+  },
+  {
+    "source": "/ubari",
+    "destination": "/en/destination/gaberoun",
+    "permanent": true
+  },
+  {
+    "source": "/ubari/",
+    "destination": "/en/destination/gaberoun",
+    "permanent": true
+  }
+]

@@ -1,4 +1,5 @@
 import { z } from 'zod';
+import { galleriesSchema } from './gallery-schema';
 import { stripTrailingSlash } from './paths';
 
 export const LANGS = [
@@ -46,6 +47,8 @@ export const postFrontmatterSchema = z.object({
   wpImportId: z.number().optional(),
   publishedAt: z.coerce.date(),
   translationGroup: z.string(),
+  /** When true, excluded from builds, listings, and sitemap until published. */
+  draft: z.boolean().default(false),
   /** Required hero image — used on the post page and as the social OG image. */
   featuredImage: z.string().min(1, 'featuredImage (hero) is required'),
   excerpt: z.string().optional(),
@@ -54,6 +57,7 @@ export const postFrontmatterSchema = z.object({
     description: z.string(),
     canonical: z.string().url().transform(stripTrailingSlash),
   }),
+  galleries: galleriesSchema,
 });
 
 export type PostFrontmatter = z.infer<typeof postFrontmatterSchema>;
