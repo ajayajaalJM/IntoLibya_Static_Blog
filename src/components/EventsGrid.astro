@@ -1,24 +1,15 @@
 ---
+import { EVENTS_CDN_URL, selectNewestEvents, type EventItem } from '../lib/events';
 import { eventBookingUrl, eventSlug } from '../lib/tourbuilder-links';
 import OptimizedImage from './OptimizedImage.astro';
 
-interface EventItem {
-  id: string;
-  title: string;
-  days: number;
-  price?: number;
-  description?: string;
-  overview?: string;
-  image?: string;
-  images?: string[];
-  scheduleType?: string;
-  isLibyanOnly?: boolean;
-}
-
 let events: EventItem[] = [];
 try {
-  const res = await fetch('https://cdn.intolibya.com/json/events.json');
-  if (res.ok) events = await res.json();
+  const res = await fetch(EVENTS_CDN_URL);
+  if (res.ok) {
+    const all = (await res.json()) as EventItem[];
+    events = selectNewestEvents(Array.isArray(all) ? all : []);
+  }
 } catch {
   events = [];
 }
@@ -34,7 +25,7 @@ function eventDescription(e: EventItem): string {
 }
 ---
 
-<section id="events" class="scroll-mt-20 px-4 py-8 md:px-8 md:py-10" data-ga-section="events">
+<section id="events" class="scroll-mt-20 px-4 py-8 md:px-8 md:py-10" data-ga-section="events" data-events-section>
   <div class="mx-auto max-w-6xl">
     <div class="mb-5 flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
       <div>
@@ -52,9 +43,13 @@ function eventDescription(e: EventItem): string {
     </div>
 
     {events.length ? (
-      <div class="grid gap-6 md:grid-cols-2">
+      <div class="grid gap-6 md:grid-cols-2" data-events-grid>
         {events.map((e) => (
-          <article class="card group flex flex-col overflow-hidden border-l-8 border-mint">
+          <article
+            class="card group flex flex-col overflow-hidden border-l-8 border-mint"
+            data-event-id={e.id}
+            data-event-source="build"
+          >
             <div class="tile-media mx-4 mt-4 h-52 sm:h-56">
               <OptimizedImage
                 src={eventImage(e)}
@@ -114,7 +109,14 @@ function eventDescription(e: EventItem): string {
         ))}
       </div>
     ) : (
-      <p class="text-muted">Events loading from TourBuilder CDN…</p>
+      <p class="text-muted" data-events-empty>Events loading from TourBuilder CDN…</p>
     )}
   </div>
 </section>
+
+<script>
+  import { initEventsCdnSync } from '../lib/events-cdn-sync';
+
+  const section = document.querySelector<HTMLElement>('[data-events-section]');
+  if (section) initEventsCdnSync(section);
+</script>

@@ -41,6 +41,7 @@ const RESERVED_ROOT_SLUGS = new Set([
   'destinations',
   'api',
   'favicon.ico',
+  'favicon.png',
   'favicon.svg',
   'robots.txt',
   'sitemap.xml',
