@@ -1168,11 +1168,19 @@ async function translateAndSaveAll() {
     const translateRes = await fetch('/api/translate', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ title: english.title, body: english.body }),
+      body: JSON.stringify({
+        title: english.title,
+        body: english.body,
+        seoTitle: english.seoTitle,
+        seoDescription: english.seoDescription,
+      }),
     });
     const translateData = (await translateRes.json()) as {
       ok: boolean;
-      translations?: Record<Lang, { title: string; body: string }>;
+      translations?: Record<
+        Lang,
+        { title: string; body: string; seoTitle?: string; seoDescription?: string }
+      >;
       error?: string;
     };
     if (!translateRes.ok || !translateData.ok || !translateData.translations) {

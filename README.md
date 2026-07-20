@@ -6,7 +6,7 @@ High-performance Astro site for [intolibya.com](https://intolibya.com) — conve
 
 ```bash
 npm install
-cp .env.example .env   # add WP / OpenAI / GA credentials
+cp .env.example .env   # add WP / Ollama (or OpenAI) / GA credentials
 ```
 
 Set `PUBLIC_GA_MEASUREMENT_ID` in `.env` to your GA4 Measurement ID (`G-XXXXXXXXXX`). Leave it blank to disable analytics.
@@ -40,6 +40,20 @@ npm run import:wp -- --from-cache   # WP down — write from local cache
 
 Throttle via `.env`: `IMPORT_BATCH_SIZE`, `IMPORT_DELAY_MS`, `IMPORT_PAGE_DELAY_MS`.
 
+## Translations (Ollama on Mac Mini)
+
+Automatic translations default to **local Ollama** (`TRANSLATE_PROVIDER=ollama`, model `qwen2.5:14b`). Run the **backlog batches on the 16GB Mac Mini** after pulling latest `main` — not on a smaller laptop.
+
+Full steps: [content-review/mac-mini-translation-runbook.md](content-review/mac-mini-translation-runbook.md).
+
+```bash
+# On the Mac Mini, after git pull + ollama pull qwen2.5:14b:
+npm run translate:missing -- --dry-run --langs es --limit 5
+npm run translate:missing -- --langs es
+```
+
+Optional paid fallback: set `TRANSLATE_PROVIDER=openai` and `OPENAI_API_KEY`.
+
 ## Google Analytics
 
 Set your GA4 Measurement ID in `.env` (and in Vercel env vars for production):
@@ -67,7 +81,7 @@ Opens at **http://localhost:5174** — local only, not deployed (see `.vercelign
 - Use the **Library** tab to browse and edit existing post groups
 - Use the **Instagram** tab (`#instagram`) to curate the homepage Instagram tiles (`data/instagram-feed.json` + posters in `public/media/instagram/`). Paste/edit Reel URLs, click **Fetch OG** to pull the poster, then **Save feed** and deploy. Homepage shows a 3×3 Reels-style grid.
 
-Requires `OPENAI_API_KEY` in `.env` for automatic translations.
+Requires Ollama running locally (default) or `OPENAI_API_KEY` if `TRANSLATE_PROVIDER=openai`. For the SEO backlog, prefer `npm run translate:missing` on the Mac Mini.
 
 ## Build
 
@@ -82,3 +96,4 @@ npm run preview
 - `data/site.json` — homepage hero, CTAs, logo paths
 - `public/assets/branding/` — logo upload target
 - `scripts/import-wordpress-to-md.ts` — resumable WP exporter
+- `scripts/translate-missing.ts` — batch locale translation (Ollama / OpenAI)

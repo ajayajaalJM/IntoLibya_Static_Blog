@@ -5,8 +5,9 @@ import matter from 'gray-matter';
 import { dump as yamlDump } from 'js-yaml';
 import sharp from 'sharp';
 import type { Plugin } from 'vite';
-import { LANGS, LANG_LABELS, type Lang } from '../../src/lib/post-schema';
+import { LANGS, type Lang } from '../../src/lib/post-schema';
 import { sanitizeHtmlNode, sanitizePlainField } from './lib/sanitize-html-node';
+import { translateAllLanguages } from './lib/translate-provider';
 
 interface SavePayload {
   files: Array<{ path: string; content: string }>;
@@ -15,6 +16,8 @@ interface SavePayload {
 interface TranslatePayload {
   title: string;
   body: string;
+  seoTitle?: string;
+  seoDescription?: string;
 }
 
 interface InstagramFeedItem {
@@ -628,69 +631,6 @@ function groupPosts(
     });
 }
 
-async function translateWithOpenAI(title: string, body: string): Promise<Record<Lang, { title: string; body: string }>> {
-  const apiKey = process.env.OPENAI_API_KEY;
-  if (!apiKey) {
-    throw new Error('OPENAI_API_KEY is missing. Add it to .env to enable automatic translations.');
-  }
-
-  const targets = LANGS.filter((lang) => lang !== 'en');
-  const targetList = targets.map((lang) => `${lang} (${LANG_LABELS[lang]})`).join(', ');
-
-  const response = await fetch('https://api.openai.com/v1/chat/completions', {
-    method: 'POST',
-    headers: {
-      Authorization: `Bearer ${apiKey}`,
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify({
-      model: process.env.OPENAI_MODEL || 'gpt-4o-mini',
-      response_format: { type: 'json_object' },
-      messages: [
-        {
-          role: 'system',
-          content: [
-            'You translate IntoLibya travel blog posts from English into other languages.',
-            'Return strict JSON shaped as { "translations": { "<langCode>": { "title": "...", "body": "..." } } }.',
-            `Include every target language: ${targets.join(', ')}.`,
-            'Preserve HTML tags, attributes, links, and structure in body. Translate only visible text.',
-            'Keep proper nouns like IntoLibya, Tripoli, Ghadames, Leptis Magna, Sabratha when appropriate.',
-          ].join(' '),
-        },
-        {
-          role: 'user',
-          content: JSON.stringify({ title, body, targetLanguages: targets, labels: targetList }),
-        },
-      ],
-    }),
-  });
-
-  if (!response.ok) {
-    const detail = await response.text();
-    throw new Error(`Translation API failed (${response.status}): ${detail.slice(0, 240)}`);
-  }
-
-  const payload = await response.json() as {
-    choices?: Array<{ message?: { content?: string } }>;
-  };
-  const content = payload.choices?.[0]?.message?.content;
-  if (!content) throw new Error('Translation API returned an empty response');
-
-  const parsed = JSON.parse(content) as {
-    translations?: Record<string, { title?: string; body?: string }>;
-  };
-
-  const result = {} as Record<Lang, { title: string; body: string }>;
-  for (const lang of targets) {
-    const item = parsed.translations?.[lang];
-    if (!item?.title || !item?.body) {
-      throw new Error(`Translation missing for ${lang}`);
-    }
-    result[lang] = { title: item.title, body: item.body };
-  }
-  return result;
-}
-
 function summarizeGroups(groups: PostGroupSummary[]) {
   const incomplete = groups.filter((g) => g.translations.some((t) => !t.exists));
   const missingTranslations = groups.reduce(
@@ -907,22 +847,38 @@ export function blogWriterDevApiPlugin(repoRoot: string): Plugin {
             const payload = JSON.parse(await readBody(req)) as TranslatePayload;
             const title = sanitizePlainField(payload.title ?? '');
             const body = sanitizeHtmlNode(payload.body ?? '');
+            const seoTitle = sanitizePlainField(payload.seoTitle ?? '');
+            const seoDescription = sanitizePlainField(payload.seoDescription ?? '');
             if (!title || !body) {
               json(res, 400, { ok: false, error: 'English title and body are required' });
               return;
             }
-            const translations = await translateWithOpenAI(title, body);
-            // Sanitize model output before returning to the client
-            const cleaned = {} as Record<Lang, { title: string; body: string }>;
-            for (const [lang, item] of Object.entries(translations) as Array<
-              [Lang, { title: string; body: string }]
-            >) {
-              cleaned[lang] = {
-                title: sanitizePlainField(item.title),
-                body: sanitizeHtmlNode(item.body),
-              };
+            try {
+              const translations = await translateAllLanguages({
+                title,
+                body,
+                seoTitle,
+                seoDescription,
+              });
+              const cleaned = {} as Record<
+                Lang,
+                { title: string; body: string; seoTitle: string; seoDescription: string }
+              >;
+              for (const [lang, item] of Object.entries(translations) as Array<
+                [Lang, { title: string; body: string; seoTitle?: string; seoDescription?: string }]
+              >) {
+                cleaned[lang] = {
+                  title: sanitizePlainField(item.title),
+                  body: sanitizeHtmlNode(item.body),
+                  seoTitle: sanitizePlainField(item.seoTitle || item.title),
+                  seoDescription: sanitizePlainField(item.seoDescription || ''),
+                };
+              }
+              json(res, 200, { ok: true, translations: cleaned });
+            } catch (err) {
+              const message = err instanceof Error ? err.message : 'Translation failed';
+              json(res, 500, { ok: false, error: message });
             }
-            json(res, 200, { ok: true, translations: cleaned });
             return;
           }
 
