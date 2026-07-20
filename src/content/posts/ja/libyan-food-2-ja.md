@@ -1,5 +1,5 @@
 ---
-title: リビア食品:北アフリカがギリシャ語とイタリアの味に出会う場所
+title: 'リビア食品:北アフリカがギリシャ語とイタリアの味に出会う場所'
 slug: libyan-food-2-ja
 canonicalPath: /ja/libyan-food-2-ja/
 lang: ja
@@ -9,7 +9,7 @@ translationGroup: libyan-food-2
 featuredImage: /media/2025/08/IMG_0797.jpg
 excerpt: リビアは、食の旅行を考えると、最初の国ではないかもしれませんが、そうすべきです。 チュニジアとエジプトの北アフリカの地中海沿岸に挟まれたリビア料理は、何世紀にもわたって形作られた隠れた宝石です。
 seo:
-  title: リビア食品:北アフリカがギリシャ語とイタリアの味に出会う場所
+  title: 'リビア食品:北アフリカがギリシャ語とイタリアの味に出会う場所'
   description: リビアは、食の旅行を考えると、最初の国ではないかもしれませんが、そうすべきです。 チュニジアとエジプトの北アフリカの地中海沿岸に挟まれたリビア料理は、何世紀にもわたって形作られた隠れた宝石です。
   canonical: https://intolibya.com/ja/libyan-food-2-ja/
 ---

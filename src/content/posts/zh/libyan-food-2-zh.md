@@ -1,5 +1,5 @@
 ---
-title: 利比亚食品:北非遇上希腊和意大利Flavor的地方
+title: '利比亚食品:北非遇上希腊和意大利Flavor的地方'
 slug: libyan-food-2-zh
 canonicalPath: /zh/libyan-food-2-zh/
 lang: zh
@@ -9,7 +9,7 @@ translationGroup: libyan-food-2
 featuredImage: /media/2025/08/IMG_0797.jpg
 excerpt: 利比亚或许不是第一个想到食物旅行的国家, 位于北非地中海沿岸的突尼斯和埃及之间,利比亚的烹饪是一块隐藏的宝石,由数百年的古董制成。
 seo:
-  title: 利比亚食品:北非遇上希腊和意大利Flavor的地方
+  title: '利比亚食品:北非遇上希腊和意大利Flavor的地方'
   description: 利比亚或许不是第一个想到食物旅行的国家, 位于北非地中海沿岸的突尼斯和埃及之间,利比亚的烹饪是一块隐藏的宝石,由数百年的古董制成。
   canonical: https://intolibya.com/zh/libyan-food-2-zh/
 ---

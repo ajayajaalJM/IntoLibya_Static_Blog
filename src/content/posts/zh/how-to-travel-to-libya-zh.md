@@ -1,5 +1,5 @@
 ---
-title: 2025年如何前往利比亚:答复
+title: '2025年如何前往利比亚:答复'
 slug: how-to-travel-to-libya-zh
 canonicalPath: /zh/how-to-travel-to-libya-zh/
 lang: zh
@@ -9,7 +9,7 @@ translationGroup: how-to-travel-to-libya
 featuredImage: /media/2023/12/IMG_7922.jpg
 excerpt: 一个白痴指导,如何去利比亚 你可以跳过指南,在@into Libeh上给我们发关于Instagram或fo@into Libeh.com和我们######8217的信息;将注意回答,如何前往利比亚,以及处理你的后勤问题。
 seo:
-  title: 2025年如何前往利比亚:答复
+  title: '2025年如何前往利比亚:答复'
   description: 一个白痴指导,如何去利比亚 你可以跳过指南,在@into Libeh上给我们发关于Instagram或fo@into Libeh.com和我们######8217的信息;将注意回答,如何前往利比亚,以及处理你的后勤问题。
   canonical: https://intolibya.com/zh/how-to-travel-to-libya-zh/
 ---

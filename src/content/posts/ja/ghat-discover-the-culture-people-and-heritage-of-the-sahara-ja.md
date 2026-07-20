@@ -1,5 +1,5 @@
 ---
-title: ガット:サハラの文化、人、そして遺産を発見
+title: 'ガット:サハラの文化、人、そして遺産を発見'
 slug: ghat-discover-the-culture-people-and-heritage-of-the-sahara-ja
 canonicalPath: /ja/ghat-discover-the-culture-people-and-heritage-of-the-sahara-ja/
 lang: ja
@@ -9,7 +9,7 @@ translationGroup: ghat-discover-the-culture-people-and-heritage-of-the-sahara
 featuredImage: /media/2025/12/ghat.jpg
 excerpt: リビアの南西部に深く、アルジェリアとニジェールの国境に近い、ガットの歴史的な町です。 一見すると、リモートのようです。 しかし、到着すると、ガットが隔離されていないことが明らかになります
 seo:
-  title: ガット:サハラの文化、人、そして遺産を発見
+  title: 'ガット:サハラの文化、人、そして遺産を発見'
   description: リビアの南西部に深く、アルジェリアとニジェールの国境に近い、ガットの歴史的な町です。 一見すると、リモートのようです。 しかし、到着すると、ガットが隔離されていないことが明らかになります
   canonical: https://intolibya.com/ja/ghat-discover-the-culture-people-and-heritage-of-the-sahara-ja/
 ---

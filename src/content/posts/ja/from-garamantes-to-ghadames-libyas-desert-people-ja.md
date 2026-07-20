@@ -1,5 +1,5 @@
 ---
-title: GaramantesからGhadamesまで:Libya’s Desert People
+title: 'GaramantesからGhadamesまで:Libya’s Desert People'
 slug: from-garamantes-to-ghadames-libyas-desert-people-ja
 canonicalPath: /ja/from-garamantes-to-ghadames-libyas-desert-people-ja/
 lang: ja
@@ -9,7 +9,7 @@ translationGroup: from-garamantes-to-ghadames-libyas-desert-people
 featuredImage: /media/2025/10/A-street-view-of-old-town-Ghadames-scaled.jpg
 excerpt: リビア砂漠は空ではありません。 一見、無限の砂と石のように思えるかもしれませんが、熱と沈黙の下にあるのは、適応、耐え、そして最も過酷な景色の1つに住んでいた人々の歴史です
 seo:
-  title: GaramantesからGhadamesまで:Libya&#8217;s Desert People
+  title: 'GaramantesからGhadamesまで:Libya&#8217;s Desert People'
   description: リビア砂漠は空ではありません。 一見、無限の砂と石のように思えるかもしれませんが、熱と沈黙の下にあるのは、適応、耐え、そして最も過酷な景色の1つに住んでいた人々の歴史です
   canonical: https://intolibya.com/ja/from-garamantes-to-ghadames-libyas-desert-people-ja/
 ---

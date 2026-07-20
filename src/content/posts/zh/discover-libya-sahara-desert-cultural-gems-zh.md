@@ -1,5 +1,5 @@
 ---
-title: 发现利比亚:撒哈拉沙漠和amp;文化宝石
+title: '发现利比亚:撒哈拉沙漠和amp;文化宝石'
 slug: discover-libya-sahara-desert-cultural-gems-zh
 canonicalPath: /zh/discover-libya-sahara-desert-cultural-gems-zh/
 lang: zh
@@ -9,7 +9,7 @@ translationGroup: discover-libya-sahara-desert-cultural-gems
 featuredImage: /media/2023/12/IMG_7894.jpg
 excerpt: 最终旅行指南, 利比亚撒哈拉沙漠是一片由无尽的沙丘、古老的岩石艺术和遥远的绿洲组成的迷幻景观。 但除了沙漠之外,利比亚的文化宝石,如的黎波里、纳卢特和加达梅斯提供了丰富的历史
 seo:
-  title: 发现利比亚:撒哈拉沙漠和amp;文化宝石
+  title: '发现利比亚:撒哈拉沙漠和amp;文化宝石'
   description: 最终旅行指南, 利比亚撒哈拉沙漠是一片由无尽的沙丘、古老的岩石艺术和遥远的绿洲组成的迷幻景观。 但除了沙漠之外,利比亚的文化宝石,如的黎波里、纳卢特和加达梅斯提供了丰富的历史
   canonical: https://intolibya.com/zh/discover-libya-sahara-desert-cultural-gems-zh/
 ---

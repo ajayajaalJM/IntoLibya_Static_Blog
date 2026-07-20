@@ -1,5 +1,5 @@
 ---
-title: 利比亚图阿雷格人民:撒哈拉的历史、文化和生活
+title: '利比亚图阿雷格人民:撒哈拉的历史、文化和生活'
 slug: the-tuareg-people-of-libya-history-culture-and-life-in-the-sahara-zh
 canonicalPath: /zh/the-tuareg-people-of-libya-history-culture-and-life-in-the-sahara-zh/
 lang: zh
@@ -9,7 +9,7 @@ translationGroup: the-tuareg-people-of-libya-history-culture-and-life-in-the-sah
 featuredImage: /media/2025/12/IMG_2996-scaled.jpg
 excerpt: 利比亚图阿雷格人民是北非最持久的沙漠社会之一。 几个世纪以来,他们在撒哈拉各地生活、旅行和繁荣,塑造了利比亚西南部的文化特征。 从费赞地区到绿洲
 seo:
-  title: 利比亚图阿雷格人民:撒哈拉的历史、文化和生活
+  title: '利比亚图阿雷格人民:撒哈拉的历史、文化和生活'
   description: 利比亚图阿雷格人民是北非最持久的沙漠社会之一。 几个世纪以来,他们在撒哈拉各地生活、旅行和繁荣,塑造了利比亚西南部的文化特征。 从费赞地区到绿洲
   canonical: https://intolibya.com/zh/the-tuareg-people-of-libya-history-culture-and-life-in-the-sahara-zh/
 ---

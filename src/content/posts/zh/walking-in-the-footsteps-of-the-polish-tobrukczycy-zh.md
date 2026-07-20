@@ -7,7 +7,7 @@ wpImportId: 7113
 publishedAt: '2026-03-11'
 translationGroup: walking-in-the-footsteps-of-the-polish-tobrukczycy
 featuredImage: /media/2026/02/tobruk_war.jpg
-excerpt: Tobrukczycy:为什么 Tobruk Still Matters to Polish visits Today 今日波兰游客仍然重要 对于选择进入利比亚的旅行者来说,历史绝不只是一本书中的故事。 这是一条你可以走的路 一条可以站立的海岸线 以及一个战场
+excerpt: 'Tobrukczycy:为什么 Tobruk Still Matters to Polish visits Today 今日波兰游客仍然重要 对于选择进入利比亚的旅行者来说,历史绝不只是一本书中的故事。 这是一条你可以走的路 一条可以站立的海岸线 以及一个战场'
 seo:
   title: 在波兰托布鲁克奇西的足迹中走动
   description: Tobrukczycy:为什么 Tobruk Still Matters to Polish visits Today 今日波兰游客仍然重要 对于选择进入利比亚的旅行者来说,历史绝不只是一本书中的故事。 这是一条你可以走的路 一条可以站立的海岸线 以及一个战场

@@ -1,5 +1,5 @@
 ---
-title: 揭开福加拉河:沙漠中的水
+title: '揭开福加拉河:沙漠中的水'
 slug: unearthing-the-foggara-water-in-the-desert-zh
 canonicalPath: /zh/unearthing-the-foggara-water-in-the-desert-zh/
 lang: zh
@@ -7,9 +7,9 @@ wpImportId: 7013
 publishedAt: '2026-03-11'
 translationGroup: unearthing-the-foggara-water-in-the-desert
 featuredImage: /media/2025/10/Narrow-pathways-around-the-old-town-of-Ghadames-scaled.jpg
-excerpt: 在撒哈拉的心脏地带,沙子无休止地伸展,水源稀少,古代民族发现了一个显著的秘密:即使在最严酷的沙漠中,生命也可能繁荣. 这个秘密是雾加拉, 一个有创意的地下灌溉系统,它携带着
+excerpt: '在撒哈拉的心脏地带,沙子无休止地伸展,水源稀少,古代民族发现了一个显著的秘密:即使在最严酷的沙漠中,生命也可能繁荣. 这个秘密是雾加拉, 一个有创意的地下灌溉系统,它携带着'
 seo:
-  title: 揭开福加拉河:沙漠中的水
+  title: '揭开福加拉河:沙漠中的水'
   description: 在撒哈拉的心脏地带,沙子无休止地伸展,水源稀少,古代民族发现了一个显著的秘密:即使在最严酷的沙漠中,生命也可能繁荣. 这个秘密是雾加拉, 一个有创意的地下灌溉系统,它携带着
   canonical: https://intolibya.com/zh/unearthing-the-foggara-water-in-the-desert-zh/
 ---

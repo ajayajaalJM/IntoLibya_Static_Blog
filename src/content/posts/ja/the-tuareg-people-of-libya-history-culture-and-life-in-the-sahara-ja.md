@@ -1,5 +1,5 @@
 ---
-title: リビアのタウレ人:サハラの歴史、文化、そして生活
+title: 'リビアのタウレ人:サハラの歴史、文化、そして生活'
 slug: the-tuareg-people-of-libya-history-culture-and-life-in-the-sahara-ja
 canonicalPath: /ja/the-tuareg-people-of-libya-history-culture-and-life-in-the-sahara-ja/
 lang: ja
@@ -9,7 +9,7 @@ translationGroup: the-tuareg-people-of-libya-history-culture-and-life-in-the-sah
 featuredImage: /media/2025/12/IMG_2996-scaled.jpg
 excerpt: リビアのタテは、北アフリカで最も絶え間ない砂漠の社会の中にあります。 何世紀にもわたって、サハラを渡り、南西リビアの文化的アイデンティティを形作りました。 フェズザン地方からオアシスまで
 seo:
-  title: リビアのタウレ人:サハラの歴史、文化、そして生活
+  title: 'リビアのタウレ人:サハラの歴史、文化、そして生活'
   description: リビアのタテは、北アフリカで最も絶え間ない砂漠の社会の中にあります。 何世紀にもわたって、サハラを渡り、南西リビアの文化的アイデンティティを形作りました。 フェズザン地方からオアシスまで
   canonical: https://intolibya.com/ja/the-tuareg-people-of-libya-history-culture-and-life-in-the-sahara-ja/
 ---

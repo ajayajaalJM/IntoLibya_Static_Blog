@@ -1,5 +1,5 @@
 ---
-title: 撒哈拉沙漠中的野生动物:利比亚大荒野的动物
+title: '撒哈拉沙漠中的野生动物:利比亚大荒野的动物'
 slug: wildlife-in-the-sahara-desert-zh
 canonicalPath: /zh/wildlife-in-the-sahara-desert-zh/
 lang: zh
@@ -9,7 +9,7 @@ translationGroup: wildlife-in-the-sahara-desert
 featuredImage: /media/2025/09/Fennec_Fox_Vulpes_zerda.jpg
 excerpt: 利比亚 ’s 野生动物 当大多数人想到撒哈拉沙漠时, 他们想象着无尽的沙丘, 阳光般的风景, 但在这个严酷的外表之下 沙漠充满了生命 利比亚在撒哈拉的一部份,
 seo:
-  title: 撒哈拉沙漠中的野生动物:利比亚大荒野的动物
+  title: '撒哈拉沙漠中的野生动物:利比亚大荒野的动物'
   description: 利比亚 &#8217;s 野生动物 当大多数人想到撒哈拉沙漠时, 他们想象着无尽的沙丘, 阳光般的风景, 但在这个严酷的外表之下 沙漠充满了生命 利比亚在撒哈拉的一部份,
   canonical: https://intolibya.com/zh/wildlife-in-the-sahara-desert-zh/
 ---

@@ -1,5 +1,5 @@
 ---
-title: Leptis Magna:利比亚过去仍在呼吸的地方
+title: 'Leptis Magna:利比亚过去仍在呼吸的地方'
 slug: leptis-magna-where-the-past-still-breathes-in-libya-zh
 canonicalPath: /zh/leptis-magna-where-the-past-still-breathes-in-libya-zh/
 lang: zh
@@ -9,7 +9,7 @@ translationGroup: leptis-magna-where-the-past-still-breathes-in-libya
 featuredImage: /media/2025/10/Leptis-Magna-Baths-scaled.jpg
 excerpt: 早上在Leptis Magna a Living City 闭上你的眼睛 想象在近两千年前在Leptis Magna醒来 晨光闪耀着金子对着砂岩柱子 咸空气从地中海漂流 城市欢呼
 seo:
-  title: Leptis Magna:利比亚过去仍在呼吸的地方
+  title: 'Leptis Magna:利比亚过去仍在呼吸的地方'
   description: 早上在Leptis Magna a Living City 闭上你的眼睛 想象在近两千年前在Leptis Magna醒来 晨光闪耀着金子对着砂岩柱子 咸空气从地中海漂流 城市欢呼
   canonical: https://intolibya.com/zh/leptis-magna-where-the-past-still-breathes-in-libya-zh/
 ---

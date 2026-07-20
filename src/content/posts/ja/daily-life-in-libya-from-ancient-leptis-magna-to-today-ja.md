@@ -1,5 +1,5 @@
 ---
-title: リビアの日常生活:古代レプティスマグナから今日まで
+title: 'リビアの日常生活:古代レプティスマグナから今日まで'
 slug: daily-life-in-libya-from-ancient-leptis-magna-to-today-ja
 canonicalPath: /ja/daily-life-in-libya-from-ancient-leptis-magna-to-today-ja/
 lang: ja
@@ -9,7 +9,7 @@ translationGroup: daily-life-in-libya-from-ancient-leptis-magna-to-today
 featuredImage: /media/2025/10/Leptis-Magana-Event.png
 excerpt: 古代レプティスマグナの通りに約2千年前に踏み込んで想像してみてください。 地中海の太陽は大理石のコラム、海が漂う塩辛い形、そして生命の都市ハムを垣間見ます。 漁師は船を船に押し込みます
 seo:
-  title: リビアの日常生活:古代レプティスマグナから今日まで
+  title: 'リビアの日常生活:古代レプティスマグナから今日まで'
   description: 古代レプティスマグナの通りに約2千年前に踏み込んで想像してみてください。 地中海の太陽は大理石のコラム、海が漂う塩辛い形、そして生命の都市ハムを垣間見ます。 漁師は船を船に押し込みます
   canonical: https://intolibya.com/ja/daily-life-in-libya-from-ancient-leptis-magna-to-today-ja/
 ---

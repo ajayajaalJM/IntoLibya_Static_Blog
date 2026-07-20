@@ -1,5 +1,5 @@
 ---
-title: 2026年如何访问利比亚:与利比亚的完整旅行指南
+title: '2026年如何访问利比亚:与利比亚的完整旅行指南'
 slug: how-to-visit-libya-in-2026-a-complete-travel-guide-with-intolibya-zh
 canonicalPath: /zh/how-to-visit-libya-in-2026-a-complete-travel-guide-with-intolibya-zh/
 lang: zh
@@ -9,7 +9,7 @@ translationGroup: how-to-visit-libya-in-2026-a-complete-travel-guide-with-intoli
 featuredImage: /media/2025/12/588723216_18541306732018455_4682535793656268838_n.jpg
 excerpt: 你有没有想过,如何在2026年访问利比亚? 利比亚是北非最具吸引力的目的地之一,将古罗马废墟、充满活力的草地、宁静的撒哈拉沙丘和丰富的文化传统融合为一个难忘的旅程。 历史悠久
 seo:
-  title: 2026年如何访问利比亚:与利比亚的完整旅行指南
+  title: '2026年如何访问利比亚:与利比亚的完整旅行指南'
   description: 你有没有想过,如何在2026年访问利比亚? 利比亚是北非最具吸引力的目的地之一,将古罗马废墟、充满活力的草地、宁静的撒哈拉沙丘和丰富的文化传统融合为一个难忘的旅程。 历史悠久
   canonical: https://intolibya.com/zh/how-to-visit-libya-in-2026-a-complete-travel-guide-with-intolibya-zh/
 ---

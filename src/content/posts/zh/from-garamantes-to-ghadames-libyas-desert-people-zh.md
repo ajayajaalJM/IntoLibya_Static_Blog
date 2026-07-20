@@ -1,5 +1,5 @@
 ---
-title: 从加拉曼特斯到加达姆斯:利比亚 ’沙漠人民
+title: '从加拉曼特斯到加达姆斯:利比亚 ’沙漠人民'
 slug: from-garamantes-to-ghadames-libyas-desert-people-zh
 canonicalPath: /zh/from-garamantes-to-ghadames-libyas-desert-people-zh/
 lang: zh
@@ -9,7 +9,7 @@ translationGroup: from-garamantes-to-ghadames-libyas-desert-people
 featuredImage: /media/2025/10/A-street-view-of-old-town-Ghadames-scaled.jpg
 excerpt: 利比亚沙漠不是空的。 乍一看,它可能看起来像是无尽的沙子和石头, 但在炎热和寂静之下, 是一个历史中,人们适应、忍受和繁荣 在最严酷的景观之一
 seo:
-  title: 从加拉曼特斯到加达姆斯:利比亚 &#8217;沙漠人民
+  title: '从加拉曼特斯到加达姆斯:利比亚 &#8217;沙漠人民'
   description: 利比亚沙漠不是空的。 乍一看,它可能看起来像是无尽的沙子和石头, 但在炎热和寂静之下, 是一个历史中,人们适应、忍受和繁荣 在最严酷的景观之一
   canonical: https://intolibya.com/zh/from-garamantes-to-ghadames-libyas-desert-people-zh/
 ---

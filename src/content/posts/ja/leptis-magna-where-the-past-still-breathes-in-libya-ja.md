@@ -1,5 +1,5 @@
 ---
-title: Leptisマグナ:Libyaの過去の静止画
+title: 'Leptisマグナ:Libyaの過去の静止画'
 slug: leptis-magna-where-the-past-still-breathes-in-libya-ja
 canonicalPath: /ja/leptis-magna-where-the-past-still-breathes-in-libya-ja/
 lang: ja
@@ -9,7 +9,7 @@ translationGroup: leptis-magna-where-the-past-still-breathes-in-libya
 featuredImage: /media/2025/10/Leptis-Magna-Baths-scaled.jpg
 excerpt: 朝のレプティスマグナのリビングシティは、あなたの目を閉じて、約2千年前にレプティスマグナで目が覚めることを想像します。 朝の太陽は砂岩のコラム、地中海からの塩辛い空気漂流、都市のハムに対して金を輝きます
 seo:
-  title: Leptisマグナ:Libyaの過去の静止画
+  title: 'Leptisマグナ:Libyaの過去の静止画'
   description: 朝のレプティスマグナのリビングシティは、あなたの目を閉じて、約2千年前にレプティスマグナで目が覚めることを想像します。 朝の太陽は砂岩のコラム、地中海からの塩辛い空気漂流、都市のハムに対して金を輝きます
   canonical: https://intolibya.com/ja/leptis-magna-where-the-past-still-breathes-in-libya-ja/
 ---

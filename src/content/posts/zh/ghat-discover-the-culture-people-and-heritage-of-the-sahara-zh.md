@@ -1,5 +1,5 @@
 ---
-title: Ghat:发现撒哈拉的文化、人民和遗产
+title: 'Ghat:发现撒哈拉的文化、人民和遗产'
 slug: ghat-discover-the-culture-people-and-heritage-of-the-sahara-zh
 canonicalPath: /zh/ghat-discover-the-culture-people-and-heritage-of-the-sahara-zh/
 lang: zh
@@ -9,7 +9,7 @@ translationGroup: ghat-discover-the-culture-people-and-heritage-of-the-sahara
 featuredImage: /media/2025/12/ghat.jpg
 excerpt: 位于利比亚西南部深处,靠近阿尔及利亚和尼日尔的边界,是历史上的城镇加特. 乍一看,它可能看起来很遥远。 然而,一旦你到达, 很明显,加特不是孤立的
 seo:
-  title: Ghat:发现撒哈拉的文化、人民和遗产
+  title: 'Ghat:发现撒哈拉的文化、人民和遗产'
   description: 位于利比亚西南部深处,靠近阿尔及利亚和尼日尔的边界,是历史上的城镇加特. 乍一看,它可能看起来很遥远。 然而,一旦你到达, 很明显,加特不是孤立的
   canonical: https://intolibya.com/zh/ghat-discover-the-culture-people-and-heritage-of-the-sahara-zh/
 ---

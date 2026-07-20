@@ -1,5 +1,5 @@
 ---
-title: リビアを発見:サハラ砂漠&文化の宝石
+title: 'リビアを発見:サハラ砂漠&文化の宝石'
 slug: discover-libya-sahara-desert-cultural-gems-ja
 canonicalPath: /ja/discover-libya-sahara-desert-cultural-gems-ja/
 lang: ja
@@ -9,7 +9,7 @@ translationGroup: discover-libya-sahara-desert-cultural-gems
 featuredImage: /media/2023/12/IMG_7894.jpg
 excerpt: IntoLibyaのオールインクルーシブパッケージで究極の旅行ガイド リビアのサハラ砂漠は、無限の砂丘、古代のロックアート、そして遠隔のオアシスの魅惑的な風景です。 しかし、砂漠を超えて、リビアの文化的宝石は、トリポリ、ナルト、そしてガダムは豊かな歴史を提供
 seo:
-  title: リビアを発見:サハラ砂漠&amp;文化の宝石
+  title: 'リビアを発見:サハラ砂漠&amp;文化の宝石'
   description: IntoLibyaのオールインクルーシブパッケージで究極の旅行ガイド リビアのサハラ砂漠は、無限の砂丘、古代のロックアート、そして遠隔のオアシスの魅惑的な風景です。 しかし、砂漠を超えて、リビアの文化的宝石は、トリポリ、ナルト、そしてガダムは豊かな歴史を提供
   canonical: https://intolibya.com/ja/discover-libya-sahara-desert-cultural-gems-ja/
 ---

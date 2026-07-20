@@ -1,5 +1,5 @@
 ---
-title: Discover Libya:Saharan Desert and Cultural Gems
+title: 'Discover Libya:Saharan Desert and Cultural Gems'
 slug: discover-libya-sahara-desert-cultural-gems-ar
 canonicalPath: /ar/discover-libya-sahara-desert-cultural-gems-ar/
 lang: ar
@@ -9,7 +9,7 @@ translationGroup: discover-libya-sahara-desert-cultural-gems
 featuredImage: /media/2023/12/IMG_7894.jpg
 excerpt: Ultimate Travel Guide with IntoLibya’s All-Inclusive Packages Discover Libyan. إن صحراء الصحراء في ليبيا هي مشهد مزدهر من الكثبان التي لا نهاية لها، والفن الصخري القديم، والآفات النائية. ولكن خارج الصحراء، تقدم المجوهرات الثقافية في ليبيا، مثل طرابلس ونالوت وغهادامز، تاريخا غنيا
 seo:
-  title: Discover Libya:Saharan Desert and Cultural Gems
+  title: 'Discover Libya:Saharan Desert and Cultural Gems'
   description: Ultimate Travel Guide with IntoLibya’s All-Inclusive Packages Discover Libyan. إن صحراء الصحراء في ليبيا هي مشهد مزدهر من...
   canonical: https://intolibya.com/ar/discover-libya-sahara-desert-cultural-gems-ar/
 ---

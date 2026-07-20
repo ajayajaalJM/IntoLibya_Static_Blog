@@ -1,5 +1,5 @@
 ---
-title: 利比亚旅游2026年:如何与利比亚订旅游
+title: '利比亚旅游2026年:如何与利比亚订旅游'
 slug: libya-tours-2026-how-to-book-a-tour-with-intolibya-zh
 canonicalPath: /zh/libya-tours-2026-how-to-book-a-tour-with-intolibya-zh/
 lang: zh
@@ -9,7 +9,7 @@ translationGroup: libya-tours-2026-how-to-book-a-tour-with-intolibya
 featuredImage: /media/2025/09/IMG_3295-scaled.jpg
 excerpt: 利比亚仍然是地球上最后真正未被发现的目的地之一。 古罗马城市从地中海沿岸崛起,而大篷车路线则穿过撒哈拉的黄金沙丘. 与此同时,绿洲城镇保留了几个世纪的传统,
 seo:
-  title: 利比亚旅游2026年:如何与利比亚订旅游
+  title: '利比亚旅游2026年:如何与利比亚订旅游'
   description: 利比亚仍然是地球上最后真正未被发现的目的地之一。 古罗马城市从地中海沿岸崛起,而大篷车路线则穿过撒哈拉的黄金沙丘. 与此同时,绿洲城镇保留了几个世纪的传统,
   canonical: https://intolibya.com/zh/libya-tours-2026-how-to-book-a-tour-with-intolibya-zh/
 ---

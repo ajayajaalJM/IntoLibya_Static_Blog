@@ -1,5 +1,5 @@
 ---
-title: 利比亚的日常生活:从古老的Leptis Magna到今天
+title: '利比亚的日常生活:从古老的Leptis Magna到今天'
 slug: daily-life-in-libya-from-ancient-leptis-magna-to-today-zh
 canonicalPath: /zh/daily-life-in-libya-from-ancient-leptis-magna-to-today-zh/
 lang: zh
@@ -9,7 +9,7 @@ translationGroup: daily-life-in-libya-from-ancient-leptis-magna-to-today
 featuredImage: /media/2025/10/Leptis-Magana-Event.png
 excerpt: 想象一下在近两千年前 踏入古老的莱普提斯马格纳的街道 地中海的太阳闪烁着大理石柱子 咸淡的海水向内陆漂移 城市充满了生命 渔夫把船推进去
 seo:
-  title: 利比亚的日常生活:从古老的Leptis Magna到今天
+  title: '利比亚的日常生活:从古老的Leptis Magna到今天'
   description: 想象一下在近两千年前 踏入古老的莱普提斯马格纳的街道 地中海的太阳闪烁着大理石柱子 咸淡的海水向内陆漂移 城市充满了生命 渔夫把船推进去
   canonical: https://intolibya.com/zh/daily-life-in-libya-from-ancient-leptis-magna-to-today-zh/
 ---

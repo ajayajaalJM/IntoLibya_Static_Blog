@@ -1,5 +1,5 @@
 ---
-title: サハラ砂漠の野生動物:リビアの獣の野生動物
+title: 'サハラ砂漠の野生動物:リビアの獣の野生動物'
 slug: wildlife-in-the-sahara-desert-ja
 canonicalPath: /ja/wildlife-in-the-sahara-desert-ja/
 lang: ja
@@ -9,7 +9,7 @@ translationGroup: wildlife-in-the-sahara-desert
 featuredImage: /media/2025/09/Fennec_Fox_Vulpes_zerda.jpg
 excerpt: Libya’s ワイルドライフ ほとんどの人がサハラ砂漠を思い浮かび上がると、無限の砂丘、日焼けした風景、そしてマイルの沈黙を想像する。 しかし、この過酷な外面では、砂漠は人生に満ちています。 サハラのLibyaの部分は信じられないほどの場所です
 seo:
-  title: サハラ砂漠の野生動物:リビアの獣の野生動物
+  title: 'サハラ砂漠の野生動物:リビアの獣の野生動物'
   description: Libya&#8217;s ワイルドライフ ほとんどの人がサハラ砂漠を思い浮かび上がると、無限の砂丘、日焼けした風景、そしてマイルの沈黙を想像する。 しかし、この過酷な外面では、砂漠は人生に満ちています。 サハラのLibyaの部分は信じられないほどの場所です
   canonical: https://intolibya.com/ja/wildlife-in-the-sahara-desert-ja/
 ---

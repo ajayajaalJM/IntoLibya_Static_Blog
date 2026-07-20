@@ -1,5 +1,5 @@
 ---
-title: Can Tourists Visit Libya: Yes With a Licensed Tour
+title: 'Can Tourists Visit Libya: Yes With a Licensed Tour'
 slug: can-tourists-visit-libya-yes-with-a-licensed-tour
 canonicalPath: /en/can-tourists-visit-libya-yes-with-a-licensed-tour
 lang: en

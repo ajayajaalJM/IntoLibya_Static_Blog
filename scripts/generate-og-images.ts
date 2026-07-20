@@ -131,8 +131,15 @@ async function collectFeaturedImages(): Promise<string[]> {
     const files = await fs.readdir(dir);
     for (const file of files) {
       if (!file.endsWith('.md')) continue;
-      const raw = await fs.readFile(path.join(dir, file), 'utf8');
-      const { data } = matter(raw);
+      const filePath = path.join(dir, file);
+      const raw = await fs.readFile(filePath, 'utf8');
+      let data: Record<string, unknown>;
+      try {
+        data = matter(raw).data as Record<string, unknown>;
+      } catch (err) {
+        const reason = err instanceof Error ? err.message : String(err);
+        throw new Error(`Failed to parse frontmatter in ${path.relative(root, filePath)}: ${reason}`);
+      }
       const featured = String(data.featuredImage ?? '').trim();
       if (featured.startsWith('/')) images.add(featured);
     }

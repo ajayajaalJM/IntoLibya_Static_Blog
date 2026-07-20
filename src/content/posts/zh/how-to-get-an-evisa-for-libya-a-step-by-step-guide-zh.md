@@ -1,5 +1,5 @@
 ---
-title: 利比亚如何获得电子签证:一步步指南
+title: '利比亚如何获得电子签证:一步步指南'
 slug: how-to-get-an-evisa-for-libya-a-step-by-step-guide-zh
 canonicalPath: /zh/how-to-get-an-evisa-for-libya-a-step-by-step-guide-zh/
 lang: zh
@@ -9,7 +9,7 @@ translationGroup: how-to-get-an-evisa-for-libya-a-step-by-step-guide
 featuredImage: /media/2025/09/IMG_4412-scaled.jpg
 excerpt: 以轻松和自信地前往利比亚, 在利比亚,我们专门创建全组织旅游
 seo:
-  title: 利比亚如何获得电子签证:一步步指南
+  title: '利比亚如何获得电子签证:一步步指南'
   description: 以轻松和自信地前往利比亚, 在利比亚,我们专门创建全组织旅游
   canonical: https://intolibya.com/zh/how-to-get-an-evisa-for-libya-a-step-by-step-guide-zh/
 ---

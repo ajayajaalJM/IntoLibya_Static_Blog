@@ -1,5 +1,5 @@
 ---
-title: Foggara:砂漠の水
+title: 'Foggara:砂漠の水'
 slug: unearthing-the-foggara-water-in-the-desert-ja
 canonicalPath: /ja/unearthing-the-foggara-water-in-the-desert-ja/
 lang: ja
@@ -9,7 +9,7 @@ translationGroup: unearthing-the-foggara-water-in-the-desert
 featuredImage: /media/2025/10/Narrow-pathways-around-the-old-town-of-Ghadames-scaled.jpg
 excerpt: サハラの心臓では、砂が無限に伸び、水が怖くなり、古代の人々は驚くべき秘密を発見しました。生命は最も過酷な砂漠でも繁栄することができました。 この秘密は、先天の地下灌漑システムであるフォガラでした
 seo:
-  title: Foggara:砂漠の水
+  title: 'Foggara:砂漠の水'
   description: サハラの心臓では、砂が無限に伸び、水が怖くなり、古代の人々は驚くべき秘密を発見しました。生命は最も過酷な砂漠でも繁栄することができました。 この秘密は、先天の地下灌漑システムであるフォガラでした
   canonical: https://intolibya.com/ja/unearthing-the-foggara-water-in-the-desert-ja/
 ---

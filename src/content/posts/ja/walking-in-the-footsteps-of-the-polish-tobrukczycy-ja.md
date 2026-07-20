@@ -7,7 +7,7 @@ wpImportId: 7112
 publishedAt: '2026-03-11'
 translationGroup: walking-in-the-footsteps-of-the-polish-tobrukczycy
 featuredImage: /media/2026/02/tobruk_war.jpg
-excerpt: Tobrukczycy:今日のポーランドの訪問者にまだマッターを破る理由 IntoLibyaを選ぶ旅行者にとって、歴史は単なる本の中での物語ではありません。 歩くことができる道です。, あなたが立つことができる海岸線, そして、戦場どこ
+excerpt: 'Tobrukczycy:今日のポーランドの訪問者にまだマッターを破る理由 IntoLibyaを選ぶ旅行者にとって、歴史は単なる本の中での物語ではありません。 歩くことができる道です。, あなたが立つことができる海岸線, そして、戦場どこ'
 seo:
   title: ポーランド Tobrukczycy の足跡で歩く
   description: Tobrukczycy:今日のポーランドの訪問者にまだマッターを破る理由 IntoLibyaを選ぶ旅行者にとって、歴史は単なる本の中での物語ではありません。 歩くことができる道です。, あなたが立つことができる海岸線, そして、戦場どこ
