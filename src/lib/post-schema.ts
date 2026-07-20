@@ -47,7 +47,11 @@ export const postFrontmatterSchema = z.object({
   wpImportId: z.number().optional(),
   publishedAt: z.coerce.date(),
   translationGroup: z.string(),
-  /** When true, excluded from builds, listings, and sitemap until published. */
+  /**
+   * When true, excluded from builds, listings, and sitemap.
+   * When false, the post is still hidden until publishedAt <= build time
+   * (see isPubliclyVisible in src/lib/publish.ts).
+   */
   draft: z.boolean().default(false),
   /** Required hero image — used on the post page and as the social OG image. */
   featuredImage: z.string().min(1, 'featuredImage (hero) is required'),

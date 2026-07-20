@@ -1,5 +1,6 @@
 import { getCollection } from 'astro:content';
 import type { Lang } from './post-schema';
+import { isPubliclyVisible } from './publish';
 
 export async function getAllDestinationsIncludingDrafts() {
   const destinations = await getCollection('destinations');
@@ -8,9 +9,11 @@ export async function getAllDestinationsIncludingDrafts() {
   );
 }
 
-/** Published destinations only (`draft` is false / unset). */
+/** Live destinations only: not draft, and publishedAt has arrived (build-time now). */
 export async function getAllDestinations() {
-  return (await getAllDestinationsIncludingDrafts()).filter((d) => d.data.draft !== true);
+  return (await getAllDestinationsIncludingDrafts()).filter((d) =>
+    isPubliclyVisible(d.data),
+  );
 }
 
 export async function getDestinationsByLang(lang: Lang) {

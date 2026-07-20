@@ -1,5 +1,6 @@
 import { getCollection } from 'astro:content';
 import type { Lang } from './post-schema';
+import { isPubliclyVisible } from './publish';
 
 export async function getAllPostsIncludingDrafts() {
   const posts = await getCollection('posts');
@@ -8,9 +9,11 @@ export async function getAllPostsIncludingDrafts() {
   );
 }
 
-/** Published posts only (`draft` is false / unset). */
+/** Live posts only: not draft, and publishedAt has arrived (build-time now). */
 export async function getAllPosts() {
-  return (await getAllPostsIncludingDrafts()).filter((p) => p.data.draft !== true);
+  return (await getAllPostsIncludingDrafts()).filter((p) =>
+    isPubliclyVisible(p.data),
+  );
 }
 
 export async function getPostsByLang(lang: Lang) {
