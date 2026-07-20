@@ -28,7 +28,7 @@ seo:
 <p>随着撒哈拉的干涸,生活变得更加艰难。 人们向水移动。 Ghadames和Murzuq等绿洲成为生命线. 耕作缓慢出现。 小麦和大麦生长于可以挖井的地方.</p>
 <p>考古学家利用卫星图像研究古田. 他们追踪到 <a class="" href="https://www.sciencedirect.com/science/article/pii/S0277379112000932">化石河流</a> 和灌溉渠。 这些研究表明,早期农民是工程师. 他们以技巧管理稀缺的水。</p>
 <p>这种向农业的转变改变了社会。 村落形成于春节前后. 贸易路线发展跨越沙漠. 骆驼在很久之后被引入,使得这个系统变得更加强大.</p>
-<figure class="wp-block-image size-large"><img loading="lazy" alt="A tree that has been fossilized in the Libyan Sahara desert" class="wp-image-5860 not-transparent" data-dominant-color="9c8371" data-has-transparency="false" decoding="async" height="1024" loading="lazy" sizes="auto, (max-width: 768px) 100vw, 768px" src="https://intolibya.com/wp-content/uploads/2025/09/IMG_1538-768x1024.jpg" srcset="https://intolibya.com/wp-content/uploads/2025/09/IMG_1538-768x1024.jpg 768w, https://intolibya.com/wp-content/uploads/2025/09/IMG_1538-225x300.jpg 225w, https://intolibya.com/wp-content/uploads/2025/09/IMG_1538-1152x1536.jpg 1152w, https://intolibya.com/wp-content/uploads/2025/09/IMG_1538-1536x2048.jpg 1536w, https://intolibya.com/wp-content/uploads/2025/09/IMG_1538-scaled.jpg 1920w" style="--dominant-color: #9c8371;" width="768"/></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" alt="A tree that has been fossilized in the Libyan Sahara desert" class="wp-image-5860 not-transparent" data-dominant-color="9c8371" data-has-transparency="false" decoding="async" height="1024" loading="lazy" sizes="auto, (max-width: 768px) 100vw, 768px" src="/media/2025/09/IMG_1538-768x1024.jpg" style="--dominant-color: #9c8371;" width="768"/></figure>
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
 <h2 class="wp-block-heading">腓尼基人和希腊人</h2>
 <p>大约3000年前,新人从海上抵达. 来自黎巴嫩的熟练水手腓尼基人,在利比亚海岸建立了贸易站。 它们将非洲与地中海联系起来。</p>
@@ -39,7 +39,7 @@ seo:
 <p>罗马最终征服了北非. 在利比亚,他们建造了三个大城市: <a>莱普蒂斯·马格纳</a>, (中文). <a>萨布拉塔</a>和奥亚(现代的黎波里).</p>
 <p><a href="https://intolibya.com/leptis-magna/">莱普蒂斯·马格纳</a> 令人惊叹。 它的港口,basilica, 和市场竞争任何在罗马。 <a href="https://intolibya.com/sabratha/">萨布拉塔</a> 拥有一个曾经与拉丁语和希腊语戏剧相呼应的剧院. 这些废墟今天是教科文组织的遗址,是全球的珍宝。</p>
 <p>罗马公路连接了海岸与沙漠. 他们允许黄金、象牙和谷物的贸易。 考古学家 <a>陶瓷</a> 了解这些贸易网络。 陶器的碎片揭示了食物的储存、销售和消费地点。</p>
-<figure class="wp-block-image size-large"><img loading="lazy" alt="an arch in Leptis Magna" class="wp-image-5707" decoding="async" height="1024" loading="lazy" sizes="auto, (max-width: 768px) 100vw, 768px" src="https://intolibya.com/wp-content/uploads/2025/09/IMG_4037-768x1024.jpg" srcset="https://intolibya.com/wp-content/uploads/2025/09/IMG_4037-768x1024.jpg 768w, https://intolibya.com/wp-content/uploads/2025/09/IMG_4037-225x300.jpg 225w, https://intolibya.com/wp-content/uploads/2025/09/IMG_4037-1152x1536.jpg 1152w, https://intolibya.com/wp-content/uploads/2025/09/IMG_4037-1536x2048.jpg 1536w, https://intolibya.com/wp-content/uploads/2025/09/IMG_4037-scaled.jpg 1920w" width="768"/></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" alt="an arch in Leptis Magna" class="wp-image-5707" decoding="async" height="1024" loading="lazy" sizes="auto, (max-width: 768px) 100vw, 768px" src="/media/2025/09/IMG_4037-768x1024.jpg" width="768"/></figure>
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
 <h2 class="wp-block-heading">信仰与新王国</h2>
 <p>随着罗马的衰弱,基督教的传播. 利比亚各地建立了教堂。 摩赛文和铭文表现出奉献精神和艺术.</p>

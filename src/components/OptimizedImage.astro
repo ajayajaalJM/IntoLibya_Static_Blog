@@ -34,6 +34,7 @@ const {
 } = Astro.props;
 
 const srcString = typeof rawSrc === 'string' ? localizeMediaUrl(rawSrc) : '';
+const isPublicMedia = typeof rawSrc === 'string' && srcString.startsWith('/media/');
 const resolved: ImageMetadata | string =
   typeof rawSrc === 'string' ? (resolveLocalImage(srcString) ?? srcString) : rawSrc;
 
@@ -46,20 +47,41 @@ const uniqueWidths = [
 ];
 
 const fallbackHeight = height ?? Math.round(width * (2 / 3));
+
+/** Public /media files break Vercel Image Optimization — serve them directly. */
+const usePlainPublicMedia = isPublicMedia && typeof resolved === 'string';
 ---
 
-<Picture
-  src={resolved}
-  alt={alt}
-  width={width}
-  height={fallbackHeight}
-  widths={uniqueWidths}
-  sizes={sizes}
-  formats={['avif', 'webp']}
-  quality={quality}
-  class={className}
-  pictureAttributes={{ class: pictureClass }}
-  loading={loading}
-  fetchpriority={fetchpriority}
-  decoding={decoding}
-/>
+{
+  usePlainPublicMedia ? (
+    <picture class={pictureClass}>
+      <img
+        src={srcString}
+        alt={alt}
+        width={width}
+        height={fallbackHeight}
+        sizes={sizes}
+        class={className}
+        loading={loading}
+        fetchpriority={fetchpriority}
+        decoding={decoding}
+      />
+    </picture>
+  ) : (
+    <Picture
+      src={resolved}
+      alt={alt}
+      width={width}
+      height={fallbackHeight}
+      widths={uniqueWidths}
+      sizes={sizes}
+      formats={['avif', 'webp']}
+      quality={quality}
+      class={className}
+      pictureAttributes={{ class: pictureClass }}
+      loading={loading}
+      fetchpriority={fetchpriority}
+      decoding={decoding}
+    />
+  )
+}

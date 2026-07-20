@@ -38,7 +38,7 @@ seo:
 
 
 
-<figure class="wp-block-image size-full is-resized"><img fetchpriority="high" decoding="async" width="500" height="387" sizes="(max-width: 500px) 100vw, 500px" src="https://intolibya.com/wp-content/uploads/2025/09/Fennec_Fox_Vulpes_zerda.jpg" alt="" class="wp-image-5686" style="width:608px;height:auto" srcset="https://intolibya.com/wp-content/uploads/2025/09/Fennec_Fox_Vulpes_zerda.jpg 500w, https://intolibya.com/wp-content/uploads/2025/09/Fennec_Fox_Vulpes_zerda-300x232.jpg 300w" /></figure>
+<figure class="wp-block-image size-full is-resized"><img fetchpriority="high" decoding="async" width="500" height="387" sizes="(max-width: 500px) 100vw, 500px" src="/media/2025/09/Fennec_Fox_Vulpes_zerda.jpg" alt="" class="wp-image-5686" style="width:608px;height:auto" /></figure>
 
 
 
@@ -54,7 +54,7 @@ seo:
 
 
 
-<figure class="wp-block-image size-full"><img decoding="async" width="940" height="529" sizes="(max-width: 940px) 100vw, 940px" src="https://intolibya.com/wp-content/uploads/2025/09/flickr-credit-martin-dorcas-gazelle.jpg" alt="" class="wp-image-5687" srcset="https://intolibya.com/wp-content/uploads/2025/09/flickr-credit-martin-dorcas-gazelle.jpg 940w, https://intolibya.com/wp-content/uploads/2025/09/flickr-credit-martin-dorcas-gazelle-300x169.jpg 300w, https://intolibya.com/wp-content/uploads/2025/09/flickr-credit-martin-dorcas-gazelle-768x432.jpg 768w, https://intolibya.com/wp-content/uploads/2025/09/flickr-credit-martin-dorcas-gazelle-570x320.jpg 570w" /></figure>
+<figure class="wp-block-image size-full"><img decoding="async" width="940" height="529" sizes="(max-width: 940px) 100vw, 940px" src="/media/2025/09/flickr-credit-martin-dorcas-gazelle.jpg" alt="" class="wp-image-5687" /></figure>
 
 
 
@@ -70,7 +70,7 @@ seo:
 
 
 
-<figure class="wp-block-image size-full is-resized"><img decoding="async" width="274" height="184" sizes="(max-width: 274px) 100vw, 274px" src="https://intolibya.com/wp-content/uploads/2025/09/barbery_sheep.jpeg" alt="" class="wp-image-5688" style="width:459px;height:auto" srcset="https://intolibya.com/wp-content/uploads/2025/09/barbery_sheep.jpeg 274w, https://intolibya.com/wp-content/uploads/2025/09/barbery_sheep-272x184.jpeg 272w, https://intolibya.com/wp-content/uploads/2025/09/barbery_sheep-270x180.jpeg 270w" /></figure>
+<figure class="wp-block-image size-full is-resized"><img decoding="async" width="274" height="184" sizes="(max-width: 274px) 100vw, 274px" src="/media/2025/09/barbery_sheep.jpeg" alt="" class="wp-image-5688" style="width:459px;height:auto" /></figure>
 
 
 
@@ -86,7 +86,7 @@ seo:
 
 
 
-<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="600" height="413" sizes="(max-width: 600px) 100vw, 600px" src="https://intolibya.com/wp-content/uploads/2025/09/desert-hedgehog.webp" alt="" class="wp-image-5689" srcset="https://intolibya.com/wp-content/uploads/2025/09/desert-hedgehog.webp 600w, https://intolibya.com/wp-content/uploads/2025/09/desert-hedgehog-300x207.webp 300w" /></figure>
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="600" height="413" sizes="(max-width: 600px) 100vw, 600px" src="/media/2025/09/desert-hedgehog.jpg" alt="" class="wp-image-5689" /></figure>
 
 
 
@@ -102,7 +102,7 @@ seo:
 
 
 
-<figure class="wp-block-image size-full is-resized"><img loading="lazy" decoding="async" width="275" height="183" sizes="(max-width: 275px) 100vw, 275px" src="https://intolibya.com/wp-content/uploads/2025/09/Addax-Antelope.jpeg" alt="" class="wp-image-5690" style="width:579px;height:auto" srcset="https://intolibya.com/wp-content/uploads/2025/09/Addax-Antelope.jpeg 275w, https://intolibya.com/wp-content/uploads/2025/09/Addax-Antelope-270x180.jpeg 270w" /></figure>
+<figure class="wp-block-image size-full is-resized"><img loading="lazy" decoding="async" width="275" height="183" sizes="(max-width: 275px) 100vw, 275px" src="/media/2025/09/Addax-Antelope.jpeg" alt="" class="wp-image-5690" style="width:579px;height:auto" /></figure>
 
 
 
@@ -132,7 +132,7 @@ seo:
 
 
 
-<figure class="wp-block-image size-full is-resized"><img loading="lazy" decoding="async" width="300" height="168" sizes="(max-width: 300px) 100vw, 300px" src="https://intolibya.com/wp-content/uploads/2025/09/Horned-Viper.jpeg" alt="" class="wp-image-5691" style="width:336px;height:auto"/></figure>
+<figure class="wp-block-image size-full is-resized"><img loading="lazy" decoding="async" width="300" height="168" sizes="(max-width: 300px) 100vw, 300px" src="/media/2025/09/Horned-Viper.jpeg" alt="" class="wp-image-5691" style="width:336px;height:auto"/></figure>
 
 
 
@@ -162,7 +162,7 @@ seo:
 
 
 
-<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="700" height="541" sizes="(max-width: 700px) 100vw, 700px" src="https://intolibya.com/wp-content/uploads/2025/09/brown-necked-raven-featured.jpg" alt="" class="wp-image-5692" srcset="https://intolibya.com/wp-content/uploads/2025/09/brown-necked-raven-featured.jpg 700w, https://intolibya.com/wp-content/uploads/2025/09/brown-necked-raven-featured-300x232.jpg 300w" /></figure>
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="700" height="541" sizes="(max-width: 700px) 100vw, 700px" src="/media/2025/09/brown-necked-raven-featured.jpg" alt="" class="wp-image-5692" /></figure>
 
 
 
@@ -178,7 +178,7 @@ seo:
 
 
 
-<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="1000" height="667" sizes="(max-width: 1000px) 100vw, 1000px" src="https://intolibya.com/wp-content/uploads/2025/09/scorpions.jpeg" alt="" class="wp-image-5693" srcset="https://intolibya.com/wp-content/uploads/2025/09/scorpions.jpeg 1000w, https://intolibya.com/wp-content/uploads/2025/09/scorpions-300x200.jpeg 300w, https://intolibya.com/wp-content/uploads/2025/09/scorpions-768x512.jpeg 768w, https://intolibya.com/wp-content/uploads/2025/09/scorpions-370x247.jpeg 370w, https://intolibya.com/wp-content/uploads/2025/09/scorpions-270x180.jpeg 270w" /></figure>
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="1000" height="667" sizes="(max-width: 1000px) 100vw, 1000px" src="/media/2025/09/scorpions.jpeg" alt="" class="wp-image-5693" /></figure>
 
 
 

@@ -329,10 +329,10 @@ function renderGalleryHtml(
   return list
     .map((g) => {
       const imgs = (g.images ?? [])
-        .map(
-          (img) =>
-            `<figure class="preview-gallery-item"><img src="${escapeHtmlAttr(img.src)}" alt="${escapeHtmlAttr(img.alt || '')}" loading="lazy" /></figure>`,
-        )
+        .map((img) => {
+          const src = localizePreviewMediaUrls(img.src || '');
+          return `<figure class="preview-gallery-item"><img src="${escapeHtmlAttr(src)}" alt="${escapeHtmlAttr(img.alt || '')}" loading="lazy" /></figure>`;
+        })
         .join('');
       const title = g.title
         ? `<h3 class="preview-gallery-title">${escapeHtmlText(g.title)}</h3>`
@@ -342,10 +342,17 @@ function renderGalleryHtml(
     .join('');
 }
 
+/** Map legacy WordPress upload URLs to local /media paths for preview. */
+function localizePreviewMediaUrls(input: string): string {
+  return input
+    .replace(/https?:\/\/(?:www\.)?intolibya\.com\/wp-content\/uploads\//gi, '/media/')
+    .replace(/(["'(=\s])\/wp-content\/uploads\//gi, '$1/media/');
+}
+
 function buildPreviewArticleHtml(payload: PreviewArticlePayload): string {
   const title = sanitizePlainField(payload.title ?? '') || 'Untitled';
-  const body = sanitizeHtmlNode(payload.body ?? '');
-  const featuredImage = String(payload.featuredImage ?? '').trim();
+  const body = localizePreviewMediaUrls(sanitizeHtmlNode(payload.body ?? ''));
+  const featuredImage = localizePreviewMediaUrls(String(payload.featuredImage ?? '').trim());
   const publishedAt = String(payload.publishedAt ?? '').slice(0, 10);
   const draft = Boolean(payload.draft);
   const kind = payload.contentKind === 'destination' ? 'destination' : 'post';

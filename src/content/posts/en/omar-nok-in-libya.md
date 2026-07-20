@@ -38,7 +38,7 @@ seo:
 
 
 
-<figure class="wp-block-image size-large"><img data-dominant-color="937259" data-has-transparency="false" style="--dominant-color: #937259;" fetchpriority="high" decoding="async" width="768" height="1024" sizes="(max-width: 768px) 100vw, 768px" src="https://intolibya.com/wp-content/uploads/2025/10/IMG_1145-768x1024.jpg" alt="Omar Nok in Qaser Nalut" class="wp-image-6047 not-transparent" srcset="https://intolibya.com/wp-content/uploads/2025/10/IMG_1145-768x1024.jpg 768w, https://intolibya.com/wp-content/uploads/2025/10/IMG_1145-225x300.jpg 225w, https://intolibya.com/wp-content/uploads/2025/10/IMG_1145-1152x1536.jpg 1152w, https://intolibya.com/wp-content/uploads/2025/10/IMG_1145-1536x2048.jpg 1536w, https://intolibya.com/wp-content/uploads/2025/10/IMG_1145-scaled.jpg 1920w" /></figure>
+<figure class="wp-block-image size-large"><img data-dominant-color="937259" data-has-transparency="false" style="--dominant-color: #937259;" fetchpriority="high" decoding="async" width="768" height="1024" sizes="(max-width: 768px) 100vw, 768px" src="/media/2025/10/IMG_1145-768x1024.jpg" alt="Omar Nok in Qaser Nalut" class="wp-image-6047 not-transparent" /></figure>
 
 
 
@@ -58,7 +58,7 @@ seo:
 
 
 
-<figure class="wp-block-image size-large"><img data-dominant-color="7f696b" data-has-transparency="false" style="--dominant-color: #7f696b;" decoding="async" width="768" height="1024" sizes="(max-width: 768px) 100vw, 768px" src="https://intolibya.com/wp-content/uploads/2025/10/IMG_1187-768x1024.jpg" alt="Omar Nok in Ghadames" class="wp-image-6048 not-transparent" srcset="https://intolibya.com/wp-content/uploads/2025/10/IMG_1187-768x1024.jpg 768w, https://intolibya.com/wp-content/uploads/2025/10/IMG_1187-225x300.jpg 225w, https://intolibya.com/wp-content/uploads/2025/10/IMG_1187-1152x1536.jpg 1152w, https://intolibya.com/wp-content/uploads/2025/10/IMG_1187-1536x2048.jpg 1536w, https://intolibya.com/wp-content/uploads/2025/10/IMG_1187-scaled.jpg 1920w" /></figure>
+<figure class="wp-block-image size-large"><img data-dominant-color="7f696b" data-has-transparency="false" style="--dominant-color: #7f696b;" decoding="async" width="768" height="1024" sizes="(max-width: 768px) 100vw, 768px" src="/media/2025/10/IMG_1187-768x1024.jpg" alt="Omar Nok in Ghadames" class="wp-image-6048 not-transparent" /></figure>
 
 
 

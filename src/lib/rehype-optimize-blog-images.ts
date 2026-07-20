@@ -1,15 +1,9 @@
 import { visit } from 'unist-util-visit';
-
-const OPT_WIDTHS = [400, 720, 960];
-
-function vercelImageUrl(path: string, width: number, quality = 70): string {
-  const url = path.startsWith('http') ? path : path;
-  return `/_vercel/image?url=${encodeURIComponent(url)}&w=${width}&q=${quality}`;
-}
+import { blogImageSrcSet, blogImageUrl } from './blog-image-url';
 
 /**
  * Rewrites WordPress upload URLs to local /media paths, routes them through
- * Vercel Image Optimization, and adds lazy-load attributes for Lighthouse.
+ * Vercel Image Optimization when available, and adds lazy-load attributes.
  */
 export function rehypeOptimizeBlogImages() {
   return (tree: { type: string }) => {
@@ -51,8 +45,8 @@ export function rehypeOptimizeBlogImages() {
             })()
           : src;
 
-        props.src = vercelImageUrl(normalized, 720);
-        props.srcSet = OPT_WIDTHS.map((w) => `${vercelImageUrl(normalized, w)} ${w}w`).join(', ');
+        props.src = blogImageUrl(normalized, 720);
+        props.srcSet = blogImageSrcSet(normalized);
         props.sizes = '(max-width: 768px) 100vw, 720px';
       } else {
         props.src = src;

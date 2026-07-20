@@ -29,7 +29,7 @@ seo:
 <h2 class="wp-block-heading"><strong>今日の遺跡を歩く</strong></h2>
 <p>Leptis Magnaを歩いてみると、時間レイヤーを移動します。 Severan Archの下のステップは、長い間忘れられた勝利で刻まれたが、ドックワーカーのエコーが数十の言語で叫ぶのを聞く。 バシリカに立ち、一度に主張したケースを判断し、正義を解く身体と声のプレスを想像する。 かつてはプライベートダイニングルームに囲まれ、そこに着く家族、その喜びや恐怖は私たち自身とは異なりません。</p>
 <p>遺跡は単なるサイレントストーンではありません。 彼らは鏡です。 リビアンは、コミュニティ、仕事、そして1つの全体に信仰を結ぶリズムに常に住んでいたことを思い出させます。</p>
-<figure class="wp-block-image size-large"><img loading="lazy" loading="lazy" alt="an arch in Leptis Magna" class="wp-image-5707" decoding="async" height="1024" loading="lazy" sizes="auto, (max-width: 768px) 100vw, 768px" src="https://intolibya.com/wp-content/uploads/2025/09/IMG_4037-768x1024.jpg" srcset="https://intolibya.com/wp-content/uploads/2025/09/IMG_4037-768x1024.jpg 768w, https://intolibya.com/wp-content/uploads/2025/09/IMG_4037-225x300.jpg 225w, https://intolibya.com/wp-content/uploads/2025/09/IMG_4037-1152x1536.jpg 1152w, https://intolibya.com/wp-content/uploads/2025/09/IMG_4037-1536x2048.jpg 1536w, https://intolibya.com/wp-content/uploads/2025/09/IMG_4037-scaled.jpg 1920w" width="768"/></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" loading="lazy" alt="an arch in Leptis Magna" class="wp-image-5707" decoding="async" height="1024" loading="lazy" sizes="auto, (max-width: 768px) 100vw, 768px" src="/media/2025/09/IMG_4037-768x1024.jpg" width="768"/></figure>
 <h2 class="wp-block-heading"><strong>クローズ・スロート</strong></h2>
 <p>レプティスマグナは死者ではありません。それは、その漁師と農家の労働で、その家族のおもてなしで、そしてその信仰の団結で、リビアの市場で息を吹きます。 街は、モニュメントや皇帝だけでなく、すべてが接続されている民俗的な流れに住んでいる人々についての生活が私たちを示しています。</p>
 <p>あなたは今日レプティスマグナを訪問するとき, あなたはちょうど遺跡を見ることができません. 過去が現在に散らばる、生きた連続性に一歩踏み出します。 IntoLibyaでは、これらの通りを歩くと、昨日と今日が同じ物語の一部です。</p>

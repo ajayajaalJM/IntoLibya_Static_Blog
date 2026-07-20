@@ -20,23 +20,23 @@ seo:
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
 <h2 class="wp-block-heading">1.The Fennec Fox (Desert Fox)</h2>
 <p>С негабаритными ушами и мехом песчаного цвета лиса фенек идеально приспособлена для выживания в пустыне. Его уши действуют как естественные вентиляционные отверстия и позволяют ему слышать добычу, движущуюся под землей. Это ночное животное редко встречается в течение дня, но остается одним из самых знаковых жителей Сахары.</p>
-<figure class="wp-block-image size-full is-resized"><img loading="lazy" alt="" class="wp-image-5686" decoding="async" height="387" loading="lazy" sizes="auto, (max-width: 500px) 100vw, 500px" src="https://intolibya.com/wp-content/uploads/2025/09/Fennec_Fox_Vulpes_zerda.jpg" srcset="https://intolibya.com/wp-content/uploads/2025/09/Fennec_Fox_Vulpes_zerda.jpg 500w, https://intolibya.com/wp-content/uploads/2025/09/Fennec_Fox_Vulpes_zerda-300x232.jpg 300w" style="width:608px;height:auto" width="500"/></figure>
+<figure class="wp-block-image size-full is-resized"><img loading="lazy" alt="" class="wp-image-5686" decoding="async" height="387" loading="lazy" sizes="auto, (max-width: 500px) 100vw, 500px" src="/media/2025/09/Fennec_Fox_Vulpes_zerda.jpg" style="width:608px;height:auto" width="500"/></figure>
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
 <h2 class="wp-block-heading">2. Доркас Газель</h2>
 <p>Доркская газель — изящная пустынная травоядная, способная выжить практически без воды. Вместо этого он извлекает влагу из пустынных растений. Небольшие стада часто встречаются вблизи оазисов или в регионах, где сезонные дожди приносят кратковременные всплески зелени.</p>
-<figure class="wp-block-image size-full"><img loading="lazy" alt="" class="wp-image-5687" decoding="async" height="529" loading="lazy" sizes="auto, (max-width: 940px) 100vw, 940px" src="https://intolibya.com/wp-content/uploads/2025/09/flickr-credit-martin-dorcas-gazelle.jpg" srcset="https://intolibya.com/wp-content/uploads/2025/09/flickr-credit-martin-dorcas-gazelle.jpg 940w, https://intolibya.com/wp-content/uploads/2025/09/flickr-credit-martin-dorcas-gazelle-300x169.jpg 300w, https://intolibya.com/wp-content/uploads/2025/09/flickr-credit-martin-dorcas-gazelle-768x432.jpg 768w, https://intolibya.com/wp-content/uploads/2025/09/flickr-credit-martin-dorcas-gazelle-570x320.jpg 570w" width="940"/></figure>
+<figure class="wp-block-image size-full"><img loading="lazy" alt="" class="wp-image-5687" decoding="async" height="529" loading="lazy" sizes="auto, (max-width: 940px) 100vw, 940px" src="/media/2025/09/flickr-credit-martin-dorcas-gazelle.jpg" width="940"/></figure>
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
 <h2 class="wp-block-heading">3. Барбари Овца (Аудад)</h2>
 <p>Известный локально как <em>Аруи</em>Барбарийская овца – ловкий горный житель с изогнутыми рогами и шерстяной гривой. Эти неуловимые существа процветают в скалистых пустынных плато Ливии, где обнаружение одного из них является настоящим приключением.</p>
-<figure class="wp-block-image size-full is-resized"><img loading="lazy" alt="" class="wp-image-5688" decoding="async" height="184" loading="lazy" sizes="auto, (max-width: 274px) 100vw, 274px" src="https://intolibya.com/wp-content/uploads/2025/09/barbery_sheep.jpeg" srcset="https://intolibya.com/wp-content/uploads/2025/09/barbery_sheep.jpeg 274w, https://intolibya.com/wp-content/uploads/2025/09/barbery_sheep-272x184.jpeg 272w, https://intolibya.com/wp-content/uploads/2025/09/barbery_sheep-270x180.jpeg 270w" style="width:459px;height:auto" width="274"/></figure>
+<figure class="wp-block-image size-full is-resized"><img loading="lazy" alt="" class="wp-image-5688" decoding="async" height="184" loading="lazy" sizes="auto, (max-width: 274px) 100vw, 274px" src="/media/2025/09/barbery_sheep.jpeg" style="width:459px;height:auto" width="274"/></figure>
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
 <h2 class="wp-block-heading">4 Пустынный еж</h2>
 <p>Крошечный пустынный еж – ночной пожиратель насекомых, который процветает в Сахаре. Его шипы сдерживают хищников, в то время как его способность впадать в спячку во время сильной жары помогает ему выжить в среде, где мало млекопитающих могут.</p>
-<figure class="wp-block-image size-full"><img loading="lazy" alt="" class="wp-image-5689" decoding="async" height="413" loading="lazy" sizes="auto, (max-width: 600px) 100vw, 600px" src="https://intolibya.com/wp-content/uploads/2025/09/desert-hedgehog.webp" srcset="https://intolibya.com/wp-content/uploads/2025/09/desert-hedgehog.webp 600w, https://intolibya.com/wp-content/uploads/2025/09/desert-hedgehog-300x207.webp 300w" width="600"/></figure>
+<figure class="wp-block-image size-full"><img loading="lazy" alt="" class="wp-image-5689" decoding="async" height="413" loading="lazy" sizes="auto, (max-width: 600px) 100vw, 600px" src="/media/2025/09/desert-hedgehog.jpg" width="600"/></figure>
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
 <h2 class="wp-block-heading">5 Аддакс Антилопа</h2>
 <p>Аддакс, также известный как антилопа винтового рога, находится под угрозой исчезновения. Когда-то широко распространенный по всей Сахаре, его численность резко сократилась, но он остается символом устойчивости пустыни. Усилия по сохранению направлены на восстановление популяций этого уникального вида.</p>
-<figure class="wp-block-image size-full is-resized"><img loading="lazy" alt="" class="wp-image-5690" decoding="async" height="183" loading="lazy" sizes="auto, (max-width: 275px) 100vw, 275px" src="https://intolibya.com/wp-content/uploads/2025/09/Addax-Antelope.jpeg" srcset="https://intolibya.com/wp-content/uploads/2025/09/Addax-Antelope.jpeg 275w, https://intolibya.com/wp-content/uploads/2025/09/Addax-Antelope-270x180.jpeg 270w" style="width:579px;height:auto" width="275"/></figure>
+<figure class="wp-block-image size-full is-resized"><img loading="lazy" alt="" class="wp-image-5690" decoding="async" height="183" loading="lazy" sizes="auto, (max-width: 275px) 100vw, 275px" src="/media/2025/09/Addax-Antelope.jpeg" style="width:579px;height:auto" width="275"/></figure>
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
 <h2 class="wp-block-heading">6 Рептилии Сахары</h2>
 <p>Сахара изобилует жизнью рептилий, включая:</p>
@@ -45,7 +45,7 @@ seo:
 <li><strong>Ящерица Uromastyx</strong> – колючая ящерица, солнечная и стойкая.</li>
 <li><strong>Мониторинг ящериц</strong> – крупные рептилии, бродящие по пустынным равнинам.</li>
 </ul>
-<figure class="wp-block-image size-full is-resized"><img loading="lazy" alt="" class="wp-image-5691" decoding="async" height="168" loading="lazy" sizes="auto, (max-width: 300px) 100vw, 300px" src="https://intolibya.com/wp-content/uploads/2025/09/Horned-Viper.jpeg" style="width:336px;height:auto" width="300"/></figure>
+<figure class="wp-block-image size-full is-resized"><img loading="lazy" alt="" class="wp-image-5691" decoding="async" height="168" loading="lazy" sizes="auto, (max-width: 300px) 100vw, 300px" src="/media/2025/09/Horned-Viper.jpeg" style="width:336px;height:auto" width="300"/></figure>
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
 <h2 class="wp-block-heading">7.Птицы пустынного неба</h2>
 <p>Ливийское небо никогда не бывает пустым. Берегись:</p>
@@ -54,11 +54,11 @@ seo:
 <li><strong>Египетский стервятник</strong> – поразительный падальщик с белым оперением.</li>
 <li><strong>Ворон с коричневой шеей</strong> — умные и социальные, часто видимые вблизи оазисов.</li>
 </ul>
-<figure class="wp-block-image size-full"><img loading="lazy" alt="" class="wp-image-5692" decoding="async" height="541" loading="lazy" sizes="auto, (max-width: 700px) 100vw, 700px" src="https://intolibya.com/wp-content/uploads/2025/09/brown-necked-raven-featured.jpg" srcset="https://intolibya.com/wp-content/uploads/2025/09/brown-necked-raven-featured.jpg 700w, https://intolibya.com/wp-content/uploads/2025/09/brown-necked-raven-featured-300x232.jpg 300w" width="700"/></figure>
+<figure class="wp-block-image size-full"><img loading="lazy" alt="" class="wp-image-5692" decoding="async" height="541" loading="lazy" sizes="auto, (max-width: 700px) 100vw, 700px" src="/media/2025/09/brown-necked-raven-featured.jpg" width="700"/></figure>
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
 <h2 class="wp-block-heading">8 Насекомые и более мелкие существа</h2>
 <p>От жуков-скарабеев и пустынных муравьев до скорпионов и пауков, меньшие жители Сахары так же увлекательны, как и более крупные. Многие из них являются ночными охотниками, прекрасно приспособленными к выживанию в песках пустыни.</p>
-<figure class="wp-block-image size-full"><img loading="lazy" alt="" class="wp-image-5693" decoding="async" height="667" loading="lazy" sizes="auto, (max-width: 1000px) 100vw, 1000px" src="https://intolibya.com/wp-content/uploads/2025/09/scorpions.jpeg" srcset="https://intolibya.com/wp-content/uploads/2025/09/scorpions.jpeg 1000w, https://intolibya.com/wp-content/uploads/2025/09/scorpions-300x200.jpeg 300w, https://intolibya.com/wp-content/uploads/2025/09/scorpions-768x512.jpeg 768w, https://intolibya.com/wp-content/uploads/2025/09/scorpions-370x247.jpeg 370w, https://intolibya.com/wp-content/uploads/2025/09/scorpions-270x180.jpeg 270w" width="1000"/></figure>
+<figure class="wp-block-image size-full"><img loading="lazy" alt="" class="wp-image-5693" decoding="async" height="667" loading="lazy" sizes="auto, (max-width: 1000px) 100vw, 1000px" src="/media/2025/09/scorpions.jpeg" width="1000"/></figure>
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
 <h2 class="wp-block-heading">Живая пустыня</h2>
 <p>Ливийская Сахара далека от безжизненной. Он является домом для разнообразной экосистемы, где каждый вид играет роль в поддержании баланса. Для путешественников обнаружение этих животных добавляет глубину опыту пустыни, превращая ее из места тишины в место чудес.</p>

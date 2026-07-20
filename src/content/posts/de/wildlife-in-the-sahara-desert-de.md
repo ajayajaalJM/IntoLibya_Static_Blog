@@ -20,23 +20,23 @@ seo:
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
 <h2 class="wp-block-heading">1. Der Fennec Fox (Desert Fox)</h2>
 <p>Mit übergroßen Ohren und sandfarbenem Fell ist der Fennec Fuchs perfekt an das Überleben der Wüste angepasst. Seine Ohren wirken als natürliche Wärmeentlüftungen und ermöglichen es, Prey-Bewegungen im Untergrund zu hören. Dieses nächtliche Tier wird während des Tages selten gesehen, bleibt aber einer der ikonischsten Bewohner der Sahara.</p>
-<figure class="wp-block-image size-full is-resized"><img loading="lazy" alt="" class="wp-image-5686" decoding="async" height="387" loading="lazy" sizes="auto, (max-width: 500px) 100vw, 500px" src="https://intolibya.com/wp-content/uploads/2025/09/Fennec_Fox_Vulpes_zerda.jpg" srcset="https://intolibya.com/wp-content/uploads/2025/09/Fennec_Fox_Vulpes_zerda.jpg 500w, https://intolibya.com/wp-content/uploads/2025/09/Fennec_Fox_Vulpes_zerda-300x232.jpg 300w" style="width:608px;height:auto" width="500"/></figure>
+<figure class="wp-block-image size-full is-resized"><img loading="lazy" alt="" class="wp-image-5686" decoding="async" height="387" loading="lazy" sizes="auto, (max-width: 500px) 100vw, 500px" src="/media/2025/09/Fennec_Fox_Vulpes_zerda.jpg" style="width:608px;height:auto" width="500"/></figure>
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
 <h2 class="wp-block-heading">2. Dorcas Gazelle</h2>
 <p>Die Dorcas Gazelle ist eine anmutige Wüstenherbivore, in der Lage, mit wenig bis ohne Wasser zu überleben. Stattdessen zieht es Feuchtigkeit aus Wüstenpflanzen. Kleine Herden werden oft in der Nähe von Oasen oder in Regionen gefunden, in denen saisonale Regen kurze Bursts Grün bringen.</p>
-<figure class="wp-block-image size-full"><img loading="lazy" alt="" class="wp-image-5687" decoding="async" height="529" loading="lazy" sizes="auto, (max-width: 940px) 100vw, 940px" src="https://intolibya.com/wp-content/uploads/2025/09/flickr-credit-martin-dorcas-gazelle.jpg" srcset="https://intolibya.com/wp-content/uploads/2025/09/flickr-credit-martin-dorcas-gazelle.jpg 940w, https://intolibya.com/wp-content/uploads/2025/09/flickr-credit-martin-dorcas-gazelle-300x169.jpg 300w, https://intolibya.com/wp-content/uploads/2025/09/flickr-credit-martin-dorcas-gazelle-768x432.jpg 768w, https://intolibya.com/wp-content/uploads/2025/09/flickr-credit-martin-dorcas-gazelle-570x320.jpg 570w" width="940"/></figure>
+<figure class="wp-block-image size-full"><img loading="lazy" alt="" class="wp-image-5687" decoding="async" height="529" loading="lazy" sizes="auto, (max-width: 940px) 100vw, 940px" src="/media/2025/09/flickr-credit-martin-dorcas-gazelle.jpg" width="940"/></figure>
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
 <h2 class="wp-block-heading">3. Barbary Sheep (Aoudad)</h2>
 <p>lokal als bekannt <em>Arouillen</em>, das Barbary Schaf ist ein agiler Bergbewohner mit geschwungenen Hörnern und einem wolleigen Mann. Diese ekligen Kreaturen blühen in Libyens felsigen Wüstenplateaus, wo man ein wahres Abenteuer-Highlight entdeckt.</p>
-<figure class="wp-block-image size-full is-resized"><img loading="lazy" alt="" class="wp-image-5688" decoding="async" height="184" loading="lazy" sizes="auto, (max-width: 274px) 100vw, 274px" src="https://intolibya.com/wp-content/uploads/2025/09/barbery_sheep.jpeg" srcset="https://intolibya.com/wp-content/uploads/2025/09/barbery_sheep.jpeg 274w, https://intolibya.com/wp-content/uploads/2025/09/barbery_sheep-272x184.jpeg 272w, https://intolibya.com/wp-content/uploads/2025/09/barbery_sheep-270x180.jpeg 270w" style="width:459px;height:auto" width="274"/></figure>
+<figure class="wp-block-image size-full is-resized"><img loading="lazy" alt="" class="wp-image-5688" decoding="async" height="184" loading="lazy" sizes="auto, (max-width: 274px) 100vw, 274px" src="/media/2025/09/barbery_sheep.jpeg" style="width:459px;height:auto" width="274"/></figure>
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
 <h2 class="wp-block-heading">4. Desert Hedgehog</h2>
 <p>Der winzige Wüstenhedgehog ist ein nächtlicher Insektenfresser, der in der Sahara thrives. Seine Spins deter predators, während seine Fähigkeit, sich bei extremer Hitze zu erholen hilft es überleben in einer Umgebung, wo wenige Säugetiere können.</p>
-<figure class="wp-block-image size-full"><img loading="lazy" alt="" class="wp-image-5689" decoding="async" height="413" loading="lazy" sizes="auto, (max-width: 600px) 100vw, 600px" src="https://intolibya.com/wp-content/uploads/2025/09/desert-hedgehog.webp" srcset="https://intolibya.com/wp-content/uploads/2025/09/desert-hedgehog.webp 600w, https://intolibya.com/wp-content/uploads/2025/09/desert-hedgehog-300x207.webp 300w" width="600"/></figure>
+<figure class="wp-block-image size-full"><img loading="lazy" alt="" class="wp-image-5689" decoding="async" height="413" loading="lazy" sizes="auto, (max-width: 600px) 100vw, 600px" src="/media/2025/09/desert-hedgehog.jpg" width="600"/></figure>
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
 <h2 class="wp-block-heading">5. Addax Antelope</h2>
 <p>Der Addax, auch als Schraubenhorn-Antelope bekannt, ist kritisch gefährdet. Einmal weit verbreitet in der Sahara, ihre Zahlen sind dramatisch zurückgegangen, aber es bleibt ein Symbol der Wüstenresilienz. Die Erhaltungsbemühungen zielen darauf ab, die Populationen dieser einzigartigen Spezies wiederherzustellen.</p>
-<figure class="wp-block-image size-full is-resized"><img loading="lazy" alt="" class="wp-image-5690" decoding="async" height="183" loading="lazy" sizes="auto, (max-width: 275px) 100vw, 275px" src="https://intolibya.com/wp-content/uploads/2025/09/Addax-Antelope.jpeg" srcset="https://intolibya.com/wp-content/uploads/2025/09/Addax-Antelope.jpeg 275w, https://intolibya.com/wp-content/uploads/2025/09/Addax-Antelope-270x180.jpeg 270w" style="width:579px;height:auto" width="275"/></figure>
+<figure class="wp-block-image size-full is-resized"><img loading="lazy" alt="" class="wp-image-5690" decoding="async" height="183" loading="lazy" sizes="auto, (max-width: 275px) 100vw, 275px" src="/media/2025/09/Addax-Antelope.jpeg" style="width:579px;height:auto" width="275"/></figure>
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
 <h2 class="wp-block-heading">6. Reptilien der Sahara</h2>
 <p>Die Sahara teems mit Reptilienleben, einschließlich:</p>
@@ -45,7 +45,7 @@ seo:
 <li><strong>Uromastyx Lizard</strong> – der geschwungene Eidechse, sonnenliebend und widerstandsfähig.</li>
 <li><strong>Überwachen Sie Lizards</strong> – große Reptilien streifen die Wüste Ebenen.</li>
 </ul>
-<figure class="wp-block-image size-full is-resized"><img loading="lazy" alt="" class="wp-image-5691" decoding="async" height="168" loading="lazy" sizes="auto, (max-width: 300px) 100vw, 300px" src="https://intolibya.com/wp-content/uploads/2025/09/Horned-Viper.jpeg" style="width:336px;height:auto" width="300"/></figure>
+<figure class="wp-block-image size-full is-resized"><img loading="lazy" alt="" class="wp-image-5691" decoding="async" height="168" loading="lazy" sizes="auto, (max-width: 300px) 100vw, 300px" src="/media/2025/09/Horned-Viper.jpeg" style="width:336px;height:auto" width="300"/></figure>
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
 <h2 class="wp-block-heading">7. Vögel des Desert Sky</h2>
 <p>Libyens Himmel sind nie leer. Sieh nach:</p>
@@ -54,11 +54,11 @@ seo:
 <li><strong>Ägyptische Vulture</strong> – ein markantes Gefieder mit weißem Gefieder.</li>
 <li><strong>Braun-Ausschnitt Raven</strong> – intelligent und sozial, oft bei Oasen gesehen.</li>
 </ul>
-<figure class="wp-block-image size-full"><img loading="lazy" alt="" class="wp-image-5692" decoding="async" height="541" loading="lazy" sizes="auto, (max-width: 700px) 100vw, 700px" src="https://intolibya.com/wp-content/uploads/2025/09/brown-necked-raven-featured.jpg" srcset="https://intolibya.com/wp-content/uploads/2025/09/brown-necked-raven-featured.jpg 700w, https://intolibya.com/wp-content/uploads/2025/09/brown-necked-raven-featured-300x232.jpg 300w" width="700"/></figure>
+<figure class="wp-block-image size-full"><img loading="lazy" alt="" class="wp-image-5692" decoding="async" height="541" loading="lazy" sizes="auto, (max-width: 700px) 100vw, 700px" src="/media/2025/09/brown-necked-raven-featured.jpg" width="700"/></figure>
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
 <h2 class="wp-block-heading">8. Insekten und kleinere Kreaturen</h2>
 <p>Von Scharlachkäfer und Wüstenameisen bis hin zu Skorpionen und Spinnen sind die kleineren Bewohner der Sahara genauso faszinierend wie ihre größeren. Viele sind nächtliche Jäger, perfekt angepasst, um in den umgehenden Sand der Wüste zu überleben.</p>
-<figure class="wp-block-image size-full"><img loading="lazy" alt="" class="wp-image-5693" decoding="async" height="667" loading="lazy" sizes="auto, (max-width: 1000px) 100vw, 1000px" src="https://intolibya.com/wp-content/uploads/2025/09/scorpions.jpeg" srcset="https://intolibya.com/wp-content/uploads/2025/09/scorpions.jpeg 1000w, https://intolibya.com/wp-content/uploads/2025/09/scorpions-300x200.jpeg 300w, https://intolibya.com/wp-content/uploads/2025/09/scorpions-768x512.jpeg 768w, https://intolibya.com/wp-content/uploads/2025/09/scorpions-370x247.jpeg 370w, https://intolibya.com/wp-content/uploads/2025/09/scorpions-270x180.jpeg 270w" width="1000"/></figure>
+<figure class="wp-block-image size-full"><img loading="lazy" alt="" class="wp-image-5693" decoding="async" height="667" loading="lazy" sizes="auto, (max-width: 1000px) 100vw, 1000px" src="/media/2025/09/scorpions.jpeg" width="1000"/></figure>
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
 <h2 class="wp-block-heading">Eine lebende Wüste</h2>
 <p>Libyens Sahara ist weit weg vom Leben. Es ist die Heimat eines vielfältigen Ökosystems, in dem jede Art eine Rolle bei der Aufrechterhaltung des Gleichgewichts spielt. Für Reisende fügt sich diese Tiere tief in die Wüstenerfahrung ein und verwandelt sie von einem Ort der Stille in einen Ort des Wunders.</p>

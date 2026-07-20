@@ -70,7 +70,7 @@ seo:
 
 
 
-<figure class="wp-block-image size-large"><img data-dominant-color="9c8371" data-has-transparency="false" style="--dominant-color: #9c8371;" fetchpriority="high" decoding="async" width="768" height="1024" sizes="(max-width: 768px) 100vw, 768px" src="https://intolibya.com/wp-content/uploads/2025/09/IMG_1538-768x1024.jpg" alt="A tree that has been fossilized in the Libyan Sahara desert" class="wp-image-5860 not-transparent" srcset="https://intolibya.com/wp-content/uploads/2025/09/IMG_1538-768x1024.jpg 768w, https://intolibya.com/wp-content/uploads/2025/09/IMG_1538-225x300.jpg 225w, https://intolibya.com/wp-content/uploads/2025/09/IMG_1538-1152x1536.jpg 1152w, https://intolibya.com/wp-content/uploads/2025/09/IMG_1538-1536x2048.jpg 1536w, https://intolibya.com/wp-content/uploads/2025/09/IMG_1538-scaled.jpg 1920w" /></figure>
+<figure class="wp-block-image size-large"><img data-dominant-color="9c8371" data-has-transparency="false" style="--dominant-color: #9c8371;" fetchpriority="high" decoding="async" width="768" height="1024" sizes="(max-width: 768px) 100vw, 768px" src="/media/2025/09/IMG_1538-768x1024.jpg" alt="A tree that has been fossilized in the Libyan Sahara desert" class="wp-image-5860 not-transparent" /></figure>
 
 
 
@@ -114,7 +114,7 @@ seo:
 
 
 
-<figure class="wp-block-image size-large"><img decoding="async" width="768" height="1024" sizes="(max-width: 768px) 100vw, 768px" src="https://intolibya.com/wp-content/uploads/2025/09/IMG_4037-768x1024.jpg" alt="an arch in Leptis Magna" class="wp-image-5707" srcset="https://intolibya.com/wp-content/uploads/2025/09/IMG_4037-768x1024.jpg 768w, https://intolibya.com/wp-content/uploads/2025/09/IMG_4037-225x300.jpg 225w, https://intolibya.com/wp-content/uploads/2025/09/IMG_4037-1152x1536.jpg 1152w, https://intolibya.com/wp-content/uploads/2025/09/IMG_4037-1536x2048.jpg 1536w, https://intolibya.com/wp-content/uploads/2025/09/IMG_4037-scaled.jpg 1920w" /></figure>
+<figure class="wp-block-image size-large"><img decoding="async" width="768" height="1024" sizes="(max-width: 768px) 100vw, 768px" src="/media/2025/09/IMG_4037-768x1024.jpg" alt="an arch in Leptis Magna" class="wp-image-5707" /></figure>
 
 
 

@@ -28,7 +28,7 @@ seo:
 <p>佐原が乾いたので、人生は硬くなってきました。 人が水に向かって動く。 GhadamesやMurzuqなどのオアゼはライフラインになりました。 ゆっくりと農業が現れます。 小麦と小麦が育ち、井戸が掘られる。</p>
 <p>考古学者は、衛星画像を使用して古代のフィールドを研究. 彼らはラインをトレース <a class="" href="https://www.sciencedirect.com/science/article/pii/S0277379112000932">化石川</a> そして潅漑の運河。 これらの研究は、初期の農家がエンジニアであったことを示しています。 彼らはスキルでスカース水を管理しました。</p>
 <p>変化する社会へのシフト 温泉の周りに形成された村。 砂漠を横断したトレードルート。 キャメルは、後ほど導入し、このシステムをより強くしました。</p>
-<figure class="wp-block-image size-large"><img loading="lazy" alt="A tree that has been fossilized in the Libyan Sahara desert" class="wp-image-5860 not-transparent" data-dominant-color="9c8371" data-has-transparency="false" decoding="async" height="1024" loading="lazy" sizes="auto, (max-width: 768px) 100vw, 768px" src="https://intolibya.com/wp-content/uploads/2025/09/IMG_1538-768x1024.jpg" srcset="https://intolibya.com/wp-content/uploads/2025/09/IMG_1538-768x1024.jpg 768w, https://intolibya.com/wp-content/uploads/2025/09/IMG_1538-225x300.jpg 225w, https://intolibya.com/wp-content/uploads/2025/09/IMG_1538-1152x1536.jpg 1152w, https://intolibya.com/wp-content/uploads/2025/09/IMG_1538-1536x2048.jpg 1536w, https://intolibya.com/wp-content/uploads/2025/09/IMG_1538-scaled.jpg 1920w" style="--dominant-color: #9c8371;" width="768"/></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" alt="A tree that has been fossilized in the Libyan Sahara desert" class="wp-image-5860 not-transparent" data-dominant-color="9c8371" data-has-transparency="false" decoding="async" height="1024" loading="lazy" sizes="auto, (max-width: 768px) 100vw, 768px" src="/media/2025/09/IMG_1538-768x1024.jpg" style="--dominant-color: #9c8371;" width="768"/></figure>
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
 <h2 class="wp-block-heading">フェニックスとギリシャ人</h2>
 <p>3,000年前頃、新人が海に着きました。 レバノンの熟練のセーラーであるペヒニシャンは、リビアの海岸で取引ポストを建設しました。 彼らは地中海とアフリカを結ぶ。</p>
@@ -39,7 +39,7 @@ seo:
 <p>ローマは最終的に北アフリカを征服しました。 Libya では 3 つの都市を建てました。 <a>Leptisマグナ</a>, <a>サブラサ</a>, と Oea (modern Tripoli).</p>
 <p><a href="https://intolibya.com/leptis-magna/">Leptisマグナ</a> 呼吸器です。 ローマの港、バシリカ、マーケットプレースライバル。 <a href="https://intolibya.com/sabratha/">サブラサ</a> かつてラテン語とギリシャ語で遊びにエコーされた劇場を保持しています。 これらの遺跡は、世界の宝物として立っている今日のユネスコのサイトです。</p>
 <p>ローマの道路は砂漠に海岸を接続しました。 彼らは金、アイボリー、穀物で取引を許可しました。 考古学者の研究 <a>セラミックス</a> これらの取引ネットワークについて学びます。 食料が保存され、販売され、消費された場所を明らかにする陶器の破片。</p>
-<figure class="wp-block-image size-large"><img loading="lazy" alt="an arch in Leptis Magna" class="wp-image-5707" decoding="async" height="1024" loading="lazy" sizes="auto, (max-width: 768px) 100vw, 768px" src="https://intolibya.com/wp-content/uploads/2025/09/IMG_4037-768x1024.jpg" srcset="https://intolibya.com/wp-content/uploads/2025/09/IMG_4037-768x1024.jpg 768w, https://intolibya.com/wp-content/uploads/2025/09/IMG_4037-225x300.jpg 225w, https://intolibya.com/wp-content/uploads/2025/09/IMG_4037-1152x1536.jpg 1152w, https://intolibya.com/wp-content/uploads/2025/09/IMG_4037-1536x2048.jpg 1536w, https://intolibya.com/wp-content/uploads/2025/09/IMG_4037-scaled.jpg 1920w" width="768"/></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" alt="an arch in Leptis Magna" class="wp-image-5707" decoding="async" height="1024" loading="lazy" sizes="auto, (max-width: 768px) 100vw, 768px" src="/media/2025/09/IMG_4037-768x1024.jpg" width="768"/></figure>
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
 <h2 class="wp-block-heading">信仰と新しい王国</h2>
 <p>ローマが弱くなり、キリスト教が広がります。 教会はリビアに建てられました。 モザイクと碑文は、献身と芸術を示しています。</p>

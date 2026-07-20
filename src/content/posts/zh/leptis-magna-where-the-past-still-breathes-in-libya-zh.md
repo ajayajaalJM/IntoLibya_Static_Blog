@@ -29,7 +29,7 @@ seo:
 <h2 class="wp-block-heading"><strong>今日行走的废墟</strong></h2>
 <p>{\fn华文楷体\fs16\1cHE0E0E0}现在走莱普蒂斯·马格纳 {\fn华文楷体\fs16\1cHE0E0E0}是穿越几层时间 你踩在塞维伦拱门下 刻着被遗忘的胜利 却听到码头工人用十几种语言呼喊的回声 法官一度在basilica辩论案件, 你走过曾经在私人餐厅里闪烁的马赛克人 并想知道那些在那里吃东西的家庭 他们的欢乐和恐惧 和我们自己的没什么不同</p>
 <p>废墟不仅是寂静的石头. 他们是镜子。 他们提醒我们,利比亚人一直生活在把社区、工作和信仰联系起来的节奏中。</p>
-<figure class="wp-block-image size-large"><img loading="lazy" loading="lazy" alt="an arch in Leptis Magna" class="wp-image-5707" decoding="async" height="1024" loading="lazy" sizes="auto, (max-width: 768px) 100vw, 768px" src="https://intolibya.com/wp-content/uploads/2025/09/IMG_4037-768x1024.jpg" srcset="https://intolibya.com/wp-content/uploads/2025/09/IMG_4037-768x1024.jpg 768w, https://intolibya.com/wp-content/uploads/2025/09/IMG_4037-225x300.jpg 225w, https://intolibya.com/wp-content/uploads/2025/09/IMG_4037-1152x1536.jpg 1152w, https://intolibya.com/wp-content/uploads/2025/09/IMG_4037-1536x2048.jpg 1536w, https://intolibya.com/wp-content/uploads/2025/09/IMG_4037-scaled.jpg 1920w" width="768"/></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" loading="lazy" alt="an arch in Leptis Magna" class="wp-image-5707" decoding="async" height="1024" loading="lazy" sizes="auto, (max-width: 768px) 100vw, 768px" src="/media/2025/09/IMG_4037-768x1024.jpg" width="768"/></figure>
 <h2 class="wp-block-heading"><strong>结 论</strong></h2>
 <p>Leptis Magna没有死;它在利比亚的市场、渔民和农民的劳动、家人的款待和团结的信仰中呼吸。 这座城市向我们表明,生活不仅涉及纪念碑或皇帝,还涉及生活在万物相连的万物流中的人.</p>
 <p>当你今天访问莱普提斯麦格纳时, 你走进一个生命的连续性, 在那里,过去仍然低语 在现在。 利比亚邀请你们走上街头,</p>

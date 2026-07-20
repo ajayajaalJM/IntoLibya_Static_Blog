@@ -2,21 +2,17 @@
  * Lightweight HTML string transform mirroring rehypeOptimizeBlogImages for
  * set:html body segments (when in-body gallery markers force a split path).
  */
+import { blogImageSrcSet, blogImageUrl } from './blog-image-url';
 import { DESTINATION_TRANSLATION_GROUPS } from './destination-schema';
 import { ensureHrBeforeH2 } from './ensure-hr-before-h2';
 import { stripTrailingSlash } from './paths';
 
-const OPT_WIDTHS = [400, 720, 960];
 const LANGS = 'en|es|pl|ja|zh|nl|de|fr|it|pt|ru|ar';
 const GROUP_PATTERN = DESTINATION_TRANSLATION_GROUPS.join('|');
 const OLD_DESTINATION_PATH = new RegExp(
   `^/(${LANGS})/(${GROUP_PATTERN})(?:-(${LANGS}))?/?$`,
   'i',
 );
-
-function vercelImageUrl(path: string, width: number, quality = 70): string {
-  return `/_vercel/image?url=${encodeURIComponent(path)}&w=${width}&q=${quality}`;
-}
 
 function normalizeSrc(src: string): string | null {
   let next = src;
@@ -68,12 +64,11 @@ export function optimizeInlineHtmlImages(html: string): string {
     if (!normalized) return full;
 
     let nextAttrs = attrs
-      .replace(/\bsrc\s*=\s*("([^"]*)"|'([^']*)'|([^\s>]+))/i, `src="${vercelImageUrl(normalized, 720)}"`)
+      .replace(/\bsrc\s*=\s*("([^"]*)"|'([^']*)'|([^\s>]+))/i, `src="${blogImageUrl(normalized, 720)}"`)
       .replace(/\bsrcset\s*=\s*("([^"]*)"|'([^']*)')/gi, '')
       .replace(/\bsizes\s*=\s*("([^"]*)"|'([^']*)')/gi, '');
 
-    const srcSet = OPT_WIDTHS.map((w) => `${vercelImageUrl(normalized, w)} ${w}w`).join(', ');
-    nextAttrs += ` srcset="${srcSet}" sizes="(max-width: 768px) 100vw, 720px"`;
+    nextAttrs += ` srcset="${blogImageSrcSet(normalized)}" sizes="(max-width: 768px) 100vw, 720px"`;
 
     if (!/\bloading\s*=/i.test(nextAttrs)) nextAttrs += ' loading="lazy"';
     if (!/\bdecoding\s*=/i.test(nextAttrs)) nextAttrs += ' decoding="async"';

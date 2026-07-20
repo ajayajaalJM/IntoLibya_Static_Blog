@@ -24,6 +24,79 @@
   font-display: swap;
 }
 
+/* Source Serif 4 — editorial body & titles (latin + latin-ext) */
+@font-face {
+  font-family: "SourceSerif4Local";
+  src: url("/assets/fonts/source-serif-4-latin-ext-400-normal.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: "SourceSerif4Local";
+  src: url("/assets/fonts/source-serif-4-latin-400-normal.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "SourceSerif4Local";
+  src: url("/assets/fonts/source-serif-4-latin-ext-400-italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: "SourceSerif4Local";
+  src: url("/assets/fonts/source-serif-4-latin-400-italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "SourceSerif4Local";
+  src: url("/assets/fonts/source-serif-4-latin-ext-600-normal.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: "SourceSerif4Local";
+  src: url("/assets/fonts/source-serif-4-latin-600-normal.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "SourceSerif4Local";
+  src: url("/assets/fonts/source-serif-4-latin-ext-600-italic.woff2") format("woff2");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: "SourceSerif4Local";
+  src: url("/assets/fonts/source-serif-4-latin-600-italic.woff2") format("woff2");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
 @theme {
   --color-brass: #c29f5d;
   --color-mint: #a6d8c2;
@@ -33,6 +106,7 @@
   --color-sand: #f0e8dd;
   --color-border: #eae2d5;
   --font-sans: "InterLocal", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-serif: "SourceSerif4Local", Georgia, "Noto Naskh Arabic", "Times New Roman", serif;
 }
 
 html {
@@ -46,28 +120,67 @@ body {
   color: var(--color-charcoal);
 }
 
-.prose-blog h2,
-.prose-blog h3,
+.prose-blog {
+  font-family: var(--font-serif);
+  font-size: 1.0625rem;
+  line-height: 1.75;
+  color: var(--color-charcoal);
+}
+
+.prose-blog h2 {
+  font-family: var(--font-serif);
+  font-size: 1.45rem;
+  font-weight: 600;
+  line-height: 1.35;
+  margin-top: 2.25em;
+  margin-bottom: 0.65em;
+  color: var(--color-charcoal);
+  text-wrap: balance;
+}
+
+.prose-blog h3 {
+  font-family: var(--font-serif);
+  font-size: 1.2rem;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 1.4;
+  margin-top: 1.85em;
+  margin-bottom: 0.55em;
+  color: var(--color-charcoal);
+  text-wrap: balance;
+}
+
 .prose-blog h4 {
-  font-weight: 700;
-  margin-top: 1.75em;
-  margin-bottom: 0.75em;
+  font-family: var(--font-serif);
+  font-size: 1.05rem;
+  font-weight: 600;
+  font-style: italic;
+  line-height: 1.4;
+  margin-top: 1.6em;
+  margin-bottom: 0.5em;
   color: var(--color-charcoal);
 }
 
 .prose-blog p {
-  margin-bottom: 1.25em;
-  line-height: 1.7;
+  margin-bottom: 1.45em;
+  line-height: 1.75;
 }
 
 .prose-blog a {
   color: var(--color-brass);
   text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+  text-decoration-color: color-mix(in srgb, var(--color-brass) 55%, transparent);
+}
+
+.prose-blog a:hover {
+  text-decoration-color: var(--color-brass);
 }
 
 .prose-blog img {
-  border-radius: 1rem;
-  margin: 1.5em 0;
+  border-radius: 0.75rem;
+  margin: 2em 0;
   max-width: 100%;
   height: auto;
 }
@@ -75,19 +188,52 @@ body {
 .prose-blog ul,
 .prose-blog ol {
   margin: 1em 0 1.5em 1.5em;
+  line-height: 1.75;
+}
+
+.prose-blog li {
+  margin-bottom: 0.4em;
+}
+
+.prose-blog li + li {
+  margin-top: 0.25em;
 }
 
 .prose-blog blockquote {
-  border-left: 4px solid var(--color-mint);
-  padding-left: 1rem;
+  border-left: 2px solid var(--color-mint);
+  padding-left: 1.25rem;
+  margin: 1.75em 0;
   color: var(--color-muted);
   font-style: italic;
+}
+
+.prose-blog hr {
+  border: 0;
+  border-top: 1px solid var(--color-border);
+  margin: 2.5em 0;
+}
+
+.prose-blog figcaption,
+.prose-blog .caption {
+  font-family: var(--font-sans);
+  font-size: 0.8125rem;
+  line-height: 1.45;
+  color: var(--color-muted);
+  margin-top: 0.65em;
+  margin-bottom: 1.75em;
 }
 
 [dir="rtl"] .prose-blog ul,
 [dir="rtl"] .prose-blog ol {
   margin-right: 1.5em;
   margin-left: 0;
+}
+
+[dir="rtl"] .prose-blog blockquote {
+  border-left: 0;
+  border-right: 2px solid var(--color-mint);
+  padding-left: 0;
+  padding-right: 1.25rem;
 }
 
 .btn-primary {

@@ -86,7 +86,7 @@ seo:
 
 
 
-<figure class="wp-block-image size-large"><img data-dominant-color="a37c5e" data-has-transparency="false" style="--dominant-color: #a37c5e;" fetchpriority="high" decoding="async" width="768" height="1024" sizes="(max-width: 768px) 100vw, 768px" src="https://intolibya.com/wp-content/uploads/2025/11/Prehistoric-drawings-found-miles-from-where-a-mummy-was-excavated-768x1024.jpg" alt="Prehistoric drawings" class="wp-image-6102 not-transparent" srcset="https://intolibya.com/wp-content/uploads/2025/11/Prehistoric-drawings-found-miles-from-where-a-mummy-was-excavated-768x1024.jpg 768w, https://intolibya.com/wp-content/uploads/2025/11/Prehistoric-drawings-found-miles-from-where-a-mummy-was-excavated-225x300.jpg 225w, https://intolibya.com/wp-content/uploads/2025/11/Prehistoric-drawings-found-miles-from-where-a-mummy-was-excavated-1152x1536.jpg 1152w, https://intolibya.com/wp-content/uploads/2025/11/Prehistoric-drawings-found-miles-from-where-a-mummy-was-excavated-1536x2048.jpg 1536w, https://intolibya.com/wp-content/uploads/2025/11/Prehistoric-drawings-found-miles-from-where-a-mummy-was-excavated-scaled.jpg 1920w" /></figure>
+<figure class="wp-block-image size-large"><img data-dominant-color="a37c5e" data-has-transparency="false" style="--dominant-color: #a37c5e;" fetchpriority="high" decoding="async" width="768" height="1024" sizes="(max-width: 768px) 100vw, 768px" src="/media/2025/11/Prehistoric-drawings-found-miles-from-where-a-mummy-was-excavated-768x1024.jpg" alt="Prehistoric drawings" class="wp-image-6102 not-transparent" /></figure>
 
 
 
