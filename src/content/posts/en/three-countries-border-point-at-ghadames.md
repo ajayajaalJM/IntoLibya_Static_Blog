@@ -14,9 +14,6 @@ seo:
   description: 'Algeria Tunisia Libya border point at Ghadames: what the visit is like, photo notes, and adding the activity via TourBuilder with IntoLibya.'
   canonical: https://intolibya.com/en/three-countries-border-point-at-ghadames
 ---
-
-<!-- {"primary-keyword":"Algeria Tunisia Libya border","secondary":["three points Ghadames"],"activities":["a10"]} -->
-
 <p>The <strong>Algeria Tunisia Libya border</strong> point near <a href="/en/destination/ghadames">Ghadames</a> is pure geographic theatre. Travelers love standing where three countries touch, smiling at a marker, and feeling the Sahara’s indifference to the lines humans draw. It is not a deep cultural seminar. It is a memorable side trip that sharpens your sense of place.</p>
 
 <p>Add the activity in TourBuilder, check the current price there, and let IntoLibya time it around old town walks and dune evenings. Access and exact stop logistics follow licensed guidance for your dates.</p>
@@ -29,7 +26,7 @@ seo:
 
 <h2>How it fits a Ghadames chapter</h2>
 
-<p>Use it as a midday or late morning complement to a <a href="/en/ghadames-old-town-walking-tour">Ghadames walking tour</a>. Keep sunset dunes separate when possible so each activity keeps a clean emotional signature. Read <a href="/en/ghadames-pearl-of-the-desert-guide">Ghadames Pearl of the Desert Guide</a> and <a href="/en/destination/ghadames">Ghadames</a>.</p>
+<p>Use it as a midday or late morning complement to a <a href="/en/ghadames-old-town-walking-tour">Ghadames walking tour</a>. Keep sunset dunes separate when possible so each activity keeps a clean emotional signature. Read <a href="/en/ghadames-pearl-of-the-desert-guide">Ghadames Pearl of the Desert Guide</a> and Ghadames.</p>
 
 <p>If your trip later reaches deeper Sahara toward <a href="/en/destination/ghat">Ghat</a>, this border moment becomes an early lesson in how Libya’s southwest sits in a wider Maghreb map.</p>
 
@@ -37,11 +34,11 @@ seo:
 
 <p>Sun protection still matters on open ground. Carry water. Wear shoes for rough patches. Do not invent your own border experiments. Stay with the planned stop.</p>
 
-<p>Families often enjoy this activity because the concept is easy to grasp: three nations, one stand. History lovers should still prioritize old town time as the main <a href="/en/destination/ghadames">Ghadames</a> meal and treat the border as dessert.</p>
+<p>Families often enjoy this activity because the concept is easy to grasp: three nations, one stand. History lovers should still prioritize old town time as the main Ghadames meal and treat the border as dessert.</p>
 
 <h2>Booking reminder</h2>
 
-<p>TourBuilder shows whether the activity is in your package family and what the current price looks like. IntoLibya sponsorship keeps the day inside legal tourism structure. Soft next step: build <a href="/en/destination/ghadames">Ghadames</a> nights first, then slot the border point where the day list has room to smile.</p>
+<p>TourBuilder shows whether the activity is in your package family and what the current price looks like. IntoLibya sponsorship keeps the day inside legal tourism structure. Build Ghadames nights first, then slot the border point where the day list has room to smile.</p>
 
 <h2>Keeping perspective</h2>
 
@@ -49,6 +46,9 @@ seo:
 
 <p>If your group includes map obsessed kids or adults, this stop earns its minutes fast. If everyone is exhausted, skip it and protect medina time instead.</p>
 
+<h2>How this fits a licensed Libya week</h2>
+<p>Three Countries Border Point at Ghadames sits inside a wider guest plan that includes sponsorship support, an eVisa path, guides, and tourist police coordination as required. IntoLibya builds those pieces in TourBuilder so you are not improvising permissions at the airport. Ask for clear inclusions before you pay a deposit, then keep your dates flexible enough for document review.</p>
+<p>Use this page as one decision input, not the whole itinerary. Pair it with honest drive times, season notes, and the must see list you actually care about. Read <a href="/en/best-time-to-visit-libya">Best Time to Visit Libya</a> and <a href="/en/do-you-need-a-tour-to-visit-libya">Do You Need a Tour to Visit Libya</a> for neighbouring planning questions.</p>
 <h2>Related reading</h2>
 
 <ul>
@@ -64,6 +64,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

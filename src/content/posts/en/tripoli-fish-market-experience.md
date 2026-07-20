@@ -14,9 +14,6 @@ seo:
   description: 'Tripoli fish market experience: what to expect, food etiquette, pairing with old town walks, and how to add it in TourBuilder with IntoLibya.'
   canonical: https://intolibya.com/en/tripoli-fish-market-experience
 ---
-
-<!-- {"primary-keyword":"Tripoli fish market","secondary":["Tripoli food tour"],"activities":["a3"]} -->
-
 <p>The <strong>Tripoli fish market</strong> experience is for travelers who believe a city reveals itself through appetite. Harbor catch, ice shine, vendor calls, and the smell of the sea turn logistics days into living memory. This is not a polished food hall invented for influencers. It is a working Mediterranean market rhythm.</p>
 
 <p>Add the activity in TourBuilder, check the current price there, and let IntoLibya schedule it inside your licensed city plan. Guides help with timing, etiquette, and which lunch spots make sense after you walk the stalls.</p>
@@ -64,6 +61,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

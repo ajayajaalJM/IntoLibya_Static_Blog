@@ -14,9 +14,6 @@ seo:
   description: 'What a Libya sponsor letter is, why tourists need one, when you get it after deposit, and mistakes that delay eVisa approval.'
   canonical: https://intolibya.com/en/what-is-a-libya-sponsor-letter-and-why-you-need-one
 ---
-
-<!-- primary-keyword: Libya sponsor letter | secondary: Libya letter of invitation, LOI Libya tour -->
-
 <p><strong>Libya sponsor letter</strong> is one of the first questions travelers ask when planning with IntoLibya. This guide answers it with practical steps, honest limits, and clear next actions.</p>
 
 <p>People hear “sponsor letter” and picture a rich relative vouching for a wedding. In Libya tourism it means something sharper. A licensed tour company formally takes responsibility for your visit. Without that letter and its supporting files, the eVisa system will not treat you as a tourist who can enter.</p>
@@ -72,6 +69,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

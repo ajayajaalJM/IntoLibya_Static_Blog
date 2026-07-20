@@ -14,9 +14,6 @@ seo:
   description: 'Mitiga Airport arrival guide for tourists: documents, immigration calm, meeting your operator, and what can wait until tomorrow.'
   canonical: https://intolibya.com/en/mitiga-airport-arrival-guide-for-tourists
 ---
-
-<!-- primary-keyword: Mitiga Airport | secondary: Tripoli Mitiga arrival, MJI airport Libya -->
-
 <p>Mitiga Airport is where many IntoLibya tours truly begin. The building and processes can feel unfamiliar if you are used to giant European hubs, yet the emotional job is simple: clear immigration with your eVisa story intact, collect bags, and connect with your licensed team. You are not supposed to invent a solo midnight city plan as a tourist freestyle act.</p>
 
 <p>Prepare the paperwork and the meeting instructions, then the arrival becomes a story you laugh about later.</p>
@@ -46,7 +43,7 @@ seo:
 <p>Your team has seen delays before. Predictable patience solves more arrivals than improvisational adventure.</p>
 
 <h2>Field notes from travelers who planned carefully</h2>
-<p>Guests who enjoy Libya most usually did three unromantic things early: they chose a length that matched their leave, they treated sponsorship as nonnegotiable, and they kept flight plans flexible until the eVisa story was solid. Those habits matter whether you care about visas, safety myths, packing lists, or desert dreams.</p>
+<p>The unromantic checklist still wins: realistic day count, licensed sponsorship, and flight flexibility until the eVisa path looks firm.</p>
 <p>They also asked blunt inclusion questions so money stress did not haunt dinner. Lean and all inclusive styles can both work. Confusion cannot. If your dates involve a Tunis hub, they built a buffer night. If they wanted private pacing, they priced it honestly instead of hoping a group date would magically bend.</p>
 <p>Finally, they arrived willing to follow checkpoint and photography guidance. The reward is access to places that still feel discovery shaped. That is the IntoLibya promise in practice: structure that unlocks wonder, not structure for its own sake.</p>
 
@@ -54,6 +51,7 @@ seo:
 
 <p>IntoLibya is a licensed Libyan tour operator. We sponsor tourist visits, build itineraries in TourBuilder, arrange guides and required tourist police coordination, and keep logistics honest when access shifts. You focus on the places. We handle the system that makes those places reachable.</p>
 
+<p>For planning context, see <a href="/en/destination/tripoli">Tripoli</a> and <a href="/en/how-tourbuilder-works-for-custom-libya-trips">How TourBuilder Works for Custom Libya Trips</a>.</p>
 <h2>Related reading</h2>
 
 <ul>
@@ -69,6 +67,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

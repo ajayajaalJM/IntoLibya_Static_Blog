@@ -14,10 +14,6 @@ seo:
   description: 'North Africa itinerary: North Africa holiday planner: where Libya fits beside Morocco, Tunisia, Algeria, and Egypt without confusing operators or.'
   canonical: https://intolibya.com/en/north-africa-holiday-planner-where-libya-fits
 ---
-
-<!-- {"primary-keyword":"North Africa itinerary","secondary":["North Africa holiday plan"]} -->
-
-
 <p>A North Africa itinerary works best when you stop treating the Maghreb as one interchangeable beach and ruin buffet. Morocco, Tunisia, Algeria, Egypt, and Libya each demand different logistics, seasons, and expectations. Libya fits as the low crowd, high structure chapter for travelers who already enjoy history and desert and are ready for licensed tour travel.</p>
 
 <p>IntoLibya sells Libya journeys only. Neighbor countries stay with their own specialists. This planner shows where Libya slots without pretending we package Tunis or Cairo holidays.</p>
@@ -44,7 +40,7 @@ seo:
 
 <h2>Design rules that keep plans honest</h2>
 
-<p>Give each country a clear job. Do not ask Libya to replace Luxor. Do not ask Tunisia to replace Acacus. Use TourBuilder to lock Libya dates once flights and neighbor holidays are known. Tell IntoLibya what you have already seen so we skip repeats and aim at gaps.</p>
+<p>Give each country a clear job. Do not ask Libya to replace Luxor. Do not ask Tunisia to replace <a href="/en/destination/acacus-mountains">Acacus</a>. Use TourBuilder to lock Libya dates once flights and neighbor holidays are known. Tell IntoLibya what you have already seen so we skip repeats and aim at gaps.</p>
 
 <h2>Budget and energy planning across years</h2>
 
@@ -67,6 +63,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

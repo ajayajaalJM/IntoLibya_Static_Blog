@@ -14,9 +14,6 @@ seo:
   description: 'How IntoLibya TourBuilder works for custom Libya trips: browse live activities, build days, request a quote, then start sponsorship.'
   canonical: https://intolibya.com/en/how-tourbuilder-works-for-custom-libya-trips
 ---
-
-<!-- primary-keyword: Libya TourBuilder | secondary: custom Libya itinerary builder -->
-
 <p><strong>Libya TourBuilder</strong> is one of the first questions travelers ask when planning with IntoLibya. This guide answers it with practical steps, honest limits, and clear next actions.</p>
 
 <p>Most Libya travelers do not want a blank spreadsheet and a prayer. They want to see what a day can hold, stack those days into a week that matches their energy, and then hand the plan to people who can make it legal and safe. That is what TourBuilder is for.</p>
@@ -49,7 +46,7 @@ seo:
 
 <p>TourBuilder is smart about options. It is not a magic wand for road conditions. After you submit, coordinators check whether your stack of days is realistic: too many long transfers, too little buffer, desert nights that clash with your fitness, or eastern legs that need different timing.</p>
 
-<p>They also explain tradeoffs in plain language. Want more Acacus time? Something else has to shrink. Hate camping? We swap sleep style and adjust the map. Traveling as a couple who wants photography light? We protect morning windows instead of stuffing every museum hour.</p>
+<p>They also explain tradeoffs in plain language. Want more <a href="/en/destination/acacus-mountains">Acacus</a> time? Something else has to shrink. Hate camping? We swap sleep style and adjust the map. Traveling as a couple who wants photography light? We protect morning windows instead of stuffing every museum hour.</p>
 
 <p>The goal is a trip you can actually enjoy, not a maximalist checklist that burns you out by day four.</p>
 
@@ -65,6 +62,7 @@ seo:
 
 <p>If you are unsure, start with a package rung and customize from there. Most first timers do better with a proven western shape than with a handmade eighteen day fantasy on the first try.</p>
 
+<p>For planning context, see <a href="/en/how-to-book-a-libya-tour-with-intolibya">How to Book a Libya Tour with IntoLibya</a> and <a href="/en/best-time-to-visit-libya">Best Time to Visit Libya</a>.</p>
 <h2>Related reading</h2>
 
 <ul>
@@ -80,6 +78,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

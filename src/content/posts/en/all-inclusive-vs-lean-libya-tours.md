@@ -14,9 +14,6 @@ seo:
   description: 'Libya tour options: All inclusive vs lean Libya tours: what each style covers, how to compare quotes, and which fit first timers versus budget tuners.'
   canonical: https://intolibya.com/en/all-inclusive-vs-lean-libya-tours
 ---
-
-<!-- primary-keyword: Libya tour options | secondary: inclusive vs basic Libya tour -->
-
 <p><strong>Libya tour options</strong> is one of the first questions travelers ask when planning with IntoLibya. This guide answers it with practical steps, honest limits, and clear next actions.</p>
 
 <p>All inclusive versus lean is not a morality contest. It is a budgeting and surprise management contest. In Libya, both styles still sit inside licensed tourism: sponsorship, eVisa support, guides, transport, and tourist police as required. The difference is how many side costs are folded into the package price versus left for you to handle as they appear.</p>
@@ -54,6 +51,7 @@ seo:
 <h2>Groups with mixed preferences</h2>
 <p>One traveler wants every meal prepaid. Another wants market lunches. Custom quotes can sometimes split the difference with inclusive logistics and flexible food days. Say the conflict out loud. Silent assumptions create invoice arguments later.</p>
 
+<p>For planning context, see <a href="/en/how-to-book-a-libya-tour-with-intolibya">How to Book a Libya Tour with IntoLibya</a> and <a href="/en/how-tourbuilder-works-for-custom-libya-trips">How TourBuilder Works for Custom Libya Trips</a>.</p>
 <h2>Related reading</h2>
 
 <ul>
@@ -69,6 +67,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

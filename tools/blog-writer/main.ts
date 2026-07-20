@@ -24,9 +24,32 @@ type ProgressStatus =
   | 'saved'
   | 'error';
 
-type WriterView = 'dashboard' | 'write' | 'library' | 'calendar' | 'destinations' | 'instagram';
+type WriterView = 'dashboard' | 'write' | 'library' | 'calendar' | 'destinations' | 'instagram' | 'qa';
 type CalendarFilter = 'all' | 'scheduled' | 'live' | 'draft';
 type CalendarPostStatus = 'scheduled' | 'live' | 'draft';
+
+interface QaErrorItem {
+  id: string;
+  severity: 'error' | 'warn';
+  label: string;
+  snippet?: string;
+}
+
+interface QaCard {
+  slug: string;
+  title: string;
+  translationGroup: string;
+  publishedAt: string;
+  draft: boolean;
+  featuredImage?: string;
+  sourcePath: string;
+  wordCount: number;
+  errorCount: number;
+  warnCount: number;
+  errors: QaErrorItem[];
+  htmlHighlighted: string;
+  status: 'error' | 'warn' | 'ok';
+}
 
 interface LangProgress {
   lang: Lang;
@@ -96,6 +119,7 @@ const viewLibrary = document.getElementById('view-library') as HTMLElement;
 const viewCalendar = document.getElementById('view-calendar') as HTMLElement;
 const viewDestinations = document.getElementById('view-destinations') as HTMLElement;
 const viewInstagram = document.getElementById('view-instagram') as HTMLElement;
+const viewQa = document.getElementById('view-qa') as HTMLElement;
 const calendarGrid = document.getElementById('calendar-grid') as HTMLDivElement;
 const calendarMeta = document.getElementById('calendar-meta') as HTMLParagraphElement;
 const calendarMonthLabel = document.getElementById('calendar-month-label') as HTMLElement;
@@ -1801,6 +1825,325 @@ async function saveTodos() {
   }
 }
 
+const QA_BATCH = 6;
+let qaAllCards: QaCard[] = [];
+let qaQueue: QaCard[] = [];
+let qaFocusIndex = 0;
+let qaObserver: IntersectionObserver | null = null;
+let qaKeyHandlerAttached = false;
+let qaControlsReady = false;
+let qaScrollBound = false;
+
+function qaStatusLabel(card: QaCard): string {
+  if (card.status === 'error') {
+    return `${card.errorCount} error${card.errorCount === 1 ? '' : 's'}`;
+  }
+  if (card.status === 'warn') {
+    return `${card.warnCount} warning${card.warnCount === 1 ? '' : 's'}`;
+  }
+  return 'OK';
+}
+
+function qaCardHtml(card: QaCard): string {
+  const chips =
+    card.errors.length === 0
+      ? '<span class="qa-chip qa-chip--ok">No automated issues</span>'
+      : card.errors
+          .map((err) => {
+            const cls = err.severity === 'error' ? 'qa-chip--error' : 'qa-chip--warn';
+            return `<span class="qa-chip ${cls}" title="${escapeHtml(err.snippet || err.label)}">${escapeHtml(err.label)}</span>`;
+          })
+          .join('');
+  const statusClass =
+    card.status === 'error' ? 'qa-meta-pill--error' : card.status === 'warn' ? 'qa-meta-pill--warn' : 'qa-meta-pill--ok';
+  const thumb = card.featuredImage
+    ? `<img class="qa-card__thumb" src="${escapeHtml(card.featuredImage)}" alt="" loading="lazy" width="96" height="96" />`
+    : `<div class="qa-card__thumb qa-card__thumb--empty" aria-hidden="true"></div>`;
+  return `
+    <article class="qa-card" id="qa-${escapeHtml(card.slug)}" data-slug="${escapeHtml(card.slug)}" data-title="${escapeHtml(card.title)}" data-status="${escapeHtml(card.status)}" data-error-count="${card.errorCount}" data-warn-count="${card.warnCount}" data-group="${escapeHtml(card.translationGroup)}">
+      <header class="qa-card__header">
+        <div class="qa-card__thumb-wrap">${thumb}</div>
+        <div class="qa-card__meta">
+          <h3 class="qa-card__title">${escapeHtml(card.title)}</h3>
+          <p class="qa-card__slug"><span class="qa-card__slug-label">slug</span> ${escapeHtml(card.slug)}</p>
+          <div class="qa-card__row">
+            <span class="qa-meta-pill">${escapeHtml(card.publishedAt)}</span>
+            ${card.draft ? '<span class="qa-meta-pill qa-meta-pill--draft">Draft</span>' : '<span class="qa-meta-pill qa-meta-pill--scheduled">Scheduled</span>'}
+            <span class="qa-meta-pill">${card.wordCount} words</span>
+            <span class="qa-meta-pill ${statusClass}">${qaStatusLabel(card)}</span>
+          </div>
+          <p class="qa-card__path" title="Source file">${escapeHtml(card.sourcePath)}</p>
+        </div>
+        <button type="button" class="btn-secondary qa-open-editor" data-group="${escapeHtml(card.translationGroup)}">Open in editor</button>
+      </header>
+      <div class="qa-chips">${chips}</div>
+      <div class="qa-card__body">${card.htmlHighlighted}</div>
+    </article>
+  `;
+}
+
+function qaVisibleCards(): HTMLElement[] {
+  const board = document.getElementById('qa-board');
+  if (!board) return [];
+  return [...board.querySelectorAll<HTMLElement>('.qa-card:not(.is-hidden)')];
+}
+
+function qaUpdateProgress() {
+  const board = document.getElementById('qa-board');
+  const progressEl = document.getElementById('qa-progress');
+  if (!board || !progressEl) return;
+  const shown = board.querySelectorAll('.qa-card').length;
+  const vis = qaVisibleCards().length;
+  progressEl.textContent = `${vis} visible · ${shown} / ${qaAllCards.length} loaded`;
+}
+
+function qaMatchesFilters(el: HTMLElement): boolean {
+  const filterInput = document.getElementById('qa-filter') as HTMLInputElement | null;
+  const errorsOnly = document.getElementById('qa-errors-only') as HTMLInputElement | null;
+  const warningsOnly = document.getElementById('qa-warnings-only') as HTMLInputElement | null;
+  const includeWarn = document.getElementById('qa-include-warn') as HTMLInputElement | null;
+  const q = filterInput?.value.trim().toLowerCase() || '';
+  const title = (el.dataset.title || '').toLowerCase();
+  const slug = (el.dataset.slug || '').toLowerCase();
+  if (q && !title.includes(q) && !slug.includes(q)) return false;
+
+  const errN = Number(el.dataset.errorCount || 0);
+  const warnN = Number(el.dataset.warnCount || 0);
+  if (warningsOnly?.checked) {
+    return warnN > 0;
+  }
+  if (errorsOnly?.checked) {
+    if (includeWarn?.checked) return errN > 0 || warnN > 0;
+    return errN > 0;
+  }
+  return true;
+}
+
+function qaApplyFilters() {
+  const board = document.getElementById('qa-board');
+  if (!board) return;
+  board.querySelectorAll<HTMLElement>('.qa-card').forEach((el) => {
+    el.classList.toggle('is-hidden', !qaMatchesFilters(el));
+  });
+  qaUpdateProgress();
+}
+
+function qaAppendBatch() {
+  const board = document.getElementById('qa-board');
+  const sentinel = document.getElementById('qa-sentinel');
+  if (!board) return;
+  if (!qaQueue.length) {
+    if (sentinel) sentinel.hidden = true;
+    qaUpdateProgress();
+    return;
+  }
+  const batch = qaQueue.splice(0, QA_BATCH);
+  board.insertAdjacentHTML('beforeend', batch.map(qaCardHtml).join(''));
+  qaApplyFilters();
+  if (!qaQueue.length && sentinel) sentinel.hidden = true;
+}
+
+/** Keep appending while the sentinel is still in view (IO alone can stall). */
+function qaFillWhileVisible() {
+  const sentinel = document.getElementById('qa-sentinel');
+  const panel = viewQa.querySelector('.qa-panel') as HTMLElement | null;
+  if (!sentinel || sentinel.hidden || !qaQueue.length || !panel) return;
+
+  const rootRect = panel.getBoundingClientRect();
+  const sentRect = sentinel.getBoundingClientRect();
+  // Match rootMargin-ish: load when sentinel is within ~600px of the panel bottom
+  const near =
+    sentRect.top < rootRect.bottom + 600 && sentRect.bottom > rootRect.top - 100;
+  if (!near) return;
+
+  qaAppendBatch();
+  if (qaQueue.length && !sentinel.hidden) {
+    requestAnimationFrame(() => qaFillWhileVisible());
+  }
+}
+
+function qaSetupInfiniteScroll() {
+  const sentinel = document.getElementById('qa-sentinel');
+  const panel = viewQa.querySelector('.qa-panel') as HTMLElement | null;
+  qaObserver?.disconnect();
+  qaObserver = null;
+  if (!sentinel || !panel || !qaQueue.length) {
+    if (sentinel) sentinel.hidden = true;
+    return;
+  }
+
+  sentinel.hidden = false;
+  qaObserver = new IntersectionObserver(
+    (entries) => {
+      for (const entry of entries) {
+        if (entry.isIntersecting) qaFillWhileVisible();
+      }
+    },
+    { root: panel, rootMargin: '600px 0px', threshold: 0 },
+  );
+  qaObserver.observe(sentinel);
+
+  if (!qaScrollBound) {
+    qaScrollBound = true;
+    panel.addEventListener(
+      'scroll',
+      () => {
+        if (qaQueue.length) qaFillWhileVisible();
+      },
+      { passive: true },
+    );
+  }
+  requestAnimationFrame(() => qaFillWhileVisible());
+}
+
+function qaFocusCard(i: number) {
+  const cards = qaVisibleCards();
+  if (!cards.length) return;
+  qaFocusIndex = ((i % cards.length) + cards.length) % cards.length;
+  cards[qaFocusIndex].scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function qaJumpNextError() {
+  const cards = qaVisibleCards();
+  if (!cards.length) return;
+  const includeWarn = document.getElementById('qa-include-warn') as HTMLInputElement | null;
+  const warningsOnly = document.getElementById('qa-warnings-only') as HTMLInputElement | null;
+  const start = qaFocusIndex;
+  for (let step = 1; step <= cards.length; step++) {
+    const i = (start + step) % cards.length;
+    const el = cards[i];
+    const errN = Number(el.dataset.errorCount || 0);
+    const warnN = Number(el.dataset.warnCount || 0);
+    if (warningsOnly?.checked) {
+      if (warnN > 0) {
+        qaFocusIndex = i;
+        el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        return;
+      }
+      continue;
+    }
+    if (errN > 0 || (includeWarn?.checked && warnN > 0)) {
+      qaFocusIndex = i;
+      el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      return;
+    }
+  }
+}
+
+function ensureQaControls() {
+  const filterInput = document.getElementById('qa-filter');
+  const errorsOnly = document.getElementById('qa-errors-only') as HTMLInputElement | null;
+  const warningsOnly = document.getElementById('qa-warnings-only') as HTMLInputElement | null;
+  const includeWarn = document.getElementById('qa-include-warn');
+  const nextErrorBtn = document.getElementById('qa-next-error');
+  filterInput?.addEventListener('input', qaApplyFilters);
+  errorsOnly?.addEventListener('change', () => {
+    if (errorsOnly.checked && warningsOnly) warningsOnly.checked = false;
+    qaApplyFilters();
+  });
+  warningsOnly?.addEventListener('change', () => {
+    if (warningsOnly.checked && errorsOnly) errorsOnly.checked = false;
+    qaApplyFilters();
+  });
+  includeWarn?.addEventListener('change', qaApplyFilters);
+  nextErrorBtn?.addEventListener('click', qaJumpNextError);
+  document.getElementById('qa-load-more')?.addEventListener('click', () => {
+    qaAppendBatch();
+    qaFillWhileVisible();
+  });
+
+  if (!qaKeyHandlerAttached) {
+    qaKeyHandlerAttached = true;
+    document.addEventListener('keydown', (ev) => {
+      if (viewQa.classList.contains('hidden')) return;
+      const tag = (ev.target as HTMLElement | null)?.tagName || '';
+      if (tag === 'INPUT' || tag === 'TEXTAREA' || (ev.target as HTMLElement)?.isContentEditable) {
+        return;
+      }
+      if (ev.key === 'j') {
+        ev.preventDefault();
+        qaFocusCard(qaFocusIndex + 1);
+      } else if (ev.key === 'k') {
+        ev.preventDefault();
+        qaFocusCard(qaFocusIndex - 1);
+      } else if (ev.key === 'e') {
+        ev.preventDefault();
+        qaJumpNextError();
+      }
+    });
+  }
+
+  const board = document.getElementById('qa-board');
+  board?.addEventListener('click', (ev) => {
+    const btn = (ev.target as HTMLElement | null)?.closest<HTMLButtonElement>('.qa-open-editor');
+    if (!btn) return;
+    const group = btn.dataset.group;
+    if (!group) return;
+    void loadGroupIntoEditor(group, 'post').catch((err) => {
+      alert(err instanceof Error ? err.message : 'Could not open post');
+    });
+  });
+}
+
+async function loadQaBoard(force = false) {
+  const board = document.getElementById('qa-board');
+  const statsEl = document.getElementById('qa-stats');
+  const sentinel = document.getElementById('qa-sentinel');
+  const emptyEl = document.getElementById('qa-empty');
+  if (!board || !statsEl) return;
+
+  if (!qaControlsReady) {
+    ensureQaControls();
+    qaControlsReady = true;
+  }
+
+  if (!force && qaAllCards.length && board.children.length) {
+    return;
+  }
+
+  statsEl.textContent = 'Scanning unpublished posts…';
+  board.innerHTML = '';
+  if (emptyEl) emptyEl.hidden = true;
+  if (sentinel) sentinel.hidden = true;
+  qaObserver?.disconnect();
+  qaObserver = null;
+
+  try {
+    const res = await fetch('/api/qa-unpublished');
+    const data = (await res.json()) as {
+      ok: boolean;
+      cards?: QaCard[];
+      summary?: { total: number; withErrors: number; warnOnly: number; ok: number };
+      error?: string;
+    };
+    if (!res.ok || !data.ok || !data.cards) {
+      statsEl.textContent = data.error || 'Could not load QA cards.';
+      return;
+    }
+
+    qaAllCards = data.cards;
+    qaFocusIndex = 0;
+    const summary = data.summary;
+    statsEl.textContent = summary
+      ? `${summary.total} unpublished · ${summary.withErrors} with errors · ${summary.warnOnly} warn-only · ${summary.ok} clean`
+      : `${qaAllCards.length} unpublished`;
+
+    if (!qaAllCards.length) {
+      if (emptyEl) emptyEl.hidden = false;
+      qaUpdateProgress();
+      return;
+    }
+
+    const initial = qaAllCards.slice(0, 8);
+    qaQueue = qaAllCards.slice(8);
+    board.innerHTML = initial.map(qaCardHtml).join('');
+    qaApplyFilters();
+    qaSetupInfiniteScroll();
+  } catch (err) {
+    statsEl.textContent = err instanceof Error ? err.message : 'Could not load QA cards.';
+  }
+}
+
 function showView(view: WriterView) {
   viewDashboard.classList.toggle('hidden', view !== 'dashboard');
   viewWrite.classList.toggle('hidden', view !== 'write');
@@ -1808,6 +2151,7 @@ function showView(view: WriterView) {
   viewCalendar.classList.toggle('hidden', view !== 'calendar');
   viewDestinations.classList.toggle('hidden', view !== 'destinations');
   viewInstagram.classList.toggle('hidden', view !== 'instagram');
+  viewQa.classList.toggle('hidden', view !== 'qa');
   document.querySelectorAll<HTMLButtonElement>('.nav-link').forEach((btn) => {
     btn.classList.toggle('is-active', btn.dataset.view === view);
   });
@@ -1831,6 +2175,7 @@ function showView(view: WriterView) {
     );
   }
   if (view === 'instagram') void loadInstagramFeed();
+  if (view === 'qa') void loadQaBoard();
   if (view === 'dashboard') {
     createChooser.classList.add('hidden');
     void loadDashboardStats();
@@ -2158,7 +2503,7 @@ document.querySelectorAll<HTMLButtonElement>('[data-dashboard]').forEach((btn) =
       createChooser.classList.remove('hidden');
       return;
     }
-    if (action === 'library' || action === 'calendar' || action === 'destinations' || action === 'instagram') {
+    if (action === 'library' || action === 'calendar' || action === 'destinations' || action === 'instagram' || action === 'qa') {
       showView(action);
     }
   });
@@ -2266,6 +2611,9 @@ document.getElementById('create-destination-from-library')?.addEventListener('cl
 document.getElementById('refresh-instagram')?.addEventListener('click', () => {
   void loadInstagramFeed();
 });
+document.getElementById('refresh-qa')?.addEventListener('click', () => {
+  void loadQaBoard(true);
+});
 document.getElementById('save-instagram')?.addEventListener('click', () => {
   void saveInstagramFeed();
 });
@@ -2348,7 +2696,7 @@ document.getElementById('download-all')?.addEventListener('click', () => {
 });
 
 const hash = location.hash.replace('#', '') as WriterView;
-if (['write', 'library', 'calendar', 'destinations', 'instagram'].includes(hash)) {
+if (['write', 'library', 'calendar', 'destinations', 'instagram', 'qa'].includes(hash)) {
   showView(hash);
 } else {
   showView('dashboard');

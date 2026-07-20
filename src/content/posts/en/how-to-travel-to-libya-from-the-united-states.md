@@ -14,9 +14,6 @@ seo:
   description: 'travel to Libya from USA: How to travel to Libya from the USA: sponsorship, eVisa timing, flight routing tips, and IntoLibya tour planning for American.'
   canonical: https://intolibya.com/en/how-to-travel-to-libya-from-the-united-states
 ---
-
-<!-- {"primary-keyword":"travel to Libya from USA","secondary":["US tourists Libya"]} -->
-
 <p>Travel to Libya from USA starts with a licensed tour, not with a spontaneous backpacker ticket. US travelers need sponsorship, eVisa timing, and insurance thinking before they celebrate the itinerary.</p>
 
 <p>Independent freestyle tourism is not the model. You travel with a licensed sponsor such as IntoLibya, complete eVisa steps with host documents, and follow guided itineraries that include the logistics visitors cannot improvise alone.</p>
@@ -45,7 +42,7 @@ seo:
 
 <h2>What to see once you are in</h2>
 
-<p>Most first visitors thrive on western highlights: <a href="/en/destination/tripoli">Tripoli</a>, <a href="/en/destination/sabratha">Sabratha</a>, <a href="/en/destination/leptis-magna">Leptis Magna</a>, and often <a href="/en/destination/ghadames">Ghadames</a> or Sahara chapters. Longer trips can go deeper into desert country around <a href="/en/destination/ghat">Ghat</a> when season allows.</p>
+<p>Most first visitors thrive on western highlights: Tripoli, <a href="/en/destination/sabratha">Sabratha</a>, <a href="/en/destination/leptis-magna">Leptis Magna</a>, and often <a href="/en/destination/ghadames">Ghadames</a> or Sahara chapters. Longer trips can go deeper into desert country around <a href="/en/destination/ghat">Ghat</a> when season allows.</p>
 
 <p>For season choice, see <a href="/en/best-time-to-visit-libya">best time to visit Libya</a>. For entry mechanics, pair this page with eVisa and sponsorship guides on the site. Also read <a href="/en/can-us-citizens-get-a-visa-for-libya">can US citizens get a visa for Libya</a> if you want passport specific visa notes.</p>
 
@@ -63,7 +60,7 @@ seo:
 <li><a href="/en/libya-in-october-and-november">Libya in October and November</a></li>
 <li><a href="/en/libya-in-march-and-april">Libya in March and April</a></li>
 <li><a href="/en/how-to-travel-to-libya-from-the-united-kingdom">How to Travel to Libya from the United Kingdom</a></li>
-<li><a href="/en/destination/tripoli">Tripoli destination guide</a></li>
+<li>Tripoli destination guide</li>
 <li><a href="/en/destination/leptis-magna">Leptis Magna destination guide</a></li>
 </ul>
 
@@ -71,6 +68,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

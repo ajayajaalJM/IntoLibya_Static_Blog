@@ -14,9 +14,6 @@ seo:
   description: 'How much does a Libya tour cost? Learn the real price levers, hidden extras, and how to request an accurate IntoLibya quote.'
   canonical: https://intolibya.com/en/how-much-does-a-libya-tour-cost
 ---
-
-<!-- primary-keyword: Libya tour cost | secondary: price of Libya tour, Libya trip cost -->
-
 <p>Libya tour costs vary because trips vary: four quiet coastal days do not price like a deep Sahara expedition with camps, long transfers, and more staff days. What stays constant is the cost stack behind licensed tourism: sponsorship work, guiding, vehicles, accommodations, tourist police patterns where required, and the operational overhead of doing those things properly.</p>
 
 <p>This article explains drivers of price without hardcoding package sticker numbers that go stale. For live figures, use TourBuilder and a written quote.</p>
@@ -49,6 +46,7 @@ seo:
 <p>Does the quote include sponsorship support and escort patterns? Are meals inside? Is camping gear inside? How many true site hours exist versus highway hours? Is the trip private? Those answers explain cost better than a single number shouted across platforms.</p>
 <p>Pay for fit. A cheaper mismatched expedition is the most expensive boredom you can buy.</p>
 
+<p>For planning context, see <a href="/en/is-it-safe-to-travel-to-libya-right-now">Is It Safe to Travel to Libya Right Now</a> and <a href="/en/how-to-book-a-libya-tour-with-intolibya">How to Book a Libya Tour with IntoLibya</a>.</p>
 <h2>Related reading</h2>
 
 <ul>
@@ -64,6 +62,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

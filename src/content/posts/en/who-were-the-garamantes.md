@@ -14,9 +14,6 @@ seo:
   description: 'Who were the Garamantes: Fezzan history for travelers, Germa visits, and how to add their story to a Libya desert tour.'
   canonical: https://intolibya.com/en/who-were-the-garamantes
 ---
-
-<!-- {"primary-keyword":"Garamantes","secondary":["ancient Sahara civilization"]} -->
-
 <p><strong>Garamantes</strong> were an ancient Saharan people who built a powerful oasis civilization in Libya’s Fezzan. Classical writers knew them as desert rulers and traders. Archaeology around <a href="/en/destination/germa">Germa</a> and related sites shows towns, burial landscapes, and sophisticated water systems that supported farming in a harsh environment.</p>
 
 <p>They matter to travelers because Libya’s desert is not empty mythology. It holds deep human history before modern borders.</p>
@@ -31,7 +28,7 @@ seo:
 
 <h2>How to visit respectfully</h2>
 
-<p>Stay on paths guides indicate. Do not pocket pottery or stones. Site protection matters. Heat and distance are real. Build enough days so <a href="/en/destination/germa">Germa</a> is not a blurry checkpoint between long drives.</p>
+<p>Stay on paths guides indicate. Do not pocket pottery or stones. Site protection matters. Heat and distance are real. Build enough days so Germa is not a blurry checkpoint between long drives.</p>
 
 <p>IntoLibya can shape a history forward desert chapter in TourBuilder for archaeology fans who want Romans on the coast and Garamantes inland.</p>
 
@@ -49,6 +46,9 @@ seo:
 
 <p>Put simply, the Garamantes prove the Libyan Sahara was a stage for organized civilization, not only empty sand between empires.</p>
 
+<h2>How this fits a licensed Libya week</h2>
+<p>Who Were the Garamantes sits inside a wider guest plan that includes sponsorship support, an eVisa path, guides, and tourist police coordination as required. IntoLibya builds those pieces in TourBuilder so you are not improvising permissions at the airport. Ask for clear inclusions before you pay a deposit, then keep your dates flexible enough for document review.</p>
+<p>Use this page as one decision input, not the whole itinerary. Pair it with honest drive times, season notes, and the must see list you actually care about. Read <a href="/en/how-tourbuilder-works-for-custom-libya-trips">How TourBuilder Works for Custom Libya Trips</a> and <a href="/en/best-time-to-visit-libya">Best Time to Visit Libya</a> for neighbouring planning questions.</p>
 <h2>Related reading</h2>
 
 <ul>
@@ -64,6 +64,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

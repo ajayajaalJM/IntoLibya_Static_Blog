@@ -14,9 +14,6 @@ seo:
   description: 'Libya food tour guide: what culinary travelers can expect, dietary planning tips, and how to book culture rich packages.'
   canonical: https://intolibya.com/en/libya-tours-for-food-travelers
 ---
-
-<!-- {"primary-keyword":"Libya food tour","secondary":["Libyan cuisine travel"]} -->
-
 <p>A Libya food tour is not a street snack crawl in the Bangkok sense. It is hospitality, home styles, market produce, and regional dishes experienced inside a licensed itinerary. Food travelers who want flavor with cultural context will do well here.</p>
 
 <p>IntoLibya can weave meals into western circuits and oasis town days. Sponsorship still comes first because you are a tourist guest, not a freestyle critic with a map app.</p>
@@ -63,7 +60,7 @@ seo:
 <li><a href="/en/libya-tours-for-photographers">Libya Tours for Photographers</a></li>
 <li><a href="/en/libya-tours-for-archaeology-fans">Libya Tours for Archaeology Fans</a></li>
 <li><a href="/en/libya-tours-for-adventure-seekers">Libya Tours for Adventure Seekers</a></li>
-<li><a href="/en/destination/tripoli">Tripoli destination guide</a></li>
+<li>Tripoli destination guide</li>
 <li><a href="/en/destination/leptis-magna">Leptis Magna destination guide</a></li>
 </ul>
 
@@ -71,6 +68,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

@@ -14,9 +14,6 @@ seo:
   description: '7 vs 12 days Libya decision guide for first timers and desert lovers, with clear must see tests and TourBuilder next steps.'
   canonical: https://intolibya.com/en/how-to-choose-between-7-days-and-12-days-in-libya
 ---
-
-<!-- {"primary-keyword":"7 vs 12 days Libya","secondary":["how many days in Libya"]} -->
-
 <p>Choosing <strong>7 vs 12 days Libya</strong> is the decision that separates a complete western story from a coast plus Sahara adventure. Seven days can feel rich. Twelve days can feel transformative. The wrong pick usually comes from map greed or from underselling your own curiosity.</p>
 
 <p>Use appetite and transfer tolerance, not guilt, as your compass.</p>
@@ -25,7 +22,7 @@ seo:
 
 <p>A western week can cover <a href="/en/destination/tripoli">Tripoli</a>, <a href="/en/destination/leptis-magna">Leptis Magna</a>, <a href="/en/destination/sabratha">Sabratha</a>, mountain connective tissue in <a href="/en/destination/jebel-nafusa">Jebel Nafusa</a>, and time in <a href="/en/destination/ghadames">Ghadames</a>. That is a full emotional arc for first timers. It is also the length that keeps hotel heavy travelers happiest.</p>
 
-<p>Seven days struggles when you insist on oasis lakes and Acacus camping in the same breath.</p>
+<p>Seven days struggles when you insist on oasis lakes and <a href="/en/destination/acacus-mountains">Acacus</a> camping in the same breath.</p>
 
 <h2>What twelve days unlocks</h2>
 
@@ -44,7 +41,7 @@ seo:
 
 <p>IntoLibya can show both shapes in TourBuilder and tell you which is kinder for your month.</p>
 
-<h2>What to tell IntoLibya before you book</h2>
+<h2>How to brief the trip in TourBuilder</h2>
 
 <p>Share your preferred month, group size, pace, and must see list in plain language. Mention camping comfort, walking fitness, and whether you want more ruins, more Sahara, or a balanced mix. That brief lets TourBuilder build a route that matches how licensed tourism actually runs, instead of a wish list that collapses on the first long transfer day.</p>
 
@@ -57,7 +54,6 @@ seo:
 <p>If your dates are fixed around flights through Tunis or Cairo, say so early. Arrival buffers and departure buffers often matter as much as the highlight days in between.</p>
 
 <p>IntoLibya can adjust the outline after you see the first TourBuilder draft. Small changes to overnight towns, activity add ons, or rest mornings are normal and usually clearer once you react to a concrete plan rather than an abstract day count.</p>
-
 
 <h2>Related reading</h2>
 
@@ -74,6 +70,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

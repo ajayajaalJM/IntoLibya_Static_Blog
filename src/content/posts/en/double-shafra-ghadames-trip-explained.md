@@ -14,18 +14,17 @@ seo:
   description: 'Double Shafra Ghadames trip explained: oasis town focus, cohort format, who it suits, and how to book via TourBuilder events.'
   canonical: https://intolibya.com/en/double-shafra-ghadames-trip-explained
 ---
-
-<!-- {"primary-keyword":"Double Shafra Ghadames","secondary":["Ghadames group trip"],"events":["event_double_shafra_ghadames"]} -->
-
 <p>Double Shafra <a href="/en/destination/ghadames">Ghadames</a> focuses on the oasis town circuit with a young cohort format and fixed dates. If Sahara dunes are only part of your curiosity and you want the architecture and atmosphere of a desert city, this product speaks a different dialect than the pure sand expedition.</p>
 
-<p><!-- event_id: event_double_shafra_ghadames --></p>
+<p>
+
+</p>
 
 <p>Confirm live dates, age guidance, and inclusions on the TourBuilder event page. Prices and schedules update in the catalog. This article explains the idea, not a frozen invoice.</p>
 
 <h2>Why <a href="/en/destination/ghadames">Ghadames</a> is the star</h2>
 
-<p><a href="/en/destination/ghadames">Ghadames</a> is famous for its traditional old town, covered lanes, and oasis setting. Walking there feels like entering a designed answer to desert heat. Cohort trips that center <a href="/en/destination/ghadames">Ghadames</a> give you culture and place, not only horizon lines.</p>
+<p>Ghadames is famous for its traditional old town, covered lanes, and oasis setting. Walking there feels like entering a designed answer to desert heat. Cohort trips that center Ghadames give you culture and place, not only horizon lines.</p>
 
 <p>Depending on the year’s plan, days may also touch nearby desert landscapes or connect with wider western Libya stories. Your operator itinerary wins over assumptions.</p>
 
@@ -33,7 +32,7 @@ seo:
 
 <p>Shared groups move together. That can be joyful. It can also mean compromise on shop time, photo stops, and wake up calls. Read the event description carefully. If you need full private control, build a custom trip in TourBuilder instead.</p>
 
-<h2>Who should choose <a href="/en/destination/ghadames">Ghadames</a> over pure Sahara</h2>
+<h2>Who should choose Ghadames over pure Sahara</h2>
 
 <ul>
 <li>Travelers who love historic towns as much as dunes</li>
@@ -46,7 +45,7 @@ seo:
 
 <p>Open the official TourBuilder event link. Reserve with IntoLibya sponsorship in the flow. Finish eVisa documents before celebrating. If you want Roman coast days added around the cohort window, ask early so logistics can breathe.</p>
 
-<p>Compare with <a href="/en/double-shafra-sahara-trip-explained">Double Shafra Sahara</a> and the wider list in <a href="/en/festivals-in-libya-worth-planning-around">festivals in Libya worth planning around</a>. Destination context lives on the <a href="/en/destination/ghadames">Ghadames guide</a>. Book through official event links only.</p>
+<p>Compare with <a href="/en/double-shafra-sahara-trip-explained">Double Shafra Sahara</a> and the wider list in <a href="/en/festivals-in-libya-worth-planning-around">festivals in Libya worth planning around</a>. Destination context lives on the Ghadames guide. Book through official event links only.</p>
 <h2>Town comfort versus camp romance</h2>
 <p>Ghadames centered days often mean more built lodging texture than pure dune camping, depending on the year’s design. Ask what overnight pattern the event uses. Couples and first desert region visitors sometimes prefer town anchors. Hardcore sand seekers may prefer the Sahara sibling product.</p>
 <h2>Social tone</h2>
@@ -72,6 +71,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

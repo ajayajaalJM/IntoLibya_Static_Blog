@@ -14,9 +14,6 @@ seo:
   description: 'Libya tour reviews safety: Real guest experiences feeling safe in Libya: what travelers notice at arrival, ruins, desert nights, and guided checkpoints.'
   canonical: https://intolibya.com/en/real-guest-experiences-feeling-safe-in-libya
 ---
-
-<!-- primary-keyword: Libya tour reviews safety | secondary: guest experience Libya -->
-
 <p><strong>Libya tour reviews safety</strong> is one of the first questions travelers ask when planning with IntoLibya. This guide answers it with practical steps, honest limits, and clear next actions.</p>
 
 <p>Ask returning guests what surprised them and many say the same thing: they expected tension every hour, then found ordinary kindness, careful guiding, and ruins so empty they laughed out loud. Feeling safe in Libya as a tourist is usually less about cinematic security and more about staying inside a licensed plan that already knows the roads.</p>
@@ -66,6 +63,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

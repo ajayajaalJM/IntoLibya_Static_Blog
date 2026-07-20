@@ -14,9 +14,6 @@ seo:
   description: 'Libya March and April guide: spring weather for tourists, Ramadan awareness, and how to plan coast and desert itineraries.'
   canonical: https://intolibya.com/en/libya-in-march-and-april
 ---
-
-<!-- {"primary-keyword":"Libya March","secondary":["Libya April travel"]} -->
-
 <p>Libya March travel, with April as its partner, is classic shoulder season at its best. Spring brings comfortable ruin weather, inviting desert nights, and a sense that the country is waking into brightness without yet tipping into harsh summer.</p>
 
 <p>These months are ideal for combining western coast highlights with Sahara chapters in one sponsored journey.</p>
@@ -68,6 +65,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

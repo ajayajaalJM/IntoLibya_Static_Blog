@@ -14,9 +14,6 @@ seo:
   description: 'best Libya tour first time: Best Libya tour for first timers: why a western circuit beats an overloaded map, and how to choose four days versus seven.'
   canonical: https://intolibya.com/en/best-libya-tour-for-first-timers
 ---
-
-<!-- cdn-refs {"tours":["tour_7day"]} primary-keyword: best Libya tour first time -->
-
 <p><strong>Best Libya tour first time</strong> is one of the first questions travelers ask when planning with IntoLibya. This guide answers it with practical steps, honest limits, and clear next actions.</p>
 
 <p>The best Libya tour for first timers is usually not the longest map. It is the shortest honest loop that still feels like Libya: <a href="/en/destination/tripoli">Tripoli</a> energy, at least one great Roman city, and ideally an oasis town that shows a different face of the country. Most first visitors do best on a western circuit of about one week, with a four day coastal sampler as the lighter alternative.</p>
@@ -33,7 +30,7 @@ seo:
 
 <p>A four day introduction suits tight calendars and skeptical travel partners. It proves that tourist Libya is real. It will not include every dream pin. A seven day western itinerary is the usual recommendation when you have a full week and want desert town texture plus Roman depth.</p>
 
-<p>Longer fifteen day style adventures make sense if this might be your only Libya decade and you want oasis lakes and Acacus leaning days. Ask yourself whether you prefer one rich week or a once in a lifetime haul.</p>
+<p>Longer fifteen day style adventures make sense if this might be your only Libya decade and you want oasis lakes and <a href="/en/destination/acacus-mountains">Acacus</a> leaning days. Ask yourself whether you prefer one rich week or a once in a lifetime haul.</p>
 
 <h2>How to choose without drowning in tabs</h2>
 
@@ -66,6 +63,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

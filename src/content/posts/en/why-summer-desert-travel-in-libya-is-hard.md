@@ -14,9 +14,6 @@ seo:
   description: 'Libya summer travel: Why summer desert travel in Libya is hard for tourists, and when coastal summer itineraries still make sense.'
   canonical: https://intolibya.com/en/why-summer-desert-travel-in-libya-is-hard
 ---
-
-<!-- {"primary-keyword":"Libya summer travel","secondary":["Sahara summer heat Libya"]} -->
-
 <p>Libya summer travel into the deep Sahara is hard because heat changes every layer of the day: bodies, vehicles, shade, sleep, and decision quality. A coastal morning in <a href="/en/destination/tripoli">Tripoli</a> heat is one challenge. A long dune crossing in July is another category.</p>
 
 <p>This page is not scolding. It is honesty so you can choose dates that match your goals.</p>
@@ -31,7 +28,7 @@ seo:
 
 <p>Shorter coastal itineraries focused on <a href="/en/destination/tripoli">Tripoli</a>, <a href="/en/destination/sabratha">Sabratha</a>, and <a href="/en/destination/leptis-magna">Leptis Magna</a> can run in summer with early starts and honest midday breaks. Some travelers only have July leave. A lean coast week can still be memorable.</p>
 
-<p>Deep Acacus style camping and long sand sea days are the part we push toward autumn through spring. See <a href="/en/best-month-for-sahara-camping-in-libya">best month for Sahara camping</a>.</p>
+<p>Deep <a href="/en/destination/acacus-mountains">Acacus</a> style camping and long sand sea days are the part we push toward autumn through spring. See <a href="/en/best-month-for-sahara-camping-in-libya">best month for Sahara camping</a>.</p>
 
 <h2>Operational reality for licensed tours</h2>
 
@@ -60,7 +57,7 @@ seo:
 <li><a href="/en/visiting-libya-in-spring">Visiting Libya in Spring</a></li>
 <li><a href="/en/visiting-libya-in-autumn">Visiting Libya in Autumn</a></li>
 <li><a href="/en/festivals-in-libya-worth-planning-around">Festivals in Libya Worth Planning Around</a></li>
-<li><a href="/en/destination/tripoli">Tripoli destination guide</a></li>
+<li>Tripoli destination guide</li>
 <li><a href="/en/destination/leptis-magna">Leptis Magna destination guide</a></li>
 </ul>
 
@@ -68,6 +65,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

@@ -14,9 +14,6 @@ seo:
   description: 'Ghadames sand dunes sunset activity: what to expect, photo tips, packing notes, and checking current price in TourBuilder with IntoLibya.'
   canonical: https://intolibya.com/en/sunset-in-the-sand-dunes-near-ghadames
 ---
-
-<!-- {"primary-keyword":"Ghadames sand dunes","secondary":["sunset dunes Ghadames"],"activities":["a8"]} -->
-
 <p><strong>Ghadames sand dunes</strong> at sunset are the Sahara greeting card that still works in real life. After old town lanes and whitewashed shade, you ride out to open sand where the sun drops and the dunes shift from gold to rose to violet. It is a simple activity with outsized emotional return.</p>
 
 <p>Find the sunset dune experience in TourBuilder, check the current price there, and ask IntoLibya to schedule it on a <a href="/en/destination/ghadames">Ghadames</a> overnight when light and logistics agree. Wind and weather can nudge timing; flexibility keeps the magic intact.</p>
@@ -25,7 +22,7 @@ seo:
 
 <p>Transfer toward dune fields near the oasis town. Time to climb a ridge, breathe, and watch shadows lengthen. Tea or a quiet pause depending on the product details. Return after the show, sandy and oddly calm.</p>
 
-<p>This is not a multi day expedition. It is a horizon dose sized for western itineraries. Deep Acacus camping is a different chapter entirely.</p>
+<p>This is not a multi day expedition. It is a horizon dose sized for western itineraries. Deep <a href="/en/destination/acacus-mountains">Acacus</a> camping is a different chapter entirely.</p>
 
 <h2>Photo and comfort tips</h2>
 
@@ -70,6 +67,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

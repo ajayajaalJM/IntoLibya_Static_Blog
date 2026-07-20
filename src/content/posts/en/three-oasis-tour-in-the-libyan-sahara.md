@@ -14,9 +14,6 @@ seo:
   description: 'Three oasis tour Libya: Ubari lakes circuit overview, pacing tips, who it suits, and booking through TourBuilder with IntoLibya licensed logistics.'
   canonical: https://intolibya.com/en/three-oasis-tour-in-the-libyan-sahara
 ---
-
-<!-- {"primary-keyword":"three oasis tour Libya","secondary":["Ubari oasis tour"],"activities":["a34"]} -->
-
 <p>A <strong>three oasis tour Libya</strong> travelers book when one lake is not enough. In the Ubari sand sea, several oasis pockets offer water, palms, and dune theatres with different moods. A guided circuit lets you sample that variety in a day shaped by IntoLibya desert teams rather than wishful self navigation.</p>
 
 <p>Find the three oasis activity in TourBuilder, check the current price there, and confirm which lakes are realistic for your dates. Names and exact stops can flex with conditions; the promise is plural oasis beauty, not a rigid checklist carved in stone.</p>
@@ -41,7 +38,7 @@ seo:
 
 <h2>Booking notes</h2>
 
-<p>This activity belongs on southern itineraries with sponsorship and desert vehicles. Check TourBuilder for current price and inclusions. Soft CTA: build your Fezzan skeleton first, then decide swim depth versus oasis circuit breadth with our team.</p>
+<p>This activity belongs on southern itineraries with sponsorship and desert vehicles. Check TourBuilder for current price and inclusions. Build your Fezzan skeleton first, then decide swim depth versus oasis circuit breadth while you customize.</p>
 
 <h2>Photography strategy across lakes</h2>
 
@@ -70,6 +67,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

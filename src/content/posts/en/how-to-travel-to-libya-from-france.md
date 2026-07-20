@@ -14,9 +14,6 @@ seo:
   description: 'How to travel to Libya from France: visas, sponsorship, flight tips, and IntoLibya guided itineraries for French visitors.'
   canonical: https://intolibya.com/en/how-to-travel-to-libya-from-france
 ---
-
-<!-- {"primary-keyword":"travel to Libya from France","secondary":["France Libya tour"]} -->
-
 <p>Travel to Libya from France suits visitors who already love North African history and want a less crowded chapter. French travelers still enter through licensed sponsorship and eVisa steps, not casual border improvisation.</p>
 
 <p>Independent freestyle tourism is not the model. You travel with a licensed sponsor such as IntoLibya, complete eVisa steps with host documents, and follow guided itineraries that include the logistics visitors cannot improvise alone.</p>
@@ -45,7 +42,7 @@ seo:
 
 <h2>What to see once you are in</h2>
 
-<p>Most first visitors thrive on western highlights: <a href="/en/destination/tripoli">Tripoli</a>, <a href="/en/destination/sabratha">Sabratha</a>, <a href="/en/destination/leptis-magna">Leptis Magna</a>, and often <a href="/en/destination/ghadames">Ghadames</a> or Sahara chapters. Longer trips can go deeper into desert country around <a href="/en/destination/ghat">Ghat</a> when season allows.</p>
+<p>Most first visitors thrive on western highlights: Tripoli, <a href="/en/destination/sabratha">Sabratha</a>, <a href="/en/destination/leptis-magna">Leptis Magna</a>, and often <a href="/en/destination/ghadames">Ghadames</a> or Sahara chapters. Longer trips can go deeper into desert country around <a href="/en/destination/ghat">Ghat</a> when season allows.</p>
 
 <p>For season choice, see <a href="/en/best-time-to-visit-libya">best time to visit Libya</a>. For entry mechanics, pair this page with eVisa and sponsorship guides on the site. If you have already seen Tunisia or Morocco, read <a href="/en/libya-after-you-have-already-seen-morocco">Libya after Morocco</a> style comparisons for motivation.</p>
 
@@ -63,7 +60,7 @@ seo:
 <li><a href="/en/how-to-travel-to-libya-from-australia">How to Travel to Libya from Australia</a></li>
 <li><a href="/en/how-to-travel-to-libya-from-germany">How to Travel to Libya from Germany</a></li>
 <li><a href="/en/how-to-travel-to-libya-from-italy">How to Travel to Libya from Italy</a></li>
-<li><a href="/en/destination/tripoli">Tripoli destination guide</a></li>
+<li>Tripoli destination guide</li>
 <li><a href="/en/destination/leptis-magna">Leptis Magna destination guide</a></li>
 </ul>
 
@@ -71,6 +68,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

@@ -14,10 +14,7 @@ seo:
   description: 'Acacus rock art guide: prehistoric engravings in the Libyan Sahara, viewing etiquette, and booking the activity in TourBuilder with IntoLibya.'
   canonical: https://intolibya.com/en/prehistoric-engravings-in-the-sahara
 ---
-
-<!-- {"primary-keyword":"Acacus rock art","secondary":["prehistoric engravings Libya"],"activities":["a38"]} -->
-
-<p><strong>Acacus rock art</strong> is why many travelers accept long southwest transfers. Prehistoric engravings and paintings on sandstone walls record animals, people, and climates from eras when the Sahara was not the arid expanse we drive today. Standing before a panel with a guide is time travel without gadgets.</p>
+<p><strong><a href="/en/destination/acacus-mountains">Acacus</a> rock art</strong> is why many travelers accept long southwest transfers. Prehistoric engravings and paintings on sandstone walls record animals, people, and climates from eras when the Sahara was not the arid expanse we drive today. Standing before a panel with a guide is time travel without gadgets.</p>
 
 <p>Add the rock art activity in TourBuilder, check the current price there, and pair it with camping or day pushes from the <a href="/en/destination/ghat">Ghat</a> region under IntoLibya sponsorship. Access routes respect conservation and current permissions.</p>
 
@@ -41,7 +38,7 @@ seo:
 
 <h2>Trip design reminder</h2>
 
-<p>Rock art belongs in longer licensed itineraries. Check TourBuilder for current price and whether your package family already includes Acacus days. Soft CTA: rank rock art against oasis swimming and western Roman sites so we build a trip you can finish with joy.</p>
+<p>Rock art belongs in longer licensed itineraries. Check TourBuilder for current price and whether your package family already includes Acacus days. Rank rock art against oasis swimming and western Roman sites so the finished trip still feels joyful, not rushed.</p>
 
 <h2>Bringing the panels home ethically</h2>
 
@@ -70,6 +67,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

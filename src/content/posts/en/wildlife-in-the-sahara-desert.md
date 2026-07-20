@@ -194,7 +194,7 @@ seo:
 
 
 
-<p class="wp-block-paragraph">If you’re planning a journey into Libya’s desert, consider combining wildlife exploration with visits to historic sites such as Tripoli, the ancient city of Leptis Magna, or the desert oasis of Ghadames. Together, they reveal a side of Libya that is rich in both natural and cultural heritage.</p>
+<p class="wp-block-paragraph">If you’re planning a journey into Libya’s desert, consider combining wildlife exploration with visits to historic sites such as <a href="/en/destination/tripoli">Tripoli</a>, the ancient city of <a href="/en/destination/leptis-magna">Leptis Magna</a>, or the desert oasis of <a href="/en/destination/ghadames">Ghadames</a>. Together, they reveal a side of Libya that is rich in both natural and cultural heritage.</p>
 
 
 
@@ -202,7 +202,7 @@ seo:
 
 
 
-<p class="wp-block-paragraph">Step into the Roman world on the Mediterranean coast with IntoLibya’s guided tours. We combine Sabratha with Tripoli, Leptis Magna, Ghadames, and the Sahara Desert to provide a complete Libyan journey.</p>
+<p class="wp-block-paragraph">Step into the Roman world on the Mediterranean coast with IntoLibya’s guided tours. We combine <a href="/en/destination/sabratha">Sabratha</a> with <a href="/en/destination/tripoli">Tripoli</a>, <a href="/en/destination/leptis-magna">Leptis Magna</a>, <a href="/en/destination/ghadames">Ghadames</a>, and the Sahara Desert to provide a complete Libyan journey.</p>
 
 
 

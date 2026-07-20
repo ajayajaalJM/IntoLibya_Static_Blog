@@ -14,9 +14,6 @@ seo:
   description: 'Tunis and Tripoli trip: Can you combine Tunis and Tripoli in one journey? Yes. Use Tunis as a hub, then switch into a sponsored Libya tour with clear.'
   canonical: https://intolibya.com/en/can-you-combine-tunis-and-tripoli-in-one-journey
 ---
-
-<!-- primary-keyword: Tunis and Tripoli trip | secondary: combine Tunisia Libya -->
-
 <p><strong>Tunis and <a href="/en/destination/tripoli">Tripoli</a> trip</strong> is one of the first questions travelers ask when planning with IntoLibya. This guide answers it with practical steps, honest limits, and clear next actions.</p>
 
 <p>Yes, many travelers combine Tunis and Tripoli in one journey. The combination works because Tunis is a practical flight hub into Tripoli Mitiga, and because Tunisia offers easy independent days before you switch into Libya’s sponsored tour system. The combination fails when people treat the two cities like interchangeable weekends with the same rules.</p>
@@ -72,6 +69,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

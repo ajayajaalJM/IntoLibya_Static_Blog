@@ -14,12 +14,9 @@ seo:
   description: 'Tunis Tripoli flight: Flying Tunis to Tripoli for a Libya tour: why the hub works, when to buy tickets, and how Mitiga arrivals fit a licensed itinerary.'
   canonical: https://intolibya.com/en/flying-tunis-to-tripoli-for-a-libya-tour
 ---
-
-<!-- primary-keyword: Tunis Tripoli flight | secondary: Libya Wings booking -->
-
 <p><strong>Tunis <a href="/en/destination/tripoli">Tripoli</a> flight</strong> is one of the first questions travelers ask when planning with IntoLibya. This guide answers it with practical steps, honest limits, and clear next actions.</p>
 
-<p>For many European and long haul travelers, the Tunis to Tripoli hop is the practical doorway into a Libya tour. Tunis Carthage is a busy regional hub. Tripoli Mitiga is where IntoLibya guests often meet drivers and begin the sponsored itinerary. The flight itself is short. The planning around it is where people either stay calm or create avoidable stress.</p>
+<p>For many European and long haul travelers, the Tunis to <a href="/en/destination/tripoli">Tripoli</a> hop is the practical doorway into a Libya tour. Tunis Carthage is a busy regional hub. Tripoli Mitiga is where IntoLibya guests often meet drivers and begin the sponsored itinerary. The flight itself is short. The planning around it is where people either stay calm or create avoidable stress.</p>
 
 <p>This guide focuses on using that hop as part of a licensed Libya trip, not on turning Tunisia into a second tour product. IntoLibya plans Libya. Tunis is frequently the bridge.</p>
 
@@ -72,6 +69,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

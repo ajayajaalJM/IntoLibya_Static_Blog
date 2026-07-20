@@ -14,9 +14,6 @@ seo:
   description: 'Libya in winter for tourists: coastal comfort, cold desert nights, packing tips, and who should choose December to February.'
   canonical: https://intolibya.com/en/visiting-libya-in-winter
 ---
-
-<!-- {"primary-keyword":"Libya in winter","secondary":["winter travel Libya"]} -->
-
 <p>Libya in winter rewards travelers who want cooler ruin walks and who will pack for cold desert nights. December through February is not a dead season. It is a different season. The coast can feel crisp. The Sahara can feel sharp after sunset.</p>
 
 <p>If you hate midsummer glare, winter may be your friend. If you packed only linen shirts, winter will correct you quickly.</p>
@@ -70,6 +67,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

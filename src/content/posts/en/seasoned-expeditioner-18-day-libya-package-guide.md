@@ -14,16 +14,13 @@ seo:
   description: 'What an 18 day Libya tour covers for seasoned travelers who want coast, desert, and eastern history in one arc.'
   canonical: https://intolibya.com/en/seasoned-expeditioner-18-day-libya-package-guide
 ---
-
-<!-- {"primary-keyword":"18 day Libya tour","secondary":["full Libya tour","Seasoned Expeditioner"],"tours":["tour_all_libya"]} -->
-
 <p>An <strong>18 day Libya tour</strong> is the Seasoned Expeditioner answer when you want the country as a whole story, not a highlight reel. Full country style packages exist for travelers who may visit only once this decade and refuse to choose forever between western desert nights and eastern history.</p>
 
 <p>This length rewards patience. It punishes fantasy packing. Done well, it feels like a complete arc.</p>
 
 <h2>What full country length can include</h2>
 
-<p>Expect a serious western opening: <a href="/en/destination/tripoli">Tripoli</a>, <a href="/en/destination/leptis-magna">Leptis Magna</a>, <a href="/en/destination/sabratha">Sabratha</a>, mountain roads through <a href="/en/destination/jebel-nafusa">Jebel Nafusa</a>, and time in <a href="/en/destination/ghadames">Ghadames</a>. Then a Sahara chapter with oasis lakes, <a href="/en/destination/germa">Germa</a> context, and Acacus leaning days when routing allows. Then an eastern chapter toward <a href="/en/destination/benghazi">Benghazi</a> and <a href="/en/destination/shahat">Shahat</a> for Cyrene and the green mountain belt when conditions and permissions support it.</p>
+<p>Expect a serious western opening: <a href="/en/destination/tripoli">Tripoli</a>, <a href="/en/destination/leptis-magna">Leptis Magna</a>, <a href="/en/destination/sabratha">Sabratha</a>, mountain roads through <a href="/en/destination/jebel-nafusa">Jebel Nafusa</a>, and time in <a href="/en/destination/ghadames">Ghadames</a>. Then a Sahara chapter with oasis lakes, <a href="/en/destination/germa">Germa</a> context, and <a href="/en/destination/acacus-mountains">Acacus</a> leaning days when routing allows. Then an eastern chapter toward <a href="/en/destination/benghazi">Benghazi</a> and <a href="/en/destination/shahat">Shahat</a> for <a href="/en/destination/shahat">Cyrene</a> and the green mountain belt when conditions and permissions support it.</p>
 
 <p>Not every departure runs every pin. Season, access, and your own energy still matter. IntoLibya will say what is runnable rather than sell a mirage.</p>
 
@@ -45,7 +42,7 @@ seo:
 
 <p>IntoLibya acts as licensed sponsor and on ground organizer. Your job is to bring clear priorities and honest fitness notes so the route stays human.</p>
 
-<h2>What to tell IntoLibya before you book</h2>
+<h2>How to brief the trip in TourBuilder</h2>
 
 <p>Share your preferred month, group size, pace, and must see list in plain language. Mention camping comfort, walking fitness, and whether you want more ruins, more Sahara, or a balanced mix. That brief lets TourBuilder build a route that matches how licensed tourism actually runs, instead of a wish list that collapses on the first long transfer day.</p>
 
@@ -56,7 +53,6 @@ seo:
 <p>Coastal ruins days and desert camp nights ask different things of your body and your schedule. Early starts, checkpoint coordination, and heat management are normal parts of a well run Libya tour. A licensed operator plans those details so you spend attention on places rather than improvising transport or paperwork alone.</p>
 
 <p>If your dates are fixed around flights through Tunis or Cairo, say so early. Arrival buffers and departure buffers often matter as much as the highlight days in between.</p>
-
 
 <h2>Related reading</h2>
 
@@ -73,6 +69,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

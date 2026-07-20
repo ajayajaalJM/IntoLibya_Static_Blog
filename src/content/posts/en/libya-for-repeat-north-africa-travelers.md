@@ -14,9 +14,6 @@ seo:
   description: 'Next North Africa trip guide: why experienced regional travelers pick Libya, how to avoid repeats, and how to book with TourBuilder.'
   canonical: https://intolibya.com/en/libya-for-repeat-north-africa-travelers
 ---
-
-<!-- {"primary-keyword":"next North Africa trip","secondary":["beyond Tunisia Egypt Morocco"]} -->
-
 <p>Your next North Africa trip after Tunisia, Egypt, Morocco, or Algeria can be Libya if you want higher emptiness and a sponsored expedition style rather than another familiar medina loop. Repeat travelers often arrive ready. They already know the region’s manners. They are hungry for sites that still feel under visited.</p>
 
 <p>IntoLibya hosts that next chapter with licensed sponsorship and TourBuilder planning.</p>
@@ -30,7 +27,7 @@ seo:
 <li>A sense of being early rather than late to a trend</li>
 </ul>
 
-<p>Stand in <a href="/en/destination/leptis-magna">Leptis Magna</a> after you have seen busier ruins elsewhere and the contrast teaches you something. Add <a href="/en/destination/ghat">Ghat</a> or Acacus country when season and experience level fit.</p>
+<p>Stand in <a href="/en/destination/leptis-magna">Leptis Magna</a> after you have seen busier ruins elsewhere and the contrast teaches you something. Add <a href="/en/destination/ghat">Ghat</a> or <a href="/en/destination/acacus-mountains">Acacus</a> country when season and experience level fit.</p>
 
 <h2>How to avoid repeating yourself</h2>
 
@@ -68,6 +65,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

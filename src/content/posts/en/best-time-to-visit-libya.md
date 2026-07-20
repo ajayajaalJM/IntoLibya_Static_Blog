@@ -14,9 +14,6 @@ seo:
   description: 'Best time to visit Libya for tourists: autumn through spring for ruins and Sahara trips, with summer limits explained.'
   canonical: https://intolibya.com/en/best-time-to-visit-libya
 ---
-
-<!-- {"primary-keyword":"best time to visit Libya","secondary":["when to go to Libya"]} -->
-
 <p>The best time to visit Libya for most tourists is autumn through spring, roughly October through April, when coastal ruins stay walkable and Sahara nights stay cold but manageable. Summer still exists on the calendar. Deep desert camping in July is a different sport entirely.</p>
 
 <p>Libya is large. A comfortable month for <a href="/en/destination/leptis-magna">Leptis Magna</a> is not automatically a comfortable month for the dunes near <a href="/en/destination/gaberoun">Gaberoun</a>. Match your dates to the story you want, not to a single national average.</p>
@@ -65,6 +62,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

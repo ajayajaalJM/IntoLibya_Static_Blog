@@ -14,9 +14,6 @@ seo:
   description: 'Libya tourist etiquette: What you should not do as a tourist in Libya: etiquette, security, culture, and site rules that keep trips smooth.'
   canonical: https://intolibya.com/en/what-should-you-not-do-as-a-tourist-in-libya
 ---
-
-<!-- {"primary-keyword":"Libya tourist etiquette","secondary":["things not to do Libya"]} -->
-
 <p><strong>Libya tourist etiquette</strong> starts with what not to do. Do not travel independently without licensed sponsorship. Do not photograph military sites, checkpoints, or people without consent. Do not pack alcohol. Do not dress as if every city is a beach club. Do not dig for souvenirs at archaeological sites. Do not treat guides as fixers for illegal requests.</p>
 
 <p>Avoid those errors and Libya becomes welcoming, structured, and deeply memorable.</p>
@@ -57,6 +54,11 @@ seo:
 
 <p>If a situation feels unclear, pause and ask. Most etiquette problems begin with speed and assumption, not with bad intent. Libya rewards guests who move with patience.</p>
 
+<p>For planning context, see <a href="/en/libya-evisa-explained-step-by-step">Libya eVisa Explained Step by Step</a> and <a href="/en/libya-tour-packages-explained">Libya Tour Packages Explained</a>.</p>
+
+<h2>Respect that protects the week</h2>
+<p>Licensed travel works because guests follow the plan: stay with the group when asked, dress with local norms in mind, and treat checkpoints as routine rather than theatre. Photograph people only with clear consent. Do not wander off the agreed route for a "quick look."</p>
+<p>Those habits are not paranoia. They keep sponsorship trust intact and leave room for the sites themselves to be the story.</p>
 <h2>Related reading</h2>
 
 <ul>
@@ -72,6 +74,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

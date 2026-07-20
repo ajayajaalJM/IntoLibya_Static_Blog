@@ -14,9 +14,6 @@ seo:
   description: 'Sandboarding Libya and dune driving: what the activity includes, fitness notes, safety tips, and current price checks in TourBuilder with IntoLibya.'
   canonical: https://intolibya.com/en/sand-dune-driving-and-sandboarding
 ---
-
-<!-- {"primary-keyword":"sandboarding Libya","secondary":["dune bashing Libya"],"activities":["a33","a35"]} -->
-
 <p><strong>Sandboarding Libya</strong> paired with dune driving is the Fezzan grin factory. Skilled drivers draw lines up soft mountains of sand while guests board down slopes that forgive falls with powdery humor. It is play with a professional spine: licensed teams, briefed safety, and routes chosen for conditions rather than ego.</p>
 
 <p>Add dune driving and sandboarding in TourBuilder, check the current price there, and tell IntoLibya your thrill tolerance. Some guests want gentle slopes. Others want steeper runs. Both can be right.</p>
@@ -43,7 +40,7 @@ seo:
 
 <p>Guests who hate motion may prefer viewpoint dunes without aggressive runs. Young children need clear supervision plans. Anyone with serious spinal concerns should talk to us before booking thrill products.</p>
 
-<p>Soft next step: confirm the activity in TourBuilder, then rank your day as thrill first or swim first so we sequence energy wisely.</p>
+<p>Confirm the activity in TourBuilder, then rank the day as thrill first or swim first so the energy stays fun.</p>
 
 <h2>Learning to fall well</h2>
 
@@ -72,6 +69,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

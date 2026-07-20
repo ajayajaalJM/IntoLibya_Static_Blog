@@ -14,12 +14,9 @@ seo:
   description: '12 day Libya itinerary: 12 day Libya adventure itinerary: how to balance Leptis Magna, Ghadames, and desert time without turning the trip into a blur.'
   canonical: https://intolibya.com/en/12-day-libya-adventure-itinerary
 ---
-
-<!-- cdn-refs {"tours":["tour_15day"]} primary-keyword: 12 day Libya itinerary -->
-
 <p><strong>12 day Libya itinerary</strong> is one of the first questions travelers ask when planning with IntoLibya. This guide answers it with practical steps, honest limits, and clear next actions.</p>
 
-<p>Twelve days is where Libya starts to feel like an adventure novel rather than a long weekend with columns. You can give the Roman coast proper time, add oasis country, and still keep room for Sahara edges such as lake stops, <a href="/en/destination/germa">Germa</a> context, or Acacus leaning days when the licensed route supports them. This length rewards people who like movement and can sleep through mixed hotel and camp rhythms.</p>
+<p>Twelve days is where Libya starts to feel like an adventure novel rather than a long weekend with columns. You can give the Roman coast proper time, add oasis country, and still keep room for Sahara edges such as lake stops, <a href="/en/destination/germa">Germa</a> context, or <a href="/en/destination/acacus-mountains">Acacus</a> leaning days when the licensed route supports them. This length rewards people who like movement and can sleep through mixed hotel and camp rhythms.</p>
 
 <p>All of it still runs through sponsorship, eVisa support, guides, and tourist police as required. Adventure does not mean freestyle.</p>
 
@@ -64,6 +61,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

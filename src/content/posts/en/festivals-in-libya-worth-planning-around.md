@@ -14,9 +14,6 @@ seo:
   description: 'Festivals in Libya for tourists: which events are worth building a sponsored trip around, and how to confirm live TourBuilder dates.'
   canonical: https://intolibya.com/en/festivals-in-libya-worth-planning-around
 ---
-
-<!-- {"primary-keyword":"festivals in Libya","secondary":["Libya cultural festivals"],"events":["event_ghat_international_tourism_festival","event_rally_te_te_waddan","event_total_solar_eclipse_2027_libya"]} -->
-
 <p>Festivals in Libya worth planning around are the rare dates that justify building an entire sponsored trip. Most IntoLibya journeys run on flexible seasonal windows. Festival and event products flip that logic: the calendar leads, and the rest of the itinerary wraps around it.</p>
 
 <p>Always confirm live titles, dates, and availability in TourBuilder. Event details update from our catalog. Do not trust old screenshots or third party blogs for prices.</p>
@@ -67,6 +64,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

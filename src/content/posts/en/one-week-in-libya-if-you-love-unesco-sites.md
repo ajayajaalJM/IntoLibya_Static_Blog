@@ -14,9 +14,6 @@ seo:
   description: 'One week UNESCO Libya itinerary ideas for travelers who want empty World Heritage sites without rushing a full country map.'
   canonical: https://intolibya.com/en/one-week-in-libya-if-you-love-unesco-sites
 ---
-
-<!-- {"primary-keyword":"UNESCO Libya itinerary","secondary":["Libya UNESCO one week"]} -->
-
 <p>A <strong>UNESCO Libya itinerary</strong> for one week is a love letter to empty World Heritage drama. Libya’s listed sites are not theme parks. In a single western leaning week you can stand in Roman cities and a desert old town that would be overrun elsewhere, yet here often feel almost private.</p>
 
 <p>One week will not cover every inscribed place in the country. It can cover a coherent UNESCO rich arc.</p>
@@ -29,7 +26,7 @@ seo:
 
 <h2>What may need a longer trip</h2>
 
-<p>Acacus rock art landscapes near <a href="/en/destination/ghat">Ghat</a>, deeper Fezzan chapters, and eastern classical sites around <a href="/en/destination/shahat">Shahat</a> often need more than seven days or a second journey. If those are mandatory on trip one, look at adventure or full country lengths instead of forcing a week to lie.</p>
+<p><a href="/en/destination/acacus-mountains">Acacus</a> rock art landscapes near <a href="/en/destination/ghat">Ghat</a>, deeper Fezzan chapters, and eastern classical sites around <a href="/en/destination/shahat">Shahat</a> often need more than seven days or a second journey. If those are mandatory on trip one, look at adventure or full country lengths instead of forcing a week to lie.</p>
 
 <h2>How to spend the hours</h2>
 
@@ -41,7 +38,7 @@ seo:
 
 <p>Cooler months make ruin walking kinder. Dress modestly in towns. Follow photography guidance. Bring shoes that forgive ancient paving. Arrive willing to linger, because emptiness is the luxury.</p>
 
-<h2>What to tell IntoLibya before you book</h2>
+<h2>How to brief the trip in TourBuilder</h2>
 
 <p>Share your preferred month, group size, pace, and must see list in plain language. Mention camping comfort, walking fitness, and whether you want more ruins, more Sahara, or a balanced mix. That brief lets TourBuilder build a route that matches how licensed tourism actually runs, instead of a wish list that collapses on the first long transfer day.</p>
 
@@ -52,7 +49,6 @@ seo:
 <p>Coastal ruins days and desert camp nights ask different things of your body and your schedule. Early starts, checkpoint coordination, and heat management are normal parts of a well run Libya tour. A licensed operator plans those details so you spend attention on places rather than improvising transport or paperwork alone.</p>
 
 <p>If your dates are fixed around flights through Tunis or Cairo, say so early. Arrival buffers and departure buffers often matter as much as the highlight days in between.</p>
-
 
 <h2>Related reading</h2>
 
@@ -69,6 +65,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

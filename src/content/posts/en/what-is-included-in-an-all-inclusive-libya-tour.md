@@ -14,9 +14,6 @@ seo:
   description: 'What is included in an all inclusive Libya tour: the licensed core, common bundled extras, and costs that usually remain outside.'
   canonical: https://intolibya.com/en/what-is-included-in-an-all-inclusive-libya-tour
 ---
-
-<!-- primary-keyword: all inclusive Libya tour | secondary: Libya tour inclusions -->
-
 <p>An all inclusive Libya tour tries to prepaid the predictable pieces of a licensed journey so you spend fewer evenings asking whether lunch is covered. It still is not a floating resort with unlimited cocktails. Libya’s rules, modest norms, and checkpoint realities remain. Inclusive means the tour frame and many daily costs are bundled. It does not mean laws dissolve.</p>
 
 <p>Exact lists live in your quote. This guide shows what “all inclusive” usually aims to cover and which questions still matter.</p>
@@ -51,6 +48,7 @@ seo:
 <p>If this topic is the blocker on your Libya planning, bring your dates and constraints to IntoLibya and ask for a route that matches. Licensed sponsorship, eVisa support, guides, and tourist police as required are the shared frame. Your preferences for length, private pacing, and sleep style sit on top of that frame.</p>
 <p>Use TourBuilder to sketch days from live packages and activities, including coastal samplers, western weeks, longer adventures, and full country style expeditions when available. Then let humans confirm what is runnable for your season. The goal is a trip that answers the question that brought you to this page, with enough buffer to enjoy the answer.</p>
 
+<p>For planning context, see <a href="/en/how-tourbuilder-works-for-custom-libya-trips">How TourBuilder Works for Custom Libya Trips</a> and <a href="/en/best-time-to-visit-libya">Best Time to Visit Libya</a>.</p>
 <h2>Related reading</h2>
 
 <ul>
@@ -66,6 +64,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

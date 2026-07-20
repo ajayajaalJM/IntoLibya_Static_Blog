@@ -14,9 +14,6 @@ seo:
   description: 'Tripoli walking tour guide: what you will see in the medina and castle area, pace tips, and how to book the activity in TourBuilder with IntoLibya.'
   canonical: https://intolibya.com/en/tripoli-walking-tour-what-you-will-see
 ---
-
-<!-- {"primary-keyword":"Tripoli walking tour","secondary":["Tripoli guided walk"],"activities":["a1"]} -->
-
 <p>A <strong>Tripoli walking tour</strong> is how the capital stops being an airport hotel and becomes a place you can feel in your feet. On a licensed IntoLibya day, you move through old town lanes, castle edges, market noise, and sea breeze pauses with a guide who knows which turns tell the city’s story.</p>
 
 <p>Find this activity in TourBuilder when you build or customize a trip. Check TourBuilder for the current price, then ask us to lock it into your sponsored itinerary. Independent street wandering is not the tourism model here. Guided structure is how you get the good parts without inventing permissions on the sidewalk.</p>
@@ -41,8 +38,11 @@ seo:
 
 <h2>How it sits in a wider trip</h2>
 
-<p>A <a href="/en/destination/tripoli">Tripoli</a> walking tour pairs naturally with Roman coast days at <a href="/en/destination/leptis-magna">Leptis Magna</a> and <a href="/en/destination/sabratha">Sabratha</a>. It also sets cultural expectations before desert towns like <a href="/en/destination/ghadames">Ghadames</a>. Read <a href="/en/why-visit-tripoli">Why Visit Tripoli</a> and <a href="/en/things-to-do-in-tripoli-old-town">Things to Do in Tripoli Old Town</a> for destination context, and the <a href="/en/destination/tripoli">Tripoli destination page</a> for deeper background.</p>
+<p>A Tripoli walking tour pairs naturally with Roman coast days at <a href="/en/destination/leptis-magna">Leptis Magna</a> and <a href="/en/destination/sabratha">Sabratha</a>. It also sets cultural expectations before desert towns like <a href="/en/destination/ghadames">Ghadames</a>. Read <a href="/en/why-visit-tripoli">Why Visit Tripoli</a> and <a href="/en/things-to-do-in-tripoli-old-town">Things to Do in Tripoli Old Town</a> for destination context, and the Tripoli destination page for deeper background.</p>
 
+<h2>How this fits a licensed Libya week</h2>
+<p>Tripoli Walking Tour: What You Will See sits inside a wider guest plan that includes sponsorship support, an eVisa path, guides, and tourist police coordination as required. IntoLibya builds those pieces in TourBuilder so you are not improvising permissions at the airport. Ask for clear inclusions before you pay a deposit, then keep your dates flexible enough for document review.</p>
+<p>Use this page as one decision input, not the whole itinerary. Pair it with honest drive times, season notes, and the must see list you actually care about. Read <a href="/en/how-tourbuilder-works-for-custom-libya-trips">How TourBuilder Works for Custom Libya Trips</a> and <a href="/en/best-time-to-visit-libya">Best Time to Visit Libya</a> for neighbouring planning questions.</p>
 <h2>Related reading</h2>
 
 <ul>
@@ -50,7 +50,7 @@ seo:
 <li><a href="/en/unesco-sites-in-libya-a-traveler-map">UNESCO Sites in Libya: A Traveler Map</a></li>
 <li><a href="/en/best-desert-towns-to-visit-in-libya">Best Desert Towns to Visit in Libya</a></li>
 <li><a href="/en/tripoli-museum-tour-guide">Tripoli Museum Tour Guide</a></li>
-<li><a href="/en/destination/tripoli">Tripoli destination guide</a></li>
+<li>Tripoli destination guide</li>
 <li><a href="/en/destination/leptis-magna">Leptis Magna destination guide</a></li>
 </ul>
 
@@ -58,6 +58,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

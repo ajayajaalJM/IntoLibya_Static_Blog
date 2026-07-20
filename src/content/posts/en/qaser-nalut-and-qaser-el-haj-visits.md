@@ -14,9 +14,6 @@ seo:
   description: 'Qaser Nalut and Qaser El Haj: what you see on guided visits, mountain context, and booking these activities in TourBuilder with IntoLibya.'
   canonical: https://intolibya.com/en/qaser-nalut-and-qaser-el-haj-visits
 ---
-
-<!-- {"primary-keyword":"Qaser Nalut","secondary":["Qaser El Haj"],"activities":["a13","a44"]} -->
-
 <p><strong>Qaser Nalut</strong> and Qaser El Haj are the highland stops that make <a href="/en/destination/jebel-nafusa">Jebel Nafusa</a> click. These fortified granary complexes look like stone castles of harvest memory: chambers for storage, communal logic, and defense thinking shaped by mountain life. Visiting with a guide turns strange circles of architecture into readable social technology.</p>
 
 <p>Find these visits in TourBuilder, check the current price there, and ask IntoLibya to weave them into a Nafusa day rather than treating them as random roadside selfies. Licensed structure keeps the mountain chapter coherent.</p>
@@ -53,7 +50,7 @@ seo:
 
 <p>After qaser visits, <a href="/en/destination/ghadames">Ghadames</a> feels like a logical next climate chapter: highland storage culture, then oasis desert town culture. That progression teaches Libya as a stack of environments, not a single stereotype.</p>
 
-<p>Ask TourBuilder to show both mountain activities and <a href="/en/destination/ghadames">Ghadames</a> activities in one draft itinerary so transfers stay honest and nights stay humane.</p>
+<p>Ask TourBuilder to show both mountain activities and Ghadames activities in one draft itinerary so transfers stay honest and nights stay humane.</p>
 
 <h2>Related reading</h2>
 
@@ -70,6 +67,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

@@ -14,9 +14,6 @@ seo:
   description: '7 day Libya itinerary: 7 day western Libya itinerary: why one week fits first timers, what to include, and what to save for a longer adventure.'
   canonical: https://intolibya.com/en/7-day-western-libya-itinerary
 ---
-
-<!-- cdn-refs {"tours":["tour_7day"]} primary-keyword: 7 day Libya itinerary -->
-
 <p><strong>7 day Libya itinerary</strong> is one of the first questions travelers ask when planning with IntoLibya. This guide answers it with practical steps, honest limits, and clear next actions.</p>
 
 <p>Seven days in western Libya is the itinerary most first timers wish they had chosen after they try to see the country in a long weekend. You get <a href="/en/destination/tripoli">Tripoli</a>, the Roman coast, and enough time for <a href="/en/destination/ghadames">Ghadames</a> or related western depth without pretending the Sahara can be collected like fridge magnets. The week runs inside licensed sponsorship with eVisa support, guides, and tourist police as required.</p>
@@ -37,9 +34,9 @@ seo:
 
 <h2>Tradeoffs</h2>
 
-<p>You will still miss deep Acacus camping and eastern Greek sites on a standard western week. That is fine. Trip two can be the adventure sequel. Overstuffing week one is how people remember highways instead of theatres.</p>
+<p>You will still miss deep <a href="/en/destination/acacus-mountains">Acacus</a> camping and eastern Greek sites on a standard western week. That is fine. Trip two can be the adventure sequel. Overstuffing week one is how people remember highways instead of theatres.</p>
 
-<p>Summer heat makes midday ruins harder. Prefer milder months when you can. Tell us if you refuse camping; many western weeks can emphasize hotels and guesthouse styles.</p>
+<p>Summer heat makes midday ruins harder. Prefer milder months when you can. Note in TourBuilder if you refuse camping; many western weeks can emphasize hotels and guesthouse styles.</p>
 
 <h2>How to prepare</h2>
 
@@ -56,7 +53,7 @@ seo:
 <li><a href="/en/4-day-libya-itinerary-for-first-visitors">4 Day Libya Itinerary for First Visitors</a></li>
 <li><a href="/en/10-day-libya-itinerary-coast-and-desert">10 Day Libya Itinerary: Coast and Desert</a></li>
 <li><a href="/en/12-day-libya-adventure-itinerary">12 Day Libya Adventure Itinerary</a></li>
-<li><a href="/en/destination/tripoli">Tripoli destination guide</a></li>
+<li>Tripoli destination guide</li>
 <li><a href="/en/destination/leptis-magna">Leptis Magna destination guide</a></li>
 </ul>
 
@@ -64,6 +61,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

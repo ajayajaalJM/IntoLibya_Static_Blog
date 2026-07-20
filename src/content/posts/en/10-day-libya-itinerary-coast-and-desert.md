@@ -14,9 +14,6 @@ seo:
   description: '10 day Libya itinerary for coast and desert: how to split Roman sites, Tripoli, and oasis time without overstuffing drives.'
   canonical: https://intolibya.com/en/10-day-libya-itinerary-coast-and-desert
 ---
-
-<!-- cdn-refs {"tours":["tour_15day"]} primary-keyword: 10 day Libya itinerary -->
-
 <p><strong>10 day Libya itinerary</strong> is one of the first questions travelers ask when planning with IntoLibya. This guide answers it with practical steps, honest limits, and clear next actions.</p>
 
 <p>Ten days is a sweet middle distance for Libya: enough time to breathe on the coast and still taste desert towns, without the full weight of an eighteen day expedition. A coast and desert itinerary usually keeps you in western and southwestern patterns that licensed teams know well, with sponsorship, eVisa support, guides, and tourist police as required.</p>
@@ -33,7 +30,7 @@ seo:
 
 <p>From the coast, swing toward <a href="/en/destination/ghadames">Ghadames</a> for old town lanes and a slower cultural rhythm. Depending on the exact package shape and season, ten day plans can also lean toward Ubari lake country, <a href="/en/destination/germa">Germa</a>, or deeper Sahara approaches that appear in longer adventure products.</p>
 
-<p>IntoLibya’s catalog often maps richer coast plus desert ambitions onto longer adventure package families, including fifteen day style products when you need more camping and Acacus leaning time. Ten days may be a custom TourBuilder cut of that spirit: keep the highlights, trim the exhaustion.</p>
+<p>IntoLibya’s catalog often maps richer coast plus desert ambitions onto longer adventure package families, including fifteen day style products when you need more camping and <a href="/en/destination/acacus-mountains">Acacus</a> leaning time. Ten days may be a custom TourBuilder cut of that spirit: keep the highlights, trim the exhaustion.</p>
 
 <h2>Driving honesty</h2>
 
@@ -57,7 +54,7 @@ seo:
 <li><a href="/en/7-day-western-libya-itinerary">7 Day Western Libya Itinerary</a></li>
 <li><a href="/en/12-day-libya-adventure-itinerary">12 Day Libya Adventure Itinerary</a></li>
 <li><a href="/en/18-day-full-country-libya-itinerary">18 Day Full Country Libya Itinerary</a></li>
-<li><a href="/en/destination/tripoli">Tripoli destination guide</a></li>
+<li>Tripoli destination guide</li>
 <li><a href="/en/destination/leptis-magna">Leptis Magna destination guide</a></li>
 </ul>
 
@@ -65,6 +62,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

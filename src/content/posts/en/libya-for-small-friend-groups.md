@@ -14,9 +14,6 @@ seo:
   description: 'private group Libya tour: Libya for small friend groups: why private tours work, planning checklist, classic routes, and TourBuilder booking tips.'
   canonical: https://intolibya.com/en/libya-for-small-friend-groups
 ---
-
-<!-- {"primary-keyword":"private group Libya tour","secondary":["friends trip Libya"]} -->
-
 <p>A private group Libya tour is often the sweet spot for friend crews who want shared memories without negotiating with strangers’ alarm clocks. Small groups can customize day lists, split costs across vehicles and guiding, and still travel inside the licensed sponsorship system.</p>
 
 <p>IntoLibya TourBuilder is built for this kind of request: your dates, your interests, your pace.</p>
@@ -66,14 +63,14 @@ seo:
 <li><a href="/en/libya-for-digital-creators-and-travel-bloggers">Libya for Digital Creators and Travel Bloggers</a></li>
 <li><a href="/en/libya-for-older-travelers-who-want-support">Libya for Older Travelers Who Want Support</a></li>
 <li><a href="/en/libya-after-you-have-already-seen-morocco">Libya After You Have Already Seen Morocco</a></li>
-<li><a href="/en/destination/tripoli">Tripoli destination guide</a></li>
-<li><a href="/en/destination/leptis-magna">Leptis Magna destination guide</a></li>
+<li>Tripoli destination guide</li>
+<li>Leptis Magna destination guide</li>
 </ul>
 
 <hr />
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

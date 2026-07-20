@@ -14,9 +14,6 @@ seo:
   description: 'best preserved Roman city Africa: Best preserved Roman city in Africa for travelers: why Leptis Magna beats crowded Roman sites for atmosphere, scale,.'
   canonical: https://intolibya.com/en/why-leptis-magna-beats-crowded-roman-sites
 ---
-
-<!-- {"primary-keyword":"best preserved Roman city Africa","secondary":["Leptis vs Rome ruins"],"destinations":["leptis-magna"]} -->
-
 <p>If you are hunting the <strong>best preserved Roman city Africa</strong> still lets you explore without elbowing strangers, <a href="/en/destination/leptis-magna">Leptis Magna</a> is the honest answer. Pompeii has fame. Rome has density. Ephesus has cruise schedules. Leptis has space, sea light, and the uncanny feeling that the city is waiting for you personally.</p>
 
 <p>That is not marketing fluff. It is what happens when a UNESCO scale site sits outside mass tourism’s main conveyor belts. On a licensed IntoLibya day you can stand in a forum and hear wind, not tour megaphones stacked three deep.</p>
@@ -53,13 +50,13 @@ seo:
 <li><a href="/en/leptis-magna-travel-guide">Leptis Magna Travel Guide</a></li>
 <li><a href="/en/sabratha-travel-guide">Sabratha Travel Guide</a></li>
 <li><a href="/en/destination/tripoli">Tripoli destination guide</a></li>
-<li><a href="/en/destination/leptis-magna">Leptis Magna destination guide</a></li>
+<li>Leptis Magna destination guide</li>
 </ul>
 
 <hr />
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

@@ -14,9 +14,6 @@ seo:
   description: 'Tripoli itinerary for a short coastal trip focused on Leptis Magna and Sabratha with IntoLibya logistics Practical guidance from IntoLibya for licensed.'
   canonical: https://intolibya.com/en/tripoli-and-roman-ruins-short-plan
 ---
-
-<!-- {"primary-keyword":"Tripoli itinerary","secondary":["Tripoli and Leptis itinerary"]} -->
-
 <p>A short <strong>Tripoli itinerary</strong> built around Roman ruins is the cleanest first look at tourist Libya. You land in the capital, recover, then give real hours to the coastal heavyweights instead of inventing a Sahara chapter you do not have time to enjoy.</p>
 
 <p>This plan suits four to five day calendars. It is about depth on the Mediterranean edge, not national coverage.</p>
@@ -43,7 +40,7 @@ seo:
 
 <p>Empty Roman streets. A capital that still feels lived in. The surprise that Libya tourist travel is structured, not improvisational backpacking. That memory often becomes the reason guests return for desert nights later.</p>
 
-<h2>What to tell IntoLibya before you book</h2>
+<h2>How to brief the trip in TourBuilder</h2>
 
 <p>Share your preferred month, group size, pace, and must see list in plain language. Mention camping comfort, walking fitness, and whether you want more ruins, more Sahara, or a balanced mix. That brief lets TourBuilder build a route that matches how licensed tourism actually runs, instead of a wish list that collapses on the first long transfer day.</p>
 
@@ -55,7 +52,6 @@ seo:
 
 <p>If your dates are fixed around flights through Tunis or Cairo, say so early. Arrival buffers and departure buffers often matter as much as the highlight days in between.</p>
 
-
 <h2>Related reading</h2>
 
 <ul>
@@ -63,7 +59,7 @@ seo:
 <li><a href="/en/libya-activities-you-can-add-to-any-tour">Libya Activities You Can Add to Any Tour</a></li>
 <li><a href="/en/questions-to-ask-before-you-pay-a-deposit">Questions to Ask Before You Pay a Deposit</a></li>
 <li><a href="/en/tripoli-ghadames-and-leptis-circuit">Tripoli Ghadames and Leptis Circuit</a></li>
-<li><a href="/en/destination/tripoli">Tripoli destination guide</a></li>
+<li>Tripoli destination guide</li>
 <li><a href="/en/destination/leptis-magna">Leptis Magna destination guide</a></li>
 </ul>
 
@@ -71,6 +67,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

@@ -14,9 +14,6 @@ seo:
   description: 'uncrowded Libya travel: Libya for people who hate crowds: why sites feel empty, how to keep trips quiet, and how to book low density itineraries.'
   canonical: https://intolibya.com/en/libya-for-people-who-hate-crowds
 ---
-
-<!-- {"primary-keyword":"uncrowded Libya travel","secondary":["empty ruins Libya"]} -->
-
 <p>Uncrowded Libya travel is not a marketing line invented for this page. It is the ordinary condition at major sites when you visit with a licensed tour in 2020s tourism reality. If you hate shuffle queues, selfie sticks in every archway, and timed entry cattle lines, Libya will feel like relief.</p>
 
 <p>You still enter through IntoLibya sponsorship and guided logistics. Low crowds do not mean freestyle independence.</p>
@@ -67,6 +64,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

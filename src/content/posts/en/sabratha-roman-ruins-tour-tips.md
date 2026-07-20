@@ -14,9 +14,6 @@ seo:
   description: 'Sabratha tour tips: theatre highlights, walking pace, photo timing, and how to book the Roman ruins activity in TourBuilder with IntoLibya.'
   canonical: https://intolibya.com/en/sabratha-roman-ruins-tour-tips
 ---
-
-<!-- {"primary-keyword":"Sabratha tour","secondary":["Sabratha guided tour"],"activities":["a16"]} -->
-
 <p>A <strong>Sabratha tour</strong> is the coastal Roman day that makes people quiet for a second when the theatre faces the sea. Columns, stage architecture, and Mediterranean air conspire. Guided tips matter because the site feels intimate and can be rushed into a shallow photo stop if you let excitement outrun curiosity.</p>
 
 <p>Find the activity in TourBuilder, check the current price there, and place it in your IntoLibya licensed itinerary with enough unhurried time. Pairing with <a href="/en/destination/tripoli">Tripoli</a> nights keeps transfers humane.</p>
@@ -35,17 +32,17 @@ seo:
 
 <h2>Sabratha and Leptis as a double feature</h2>
 
-<p>Do not smash both into one exhausted blur unless forced. Separate days let each site keep a personality: <a href="/en/destination/sabratha">Sabratha</a> as theatre by waves, Leptis as imperial urban scale. Read <a href="/en/sabratha-travel-guide">Sabratha Travel Guide</a>, <a href="/en/leptis-magna-guided-tour-tips">Leptis Magna Guided Tour Tips</a>, and destination pages for <a href="/en/destination/sabratha">Sabratha</a> and <a href="/en/destination/leptis-magna">Leptis Magna</a>.</p>
+<p>Do not smash both into one exhausted blur unless forced. Separate days let each site keep a personality: <a href="/en/destination/sabratha">Sabratha</a> as theatre by waves, Leptis as imperial urban scale. Read <a href="/en/sabratha-travel-guide">Sabratha Travel Guide</a>, <a href="/en/leptis-magna-guided-tour-tips">Leptis Magna Guided Tour Tips</a>, and destination pages for Sabratha and <a href="/en/destination/leptis-magna">Leptis Magna</a>.</p>
 
 <h2>Extra coastal ideas</h2>
 
 <p>Some travelers ask about diving after stones. See <a href="/en/scuba-diving-on-the-libya-coast">Scuba Diving on the Libya Coast</a> and check TourBuilder for whether dive activities fit your dates and certification. Ruins and reefs can share a western chapter when planned honestly.</p>
 
-<h2>Common mistakes at <a href="/en/destination/sabratha">Sabratha</a></h2>
+<h2>Common mistakes at Sabratha</h2>
 
 <p>Racing straight to the theatre seats, snapping one frame, and leaving. Ignoring temples and streets that explain the town. Forgetting water because the breeze feels kind. Climbing where conservation says no.</p>
 
-<p>Fix those mistakes and <a href="/en/destination/sabratha">Sabratha</a> becomes one of the most elegant half days or full mornings in western Libya. The sea is not only a backdrop. It is the reason the city thrived.</p>
+<p>Fix those mistakes and Sabratha becomes one of the most elegant half days or full mornings in western Libya. The sea is not only a backdrop. It is the reason the city thrived.</p>
 
 <h2>Who should protect Sabratha time</h2>
 
@@ -68,6 +65,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

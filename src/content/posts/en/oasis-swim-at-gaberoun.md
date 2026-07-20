@@ -14,9 +14,6 @@ seo:
   description: 'Gaberoun swim activity: what the oasis lake is like, safety tips, packing, and checking current price in TourBuilder with IntoLibya.'
   canonical: https://intolibya.com/en/oasis-swim-at-gaberoun
 ---
-
-<!-- {"primary-keyword":"Gaberoun swim","secondary":["swim Ubari lakes"],"activities":["a32"]} -->
-
 <p>A <strong>Gaberoun swim</strong> is the Fezzan moment people struggle to describe without laughing in disbelief. You crest dunes, see a salt lake shining under desert sun, and somehow end up floating where maps promised only sand. In the Ubari sand sea, <a href="/en/destination/gaberoun">Gaberoun</a> turns the Sahara into a swimming story.</p>
 
 <p>Add the oasis swim in TourBuilder, check the current price there, and let IntoLibya place it inside a southern itinerary with the driving hours it deserves. This is not a spontaneous dip beside a <a href="/en/destination/tripoli">Tripoli</a> hotel.</p>
@@ -41,13 +38,13 @@ seo:
 
 <p>No lifeguard theatre. Swim within comfort. Watch children closely if families travel. Keep phones and cameras secure. The postcard is real; so is desert consequence.</p>
 
-<p>Soft next step: confirm the swim in TourBuilder, then tell us whether you want a day visit or overnight camp for sunrise color on the dunes.</p>
+<p>Confirm the swim in TourBuilder, then choose a day visit or overnight camp if you want sunrise color on the dunes.</p>
 
 <h2>Memory versus metrics</h2>
 
 <p>You will not remember water temperature charts. You will remember the first sight of blue against gold. Protect that moment by arriving unrushed and leaving the shore cleaner than you found it.</p>
 
-<p>If swimming anxiety exists, tell your guide. Watching from palms with tea is still a <a href="/en/destination/gaberoun">Gaberoun</a> victory. Peer pressure has no place in salt lakes.</p>
+<p>If swimming anxiety exists, tell your guide. Watching from palms with tea is still a Gaberoun victory. Peer pressure has no place in salt lakes.</p>
 
 <h2>What to wear in and out of the water</h2>
 
@@ -70,6 +67,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

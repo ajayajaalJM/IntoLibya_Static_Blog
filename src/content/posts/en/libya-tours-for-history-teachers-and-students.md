@@ -14,9 +14,6 @@ seo:
   description: 'educational tour Libya: Libya tours for history teachers and students: learning focused routes, group paperwork tips, and how to book educational trips.'
   canonical: https://intolibya.com/en/libya-tours-for-history-teachers-and-students
 ---
-
-<!-- {"primary-keyword":"educational tour Libya","secondary":["student trip Libya history"]} -->
-
 <p>An educational tour Libya plan works when learning goals drive the day list. History teachers and students get uncommon access to Roman urban fabric, Mediterranean trade stories, and Sahara cultures without fighting tour bus grids.</p>
 
 <p>Groups still travel under licensed sponsorship with IntoLibya. Education does not replace immigration rules.</p>
@@ -73,6 +70,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

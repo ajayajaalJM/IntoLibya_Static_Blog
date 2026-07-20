@@ -14,9 +14,6 @@ seo:
   description: 'Libya photography tour guide: best subjects, light and season tips, photo rules, and how to book with IntoLibya TourBuilder.'
   canonical: https://intolibya.com/en/libya-tours-for-photographers
 ---
-
-<!-- {"primary-keyword":"Libya photography tour","secondary":["photo tour Libya"]} -->
-
 <p>A Libya photography tour is less about posing models and more about time, light, and access. Empty Roman streets at golden hour, dune lines after wind, oasis towns before tour buses exist in the fantasy sense: this is the product.</p>
 
 <p>Photographers still travel with licensed sponsorship through IntoLibya. The structure that keeps tourism legal also keeps you from wasting sunrise on logistics chaos.</p>
@@ -28,7 +25,7 @@ seo:
 <li><a href="/en/destination/sabratha">Sabratha</a> theatre against the sea</li>
 <li><a href="/en/destination/ghadames">Ghadames</a> lanes and texture</li>
 <li>Sahara camps near places such as <a href="/en/destination/gaberoun">Gaberoun</a></li>
-<li>Acacus rock art country when season and routing allow</li>
+<li><a href="/en/destination/acacus-mountains">Acacus</a> rock art country when season and routing allow</li>
 </ul>
 
 <h2>How to shape the itinerary</h2>
@@ -69,6 +66,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

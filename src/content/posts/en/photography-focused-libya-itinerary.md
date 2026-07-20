@@ -14,16 +14,13 @@ seo:
   description: 'Libya photography tour: Build a Libya photography itinerary with light first pacing, permission awareness, and TourBuilder time on location.'
   canonical: https://intolibya.com/en/photography-focused-libya-itinerary
 ---
-
-<!-- {"primary-keyword":"Libya photography tour","secondary":["best photo spots Libya"]} -->
-
 <p>A <strong>Libya photography tour</strong> itinerary is less about collecting pins and more about collecting light. You still need licensed sponsorship and a runnable route. You also need patience for golden hour, permission awareness, and fewer rushed transfers.</p>
 
 <p>If your camera bag is heavier than your shoes, design the days for the camera bag.</p>
 
 <h2>Best frames by region</h2>
 
-<p><a href="/en/destination/tripoli">Tripoli</a> offers medina texture, coast light, and museum details. <a href="/en/destination/leptis-magna">Leptis Magna</a> and <a href="/en/destination/sabratha">Sabratha</a> reward early entry and long shadows on stone. <a href="/en/destination/ghadames">Ghadames</a> gives covered lanes, whitewashed geometry, and dune sunsets. Sahara chapters add oasis palms at <a href="/en/destination/gaberoun">Gaberoun</a>, Acacus silhouettes near <a href="/en/destination/ghat">Ghat</a>, and night skies when camping is part of the plan.</p>
+<p><a href="/en/destination/tripoli">Tripoli</a> offers medina texture, coast light, and museum details. <a href="/en/destination/leptis-magna">Leptis Magna</a> and <a href="/en/destination/sabratha">Sabratha</a> reward early entry and long shadows on stone. <a href="/en/destination/ghadames">Ghadames</a> gives covered lanes, whitewashed geometry, and dune sunsets. Sahara chapters add oasis palms at <a href="/en/destination/gaberoun">Gaberoun</a>, <a href="/en/destination/acacus-mountains">Acacus</a> silhouettes near <a href="/en/destination/ghat">Ghat</a>, and night skies when camping is part of the plan.</p>
 
 <p>Eastern light around <a href="/en/destination/shahat">Shahat</a> is a gift when access allows classical ruins without crowds.</p>
 
@@ -43,7 +40,7 @@ seo:
 
 <p>Protect lenses from dust. Pack batteries for cold desert nights. Prefer cooler months for Sahara work. Tell your operator if you need vehicle space for tripods so logistics are not a surprise on day one.</p>
 
-<h2>What to tell IntoLibya before you book</h2>
+<h2>How to brief the trip in TourBuilder</h2>
 
 <p>Share your preferred month, group size, pace, and must see list in plain language. Mention camping comfort, walking fitness, and whether you want more ruins, more Sahara, or a balanced mix. That brief lets TourBuilder build a route that matches how licensed tourism actually runs, instead of a wish list that collapses on the first long transfer day.</p>
 
@@ -54,7 +51,6 @@ seo:
 <p>Coastal ruins days and desert camp nights ask different things of your body and your schedule. Early starts, checkpoint coordination, and heat management are normal parts of a well run Libya tour. A licensed operator plans those details so you spend attention on places rather than improvising transport or paperwork alone.</p>
 
 <p>If your dates are fixed around flights through Tunis or Cairo, say so early. Arrival buffers and departure buffers often matter as much as the highlight days in between.</p>
-
 
 <h2>Related reading</h2>
 
@@ -71,6 +67,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

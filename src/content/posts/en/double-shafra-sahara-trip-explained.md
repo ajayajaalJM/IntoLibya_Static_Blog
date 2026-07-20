@@ -14,12 +14,11 @@ seo:
   description: 'Double Shafra Sahara trip explained: cohort desert format, who it suits, sponsorship basics, and how to confirm live event details.'
   canonical: https://intolibya.com/en/double-shafra-sahara-trip-explained
 ---
-
-<!-- {"primary-keyword":"Double Shafra Sahara","secondary":["Sahara cohort trip Libya"],"events":["event_double_shafra_desert_mens"]} -->
-
 <p>Double Shafra Sahara is a cohort style desert trip with fixed date energy rather than a fully private blank calendar. Travelers who like shared group rhythm, clear departure windows, and Sahara focus should understand the format before they deposit.</p>
 
-<p><!-- event_id: event_double_shafra_desert_mens --></p>
+<p>
+
+</p>
 
 <p>Always read the live TourBuilder event page for age rules, group notes, inclusions, and current timing. Do not assume every Double Shafra product is identical. The Sahara version is desert first.</p>
 
@@ -70,6 +69,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

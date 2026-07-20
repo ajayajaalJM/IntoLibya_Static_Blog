@@ -8,18 +8,15 @@ translationGroup: is-english-widely-spoken-in-libya
 featuredImage: /media/posts/is-english-widely-spoken-in-libya/hero.webp
 draft: false
 galleries: []
-excerpt: 'English spoken in Libya is present but not universal. You will find English with many tourism professionals, some hotel staff, and younger urban residents.'
+excerpt: 'Not really. Younger generations often speak English, but elders may struggle to understand you. On an IntoLibya tour, guides bridge the language gap.'
 seo:
   title: 'Is English Widely Spoken in Libya | IntoLibya'
-  description: 'English spoken in Libya: Is English widely spoken in Libya: where it works, where Arabic dominates, and how tourists communicate on IntoLibya tours.'
+  description: 'Not really. Younger generations often speak English, elders less so. Guides on IntoLibya tours bridge the language gap.'
   canonical: https://intolibya.com/en/is-english-widely-spoken-in-libya
 ---
+<p><strong>Not really.</strong> Younger generations do, but the elders will struggle to understand you.</p>
 
-<!-- {"primary-keyword":"English spoken in Libya","secondary":["English in Tripoli"]} -->
-
-<p><strong>English spoken in Libya</strong> is present but not universal. You will find English with many tourism professionals, some hotel staff, and younger urban residents. You will not find it reliably in every market stall, remote village, or government desk. On a licensed tour, guides translate the country so you can travel without fluency.</p>
-
-<p>That is the honest short answer travelers need before they pack phrasebooks or assume London level service English.</p>
+<p>You will find English with many tourism professionals, some hotel staff, and younger urban residents. You will not find it reliably in every market stall, remote village, or government desk. On a licensed tour, guides translate the country so you can travel without fluency.</p>
 
 <h2>Where English works better</h2>
 
@@ -65,7 +62,7 @@ seo:
 <li><a href="/en/what-language-do-people-speak-in-libya">What Language Do People Speak in Libya</a></li>
 <li><a href="/en/what-currency-is-used-in-libya">What Currency Is Used in Libya</a></li>
 <li><a href="/en/what-food-is-libya-known-for">What Food Is Libya Known For</a></li>
-<li><a href="/en/destination/tripoli">Tripoli destination guide</a></li>
+<li>Tripoli destination guide</li>
 <li><a href="/en/destination/leptis-magna">Leptis Magna destination guide</a></li>
 </ul>
 
@@ -73,6 +70,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

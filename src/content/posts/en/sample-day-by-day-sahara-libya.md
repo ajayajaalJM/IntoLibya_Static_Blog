@@ -14,10 +14,7 @@ seo:
   description: 'Sahara day by day Libya template for adventure trips, with oasis swims, desert staging, and return buffer built in.'
   canonical: https://intolibya.com/en/sample-day-by-day-sahara-libya
 ---
-
-<!-- {"primary-keyword":"Sahara day by day Libya","secondary":["desert days Libya"]} -->
-
-<p>A sample <strong>Sahara day by day Libya</strong> outline shows how desert trips actually breathe. The point is not to memorize a fixed script. The point is to see why oasis swims, staging nights, and Acacus time need room that coastal samplers never had.</p>
+<p>A sample <strong>Sahara day by day Libya</strong> outline shows how desert trips actually breathe. The point is not to memorize a fixed script. The point is to see why oasis swims, staging nights, and <a href="/en/destination/acacus-mountains">Acacus</a> time need room that coastal samplers never had.</p>
 
 <p>Your live TourBuilder plan may reorder pieces. The logic should still feel familiar.</p>
 
@@ -43,7 +40,7 @@ seo:
 
 <p>Customize with TourBuilder activities, but do not delete sleep to add vanity stops.</p>
 
-<h2>What to tell IntoLibya before you book</h2>
+<h2>How to brief the trip in TourBuilder</h2>
 
 <p>Share your preferred month, group size, pace, and must see list in plain language. Mention camping comfort, walking fitness, and whether you want more ruins, more Sahara, or a balanced mix. That brief lets TourBuilder build a route that matches how licensed tourism actually runs, instead of a wish list that collapses on the first long transfer day.</p>
 
@@ -57,7 +54,6 @@ seo:
 
 <p>IntoLibya can adjust the outline after you see the first TourBuilder draft. Small changes to overnight towns, activity add ons, or rest mornings are normal and usually clearer once you react to a concrete plan rather than an abstract day count.</p>
 
-
 <h2>Related reading</h2>
 
 <ul>
@@ -65,7 +61,7 @@ seo:
 <li><a href="/en/how-to-choose-between-7-days-and-12-days-in-libya">How to Choose Between 7 Days and 12 Days in Libya</a></li>
 <li><a href="/en/sample-day-by-day-coastal-libya">Sample Day by Day: Coastal Libya</a></li>
 <li><a href="/en/libya-itinerary-for-couples">Libya Itinerary for Couples</a></li>
-<li><a href="/en/destination/tripoli">Tripoli destination guide</a></li>
+<li>Tripoli destination guide</li>
 <li><a href="/en/destination/leptis-magna">Leptis Magna destination guide</a></li>
 </ul>
 
@@ -73,6 +69,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

@@ -14,9 +14,6 @@ seo:
   description: 'Libya shoulder season booking windows: when to reserve October, November, March, and April trips with IntoLibya TourBuilder.'
   canonical: https://intolibya.com/en/shoulder-season-booking-windows-for-libya
 ---
-
-<!-- {"primary-keyword":"Libya shoulder season","secondary":["best booking window Libya"]} -->
-
 <p>Libya shoulder season usually means the sweet months around autumn and spring when weather helps both coast and desert without midsummer extremes. For booking, shoulder season is also when smart travelers act early because everyone else read the same climate advice.</p>
 
 <p>October, November, March, and April are the classic windows. They reward ruins walks and Sahara camps. They also fill camps and guide calendars.</p>
@@ -73,6 +70,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

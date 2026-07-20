@@ -14,10 +14,6 @@ seo:
   description: 'Cairo stopover Libya guide: when to transit, what to protect, and how to keep Egypt sightseeing separate from your IntoLibya tour.'
   canonical: https://intolibya.com/en/cairo-stopover-before-a-libya-tour
 ---
-
-<!-- {"primary-keyword":"Cairo stopover Libya","secondary":["Egypt then Libya"]} -->
-
-
 <p>A Cairo stopover Libya plan is useful when Egyptair or other routings make the Egyptian capital the cheapest or simplest bridge toward <a href="/en/destination/tripoli">Tripoli</a>. It is not the same thing as an Egypt holiday. Confusing those two ideas creates exhausted guests who try to crush Giza, the Egyptian Museum, and a Mitiga morning into one blur.</p>
 
 <p>IntoLibya does not sell Egypt packages. We help you protect sleep and timing before your licensed Libya tour begins.</p>
@@ -43,7 +39,7 @@ seo:
 
 <h2>Arrival mindset for Libya</h2>
 
-<p>Libya tourism starts with sponsorship reality, guides, and a paced western or desert circuit. Arrive hydrated and calm. The first evening in <a href="/en/destination/tripoli">Tripoli</a> is for orientation, not for finishing a Cairo bucket list on your phone in the lobby.</p>
+<p>Libya tourism starts with sponsorship reality, guides, and a paced western or desert circuit. Arrive hydrated and calm. The first evening in Tripoli is for orientation, not for finishing a Cairo bucket list on your phone in the lobby.</p>
 
 <h2>Jet lag and health buffers</h2>
 
@@ -51,6 +47,9 @@ seo:
 
 <p>Travelers with mobility limits should avoid stacking pyramid walking and Mitiga immigration on consecutive punishing mornings. Tell us constraints early so day one in Tripoli can be gentler.</p>
 
+<h2>How this fits a licensed Libya week</h2>
+<p>Cairo Stopover Before a Libya Tour sits inside a wider guest plan that includes sponsorship support, an eVisa path, guides, and tourist police coordination as required. IntoLibya builds those pieces in TourBuilder so you are not improvising permissions at the airport. Ask for clear inclusions before you pay a deposit, then keep your dates flexible enough for document review.</p>
+<p>Use this page as one decision input, not the whole itinerary. Pair it with honest drive times, season notes, and the must see list you actually care about. Read <a href="/en/do-you-need-a-tour-to-visit-libya">Do You Need a Tour to Visit Libya</a> and <a href="/en/libya-evisa-explained-step-by-step">Libya eVisa Explained Step by Step</a> for neighbouring planning questions.</p>
 <h2>Related reading</h2>
 
 <ul>
@@ -58,7 +57,7 @@ seo:
 <li><a href="/en/north-africa-holiday-planner-where-libya-fits">North Africa Holiday Planner: Where Libya Fits</a></li>
 <li><a href="/en/beach-holiday-in-tunisia-then-culture-in-libya">Beach Holiday in Tunisia then Culture in Libya</a></li>
 <li><a href="/en/why-libya-feels-less-crowded-than-egypt">Why Libya Feels Less Crowded than Egypt</a></li>
-<li><a href="/en/destination/tripoli">Tripoli destination guide</a></li>
+<li>Tripoli destination guide</li>
 <li><a href="/en/destination/leptis-magna">Leptis Magna destination guide</a></li>
 </ul>
 
@@ -66,6 +65,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

@@ -14,9 +14,6 @@ seo:
   description: 'questions before booking Libya tour: A practical checklist of questions before booking a Libya tour deposit, covering routing, fees, support, and.'
   canonical: https://intolibya.com/en/questions-to-ask-before-you-pay-a-deposit
 ---
-
-<!-- {"primary-keyword":"questions before booking Libya tour","secondary":["Libya tour checklist","before deposit Libya"]} -->
-
 <p>Smart <strong>questions before booking Libya tour</strong> deposits protect your money and your mood. A deposit with IntoLibya starts licensed sponsorship and real planning. Ask clearly first so you are not negotiating basics after documents are already in motion.</p>
 
 <p>You do not need a lawyer voice. You need a traveler checklist.</p>
@@ -64,7 +61,7 @@ seo:
 
 <p>When answers feel clear, deposit with confidence. When answers feel foggy, pause. IntoLibya would rather slow a booking than rush a confused yes.</p>
 
-<h2>What to tell IntoLibya before you book</h2>
+<h2>How to brief the trip in TourBuilder</h2>
 
 <p>Share your preferred month, group size, pace, and must see list in plain language. Mention camping comfort, walking fitness, and whether you want more ruins, more Sahara, or a balanced mix. That brief lets TourBuilder build a route that matches how licensed tourism actually runs, instead of a wish list that collapses on the first long transfer day.</p>
 
@@ -75,7 +72,6 @@ seo:
 <p>Coastal ruins days and desert camp nights ask different things of your body and your schedule. Early starts, checkpoint coordination, and heat management are normal parts of a well run Libya tour. A licensed operator plans those details so you spend attention on places rather than improvising transport or paperwork alone.</p>
 
 <p>If your dates are fixed around flights through Tunis or Cairo, say so early. Arrival buffers and departure buffers often matter as much as the highlight days in between.</p>
-
 
 <h2>Related reading</h2>
 
@@ -92,6 +88,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

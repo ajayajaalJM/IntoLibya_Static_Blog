@@ -14,9 +14,6 @@ seo:
   description: 'Libya archaeology tour guide for ruins focused travelers: key sites, pacing tips, season advice, and TourBuilder booking.'
   canonical: https://intolibya.com/en/libya-tours-for-archaeology-fans
 ---
-
-<!-- {"primary-keyword":"Libya archaeology tour","secondary":["ancient ruins Libya tour"]} -->
-
 <p>A Libya archaeology tour is for people who want Roman urbanism without the queue, and for travelers ready to meet Greek and desert histories in the same country. Libya’s sites are not small roadside plaques. They are cities.</p>
 
 <p>You visit with a licensed sponsor such as IntoLibya. That is how access and guiding work here.</p>
@@ -28,7 +25,7 @@ seo:
 <li><a href="/en/destination/sabratha">Sabratha</a> for coastal theatre and temples</li>
 <li>Eastern sites such as areas around <a href="/en/destination/shahat">Shahat</a> when routing allows</li>
 <li>Desert histories near <a href="/en/destination/germa">Germa</a> and Garamantian stories</li>
-<li>Prehistoric rock art in Acacus country on longer expeditions</li>
+<li>Prehistoric rock art in <a href="/en/destination/acacus-mountains">Acacus</a> country on longer expeditions</li>
 </ul>
 
 <h2>How to plan like a student of place</h2>
@@ -46,7 +43,7 @@ seo:
 <p>Come with a little prep if you enjoy it: Severan dynasty basics, Roman urban planning vocabulary, Mediterranean trade routes. You do not need a degree. A page of context turns columns into sentences. Guides supply the rest on site.</p>
 <p>Allow sit down time inside the site, not only walking laps. Archaeology fans remember the quiet pause in a basilica more than the tenth similar capital snapped in a hurry.</p>
 <h2>Beyond the famous two</h2>
-<p>Sabratha and Leptis are the gateway drug. Longer trips can add eastern stories or desert civilizations when available. Tell IntoLibya your depth appetite so TourBuilder quotes do not undersell your curiosity.</p>
+<p><a href="/en/destination/sabratha">Sabratha</a> and Leptis are the gateway drug. Longer trips can add eastern stories or desert civilizations when available. Tell IntoLibya your depth appetite so TourBuilder quotes do not undersell your curiosity.</p>
 <h2>Museum days and context</h2>
 <p>A <a href="/en/destination/tripoli">Tripoli</a> museum morning before Leptis can sharpen what you later see in situ. Ask for that sequence when collections and openings allow. Context turns ornamental detail into evidence.</p>
 <p>Bring a notebook even if you shoot thousands of frames. Writing one paragraph per site at dinner locks learning better than another similar capital photo. Teachers already know this. Adult fans forget it under beauty pressure.</p>
@@ -61,7 +58,7 @@ seo:
 <li><a href="/en/how-to-travel-to-libya-from-spain">How to Travel to Libya from Spain</a></li>
 <li><a href="/en/libya-tours-for-photographers">Libya Tours for Photographers</a></li>
 <li><a href="/en/libya-tours-for-food-travelers">Libya Tours for Food Travelers</a></li>
-<li><a href="/en/destination/tripoli">Tripoli destination guide</a></li>
+<li>Tripoli destination guide</li>
 <li><a href="/en/destination/leptis-magna">Leptis Magna destination guide</a></li>
 </ul>
 
@@ -69,6 +66,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

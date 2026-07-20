@@ -14,10 +14,6 @@ seo:
   description: 'What is Leptis Magna famous for: Severan monuments, city scale ruins, quiet visits, and how to see it on an IntoLibya tour.'
   canonical: https://intolibya.com/en/what-is-leptis-magna-famous-for
 ---
-
-<!-- {"primary-keyword":"what is Leptis Magna","secondary":["Leptis Magna famous for"]} -->
-
-
 <p><strong>What is <a href="/en/destination/leptis-magna">Leptis Magna</a></strong> famous for? It is one of the most complete Roman cities on the Mediterranean, a UNESCO World Heritage site in Libya known for its Severan monuments, theatre, market, arches, forum spaces, and harbour traces. Emperors rose from this African coast. The ruins still read as a city, not a single temple photo stop.</p>
 
 <p>That is why archaeologists and travelers rank it among the great classical sites on earth, especially when visitor numbers stay low.</p>
@@ -50,6 +46,9 @@ seo:
 
 <p>If you loved Luxor’s narrative density, Leptis offers a different narrative density: Roman Africa at monumental confidence.</p>
 
+<h2>How this fits a licensed Libya week</h2>
+<p>What Is Leptis Magna Famous For sits inside a wider guest plan that includes sponsorship support, an eVisa path, guides, and tourist police coordination as required. IntoLibya builds those pieces in TourBuilder so you are not improvising permissions at the airport. Ask for clear inclusions before you pay a deposit, then keep your dates flexible enough for document review.</p>
+<p>Use this page as one decision input, not the whole itinerary. Pair it with honest drive times, season notes, and the must see list you actually care about. Read <a href="/en/how-to-visit-libya-as-a-tourist-in-2026">How to Visit Libya as a Tourist in 2026</a> and <a href="/en/is-it-safe-to-travel-to-libya-right-now">Is It Safe to Travel to Libya Right Now</a> for neighbouring planning questions.</p>
 <h2>Related reading</h2>
 
 <ul>
@@ -58,13 +57,13 @@ seo:
 <li><a href="/en/who-are-the-amazigh-in-libya">Who Are the Amazigh in Libya</a></li>
 <li><a href="/en/what-is-ghadames-famous-for">What Is Ghadames Famous For</a></li>
 <li><a href="/en/destination/tripoli">Tripoli destination guide</a></li>
-<li><a href="/en/destination/leptis-magna">Leptis Magna destination guide</a></li>
+<li>Leptis Magna destination guide</li>
 </ul>
 
 <hr />
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

@@ -14,9 +14,6 @@ seo:
   description: 'pack for Sahara nights: What to pack for desert nights in Libya: clothing layers, sleep comfort, sun and dust gear, and season specific tips.'
   canonical: https://intolibya.com/en/what-to-pack-for-desert-nights-in-libya
 ---
-
-<!-- {"primary-keyword":"pack for Sahara nights","secondary":["cold desert nights Libya"]} -->
-
 <p>To pack for Sahara nights in Libya, plan for temperature swing, not for a single Instagram outfit. Desert days can feel warm even in season. Desert nights often turn sharp. Guests who pack only for noon regret it at midnight.</p>
 
 <p>Licensed tours supply core camp infrastructure, but your clothing and sleep layers are personal. Ask IntoLibya what your specific itinerary provides before you overbuy or underpack.</p>
@@ -72,6 +69,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

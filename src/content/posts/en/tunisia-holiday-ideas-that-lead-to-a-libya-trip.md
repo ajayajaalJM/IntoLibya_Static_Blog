@@ -14,9 +14,6 @@ seo:
   description: 'Tunisia holiday then Libya: Tunisia holiday ideas that lead to a Libya trip: how to pair Tunis comfort with a licensed Libya tour without mixing the.'
   canonical: https://intolibya.com/en/tunisia-holiday-ideas-that-lead-to-a-libya-trip
 ---
-
-<!-- primary-keyword: Tunisia holiday then Libya | secondary: add Libya to Tunisia trip -->
-
 <p><strong>Tunisia holiday then Libya</strong> is one of the first questions travelers ask when planning with IntoLibya. This guide answers it with practical steps, honest limits, and clear next actions.</p>
 
 <p>Tunisia is easy to love. Beaches, medinas, Carthage, and cheap weekend flights train many Europeans to think of north Africa as a soft landing. Libya sits next door with emptier Roman cities and Sahara routes that still feel remote. Plenty of travelers start with a Tunisia holiday idea and only later ask whether a Libya chapter belongs on the same passport stamp run.</p>
@@ -33,7 +30,7 @@ seo:
 
 <p>A Tunis city break pairs well with a short Libya coastal sampler. Spend a few days on the Tunisian side, then fly Tunis to <a href="/en/destination/tripoli">Tripoli</a> Mitiga for a four day introduction to Tripoli, <a href="/en/destination/sabratha">Sabratha</a>, and Leptis Magna. That sequence suits curious first timers who want proof that Libya travel is real before committing to a longer Sahara arc.</p>
 
-<p>A beach week in the Tunisian Sahel can sit before a seven day western Libya circuit. You recover from work on the coast, then switch into sponsored touring for Ghadames and mountain connective stops. Just leave buffer days. Visa timing and flight changes do not care about your hotel checkout.</p>
+<p>A beach week in the Tunisian Sahel can sit before a seven day western Libya circuit. You recover from work on the coast, then switch into sponsored touring for <a href="/en/destination/ghadames">Ghadames</a> and mountain connective stops. Just leave buffer days. Visa timing and flight changes do not care about your hotel checkout.</p>
 
 <p>History focused travelers sometimes do Carthage and the Bardo Museum, then cross into Libya for Roman theatres that feel almost private. The emotional contrast is the point: Tunisia teaches the region; Libya delivers the empty grandeur.</p>
 
@@ -68,6 +65,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

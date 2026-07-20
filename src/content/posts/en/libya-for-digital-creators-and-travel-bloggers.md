@@ -14,9 +14,6 @@ seo:
   description: 'Libya travel content: Libya for digital creators and travel bloggers: filming tips, photo rules, logistics, and how to book sponsored itineraries.'
   canonical: https://intolibya.com/en/libya-for-digital-creators-and-travel-bloggers
 ---
-
-<!-- {"primary-keyword":"Libya travel content","secondary":["film in Libya tourism"]} -->
-
 <p>Libya travel content rewards creators who care about place more than crowd sourced clichés. Empty theatres, desert nights, and oasis towns give you frames audiences have not already muted. The catch is professional discipline: licensed tours, photo rules, and respectful storytelling.</p>
 
 <p>IntoLibya can host creators on sponsored itineraries. You are still a tourist under local rules, not a film crew with unlimited freedom.</p>
@@ -71,6 +68,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

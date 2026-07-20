@@ -14,9 +14,6 @@ seo:
   description: 'Ramadan travel Libya: Ramadan travel tips for visitors to Libya: what changes, what stays the same, and how IntoLibya plans respectful itineraries.'
   canonical: https://intolibya.com/en/ramadan-travel-tips-for-visitors-to-libya
 ---
-
-<!-- {"primary-keyword":"Ramadan travel Libya","secondary":["visiting Libya during Ramadan"]} -->
-
 <p>Ramadan travel Libya is possible and often deeply memorable, but the public rhythm changes. Daytime eating and drinking in public spaces can be more sensitive. Meal times shift toward sunset. Energy in streets and markets follows a different clock.</p>
 
 <p>Tourists on licensed tours still visit ruins, cities, and desert routes. Your job is respect and flexibility. IntoLibya plans meal logistics so guests are not left guessing beside a closed kitchen.</p>
@@ -76,6 +73,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

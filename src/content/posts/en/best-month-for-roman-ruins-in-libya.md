@@ -14,9 +14,6 @@ seo:
   description: 'best month Leptis Magna: Best month for Leptis Magna and Libya Roman ruins: autumn through spring walking weather, with summer heat limits explained.'
   canonical: https://intolibya.com/en/best-month-for-roman-ruins-in-libya
 ---
-
-<!-- {"primary-keyword":"best month Leptis Magna","secondary":["weather for ruins Libya"]} -->
-
 <p><strong>Best month <a href="/en/destination/leptis-magna">Leptis Magna</a></strong> is a core planning question for IntoLibya guests. This guide answers it with clear steps, tradeoffs, and booking next actions.</p>
 
 <p>The best month for <a href="/en/destination/leptis-magna">Leptis Magna</a> and Libya’s Roman coast is less about a single magic date and more about avoiding brutal heat while keeping long walking hours. For most tourists, October through April is the winning band, with autumn and spring often feeling ideal.</p>
@@ -25,7 +22,7 @@ seo:
 
 <h2>Top sites and why month matters</h2>
 
-<p><a href="/en/destination/leptis-magna">Leptis Magna</a> rewards slow exploration: arches, baths, theatre, streets that still feel civic. <a href="/en/destination/sabratha">Sabratha</a> adds coastal theatre drama. <a href="/en/destination/tripoli">Tripoli</a> museums and old layers fill rest days. In hot months, midday becomes a negotiation. In cooler months, you can stay curious longer.</p>
+<p>Leptis Magna rewards slow exploration: arches, baths, theatre, streets that still feel civic. <a href="/en/destination/sabratha">Sabratha</a> adds coastal theatre drama. <a href="/en/destination/tripoli">Tripoli</a> museums and old layers fill rest days. In hot months, midday becomes a negotiation. In cooler months, you can stay curious longer.</p>
 
 <h2>Best months ranked for ruin comfort</h2>
 
@@ -66,13 +63,13 @@ seo:
 <li><a href="/en/shoulder-season-booking-windows-for-libya">Shoulder Season Booking Windows for Libya</a></li>
 <li><a href="/en/best-month-for-sahara-camping-in-libya">Best Month for Sahara Camping in Libya</a></li>
 <li><a href="/en/destination/tripoli">Tripoli destination guide</a></li>
-<li><a href="/en/destination/leptis-magna">Leptis Magna destination guide</a></li>
+<li>Leptis Magna destination guide</li>
 </ul>
 
 <hr />
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

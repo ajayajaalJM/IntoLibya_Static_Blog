@@ -14,9 +14,6 @@ seo:
   description: 'Ghadames home lunch experience: what to expect, etiquette tips, menu spirit, and booking the activity in TourBuilder with IntoLibya.'
   canonical: https://intolibya.com/en/lunch-in-a-traditional-home-in-ghadames
 ---
-
-<!-- {"primary-keyword":"Ghadames home lunch","secondary":["traditional lunch Ghadames"],"activities":["a11"]} -->
-
 <p>A <strong>Ghadames home lunch</strong> is the activity that converts whitewashed walls into a living welcome. Instead of only walking past courtyard doors, you sit where hospitality still organizes the day: shared dishes, tea, and talk that makes the oasis feel inhabited rather than curated.</p>
 
 <p>Find the traditional lunch in TourBuilder, check the current price there, and ask IntoLibya to place it after a morning old town walk when appetites and shade align. Availability depends on host arrangements for your dates, so early planning helps.</p>
@@ -41,7 +38,7 @@ seo:
 
 <p>Sponsorship logistics can make travel feel structured. A home lunch returns intimacy to that structure. You remember names and flavors, not only UNESCO adjectives. Food travelers building wider routes can also see <a href="/en/food-and-culture-libya-itinerary">Food and Culture Libya Itinerary</a> and <a href="/en/tuareg-bread-and-tea-experience">Tuareg Bread and Tea Experience</a> for related sensory chapters.</p>
 
-<p>Soft next step: add the lunch in TourBuilder, then tell us your spice tolerance and must avoid list so the day stays joyful.</p>
+<p>Add the lunch in TourBuilder, and note spice tolerance or must avoid foods in your brief so the day stays joyful.</p>
 
 <h2>Conversation tips</h2>
 
@@ -70,6 +67,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

@@ -14,9 +14,6 @@ seo:
   description: 'Libya adventure tour guide for seekers of desert camps and remote routes, with season tips and TourBuilder booking steps.'
   canonical: https://intolibya.com/en/libya-tours-for-adventure-seekers
 ---
-
-<!-- {"primary-keyword":"Libya adventure tour","secondary":["Sahara adventure Libya"]} -->
-
 <p>A Libya adventure tour is desert driving, camp nights, oasis swims, and landscapes that still feel exploratory. Adventure seekers who want soft adventure with real remoteness will find Libya convincing. This is not a theme park zip line brochure.</p>
 
 <p>You still need licensed sponsorship through IntoLibya. Adventure without structure here is not bravery. It is a paperwork problem.</p>
@@ -26,7 +23,7 @@ seo:
 <ul>
 <li>Sahara camps and dune travel</li>
 <li>Oasis stops such as <a href="/en/destination/gaberoun">Gaberoun</a></li>
-<li>Southwestern routes toward <a href="/en/destination/ghat">Ghat</a> and Acacus country</li>
+<li>Southwestern routes toward <a href="/en/destination/ghat">Ghat</a> and <a href="/en/destination/acacus-mountains">Acacus</a> country</li>
 <li>Optional event energy such as desert rally weeks when offered</li>
 <li>Coastal contrast days so the trip has narrative range</li>
 </ul>
@@ -67,6 +64,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

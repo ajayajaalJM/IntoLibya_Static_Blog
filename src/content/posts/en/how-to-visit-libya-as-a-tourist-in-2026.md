@@ -14,10 +14,6 @@ seo:
   description: 'How to visit Libya as a tourist in 2026: sponsorship, eVisa steps, flights, and what to expect on a licensed tour.'
   canonical: https://intolibya.com/en/how-to-visit-libya-as-a-tourist-in-2026
 ---
-
-<!-- primary-keyword: how to visit Libya | secondary: visit Libya 2026, Libya tourist guide -->
-
-
 <p><strong>How to visit Libya</strong> is one of the first questions travelers ask when planning with IntoLibya. This guide answers it with practical steps, honest limits, and clear next actions.</p>
 
 <p>If you are staring at a map of north Africa and wondering whether Libya is actually open to people like you, here is the short version: yes, tourists visit Libya in 2026. The longer version matters more. You do not book a hostel and freestyle. You travel with a licensed operator that sponsors your visa, plans the route, and stays with you on the ground.</p>
@@ -69,14 +65,14 @@ seo:
 <li><a href="/en/is-it-safe-to-travel-to-libya-right-now">Is It Safe to Travel to Libya Right Now</a></li>
 <li><a href="/en/7-day-western-libya-itinerary">7 Day Western Libya Itinerary</a></li>
 <li><a href="/en/how-to-book-a-libya-tour-with-intolibya">How to Book a Libya Tour with IntoLibya</a></li>
-<li><a href="/en/destination/tripoli">Tripoli destination guide</a></li>
-<li><a href="/en/destination/leptis-magna">Leptis Magna destination guide</a></li>
+<li>Tripoli destination guide</li>
+<li>Leptis Magna destination guide</li>
 </ul>
 
 <hr />
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

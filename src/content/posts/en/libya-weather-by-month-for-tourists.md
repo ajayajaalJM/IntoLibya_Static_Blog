@@ -14,9 +14,6 @@ seo:
   description: 'Libya weather by month for tourists, covering coast and desert seasons so you can choose dates that fit your route.'
   canonical: https://intolibya.com/en/libya-weather-by-month-for-tourists
 ---
-
-<!-- {"primary-keyword":"Libya weather by month","secondary":["Libya climate tourists"]} -->
-
 <p>Libya weather by month matters more than a single climate slogan. The Mediterranean coast and the Sahara do not share one mood. Tourists on licensed tours feel that difference in packing lists, start times, and how long a ruin walk stays pleasant.</p>
 
 <p>Use this as a planning map, then confirm your exact route with IntoLibya. Local forecasts still win the week you fly.</p>
@@ -35,7 +32,7 @@ seo:
 
 <h2>July and August</h2>
 
-<p>Peak heat. Long road days and open sand become physically expensive. Coastal sampler trips can still run with honest pacing. Full Acacus style camping is for people who understand heat risk, not for first desert nights. Read <a href="/en/why-summer-desert-travel-in-libya-is-hard">why summer desert travel is hard</a>.</p>
+<p>Peak heat. Long road days and open sand become physically expensive. Coastal sampler trips can still run with honest pacing. Full <a href="/en/destination/acacus-mountains">Acacus</a> style camping is for people who understand heat risk, not for first desert nights. Read <a href="/en/why-summer-desert-travel-in-libya-is-hard">why summer desert travel is hard</a>.</p>
 
 <h2>September</h2>
 
@@ -67,7 +64,7 @@ seo:
 <li><a href="/en/visiting-libya-in-winter">Visiting Libya in Winter</a></li>
 <li><a href="/en/visiting-libya-in-spring">Visiting Libya in Spring</a></li>
 <li><a href="/en/visiting-libya-in-autumn">Visiting Libya in Autumn</a></li>
-<li><a href="/en/destination/tripoli">Tripoli destination guide</a></li>
+<li>Tripoli destination guide</li>
 <li><a href="/en/destination/leptis-magna">Leptis Magna destination guide</a></li>
 </ul>
 
@@ -75,6 +72,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

@@ -3,16 +3,15 @@ title: Waddan
 slug: waddan
 canonicalPath: /en/destination/waddan
 lang: en
-publishedAt: '2026-07-13'
+publishedAt: '2026-07-20'
 translationGroup: waddan
-draft: true
 featuredImage: /media/destinations/waddan/hero.webp
-excerpt: In Libya’s Jufra oases, Waddan is an ancient Saharan crossroads of date palms, trade routes, and living desert town life between the coast and the Fezzan.
+galleries: []
 seo:
   title: Waddan - IntoLibya
   description: Visit Waddan, an oasis town in Libya’s Jufra region. Explore Saharan trade history, date palms, and central desert journeys planned with IntoLibya.
   canonical: https://intolibya.com/en/destination/waddan
-galleries: []
+excerpt: Why Visit Waddan Waddan (also written Waddān) is one of Libya’s historic oasis towns — a Saharan crossroads in the Jufra district where date gardens, caravan me
 ---
 
 <h1 class="wp-block-heading">Why Visit Waddan</h1>
@@ -27,7 +26,7 @@ galleries: []
 
 
 
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<hr class="wp-block-separator has-alpha-channel-opacity">
 
 
 
@@ -43,7 +42,7 @@ galleries: []
 
 
 
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<hr class="wp-block-separator has-alpha-channel-opacity">
 
 
 
@@ -67,7 +66,7 @@ galleries: []
 
 
 
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<hr class="wp-block-separator has-alpha-channel-opacity">
 
 
 
@@ -91,7 +90,7 @@ galleries: []
 
 
 
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<hr class="wp-block-separator has-alpha-channel-opacity">
 
 
 
@@ -115,7 +114,7 @@ galleries: []
 
 
 
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<hr class="wp-block-separator has-alpha-channel-opacity">
 
 
 
@@ -259,7 +258,7 @@ galleries: []
 
 
 
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<hr class="wp-block-separator has-alpha-channel-opacity">
 
 
 
@@ -307,7 +306,7 @@ galleries: []
 
 
 
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<hr class="wp-block-separator has-alpha-channel-opacity">
 
 
 
@@ -335,7 +334,7 @@ galleries: []
 
 
 
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<hr class="wp-block-separator has-alpha-channel-opacity">
 
 
 
@@ -351,7 +350,7 @@ galleries: []
 
 
 
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<hr class="wp-block-separator has-alpha-channel-opacity">
 
 
 

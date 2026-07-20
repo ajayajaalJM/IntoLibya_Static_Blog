@@ -14,10 +14,6 @@ seo:
   description: 'Roman ruins Tunisia vs Libya compared for history travelers, with honest tradeoffs and a clear path to booking Libya with IntoLibya.'
   canonical: https://intolibya.com/en/roman-ruins-tunisia-vs-libya
 ---
-
-<!-- {"primary-keyword":"Roman ruins Tunisia vs Libya","secondary":["Dougga vs Leptis"]} -->
-
-
 <p>Roman ruins Tunisia vs Libya is a fair contest only if you admit both countries win different games. Tunisia offers Dougga, El Djem, Carthage fragments, and a mature tourism network that makes classical days easy to book. Libya offers <a href="/en/destination/leptis-magna">Leptis Magna</a> and <a href="/en/destination/sabratha">Sabratha</a>, two of the most complete Mediterranean Roman cities you can still walk with space to think.</p>
 
 <p>IntoLibya does not sell Tunisia packages. If you love Tunisia’s Romans, keep booking Tunisia with Tunisia operators. Use this guide to decide whether Libya’s quieter urbanism belongs on your next calendar.</p>
@@ -40,7 +36,7 @@ seo:
 
 <h2>A practical sequence many guests use</h2>
 
-<p>Travelers often visit Carthage and El Djem first, then book Libya for Leptis and <a href="/en/destination/sabratha">Sabratha</a> when they crave silence. Others reverse it. Either order works if visas and seasons are planned early. IntoLibya TourBuilder can shape the Libya half around your dates after you handle Tunisia separately.</p>
+<p>Travelers often visit Carthage and El Djem first, then book Libya for Leptis and Sabratha when they crave silence. Others reverse it. Either order works if visas and seasons are planned early. IntoLibya TourBuilder can shape the Libya half around your dates after you handle Tunisia separately.</p>
 
 <h2>Photography and teaching value</h2>
 
@@ -56,13 +52,13 @@ seo:
 <li><a href="/en/sahara-desert-tunisia-algeria-libya-compared">Sahara Desert: Tunisia Algeria Libya Compared</a></li>
 <li><a href="/en/greek-ruins-egypt-vs-east-libya">Greek Ruins: Egypt vs East Libya</a></li>
 <li><a href="/en/destination/tripoli">Tripoli destination guide</a></li>
-<li><a href="/en/destination/leptis-magna">Leptis Magna destination guide</a></li>
+<li>Leptis Magna destination guide</li>
 </ul>
 
 <hr />
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

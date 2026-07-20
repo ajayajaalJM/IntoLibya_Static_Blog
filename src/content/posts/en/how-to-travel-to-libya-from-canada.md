@@ -45,13 +45,13 @@ seo:
 
 <h2>What to see once you are in</h2>
 
-<p>Most first visitors thrive on western highlights: <a href="/en/destination/tripoli">Tripoli</a>, <a href="/en/destination/sabratha">Sabratha</a>, <a href="/en/destination/leptis-magna">Leptis Magna</a>, and often <a href="/en/destination/ghadames">Ghadames</a> or Sahara chapters. Longer trips can go deeper into desert country around <a href="/en/destination/ghat">Ghat</a> when season allows.</p>
+<p>Most first visitors thrive on western highlights: Tripoli, <a href="/en/destination/sabratha">Sabratha</a>, <a href="/en/destination/leptis-magna">Leptis Magna</a>, and often <a href="/en/destination/ghadames">Ghadames</a> or Sahara chapters. Longer trips can go deeper into desert country around <a href="/en/destination/ghat">Ghat</a> when season allows.</p>
 
 <p>For season choice, see <a href="/en/best-time-to-visit-libya">best time to visit Libya</a>. For entry mechanics, pair this page with eVisa and sponsorship guides on the site.</p>
 
 <p>Travel from Canada is absolutely doable when you respect the sponsored process. Open TourBuilder, tell IntoLibya your passport and dates, and build the trip in the order that works.</p>
 <h2>Canadian planning extras</h2>
-<p>Currency conversion and deposit timing should be clear before you commit. Ask what the package includes versus government visa fees. Long transit days argue for a gentle arrival afternoon in <a href="/en/destination/tripoli">Tripoli</a> with early sleep, not a midnight ruin march.</p>
+<p>Currency conversion and deposit timing should be clear before you commit. Ask what the package includes versus government visa fees. Long transit days argue for a gentle arrival afternoon in Tripoli with early sleep, not a midnight ruin march.</p>
 <p>Winter departures from Canada into Libya’s milder coast season can feel like a gift. Summer departures into Sahara heat need extra honesty. Match leave to landscape.</p>
 <h2>Community and communication</h2>
 <p>Canadian groups of friends often book private tours successfully. Appoint one logistics lead so IntoLibya is not answering five contradictory threads. Clarity scales better than enthusiasm alone.</p>
@@ -63,7 +63,7 @@ seo:
 <li><a href="/en/how-to-travel-to-libya-from-the-united-states">How to Travel to Libya from the United States</a></li>
 <li><a href="/en/how-to-travel-to-libya-from-the-united-kingdom">How to Travel to Libya from the United Kingdom</a></li>
 <li><a href="/en/how-to-travel-to-libya-from-australia">How to Travel to Libya from Australia</a></li>
-<li><a href="/en/destination/tripoli">Tripoli destination guide</a></li>
+<li>Tripoli destination guide</li>
 <li><a href="/en/destination/leptis-magna">Leptis Magna destination guide</a></li>
 </ul>
 

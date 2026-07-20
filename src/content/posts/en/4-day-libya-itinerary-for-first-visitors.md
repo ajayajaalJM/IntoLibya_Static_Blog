@@ -14,9 +14,6 @@ seo:
   description: '4 day Libya itinerary for first visitors: a realistic coastal sampler with arrival pacing, Roman highlights, and sponsorship basics.'
   canonical: https://intolibya.com/en/4-day-libya-itinerary-for-first-visitors
 ---
-
-<!-- cdn-refs {"tours":["tour_4day"]} primary-keyword: 4 day Libya itinerary -->
-
 <p><strong>4 day Libya itinerary</strong> is one of the first questions travelers ask when planning with IntoLibya. This guide answers it with practical steps, honest limits, and clear next actions.</p>
 
 <p>Four days will not show you all of Libya. Four days can show you that tourist Libya is real: <a href="/en/destination/tripoli">Tripoli</a> arrival, coastal Roman greatness, and enough guided structure to understand how sponsorship travel feels. This length suits skeptical partners, tight leave, or anyone who wants a proof trip before a longer Sahara chapter.</p>
@@ -31,7 +28,7 @@ seo:
 
 <h2>What you should not expect</h2>
 
-<p>Ghadames, Ubari lakes, and Acacus nights usually need more calendar. Stuffing them into four days creates a highway blur. If desert towns are your dream, choose seven days or longer. If eastern Greek sites are your dream, think full country timing.</p>
+<p><a href="/en/destination/ghadames">Ghadames</a>, Ubari lakes, and <a href="/en/destination/acacus-mountains">Acacus</a> nights usually need more calendar. Stuffing them into four days creates a highway blur. If desert towns are your dream, choose seven days or longer. If eastern Greek sites are your dream, think full country timing.</p>
 
 <h2>Who loves this length</h2>
 
@@ -58,7 +55,7 @@ seo:
 <li><a href="/en/10-day-libya-itinerary-coast-and-desert">10 Day Libya Itinerary: Coast and Desert</a></li>
 <li><a href="/en/12-day-libya-adventure-itinerary">12 Day Libya Adventure Itinerary</a></li>
 <li><a href="/en/18-day-full-country-libya-itinerary">18 Day Full Country Libya Itinerary</a></li>
-<li><a href="/en/destination/tripoli">Tripoli destination guide</a></li>
+<li>Tripoli destination guide</li>
 <li><a href="/en/destination/leptis-magna">Leptis Magna destination guide</a></li>
 </ul>
 
@@ -66,6 +63,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

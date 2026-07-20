@@ -45,7 +45,7 @@ seo:
 
 <h2>What to see once you are in</h2>
 
-<p>Most first visitors thrive on western highlights: <a href="/en/destination/tripoli">Tripoli</a>, <a href="/en/destination/sabratha">Sabratha</a>, <a href="/en/destination/leptis-magna">Leptis Magna</a>, and often <a href="/en/destination/ghadames">Ghadames</a> or Sahara chapters. Longer trips can go deeper into desert country around <a href="/en/destination/ghat">Ghat</a> when season allows.</p>
+<p>Most first visitors thrive on western highlights: Tripoli, <a href="/en/destination/sabratha">Sabratha</a>, <a href="/en/destination/leptis-magna">Leptis Magna</a>, and often <a href="/en/destination/ghadames">Ghadames</a> or Sahara chapters. Longer trips can go deeper into desert country around <a href="/en/destination/ghat">Ghat</a> when season allows.</p>
 
 <p>For season choice, see <a href="/en/best-time-to-visit-libya">best time to visit Libya</a>. For entry mechanics, pair this page with eVisa and sponsorship guides on the site. Season choice matters after such a flight. Prefer <a href="/en/best-time-to-visit-libya">comfortable months</a> unless you have a fixed event.</p>
 
@@ -63,8 +63,8 @@ seo:
 <li><a href="/en/how-to-travel-to-libya-from-the-united-kingdom">How to Travel to Libya from the United Kingdom</a></li>
 <li><a href="/en/how-to-travel-to-libya-from-canada">How to Travel to Libya from Canada</a></li>
 <li><a href="/en/how-to-travel-to-libya-from-germany">How to Travel to Libya from Germany</a></li>
-<li><a href="/en/destination/tripoli">Tripoli destination guide</a></li>
-<li><a href="/en/destination/leptis-magna">Leptis Magna destination guide</a></li>
+<li>Tripoli destination guide</li>
+<li>Leptis Magna destination guide</li>
 </ul>
 
 <hr />

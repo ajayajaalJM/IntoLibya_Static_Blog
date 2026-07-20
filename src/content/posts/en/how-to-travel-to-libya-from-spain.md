@@ -14,9 +14,6 @@ seo:
   description: 'How to travel to Libya from Spain: visas, sponsorship, connections, and tour packages for Spanish visitors Practical guidance from IntoLibya for.'
   canonical: https://intolibya.com/en/how-to-travel-to-libya-from-spain
 ---
-
-<!-- {"primary-keyword":"travel to Libya from Spain","secondary":["Spain Libya tour"]} -->
-
 <p>Travel to Libya from Spain is workable for travelers who want North African depth beyond familiar beach circuits. Spanish visitors follow the same sponsored tourism channel: licensed operator, eVisa, guided days.</p>
 
 <p>Independent freestyle tourism is not the model. You travel with a licensed sponsor such as IntoLibya, complete eVisa steps with host documents, and follow guided itineraries that include the logistics visitors cannot improvise alone.</p>
@@ -63,7 +60,7 @@ seo:
 <li><a href="/en/how-to-travel-to-libya-from-france">How to Travel to Libya from France</a></li>
 <li><a href="/en/how-to-travel-to-libya-from-italy">How to Travel to Libya from Italy</a></li>
 <li><a href="/en/libya-tours-for-photographers">Libya Tours for Photographers</a></li>
-<li><a href="/en/destination/tripoli">Tripoli destination guide</a></li>
+<li>Tripoli destination guide</li>
 <li><a href="/en/destination/leptis-magna">Leptis Magna destination guide</a></li>
 </ul>
 
@@ -71,6 +68,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

@@ -14,9 +14,6 @@ seo:
   description: 'Jebel Nafusa guide: mountain villages, qasr architecture, Amazigh culture, and how IntoLibya adds the Nafusa escarpment to western Libya trips.'
   canonical: https://intolibya.com/en/jebel-nafusa-mountain-villages-guide
 ---
-
-<!-- {"primary-keyword":"Jebel Nafusa","secondary":["Nafusa Mountains Libya"],"destinations":["jebel-nafusa"]} -->
-
 <p><strong>Jebel Nafusa</strong> lifts west of <a href="/en/destination/tripoli">Tripoli</a> into a limestone escarpment of Amazigh highland country. Fortified granaries and qasrs perch above valleys. Olive and fig terraces stitch green into stone. Villages keep language and identity in daily life. For travelers who think Libya is only Roman ruins or Sahara dunes, Nafusa is the missing chapter.</p>
 
 <p>The mountains feel different in the body. Air cools. Views open. Architecture turns defensive and communal: storage forts that read like castles of grain. Visiting with a guide unlocks stories you would miss from a viewpoint pullout alone.</p>
@@ -39,7 +36,7 @@ seo:
 
 <p>Weather can be kinder than the deep south in some months, but roads and timing still need professional planning. Tell us if you prefer more village time or more viewpoint time.</p>
 
-<h2>What to tell IntoLibya before you book</h2>
+<h2>How to brief the trip in TourBuilder</h2>
 
 <p>Share your preferred month, group size, pace, and must see list in plain language. Mention camping comfort, walking fitness, and whether you want more ruins, more Sahara, or a balanced mix. That brief lets TourBuilder build a route that matches how licensed tourism actually runs, instead of a wish list that collapses on the first long transfer day.</p>
 
@@ -51,7 +48,6 @@ seo:
 
 <p>If your dates are fixed around flights through Tunis or Cairo, say so early. Arrival buffers and departure buffers often matter as much as the highlight days in between.</p>
 
-
 <h2>Related reading</h2>
 
 <ul>
@@ -59,7 +55,7 @@ seo:
 <li><a href="/en/germa-and-the-garamantes">Germa and the Garamantes</a></li>
 <li><a href="/en/gaberoun-oasis-guide">Gaberoun Oasis Guide</a></li>
 <li><a href="/en/benghazi-travel-guide-for-tourists">Benghazi Travel Guide for Tourists</a></li>
-<li><a href="/en/destination/tripoli">Tripoli destination guide</a></li>
+<li>Tripoli destination guide</li>
 <li><a href="/en/destination/leptis-magna">Leptis Magna destination guide</a></li>
 </ul>
 
@@ -67,6 +63,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

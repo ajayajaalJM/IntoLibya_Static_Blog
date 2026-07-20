@@ -14,10 +14,6 @@ seo:
   description: 'Step by step Libya eVisa guide for tourists, including sponsorship, documents, fees, and how long approval takes.'
   canonical: https://intolibya.com/en/libya-evisa-explained-step-by-step
 ---
-
-<!-- primary-keyword: Libya eVisa | secondary: Libya e visa application, apply Libya visa online -->
-
-
 <p>The Libya eVisa is the part of the trip that used to feel impossible. For years, tourist entry meant embassy guesswork and opaque delays. In 2024 Libya opened an online system. You still cannot apply as a lone backpacker. You apply with sponsor documents from a licensed tour operator. Get that order right and the portal becomes a checklist instead of a mystery.</p>
 
 <p>This guide is the practical version operators wish guests read before they upload a selfie in sunglasses.</p>
@@ -64,6 +60,7 @@ seo:
 
 <p>IntoLibya is a licensed Libyan tour operator. We sponsor tourist visits, build itineraries in TourBuilder, arrange guides and required tourist police coordination, and keep logistics honest when access shifts. You focus on the places. We handle the system that makes those places reachable.</p>
 
+<p>For planning context, see <a href="/en/libya-tour-packages-explained">Libya Tour Packages Explained</a> and <a href="/en/how-to-visit-libya-as-a-tourist-in-2026">How to Visit Libya as a Tourist in 2026</a>.</p>
 <h2>Related reading</h2>
 
 <ul>
@@ -79,6 +76,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

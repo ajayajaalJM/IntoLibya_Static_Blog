@@ -14,9 +14,6 @@ seo:
   description: 'Temple of Zeus Cyrene tour at Shahat: what you will see, pacing tips, eastern logistics, and booking via TourBuilder with IntoLibya.'
   canonical: https://intolibya.com/en/shahat-and-temple-of-zeus-tour
 ---
-
-<!-- {"primary-keyword":"Temple of Zeus Cyrene","secondary":["Shahat tour"],"activities":["a26","a31"]} -->
-
 <p>The <strong>Temple of Zeus Cyrene</strong> visit is a headline inside the wider <a href="/en/destination/shahat">Shahat</a> experience of ancient Cyrene. In northeastern Libya’s hills, Greek monumental ambition meets African sky and greener ground than desert first timers expect. A guided tour gives the temple and surrounding sanctuary urban context without reducing Cyrene to a single postcard column.</p>
 
 <p>Find the <a href="/en/destination/shahat">Shahat</a> and Temple of Zeus activity in TourBuilder, check the current price there, and plan it within eastern or full country itineraries under IntoLibya sponsorship. Day counts must respect distance from western highlights.</p>
@@ -29,7 +26,7 @@ seo:
 
 <h2>Eastern logistics in plain language</h2>
 
-<p>Benghazi often anchors sleep and meals. Highland drives through <a href="/en/destination/jebel-akhdar">Jebel Akhdar</a> can frame the day with green views. Read <a href="/en/shahat-and-ancient-cyrene-guide">Shahat and Ancient Cyrene Guide</a>, <a href="/en/benghazi-travel-guide-for-tourists">Benghazi Travel Guide for Tourists</a>, and <a href="/en/east-libya-history-itinerary">East Libya History Itinerary</a>. Destination page: <a href="/en/destination/shahat">Shahat</a>.</p>
+<p><a href="/en/destination/benghazi">Benghazi</a> often anchors sleep and meals. Highland drives through <a href="/en/destination/jebel-akhdar">Jebel Akhdar</a> can frame the day with green views. Read <a href="/en/shahat-and-ancient-cyrene-guide">Shahat and Ancient Cyrene Guide</a>, <a href="/en/benghazi-travel-guide-for-tourists">Benghazi Travel Guide for Tourists</a>, and <a href="/en/east-libya-history-itinerary">East Libya History Itinerary</a>. Destination page: Shahat.</p>
 
 <p>IntoLibya will confirm whether eastern routing fits your dates. If not, we protect a superb western trip rather than force a fantasy map.</p>
 
@@ -43,7 +40,7 @@ seo:
 
 <p>Hellenic history lovers. Travelers who already know Leptis and want a different classical accent. Teachers building comparative ancient world trips. Guests willing to invest days to reach Cyrenaica properly.</p>
 
-<p>Soft CTA: add the activity in TourBuilder, then tell us whether Cyrene is essential or optional so sponsorship planning can stay honest.</p>
+<p>Add the activity in TourBuilder, then mark whether Cyrene is essential or optional so sponsorship planning can stay honest.</p>
 
 <h2>Comparing Greek and Roman Libya</h2>
 
@@ -55,7 +52,7 @@ seo:
 
 <p>Sleep in <a href="/en/destination/benghazi">Benghazi</a> or the planned eastern base. Eat simply. Review a short Cyrene primer so names feel familiar on site. Tired brains bounce off classical stone; rested brains hear the stories.</p>
 
-<p>If <a href="/en/destination/tobruk">Tobruk</a> or Green Mountain days share the same trip, keep the Temple of Zeus morning sacred rather than stacking every eastern pin into one heroic blur.</p>
+<p>If <a href="/en/destination/tobruk">Tobruk</a> or <a href="/en/destination/jebel-akhdar">Green Mountain</a> days share the same trip, keep the Temple of Zeus morning sacred rather than stacking every eastern pin into one heroic blur.</p>
 
 <h2>Related reading</h2>
 
@@ -71,6 +68,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

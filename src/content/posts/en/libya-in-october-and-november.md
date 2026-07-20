@@ -14,9 +14,6 @@ seo:
   description: 'Libya October and November guide for tourists: weather comfort, ideal itineraries, and how to book IntoLibya trips in peak autumn.'
   canonical: https://intolibya.com/en/libya-in-october-and-november
 ---
-
-<!-- {"primary-keyword":"Libya October","secondary":["Libya November travel"]} -->
-
 <p>Libya October travel, and November right beside it, sits in the heart of the tourist sweet spot. Days on the coast stay warm without midsummer punishment. Desert nights cool enough for stars and conversation. It is the season many first timers should try to claim.</p>
 
 <p>It is also a season other first timers try to claim. Start sponsorship early.</p>
@@ -68,14 +65,14 @@ seo:
 <li><a href="/en/best-month-for-roman-ruins-in-libya">Best Month for Roman Ruins in Libya</a></li>
 <li><a href="/en/best-month-for-sahara-camping-in-libya">Best Month for Sahara Camping in Libya</a></li>
 <li><a href="/en/libya-in-march-and-april">Libya in March and April</a></li>
-<li><a href="/en/destination/tripoli">Tripoli destination guide</a></li>
-<li><a href="/en/destination/leptis-magna">Leptis Magna destination guide</a></li>
+<li>Tripoli destination guide</li>
+<li>Leptis Magna destination guide</li>
 </ul>
 
 <hr />
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

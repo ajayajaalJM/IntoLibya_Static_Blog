@@ -14,9 +14,6 @@ seo:
   description: 'Libya checkpoints tourists: Checkpoints in Libya and how tours handle them: what to expect, guest etiquette, and why patience keeps itineraries on track.'
   canonical: https://intolibya.com/en/checkpoints-in-libya-how-tours-handle-them
 ---
-
-<!-- primary-keyword: Libya checkpoints tourists | secondary: road checkpoints Libya tour -->
-
 <p><strong>Libya checkpoints tourists</strong> is one of the first questions travelers ask when planning with IntoLibya. This guide answers it with practical steps, honest limits, and clear next actions.</p>
 
 <p>The first checkpoint feels cinematic. The fifth feels like commuting. Libya’s roads include stops where officials check who you are and why you are moving. Licensed tours plan for that friction so it stays boring, which is the goal. If you treat checkpoints as insults, you will have a long week. If you treat them as part of the country’s operating system, you will get to the ruins faster.</p>
@@ -57,6 +54,7 @@ seo:
 <p>If this topic is the blocker on your Libya planning, bring your dates and constraints to IntoLibya and ask for a route that matches. Licensed sponsorship, eVisa support, guides, and tourist police as required are the shared frame. Your preferences for length, private pacing, and sleep style sit on top of that frame.</p>
 <p>Use TourBuilder to sketch days from live packages and activities, including coastal samplers, western weeks, longer adventures, and full country style expeditions when available. Then let humans confirm what is runnable for your season. The goal is a trip that answers the question that brought you to this page, with enough buffer to enjoy the answer.</p>
 
+<p>For planning context, see <a href="/en/libya-evisa-explained-step-by-step">Libya eVisa Explained Step by Step</a> and <a href="/en/libya-tour-packages-explained">Libya Tour Packages Explained</a>.</p>
 <h2>Related reading</h2>
 
 <ul>
@@ -72,6 +70,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

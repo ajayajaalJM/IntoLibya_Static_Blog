@@ -14,9 +14,6 @@ seo:
   description: 'Libya tour packages explained: four day coastal samplers, western weeks, longer adventures, and full country expeditions inside TourBuilder.'
   canonical: https://intolibya.com/en/libya-tour-packages-explained
 ---
-
-<!-- cdn-refs {"tours":["tour_4day","tour_7day","tour_15day","tour_all_libya"]} primary-keyword: Libya tour packages -->
-
 <p>Libya tour packages exist because most travelers do not want to invent checkpoint logistics from a spreadsheet. They want a shape that already works, then a chance to tweak. IntoLibya’s packages are licensed itinerary frames: sponsorship, eVisa support, guides, transport, and tourist police as required, wrapped around routes that match different appetites and vacation lengths.</p>
 
 <p>Live names, day counts, and activity lists update from TourBuilder’s catalog. That is intentional. Access is not a frozen PDF from 2010.</p>
@@ -37,7 +34,7 @@ seo:
 
 <h2>How to choose the right rung</h2>
 
-<p>Match days to curiosity and to your back. If you hate long drives, say so before you fall in love with a distant pin. If you dream of Acacus stars, do not buy a four day city sampler and hope the desert appears by magic. If you want museum depth, protect site hours instead of collecting names.</p>
+<p>Match days to curiosity and to your back. If you hate long drives, say so before you fall in love with a distant pin. If you dream of <a href="/en/destination/acacus-mountains">Acacus</a> stars, do not buy a four day city sampler and hope the desert appears by magic. If you want museum depth, protect site hours instead of collecting names.</p>
 
 <p>First timers often thrive on seven western days. History lovers may stretch longer to avoid rushing <a href="/en/destination/leptis-magna">Leptis Magna</a>. Adventure seekers should be honest about camping and heat.</p>
 
@@ -68,6 +65,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

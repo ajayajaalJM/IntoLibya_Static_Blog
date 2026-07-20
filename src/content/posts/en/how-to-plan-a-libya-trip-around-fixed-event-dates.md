@@ -14,9 +14,6 @@ seo:
   description: 'How to plan Libya festival tour dates: lock the event, add buffer, finish sponsorship and eVisa, then buy flexible flights.'
   canonical: https://intolibya.com/en/how-to-plan-a-libya-trip-around-fixed-event-dates
 ---
-
-<!-- {"primary-keyword":"Libya festival tour dates","secondary":["book Libya event trip"]} -->
-
 <p>Libya festival tour dates reverse the usual planning order. Instead of picking a season and then browsing options, you lock the event first and build sponsorship, flights, and buffer days around that nail.</p>
 
 <p>This method prevents the classic failure: beautiful event screenshots, zero visa runway, and a sad email two weeks before departure.</p>
@@ -67,6 +64,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

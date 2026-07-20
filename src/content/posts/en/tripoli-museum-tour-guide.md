@@ -14,9 +14,6 @@ seo:
   description: 'Tripoli museum tour guide: Red Castle highlights, how long to spend, pairing with ruins, and booking the activity via TourBuilder with IntoLibya.'
   canonical: https://intolibya.com/en/tripoli-museum-tour-guide
 ---
-
-<!-- {"primary-keyword":"Tripoli museum tour","secondary":["Red Castle museum Tripoli"],"activities":["a2"]} -->
-
 <p>A <strong>Tripoli museum tour</strong> turns the Red Castle complex into a decoder ring for Libya’s archaeology. Statues, mosaics, and inscriptions stop being anonymous stone once a guide links them to the forums and theatres waiting outside the capital. If you visit Leptis or <a href="/en/destination/sabratha">Sabratha</a> without this context, you still enjoy the sites. With it, you understand them.</p>
 
 <p>Search for the museum activity in TourBuilder, check the current price there, and fold it into your licensed IntoLibya itinerary. Opening patterns and hall access can vary; your team confirms what is available for your dates.</p>
@@ -58,7 +55,7 @@ seo:
 <li><a href="/en/best-desert-towns-to-visit-in-libya">Best Desert Towns to Visit in Libya</a></li>
 <li><a href="/en/tripoli-walking-tour-what-you-will-see">Tripoli Walking Tour: What You Will See</a></li>
 <li><a href="/en/tripoli-fish-market-experience">Tripoli Fish Market Experience</a></li>
-<li><a href="/en/destination/tripoli">Tripoli destination guide</a></li>
+<li>Tripoli destination guide</li>
 <li><a href="/en/destination/leptis-magna">Leptis Magna destination guide</a></li>
 </ul>
 
@@ -66,6 +63,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

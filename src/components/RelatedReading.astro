@@ -1,0 +1,188 @@
+---
+/**
+ * Thumbnail strip for Related reading — rendered under the trip CTA.
+ */
+import OptimizedImage from './OptimizedImage.astro';
+import type { RelatedCard } from '../lib/related-reading';
+
+interface Props {
+  items: RelatedCard[];
+  heading?: string;
+}
+
+const { items, heading = 'Related reading' } = Astro.props;
+---
+
+{
+  items.length > 0 && (
+    <section class="related-reading" aria-labelledby="related-reading-heading">
+      <div class="related-reading__inner">
+        <div class="related-reading__intro">
+          <p class="related-reading__eyebrow">Keep exploring</p>
+          <h2 id="related-reading-heading" class="related-reading__title">
+            {heading}
+          </h2>
+        </div>
+
+        <div class="related-reading__scroller">
+          <ul class="related-reading__track">
+            {items.map((item) => (
+              <li class="related-reading__item">
+                <a href={item.href} class="related-reading__card group">
+                  <div class="related-reading__thumb tile-media">
+                    <OptimizedImage
+                      src={item.featuredImage}
+                      alt=""
+                      width={480}
+                      height={320}
+                      widths={[240, 360, 480]}
+                      sizes="(max-width: 768px) 70vw, 220px"
+                      class="h-full w-full object-cover transition duration-300 group-hover:scale-[1.03]"
+                      loading="lazy"
+                      quality={70}
+                    />
+                  </div>
+                  <div class="related-reading__meta">
+                    <span class="related-reading__kind">
+                      {item.kind === 'destination' ? 'Destination' : 'Article'}
+                    </span>
+                    <span class="related-reading__card-title">{item.title}</span>
+                  </div>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+    </section>
+  )
+}
+
+<style>
+  .related-reading {
+    padding: 0.5rem 1rem 2.75rem;
+    background: linear-gradient(180deg, transparent 0%, rgba(252, 250, 238, 0.9) 18%, #fcfaee 100%);
+  }
+
+  @media (min-width: 768px) {
+    .related-reading {
+      padding: 0.75rem 2rem 3.25rem;
+    }
+  }
+
+  .related-reading__inner {
+    max-width: 72rem;
+    margin: 0 auto;
+  }
+
+  .related-reading__intro {
+    margin-bottom: 1.15rem;
+  }
+
+  .related-reading__eyebrow {
+    margin: 0;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--color-brass, #c29f5d);
+  }
+
+  .related-reading__title {
+    margin: 0.35rem 0 0;
+    font-family: var(--font-serif, "SourceSerif4Local", Georgia, serif);
+    font-size: clamp(1.35rem, 2.4vw, 1.75rem);
+    font-weight: 600;
+    line-height: 1.25;
+    color: var(--color-charcoal, #2d2a26);
+  }
+
+  .related-reading__scroller {
+    margin: 0 -0.25rem;
+    padding: 0.15rem 0.25rem 0.35rem;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: thin;
+  }
+
+  .related-reading__track {
+    display: flex;
+    gap: 0.9rem;
+    list-style: none;
+    margin: 0;
+    padding: 0 0 0.35rem;
+    width: max-content;
+    min-width: 100%;
+  }
+
+  @media (min-width: 900px) {
+    .related-reading__track {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(11.5rem, 1fr));
+      width: 100%;
+    }
+  }
+
+  .related-reading__item {
+    margin: 0;
+    flex: 0 0 11.5rem;
+    width: 11.5rem;
+  }
+
+  @media (min-width: 900px) {
+    .related-reading__item {
+      width: auto;
+      flex: unset;
+    }
+  }
+
+  .related-reading__card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    text-decoration: none;
+    color: inherit;
+    background: #fff;
+    border: 1px solid rgba(234, 226, 213, 0.95);
+    border-radius: 1.15rem;
+    overflow: hidden;
+    box-shadow: 0 10px 28px rgba(45, 42, 38, 0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .related-reading__card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 16px 36px rgba(45, 42, 38, 0.09);
+  }
+
+  .related-reading__thumb {
+    height: 7.25rem;
+    border-radius: 0;
+  }
+
+  .related-reading__meta {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    padding: 0.85rem 0.95rem 1rem;
+  }
+
+  .related-reading__kind {
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--color-muted, #837a71);
+  }
+
+  .related-reading__card-title {
+    font-size: 0.92rem;
+    font-weight: 700;
+    line-height: 1.35;
+    color: var(--color-charcoal, #2d2a26);
+  }
+
+  .related-reading__card:hover .related-reading__card-title {
+    color: var(--color-brass, #c29f5d);
+  }
+</style>

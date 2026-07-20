@@ -14,9 +14,6 @@ seo:
   description: 'Libya archaeology tour: Best Libya tour for history lovers: how to choose coastal Roman days, oasis towns, and longer archaeology arcs with IntoLibya.'
   canonical: https://intolibya.com/en/best-libya-tour-for-history-lovers
 ---
-
-<!-- cdn-refs {"tours":["tour_7day","tour_15day"]} primary-keyword: Libya archaeology tour -->
-
 <p><strong>Libya archaeology tour</strong> is one of the first questions travelers ask when planning with IntoLibya. This guide answers it with practical steps, honest limits, and clear next actions.</p>
 
 <p>If your happy place is a broken column and a quiet guidebook page, Libya can feel like a secret kept badly by geopolitics. The country holds some of the most impressive Roman and Greek archaeological landscapes in the Mediterranean, often with a fraction of the crowds you meet in Italy or Egypt. The best tour for history lovers is the one that protects time on site instead of treating ruins as drive by photo stops.</p>
@@ -27,7 +24,7 @@ seo:
 
 <p>Western classics come first for most first trips: <a href="/en/destination/leptis-magna">Leptis Magna</a>, <a href="/en/destination/sabratha">Sabratha</a>, and <a href="/en/destination/tripoli">Tripoli</a>’s museums and old city layers. Leptis alone can swallow a full day if you care about Severan urban planning, baths, and the harbour story. <a href="/en/destination/sabratha">Sabratha</a>’s theatre is the postcard, but the surrounding streets reward slow walkers.</p>
 
-<p>Longer itineraries add desert archaeology and oasis culture: <a href="/en/destination/germa">Germa</a> and the Garamantian story, prehistoric engravings toward the Acacus, and old town fabric in <a href="/en/destination/ghadames">Ghadames</a>. Eastern Greek sites become realistic when access and itinerary length allow, which is why full country styles exist for people who refuse to choose.</p>
+<p>Longer itineraries add desert archaeology and oasis culture: <a href="/en/destination/germa">Germa</a> and the Garamantian story, prehistoric engravings toward the <a href="/en/destination/acacus-mountains">Acacus</a>, and old town fabric in <a href="/en/destination/ghadames">Ghadames</a>. Eastern Greek sites become realistic when access and itinerary length allow, which is why full country styles exist for people who refuse to choose.</p>
 
 <h2>Package rungs that fit</h2>
 
@@ -58,7 +55,7 @@ seo:
 <li><a href="/en/7-day-western-libya-itinerary">7 Day Western Libya Itinerary</a></li>
 <li><a href="/en/10-day-libya-itinerary-coast-and-desert">10 Day Libya Itinerary: Coast and Desert</a></li>
 <li><a href="/en/12-day-libya-adventure-itinerary">12 Day Libya Adventure Itinerary</a></li>
-<li><a href="/en/destination/tripoli">Tripoli destination guide</a></li>
+<li>Tripoli destination guide</li>
 <li><a href="/en/destination/leptis-magna">Leptis Magna destination guide</a></li>
 </ul>
 
@@ -66,6 +63,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

@@ -6,8 +6,14 @@ import { dump as yamlDump } from 'js-yaml';
 import sharp from 'sharp';
 import type { Plugin } from 'vite';
 import { LANGS, type Lang } from '../../src/lib/post-schema';
+import {
+  extractRelatedReading,
+  resolveRelatedCards,
+  type RelatedCard,
+} from '../../src/lib/related-reading';
 import { sanitizeHtmlNode, sanitizePlainField } from './lib/sanitize-html-node';
 import { translateAllLanguages } from './lib/translate-provider';
+import { buildQaCardsFromPosts } from './lib/qa-scan';
 
 interface SavePayload {
   files: Array<{ path: string; content: string }>;
@@ -349,9 +355,45 @@ function localizePreviewMediaUrls(input: string): string {
     .replace(/(["'(=\s])\/wp-content\/uploads\//gi, '$1/media/');
 }
 
-function buildPreviewArticleHtml(payload: PreviewArticlePayload): string {
+function renderRelatedReadingHtml(cards: RelatedCard[]): string {
+  if (!cards.length) return '';
+  const items = cards
+    .map((card) => {
+      const img = card.featuredImage
+        ? `<div class="related-reading__thumb"><img src="${escapeHtmlAttr(localizePreviewMediaUrls(card.featuredImage))}" alt="" loading="lazy" /></div>`
+        : `<div class="related-reading__thumb related-reading__thumb--empty"></div>`;
+      return `<li class="related-reading__item">
+        <a class="related-reading__card" href="${escapeHtmlAttr(card.href)}">
+          ${img}
+          <div class="related-reading__meta">
+            <span class="related-reading__kind">${card.kind === 'destination' ? 'Destination' : 'Article'}</span>
+            <span class="related-reading__card-title">${escapeHtmlText(card.title)}</span>
+          </div>
+        </a>
+      </li>`;
+    })
+    .join('');
+  return `<section class="related-reading" aria-labelledby="related-reading-heading">
+    <div class="related-reading__inner">
+      <div class="related-reading__intro">
+        <p class="related-reading__eyebrow">Keep exploring</p>
+        <h2 id="related-reading-heading" class="related-reading__title">Related reading</h2>
+      </div>
+      <div class="related-reading__scroller">
+        <ul class="related-reading__track">${items}</ul>
+      </div>
+    </div>
+  </section>`;
+}
+
+async function buildPreviewArticleHtml(
+  repoRoot: string,
+  payload: PreviewArticlePayload,
+): Promise<string> {
   const title = sanitizePlainField(payload.title ?? '') || 'Untitled';
-  const body = localizePreviewMediaUrls(sanitizeHtmlNode(payload.body ?? ''));
+  const rawBody = localizePreviewMediaUrls(sanitizeHtmlNode(payload.body ?? ''));
+  const { bodyHtml, links: relatedLinks } = extractRelatedReading(rawBody);
+  const body = bodyHtml;
   const featuredImage = localizePreviewMediaUrls(String(payload.featuredImage ?? '').trim());
   const publishedAt = String(payload.publishedAt ?? '').slice(0, 10);
   const draft = Boolean(payload.draft);
@@ -371,6 +413,31 @@ function buildPreviewArticleHtml(payload: PreviewArticlePayload): string {
   } catch {
     /* keep raw */
   }
+
+  const [postRecords, destRecords] = await Promise.all([
+    loadAllPosts(repoRoot),
+    loadAllDestinations(repoRoot),
+  ]);
+  const relatedCards = resolveRelatedCards(
+    relatedLinks,
+    postRecords.map((p) => ({
+      data: {
+        lang: p.lang,
+        title: p.title,
+        featuredImage: p.featuredImage || '',
+        canonicalPath: `/${p.lang}/${p.slug}`,
+      },
+    })),
+    destRecords.map((d) => ({
+      data: {
+        lang: d.lang,
+        title: d.title,
+        featuredImage: d.featuredImage || '',
+        canonicalPath: `/${d.lang}/destination/${d.slug}`,
+      },
+    })),
+    'en',
+  );
 
   const hero = featuredImage
     ? `<div class="hero-arch"><img src="${escapeHtmlAttr(featuredImage)}" alt="" /></div>`
@@ -421,7 +488,7 @@ function buildPreviewArticleHtml(payload: PreviewArticlePayload): string {
     }
     .badge.draft { background: #8a5a12; }
     .badge.live { background: #1f6b45; }
-    article { padding: 2.5rem 1rem 4rem; }
+    article { padding: 2.5rem 1rem 2rem; }
     .wrap { max-width: 48rem; margin: 0 auto; }
     .crumb { font-size: 0.875rem; color: var(--muted); margin-bottom: 1.5rem; }
     .crumb a { color: var(--muted); text-decoration: none; }
@@ -464,8 +531,60 @@ function buildPreviewArticleHtml(payload: PreviewArticlePayload): string {
     .preview-gallery-item img {
       width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 1rem; display: block;
     }
+    .related-reading {
+      padding: 0.5rem 1rem 2.5rem;
+      background: linear-gradient(180deg, transparent 0%, rgba(252, 250, 238, 0.9) 18%, #fcfaee 100%);
+    }
+    .related-reading__inner { max-width: 72rem; margin: 0 auto; }
+    .related-reading__intro { margin-bottom: 1.15rem; }
+    .related-reading__eyebrow {
+      margin: 0; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.16em;
+      text-transform: uppercase; color: var(--brass);
+    }
+    .related-reading__title {
+      margin: 0.35rem 0 0; font-size: clamp(1.35rem, 2.4vw, 1.75rem);
+      font-weight: 700; line-height: 1.25; color: var(--charcoal);
+    }
+    .related-reading__scroller {
+      margin: 0 -0.25rem; padding: 0.15rem 0.25rem 0.35rem;
+      overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: thin;
+    }
+    .related-reading__track {
+      display: flex; gap: 0.9rem; list-style: none; margin: 0; padding: 0 0 0.35rem;
+      width: max-content; min-width: 100%;
+    }
+    @media (min-width: 900px) {
+      .related-reading__track {
+        display: grid; grid-template-columns: repeat(auto-fit, minmax(11.5rem, 1fr)); width: 100%;
+      }
+    }
+    .related-reading__item { margin: 0; flex: 0 0 11.5rem; width: 11.5rem; }
+    @media (min-width: 900px) {
+      .related-reading__item { width: auto; flex: unset; }
+    }
+    .related-reading__card {
+      display: flex; flex-direction: column; height: 100%; text-decoration: none; color: inherit;
+      background: #fff; border: 1px solid var(--border); border-radius: 1.15rem; overflow: hidden;
+      box-shadow: 0 10px 28px rgba(45, 42, 38, 0.05);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .related-reading__card:hover {
+      transform: translateY(-3px); box-shadow: 0 16px 36px rgba(45, 42, 38, 0.09);
+    }
+    .related-reading__thumb { height: 7.25rem; background: var(--sand); overflow: hidden; }
+    .related-reading__thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .related-reading__thumb--empty {
+      background: repeating-linear-gradient(-45deg, #ebe2d5, #ebe2d5 6px, #e2d7c8 6px, #e2d7c8 12px);
+    }
+    .related-reading__meta { display: flex; flex-direction: column; gap: 0.35rem; padding: 0.85rem 0.95rem 1rem; }
+    .related-reading__kind {
+      font-size: 0.65rem; font-weight: 700; letter-spacing: 0.1em;
+      text-transform: uppercase; color: var(--muted);
+    }
+    .related-reading__card-title { font-size: 0.92rem; font-weight: 700; line-height: 1.35; color: var(--charcoal); }
+    .related-reading__card:hover .related-reading__card-title { color: var(--brass); }
     .cta {
-      margin: 3rem auto 0; max-width: 48rem; padding: 1.5rem;
+      margin: 0 auto 3rem; max-width: 48rem; padding: 1.5rem;
       border-radius: 1.25rem; background: #fff; border: 1px solid var(--border); text-align: center;
     }
     .cta a {
@@ -495,6 +614,7 @@ function buildPreviewArticleHtml(payload: PreviewArticlePayload): string {
       ${renderGalleryHtml(payload.galleries, 'after-body')}
     </div>
   </article>
+  ${renderRelatedReadingHtml(relatedCards)}
   <div class="cta">
     <p>Ready to plan your Libya trip?</p>
     <a href="https://intolibya.com/tourbuilder/booking" target="_blank" rel="noopener">Build Your Trip</a>
@@ -1039,6 +1159,25 @@ export function blogWriterDevApiPlugin(repoRoot: string): Plugin {
             return;
           }
 
+          if (req.method === 'GET' && url.pathname === '/api/qa-unpublished') {
+            const cards = buildQaCardsFromPosts(repoRoot, await loadAllPosts(repoRoot));
+            const errorTotal = cards.filter((c) => c.errorCount > 0).length;
+            const warnOnly = cards.filter((c) => c.errorCount === 0 && c.warnCount > 0).length;
+            const okTotal = cards.filter((c) => c.status === 'ok').length;
+            json(res, 200, {
+              ok: true,
+              cards,
+              summary: {
+                total: cards.length,
+                withErrors: errorTotal,
+                warnOnly,
+                ok: okTotal,
+              },
+              generatedAt: new Date().toISOString(),
+            });
+            return;
+          }
+
           if (req.method === 'GET' && url.pathname === '/api/dashboard-stats') {
             const postGroups = groupPosts(await loadAllPosts(repoRoot), 'post');
             const destinationGroups = groupPosts(await loadAllDestinations(repoRoot), 'destination');
@@ -1242,7 +1381,7 @@ export function blogWriterDevApiPlugin(repoRoot: string): Plugin {
             }
             prunePreviews();
             const id = `p${Date.now().toString(36)}${Math.random().toString(36).slice(2, 8)}`;
-            const html = buildPreviewArticleHtml(payload);
+            const html = await buildPreviewArticleHtml(repoRoot, payload);
             previewStore.set(id, { html, expires: Date.now() + PREVIEW_TTL_MS });
             json(res, 200, { ok: true, url: `/preview/${id}` });
             return;

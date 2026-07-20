@@ -14,9 +14,6 @@ seo:
   description: 'Tunisia vs Libya for history travelers: compare access, crowds, site character, and how to sequence both without mixed expectations.'
   canonical: https://intolibya.com/en/tunisia-vs-libya-for-history-travelers
 ---
-
-<!-- primary-keyword: Tunisia vs Libya | secondary: Libya or Tunisia history -->
-
 <p><strong>Tunisia vs Libya</strong> is one of the first questions travelers ask when planning with IntoLibya. This guide answers it with practical steps, honest limits, and clear next actions.</p>
 
 <p>Tunisia and Libya both reward history travelers, yet they offer different textures of time. Tunisia is easier to enter and freestyle: Carthage, the Bardo Museum, Roman Dougga, Islamic medinas, and beach recoveries in the same week. Libya asks for licensed sponsorship and a guided frame, then often pays you with emptier monumental sites and a stronger sense of discovery.</p>
@@ -68,6 +65,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

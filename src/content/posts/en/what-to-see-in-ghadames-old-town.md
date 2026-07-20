@@ -14,9 +14,6 @@ seo:
   description: 'Ghadames old town: what to see in the UNESCO medina, from covered streets to rooftops, with IntoLibya walking tips for a licensed visit.'
   canonical: https://intolibya.com/en/what-to-see-in-ghadames-old-town
 ---
-
-<!-- {"primary-keyword":"Ghadames old town","secondary":["Ghadames medina"],"destinations":["ghadames"]} -->
-
 <p><strong>Ghadames old town</strong> is the postcard and the classroom at once. Inside the UNESCO medina, architecture solves desert problems with elegance: shade, airflow, privacy, and neighborly connection. If you only photograph white walls from a single courtyard, you leave half the lesson unread.</p>
 
 <p>The old town’s covered streets feel almost subterranean in places, then open to sky where rooftops become another circulation layer. That dual city idea, ground lanes and roof paths, is one of the site’s most memorable traits. Guides help you understand who used which level and why.</p>
@@ -49,6 +46,9 @@ seo:
 
 <p>IntoLibya is a licensed Libyan tour operator. We sponsor tourist visits, build itineraries in TourBuilder, arrange guides and required tourist police coordination, and keep logistics honest when access shifts. You focus on the places. We handle the system that makes those places reachable.</p>
 
+<h2>How this fits a licensed Libya week</h2>
+<p>What to See in Ghadames Old Town sits inside a wider guest plan that includes sponsorship support, an eVisa path, guides, and tourist police coordination as required. IntoLibya builds those pieces in TourBuilder so you are not improvising permissions at the airport. Ask for clear inclusions before you pay a deposit, then keep your dates flexible enough for document review.</p>
+<p>Use this page as one decision input, not the whole itinerary. Pair it with honest drive times, season notes, and the must see list you actually care about. Read <a href="/en/libya-tour-packages-explained">Libya Tour Packages Explained</a> and <a href="/en/how-to-visit-libya-as-a-tourist-in-2026">How to Visit Libya as a Tourist in 2026</a> for neighbouring planning questions.</p>
 <h2>Related reading</h2>
 
 <ul>
@@ -64,6 +64,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

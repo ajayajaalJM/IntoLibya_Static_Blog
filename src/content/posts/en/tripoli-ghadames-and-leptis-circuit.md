@@ -14,9 +14,6 @@ seo:
   description: 'Classic Tripoli Ghadames Leptis circuit for a western Libya week, with tips on pacing, add ons, and when to go longer.'
   canonical: https://intolibya.com/en/tripoli-ghadames-and-leptis-circuit
 ---
-
-<!-- {"primary-keyword":"Tripoli Ghadames Leptis","secondary":["classic Libya circuit"]} -->
-
 <p>The classic <strong>Tripoli <a href="/en/destination/ghadames">Ghadames</a> Leptis</strong> circuit is the western story many travelers mean when they say they want Libya without a full Sahara expedition. You get capital life, the greatest Roman city in the region, and the desert pearl of Ghadames in one coherent loop.</p>
 
 <p>This circuit usually wants about a week. Rushing it into four days turns hospitality into a blur.</p>
@@ -29,7 +26,7 @@ seo:
 
 <h2>Sample week shape</h2>
 
-<p>Open in <a href="/en/destination/tripoli">Tripoli</a>. Give Leptis a full day. Move west for <a href="/en/destination/sabratha">Sabratha</a> or mountain connective tissue. Continue to <a href="/en/destination/ghadames">Ghadames</a> for old town walking and a sunset on sand. Return with buffer before your outbound flight.</p>
+<p>Open in <a href="/en/destination/tripoli">Tripoli</a>. Give Leptis a full day. Move west for <a href="/en/destination/sabratha">Sabratha</a> or mountain connective tissue. Continue to Ghadames for old town walking and a sunset on sand. Return with buffer before your outbound flight.</p>
 
 <p>Exact order flexes with season and permissions. TourBuilder western week packages map closely onto this circuit.</p>
 
@@ -41,9 +38,9 @@ seo:
 
 <h2>When to choose something else</h2>
 
-<p>Choose a pure coastal short plan if you lack desert town days. Choose an adventure length if you need oasis lakes and Acacus nights. Choose an eastern chapter only when access and vacation length support it.</p>
+<p>Choose a pure coastal short plan if you lack desert town days. Choose an adventure length if you need oasis lakes and <a href="/en/destination/acacus-mountains">Acacus</a> nights. Choose an eastern chapter only when access and vacation length support it.</p>
 
-<h2>What to tell IntoLibya before you book</h2>
+<h2>How to brief the trip in TourBuilder</h2>
 
 <p>Share your preferred month, group size, pace, and must see list in plain language. Mention camping comfort, walking fitness, and whether you want more ruins, more Sahara, or a balanced mix. That brief lets TourBuilder build a route that matches how licensed tourism actually runs, instead of a wish list that collapses on the first long transfer day.</p>
 
@@ -55,7 +52,6 @@ seo:
 
 <p>If your dates are fixed around flights through Tunis or Cairo, say so early. Arrival buffers and departure buffers often matter as much as the highlight days in between.</p>
 
-
 <h2>Related reading</h2>
 
 <ul>
@@ -63,7 +59,7 @@ seo:
 <li><a href="/en/questions-to-ask-before-you-pay-a-deposit">Questions to Ask Before You Pay a Deposit</a></li>
 <li><a href="/en/tripoli-and-roman-ruins-short-plan">Tripoli and Roman Ruins Short Plan</a></li>
 <li><a href="/en/sahara-focused-libya-itinerary">Sahara Focused Libya Itinerary</a></li>
-<li><a href="/en/destination/tripoli">Tripoli destination guide</a></li>
+<li>Tripoli destination guide</li>
 <li><a href="/en/destination/leptis-magna">Leptis Magna destination guide</a></li>
 </ul>
 
@@ -71,6 +67,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

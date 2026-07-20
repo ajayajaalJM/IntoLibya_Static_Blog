@@ -14,10 +14,7 @@ seo:
   description: 'Acacus Mountains travel guide: Tadrart Acacus rock art, landscapes, camping, and how IntoLibya runs licensed expeditions from the Ghat region.'
   canonical: https://intolibya.com/en/acacus-mountains-travel-guide
 ---
-
-<!-- {"primary-keyword":"Acacus Mountains","secondary":["Tadrart Acacus"],"destinations":["acacus-mountains"]} -->
-
-<p>The <strong>Acacus Mountains</strong>, also called Tadrart Acacus, are where Libya’s Sahara stops being a dune cliché and becomes a stone archive. Near <a href="/en/destination/ghat">Ghat</a> in the southwest, sandstone massifs hold prehistoric rock art that records animals, people, and climates from eras when the desert was not yet this desert.</p>
+<p>The <strong><a href="/en/destination/acacus-mountains">Acacus Mountains</a></strong>, also called <a href="/en/destination/acacus-mountains">Tadrart Acacus</a>, are where Libya’s Sahara stops being a dune cliché and becomes a stone archive. Near <a href="/en/destination/ghat">Ghat</a> in the southwest, sandstone massifs hold prehistoric rock art that records animals, people, and climates from eras when the desert was not yet this desert.</p>
 
 <p>UNESCO recognition exists for good reason. The art is not a single famous panel. It is a landscape of engravings and paintings spread across shelters and walls. Seeing it with a guide who knows access and conservation etiquette turns the visit into stewardship, not trophy hunting.</p>
 
@@ -39,7 +36,7 @@ seo:
 
 <p>IntoLibya places Acacus inside longer licensed itineraries with sponsorship, desert teams, and realistic day counts. TourBuilder helps you see whether your calendar can carry this weight.</p>
 
-<h2>What to tell IntoLibya before you book</h2>
+<h2>How to brief the trip in TourBuilder</h2>
 
 <p>Share your preferred month, group size, pace, and must see list in plain language. Mention camping comfort, walking fitness, and whether you want more ruins, more Sahara, or a balanced mix. That brief lets TourBuilder build a route that matches how licensed tourism actually runs, instead of a wish list that collapses on the first long transfer day.</p>
 
@@ -50,7 +47,6 @@ seo:
 <p>Coastal ruins days and desert camp nights ask different things of your body and your schedule. Early starts, checkpoint coordination, and heat management are normal parts of a well run Libya tour. A licensed operator plans those details so you spend attention on places rather than improvising transport or paperwork alone.</p>
 
 <p>If your dates are fixed around flights through Tunis or Cairo, say so early. Arrival buffers and departure buffers often matter as much as the highlight days in between.</p>
-
 
 <h2>Related reading</h2>
 
@@ -67,6 +63,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

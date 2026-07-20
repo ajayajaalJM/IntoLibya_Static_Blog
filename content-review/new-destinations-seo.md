@@ -207,7 +207,7 @@ Primarily **informational** (what/where/why visit) with a clear **commercial** u
 9. Practical info  
 10. Local expert tips  
 11. Related destinations  
-12. Soft CTA → `/tourbuilder/booking`
+12. Guest CTA → `/tourbuilder/booking`
 
 ### SEO metadata (draft)
 
@@ -302,7 +302,7 @@ Mixed **informational** (what is Misrata like / is it worth stopping) and **comm
 8. Practical info  
 9. Local expert tips  
 10. Related destinations  
-11. Soft CTA → `/tourbuilder/booking`
+11. Guest CTA → `/tourbuilder/booking`
 
 ### SEO metadata (draft)
 
@@ -396,7 +396,7 @@ Strongly **informational** (specialist + curious traveler research) with **comme
 8. Practical expedition info  
 9. Local expert tips  
 10. Related destinations  
-11. Soft CTA → `/tourbuilder/booking`
+11. Guest CTA → `/tourbuilder/booking`
 
 ### SEO metadata (draft)
 
@@ -464,7 +464,7 @@ Strongly **informational** (specialist + curious traveler research) with **comme
 ## Cross-batch notes
 
 - All three drafts use `draft: true` and should stay out of sitemap/listings until review.  
-- Soft CTA path standardized to `/tourbuilder/booking`.  
+- Guest CTA path standardized to `/tourbuilder/booking`.  
 - Claims on safety/access stay conditional (“ask for current guidance”) — keep that language on publish.  
 - Sibling drafts (Ghat, Germa, Benghazi, etc.) should reciprocate links listed above when those pages go live.  
 - Hero images: `/media/destinations/{slug}/hero.webp` (see `public/media/destinations/IMAGE_CREDITS.md`).

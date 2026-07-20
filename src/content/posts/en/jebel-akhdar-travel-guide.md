@@ -14,12 +14,9 @@ seo:
   description: 'Jebel Akhdar Libya guide: Green Mountain landscapes, highland drives, and how IntoLibya pairs the range with Cyrene and eastern tours.'
   canonical: https://intolibya.com/en/jebel-akhdar-travel-guide
 ---
-
-<!-- {"primary-keyword":"Jebel Akhdar Libya","secondary":["Green Mountain Libya"],"destinations":["jebel-akhdar"]} -->
-
 <p><strong>Jebel Akhdar Libya</strong>, the Green Mountain, is the landscape that surprises first timers most. While much of the country is desert and shoreline, this highland massif in northeastern Cyrenaica rises into cooler air, terraced farmland, and forest stretches that feel almost Mediterranean European in character.</p>
 
-<p>For travelers who already admire Libya’s Roman and Greek ruins, <a href="/en/destination/jebel-akhdar">Jebel Akhdar</a> is where those ancient cities make geographic sense. Greeks did not settle Cyrene by accident. Fertility and climate were part of the prize.</p>
+<p>For travelers who already admire Libya’s Roman and Greek ruins, <a href="/en/destination/jebel-akhdar">Jebel Akhdar</a> is where those ancient cities make geographic sense. Greeks did not settle <a href="/en/destination/shahat">Cyrene</a> by accident. Fertility and climate were part of the prize.</p>
 
 <h2>What you experience in the highlands</h2>
 
@@ -39,7 +36,7 @@ seo:
 
 <p>Season still matters. Winter can be cool and atmospheric. Summer highlands help compared with deep desert, but sun remains serious. Pack a layer for evening breeze.</p>
 
-<h2>What to tell IntoLibya before you book</h2>
+<h2>How to brief the trip in TourBuilder</h2>
 
 <p>Share your preferred month, group size, pace, and must see list in plain language. Mention camping comfort, walking fitness, and whether you want more ruins, more Sahara, or a balanced mix. That brief lets TourBuilder build a route that matches how licensed tourism actually runs, instead of a wish list that collapses on the first long transfer day.</p>
 
@@ -50,7 +47,6 @@ seo:
 <p>Coastal ruins days and desert camp nights ask different things of your body and your schedule. Early starts, checkpoint coordination, and heat management are normal parts of a well run Libya tour. A licensed operator plans those details so you spend attention on places rather than improvising transport or paperwork alone.</p>
 
 <p>If your dates are fixed around flights through Tunis or Cairo, say so early. Arrival buffers and departure buffers often matter as much as the highlight days in between.</p>
-
 
 <h2>Related reading</h2>
 
@@ -67,6 +63,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

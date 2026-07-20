@@ -14,9 +14,6 @@ seo:
   description: 'Ghadames walking tour: old town route tips, rooftop views, etiquette, and booking the activity in TourBuilder with IntoLibya licensed sponsorship.'
   canonical: https://intolibya.com/en/ghadames-old-town-walking-tour
 ---
-
-<!-- {"primary-keyword":"Ghadames walking tour","secondary":["Ghadames guided tour"],"activities":["a7"]} -->
-
 <p>A <strong>Ghadames walking tour</strong> is the best way to read the Pearl of the Desert instead of merely photographing it. Covered lanes, whitewashed walls, and rooftop paths make sense when a guide explains climate design and social life. Without that narrative, the medina can feel like a beautiful maze you exit too fast.</p>
 
 <p>Add the walking tour in TourBuilder, check the current price there, and place it in your IntoLibya itinerary with morning preference when heat is a factor. This activity is a highlight of many western desert chapters.</p>
@@ -51,7 +48,7 @@ seo:
 
 <h2>After the walk</h2>
 
-<p>Leave buffer before sunset dunes so you are not checking the clock in every courtyard. The medina deserves a finished feeling: last tea, last shaded lane, then open sand. That emotional sequence is why <a href="/en/destination/ghadames">Ghadames</a> stays in trip stories for years.</p>
+<p>Leave buffer before sunset dunes so you are not checking the clock in every courtyard. The medina deserves a finished feeling: last tea, last shaded lane, then open sand. That emotional sequence is why Ghadames stays in trip stories for years.</p>
 
 <p>If heat spikes, shorten rooftops and lengthen covered lanes. Guides adapt. Your job is to say when you need shade without bravado.</p>
 
@@ -70,6 +67,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

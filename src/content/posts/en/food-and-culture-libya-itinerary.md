@@ -14,9 +14,6 @@ seo:
   description: 'Libya food tour itinerary: Plan a Libya food and culture itinerary around Tripoli, Ghadames hospitality, and desert tea experiences without rushing.'
   canonical: https://intolibya.com/en/food-and-culture-libya-itinerary
 ---
-
-<!-- {"primary-keyword":"Libya food tour itinerary","secondary":["culinary Libya trip"]} -->
-
 <p>A <strong>Libya food tour itinerary</strong> is really a culture itinerary with better lunch plans. You will still see ruins and desert towns. The difference is how often you slow down for markets, home meals, tea rituals, and the everyday textures that do not fit on a monument ticket.</p>
 
 <p>Come hungry. Come curious. Come ready to follow local etiquette.</p>
@@ -43,7 +40,7 @@ seo:
 
 <p>Travelers who loved home cooked meals in other north African trips. Couples who want conversation as much as monuments. Guests who prefer hotels and town stays over hard expedition camping, though a gentle desert evening can still fit.</p>
 
-<h2>What to tell IntoLibya before you book</h2>
+<h2>How to brief the trip in TourBuilder</h2>
 
 <p>Share your preferred month, group size, pace, and must see list in plain language. Mention camping comfort, walking fitness, and whether you want more ruins, more Sahara, or a balanced mix. That brief lets TourBuilder build a route that matches how licensed tourism actually runs, instead of a wish list that collapses on the first long transfer day.</p>
 
@@ -54,7 +51,6 @@ seo:
 <p>Coastal ruins days and desert camp nights ask different things of your body and your schedule. Early starts, checkpoint coordination, and heat management are normal parts of a well run Libya tour. A licensed operator plans those details so you spend attention on places rather than improvising transport or paperwork alone.</p>
 
 <p>If your dates are fixed around flights through Tunis or Cairo, say so early. Arrival buffers and departure buffers often matter as much as the highlight days in between.</p>
-
 
 <h2>Related reading</h2>
 
@@ -71,6 +67,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

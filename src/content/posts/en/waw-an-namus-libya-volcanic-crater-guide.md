@@ -14,9 +14,6 @@ seo:
   description: 'Waw an Namus guide: volcanic crater lakes in the Libyan Sahara, expedition logistics, and when IntoLibya can include this remote wonder.'
   canonical: https://intolibya.com/en/waw-an-namus-libya-volcanic-crater-guide
 ---
-
-<!-- {"primary-keyword":"Waw an Namus","secondary":["Waw an Namus Libya"],"destinations":["waw-an-namus"]} -->
-
 <p><strong>Waw an Namus</strong> looks like a rumor until you see it: a volcanic caldera of dark basalt and ash, holding small oasis lakes in the deep Libyan Sahara. The name is often linked to mosquitoes that once thrived around the water. The place itself feels like a geological secret, not a standard sightseeing stop.</p>
 
 <p>This is expedition country. Reaching <a href="/en/destination/waw-an-namus">Waw an Namus</a> means long four wheel travel, careful logistics, and a willingness to trade comfort for astonishment. It is not on every IntoLibya package, and that scarcity is part of its honesty. When dates, season, and itinerary length allow, it becomes one of the most memorable landscapes in North Africa.</p>
@@ -50,7 +47,7 @@ seo:
 
 <h2>Why the contrast hits so hard</h2>
 
-<p>Most Sahara dreams are gold and beige. <a href="/en/destination/waw-an-namus">Waw an Namus</a> answers with black volcanic ground and unexpected water. That color shock is educational: Libya’s desert is a library of landforms, not a single dune font reused everywhere.</p>
+<p>Most Sahara dreams are gold and beige. Waw an Namus answers with black volcanic ground and unexpected water. That color shock is educational: Libya’s desert is a library of landforms, not a single dune font reused everywhere.</p>
 
 <p>Geology curious travelers often rate this among their top memories precisely because it refuses the usual postcard. Come ready to feel small in a productive way.</p>
 
@@ -73,6 +70,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

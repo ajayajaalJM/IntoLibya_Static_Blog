@@ -1,14 +1,16 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import FinalCTA from '../components/FinalCTA.astro';
+import RelatedReading from '../components/RelatedReading.astro';
 import OptimizedImage from '../components/OptimizedImage.astro';
 import ImageGallery from '../components/ImageGallery.astro';
 import BodyWithGalleries from '../components/BodyWithGalleries.astro';
-import { render } from 'astro:content';
-import { getAllPosts, getTranslationSiblings } from '../lib/posts';
+import { getAllPosts, getAllPostsIncludingDrafts, getTranslationSiblings } from '../lib/posts';
+import { getAllDestinationsIncludingDrafts } from '../lib/destinations';
 import { galleriesAt, galleryImageObjects } from '../lib/galleries';
 import { LANG_LABELS, type Lang } from '../lib/post-schema';
 import { ogPathForFeaturedImage } from '../lib/og';
+import { extractRelatedReading, resolveRelatedCards } from '../lib/related-reading';
 
 export async function getStaticPaths() {
   const posts = await getAllPosts();
@@ -23,12 +25,21 @@ export async function getStaticPaths() {
 
 const { post } = Astro.props;
 const galleries = post.data.galleries ?? [];
-const inBodyGalleries = galleriesAt(galleries, 'in-body');
 const afterHero = galleriesAt(galleries, 'after-hero');
 const afterBody = galleriesAt(galleries, 'after-body');
-const useSplitBody = inBodyGalleries.length > 0;
 
-const { Content } = useSplitBody ? { Content: null as null } : await render(post);
+const { bodyHtml, links: relatedLinks } = extractRelatedReading(post.body);
+const [allPostsForRelated, allDestsForRelated] = await Promise.all([
+  getAllPostsIncludingDrafts(),
+  getAllDestinationsIncludingDrafts(),
+]);
+const relatedCards = resolveRelatedCards(
+  relatedLinks,
+  allPostsForRelated,
+  allDestsForRelated,
+  post.data.lang,
+);
+
 const allPosts = await getAllPosts();
 const siblings = getTranslationSiblings(post, allPosts);
 const siteUrl = Astro.site?.href?.replace(/\/$/, '') || 'https://intolibya.com';
@@ -135,15 +146,12 @@ const jsonLd: Record<string, unknown>[] = [
       {afterHero.map((gallery) => <ImageGallery gallery={gallery} />)}
 
       <div class="prose-blog">
-        {useSplitBody ? (
-          <BodyWithGalleries body={post.body} galleries={galleries} />
-        ) : (
-          Content ? <Content /> : null
-        )}
+        <BodyWithGalleries body={bodyHtml} galleries={galleries} />
       </div>
 
       {afterBody.map((gallery) => <ImageGallery gallery={gallery} />)}
     </div>
   </article>
+  <RelatedReading items={relatedCards} />
   <FinalCTA />
 </BaseLayout>

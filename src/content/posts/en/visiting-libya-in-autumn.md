@@ -14,9 +14,6 @@ seo:
   description: 'Libya in autumn for tourists: why October and November suit coast and desert trips, with booking tips for peak months.'
   canonical: https://intolibya.com/en/visiting-libya-in-autumn
 ---
-
-<!-- {"primary-keyword":"Libya in autumn","secondary":["fall travel Libya"]} -->
-
 <p>Libya in autumn is many travelers’ favorite season. October and November bring warm days that still respect human skin, desert nights with a pleasant chill, and light that flatters both Roman columns and dune ridges. If you want one season that does almost everything well, start here.</p>
 
 <p>Autumn also attracts guests who read the same advice. Start sponsorship before you assume every camp bed is waiting for you.</p>
@@ -66,6 +63,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

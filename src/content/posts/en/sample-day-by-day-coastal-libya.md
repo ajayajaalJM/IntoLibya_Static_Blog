@@ -14,9 +14,6 @@ seo:
   description: 'Coastal Libya itinerary template day by day for short trips focused on Tripoli and the great Roman sites Practical guidance from IntoLibya for licensed.'
   canonical: https://intolibya.com/en/sample-day-by-day-coastal-libya
 ---
-
-<!-- {"primary-keyword":"coastal Libya itinerary","secondary":["Mediterranean Libya days"]} -->
-
 <p>A sample <strong>coastal Libya itinerary</strong> day by day plan helps you see how Mitiga arrivals, Roman sites, and <a href="/en/destination/tripoli">Tripoli</a> time actually fit without fantasy packing. This is a template, not a prison. Flight times and season will nudge the order.</p>
 
 <p>Use it to sanity check any short package before you deposit.</p>
@@ -31,7 +28,7 @@ seo:
 
 <h2>Day three: <a href="/en/destination/sabratha">Sabratha</a> and sea light</h2>
 
-<p>Move to <a href="/en/destination/sabratha">Sabratha</a> for theatre drama against the Mediterranean. Keep the afternoon flexible for coastal light or a calm return to <a href="/en/destination/tripoli">Tripoli</a>. If you still have fuel, add a short city activity from TourBuilder rather than a second mega site.</p>
+<p>Move to <a href="/en/destination/sabratha">Sabratha</a> for theatre drama against the Mediterranean. Keep the afternoon flexible for coastal light or a calm return to Tripoli. If you still have fuel, add a short city activity from TourBuilder rather than a second mega site.</p>
 
 <h2>Day four: Tripoli depth and buffer</h2>
 
@@ -43,7 +40,7 @@ seo:
 
 <p>Licensed sponsorship, guides, and tourist police coordination remain the frame even on short coastal loops.</p>
 
-<h2>What to tell IntoLibya before you book</h2>
+<h2>How to brief the trip in TourBuilder</h2>
 
 <p>Share your preferred month, group size, pace, and must see list in plain language. Mention camping comfort, walking fitness, and whether you want more ruins, more Sahara, or a balanced mix. That brief lets TourBuilder build a route that matches how licensed tourism actually runs, instead of a wish list that collapses on the first long transfer day.</p>
 
@@ -55,7 +52,6 @@ seo:
 
 <p>If your dates are fixed around flights through Tunis or Cairo, say so early. Arrival buffers and departure buffers often matter as much as the highlight days in between.</p>
 
-
 <h2>Related reading</h2>
 
 <ul>
@@ -63,14 +59,14 @@ seo:
 <li><a href="/en/jebel-nafusa-and-coast-combo-plan">Jebel Nafusa and Coast Combo Plan</a></li>
 <li><a href="/en/how-to-choose-between-7-days-and-12-days-in-libya">How to Choose Between 7 Days and 12 Days in Libya</a></li>
 <li><a href="/en/sample-day-by-day-sahara-libya">Sample Day by Day: Sahara Libya</a></li>
-<li><a href="/en/destination/tripoli">Tripoli destination guide</a></li>
-<li><a href="/en/destination/leptis-magna">Leptis Magna destination guide</a></li>
+<li>Tripoli destination guide</li>
+<li>Leptis Magna destination guide</li>
 </ul>
 
 <hr />
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

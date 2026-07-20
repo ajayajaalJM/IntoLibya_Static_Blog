@@ -14,9 +14,6 @@ seo:
   description: 'book Libya tour from abroad: Overseas booking timeline for a Libya tour, from TourBuilder deposit through eVisa, flights, and Mitiga arrival.'
   canonical: https://intolibya.com/en/booking-a-libya-tour-from-abroad-timeline
 ---
-
-<!-- {"primary-keyword":"book Libya tour from abroad","secondary":["overseas Libya booking","Libya tour from Europe"]} -->
-
 <p>To <strong>book Libya tour from abroad</strong> without panic, treat the process as a timeline, not a single click. You are coordinating an operator, sponsorship, an eVisa, flights through a hub, and on ground logistics. Guests who only watch the visa portal usually buy the wrong tickets at the wrong time.</p>
 
 <p>Here is a practical runway many overseas travelers can use, then adjust with IntoLibya for passport type and season.</p>
@@ -49,7 +46,7 @@ seo:
 
 <p>Rush trips sometimes work. Sometimes they do not. Overseas guests with rigid nonflexible fares already purchased are the hardest cases. Ask before you gamble.</p>
 
-<h2>What to tell IntoLibya before you book</h2>
+<h2>How to brief the trip in TourBuilder</h2>
 
 <p>Share your preferred month, group size, pace, and must see list in plain language. Mention camping comfort, walking fitness, and whether you want more ruins, more Sahara, or a balanced mix. That brief lets TourBuilder build a route that matches how licensed tourism actually runs, instead of a wish list that collapses on the first long transfer day.</p>
 
@@ -61,7 +58,7 @@ seo:
 
 <p>If your dates are fixed around flights through Tunis or Cairo, say so early. Arrival buffers and departure buffers often matter as much as the highlight days in between.</p>
 
-
+<p>For planning context, see <a href="/en/how-to-book-a-libya-tour-with-intolibya">How to Book a Libya Tour with IntoLibya</a> and <a href="/en/how-tourbuilder-works-for-custom-libya-trips">How TourBuilder Works for Custom Libya Trips</a>.</p>
 <h2>Related reading</h2>
 
 <ul>
@@ -77,6 +74,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

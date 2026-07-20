@@ -20,6 +20,7 @@
           <button type="button" class="nav-link" data-view="calendar">Calendar</button>
           <button type="button" class="nav-link" data-view="destinations">Destinations</button>
           <button type="button" class="nav-link" data-view="instagram">Instagram</button>
+          <button type="button" class="nav-link" data-view="qa">QA</button>
         </nav>
       </div>
     </header>
@@ -54,6 +55,10 @@
           <button type="button" class="dashboard-card" data-dashboard="instagram">
             <strong>Instagram</strong>
             <span>Homepage feed curator</span>
+          </button>
+          <button type="button" class="dashboard-card" data-dashboard="qa">
+            <strong>QA board</strong>
+            <span>Scan unpublished posts for prose issues</span>
           </button>
           <button type="button" class="dashboard-card dashboard-card-create" data-dashboard="create">
             <strong>Create</strong>
@@ -388,6 +393,53 @@
           </div>
           <p class="hint">Paste a Reel/post URL — OG image is fetched automatically when valid. Homepage shows a 3×3 grid (first 9). Edit URLs inline on each card.</p>
         </form>
+      </section>
+    </main>
+
+    <main class="grid view-qa hidden" id="view-qa">
+      <section class="panel qa-panel">
+        <div class="library-header">
+          <div>
+            <h2>Unpublished post QA</h2>
+            <p class="toolbar-note">
+              Draft and future-dated English posts only. Local writer tool — never on the public site.
+            </p>
+          </div>
+          <button type="button" id="refresh-qa" class="btn-secondary">Rescan</button>
+        </div>
+
+        <div class="qa-toolbar" role="region" aria-label="QA filters">
+          <span class="qa-toolbar__stats" id="qa-stats">Loading…</span>
+          <label>
+            <input type="checkbox" id="qa-errors-only" />
+            Errors only
+          </label>
+          <label>
+            <input type="checkbox" id="qa-warnings-only" />
+            Warnings only
+          </label>
+          <label>
+            <input type="checkbox" id="qa-include-warn" checked />
+            Include warnings
+          </label>
+          <input
+            type="search"
+            id="qa-filter"
+            class="library-search"
+            placeholder="Filter title or slug"
+            autocomplete="off"
+          />
+          <button type="button" id="qa-next-error" class="btn-secondary">Next error</button>
+          <span class="qa-toolbar__stats" id="qa-progress"></span>
+          <span class="qa-toolbar__keys">j/k move · e next error</span>
+        </div>
+
+        <div id="qa-board" class="qa-board"></div>
+        <div class="qa-sentinel" id="qa-sentinel" hidden>
+          <span>Loading more…</span>
+          <button type="button" id="qa-load-more" class="btn-secondary qa-load-more">Load more</button>
+        </div>
+        <p class="hint" id="qa-empty" hidden>No unpublished English posts right now.</p>
       </section>
     </main>
 

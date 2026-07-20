@@ -14,11 +14,7 @@ seo:
   description: 'Tassili vs Acacus for desert travelers: what differs, how to sequence Algeria and Libya, and when IntoLibya is the right next booking.'
   canonical: https://intolibya.com/en/if-you-loved-tassili-see-the-acacus-mountains
 ---
-
-<!-- {"primary-keyword":"Tassili vs Acacus","secondary":["Algeria rock art vs Libya"]} -->
-
-
-<p>Tassili vs Acacus is the desert rock art conversation travelers start after Algeria opens their eyes. Tassili n’Ajjer is a stone plateau universe of arches, forests of rock, and prehistoric art at continental fame. The <a href="/en/destination/acacus-mountains">Acacus Mountains</a> in southwest Libya are a neighboring Saharan gallery of engravings and paintings set among dunes and sandstone, approached through <a href="/en/destination/ghat">Ghat</a> and licensed desert logistics.</p>
+<p>Tassili vs <a href="/en/destination/acacus-mountains">Acacus</a> is the desert rock art conversation travelers start after Algeria opens their eyes. Tassili n’Ajjer is a stone plateau universe of arches, forests of rock, and prehistoric art at continental fame. The <a href="/en/destination/acacus-mountains">Acacus Mountains</a> in southwest Libya are a neighboring Saharan gallery of engravings and paintings set among dunes and sandstone, approached through <a href="/en/destination/ghat">Ghat</a> and licensed desert logistics.</p>
 
 <p>IntoLibya does not sell Algeria packages. If Tassili is the dream, book Algeria specialists. If you want Acacus after or instead, book Libya with IntoLibya when the route is confirmed.</p>
 
@@ -61,6 +57,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

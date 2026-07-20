@@ -14,9 +14,6 @@ seo:
   description: 'Libya in spring for tourists: why March and April work for ruins and desert camps, plus booking and packing notes.'
   canonical: https://intolibya.com/en/visiting-libya-in-spring
 ---
-
-<!-- {"primary-keyword":"Libya in spring","secondary":["spring travel Libya"]} -->
-
 <p>Libya in spring is one of the strongest answers to when you should go. March and April often combine comfortable coastal days with desert nights that chill without punishing you. For mixed itineraries that want Roman stone and Sahara sand in one trip, spring is hard to beat.</p>
 
 <p>Spring is also popular. Popular means book earlier, not that Libya suddenly becomes a theme park queue.</p>
@@ -70,6 +67,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

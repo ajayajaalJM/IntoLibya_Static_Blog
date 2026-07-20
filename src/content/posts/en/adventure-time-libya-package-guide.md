@@ -14,9 +14,6 @@ seo:
   description: 'What a 12 day Libya tour includes for adventure travelers, from Tripoli ruins to oasis lakes and desert camping.'
   canonical: https://intolibya.com/en/adventure-time-libya-package-guide
 ---
-
-<!-- {"primary-keyword":"12 day Libya tour","secondary":["Adventure Time Libya","Libya adventure package"],"tours":["tour_15day"]} -->
-
 <p>A <strong>12 day Libya tour</strong> is where coast and Sahara finally share the stage without crushing each other. Adventure Time style packages, and nearby fifteen day adventure shapes in TourBuilder, exist for travelers who want Roman mornings and real desert nights in one journey.</p>
 
 <p>This length is for appetite, not for checking a box. You will transfer more. You will also remember more.</p>
@@ -45,7 +42,7 @@ seo:
 
 <p>Compare this rung with a western week if you want less expedition energy, or with a full country style trip if you also need eastern Greek and Italian war history layers.</p>
 
-<h2>What to tell IntoLibya before you book</h2>
+<h2>How to brief the trip in TourBuilder</h2>
 
 <p>Share your preferred month, group size, pace, and must see list in plain language. Mention camping comfort, walking fitness, and whether you want more ruins, more Sahara, or a balanced mix. That brief lets TourBuilder build a route that matches how licensed tourism actually runs, instead of a wish list that collapses on the first long transfer day.</p>
 
@@ -56,7 +53,6 @@ seo:
 <p>Coastal ruins days and desert camp nights ask different things of your body and your schedule. Early starts, checkpoint coordination, and heat management are normal parts of a well run Libya tour. A licensed operator plans those details so you spend attention on places rather than improvising transport or paperwork alone.</p>
 
 <p>If your dates are fixed around flights through Tunis or Cairo, say so early. Arrival buffers and departure buffers often matter as much as the highlight days in between.</p>
-
 
 <h2>Related reading</h2>
 
@@ -73,6 +69,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

@@ -14,10 +14,6 @@ seo:
   description: 'Amazigh Libya: Who are the Amazigh in Libya: identity, places to visit, respect tips, and how to shape a culture focused IntoLibya itinerary.'
   canonical: https://intolibya.com/en/who-are-the-amazigh-in-libya
 ---
-
-<!-- {"primary-keyword":"Amazigh Libya","secondary":["Berber Libya"]} -->
-
-
 <p><strong>Amazigh Libya</strong> identity refers to Indigenous North African peoples often called Berber in older English texts. In Libya, Amazigh communities are especially visible in places like the <a href="/en/destination/jebel-nafusa">Jebel Nafusa</a> mountains and oasis towns such as <a href="/en/destination/ghadames">Ghadames</a>, with related Saharan Tuareg branches in the south. Languages, architecture, festivals, and memory of resistance to cultural erasure all matter.</p>
 
 <p>Travelers meet Amazigh Libya not as a costume show but as everyday towns, families, and guides who hold local history.</p>
@@ -32,7 +28,7 @@ seo:
 
 <h2>How to build this into a trip</h2>
 
-<p>Ask IntoLibya for a Nafusa and coast combo or a <a href="/en/destination/ghadames">Ghadames</a> forward western circuit. TourBuilder can prioritize mountain villages, home meals, and slower walking days. Tuareg desert chapters add another Amazigh Sahara dimension if you travel southwest.</p>
+<p>Ask IntoLibya for a Nafusa and coast combo or a Ghadames forward western circuit. TourBuilder can prioritize mountain villages, home meals, and slower walking days. Tuareg desert chapters add another Amazigh Sahara dimension if you travel southwest.</p>
 
 <p>History teachers and culture focused travelers often rate these days among their most human memories in Libya, equal to Roman stone.</p>
 
@@ -46,8 +42,11 @@ seo:
 
 <p>Some guests arrive thinking Libya is only <a href="/en/destination/tripoli">Tripoli</a> and Roman ruins. Amazigh mountain and oasis chapters correct that narrow map. They also explain why certain festivals, crafts, and architectural forms look different from Arab coastal norms. Asking for Amazigh forward days is a legitimate preference, not a niche academic request.</p>
 
-<p>Share whether you want villages, home meals, or simply better context talks while walking <a href="/en/destination/ghadames">Ghadames</a>. We can match intensity to your comfort.</p>
+<p>Share whether you want villages, home meals, or simply better context talks while walking Ghadames. We can match intensity to your comfort.</p>
 
+<h2>How this fits a licensed Libya week</h2>
+<p>Who Are the Amazigh in Libya sits inside a wider guest plan that includes sponsorship support, an eVisa path, guides, and tourist police coordination as required. IntoLibya builds those pieces in TourBuilder so you are not improvising permissions at the airport. Ask for clear inclusions before you pay a deposit, then keep your dates flexible enough for document review.</p>
+<p>Use this page as one decision input, not the whole itinerary. Pair it with honest drive times, season notes, and the must see list you actually care about. Read <a href="/en/is-it-safe-to-travel-to-libya-right-now">Is It Safe to Travel to Libya Right Now</a> and <a href="/en/how-to-book-a-libya-tour-with-intolibya">How to Book a Libya Tour with IntoLibya</a> for neighbouring planning questions.</p>
 <h2>Related reading</h2>
 
 <ul>
@@ -63,6 +62,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>

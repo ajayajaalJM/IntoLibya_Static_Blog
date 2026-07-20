@@ -14,9 +14,6 @@ seo:
   description: 'Egypt vs Libya ruins: Egypt vs Libya for ancient ruins: compare crowds, access models, and which civilization story matches your next trip.'
   canonical: https://intolibya.com/en/egypt-vs-libya-for-ancient-ruins
 ---
-
-<!-- primary-keyword: Egypt vs Libya ruins | secondary: Libya or Egypt archaeology -->
-
 <p><strong>Egypt vs Libya ruins</strong> is one of the first questions travelers ask when planning with IntoLibya. This guide answers it with practical steps, honest limits, and clear next actions.</p>
 
 <p>Egypt and Libya both carry ancient weight, but they scratch different itches. Egypt is the global classroom of pharaonic scale: pyramids, temples, Nile logistics, and a tourism machine that knows how to move crowds. Libya is the quieter Mediterranean and Sahara classroom: Roman cities with room to breathe, Greek threads in the east when accessible, and desert archaeology that feels far from bus convoys.</p>
@@ -31,7 +28,7 @@ seo:
 
 <h2>What Libya does better for ruin hunters who want space</h2>
 
-<p>Leptis Magna can feel like a private city. <a href="/en/destination/sabratha">Sabratha</a>’s theatre photographs without a thousand elbows. The emotional tone is exploration inside a sponsored tour, not navigation through a megasite marketplace. For travelers tired of peak Egypt density, that contrast is the product.</p>
+<p><a href="/en/destination/leptis-magna">Leptis Magna</a> can feel like a private city. <a href="/en/destination/sabratha">Sabratha</a>’s theatre photographs without a thousand elbows. The emotional tone is exploration inside a sponsored tour, not navigation through a megasite marketplace. For travelers tired of peak Egypt density, that contrast is the product.</p>
 
 <p>The cost of that quiet is structure: licensed sponsorship, eVisa, guides, tourist police as required, and less freestyle wandering.</p>
 
@@ -66,6 +63,6 @@ seo:
 
 <h2>Plan your Libya trip with IntoLibya</h2>
 
-<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Tell us your dates and must see list. We will reply with a route that matches how tourism in Libya actually works.</p>
+<p>IntoLibya handles licensed sponsorship, TourBuilder itineraries, guides, and on ground logistics. Open TourBuilder with your dates and must see list, then shape a route that matches how tourism in Libya actually works.</p>
 
 <p><a href="/tourbuilder/booking">Build Your Trip</a> · <a href="/tourbuilder/tour-packages">Browse tour packages</a> · <a href="/tourbuilder/search">Browse activities</a></p>
