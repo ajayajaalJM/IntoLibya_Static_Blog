@@ -1,5 +1,5 @@
 # 200 SEO blog posts index
-All English drafts use `draft: true` and heroes at `/media/posts/{slug}/hero.webp`.
+English posts are scheduled with `draft: false` and staggered `publishedAt` dates from **2026-07-21** through **2026-10-18** (Batch A first, then B, then C). See [200-publish-schedule.md](200-publish-schedule.md). The daily rebuild releases each post when its date arrives.
 Grade 11 English. No hyphen characters in titles or body prose.
 CDN product facts: bind IDs from tours/activities/events JSON. Translate later via blog writer.
 
@@ -14,8 +14,7 @@ CDN product facts: bind IDs from tours/activities/events JSON. Translate later v
 1. `npm run writer`
 2. Open each EN draft
 3. Translate & save all (needs `OPENAI_API_KEY`)
-4. When ready to **schedule**: set `draft: false` and a `publishedAt` date (future dates stay hidden until that day)
-5. When ready to **publish immediately**: set `draft: false` and `publishedAt` to today or earlier
+4. Keep `draft: false` and the assigned `publishedAt` (or adjust the date) so the schedule stays intact
 
 ## Scheduled publishing
 - Live sites only include posts where `draft` is not true **and** `publishedAt` is on or before build time (`src/lib/publish.ts`).

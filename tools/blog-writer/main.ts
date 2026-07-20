@@ -24,7 +24,9 @@ type ProgressStatus =
   | 'saved'
   | 'error';
 
-type WriterView = 'dashboard' | 'write' | 'library' | 'destinations' | 'instagram';
+type WriterView = 'dashboard' | 'write' | 'library' | 'calendar' | 'destinations' | 'instagram';
+type CalendarFilter = 'all' | 'scheduled' | 'live' | 'draft';
+type CalendarPostStatus = 'scheduled' | 'live' | 'draft';
 
 interface LangProgress {
   lang: Lang;
@@ -91,8 +93,15 @@ const galleryUploadStatus = document.getElementById('gallery-upload-status') as 
 const viewDashboard = document.getElementById('view-dashboard') as HTMLElement;
 const viewWrite = document.getElementById('view-write') as HTMLElement;
 const viewLibrary = document.getElementById('view-library') as HTMLElement;
+const viewCalendar = document.getElementById('view-calendar') as HTMLElement;
 const viewDestinations = document.getElementById('view-destinations') as HTMLElement;
 const viewInstagram = document.getElementById('view-instagram') as HTMLElement;
+const calendarGrid = document.getElementById('calendar-grid') as HTMLDivElement;
+const calendarMeta = document.getElementById('calendar-meta') as HTMLParagraphElement;
+const calendarMonthLabel = document.getElementById('calendar-month-label') as HTMLElement;
+const calendarSidebarTitle = document.getElementById('calendar-sidebar-title') as HTMLElement;
+const calendarSidebarMeta = document.getElementById('calendar-sidebar-meta') as HTMLParagraphElement;
+const calendarSidebarList = document.getElementById('calendar-sidebar-list') as HTMLDivElement;
 const createChooser = document.getElementById('create-chooser') as HTMLElement;
 const dashboardStats = document.getElementById('dashboard-stats') as HTMLDivElement;
 const todoList = document.getElementById('todo-list') as HTMLUListElement;
@@ -288,6 +297,10 @@ const titleInput = form.elements.namedItem('title') as HTMLInputElement;
 const dateInput = form.elements.namedItem('publishedAt') as HTMLInputElement;
 const featuredImageInput = form.elements.namedItem('featuredImage') as HTMLInputElement;
 const draftCheckbox = document.getElementById('draft-checkbox') as HTMLInputElement;
+const socialThumbPanel = document.getElementById('social-thumb-panel') as HTMLElement | null;
+const socialThumbImg = document.getElementById('social-thumb-img') as HTMLImageElement | null;
+const socialThumbEmpty = document.getElementById('social-thumb-empty') as HTMLElement | null;
+const socialThumbStatus = document.getElementById('social-thumb-status') as HTMLParagraphElement | null;
 const draftLabel = document.getElementById('draft-label') as HTMLLabelElement;
 const draftHint = document.getElementById('draft-hint') as HTMLParagraphElement;
 
@@ -346,6 +359,10 @@ function setContentKind(kind: ContentKind) {
     kind === 'destination'
       ? 'Drafts stay out of builds, destination listings, and the sitemap. New destinations default to draft.'
       : 'Drafts stay out of builds, the blog index, and the sitemap. Toggle off when ready to publish.';
+  if (socialThumbPanel) {
+    socialThumbPanel.classList.toggle('hidden', kind === 'destination');
+  }
+  if (kind === 'post') scheduleSocialThumbnailRefresh();
   syncPrimarySlugPreview();
 }
 
@@ -359,6 +376,97 @@ function sharedMeta() {
     contentKind: getContentKind(),
     draft: draftCheckbox.checked,
   };
+}
+
+let socialThumbTimer: number | null = null;
+let socialThumbRequest = 0;
+
+function updateSocialThumbVisibility() {
+  if (!socialThumbPanel) return;
+  // English social card only — hide when editing destinations? User asked English post only.
+  // Show for posts; for destinations still useful but label says English — show for both kinds
+  // since the English form is always the source. Keep visible always in write form.
+  socialThumbPanel.classList.remove('hidden');
+}
+
+function refreshSocialThumbnail() {
+  if (!socialThumbImg || !socialThumbEmpty || !socialThumbStatus) return;
+  updateSocialThumbVisibility();
+  const src = featuredImageInput.value.trim();
+  if (!src.startsWith('/media/')) {
+    socialThumbImg.hidden = true;
+    socialThumbImg.removeAttribute('src');
+    socialThumbEmpty.hidden = false;
+    socialThumbStatus.textContent = src
+      ? 'Featured image must be a /media/… path.'
+      : '';
+    return;
+  }
+
+  const requestId = ++socialThumbRequest;
+  socialThumbStatus.textContent = 'Building social crop…';
+  const url = `/api/og-preview?src=${encodeURIComponent(src)}&t=${Date.now()}`;
+  const probe = new Image();
+  probe.onload = () => {
+    if (requestId !== socialThumbRequest) return;
+    socialThumbImg.src = url;
+    socialThumbImg.hidden = false;
+    socialThumbEmpty.hidden = true;
+    socialThumbStatus.textContent = 'Matches the live Open Graph crop (1200×630).';
+  };
+  probe.onerror = () => {
+    if (requestId !== socialThumbRequest) return;
+    socialThumbImg.hidden = true;
+    socialThumbEmpty.hidden = false;
+    socialThumbStatus.textContent = 'Could not load social preview for that image.';
+  };
+  probe.src = url;
+}
+
+function scheduleSocialThumbnailRefresh() {
+  if (socialThumbTimer) window.clearTimeout(socialThumbTimer);
+  socialThumbTimer = window.setTimeout(() => {
+    refreshSocialThumbnail();
+  }, 250);
+}
+
+async function openArticlePreview() {
+  const english = readEnglishDraft();
+  const shared = sharedMeta();
+  if (!english.title.trim() && !english.body.trim()) {
+    targetPath.textContent = 'Add a title or body before previewing.';
+    return;
+  }
+  targetPath.textContent = 'Building article preview…';
+  try {
+    const res = await fetch('/api/preview-article', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        title: english.title,
+        body: english.body,
+        publishedAt: shared.publishedAt,
+        featuredImage: shared.featuredImage,
+        seoTitle: english.seoTitle,
+        seoDescription: english.seoDescription,
+        contentKind: shared.contentKind,
+        draft: shared.draft,
+        galleries: shared.galleries,
+      }),
+    });
+    const data = (await res.json()) as { ok?: boolean; url?: string; error?: string };
+    if (!res.ok || !data.ok || !data.url) {
+      throw new Error(data.error || 'Preview failed');
+    }
+    const opened = window.open(data.url, '_blank', 'noopener,noreferrer');
+    if (!opened) {
+      targetPath.textContent = `Preview ready — popup blocked. Open ${data.url}`;
+      return;
+    }
+    targetPath.textContent = `Opened preview: ${data.url}`;
+  } catch (err) {
+    targetPath.textContent = err instanceof Error ? err.message : 'Preview failed';
+  }
 }
 
 function sanitizeGalleries(list: Gallery[]): Gallery[] {
@@ -1154,6 +1262,7 @@ async function loadGroupIntoEditor(translationGroup: string, kind: ContentKind) 
   dateInput.value = english.publishedAt || new Date().toISOString().slice(0, 10);
   featuredImageInput.value = english.featuredImage ?? '';
   draftCheckbox.checked = english.draft === true;
+  scheduleSocialThumbnailRefresh();
   (form.elements.namedItem('seoTitle') as HTMLInputElement).value = english.seoTitle ?? '';
   (form.elements.namedItem('seoDescription') as HTMLTextAreaElement).value = english.seoDescription ?? '';
   setBodyHtml(english.body);
@@ -1281,6 +1390,184 @@ async function loadLibraryList(
     searchInput.oninput = () => renderFiltered();
   }
   renderFiltered();
+}
+
+let calendarGroups: PostGroupSummary[] = [];
+let calendarCursor = startOfMonth(new Date());
+let calendarFilter: CalendarFilter = 'all';
+let calendarInitialized = false;
+
+function startOfMonth(d: Date): Date {
+  return new Date(d.getFullYear(), d.getMonth(), 1);
+}
+
+function todayIsoLocal(): string {
+  const d = new Date();
+  const y = d.getFullYear();
+  const m = String(d.getMonth() + 1).padStart(2, '0');
+  const day = String(d.getDate()).padStart(2, '0');
+  return `${y}-${m}-${day}`;
+}
+
+function toIsoDate(value: string | undefined): string {
+  if (!value) return '';
+  return value.slice(0, 10);
+}
+
+function calendarPostStatus(group: PostGroupSummary, today = todayIsoLocal()): CalendarPostStatus {
+  if (group.draft) return 'draft';
+  const published = toIsoDate(group.publishedAt);
+  if (published && published > today) return 'scheduled';
+  return 'live';
+}
+
+function matchesCalendarFilter(group: PostGroupSummary, filter: CalendarFilter): boolean {
+  if (filter === 'all') return true;
+  return calendarPostStatus(group) === filter;
+}
+
+function monthLabel(d: Date): string {
+  return d.toLocaleString(undefined, { month: 'long', year: 'numeric' });
+}
+
+function shiftMonth(d: Date, delta: number): Date {
+  return startOfMonth(new Date(d.getFullYear(), d.getMonth() + delta, 1));
+}
+
+function pickDefaultCalendarMonth(groups: PostGroupSummary[]): Date {
+  const today = todayIsoLocal();
+  const scheduled = groups
+    .map((g) => toIsoDate(g.publishedAt))
+    .filter((d) => d && d >= today)
+    .sort();
+  if (scheduled[0]) {
+    const [y, m] = scheduled[0].split('-').map(Number);
+    return startOfMonth(new Date(y, m - 1, 1));
+  }
+  return startOfMonth(new Date());
+}
+
+async function loadCalendar(force = false) {
+  if (!calendarGrid) return;
+  calendarMeta.textContent = 'Loading…';
+  calendarGrid.innerHTML = '<p class="hint" style="grid-column:1/-1;padding:1rem">Loading calendar…</p>';
+
+  if (!force && libraryCache.has('post') && libraryCache.get('post')!.length) {
+    calendarGroups = libraryCache.get('post')!;
+  } else {
+    const res = await fetch('/api/post-groups');
+    const data = (await res.json()) as { ok: boolean; groups?: PostGroupSummary[]; error?: string };
+    if (!res.ok || !data.ok || !data.groups) {
+      calendarMeta.textContent = data.error || 'Could not load posts.';
+      calendarGrid.innerHTML = `<p class="hint" style="grid-column:1/-1;padding:1rem">${escapeHtml(calendarMeta.textContent)}</p>`;
+      return;
+    }
+    calendarGroups = data.groups;
+    libraryCache.set('post', data.groups);
+  }
+
+  if (!calendarInitialized) {
+    calendarCursor = pickDefaultCalendarMonth(calendarGroups);
+    calendarInitialized = true;
+  }
+  renderCalendar();
+}
+
+function renderCalendar() {
+  const today = todayIsoLocal();
+  const year = calendarCursor.getFullYear();
+  const month = calendarCursor.getMonth();
+  calendarMonthLabel.textContent = monthLabel(calendarCursor);
+
+  const filtered = calendarGroups.filter((g) => matchesCalendarFilter(g, calendarFilter));
+  const byDate = new Map<string, PostGroupSummary[]>();
+  for (const group of filtered) {
+    const key = toIsoDate(group.publishedAt);
+    if (!key) continue;
+    const list = byDate.get(key) ?? [];
+    list.push(group);
+    byDate.set(key, list);
+  }
+
+  const scheduledCount = calendarGroups.filter((g) => calendarPostStatus(g, today) === 'scheduled').length;
+  const liveCount = calendarGroups.filter((g) => calendarPostStatus(g, today) === 'live').length;
+  const draftCount = calendarGroups.filter((g) => calendarPostStatus(g, today) === 'draft').length;
+  calendarMeta.textContent = `${calendarGroups.length} posts · ${scheduledCount} scheduled · ${liveCount} live · ${draftCount} drafts`;
+
+  // Monday-first grid
+  const first = new Date(year, month, 1);
+  const startOffset = (first.getDay() + 6) % 7; // Mon=0
+  const daysInMonth = new Date(year, month + 1, 0).getDate();
+  const cells: string[] = [];
+  const totalCells = Math.ceil((startOffset + daysInMonth) / 7) * 7;
+
+  for (let i = 0; i < totalCells; i++) {
+    const dayNum = i - startOffset + 1;
+    const inMonth = dayNum >= 1 && dayNum <= daysInMonth;
+    const cellDate = inMonth
+      ? `${year}-${String(month + 1).padStart(2, '0')}-${String(dayNum).padStart(2, '0')}`
+      : '';
+    const posts = cellDate ? byDate.get(cellDate) ?? [] : [];
+    const isToday = cellDate === today;
+    const visible = posts.slice(0, 3);
+    const overflow = posts.length - visible.length;
+
+    const chips = visible
+      .map((group) => {
+        const status = calendarPostStatus(group, today);
+        return `<button type="button" class="calendar-chip is-${status}" data-group="${escapeAttr(group.translationGroup)}" title="${escapeAttr(group.baseTitle)}">${escapeHtml(group.baseTitle)}</button>`;
+      })
+      .join('');
+
+    cells.push(`
+      <div class="calendar-day${inMonth ? '' : ' is-outside'}${isToday ? ' is-today' : ''}" ${cellDate ? `data-date="${cellDate}"` : ''}>
+        <div class="calendar-day-num">${inMonth ? dayNum : ''}</div>
+        <div class="calendar-day-posts">
+          ${chips}
+          ${overflow > 0 ? `<div class="calendar-chip-more">+${overflow} more</div>` : ''}
+        </div>
+      </div>
+    `);
+  }
+  calendarGrid.innerHTML = cells.join('');
+
+  calendarGrid.querySelectorAll<HTMLButtonElement>('.calendar-chip').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      void loadGroupIntoEditor(btn.dataset.group!, 'post');
+    });
+  });
+
+  // Sidebar: posts in this month (filtered), sorted by date
+  const monthPrefix = `${year}-${String(month + 1).padStart(2, '0')}`;
+  const monthPosts = filtered
+    .filter((g) => toIsoDate(g.publishedAt).startsWith(monthPrefix))
+    .sort((a, b) => toIsoDate(a.publishedAt).localeCompare(toIsoDate(b.publishedAt)));
+
+  calendarSidebarTitle.textContent = monthLabel(calendarCursor);
+  calendarSidebarMeta.textContent = monthPosts.length
+    ? `${monthPosts.length} post${monthPosts.length === 1 ? '' : 's'} this month`
+    : 'No posts in this month for the current filter.';
+
+  calendarSidebarList.innerHTML = monthPosts.length
+    ? monthPosts
+        .map((group) => {
+          const status = calendarPostStatus(group, today);
+          const label = status === 'scheduled' ? 'Scheduled' : status === 'live' ? 'Live' : 'Draft';
+          return `
+            <button type="button" class="calendar-sidebar-item" data-group="${escapeAttr(group.translationGroup)}">
+              <strong>${escapeHtml(group.baseTitle)}</strong>
+              <span>${escapeHtml(toIsoDate(group.publishedAt))} · <span class="calendar-status-pill ${status}">${label}</span></span>
+            </button>
+          `;
+        })
+        .join('')
+    : '<p class="hint">Nothing to show.</p>';
+
+  calendarSidebarList.querySelectorAll<HTMLButtonElement>('.calendar-sidebar-item').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      void loadGroupIntoEditor(btn.dataset.group!, 'post');
+    });
+  });
 }
 
 function formatWhen(iso: string | null | undefined): string {
@@ -1510,6 +1797,7 @@ function showView(view: WriterView) {
   viewDashboard.classList.toggle('hidden', view !== 'dashboard');
   viewWrite.classList.toggle('hidden', view !== 'write');
   viewLibrary.classList.toggle('hidden', view !== 'library');
+  viewCalendar.classList.toggle('hidden', view !== 'calendar');
   viewDestinations.classList.toggle('hidden', view !== 'destinations');
   viewInstagram.classList.toggle('hidden', view !== 'instagram');
   document.querySelectorAll<HTMLButtonElement>('.nav-link').forEach((btn) => {
@@ -1522,6 +1810,9 @@ function showView(view: WriterView) {
       'post',
       'No posts found in src/content/posts yet.',
     );
+  }
+  if (view === 'calendar') {
+    void loadCalendar();
   }
   if (view === 'destinations') {
     void loadLibraryList(
@@ -1799,11 +2090,13 @@ richEditor = createRichEditor(bodyEditorMount, {
 renderGalleries();
 regeneratePreview();
 updateUndoButton();
+scheduleSocialThumbnailRefresh();
 setupDropzone(heroDropzone, heroFileInput, async (files) => {
   heroUploadStatus.textContent = 'Uploading & compressing…';
   const paths = await uploadImages(files.slice(0, 1));
   featuredImageInput.value = paths[0];
   heroUploadStatus.textContent = `Hero saved: ${paths[0]}`;
+  scheduleSocialThumbnailRefresh();
   regeneratePreview();
   scheduleAutosave();
 });
@@ -1857,7 +2150,7 @@ document.querySelectorAll<HTMLButtonElement>('[data-dashboard]').forEach((btn) =
       createChooser.classList.remove('hidden');
       return;
     }
-    if (action === 'library' || action === 'destinations' || action === 'instagram') {
+    if (action === 'library' || action === 'calendar' || action === 'destinations' || action === 'instagram') {
       showView(action);
     }
   });
@@ -1876,6 +2169,15 @@ document.getElementById('save-all')?.addEventListener('click', () => {
 });
 document.getElementById('save-english')?.addEventListener('click', () => {
   void saveEnglishOnly();
+});
+document.getElementById('preview-article')?.addEventListener('click', () => {
+  void openArticlePreview();
+});
+featuredImageInput.addEventListener('input', () => {
+  scheduleSocialThumbnailRefresh();
+});
+featuredImageInput.addEventListener('change', () => {
+  scheduleSocialThumbnailRefresh();
 });
 document.getElementById('refresh-dashboard')?.addEventListener('click', () => {
   void loadDashboardStats();
@@ -1912,6 +2214,30 @@ document.getElementById('new-post')?.addEventListener('click', () => {
 document.getElementById('add-gallery')?.addEventListener('click', addGallery);
 document.getElementById('refresh-library')?.addEventListener('click', () => {
   void loadLibraryList(libraryList, '/api/post-groups', 'post', 'No posts found.');
+});
+document.getElementById('refresh-calendar')?.addEventListener('click', () => {
+  void loadCalendar(true);
+});
+document.getElementById('calendar-prev')?.addEventListener('click', () => {
+  calendarCursor = shiftMonth(calendarCursor, -1);
+  renderCalendar();
+});
+document.getElementById('calendar-next')?.addEventListener('click', () => {
+  calendarCursor = shiftMonth(calendarCursor, 1);
+  renderCalendar();
+});
+document.getElementById('calendar-today')?.addEventListener('click', () => {
+  calendarCursor = startOfMonth(new Date());
+  renderCalendar();
+});
+document.querySelectorAll<HTMLButtonElement>('[data-calendar-filter]').forEach((btn) => {
+  btn.addEventListener('click', () => {
+    calendarFilter = (btn.dataset.calendarFilter as CalendarFilter) || 'all';
+    document.querySelectorAll<HTMLButtonElement>('[data-calendar-filter]').forEach((b) => {
+      b.classList.toggle('is-active', b === btn);
+    });
+    renderCalendar();
+  });
 });
 document.getElementById('refresh-destinations')?.addEventListener('click', () => {
   void loadLibraryList(
@@ -2014,7 +2340,7 @@ document.getElementById('download-all')?.addEventListener('click', () => {
 });
 
 const hash = location.hash.replace('#', '') as WriterView;
-if (['write', 'library', 'destinations', 'instagram'].includes(hash)) {
+if (['write', 'library', 'calendar', 'destinations', 'instagram'].includes(hash)) {
   showView(hash);
 } else {
   showView('dashboard');

@@ -254,6 +254,245 @@ function json(res: import('http').ServerResponse, status: number, data: unknown)
   res.end(JSON.stringify(data));
 }
 
+const previewStore = new Map<string, { html: string; expires: number }>();
+const PREVIEW_TTL_MS = 30 * 60 * 1000;
+
+function prunePreviews() {
+  const now = Date.now();
+  for (const [id, entry] of previewStore) {
+    if (entry.expires < now) previewStore.delete(id);
+  }
+}
+
+function escapeHtmlAttr(value: string): string {
+  return value
+    .replace(/&/g, '&amp;')
+    .replace(/"/g, '&quot;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;');
+}
+
+function escapeHtmlText(value: string): string {
+  return value
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;');
+}
+
+function resolvePublicMediaPath(repoRoot: string, mediaUrl: string): string | null {
+  if (!mediaUrl.startsWith('/media/')) return null;
+  const rel = mediaUrl.replace(/^\/+/, '');
+  const full = path.resolve(repoRoot, 'public', rel);
+  const root = path.resolve(repoRoot, 'public', 'media');
+  if (!full.startsWith(root + path.sep) && full !== root) return null;
+  return full;
+}
+
+const MIME_BY_EXT: Record<string, string> = {
+  '.webp': 'image/webp',
+  '.jpg': 'image/jpeg',
+  '.jpeg': 'image/jpeg',
+  '.png': 'image/png',
+  '.gif': 'image/gif',
+  '.avif': 'image/avif',
+  '.svg': 'image/svg+xml',
+  '.mp4': 'video/mp4',
+  '.json': 'application/json',
+};
+
+interface PreviewArticlePayload {
+  title?: string;
+  body?: string;
+  publishedAt?: string;
+  featuredImage?: string;
+  seoTitle?: string;
+  seoDescription?: string;
+  contentKind?: 'post' | 'destination';
+  draft?: boolean;
+  galleries?: Array<{
+    id?: string;
+    title?: string;
+    position?: string;
+    images?: Array<{ src: string; alt?: string }>;
+  }>;
+}
+
+function renderGalleryHtml(
+  galleries: PreviewArticlePayload['galleries'],
+  position: string,
+): string {
+  const list = (galleries ?? []).filter((g) => g.position === position && g.images?.length);
+  if (!list.length) return '';
+  return list
+    .map((g) => {
+      const imgs = (g.images ?? [])
+        .map(
+          (img) =>
+            `<figure class="preview-gallery-item"><img src="${escapeHtmlAttr(img.src)}" alt="${escapeHtmlAttr(img.alt || '')}" loading="lazy" /></figure>`,
+        )
+        .join('');
+      const title = g.title
+        ? `<h3 class="preview-gallery-title">${escapeHtmlText(g.title)}</h3>`
+        : '';
+      return `<section class="preview-gallery">${title}<div class="preview-gallery-grid">${imgs}</div></section>`;
+    })
+    .join('');
+}
+
+function buildPreviewArticleHtml(payload: PreviewArticlePayload): string {
+  const title = sanitizePlainField(payload.title ?? '') || 'Untitled';
+  const body = sanitizeHtmlNode(payload.body ?? '');
+  const featuredImage = String(payload.featuredImage ?? '').trim();
+  const publishedAt = String(payload.publishedAt ?? '').slice(0, 10);
+  const draft = Boolean(payload.draft);
+  const kind = payload.contentKind === 'destination' ? 'destination' : 'post';
+  const seoTitle = sanitizePlainField(payload.seoTitle ?? '') || title;
+  const seoDescription = sanitizePlainField(payload.seoDescription ?? '');
+
+  let dateLabel = publishedAt;
+  try {
+    if (publishedAt) {
+      dateLabel = new Date(`${publishedAt}T12:00:00`).toLocaleDateString('en', {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+      });
+    }
+  } catch {
+    /* keep raw */
+  }
+
+  const hero = featuredImage
+    ? `<div class="hero-arch"><img src="${escapeHtmlAttr(featuredImage)}" alt="" /></div>`
+    : `<div class="hero-arch hero-arch-empty"><span>No featured image</span></div>`;
+
+  const badges = [
+    draft ? '<span class="badge draft">Draft</span>' : '<span class="badge live">Not draft</span>',
+    `<span class="badge">${kind}</span>`,
+    '<span class="badge">Local preview</span>',
+  ].join('');
+
+  return `<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>${escapeHtmlText(seoTitle)} · Preview</title>
+  <meta name="description" content="${escapeHtmlAttr(seoDescription)}" />
+  <style>
+    :root {
+      --brass: #c29f5d;
+      --mint: #a6d8c2;
+      --whitewash: #fcfaee;
+      --charcoal: #2d2a26;
+      --muted: #837a71;
+      --sand: #f0e8dd;
+      --border: #eae2d5;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      background: var(--whitewash);
+      color: var(--charcoal);
+      line-height: 1.6;
+    }
+    .preview-banner {
+      position: sticky; top: 0; z-index: 20;
+      display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center; justify-content: space-between;
+      padding: 0.65rem 1rem;
+      background: #2d2a26; color: #fcfaee; font-size: 0.85rem;
+    }
+    .preview-banner a { color: #c29f5d; font-weight: 700; }
+    .badges { display: flex; flex-wrap: wrap; gap: 0.35rem; }
+    .badge {
+      display: inline-block; border-radius: 999px; padding: 0.15rem 0.55rem;
+      background: #3f3832; font-size: 0.72rem; font-weight: 700;
+    }
+    .badge.draft { background: #8a5a12; }
+    .badge.live { background: #1f6b45; }
+    article { padding: 2.5rem 1rem 4rem; }
+    .wrap { max-width: 48rem; margin: 0 auto; }
+    .crumb { font-size: 0.875rem; color: var(--muted); margin-bottom: 1.5rem; }
+    .crumb a { color: var(--muted); text-decoration: none; }
+    .hero-arch {
+      border-radius: 160px 160px 32px 32px;
+      overflow: hidden;
+      margin-bottom: 2rem;
+      background: var(--sand);
+      aspect-ratio: 16 / 9;
+    }
+    .hero-arch img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .hero-arch-empty {
+      display: grid; place-items: center; color: var(--muted); font-weight: 700;
+    }
+    header time { font-size: 0.875rem; color: var(--muted); }
+    h1 {
+      margin: 0.75rem 0 0;
+      font-size: clamp(1.75rem, 4vw, 2.35rem);
+      line-height: 1.15;
+      font-weight: 900;
+    }
+    .prose-blog { margin-top: 2rem; }
+    .prose-blog h2, .prose-blog h3, .prose-blog h4 {
+      font-weight: 700; margin-top: 1.75em; margin-bottom: 0.75em; color: var(--charcoal);
+    }
+    .prose-blog p { margin-bottom: 1.25em; line-height: 1.7; }
+    .prose-blog a { color: var(--brass); }
+    .prose-blog img { border-radius: 1rem; margin: 1.5em 0; max-width: 100%; height: auto; }
+    .prose-blog ul, .prose-blog ol { margin: 1em 0 1.5em 1.5em; }
+    .prose-blog blockquote {
+      border-left: 4px solid var(--mint); padding-left: 1rem; color: var(--muted); font-style: italic;
+    }
+    .prose-blog hr { border: 0; border-top: 1px solid var(--border); margin: 2rem 0; }
+    .preview-gallery { margin: 2rem 0; }
+    .preview-gallery-title { margin: 0 0 0.75rem; font-size: 1rem; }
+    .preview-gallery-grid {
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr)); gap: 0.75rem;
+    }
+    .preview-gallery-item { margin: 0; }
+    .preview-gallery-item img {
+      width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 1rem; display: block;
+    }
+    .cta {
+      margin: 3rem auto 0; max-width: 48rem; padding: 1.5rem;
+      border-radius: 1.25rem; background: #fff; border: 1px solid var(--border); text-align: center;
+    }
+    .cta a {
+      display: inline-block; margin-top: 0.75rem; padding: 0.65rem 1.1rem;
+      border-radius: 999px; background: var(--brass); color: #fff; font-weight: 800; text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="preview-banner">
+    <div>
+      <strong>IntoLibya writer preview</strong>
+      <span> — not the live site. Close this tab when done.</span>
+    </div>
+    <div class="badges">${badges}</div>
+  </div>
+  <article>
+    <div class="wrap">
+      <nav class="crumb"><a href="#">English Blog</a> / <span>${escapeHtmlText(title)}</span></nav>
+      ${hero}
+      <header>
+        <time datetime="${escapeHtmlAttr(publishedAt)}">${escapeHtmlText(dateLabel)}</time>
+        <h1>${escapeHtmlText(title)}</h1>
+      </header>
+      ${renderGalleryHtml(payload.galleries, 'after-hero')}
+      <div class="prose-blog">${body || '<p><em>No body content yet.</em></p>'}</div>
+      ${renderGalleryHtml(payload.galleries, 'after-body')}
+    </div>
+  </article>
+  <div class="cta">
+    <p>Ready to plan your Libya trip?</p>
+    <a href="https://intolibya.com/tourbuilder/booking" target="_blank" rel="noopener">Build Your Trip</a>
+  </div>
+</body>
+</html>`;
+}
+
 async function walkMarkdownFiles(dir: string): Promise<string[]> {
   const entries = await fs.readdir(dir, { withFileTypes: true }).catch(() => []);
   const files: string[] = [];
@@ -581,10 +820,50 @@ export function blogWriterDevApiPlugin(repoRoot: string): Plugin {
     name: 'blog-writer-dev-api',
     configureServer(server) {
       server.middlewares.use(async (req, res, next) => {
-        if (!req.url?.startsWith('/api/')) return next();
-
         try {
+          if (!req.url) return next();
           const url = new URL(req.url, 'http://localhost');
+
+          // Serve public media so previews and gallery imgs work on :5174
+          if (req.method === 'GET' && url.pathname.startsWith('/media/')) {
+            const mediaFull = resolvePublicMediaPath(repoRoot, url.pathname);
+            if (!mediaFull) {
+              res.statusCode = 400;
+              res.end('Invalid media path');
+              return;
+            }
+            try {
+              const data = await fs.readFile(mediaFull);
+              const ext = path.extname(mediaFull).toLowerCase();
+              res.statusCode = 200;
+              res.setHeader('Content-Type', MIME_BY_EXT[ext] || 'application/octet-stream');
+              res.setHeader('Cache-Control', 'no-cache');
+              res.end(data);
+            } catch {
+              res.statusCode = 404;
+              res.end('Not found');
+            }
+            return;
+          }
+
+          if (req.method === 'GET' && url.pathname.startsWith('/preview/')) {
+            prunePreviews();
+            const id = decodeURIComponent(url.pathname.replace('/preview/', ''));
+            const entry = previewStore.get(id);
+            if (!entry || entry.expires < Date.now()) {
+              res.statusCode = 404;
+              res.setHeader('Content-Type', 'text/html; charset=utf-8');
+              res.end('<!doctype html><p>Preview expired. Generate a new preview from the writer.</p>');
+              return;
+            }
+            res.statusCode = 200;
+            res.setHeader('Content-Type', 'text/html; charset=utf-8');
+            res.setHeader('Cache-Control', 'no-store');
+            res.end(entry.html);
+            return;
+          }
+
+          if (!url.pathname.startsWith('/api/')) return next();
 
           if (req.method === 'GET' && url.pathname === '/api/post-groups') {
             const posts = await loadAllPosts(repoRoot);
@@ -989,6 +1268,46 @@ export function blogWriterDevApiPlugin(repoRoot: string): Plugin {
             await fs.mkdir(path.dirname(fullPath), { recursive: true });
             await fs.writeFile(fullPath, file.data);
             json(res, 200, { ok: true, path: relative, id: safeId });
+            return;
+          }
+
+          if (req.method === 'POST' && url.pathname === '/api/preview-article') {
+            const payload = JSON.parse(await readBody(req)) as PreviewArticlePayload;
+            if (!String(payload.title ?? '').trim() && !String(payload.body ?? '').trim()) {
+              json(res, 400, { ok: false, error: 'Add a title or body before previewing.' });
+              return;
+            }
+            prunePreviews();
+            const id = `p${Date.now().toString(36)}${Math.random().toString(36).slice(2, 8)}`;
+            const html = buildPreviewArticleHtml(payload);
+            previewStore.set(id, { html, expires: Date.now() + PREVIEW_TTL_MS });
+            json(res, 200, { ok: true, url: `/preview/${id}` });
+            return;
+          }
+
+          if (req.method === 'GET' && url.pathname === '/api/og-preview') {
+            const src = String(url.searchParams.get('src') ?? '').trim();
+            const mediaFull = resolvePublicMediaPath(repoRoot, src);
+            if (!mediaFull) {
+              json(res, 400, { ok: false, error: 'Featured image must be a /media/… path' });
+              return;
+            }
+            try {
+              const jpeg = await sharp(mediaFull)
+                .rotate()
+                .resize(1200, 630, { fit: 'cover', position: 'centre' })
+                .jpeg({ quality: 82, mozjpeg: true })
+                .toBuffer();
+              res.statusCode = 200;
+              res.setHeader('Content-Type', 'image/jpeg');
+              res.setHeader('Cache-Control', 'no-cache');
+              res.end(jpeg);
+            } catch (err) {
+              json(res, 404, {
+                ok: false,
+                error: err instanceof Error ? err.message : 'Could not build OG preview',
+              });
+            }
             return;
           }
 

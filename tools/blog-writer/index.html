@@ -17,6 +17,7 @@
           <button type="button" class="nav-link is-active" data-view="dashboard">Dashboard</button>
           <button type="button" class="nav-link" data-view="write">Editor</button>
           <button type="button" class="nav-link" data-view="library">Blog posts</button>
+          <button type="button" class="nav-link" data-view="calendar">Calendar</button>
           <button type="button" class="nav-link" data-view="destinations">Destinations</button>
           <button type="button" class="nav-link" data-view="instagram">Instagram</button>
         </nav>
@@ -41,6 +42,10 @@
           <button type="button" class="dashboard-card" data-dashboard="library">
             <strong>Blog posts</strong>
             <span>Browse and edit travel articles</span>
+          </button>
+          <button type="button" class="dashboard-card" data-dashboard="calendar">
+            <strong>Publish calendar</strong>
+            <span>See scheduled posts by date</span>
           </button>
           <button type="button" class="dashboard-card" data-dashboard="destinations">
             <strong>Destinations</strong>
@@ -141,6 +146,18 @@
             </div>
             <p class="hint" id="hero-upload-status"></p>
 
+            <div id="social-thumb-panel" class="social-thumb-panel">
+              <div class="social-thumb-header">
+                <strong>Social thumbnail (English)</strong>
+                <span class="hint">Exact 1200×630 Open Graph crop used for Facebook, LinkedIn, and X</span>
+              </div>
+              <div class="social-thumb-frame" id="social-thumb-frame">
+                <img id="social-thumb-img" alt="Social card preview" hidden />
+                <p class="social-thumb-empty" id="social-thumb-empty">Add a featured image to preview the social card.</p>
+              </div>
+              <p class="hint" id="social-thumb-status"></p>
+            </div>
+
             <label>SEO title <input name="seoTitle" placeholder="Optional — defaults to title" /></label>
             <label>SEO description <textarea name="seoDescription" rows="2" placeholder="Optional — excerpt from body"></textarea></label>
 
@@ -198,6 +215,7 @@
             <p class="toolbar-note">Save English only, or translate &amp; save every language (keeps HTML structure).</p>
           </div>
           <div class="publish-actions">
+            <button type="button" id="preview-article" class="btn-secondary">Preview article</button>
             <button type="button" id="save-english" class="btn-secondary">Save English only</button>
             <button type="button" id="save-all" class="btn-generate">Translate &amp; save all</button>
           </div>
@@ -245,6 +263,53 @@
         </label>
         <p class="hint library-search-meta" id="library-search-meta"></p>
         <div id="library-list" class="library-list"></div>
+      </section>
+    </main>
+
+    <main class="grid view-calendar hidden" id="view-calendar">
+      <section class="panel library-panel calendar-panel">
+        <div class="library-header">
+          <div>
+            <h2>Publish calendar</h2>
+            <p class="toolbar-note">
+              Blog posts by <code>publishedAt</code>. Scheduled posts go live on the daily rebuild after that date
+              (when <code>draft</code> is false).
+            </p>
+          </div>
+          <div class="library-header-actions">
+            <button type="button" id="calendar-today" class="btn-secondary">This month</button>
+            <button type="button" id="refresh-calendar" class="btn-secondary">Refresh</button>
+          </div>
+        </div>
+
+        <div class="calendar-toolbar">
+          <div class="calendar-month-nav">
+            <button type="button" id="calendar-prev" class="btn-secondary" aria-label="Previous month">←</button>
+            <h3 id="calendar-month-label">Month</h3>
+            <button type="button" id="calendar-next" class="btn-secondary" aria-label="Next month">→</button>
+          </div>
+          <div class="calendar-filters" role="group" aria-label="Filter posts">
+            <button type="button" class="calendar-filter is-active" data-calendar-filter="all">All</button>
+            <button type="button" class="calendar-filter" data-calendar-filter="scheduled">Scheduled</button>
+            <button type="button" class="calendar-filter" data-calendar-filter="live">Live</button>
+            <button type="button" class="calendar-filter" data-calendar-filter="draft">Drafts</button>
+          </div>
+        </div>
+        <p class="hint" id="calendar-meta"></p>
+
+        <div class="calendar-layout">
+          <div class="calendar-grid-wrap">
+            <div class="calendar-weekdays" aria-hidden="true">
+              <span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span><span>Sun</span>
+            </div>
+            <div id="calendar-grid" class="calendar-grid"></div>
+          </div>
+          <aside class="calendar-sidebar">
+            <h3 id="calendar-sidebar-title">This month</h3>
+            <p class="hint" id="calendar-sidebar-meta"></p>
+            <div id="calendar-sidebar-list" class="calendar-sidebar-list"></div>
+          </aside>
+        </div>
       </section>
     </main>
 
