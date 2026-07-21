@@ -37,7 +37,14 @@ export default defineConfig({
       { protocol: 'https', hostname: 'www.intolibya.com' },
     ],
   },
-  integrations: [sitemap()],
+  integrations: [
+    sitemap({
+      customSitemaps: [
+        'https://intolibya.com/image-sitemap.xml',
+        'https://intolibya.com/tourbuilder/sitemap.xml',
+      ],
+    }),
+  ],
   markdown: {
     rehypePlugins: [
       rehypeRaw,
