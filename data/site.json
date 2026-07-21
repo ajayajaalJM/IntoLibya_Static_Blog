@@ -1,7 +1,7 @@
 {
-  "logo": "/assets/branding/logo-icon.png",
-  "logoDark": "/assets/branding/logo-icon-transparent.png",
-  "favicon": "/assets/branding/favicon.png",
+  "logo": "/logo-icon.png",
+  "logoDark": "/logo-icon-transparent.png",
+  "favicon": "/favicon.png",
   "ogImage": "/media/og/social-banner-og.jpg",
   "pinterestImage": "/media/og/social-banner-pin.jpg",
   "siteName": "IntoLibya",

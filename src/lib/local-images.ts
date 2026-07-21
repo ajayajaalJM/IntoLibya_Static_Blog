@@ -31,6 +31,8 @@ const LOCAL_IMAGES: Record<string, ImageMetadata> = {
   '/assets/tours/seasoned.jpg': tourSeasoned,
   '/assets/branding/logo-icon.png': logoIcon,
   '/assets/branding/logo-icon-transparent.png': logoIconTransparent,
+  '/logo-icon.png': logoIcon,
+  '/logo-icon-transparent.png': logoIconTransparent,
 };
 
 export function resolveLocalImage(src: string): ImageMetadata | undefined {
