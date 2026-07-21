@@ -5,6 +5,8 @@ import RelatedReading from '../components/RelatedReading.astro';
 import OptimizedImage from '../components/OptimizedImage.astro';
 import ImageGallery from '../components/ImageGallery.astro';
 import BodyWithGalleries from '../components/BodyWithGalleries.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import TripResourceLinks from '../components/TripResourceLinks.astro';
 import { getAllPosts, getAllPostsIncludingDrafts, getTranslationSiblings } from '../lib/posts';
 import { getAllDestinationsIncludingDrafts } from '../lib/destinations';
 import { galleriesAt, galleryImageObjects } from '../lib/galleries';
@@ -12,6 +14,7 @@ import { LANG_LABELS, type Lang } from '../lib/post-schema';
 import { ogPathForFeaturedImage } from '../lib/og';
 import { extractRelatedReading, resolveRelatedCards } from '../lib/related-reading';
 import { buildImageObject, readMediaCatalogDimensions } from '../lib/image-sitemap';
+import { blogPostCrumbs, buildBreadcrumbListJsonLd } from '../lib/seo-links';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 
@@ -72,6 +75,9 @@ const heroObject = buildImageObject(siteUrl, {
 });
 if (heroObject) imageObjects.unshift(heroObject);
 
+const blogLabel = `${LANG_LABELS[lang]} Blog`;
+const breadcrumbItems = blogPostCrumbs(lang, blogLabel, post.data.title, post.data.canonicalPath);
+
 const jsonLd: Record<string, unknown>[] = [
   {
     '@context': 'https://schema.org',
@@ -89,6 +95,7 @@ const jsonLd: Record<string, unknown>[] = [
     publisher: { '@type': 'Organization', name: 'IntoLibya', url: siteUrl },
     inLanguage: lang,
   },
+  buildBreadcrumbListJsonLd(breadcrumbItems, siteUrl),
   ...imageObjects.map((img) => ({
     '@context': 'https://schema.org',
     ...img,
@@ -111,11 +118,7 @@ const jsonLd: Record<string, unknown>[] = [
 >
   <article class="px-4 py-10 md:px-8">
     <div class="mx-auto max-w-[42rem]">
-      <nav class="mb-8 text-xs tracking-wide text-muted/80">
-        <a href={`/${lang}`} class="hover:text-brass">{LANG_LABELS[lang]} Blog</a>
-        <span aria-hidden="true"> / </span>
-        <span>{post.data.title}</span>
-      </nav>
+      <Breadcrumbs items={breadcrumbItems} />
 
       <OptimizedImage
         src={post.data.featuredImage}
@@ -172,5 +175,6 @@ const jsonLd: Record<string, unknown>[] = [
     </div>
   </article>
   <RelatedReading items={relatedCards} />
+  <TripResourceLinks variant="compact" markEnglishHubs={lang !== 'en'} />
   <FinalCTA />
 </BaseLayout>

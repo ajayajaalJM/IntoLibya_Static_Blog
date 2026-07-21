@@ -1,9 +1,12 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import OptimizedImage from '../../../components/OptimizedImage.astro';
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import TripResourceLinks from '../../../components/TripResourceLinks.astro';
 import { getDestinationsByLang } from '../../../lib/destinations';
 import { LANG_LABELS, LANGS, type Lang } from '../../../lib/post-schema';
 import { getSiteConfig } from '../../../lib/site';
+import { buildBreadcrumbListJsonLd, destinationsIndexCrumbs } from '../../../lib/seo-links';
 
 export async function getStaticPaths() {
   return LANGS.map((lang) => ({ params: { lang } }));
@@ -32,6 +35,8 @@ const itemListElement = destinations.map((destination, index) => ({
   image: `${siteUrl}${destination.data.featuredImage}`,
 }));
 
+const breadcrumbItems = destinationsIndexCrumbs(lang);
+
 const jsonLd = [
   {
     '@context': 'https://schema.org',
@@ -57,24 +62,7 @@ const jsonLd = [
     numberOfItems: destinations.length,
     itemListElement,
   },
-  {
-    '@context': 'https://schema.org',
-    '@type': 'BreadcrumbList',
-    itemListElement: [
-      {
-        '@type': 'ListItem',
-        position: 1,
-        name: 'Home',
-        item: siteUrl,
-      },
-      {
-        '@type': 'ListItem',
-        position: 2,
-        name: 'Destinations',
-        item: pageUrl,
-      },
-    ],
-  },
+  buildBreadcrumbListJsonLd(breadcrumbItems, siteUrl),
 ];
 ---
 
@@ -90,6 +78,7 @@ const jsonLd = [
 >
   <section class="px-4 py-12 md:px-8">
     <div class="mx-auto max-w-6xl">
+      <Breadcrumbs items={breadcrumbItems} />
       <p class="text-sm font-bold uppercase tracking-widest text-brass">IntoLibya Destinations</p>
       <h1 class="mt-2 text-3xl font-black text-charcoal">{LANG_LABELS[lang]} Destinations</h1>
       <p class="mt-3 max-w-2xl text-muted">
@@ -148,4 +137,5 @@ const jsonLd = [
       )}
     </div>
   </section>
+  <TripResourceLinks markEnglishHubs={lang !== 'en'} />
 </BaseLayout>

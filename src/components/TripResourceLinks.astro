@@ -1,0 +1,83 @@
+---
+import { COMMERCIAL_LINKS, EDITORIAL_LINKS } from '../lib/seo-links';
+
+interface Props {
+  class?: string;
+  /** Compact = denser layout for article footers; full = homepage-style. */
+  variant?: 'full' | 'compact';
+  /** When true, editorial links get hreflang="en" (non-English pages). */
+  markEnglishHubs?: boolean;
+}
+
+const { class: className = '', variant = 'full', markEnglishHubs = false } = Astro.props;
+---
+
+<section
+  class:list={[
+    'px-4 md:px-8',
+    variant === 'full' ? 'py-10 md:py-12' : 'py-8 md:py-10',
+    className,
+  ]}
+  aria-labelledby="trip-resource-links-heading"
+  data-ga-section="trip_resource_links"
+>
+  <div
+    class:list={[
+      'mx-auto rounded-3xl border border-border/70 bg-white shadow-[0_12px_32px_rgba(45,42,38,0.04)]',
+      variant === 'full' ? 'max-w-6xl p-6 sm:p-8' : 'max-w-[42rem] p-5 sm:p-6',
+    ]}
+  >
+    <p class="text-xs font-bold uppercase tracking-[0.18em] text-brass">Plan your Libya trip</p>
+    <h2
+      id="trip-resource-links-heading"
+      class:list={[
+        'mt-2 font-black leading-tight text-charcoal',
+        variant === 'full' ? 'text-xl md:text-2xl' : 'text-lg md:text-xl',
+      ]}
+    >
+      Book, explore, and read the essentials
+    </h2>
+    <p class="mt-2 max-w-2xl text-sm leading-relaxed text-muted md:text-base">
+      Start with TourBuilder tools, then dig into IntoLibya’s core guides on visiting, safety, visas, places, and booking.
+    </p>
+
+    <div class:list={['mt-6 grid gap-6', variant === 'full' ? 'md:grid-cols-2' : '']}>
+      <div>
+        <h3 class="text-xs font-bold uppercase tracking-widest text-muted">Book and explore</h3>
+        <ul class="mt-3 space-y-2">
+          {COMMERCIAL_LINKS.map((link) => (
+            <li>
+              <a
+                href={link.href}
+                class="text-sm font-semibold text-charcoal underline decoration-mint/60 underline-offset-4 transition hover:text-brass hover:decoration-brass"
+                data-ga-event="resource_link_click"
+                data-ga-label={link.label}
+              >
+                {link.label}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="text-xs font-bold uppercase tracking-widest text-muted">Essential travel guides</h3>
+        <ul class="mt-3 space-y-2">
+          {EDITORIAL_LINKS.map((link) => (
+            <li>
+              <a
+                href={link.href}
+                class="text-sm font-semibold text-charcoal underline decoration-mint/60 underline-offset-4 transition hover:text-brass hover:decoration-brass"
+                data-ga-event="resource_link_click"
+                data-ga-label={link.label}
+                hreflang={markEnglishHubs || link.hreflang ? link.hreflang || 'en' : undefined}
+              >
+                {link.label}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>

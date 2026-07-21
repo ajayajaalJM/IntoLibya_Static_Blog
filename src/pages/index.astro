@@ -9,6 +9,7 @@ import Testimonial from '../components/Testimonial.astro';
 import FinalCTA from '../components/FinalCTA.astro';
 import InstagramFeed from '../components/InstagramFeed.astro';
 import ConversionNudge from '../components/ConversionNudge.astro';
+import TripResourceLinks from '../components/TripResourceLinks.astro';
 import { getSiteConfig } from '../lib/site';
 import { getImage } from 'astro:assets';
 import { resolveLocalImage, heroTripoli } from '../lib/local-images';
@@ -113,6 +114,7 @@ const jsonLd = {
 
   <Testimonial />
   <BlogPreview />
+  <TripResourceLinks />
   <FinalCTA />
   <InstagramFeed />
 </BaseLayout>

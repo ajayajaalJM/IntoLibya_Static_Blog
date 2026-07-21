@@ -1,9 +1,12 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import OptimizedImage from '../../components/OptimizedImage.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import TripResourceLinks from '../../components/TripResourceLinks.astro';
 import { getPostsByLang } from '../../lib/posts';
 import { LANG_LABELS, LANGS, type Lang } from '../../lib/post-schema';
 import { getSiteConfig } from '../../lib/site';
+import { blogIndexCrumbs, buildBreadcrumbListJsonLd } from '../../lib/seo-links';
 
 export async function getStaticPaths() {
   return LANGS.map((lang) => ({ params: { lang } }));
@@ -13,24 +16,41 @@ const { lang } = Astro.params as { lang: Lang };
 const posts = await getPostsByLang(lang);
 const site = getSiteConfig();
 const siteUrl = Astro.site?.href?.replace(/\/$/, '') || 'https://intolibya.com';
+const pageUrl = `${siteUrl}/${lang}`;
+const blogLabel = `${LANG_LABELS[lang]} Blog`;
+const breadcrumbItems = blogIndexCrumbs(lang, blogLabel);
 
 const hreflangAlternates = LANGS.map((l) => ({
   lang: l,
   href: `${siteUrl}/${l}`,
 }));
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: `${LANG_LABELS[lang]} Travel Blog — IntoLibya`,
+    description: `Libya travel tips and guides in ${LANG_LABELS[lang]}. Plan your trip with IntoLibya.`,
+    url: pageUrl,
+    inLanguage: lang,
+  },
+  buildBreadcrumbListJsonLd(breadcrumbItems, siteUrl),
+];
 ---
 
 <BaseLayout
   title={`${LANG_LABELS[lang]} Travel Blog — IntoLibya`}
   description={`Libya travel tips and guides in ${LANG_LABELS[lang]}. Plan your trip with IntoLibya.`}
-  canonical={`${siteUrl}/${lang}`}
+  canonical={pageUrl}
   ogImage={site.ogImage}
   pinterestImage={site.pinterestImage}
   lang={lang}
   hreflangAlternates={hreflangAlternates}
+  jsonLd={jsonLd}
 >
   <section class="px-4 py-12 md:px-8">
     <div class="mx-auto max-w-6xl">
+      <Breadcrumbs items={breadcrumbItems} />
       <p class="text-sm font-bold uppercase tracking-widest text-brass">IntoLibya Blog</p>
       <h1 class="mt-2 text-3xl font-black text-charcoal">{LANG_LABELS[lang]} Travel Tips</h1>
 
@@ -79,4 +99,5 @@ const hreflangAlternates = LANGS.map((l) => ({
       )}
     </div>
   </section>
+  <TripResourceLinks markEnglishHubs={lang !== 'en'} />
 </BaseLayout>
