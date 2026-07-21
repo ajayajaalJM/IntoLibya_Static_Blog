@@ -5,7 +5,7 @@ canonicalPath: /en/rally-te-te-waddan-desert-rally-guide
 lang: en
 publishedAt: '2026-09-20'
 translationGroup: rally-te-te-waddan-desert-rally-guide
-featuredImage: /media/posts/rally-te-te-waddan-desert-rally-guide/hero.webp
+featuredImage: /media/posts/_hero-pool/rally-event_event_rally_te_te_waddan_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Rally Te Te Waddan is a desert motorsport style event experience centered on the Waddan region. For tourists, it is less about becoming a rally driver and'

@@ -5,7 +5,7 @@ canonicalPath: /en/accessibility-friendly-questions-to-ask-before-you-book
 lang: en
 publishedAt: '2026-12-20'
 translationGroup: accessibility-friendly-questions-to-ask-before-you-book
-featuredImage: /media/posts/accessibility-friendly-questions-to-ask-before-you-book/hero.webp
+featuredImage: /media/posts/_hero-pool/general-dest_waw_an_namus_webp.webp
 draft: false
 galleries: []
 excerpt: 'Accessibility friendly Libya tour planning starts with honest mobility questions, vehicle access notes, site terrain descriptions, and IntoLibya custom pacing before deposit and eVisa work.'

@@ -5,7 +5,7 @@ canonicalPath: /en/why-summer-desert-travel-in-libya-is-hard
 lang: en
 publishedAt: '2026-09-19'
 translationGroup: why-summer-desert-travel-in-libya-is-hard
-featuredImage: /media/posts/why-summer-desert-travel-in-libya-is-hard/hero.webp
+featuredImage: /media/posts/_hero-pool/sahara-sahara_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Libya summer travel into the deep Sahara is hard because heat changes every layer of the day: bodies, vehicles, shade, sleep, and decision quality. A'

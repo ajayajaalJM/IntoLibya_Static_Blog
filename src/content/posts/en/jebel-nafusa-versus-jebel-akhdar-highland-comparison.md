@@ -5,7 +5,7 @@ canonicalPath: /en/jebel-nafusa-versus-jebel-akhdar-highland-comparison
 lang: en
 publishedAt: '2026-12-28'
 translationGroup: jebel-nafusa-versus-jebel-akhdar-highland-comparison
-featuredImage: /media/posts/jebel-nafusa-versus-jebel-akhdar-highland-comparison/hero.webp
+featuredImage: /media/posts/_hero-pool/ghadames-dest_jebel_nafusa_webp.webp
 draft: false
 galleries: []
 excerpt: 'Jebel Nafusa versus Jebel Akhdar compares western Berber highlands with east Green Mountain air on licensed IntoLibya routes when days and routing allow both.'

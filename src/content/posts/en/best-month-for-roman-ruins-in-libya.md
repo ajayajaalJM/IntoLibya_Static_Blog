@@ -5,7 +5,7 @@ canonicalPath: /en/best-month-for-roman-ruins-in-libya
 lang: en
 publishedAt: '2026-09-24'
 translationGroup: best-month-for-roman-ruins-in-libya
-featuredImage: /media/posts/best-month-for-roman-ruins-in-libya/hero.webp
+featuredImage: /media/2025/10/Leptis-Magna-Baths-scaled.jpg
 draft: false
 galleries: []
 excerpt: 'Best month Leptis Magna is a core planning question for IntoLibya guests. This guide answers it with clear steps, tradeoffs, and booking next actions. The'

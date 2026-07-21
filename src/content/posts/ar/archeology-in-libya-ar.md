@@ -6,7 +6,7 @@ lang: ar
 wpImportId: 6932
 publishedAt: '2026-03-11'
 translationGroup: archeology-in-libya
-featuredImage: /media/2025/09/IMG_7153-2-scaled.jpg
+featuredImage: /media/posts/_hero-pool/general-cdn_a20_jpg.webp
 excerpt: 'The Story of Archeology in Libya: A Land Shaped by Time Archeology in Libya. ليبيا أرض تلتقي فيها رمال الصحراء بالبحر. المناظر الطبيعية لديها أسرار أكبر من الكتابة تحت جبالها وكثبانها، نحت الناس، طلاء، بنيت،'
 seo:
   title: علم المحفوظات في ليبيا
@@ -39,7 +39,7 @@ seo:
 <p>روما في نهاية المطاف غزو شمال أفريقيا. In Libya, they built three great cities: <a>Leptis Magna</a>.. <a>Sabratha</a>و أويا (طرابلس الحديثة).</p>
 <p><a href="https://intolibya.com/leptis-magna/">Leptis Magna</a> هو التنفس. مرفأها، (باسيليكا) و السوق يتنافسون في روما <a href="https://intolibya.com/sabratha/">Sabratha</a> يَحْملُ a مسرح الذي مرّة صدّقَ بالمسرحياتِ في اللاتينيةِ واليونانيةِ. وهذه الخراب هي مواقع اليونسكو اليوم، التي تقف ككنوز عالمية.</p>
 <p>الطرق الرومانية تربط الساحل بالصحراء سمحوا للتجارة بالذهب والعاج والحبوب علماء المحفوظات الذين يدرسون <a>السيراميك</a> تعلم عن هذه الشبكات التجارية وتكشف شظايا البطاريات عن مكان تخزين الأغذية وبيعها واستهلاكها.</p>
-<figure class="wp-block-image size-large"><img loading="lazy" alt="an arch in Leptis Magna" class="wp-image-5707" decoding="async" height="1024" loading="lazy" sizes="auto, (max-width: 768px) 100vw, 768px" src="/media/2025/09/IMG_4037-768x1024.jpg" width="768"/></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" alt="an arch in Leptis Magna" class="wp-image-5707" decoding="async" height="1024" loading="lazy" sizes="auto, (max-width: 768px) 100vw, 768px" src="/media/2025/09/IMG_4037-scaled.jpg" width="768"/></figure>
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
 <h2 class="wp-block-heading">الإيمان والمملكات الجديدة</h2>
 <p>بينما اضعفت روما انتشر المسيحية تم بناء الكنائس عبر ليبيا الموسيقيات والتسجيلات تظهر التفاني والفن.</p>

@@ -6,7 +6,7 @@ lang: pt
 wpImportId: 7085
 publishedAt: '2026-03-11'
 translationGroup: ghat-discover-the-culture-people-and-heritage-of-the-sahara
-featuredImage: /media/2025/12/ghat.jpg
+featuredImage: /media/posts/_hero-pool/general-cdn_a37_jpg.webp
 excerpt: No sudoeste da Líbia, perto das fronteiras da Argélia e do Níger, fica a histórica cidade de Ghat. À primeira vista, pode parecer remoto. No entanto, uma vez que você chega, torna-se claro que Ghat não está isolado em
 seo:
   title: 'Ghat: Descubra a cultura, as pessoas e o patrimônio do Saara'

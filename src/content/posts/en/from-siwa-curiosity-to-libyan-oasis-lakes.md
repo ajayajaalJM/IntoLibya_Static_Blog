@@ -5,7 +5,7 @@ canonicalPath: /en/from-siwa-curiosity-to-libyan-oasis-lakes
 lang: en
 publishedAt: '2026-10-10'
 translationGroup: from-siwa-curiosity-to-libyan-oasis-lakes
-featuredImage: /media/posts/from-siwa-curiosity-to-libyan-oasis-lakes/hero.webp
+featuredImage: /media/posts/_hero-pool/sahara-sahara_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Siwa vs Libya oases is the curiosity path for travelers who loved Egypt’s western desert quiet and then heard about Ubari’s salt lakes. Siwa offers oracle'

@@ -5,7 +5,7 @@ canonicalPath: /en/why-book-libya-eclipse-travel-more-than-a-year-ahead
 lang: en
 publishedAt: '2026-10-01'
 translationGroup: why-book-libya-eclipse-travel-more-than-a-year-ahead
-featuredImage: /media/posts/why-book-libya-eclipse-travel-more-than-a-year-ahead/hero.webp
+featuredImage: /media/posts/_hero-pool/cyrene-dest-ptolemais.webp
 draft: false
 galleries: []
 excerpt: 'Book Libya eclipse travel more than a year ahead because August 2027 is a sky deadline, not a flexible holiday. Totality does not move for late deposits.'

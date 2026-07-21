@@ -6,7 +6,7 @@ lang: de
 wpImportId: 7015
 publishedAt: '2026-03-11'
 translationGroup: unearthing-the-foggara-water-in-the-desert
-featuredImage: /media/2025/10/Narrow-pathways-around-the-old-town-of-Ghadames-scaled.jpg
+featuredImage: /media/posts/beach-holiday-in-tunisia-then-culture-in-libya/hero.webp
 excerpt: 'Im Herzen der Sahara, wo sich der Sand endlos erstreckt und das Wasser knapp ist, entdeckten die alten Völker ein bemerkenswertes Geheimnis: das Leben könnte auch in der härtesten Wüste blühen. Dieses Geheimnis war die Nebelgara, ein geniales unterirdisches Bewässerungssystem, das'
 seo:
   title: 'Erscheinen der Foggara: Wasser in der Wüste'

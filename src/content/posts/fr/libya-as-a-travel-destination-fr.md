@@ -6,7 +6,7 @@ lang: fr
 wpImportId: 6939
 publishedAt: '2026-03-11'
 translationGroup: libya-as-a-travel-destination
-featuredImage: /media/2025/09/IMG_3235-scaled.jpg
+featuredImage: /media/posts/can-tourists-visit-libya-yes-with-a-licensed-tour/hero.webp
 excerpt: Construire la Libye comme destination de voyage n’est pas une tâche facile mais une tâche que nous (Libyans) devons organiser autour et pousser pour que le pour l’emporte sur le contre pour le citoyen libyen moyen et le voyageur mondial. La Libye est un pays qui
 seo:
   title: La Libye comme destination de voyage

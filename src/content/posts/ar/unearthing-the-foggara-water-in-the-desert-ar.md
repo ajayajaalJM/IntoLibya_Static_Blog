@@ -6,7 +6,7 @@ lang: ar
 wpImportId: 7021
 publishedAt: '2026-03-11'
 translationGroup: unearthing-the-foggara-water-in-the-desert
-featuredImage: /media/2025/10/Narrow-pathways-around-the-old-town-of-Ghadames-scaled.jpg
+featuredImage: /media/posts/beach-holiday-in-tunisia-then-culture-in-libya/hero.webp
 excerpt: 'وفي قلب الصحراء، حيث تمتد الرمل بلا نهاية وتمتد المياه شحيحة، اكتشفت الشعوب القديمة سراً بارزاً: فالحياة يمكن أن تزدهر حتى في أشد الصحراء. هذا السر كان فوجارا، نظام للري الإبداعي تحت الأرض'
 seo:
   title: المياه في الصحراء

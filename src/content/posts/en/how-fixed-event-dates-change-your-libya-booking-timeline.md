@@ -5,7 +5,7 @@ canonicalPath: /en/how-fixed-event-dates-change-your-libya-booking-timeline
 lang: en
 publishedAt: '2026-11-05'
 translationGroup: how-fixed-event-dates-change-your-libya-booking-timeline
-featuredImage: /media/posts/how-fixed-event-dates-change-your-libya-booking-timeline/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a8_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Searchers who land here usually want a straight answer on timing, fit, and next steps for “How Fixed Event Dates Change Your Libya Booking Timeline”, not'

@@ -5,7 +5,7 @@ canonicalPath: /en/double-shafra-ghadames-trip-explained
 lang: en
 publishedAt: '2026-09-22'
 translationGroup: double-shafra-ghadames-trip-explained
-featuredImage: /media/posts/double-shafra-ghadames-trip-explained/hero.webp
+featuredImage: /media/posts/_hero-pool/ghadames-event_event_double_shafra_ghadames_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Double Shafra Ghadames focuses on the oasis town circuit with a young cohort format and fixed dates. If Sahara dunes are only part of your curiosity and you'

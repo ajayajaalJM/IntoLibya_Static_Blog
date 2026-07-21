@@ -5,7 +5,7 @@ canonicalPath: /en/libya-tour-booking-steps-from-first-email-to-arrival
 lang: en
 publishedAt: '2026-10-27'
 translationGroup: libya-tour-booking-steps-from-first-email-to-arrival
-featuredImage: /media/posts/libya-tour-booking-steps-from-first-email-to-arrival/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a16_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Libya tour booking steps from first enquiry to Mitiga arrival: quote, deposit, sponsorship, eVisa, and what to expect on landing day.'

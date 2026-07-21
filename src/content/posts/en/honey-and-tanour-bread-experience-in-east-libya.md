@@ -5,7 +5,7 @@ canonicalPath: /en/honey-and-tanour-bread-experience-in-east-libya
 lang: en
 publishedAt: '2026-12-25'
 translationGroup: honey-and-tanour-bread-experience-in-east-libya
-featuredImage: /media/posts/honey-and-tanour-bread-experience-in-east-libya/hero.webp
+featuredImage: /media/posts/_hero-pool/cyrene-dest-ptolemais.webp
 draft: false
 galleries: []
 excerpt: 'Honey and tanour bread experiences in east Libya add Green Mountain food culture to Cyrenaica routes on licensed IntoLibya tours when offered and confirmed in TourBuilder.'

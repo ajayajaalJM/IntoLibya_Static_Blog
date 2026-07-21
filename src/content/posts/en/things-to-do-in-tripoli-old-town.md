@@ -5,7 +5,7 @@ canonicalPath: /en/things-to-do-in-tripoli-old-town
 lang: en
 publishedAt: '2026-08-30'
 translationGroup: things-to-do-in-tripoli-old-town
-featuredImage: /media/posts/things-to-do-in-tripoli-old-town/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a1_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Tripoli old town is the part of the capital that still moves at human speed. Inside the medina walls you trade car noise for footsteps, tea steam, and the'

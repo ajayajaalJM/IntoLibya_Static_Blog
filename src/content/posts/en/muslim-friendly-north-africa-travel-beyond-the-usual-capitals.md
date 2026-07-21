@@ -5,7 +5,7 @@ canonicalPath: /en/muslim-friendly-north-africa-travel-beyond-the-usual-capitals
 lang: en
 publishedAt: '2026-11-27'
 translationGroup: muslim-friendly-north-africa-travel-beyond-the-usual-capitals
-featuredImage: /media/posts/muslim-friendly-north-africa-travel-beyond-the-usual-capitals/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a4_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Muslim friendly North Africa beyond capitals: Tripoli mosques, Ghadames heritage, and prayer aware Libya tour pacing.'

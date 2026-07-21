@@ -5,7 +5,7 @@ canonicalPath: /en/what-desert-rally-days-feel-like-for-first-timers
 lang: en
 publishedAt: '2026-08-03'
 translationGroup: what-desert-rally-days-feel-like-for-first-timers
-featuredImage: /media/posts/what-desert-rally-days-feel-like-for-first-timers/hero.webp
+featuredImage: /media/posts/_hero-pool/sahara-dest_ghat_webp.webp
 draft: false
 galleries: []
 excerpt: 'Desert rally days for first timers feel louder, dustier, and more scheduled than a quiet Sahara camp night. You are not becoming a rally driver. You are a'

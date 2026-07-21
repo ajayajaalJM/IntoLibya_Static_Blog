@@ -5,7 +5,7 @@ canonicalPath: /en/desert-days-still-pleasant-in-libya-late-autumn
 lang: en
 publishedAt: '2026-12-11'
 translationGroup: desert-days-still-pleasant-in-libya-late-autumn
-featuredImage: /media/posts/desert-days-still-pleasant-in-libya-late-autumn/hero.webp
+featuredImage: /media/posts/_hero-pool/sahara-cdn_a36_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Desert days stay pleasant in Libya late autumn when November still offers manageable Sahara midday hours before deep winter cold settles at camp. Shoulder season suits Acacus, Gaberoun, and dune driving with fewer heat limits than summer.'

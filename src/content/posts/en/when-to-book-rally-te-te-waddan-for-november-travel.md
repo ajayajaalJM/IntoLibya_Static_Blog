@@ -5,7 +5,7 @@ canonicalPath: /en/when-to-book-rally-te-te-waddan-for-november-travel
 lang: en
 publishedAt: '2026-08-01'
 translationGroup: when-to-book-rally-te-te-waddan-for-november-travel
-featuredImage: /media/posts/when-to-book-rally-te-te-waddan-for-november-travel/hero.webp
+featuredImage: /media/posts/_hero-pool/rally-dest_waddan_webp.webp
 draft: false
 galleries: []
 excerpt: 'Book Rally Te Te travel as soon as the live TourBuilder listing matches your November dates. Fixed event weeks do not behave like a flexible coast'

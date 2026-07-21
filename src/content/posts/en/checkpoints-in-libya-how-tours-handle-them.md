@@ -5,7 +5,7 @@ canonicalPath: /en/checkpoints-in-libya-how-tours-handle-them
 lang: en
 publishedAt: '2026-08-02'
 translationGroup: checkpoints-in-libya-how-tours-handle-them
-featuredImage: /media/posts/checkpoints-in-libya-how-tours-handle-them/hero.webp
+featuredImage: /media/posts/_hero-pool/sahara-sahara_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Libya checkpoints tourists is one of the first questions travelers ask when planning with IntoLibya. This guide answers it with practical steps, honest'

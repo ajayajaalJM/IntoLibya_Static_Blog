@@ -5,7 +5,7 @@ canonicalPath: /en/gaberoun-oasis-guide
 lang: en
 publishedAt: '2026-09-04'
 translationGroup: gaberoun-oasis-guide
-featuredImage: /media/posts/gaberoun-oasis-guide/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a32_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Gaberoun is the Sahara image people save and later cannot explain to friends: a salt lake shining between golden dunes, palms leaning into heat shimmer, and'

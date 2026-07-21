@@ -5,7 +5,7 @@ canonicalPath: /en/muslim-families-combining-culture-comfort-and-guided-care
 lang: en
 publishedAt: '2026-12-18'
 translationGroup: muslim-families-combining-culture-comfort-and-guided-care
-featuredImage: /media/posts/muslim-families-combining-culture-comfort-and-guided-care/hero.webp
+featuredImage: /media/posts/_hero-pool/cyrene-dest-jebel-akhdar.webp
 draft: false
 galleries: []
 excerpt: 'Muslim families combining culture, comfort, and guided care on Libya tours get halal meal clarity, prayer pacing, modest dress support, and licensed IntoLibya private routes for mixed ages.'

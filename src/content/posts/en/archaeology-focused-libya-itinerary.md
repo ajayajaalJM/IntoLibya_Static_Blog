@@ -5,7 +5,7 @@ canonicalPath: /en/archaeology-focused-libya-itinerary
 lang: en
 publishedAt: '2026-08-24'
 translationGroup: archaeology-focused-libya-itinerary
-featuredImage: /media/posts/archaeology-focused-libya-itinerary/hero.webp
+featuredImage: /media/2025/10/Leptis-Magna-Baths-scaled.jpg
 draft: false
 galleries: []
 excerpt: 'A Libya archaeology itinerary is for travelers who measure a trip by stone, inscription, and site time rather than by selfie density. Libya rewards that'

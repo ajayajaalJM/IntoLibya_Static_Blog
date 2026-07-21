@@ -5,7 +5,7 @@ canonicalPath: /en/who-are-the-amazigh-in-libya
 lang: en
 publishedAt: '2026-10-15'
 translationGroup: who-are-the-amazigh-in-libya
-featuredImage: /media/posts/who-are-the-amazigh-in-libya/hero.webp
+featuredImage: /media/posts/_hero-pool/ghadames-dest_jebel_nafusa_webp.webp
 draft: false
 galleries: []
 excerpt: 'Amazigh Libya identity refers to Indigenous North African peoples often called Berber in older English texts. In Libya, Amazigh communities are especially'

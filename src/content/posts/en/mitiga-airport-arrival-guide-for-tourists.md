@@ -5,7 +5,7 @@ canonicalPath: /en/mitiga-airport-arrival-guide-for-tourists
 lang: en
 publishedAt: '2026-07-25'
 translationGroup: mitiga-airport-arrival-guide-for-tourists
-featuredImage: /media/posts/mitiga-airport-arrival-guide-for-tourists/hero.webp
+featuredImage: /media/posts/can-tourists-visit-libya-yes-with-a-licensed-tour/hero.webp
 draft: false
 galleries: []
 excerpt: 'Mitiga Airport is where many IntoLibya tours truly begin. The building and processes can feel unfamiliar if you are used to giant European hubs, yet the'

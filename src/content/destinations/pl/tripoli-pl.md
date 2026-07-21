@@ -6,7 +6,7 @@ lang: pl
 wpImportId: 6813
 publishedAt: '2026-03-11'
 translationGroup: tripoli
-featuredImage: /media/2025/09/IMG_3235-scaled.jpg
+featuredImage: /media/posts/can-tourists-visit-libya-yes-with-a-licensed-tour/hero.webp
 excerpt: Po co odwiedzać Tripoli? Tripoli, stolica Libii, jest jednym z najbardziej fascynujących miast Afryki Północnej. Patrząc na turkusowe wody Morza Śródziemnego, ta tętniąca życiem metropolia jest miejscem, gdzie kultury zderzają się przez tysiące lat. Ma
 seo:
   title: Trypolis

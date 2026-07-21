@@ -5,7 +5,7 @@ canonicalPath: /en/how-early-should-you-book-a-libya-tour
 lang: en
 publishedAt: '2026-07-29'
 translationGroup: how-early-should-you-book-a-libya-tour
-featuredImage: /media/posts/how-early-should-you-book-a-libya-tour/hero.webp
+featuredImage: /media/posts/18-day-full-country-libya-itinerary/hero.webp
 draft: false
 galleries: []
 excerpt: 'When to book Libya tour is one of the first questions travelers ask when planning with IntoLibya. This guide answers it with practical steps, honest limits,'

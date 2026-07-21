@@ -5,7 +5,7 @@ canonicalPath: /en/is-libya-dangerous-for-tourists-on-guided-trips
 lang: en
 publishedAt: '2026-11-01'
 translationGroup: is-libya-dangerous-for-tourists-on-guided-trips
-featuredImage: /media/posts/is-libya-dangerous-for-tourists-on-guided-trips/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a11_jpg.webp
 draft: false
 galleries: []
 excerpt: 'No. Libya is not a freestyle destination, but licensed guided tourist trips run with sponsorship, local guides, and route control. Here is how that structure changes the risk picture.'

@@ -5,7 +5,7 @@ canonicalPath: /en/what-to-see-in-ghadames-old-town
 lang: en
 publishedAt: '2026-09-01'
 translationGroup: what-to-see-in-ghadames-old-town
-featuredImage: /media/posts/what-to-see-in-ghadames-old-town/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a7_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Ghadames old town is the postcard and the classroom at once. Inside the UNESCO medina, architecture solves desert problems with elegance: shade, airflow,'

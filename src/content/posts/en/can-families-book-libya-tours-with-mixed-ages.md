@@ -5,7 +5,7 @@ canonicalPath: /en/can-families-book-libya-tours-with-mixed-ages
 lang: en
 publishedAt: '2026-12-01'
 translationGroup: can-families-book-libya-tours-with-mixed-ages
-featuredImage: /media/posts/can-families-book-libya-tours-with-mixed-ages/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a33_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Mixed age families can book Libya tours when private pacing, realistic walking blocks, and lodging choices match grandparents, parents, teens, and young children on licensed IntoLibya routes.'

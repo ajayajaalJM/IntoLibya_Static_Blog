@@ -6,7 +6,7 @@ lang: ja
 wpImportId: 6814
 publishedAt: '2026-03-11'
 translationGroup: tripoli
-featuredImage: /media/2025/09/IMG_3235-scaled.jpg
+featuredImage: /media/posts/can-tourists-visit-libya-yes-with-a-licensed-tour/hero.webp
 excerpt: なぜトリポリを訪問するのですか? リビアの首都トリポリは、北アフリカで最も魅力的な都市の一つです。 地中海海のターコイズ水を見渡すと、この賑やかなメトロポリスは、何千年も文化が衝突した場所です。 それは持っています
 seo:
   title: トリポリ

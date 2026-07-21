@@ -5,7 +5,7 @@ canonicalPath: /en/libya-tours-for-food-travelers
 lang: en
 publishedAt: '2026-09-30'
 translationGroup: libya-tours-for-food-travelers
-featuredImage: /media/posts/libya-tours-for-food-travelers/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a1_jpg.webp
 draft: false
 galleries: []
 excerpt: 'A Libya food tour is not a street snack crawl in the Bangkok sense. It is hospitality, home styles, market produce, and regional dishes experienced inside a'

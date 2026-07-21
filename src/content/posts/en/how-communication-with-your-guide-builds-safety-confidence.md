@@ -5,7 +5,7 @@ canonicalPath: /en/how-communication-with-your-guide-builds-safety-confidence
 lang: en
 publishedAt: '2027-01-03'
 translationGroup: how-communication-with-your-guide-builds-safety-confidence
-featuredImage: /media/posts/how-communication-with-your-guide-builds-safety-confidence/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a3_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Guide communication turns Libya travel from guessing into briefing. Ask early, debrief daily, and treat your guide as the translation layer between rules and curiosity.'

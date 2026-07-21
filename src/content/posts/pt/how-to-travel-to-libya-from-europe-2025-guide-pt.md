@@ -6,7 +6,7 @@ lang: pt
 wpImportId: 6776
 publishedAt: '2026-03-11'
 translationGroup: how-to-travel-to-libya-from-europe-2025-guide
-featuredImage: /media/2023/12/Screen-Shot-2023-12-20-at-4.03.35-PM.png
+featuredImage: /media/2025/12/588952128_18541788997018455_4310813881741799310_n.jpg
 excerpt: Por que os europeus devem visitar a Líbia Líbia é um destino que combina charme mediterrâneo com aventura do Saara, oferecendo uma rica tapeçaria histórica, vistas deslumbrantes da costa e vastas paisagens de deserto. Das antigas cidades romanas, como Leptis Magna e Sabratha, aos atemporais
 seo:
   title: Como viajar da Europa para a Líbia – Guia 2025

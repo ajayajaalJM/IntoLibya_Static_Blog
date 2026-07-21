@@ -5,7 +5,7 @@ canonicalPath: /en/skydiving-over-cyrene-what-adventurers-ask-first
 lang: en
 publishedAt: '2027-01-11'
 translationGroup: skydiving-over-cyrene-what-adventurers-ask-first
-featuredImage: /media/posts/skydiving-over-cyrene-what-adventurers-ask-first/hero.webp
+featuredImage: /media/posts/_hero-pool/cyrene-dest_benghazi_webp.webp
 draft: false
 galleries: []
 excerpt: 'Skydiving near east Libya uplands is a rare adventure ask; licensed IntoLibya routes confirm partner availability, insurance, and routing reality through TourBuilder.'

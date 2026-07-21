@@ -5,7 +5,7 @@ canonicalPath: /en/honeymoon-energy-on-quiet-libya-coast-and-desert-days
 lang: en
 publishedAt: '2027-01-06'
 translationGroup: honeymoon-energy-on-quiet-libya-coast-and-desert-days
-featuredImage: /media/posts/honeymoon-energy-on-quiet-libya-coast-and-desert-days/hero.webp
+featuredImage: /media/posts/_hero-pool/sahara-cdn_a45_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Honeymoon energy on quiet Libya coast and desert days means private pacing, sunset ruin light, optional camp nights, and licensed IntoLibya routes for couples who bond over space not nightlife.'

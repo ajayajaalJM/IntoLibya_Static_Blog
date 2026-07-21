@@ -6,7 +6,7 @@ lang: es
 wpImportId: 7010
 publishedAt: '2026-03-11'
 translationGroup: unearthing-the-foggara-water-in-the-desert
-featuredImage: /media/2025/10/Narrow-pathways-around-the-old-town-of-Ghadames-scaled.jpg
+featuredImage: /media/posts/beach-holiday-in-tunisia-then-culture-in-libya/hero.webp
 excerpt: 'En el corazón del Sahara, donde la arena se extiende sin fin y el agua es escasa, los pueblos antiguos descubrieron un secreto notable: la vida podría florecer incluso en el desierto más duro. Este secreto era el foggara, un ingenioso sistema de riego subterráneo que llevaba'
 seo:
   title: 'Desenterrar el Foggara: Agua en el desierto'

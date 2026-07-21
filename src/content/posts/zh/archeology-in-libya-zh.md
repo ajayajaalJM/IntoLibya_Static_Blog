@@ -6,7 +6,7 @@ lang: zh
 wpImportId: 6925
 publishedAt: '2026-03-11'
 translationGroup: archeology-in-libya
-featuredImage: /media/2025/09/IMG_7153-2-scaled.jpg
+featuredImage: /media/posts/_hero-pool/general-cdn_a20_jpg.webp
 excerpt: '利比亚考古故事:由时空考古在利比亚塑造的土地. 利比亚是沙漠沙洲与海洋交汇的地方. 它的景观拥有比写作更古老的秘密. 在它的山丘下 人们雕刻 绘画 建造'
 seo:
   title: 利比亚考古
@@ -39,7 +39,7 @@ seo:
 <p>罗马最终征服了北非. 在利比亚,他们建造了三个大城市: <a>莱普蒂斯·马格纳</a>, (中文). <a>萨布拉塔</a>和奥亚(现代的黎波里).</p>
 <p><a href="https://intolibya.com/leptis-magna/">莱普蒂斯·马格纳</a> 令人惊叹。 它的港口,basilica, 和市场竞争任何在罗马。 <a href="https://intolibya.com/sabratha/">萨布拉塔</a> 拥有一个曾经与拉丁语和希腊语戏剧相呼应的剧院. 这些废墟今天是教科文组织的遗址,是全球的珍宝。</p>
 <p>罗马公路连接了海岸与沙漠. 他们允许黄金、象牙和谷物的贸易。 考古学家 <a>陶瓷</a> 了解这些贸易网络。 陶器的碎片揭示了食物的储存、销售和消费地点。</p>
-<figure class="wp-block-image size-large"><img loading="lazy" alt="an arch in Leptis Magna" class="wp-image-5707" decoding="async" height="1024" loading="lazy" sizes="auto, (max-width: 768px) 100vw, 768px" src="/media/2025/09/IMG_4037-768x1024.jpg" width="768"/></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" alt="an arch in Leptis Magna" class="wp-image-5707" decoding="async" height="1024" loading="lazy" sizes="auto, (max-width: 768px) 100vw, 768px" src="/media/2025/09/IMG_4037-scaled.jpg" width="768"/></figure>
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
 <h2 class="wp-block-heading">信仰与新王国</h2>
 <p>随着罗马的衰弱,基督教的传播. 利比亚各地建立了教堂。 摩赛文和铭文表现出奉献精神和艺术.</p>

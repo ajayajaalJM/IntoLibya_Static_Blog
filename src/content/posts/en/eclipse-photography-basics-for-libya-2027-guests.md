@@ -5,7 +5,7 @@ canonicalPath: /en/eclipse-photography-basics-for-libya-2027-guests
 lang: en
 publishedAt: '2026-10-02'
 translationGroup: eclipse-photography-basics-for-libya-2027-guests
-featuredImage: /media/posts/eclipse-photography-basics-for-libya-2027-guests/hero.webp
+featuredImage: /media/posts/_hero-pool/cyrene-dest-tobruk.webp
 draft: false
 galleries: []
 excerpt: 'Eclipse photography basics for Libya 2027 guests start with eye safety, then timing, then gear humility. The sky show is short. Guests who fiddle with'

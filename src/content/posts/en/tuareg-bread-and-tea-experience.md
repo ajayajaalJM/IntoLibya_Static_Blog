@@ -5,7 +5,7 @@ canonicalPath: /en/tuareg-bread-and-tea-experience
 lang: en
 publishedAt: '2026-09-13'
 translationGroup: tuareg-bread-and-tea-experience
-featuredImage: /media/posts/tuareg-bread-and-tea-experience/hero.webp
+featuredImage: /media/posts/_hero-pool/sahara-cdn_a45_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Tuareg tea Libya travelers remember is rarely just a drink. It is a ritual of patience, foam, pour height, and conversation. Paired with bread baked in'

@@ -5,7 +5,7 @@ canonicalPath: /en/al-bayda-travel-notes-for-green-mountain-guests
 lang: en
 publishedAt: '2026-12-28'
 translationGroup: al-bayda-travel-notes-for-green-mountain-guests
-featuredImage: /media/posts/al-bayda-travel-notes-for-green-mountain-guests/hero.webp
+featuredImage: /media/posts/_hero-pool/cyrene-dest-ptolemais.webp
 draft: false
 galleries: []
 excerpt: 'Al Bayda travel notes for Green Mountain guests cover highland town context, east Libya routing, and licensed IntoLibya Cyrenaica days with layer clothing and driving realism.'

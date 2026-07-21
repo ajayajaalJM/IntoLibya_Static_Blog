@@ -5,7 +5,7 @@ canonicalPath: /en/repeat-visitors-ready-for-east-libya-after-a-west-circuit
 lang: en
 publishedAt: '2026-12-19'
 translationGroup: repeat-visitors-ready-for-east-libya-after-a-west-circuit
-featuredImage: /media/posts/repeat-visitors-ready-for-east-libya-after-a-west-circuit/hero.webp
+featuredImage: /media/posts/_hero-pool/cyrene-dest-jebel-akhdar.webp
 draft: false
 galleries: []
 excerpt: 'Repeat Libya visitors ready for east Libya after a west circuit add Shahat, Susa, Green Mountain air, and Benghazi hub days on licensed IntoLibya routes with extra time and routing checks.'

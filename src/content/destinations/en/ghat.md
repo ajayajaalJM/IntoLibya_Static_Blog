@@ -6,7 +6,7 @@ lang: en
 publishedAt: '2026-07-13'
 translationGroup: ghat
 draft: false
-featuredImage: /media/destinations/ghat/hero.webp
+featuredImage: /media/posts/_hero-pool/sahara-dest_ghat_webp.webp
 excerpt: Deep in southwest Libya, Ghat is the Tuareg gateway town where desert culture, old-town lanes, and Acacus expeditions begin.
 seo:
   title: Ghat - IntoLibya

@@ -5,7 +5,7 @@ canonicalPath: /en/libya-evisa-explained-step-by-step
 lang: en
 publishedAt: '2026-07-21'
 translationGroup: libya-evisa-explained-step-by-step
-featuredImage: /media/posts/libya-evisa-explained-step-by-step/hero.webp
+featuredImage: /media/posts/_hero-pool/tripoli-abstract_jpg.webp
 draft: false
 galleries: []
 excerpt: 'The Libya eVisa is the part of the trip that used to feel impossible. For years, tourist entry meant embassy guesswork and opaque delays. In 2024 Libya'

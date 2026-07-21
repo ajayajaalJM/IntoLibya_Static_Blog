@@ -5,7 +5,7 @@ canonicalPath: /en/how-tour-days-reduce-uncertainty-for-nervous-travelers
 lang: en
 publishedAt: '2026-12-07'
 translationGroup: how-tour-days-reduce-uncertainty-for-nervous-travelers
-featuredImage: /media/posts/how-tour-days-reduce-uncertainty-for-nervous-travelers/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a31_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Nervous travelers often calm down when tour days replace guessing with schedules: pickup times, checkpoint routines, guided site hours, and nightly debriefs.'

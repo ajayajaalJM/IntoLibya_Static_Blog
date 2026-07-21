@@ -5,7 +5,7 @@ canonicalPath: /en/why-guided-libya-trips-sit-beside-tunisia-egypt-holidays
 lang: en
 publishedAt: '2026-11-28'
 translationGroup: why-guided-libya-trips-sit-beside-tunisia-egypt-holidays
-featuredImage: /media/posts/why-guided-libya-trips-sit-beside-tunisia-egypt-holidays/hero.webp
+featuredImage: /media/posts/_hero-pool/cyrene-dest-jebel-akhdar.webp
 draft: false
 galleries: []
 excerpt: 'Guided Libya trips pair well after Tunisia beach weeks or Egypt Nile holidays for quiet Roman coast days.'

@@ -5,7 +5,7 @@ canonicalPath: /en/libya-safety-for-tourists-compared-with-headline-fear
 lang: en
 publishedAt: '2026-11-02'
 translationGroup: libya-safety-for-tourists-compared-with-headline-fear
-featuredImage: /media/posts/libya-safety-for-tourists-compared-with-headline-fear/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a16_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Headline fear describes Libya as a single story. Licensed tourist weeks describe meals, checkpoints, and empty ruins. Compare those scales before you decide.'

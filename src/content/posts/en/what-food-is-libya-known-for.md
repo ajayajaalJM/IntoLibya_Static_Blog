@@ -5,7 +5,7 @@ canonicalPath: /en/what-food-is-libya-known-for
 lang: en
 publishedAt: '2026-10-13'
 translationGroup: what-food-is-libya-known-for
-featuredImage: /media/posts/what-food-is-libya-known-for/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a1_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Libyan food is Mediterranean North African cooking with Italian echoes and oasis hospitality. Dishes travelers meet often include couscous, pasta with'

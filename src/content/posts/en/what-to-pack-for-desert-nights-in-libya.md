@@ -5,7 +5,7 @@ canonicalPath: /en/what-to-pack-for-desert-nights-in-libya
 lang: en
 publishedAt: '2026-09-22'
 translationGroup: what-to-pack-for-desert-nights-in-libya
-featuredImage: /media/posts/what-to-pack-for-desert-nights-in-libya/hero.webp
+featuredImage: /media/posts/_hero-pool/sahara-sahara_jpg.webp
 draft: false
 galleries: []
 excerpt: 'To pack for Sahara nights in Libya, plan for temperature swing, not for a single Instagram outfit. Desert days can feel warm even in season. Desert nights'

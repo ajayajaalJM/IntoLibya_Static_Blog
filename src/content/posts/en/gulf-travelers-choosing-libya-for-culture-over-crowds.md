@@ -5,7 +5,7 @@ canonicalPath: /en/gulf-travelers-choosing-libya-for-culture-over-crowds
 lang: en
 publishedAt: '2026-11-11'
 translationGroup: gulf-travelers-choosing-libya-for-culture-over-crowds
-featuredImage: /media/posts/gulf-travelers-choosing-libya-for-culture-over-crowds/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a7_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Gulf travelers pick Libya for culture depth, empty heritage mornings, and familiar hospitality norms on licensed IntoLibya tours without resort queue culture or nightlife packaging.'

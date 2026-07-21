@@ -5,7 +5,7 @@ canonicalPath: /en/greek-ruins-outside-greece-where-north-africa-wins
 lang: en
 publishedAt: '2026-11-20'
 translationGroup: greek-ruins-outside-greece-where-north-africa-wins
-featuredImage: /media/posts/greek-ruins-outside-greece-where-north-africa-wins/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a29_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Greek ruins outside Greece: Cyrenaica at Shahat puts Libya among North Africa''s strongest Hellenic heritage routes.'

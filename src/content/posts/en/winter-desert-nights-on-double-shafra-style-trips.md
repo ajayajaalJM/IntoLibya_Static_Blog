@@ -5,7 +5,7 @@ canonicalPath: /en/winter-desert-nights-on-double-shafra-style-trips
 lang: en
 publishedAt: '2026-09-16'
 translationGroup: winter-desert-nights-on-double-shafra-style-trips
-featuredImage: /media/posts/winter-desert-nights-on-double-shafra-style-trips/hero.webp
+featuredImage: /media/posts/_hero-pool/ghadames-event_event_double_shafra_desert_mens_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Winter desert nights on Double Shafra style trips are part of the joy and part of the honesty test. Days can feel mild enough for walking. After sunset,'

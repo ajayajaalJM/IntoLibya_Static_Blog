@@ -5,7 +5,7 @@ canonicalPath: /en/university-field-courses-and-libya-archaeology-travel
 lang: en
 publishedAt: '2026-12-15'
 translationGroup: university-field-courses-and-libya-archaeology-travel
-featuredImage: /media/posts/university-field-courses-and-libya-archaeology-travel/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a3_jpg.webp
 draft: false
 galleries: []
 excerpt: 'University field courses and Libya archaeology travel combine licensed sponsorship, academic learning goals, site time at Leptis Magna and Shahat, and IntoLibya logistics for student groups.'

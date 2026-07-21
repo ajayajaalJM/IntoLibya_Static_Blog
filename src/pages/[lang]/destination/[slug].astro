@@ -9,6 +9,9 @@ import { getAllDestinations, getDestinationTranslationSiblings } from '../../../
 import { galleriesAt, galleryImageObjects } from '../../../lib/galleries';
 import { LANG_LABELS, type Lang } from '../../../lib/post-schema';
 import { ogPathForFeaturedImage } from '../../../lib/og';
+import { buildImageObject, readMediaCatalogDimensions } from '../../../lib/image-sitemap';
+import { fileURLToPath } from 'node:url';
+import path from 'node:path';
 
 export async function getStaticPaths() {
   const destinations = await getAllDestinations();
@@ -46,15 +49,22 @@ const hreflangAlternates = [
   { lang: 'x-default', href: `${siteUrl}${destination.data.canonicalPath}` },
 ];
 
-const imageObjects = galleryImageObjects(galleries, siteUrl);
-if (destination.data.featuredImage) {
-  imageObjects.unshift({
-    '@type': 'ImageObject',
-    contentUrl: `${siteUrl}${destination.data.featuredImage}`,
-    description: destination.data.title,
-    name: destination.data.title,
-  });
-}
+const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../../..');
+const mediaMeta = await readMediaCatalogDimensions(repoRoot);
+const imageObjects = galleryImageObjects(galleries, siteUrl, mediaMeta);
+const heroMeta = mediaMeta.get(destination.data.featuredImage);
+const heroObject = buildImageObject(siteUrl, {
+  src: destination.data.featuredImage,
+  alt:
+    destination.data.featuredImageAlt?.trim() ||
+    heroMeta?.defaultAlt ||
+    destination.data.title,
+  name: destination.data.title,
+  width: heroMeta?.width,
+  height: heroMeta?.height,
+  credit: heroMeta?.credit,
+});
+if (heroObject) imageObjects.unshift(heroObject);
 
 const jsonLd = [
   {
@@ -63,6 +73,7 @@ const jsonLd = [
     name: destination.data.title,
     description: destination.data.seo.description,
     url: destination.data.seo.canonical,
+    primaryImageOfPage: heroObject || undefined,
     image: imageObjects.map((img) => img.contentUrl),
     inLanguage: lang,
     touristType: 'International travelers',
@@ -123,7 +134,7 @@ const jsonLd = [
 
       <OptimizedImage
         src={destination.data.featuredImage}
-        alt={destination.data.title}
+        alt={destination.data.featuredImageAlt?.trim() || destination.data.title}
         width={1200}
         height={675}
         widths={[640, 960, 1200]}

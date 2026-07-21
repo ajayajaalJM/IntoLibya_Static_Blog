@@ -5,7 +5,7 @@ canonicalPath: /en/tripoli-and-roman-ruins-short-plan
 lang: en
 publishedAt: '2026-08-23'
 translationGroup: tripoli-and-roman-ruins-short-plan
-featuredImage: /media/posts/tripoli-and-roman-ruins-short-plan/hero.webp
+featuredImage: /media/2025/10/Leptis-Magna-Baths-scaled.jpg
 draft: false
 galleries: []
 excerpt: 'A short Tripoli itinerary built around Roman ruins is the cleanest first look at tourist Libya. You land in the capital, recover, then give real hours to'

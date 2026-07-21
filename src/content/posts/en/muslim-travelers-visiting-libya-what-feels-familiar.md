@@ -5,7 +5,7 @@ canonicalPath: /en/muslim-travelers-visiting-libya-what-feels-familiar
 lang: en
 publishedAt: '2026-11-06'
 translationGroup: muslim-travelers-visiting-libya-what-feels-familiar
-featuredImage: /media/posts/muslim-travelers-visiting-libya-what-feels-familiar/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a31_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Muslim travelers in Libya find familiar prayer rhythm, halal food norms, and modest dress expectations inside licensed IntoLibya tours with guides who respect faith paced days.'

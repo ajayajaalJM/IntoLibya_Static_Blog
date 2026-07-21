@@ -5,7 +5,7 @@ canonicalPath: /en/libya-tours-for-adventure-seekers
 lang: en
 publishedAt: '2026-10-01'
 translationGroup: libya-tours-for-adventure-seekers
-featuredImage: /media/posts/libya-tours-for-adventure-seekers/hero.webp
+featuredImage: /media/posts/_hero-pool/sahara-sahara_jpg.webp
 draft: false
 galleries: []
 excerpt: 'A Libya adventure tour is desert driving, camp nights, oasis swims, and landscapes that still feel exploratory. Adventure seekers who want soft adventure'

@@ -5,7 +5,7 @@ canonicalPath: /en/nalut-spring-festival-what-travelers-may-hear-about
 lang: en
 publishedAt: '2027-01-04'
 translationGroup: nalut-spring-festival-what-travelers-may-hear-about
-featuredImage: /media/posts/nalut-spring-festival-what-travelers-may-hear-about/hero.webp
+featuredImage: /media/posts/beach-holiday-in-tunisia-then-culture-in-libya/hero.webp
 draft: false
 galleries: []
 excerpt: 'Nalut spring festival context helps travelers understand Jebel Nafusa highland celebration timing, access, and licensed IntoLibya routing when events overlap travel dates.'

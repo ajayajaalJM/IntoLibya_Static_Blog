@@ -6,7 +6,7 @@ lang: zh
 wpImportId: 6936
 publishedAt: '2026-03-11'
 translationGroup: libya-as-a-travel-destination
-featuredImage: /media/2025/09/IMG_3235-scaled.jpg
+featuredImage: /media/posts/can-tourists-visit-libya-yes-with-a-licensed-tour/hero.webp
 excerpt: 将利比亚建设为一个旅行目的地并非易事,但我们(利比亚人)必须组织起来,推动这项工作,因为利比亚公民和全球普通旅行者的利弊大于利弊。 利比亚是一个
 seo:
   title: 利比亚作为旅行目的地

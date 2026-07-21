@@ -6,7 +6,7 @@ lang: fr
 wpImportId: 6774
 publishedAt: '2026-03-11'
 translationGroup: how-to-travel-to-libya-from-europe-2025-guide
-featuredImage: /media/2023/12/Screen-Shot-2023-12-20-at-4.03.35-PM.png
+featuredImage: /media/2025/12/588952128_18541788997018455_4310813881741799310_n.jpg
 excerpt: Pourquoi les Européens devraient visiter la Libye La Libye est une destination qui allie le charme méditerranéen à l’aventure sahraouie, offrant une riche tapisserie historique, une vue imprenable sur la côte et de vastes paysages désertiques. Des anciennes villes romaines comme Leptis Magna et Sabratha à l’intemporel
 seo:
   title: Comment voyager en Libye depuis l'Europe – Guide 2025

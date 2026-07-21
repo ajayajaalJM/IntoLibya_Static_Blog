@@ -5,7 +5,7 @@ canonicalPath: /en/misrata-stopover-guide
 lang: en
 publishedAt: '2026-09-06'
 translationGroup: misrata-stopover-guide
-featuredImage: /media/posts/misrata-stopover-guide/hero.webp
+featuredImage: /media/posts/_hero-pool/general-dest_misrata_webp.webp
 draft: false
 galleries: []
 excerpt: 'Misrata is where many travelers first feel contemporary Libya as a working Mediterranean city rather than a sequence of ruins and desert camps. Set on the'

@@ -5,7 +5,7 @@ canonicalPath: /en/is-libya-safe-for-first-time-visitors-to-north-africa
 lang: en
 publishedAt: '2026-08-05'
 translationGroup: is-libya-safe-for-first-time-visitors-to-north-africa
-featuredImage: /media/posts/is-libya-safe-for-first-time-visitors-to-north-africa/hero.webp
+featuredImage: /media/2025/10/Leptis-Magna-Baths-scaled.jpg
 draft: false
 galleries: []
 excerpt: 'First time Libya travel is one of the first questions travelers ask when planning with IntoLibya. This guide answers it with practical steps, honest limits,'

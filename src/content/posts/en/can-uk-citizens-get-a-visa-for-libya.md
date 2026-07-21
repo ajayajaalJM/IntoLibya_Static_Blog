@@ -5,7 +5,7 @@ canonicalPath: /en/can-uk-citizens-get-a-visa-for-libya
 lang: en
 publishedAt: '2026-07-23'
 translationGroup: can-uk-citizens-get-a-visa-for-libya
-featuredImage: /media/posts/can-uk-citizens-get-a-visa-for-libya/hero.webp
+featuredImage: /media/posts/can-tourists-visit-libya-yes-with-a-licensed-tour/hero.webp
 draft: false
 galleries: []
 excerpt: 'Libya visa for UK citizens is one of the first questions travelers ask when planning with IntoLibya. This guide answers it with practical steps, honest'

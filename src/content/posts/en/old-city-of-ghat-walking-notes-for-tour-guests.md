@@ -5,7 +5,7 @@ canonicalPath: /en/old-city-of-ghat-walking-notes-for-tour-guests
 lang: en
 publishedAt: '2026-11-14'
 translationGroup: old-city-of-ghat-walking-notes-for-tour-guests
-featuredImage: /media/posts/old-city-of-ghat-walking-notes-for-tour-guests/hero.webp
+featuredImage: /media/posts/_hero-pool/rally-dest_waddan_webp.webp
 draft: false
 galleries: []
 excerpt: 'Walking the old city of Ghat on licensed tours shows Saharan architecture, lane rhythm, and frontier town life when southwestern routing and season allow on IntoLibya desert circuits.'

@@ -5,7 +5,7 @@ canonicalPath: /en/how-to-travel-to-libya-from-australia
 lang: en
 publishedAt: '2026-09-27'
 translationGroup: how-to-travel-to-libya-from-australia
-featuredImage: /media/posts/how-to-travel-to-libya-from-australia/hero.webp
+featuredImage: /media/posts/_hero-pool/sahara-sahara_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Travel to Libya from Australia is a long haul project with a clear payoff for travelers who want empty UNESCO scale sites and Sahara depth. The distance'

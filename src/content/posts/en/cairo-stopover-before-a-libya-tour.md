@@ -5,7 +5,7 @@ canonicalPath: /en/cairo-stopover-before-a-libya-tour
 lang: en
 publishedAt: '2026-10-08'
 translationGroup: cairo-stopover-before-a-libya-tour
-featuredImage: /media/posts/cairo-stopover-before-a-libya-tour/hero.webp
+featuredImage: /media/posts/_hero-pool/tripoli-cairo_jpg.webp
 draft: false
 galleries: []
 excerpt: 'A Cairo stopover Libya plan is useful when Egyptair or other routings make the Egyptian capital the cheapest or simplest bridge toward Tripoli . It is not'

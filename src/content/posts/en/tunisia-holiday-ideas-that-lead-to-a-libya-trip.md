@@ -5,7 +5,7 @@ canonicalPath: /en/tunisia-holiday-ideas-that-lead-to-a-libya-trip
 lang: en
 publishedAt: '2026-08-16'
 translationGroup: tunisia-holiday-ideas-that-lead-to-a-libya-trip
-featuredImage: /media/posts/tunisia-holiday-ideas-that-lead-to-a-libya-trip/hero.webp
+featuredImage: /media/posts/beach-holiday-in-tunisia-then-culture-in-libya/hero.webp
 draft: false
 galleries: []
 excerpt: 'Tunisia holiday then Libya is one of the first questions travelers ask when planning with IntoLibya. This guide answers it with practical steps, honest'

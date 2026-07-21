@@ -5,7 +5,7 @@ canonicalPath: /en/libya-in-march-and-april
 lang: en
 publishedAt: '2026-09-25'
 translationGroup: libya-in-march-and-april
-featuredImage: /media/posts/libya-in-march-and-april/hero.webp
+featuredImage: /media/posts/_hero-pool/leptis-sabratha_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Libya March travel, with April as its partner, is classic shoulder season at its best. Spring brings comfortable ruin weather, inviting desert nights, and a'

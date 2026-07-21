@@ -5,7 +5,7 @@ canonicalPath: /en/how-guests-talk-about-safety-after-returning-from-libya
 lang: en
 publishedAt: '2026-12-06'
 translationGroup: how-guests-talk-about-safety-after-returning-from-libya
-featuredImage: /media/posts/how-guests-talk-about-safety-after-returning-from-libya/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a20_jpg.webp
 draft: false
 galleries: []
 excerpt: 'After a licensed Libya tour, guests rarely say nothing happened. They say structure worked, checkpoints were boring, and the week felt both ordinary and extraordinary.'

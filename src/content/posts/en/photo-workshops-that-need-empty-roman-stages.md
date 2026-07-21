@@ -5,7 +5,7 @@ canonicalPath: /en/photo-workshops-that-need-empty-roman-stages
 lang: en
 publishedAt: '2026-12-15'
 translationGroup: photo-workshops-that-need-empty-roman-stages
-featuredImage: /media/posts/photo-workshops-that-need-empty-roman-stages/hero.webp
+featuredImage: /media/posts/_hero-pool/leptis-Leptis_Magna_Arch_of_Septimius_Severus.jpg.webp
 draft: false
 galleries: []
 excerpt: 'Photo workshops in Libya use empty Roman stages at Leptis Magna and Sabratha on licensed IntoLibya tours with flexible golden hour pacing, gear advice, and photography rule compliance.'

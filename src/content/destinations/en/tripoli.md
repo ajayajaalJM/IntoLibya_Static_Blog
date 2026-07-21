@@ -6,7 +6,7 @@ lang: en
 wpImportId: 5695
 publishedAt: '2025-09-06'
 translationGroup: tripoli
-featuredImage: /media/2025/09/IMG_3235-scaled.jpg
+featuredImage: /media/posts/can-tourists-visit-libya-yes-with-a-licensed-tour/hero.webp
 excerpt: Why Visit Tripoli? Tripoli, the capital of Libya, is one of North Africa’s most fascinating cities. Overlooking the turquoise waters of the Mediterranean Sea, this bustling metropolis is a place where cultures have collided for thousands of years. It has
 seo:
   title: Tripoli - IntoLibya

@@ -5,7 +5,7 @@ canonicalPath: /en/is-western-libya-safe-for-tourists
 lang: en
 publishedAt: '2026-07-30'
 translationGroup: is-western-libya-safe-for-tourists
-featuredImage: /media/posts/is-western-libya-safe-for-tourists/hero.webp
+featuredImage: /media/posts/beach-holiday-in-tunisia-then-culture-in-libya/hero.webp
 draft: false
 galleries: []
 excerpt: 'Yes it is! Western Libya is where most tourist itineraries begin, with Tripoli, Roman sites, and Ghadames on licensed IntoLibya routes.'

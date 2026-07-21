@@ -5,7 +5,7 @@ canonicalPath: /en/ghat-travel-guide-for-sahara-culture
 lang: en
 publishedAt: '2026-09-02'
 translationGroup: ghat-travel-guide-for-sahara-culture
-featuredImage: /media/posts/ghat-travel-guide-for-sahara-culture/hero.webp
+featuredImage: /media/posts/_hero-pool/sahara-dest_ghat_webp.webp
 draft: false
 galleries: []
 excerpt: 'To visit Ghat Libya is to choose the Sahara as a cultural place, not only a sand postcard. In the far southwest near Algeria and Niger approaches, Ghat has'

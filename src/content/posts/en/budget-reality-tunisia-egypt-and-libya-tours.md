@@ -5,7 +5,7 @@ canonicalPath: /en/budget-reality-tunisia-egypt-and-libya-tours
 lang: en
 publishedAt: '2026-10-09'
 translationGroup: budget-reality-tunisia-egypt-and-libya-tours
-featuredImage: /media/posts/budget-reality-tunisia-egypt-and-libya-tours/hero.webp
+featuredImage: /media/posts/_hero-pool/tripoli-abstract_jpg.webp
 draft: false
 galleries: []
 excerpt: 'North Africa tour cost comparisons fail when people stack Tunisia beach deals against Egypt Nile packages against Libya sponsored expeditions as if the'

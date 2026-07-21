@@ -6,7 +6,7 @@ lang: ja
 wpImportId: 6935
 publishedAt: '2026-03-11'
 translationGroup: libya-as-a-travel-destination
-featuredImage: /media/2025/09/IMG_3235-scaled.jpg
+featuredImage: /media/posts/can-tourists-visit-libya-yes-with-a-licensed-tour/hero.webp
 excerpt: Libyaを旅行先として構築するのは簡単な作業ではありませんが、私たち(リビアン)が周りを整理し、プロが平均的なLibyan市民とグローバルな旅行者のためのコンスを上回るようにプッシュする必要があります。 リビアは、その国である
 seo:
   title: 旅行目的地としてのリビア

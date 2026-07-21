@@ -5,7 +5,7 @@ canonicalPath: /en/how-licensed-operators-keep-guests-safe-in-libya
 lang: en
 publishedAt: '2026-08-03'
 translationGroup: how-licensed-operators-keep-guests-safe-in-libya
-featuredImage: /media/posts/how-licensed-operators-keep-guests-safe-in-libya/hero.webp
+featuredImage: /media/posts/18-day-full-country-libya-itinerary/hero.webp
 draft: false
 galleries: []
 excerpt: 'Licensed Libya tour operator is one of the first questions travelers ask when planning with IntoLibya. This guide answers it with practical steps, honest'

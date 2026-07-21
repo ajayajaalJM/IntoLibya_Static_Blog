@@ -5,7 +5,7 @@ canonicalPath: /en/diaspora-return-visits-traveling-with-family-in-libya
 lang: en
 publishedAt: '2026-12-16'
 translationGroup: diaspora-return-visits-traveling-with-family-in-libya
-featuredImage: /media/posts/diaspora-return-visits-traveling-with-family-in-libya/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a7_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Diaspora return visits to Libya with family combine emotional roots travel, licensed IntoLibya sponsorship, mixed age pacing, and realistic expectations for heritage days plus community time.'

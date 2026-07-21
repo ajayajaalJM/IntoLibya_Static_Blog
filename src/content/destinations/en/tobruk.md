@@ -6,7 +6,7 @@ lang: en
 publishedAt: '2026-07-13'
 translationGroup: tobruk
 draft: false
-featuredImage: /media/destinations/tobruk/hero.webp
+featuredImage: /media/posts/_hero-pool/cyrene-dest-tobruk.webp
 excerpt: Tobruk anchors Libya’s far-eastern Mediterranean coast—WWII heritage, a storied harbor, and gateway journeys toward Cyrenaica’s green hills.
 seo:
   title: Tobruk - IntoLibya

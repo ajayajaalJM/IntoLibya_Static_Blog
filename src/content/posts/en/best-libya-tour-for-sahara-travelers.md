@@ -5,7 +5,7 @@ canonicalPath: /en/best-libya-tour-for-sahara-travelers
 lang: en
 publishedAt: '2026-08-18'
 translationGroup: best-libya-tour-for-sahara-travelers
-featuredImage: /media/posts/best-libya-tour-for-sahara-travelers/hero.webp
+featuredImage: /media/posts/_hero-pool/sahara-sahara_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Libya Sahara tour planning starts with one honest question: do you want a taste of sand, or do you want nights that feel truly remote? The best Libya Sahara'

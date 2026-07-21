@@ -5,7 +5,7 @@ canonicalPath: /en/ziplining-over-a-wadi-in-east-libya
 lang: en
 publishedAt: '2027-01-11'
 translationGroup: ziplining-over-a-wadi-in-east-libya
-featuredImage: /media/posts/ziplining-over-a-wadi-in-east-libya/hero.webp
+featuredImage: /media/posts/_hero-pool/cyrene-east_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Ziplining over a wadi in east Libya may appear when local adventure partners and routing allow on licensed tours, confirmed through IntoLibya TourBuilder not assumed daily.'

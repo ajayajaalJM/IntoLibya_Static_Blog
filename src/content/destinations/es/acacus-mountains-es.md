@@ -6,7 +6,7 @@ lang: es
 wpImportId: 6889
 publishedAt: '2026-03-11'
 translationGroup: acacus-mountains
-featuredImage: /media/2023/12/Screen-Shot-2023-12-20-at-4.03.35-PM.png
+featuredImage: /media/2025/12/588952128_18541788997018455_4310813881741799310_n.jpg
 excerpt: Un patrimonio de la UNESCO en Libia donde la piedra y la arena reinan todos.
 seo:
   title: Montañas de Acacus

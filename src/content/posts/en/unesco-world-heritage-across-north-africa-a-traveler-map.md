@@ -5,7 +5,7 @@ canonicalPath: /en/unesco-world-heritage-across-north-africa-a-traveler-map
 lang: en
 publishedAt: '2026-10-26'
 translationGroup: unesco-world-heritage-across-north-africa-a-traveler-map
-featuredImage: /media/posts/unesco-world-heritage-across-north-africa-a-traveler-map/hero.webp
+featuredImage: /media/posts/_hero-pool/leptis-Leptis_Magna_-_Labdah_Libya_November_2004_6769450481_.jpg.webp
 draft: false
 galleries: []
 excerpt: 'A traveler map of UNESCO World Heritage across North Africa with Libya coast ruins, Ghadames, and Cyrenaica highlights.'

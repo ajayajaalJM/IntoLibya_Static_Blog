@@ -5,7 +5,7 @@ canonicalPath: /en/jebel-akhdar-travel-guide
 lang: en
 publishedAt: '2026-09-06'
 translationGroup: jebel-akhdar-travel-guide
-featuredImage: /media/posts/jebel-akhdar-travel-guide/hero.webp
+featuredImage: /media/posts/_hero-pool/cyrene-dest-jebel-akhdar.webp
 draft: false
 galleries: []
 excerpt: 'Jebel Akhdar Libya , the Green Mountain, is the landscape that surprises first timers most. While much of the country is desert and shoreline, this highland'

@@ -5,7 +5,7 @@ canonicalPath: /en/is-libya-safe-for-women-travelers
 lang: en
 publishedAt: '2026-08-01'
 translationGroup: is-libya-safe-for-women-travelers
-featuredImage: /media/posts/is-libya-safe-for-women-travelers/hero.webp
+featuredImage: /media/posts/can-tourists-visit-libya-yes-with-a-licensed-tour/hero.webp
 draft: false
 galleries: []
 excerpt: 'Yes it is! Women travel to Libya on licensed tours. Structure, pacing, and clear guiding matter more than internet slogans.'

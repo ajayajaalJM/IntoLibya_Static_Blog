@@ -5,7 +5,7 @@ canonicalPath: /en/total-solar-eclipse-2027-in-libya-guide
 lang: en
 publishedAt: '2026-09-21'
 translationGroup: total-solar-eclipse-2027-in-libya-guide
-featuredImage: /media/posts/total-solar-eclipse-2027-in-libya-guide/hero.webp
+featuredImage: /media/posts/_hero-pool/general-event_event_total_solar_eclipse_2027_libya_jpg.webp
 draft: false
 galleries: []
 excerpt: 'A solar eclipse Libya 2027 trip is date locked by the sky. Libya sits on the path of the total solar eclipse in August 2027, and that fact will pull serious'

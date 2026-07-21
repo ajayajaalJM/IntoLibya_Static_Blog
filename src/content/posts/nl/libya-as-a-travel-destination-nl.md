@@ -6,7 +6,7 @@ lang: nl
 wpImportId: 6937
 publishedAt: '2026-03-11'
 translationGroup: libya-as-a-travel-destination
-featuredImage: /media/2025/09/IMG_3235-scaled.jpg
+featuredImage: /media/posts/can-tourists-visit-libya-yes-with-a-licensed-tour/hero.webp
 excerpt: Het bouwen van Libië als reisbestemming is geen gemakkelijke taak, maar een die wij (Libiërs) moeten organiseren en duwen naar als de voors opwegen tegen de nadelen voor de gemiddelde Libische burger en wereldwijde reiziger. Libië is een land
 seo:
   title: Libië als Reisbestemming

@@ -9,16 +9,27 @@
   <body>
     <header>
       <div class="header-row">
-        <div>
+        <div class="writer-brand">
           <h1>IntoLibya Writer</h1>
           <p id="header-subtitle">Manage blog posts, destinations, images, and Instagram.</p>
         </div>
-        <nav class="app-nav">
-          <button type="button" class="nav-link is-active" data-view="dashboard">Dashboard</button>
+        <button
+          type="button"
+          class="nav-toggle"
+          id="nav-toggle"
+          aria-expanded="false"
+          aria-controls="writer-navigation"
+        >
+          <span class="nav-toggle-label">Menu</span>
+          <span class="nav-toggle-icon" aria-hidden="true"><i></i><i></i><i></i></span>
+        </button>
+        <nav class="app-nav" id="writer-navigation" aria-label="Writer sections">
+          <button type="button" class="nav-link is-active" data-view="dashboard" aria-current="page">Dashboard</button>
           <button type="button" class="nav-link" data-view="write">Editor</button>
           <button type="button" class="nav-link" data-view="library">Blog posts</button>
           <button type="button" class="nav-link" data-view="calendar">Calendar</button>
           <button type="button" class="nav-link" data-view="destinations">Destinations</button>
+          <button type="button" class="nav-link" data-view="images">Images</button>
           <button type="button" class="nav-link" data-view="instagram">Instagram</button>
           <button type="button" class="nav-link" data-view="qa">QA</button>
         </nav>
@@ -51,6 +62,10 @@
           <button type="button" class="dashboard-card" data-dashboard="destinations">
             <strong>Destinations</strong>
             <span>Place pages at /{lang}/destination/{name}</span>
+          </button>
+          <button type="button" class="dashboard-card" data-dashboard="images">
+            <strong>Images</strong>
+            <span>Browse, tag, copy URLs, track usage</span>
           </button>
           <button type="button" class="dashboard-card" data-dashboard="instagram">
             <strong>Instagram</strong>
@@ -136,7 +151,13 @@
             <p class="hint" id="draft-hint">Drafts stay out of builds, listings, and the sitemap. New posts and destinations default to draft — uncheck when ready to publish.</p>
 
             <label>Featured image (hero / OG)
-              <input name="featuredImage" required placeholder="/media/posts/my-slug/hero.webp" />
+              <div class="featured-image-row">
+                <input name="featuredImage" required placeholder="/media/posts/my-slug/hero.webp" />
+                <button type="button" id="browse-featured-image" class="btn-secondary">Browse</button>
+              </div>
+            </label>
+            <label>Featured image alt (SEO)
+              <input name="featuredImageAlt" placeholder="Describe the hero for accessibility &amp; SEO" />
             </label>
             <div
               class="dropzone"
@@ -146,10 +167,20 @@
               aria-label="Drop hero image here"
             >
               <p><strong>Drop hero image</strong> or click to upload</p>
-              <p class="hint">Compressed to WebP (max 1920px) into the correct media folder.</p>
+              <p class="hint">Lossless WebP master + responsive derivatives (no visual change to the master).</p>
               <input id="hero-file" type="file" accept="image/*" hidden />
             </div>
             <p class="hint" id="hero-upload-status"></p>
+
+            <div class="tags-panel">
+              <div class="tags-panel-header">
+                <strong>Writer tags</strong>
+                <span class="hint">Private metadata for search &amp; image recommendations (not public pages)</span>
+              </div>
+              <div id="post-tags-chips" class="tag-chip-row"></div>
+              <div id="destination-tag-buttons" class="destination-tag-buttons"></div>
+              <input type="hidden" name="tags" id="tags-input" value="" />
+            </div>
 
             <div id="social-thumb-panel" class="social-thumb-panel">
               <div class="social-thumb-header">
@@ -191,10 +222,13 @@
               aria-label="Drop images to create a gallery"
             >
               <p><strong>Drop images here</strong> to create a gallery</p>
-              <p class="hint">Same as hero: WebP, max 1920px, saved under the correct media folder. Multiple files OK.</p>
+              <p class="hint">Lossless WebP master + responsive derivatives. Multiple files OK. Or use Add from library on a gallery.</p>
               <input id="new-gallery-file" type="file" accept="image/*" multiple hidden />
             </div>
             <p class="hint" id="gallery-upload-status"></p>
+            <div class="actions" style="margin-bottom: 0.75rem">
+              <button type="button" id="add-gallery-from-library" class="btn-secondary">Add gallery from library</button>
+            </div>
             <div id="galleries-root" class="galleries-root"></div>
             <button type="button" id="add-gallery" class="btn-secondary">Add empty gallery</button>
           </fieldset>
@@ -342,6 +376,63 @@
         </label>
         <p class="hint library-search-meta" id="destinations-search-meta"></p>
         <div id="destinations-list" class="library-list"></div>
+      </section>
+    </main>
+
+    <main class="grid view-images hidden" id="view-images">
+      <section class="panel library-panel images-panel">
+        <div class="library-header">
+          <div>
+            <h2>Images</h2>
+            <p class="toolbar-note">
+              Catalog of <code>public/media</code>. Copy URLs into posts, edit tags/alt/credits, track usage.
+            </p>
+          </div>
+          <div class="library-header-actions">
+            <button type="button" id="media-reindex" class="btn-generate">Re-index</button>
+            <button type="button" id="media-review-dupes" class="btn-secondary">Review duplicates</button>
+            <button type="button" id="media-auto-merge-exact" class="btn-generate">Auto-merge exact duplicates</button>
+            <button type="button" id="media-ensure-selected" class="btn-secondary">Generate derivatives</button>
+            <button type="button" id="refresh-images" class="btn-secondary">Refresh</button>
+          </div>
+        </div>
+
+        <div class="images-toolbar">
+          <input type="search" id="images-search" class="library-search" placeholder="Search path, tags, alt, credit…" autocomplete="off" />
+          <label class="images-filter-check"><input type="checkbox" id="images-unused" /> Unused</label>
+          <label class="images-filter-check"><input type="checkbox" id="images-include-pool" /> Include pool</label>
+          <label class="images-filter-check"><input type="checkbox" id="images-missing-alt" /> Missing alt</label>
+          <label class="images-filter-check"><input type="checkbox" id="images-missing-deriv" /> Missing derivatives</label>
+          <label class="images-filter-check"><input type="checkbox" id="images-has-dupes" /> Has duplicates</label>
+          <select id="images-dup-kind" class="images-tag-filter" aria-label="Duplicate kind">
+            <option value="">All dup kinds</option>
+            <option value="exact">Exact only</option>
+            <option value="similar">Similar only</option>
+          </select>
+          <select id="images-tag-filter" class="images-tag-filter">
+            <option value="">All destination tags</option>
+          </select>
+        </div>
+        <p class="hint" id="images-meta">Loading…</p>
+
+        <div id="images-dupes-panel" class="images-dupes-panel hidden"></div>
+
+        <div
+          class="dropzone"
+          id="library-upload-dropzone"
+          tabindex="0"
+          role="button"
+          aria-label="Upload to media library"
+        >
+          <p><strong>Drop images</strong> to upload into <code>/media/library/</code></p>
+          <p class="hint">Lossless WebP master + responsive derivatives.</p>
+          <input id="library-upload-file" type="file" accept="image/*" multiple hidden />
+        </div>
+        <p class="hint" id="library-upload-status"></p>
+
+        <div id="images-destination-buttons" class="destination-tag-buttons"></div>
+        <div id="images-grid" class="images-grid"></div>
+        <div id="images-detail" class="images-detail hidden"></div>
       </section>
     </main>
 

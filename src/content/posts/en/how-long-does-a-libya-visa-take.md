@@ -5,7 +5,7 @@ canonicalPath: /en/how-long-does-a-libya-visa-take
 lang: en
 publishedAt: '2026-07-22'
 translationGroup: how-long-does-a-libya-visa-take
-featuredImage: /media/posts/how-long-does-a-libya-visa-take/hero.webp
+featuredImage: /media/posts/_hero-pool/tripoli-abstract_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Libya visa processing time is one of the first questions travelers ask when planning with IntoLibya. This guide answers it with practical steps, honest'

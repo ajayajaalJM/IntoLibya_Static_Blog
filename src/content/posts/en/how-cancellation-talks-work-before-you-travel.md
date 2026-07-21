@@ -5,7 +5,7 @@ canonicalPath: /en/how-cancellation-talks-work-before-you-travel
 lang: en
 publishedAt: '2026-12-05'
 translationGroup: how-cancellation-talks-work-before-you-travel
-featuredImage: /media/posts/how-cancellation-talks-work-before-you-travel/hero.webp
+featuredImage: /media/posts/_hero-pool/general-dest_waw_an_namus_webp.webp
 draft: false
 galleries: []
 excerpt: 'If you are comparing options, keep Libya’s licensed model in view while you read “How Cancellation Talks Work Before You Travel”: sponsorship is the door,'

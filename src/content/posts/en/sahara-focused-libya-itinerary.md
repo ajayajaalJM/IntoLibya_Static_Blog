@@ -5,7 +5,7 @@ canonicalPath: /en/sahara-focused-libya-itinerary
 lang: en
 publishedAt: '2026-08-24'
 translationGroup: sahara-focused-libya-itinerary
-featuredImage: /media/posts/sahara-focused-libya-itinerary/hero.webp
+featuredImage: /media/posts/_hero-pool/sahara-sahara_jpg.webp
 draft: false
 galleries: []
 excerpt: 'A Libya Sahara itinerary puts sand, silence, and oasis water at the center. Coastal ruins can still appear as bookends, but the emotional weight sits in'

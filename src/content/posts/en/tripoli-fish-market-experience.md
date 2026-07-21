@@ -5,7 +5,7 @@ canonicalPath: /en/tripoli-fish-market-experience
 lang: en
 publishedAt: '2026-09-08'
 translationGroup: tripoli-fish-market-experience
-featuredImage: /media/posts/tripoli-fish-market-experience/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a3_jpg.webp
 draft: false
 galleries: []
 excerpt: 'The Tripoli fish market experience is for travelers who believe a city reveals itself through appetite. Harbor catch, ice shine, vendor calls, and the smell'

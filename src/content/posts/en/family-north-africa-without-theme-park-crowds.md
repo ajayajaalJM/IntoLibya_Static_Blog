@@ -5,7 +5,7 @@ canonicalPath: /en/family-north-africa-without-theme-park-crowds
 lang: en
 publishedAt: '2026-11-26'
 translationGroup: family-north-africa-without-theme-park-crowds
-featuredImage: /media/posts/family-north-africa-without-theme-park-crowds/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a3_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Family North Africa without theme park crowds: licensed Libya tours with Leptis Magna wonder and sane pacing for kids.'

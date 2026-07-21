@@ -5,7 +5,7 @@ canonicalPath: /en/nordic-winter-escape-planning-a-libya-warm-break
 lang: en
 publishedAt: '2026-10-21'
 translationGroup: nordic-winter-escape-planning-a-libya-warm-break
-featuredImage: /media/posts/nordic-winter-escape-planning-a-libya-warm-break/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a8_jpg.webp
 draft: false
 galleries: []
 excerpt: 'A Nordic winter escape to Libya trades dark northern weeks for coast daylight and mild ruin walks. Plan buffer days after long haul flights and pack for cold Sahara nights even on a warm break.'

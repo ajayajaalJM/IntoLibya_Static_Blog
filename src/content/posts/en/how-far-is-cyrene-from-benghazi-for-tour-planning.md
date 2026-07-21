@@ -5,7 +5,7 @@ canonicalPath: /en/how-far-is-cyrene-from-benghazi-for-tour-planning
 lang: en
 publishedAt: '2026-11-17'
 translationGroup: how-far-is-cyrene-from-benghazi-for-tour-planning
-featuredImage: /media/posts/how-far-is-cyrene-from-benghazi-for-tour-planning/hero.webp
+featuredImage: /media/posts/_hero-pool/cyrene-dest-tobruk.webp
 draft: false
 galleries: []
 excerpt: 'Tour planning from Benghazi to Shahat uplands uses driving time not map distance, with licensed IntoLibya east routes confirming live road reality for Cyrenaica days.'

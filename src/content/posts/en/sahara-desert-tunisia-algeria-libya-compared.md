@@ -5,7 +5,7 @@ canonicalPath: /en/sahara-desert-tunisia-algeria-libya-compared
 lang: en
 publishedAt: '2026-10-05'
 translationGroup: sahara-desert-tunisia-algeria-libya-compared
-featuredImage: /media/posts/sahara-desert-tunisia-algeria-libya-compared/hero.webp
+featuredImage: /media/posts/_hero-pool/sahara-sahara_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Best Sahara North Africa is a core planning question for IntoLibya guests. This guide answers it with clear steps, tradeoffs, and booking next actions. The'

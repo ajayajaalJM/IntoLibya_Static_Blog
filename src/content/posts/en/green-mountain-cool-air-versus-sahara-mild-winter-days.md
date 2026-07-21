@@ -5,7 +5,7 @@ canonicalPath: /en/green-mountain-cool-air-versus-sahara-mild-winter-days
 lang: en
 publishedAt: '2026-10-22'
 translationGroup: green-mountain-cool-air-versus-sahara-mild-winter-days
-featuredImage: /media/posts/green-mountain-cool-air-versus-sahara-mild-winter-days/hero.webp
+featuredImage: /media/posts/_hero-pool/sahara-cdn_a38_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Green Mountain cool air and Sahara mild winter days sit in the same season yet feel like different trips. Jebel Akhdar brings crisp evenings while desert midday stays walkable and camp nights turn cold.'

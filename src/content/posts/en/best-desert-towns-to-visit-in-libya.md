@@ -5,7 +5,7 @@ canonicalPath: /en/best-desert-towns-to-visit-in-libya
 lang: en
 publishedAt: '2026-09-07'
 translationGroup: best-desert-towns-to-visit-in-libya
-featuredImage: /media/posts/best-desert-towns-to-visit-in-libya/hero.webp
+featuredImage: /media/posts/beach-holiday-in-tunisia-then-culture-in-libya/hero.webp
 draft: false
 galleries: []
 excerpt: 'The desert towns Libya offers are not interchangeable dots labeled Sahara. Each has a job. Ghadames is the Pearl of the Desert, a UNESCO old town of covered'

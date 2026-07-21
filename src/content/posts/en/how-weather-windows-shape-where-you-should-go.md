@@ -5,7 +5,7 @@ canonicalPath: /en/how-weather-windows-shape-where-you-should-go
 lang: en
 publishedAt: '2026-12-04'
 translationGroup: how-weather-windows-shape-where-you-should-go
-featuredImage: /media/posts/how-weather-windows-shape-where-you-should-go/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a8_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Read this as a guest briefing for “How Weather Windows Shape Where You Should Go”. Prices and live inclusions stay in TourBuilder so the article does not'

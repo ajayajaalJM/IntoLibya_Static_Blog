@@ -45,6 +45,7 @@ type PostLike = {
   publishedAt: string;
   draft?: boolean;
   featuredImage?: string;
+  featuredImageAlt?: string;
   body: string;
   path: string;
 };
@@ -428,6 +429,17 @@ export function buildQaCardsFromPosts(repoRoot: string, posts: PostLike[]): QaCa
 
   return unpublished.map((post) => {
     const scan = scanPostBody(post.body || '', linkIndex);
+    const errors = [...scan.errors];
+    if (post.featuredImage && !String(post.featuredImageAlt ?? '').trim()) {
+      errors.push({
+        id: 'missing-hero-alt',
+        severity: 'warn',
+        label: 'Hero image missing featuredImageAlt (SEO / a11y)',
+        snippet: post.featuredImage,
+      });
+    }
+    const errorCount = errors.filter((e) => e.severity === 'error').length;
+    const warnCount = errors.filter((e) => e.severity === 'warn').length;
     return {
       slug: post.slug,
       title: post.title,
@@ -437,11 +449,11 @@ export function buildQaCardsFromPosts(repoRoot: string, posts: PostLike[]): QaCa
       featuredImage: post.featuredImage,
       sourcePath: post.path || `src/content/posts/en/${post.slug}.md`,
       wordCount: scan.wordCount,
-      errorCount: scan.errorCount,
-      warnCount: scan.warnCount,
-      errors: scan.errors,
+      errorCount,
+      warnCount,
+      errors,
       htmlHighlighted: scan.htmlHighlighted,
-      status: scan.errorCount > 0 ? 'error' : scan.warnCount > 0 ? 'warn' : 'ok',
+      status: errorCount > 0 ? 'error' : warnCount > 0 ? 'warn' : 'ok',
     };
   });
 }

@@ -5,7 +5,7 @@ canonicalPath: /en/is-english-widely-spoken-in-libya
 lang: en
 publishedAt: '2026-10-12'
 translationGroup: is-english-widely-spoken-in-libya
-featuredImage: /media/posts/is-english-widely-spoken-in-libya/hero.webp
+featuredImage: /media/posts/can-tourists-visit-libya-yes-with-a-licensed-tour/hero.webp
 draft: false
 galleries: []
 excerpt: 'Not really. Younger generations often speak English, but elders may struggle to understand you. On an IntoLibya tour, guides bridge the language gap.'

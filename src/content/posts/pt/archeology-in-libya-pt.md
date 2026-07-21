@@ -6,7 +6,7 @@ lang: pt
 wpImportId: 6930
 publishedAt: '2026-03-11'
 translationGroup: archeology-in-libya
-featuredImage: /media/2025/09/IMG_7153-2-scaled.jpg
+featuredImage: /media/posts/_hero-pool/general-cdn_a20_jpg.webp
 excerpt: 'A História da Arqueologia na Líbia: Uma Terra Formada pela Arqueologia do Tempo na Líbia. A Líbia é uma terra onde as areias do deserto encontram o mar. Suas paisagens guardam segredos mais antigos do que escrever. Debaixo das suas montanhas e dunas, pessoas esculpidas, pintadas, construídas,'
 seo:
   title: Arqueologia na Líbia
@@ -39,7 +39,7 @@ seo:
 <p>Roma finalmente conquistou o Norte da África. Na Líbia, construíram três grandes cidades: <a>Leptis Magna</a>, <a>Sabratha</a>, e Oea (atual Trípoli).</p>
 <p><a href="https://intolibya.com/leptis-magna/">Leptis Magna</a> é de tirar o fôlego. Seu porto, basílica e mercado rival em Roma. <a href="https://intolibya.com/sabratha/">Sabratha</a> possui um teatro que uma vez ecoou com peças em latim e grego. Estas ruínas são hoje locais da UNESCO, sendo tesouros globais.</p>
 <p>Estradas romanas ligavam costa ao deserto. Eles permitiram o comércio de ouro, marfim e grãos. Arqueólogos estudando <a>cerâmicas</a> aprender sobre estas redes comerciais. Os pedaços de cerâmica revelam onde os alimentos eram armazenados, vendidos e consumidos.</p>
-<figure class="wp-block-image size-large"><img loading="lazy" alt="an arch in Leptis Magna" class="wp-image-5707" decoding="async" height="1024" loading="lazy" sizes="auto, (max-width: 768px) 100vw, 768px" src="/media/2025/09/IMG_4037-768x1024.jpg" width="768"/></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" alt="an arch in Leptis Magna" class="wp-image-5707" decoding="async" height="1024" loading="lazy" sizes="auto, (max-width: 768px) 100vw, 768px" src="/media/2025/09/IMG_4037-scaled.jpg" width="768"/></figure>
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
 <h2 class="wp-block-heading">Fé e Novos Reinos</h2>
 <p>Enquanto Roma enfraquecia, o cristianismo se espalhava. Igrejas foram construídas em toda a Líbia. Mosaicos e inscrições mostram devoção e arte.</p>

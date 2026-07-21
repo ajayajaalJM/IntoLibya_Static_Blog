@@ -5,7 +5,7 @@ canonicalPath: /en/if-you-loved-carthage-visit-sabratha-next
 lang: en
 publishedAt: '2026-10-06'
 translationGroup: if-you-loved-carthage-visit-sabratha-next
-featuredImage: /media/posts/if-you-loved-carthage-visit-sabratha-next/hero.webp
+featuredImage: /media/posts/_hero-pool/leptis-sabratha_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Carthage vs Sabratha is the natural bridge for travelers who finished Tunisia’s Phoenician and Roman layers and still want more Mediterranean stone.'

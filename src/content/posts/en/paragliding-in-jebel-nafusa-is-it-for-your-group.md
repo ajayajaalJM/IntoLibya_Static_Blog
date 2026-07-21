@@ -5,7 +5,7 @@ canonicalPath: /en/paragliding-in-jebel-nafusa-is-it-for-your-group
 lang: en
 publishedAt: '2027-01-09'
 translationGroup: paragliding-in-jebel-nafusa-is-it-for-your-group
-featuredImage: /media/posts/paragliding-in-jebel-nafusa-is-it-for-your-group/hero.webp
+featuredImage: /media/posts/_hero-pool/ghadames-event_event_double_shafra_ghadames_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Paragliding in Jebel Nafusa may suit adventure groups when local partners and season align on licensed IntoLibya highland routes, confirmed through TourBuilder not assumed daily.'

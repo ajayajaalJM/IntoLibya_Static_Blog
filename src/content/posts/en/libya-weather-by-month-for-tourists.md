@@ -5,7 +5,7 @@ canonicalPath: /en/libya-weather-by-month-for-tourists
 lang: en
 publishedAt: '2026-09-17'
 translationGroup: libya-weather-by-month-for-tourists
-featuredImage: /media/posts/libya-weather-by-month-for-tourists/hero.webp
+featuredImage: /media/posts/_hero-pool/tripoli-abstract_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Libya weather by month matters more than a single climate slogan. The Mediterranean coast and the Sahara do not share one mood. Tourists on licensed tours'

@@ -6,7 +6,7 @@ lang: ru
 wpImportId: 7086
 publishedAt: '2026-03-11'
 translationGroup: ghat-discover-the-culture-people-and-heritage-of-the-sahara
-featuredImage: /media/2025/12/ghat.jpg
+featuredImage: /media/posts/_hero-pool/general-cdn_a37_jpg.webp
 excerpt: Глубоко на юго-западе Ливии, недалеко от границ Алжира и Нигера, находится исторический город Гхат. На первый взгляд это может показаться отдаленным. Однако, как только вы приедете, становится ясно, что Гхат не изолирован от вас.
 seo:
   title: 'Гхат: Откройте для себя культуру, людей и наследие Сахары'

@@ -6,7 +6,7 @@ lang: en
 publishedAt: '2026-07-13'
 translationGroup: ptolemais
 draft: false
-featuredImage: /media/destinations/ptolemais/hero.webp
+featuredImage: /media/posts/_hero-pool/cyrene-dest-ptolemais.webp
 excerpt: Ptolemais (Tolmeita) preserves Greek–Roman coastal ruins of Cyrenaica’s Pentapolis—columns, streets, and Mediterranean silence near Libya’s Green Mountain.
 seo:
   title: Ptolemais - IntoLibya

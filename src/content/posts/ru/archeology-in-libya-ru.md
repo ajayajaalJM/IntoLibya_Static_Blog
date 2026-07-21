@@ -6,7 +6,7 @@ lang: ru
 wpImportId: 6931
 publishedAt: '2026-03-11'
 translationGroup: archeology-in-libya
-featuredImage: /media/2025/09/IMG_7153-2-scaled.jpg
+featuredImage: /media/posts/_hero-pool/general-cdn_a20_jpg.webp
 excerpt: 'История археологии в Ливии: Земля, сформированная археологией времени в Ливии. Ливия — это страна, где пески пустыни встречаются с морем. Его пейзажи хранят тайны, более древние, чем письменность. Под его горами и дюнами люди вырезаны, расписаны, построены.'
 seo:
   title: Археология в Ливии
@@ -39,7 +39,7 @@ seo:
 <p>Рим завоевал Северную Африку. В Ливии построили три больших города: <a>Лептис Магна</a>, <a>Сабрата</a>Oea (современный Триполи).</p>
 <p><a href="https://intolibya.com/leptis-magna/">Лептис Магна</a> захватывает дух. Его гавань, базилика и рынок соперничают с любыми в Риме. <a href="https://intolibya.com/sabratha/">Сабрата</a> Здесь есть театр, который когда-то перекликался с пьесами на латинском и греческом языках. Эти руины сегодня являются объектами ЮНЕСКО, которые являются мировыми сокровищами.</p>
 <p>Римские дороги соединяли побережье с пустыней. Они разрешали торговлю золотом, слоновой костью и зерном. Археологи изучают <a>керамика</a> Узнайте об этих торговых сетях. Осколки керамики показывают, где хранилась, продавалась и потреблялась пища.</p>
-<figure class="wp-block-image size-large"><img loading="lazy" alt="an arch in Leptis Magna" class="wp-image-5707" decoding="async" height="1024" loading="lazy" sizes="auto, (max-width: 768px) 100vw, 768px" src="/media/2025/09/IMG_4037-768x1024.jpg" width="768"/></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" alt="an arch in Leptis Magna" class="wp-image-5707" decoding="async" height="1024" loading="lazy" sizes="auto, (max-width: 768px) 100vw, 768px" src="/media/2025/09/IMG_4037-scaled.jpg" width="768"/></figure>
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
 <h2 class="wp-block-heading">Вера и новые королевства</h2>
 <p>Когда Рим ослаб, христианство распространилось. По всей Ливии были построены церкви. Мозаики и надписи показывают преданность и искусство.</p>

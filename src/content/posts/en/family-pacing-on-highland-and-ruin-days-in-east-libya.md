@@ -5,7 +5,7 @@ canonicalPath: /en/family-pacing-on-highland-and-ruin-days-in-east-libya
 lang: en
 publishedAt: '2026-12-30'
 translationGroup: family-pacing-on-highland-and-ruin-days-in-east-libya
-featuredImage: /media/posts/family-pacing-on-highland-and-ruin-days-in-east-libya/hero.webp
+featuredImage: /media/posts/_hero-pool/cyrene-dest_benghazi_webp.webp
 draft: false
 galleries: []
 excerpt: 'Family pacing on east Libya highland and ruin days means shorter Shahat blocks, Susa harbour stops, layer clothing, and licensed IntoLibya routes tuned to mixed ages and driving realism.'

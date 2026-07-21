@@ -5,7 +5,7 @@ canonicalPath: /en/horse-riding-on-the-beach-near-sabratha
 lang: en
 publishedAt: '2027-01-10'
 translationGroup: horse-riding-on-the-beach-near-sabratha
-featuredImage: /media/posts/horse-riding-on-the-beach-near-sabratha/hero.webp
+featuredImage: /media/posts/_hero-pool/leptis-Circus_Leptis_Magna_Libya.JPG.webp
 draft: false
 galleries: []
 excerpt: 'Horse riding on the beach near Sabratha may be offered as a licensed tour add on when local partners and season allow, confirmed through IntoLibya TourBuilder.'

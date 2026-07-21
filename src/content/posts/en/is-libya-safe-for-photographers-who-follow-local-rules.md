@@ -5,7 +5,7 @@ canonicalPath: /en/is-libya-safe-for-photographers-who-follow-local-rules
 lang: en
 publishedAt: '2026-12-09'
 translationGroup: is-libya-safe-for-photographers-who-follow-local-rules
-featuredImage: /media/posts/is-libya-safe-for-photographers-who-follow-local-rules/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a4_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Yes. Photographers on licensed Libya tours get empty theatres and desert light when they follow guide cues on people, checkpoints, and sensitive sites.'

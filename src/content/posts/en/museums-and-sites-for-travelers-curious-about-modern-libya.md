@@ -5,7 +5,7 @@ canonicalPath: /en/museums-and-sites-for-travelers-curious-about-modern-libya
 lang: en
 publishedAt: '2026-12-14'
 translationGroup: museums-and-sites-for-travelers-curious-about-modern-libya
-featuredImage: /media/posts/museums-and-sites-for-travelers-curious-about-modern-libya/hero.webp
+featuredImage: /media/posts/_hero-pool/tripoli-Huriyya_Mosque_Tripoli_Libya.JPG.webp
 draft: false
 galleries: []
 excerpt: 'Museums and modern Libya sites on licensed tours give travelers context beyond Roman ruins through Tripoli collections, city walks, and east Libya heritage stops with guide framing.'

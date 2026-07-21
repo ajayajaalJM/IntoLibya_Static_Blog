@@ -5,7 +5,7 @@ canonicalPath: /en/corporate-incentive-trips-looking-for-unusual-north-africa
 lang: en
 publishedAt: '2027-01-07'
 translationGroup: corporate-incentive-trips-looking-for-unusual-north-africa
-featuredImage: /media/posts/corporate-incentive-trips-looking-for-unusual-north-africa/hero.webp
+featuredImage: /media/posts/_hero-pool/general-event_event_total_solar_eclipse_2027_libya_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Unusual corporate incentive trips in North Africa: private Leptis Magna visits and licensed Libya group routes.'

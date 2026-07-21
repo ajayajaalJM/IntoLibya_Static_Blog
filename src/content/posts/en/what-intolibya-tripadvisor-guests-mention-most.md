@@ -5,7 +5,7 @@ canonicalPath: /en/what-intolibya-tripadvisor-guests-mention-most
 lang: en
 publishedAt: '2026-10-31'
 translationGroup: what-intolibya-tripadvisor-guests-mention-most
-featuredImage: /media/posts/what-intolibya-tripadvisor-guests-mention-most/hero.webp
+featuredImage: /media/posts/_hero-pool/cyrene-dest-jebel-akhdar.webp
 draft: false
 galleries: []
 excerpt: 'Read this as a guest briefing for “What IntoLibya TripAdvisor Guests Mention Most”. Prices and live inclusions stay in TourBuilder so the article does not'

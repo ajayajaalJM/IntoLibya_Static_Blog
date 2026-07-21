@@ -5,7 +5,7 @@ canonicalPath: /en/planning-north-africa-without-only-doing-morocco
 lang: en
 publishedAt: '2026-11-23'
 translationGroup: planning-north-africa-without-only-doing-morocco
-featuredImage: /media/posts/planning-north-africa-without-only-doing-morocco/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a34_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Plan North Africa beyond Morocco: Tunisia beaches, Libya Roman ruins, Egypt temples, and Algeria Sahara depth.'

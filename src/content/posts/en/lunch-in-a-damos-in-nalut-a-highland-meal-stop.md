@@ -5,7 +5,7 @@ canonicalPath: /en/lunch-in-a-damos-in-nalut-a-highland-meal-stop
 lang: en
 publishedAt: '2026-12-24'
 translationGroup: lunch-in-a-damos-in-nalut-a-highland-meal-stop
-featuredImage: /media/posts/lunch-in-a-damos-in-nalut-a-highland-meal-stop/hero.webp
+featuredImage: /media/posts/_hero-pool/ghadames-Ghadames.jpg.webp
 draft: false
 galleries: []
 excerpt: 'Lunch in a damos near Nalut offers highland meal hospitality in Jebel Nafusa routing on licensed IntoLibya western tours when offered and confirmed in TourBuilder.'

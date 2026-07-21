@@ -5,7 +5,7 @@ canonicalPath: /en/adventure-travel-north-africa-when-you-want-real-desert-time
 lang: en
 publishedAt: '2026-11-27'
 translationGroup: adventure-travel-north-africa-when-you-want-real-desert-time
-featuredImage: /media/posts/adventure-travel-north-africa-when-you-want-real-desert-time/hero.webp
+featuredImage: /media/posts/_hero-pool/sahara-dest_ghat_webp.webp
 draft: false
 galleries: []
 excerpt: 'Real desert adventure in North Africa: Acacus walks, Fezzan lakes, and licensed Libya expeditions beyond intro camps.'

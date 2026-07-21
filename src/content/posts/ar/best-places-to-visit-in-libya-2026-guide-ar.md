@@ -6,7 +6,7 @@ lang: ar
 wpImportId: 7153
 publishedAt: '2026-03-11'
 translationGroup: best-places-to-visit-in-libya-2026-guide
-featuredImage: /media/2025/09/IMG_7153-2-scaled.jpg
+featuredImage: /media/posts/_hero-pool/general-cdn_a20_jpg.webp
 excerpt: إن ليبيا واحدة من أكثر المقاصد شيوعا في شمال أفريقيا، وهنا أفضل أماكن الزيارة في ليبيا هذا العام. وعلى الرغم من أنها لا تزال أقل زيارة من البلدان المجاورة، فإنها تقدم تاريخا ملحوظا، ومناظر الصحراء الكبرى، وثقافة حية
 seo:
   title: أفضل الأماكن للزيارة في ليبيا 2026

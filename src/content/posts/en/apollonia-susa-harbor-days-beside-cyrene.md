@@ -5,7 +5,7 @@ canonicalPath: /en/apollonia-susa-harbor-days-beside-cyrene
 lang: en
 publishedAt: '2026-11-16'
 translationGroup: apollonia-susa-harbor-days-beside-cyrene
-featuredImage: /media/posts/apollonia-susa-harbor-days-beside-cyrene/hero.webp
+featuredImage: /media/posts/_hero-pool/cyrene-dest-qasr-libya.webp
 draft: false
 galleries: []
 excerpt: 'Apollonia and Susa harbour days beside Shahat uplands give east Libya guests sea air, Greek harbour ruins, and Cyrenaica pacing on licensed IntoLibya routes.'

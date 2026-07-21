@@ -5,6 +5,7 @@ export interface RichEditor {
   setHtml: (html: string) => void;
   focus: () => void;
   insertGalleryMarker: (id: string) => void;
+  insertHtml: (html: string) => void;
   destroy: () => void;
 }
 
@@ -19,6 +20,7 @@ type BlockCommand =
   | 'bold'
   | 'italic'
   | 'link'
+  | 'image'
   | 'hr'
   | 'clear';
 
@@ -33,6 +35,7 @@ const TOOLS: Array<{ cmd: BlockCommand; label: string; title: string }> = [
   { cmd: 'ol', label: '1. List', title: 'Numbered list' },
   { cmd: 'blockquote', label: 'Quote', title: 'Quoted text' },
   { cmd: 'link', label: 'Link', title: 'Insert / edit link' },
+  { cmd: 'image', label: 'Img', title: 'Insert image from library' },
   { cmd: 'hr', label: '—', title: 'Horizontal rule' },
   { cmd: 'clear', label: 'Clear', title: 'Clear formatting' },
 ];
@@ -79,6 +82,7 @@ export function createRichEditor(
   options: {
     onChange?: (html: string) => void;
     placeholder?: string;
+    onInsertImage?: () => void;
   } = {},
 ): RichEditor {
   mount.innerHTML = '';
@@ -187,6 +191,9 @@ export function createRichEditor(
         });
         break;
       }
+      case 'image':
+        options.onInsertImage?.();
+        return;
       default:
         break;
     }
@@ -246,6 +253,11 @@ export function createRichEditor(
       surface.focus();
       const marker = `<div data-gallery-marker="${escapeText(safeId)}" class="gallery-marker" contenteditable="false">Gallery: ${escapeText(safeId)}</div><p><br></p>`;
       document.execCommand('insertHTML', false, marker);
+      emitChange();
+    },
+    insertHtml: (html: string) => {
+      surface.focus();
+      document.execCommand('insertHTML', false, html);
       emitChange();
     },
     destroy: () => {

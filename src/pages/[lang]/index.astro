@@ -55,7 +55,7 @@ const hreflangAlternates = LANGS.map((l) => ({
             <a href={post.data.canonicalPath} class="card group overflow-hidden p-0 transition hover:-translate-y-1">
               <OptimizedImage
                 src={post.data.featuredImage}
-                alt=""
+                alt={post.data.featuredImageAlt?.trim() || post.data.title}
                 width={640}
                 height={360}
                 widths={[320, 480, 640]}

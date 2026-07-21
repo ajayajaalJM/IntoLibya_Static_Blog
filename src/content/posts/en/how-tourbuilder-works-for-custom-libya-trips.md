@@ -5,7 +5,7 @@ canonicalPath: /en/how-tourbuilder-works-for-custom-libya-trips
 lang: en
 publishedAt: '2026-08-11'
 translationGroup: how-tourbuilder-works-for-custom-libya-trips
-featuredImage: /media/posts/how-tourbuilder-works-for-custom-libya-trips/hero.webp
+featuredImage: /media/posts/18-day-full-country-libya-itinerary/hero.webp
 draft: false
 galleries: []
 excerpt: 'Libya TourBuilder is one of the first questions travelers ask when planning with IntoLibya. This guide answers it with practical steps, honest limits, and'

@@ -5,7 +5,7 @@ canonicalPath: /en/libya-for-honeymoon-style-couples
 lang: en
 publishedAt: '2026-10-03'
 translationGroup: libya-for-honeymoon-style-couples
-featuredImage: /media/posts/libya-for-honeymoon-style-couples/hero.webp
+featuredImage: /media/2025/10/Leptis-Magna-Baths-scaled.jpg
 draft: false
 galleries: []
 excerpt: 'A Libya couples tour is honeymoon style when privacy, pacing, and shared wonder lead the design. This is not a champagne cliché destination. It is for'

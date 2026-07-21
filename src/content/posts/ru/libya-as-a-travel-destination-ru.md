@@ -6,7 +6,7 @@ lang: ru
 wpImportId: 6942
 publishedAt: '2026-03-11'
 translationGroup: libya-as-a-travel-destination
-featuredImage: /media/2025/09/IMG_3235-scaled.jpg
+featuredImage: /media/posts/can-tourists-visit-libya-yes-with-a-licensed-tour/hero.webp
 excerpt: Создание Ливии в качестве туристического направления — непростая задача, но та, которую мы (ливийцы) должны организовать вокруг и продвигать, поскольку плюсы перевешивают минусы для среднего ливийского гражданина и глобального путешественника. Ливия – это страна, которая
 seo:
   title: Ливия как туристическое направление

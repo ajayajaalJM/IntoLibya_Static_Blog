@@ -5,7 +5,7 @@ canonicalPath: /en/hattia-pyramids-in-the-libyan-sahara-explained
 lang: en
 publishedAt: '2026-11-14'
 translationGroup: hattia-pyramids-in-the-libyan-sahara-explained
-featuredImage: /media/posts/hattia-pyramids-in-the-libyan-sahara-explained/hero.webp
+featuredImage: /media/posts/_hero-pool/sahara-dest_ghat_webp.webp
 draft: false
 galleries: []
 excerpt: 'Hattia pyramids in the Libyan Sahara are small ancient tombs near desert routes, best understood on licensed IntoLibya Sahara days with guide context and realistic access expectations.'

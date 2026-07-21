@@ -5,7 +5,7 @@ canonicalPath: /en/history-teachers-choosing-a-north-africa-field-destination
 lang: en
 publishedAt: '2026-11-29'
 translationGroup: history-teachers-choosing-a-north-africa-field-destination
-featuredImage: /media/posts/history-teachers-choosing-a-north-africa-field-destination/hero.webp
+featuredImage: /media/posts/_hero-pool/cyrene-dest-tobruk.webp
 draft: false
 galleries: []
 excerpt: 'History teachers planning North Africa field trips: Leptis Magna, Cyrenaica, and Ghadames for Roman and Greek curriculum ties.'

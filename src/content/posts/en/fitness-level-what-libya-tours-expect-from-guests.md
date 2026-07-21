@@ -5,7 +5,7 @@ canonicalPath: /en/fitness-level-what-libya-tours-expect-from-guests
 lang: en
 publishedAt: '2026-12-04'
 translationGroup: fitness-level-what-libya-tours-expect-from-guests
-featuredImage: /media/posts/fitness-level-what-libya-tours-expect-from-guests/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a7_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Read this as a guest briefing for “Fitness Level What Libya Tours Expect From Guests”. Prices and live inclusions stay in TourBuilder so the article does'

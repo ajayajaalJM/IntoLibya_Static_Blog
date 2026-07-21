@@ -5,7 +5,7 @@ canonicalPath: /en/how-to-travel-to-libya-from-belgium
 lang: en
 publishedAt: '2026-12-23'
 translationGroup: how-to-travel-to-libya-from-belgium
-featuredImage: /media/posts/how-to-travel-to-libya-from-belgium/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a3_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Travel to Libya from Belgium through licensed sponsorship, eVisa steps, and guided IntoLibya tours planned in TourBuilder before rigid flights.'

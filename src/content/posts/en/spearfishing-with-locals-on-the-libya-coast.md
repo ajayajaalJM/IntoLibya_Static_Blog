@@ -5,7 +5,7 @@ canonicalPath: /en/spearfishing-with-locals-on-the-libya-coast
 lang: en
 publishedAt: '2027-01-10'
 translationGroup: spearfishing-with-locals-on-the-libya-coast
-featuredImage: /media/posts/spearfishing-with-locals-on-the-libya-coast/hero.webp
+featuredImage: /media/posts/_hero-pool/cyrene-dest-jebel-akhdar.webp
 draft: false
 galleries: []
 excerpt: 'Spearfishing with locals on the Libya coast may be offered when local partners, season, and licensed tour routing allow, confirmed through IntoLibya TourBuilder.'

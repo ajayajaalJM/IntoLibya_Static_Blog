@@ -6,7 +6,7 @@ lang: fr
 wpImportId: 7149
 publishedAt: '2026-03-11'
 translationGroup: best-places-to-visit-in-libya-2026-guide
-featuredImage: /media/2025/09/IMG_7153-2-scaled.jpg
+featuredImage: /media/posts/_hero-pool/general-cdn_a20_jpg.webp
 excerpt: La Libye est l’une des destinations les plus fascinantes d’Afrique du Nord, voici les meilleurs endroits à visiter en Libye cette année. Bien qu’il reste moins visité que les pays voisins, il offre une histoire remarquable, de vastes paysages désertiques et une culture vivante.
 seo:
   title: Meilleurs endroits à visiter en Libye 2026 Guide

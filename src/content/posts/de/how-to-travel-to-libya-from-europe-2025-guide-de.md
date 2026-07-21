@@ -6,7 +6,7 @@ lang: de
 wpImportId: 6773
 publishedAt: '2026-03-11'
 translationGroup: how-to-travel-to-libya-from-europe-2025-guide
-featuredImage: /media/2023/12/Screen-Shot-2023-12-20-at-4.03.35-PM.png
+featuredImage: /media/2025/12/588952128_18541788997018455_4310813881741799310_n.jpg
 excerpt: Warum die Europäer Libyen besuchen sollten, ist ein Ziel, das mediterranen Charme mit Sahara-Abenteuer verbindet, bietet eine reiche historische Tapisie, atemberaubende Küstenansichten und riesige Wüstenlandschaften. Von alten römischen Städten wie Leptis Magna und Sabratha bis zum zeitlosen
 seo:
   title: Anreise nach Libyen von Europa – 2025 Anleitung

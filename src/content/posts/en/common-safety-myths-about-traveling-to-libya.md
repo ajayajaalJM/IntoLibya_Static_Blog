@@ -5,7 +5,7 @@ canonicalPath: /en/common-safety-myths-about-traveling-to-libya
 lang: en
 publishedAt: '2026-08-03'
 translationGroup: common-safety-myths-about-traveling-to-libya
-featuredImage: /media/posts/common-safety-myths-about-traveling-to-libya/hero.webp
+featuredImage: /media/posts/can-tourists-visit-libya-yes-with-a-licensed-tour/hero.webp
 draft: false
 galleries: []
 excerpt: 'Libya travel myths is one of the first questions travelers ask when planning with IntoLibya. This guide answers it with practical steps, honest limits, and'

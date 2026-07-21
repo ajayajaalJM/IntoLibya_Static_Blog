@@ -5,7 +5,7 @@ canonicalPath: /en/kid-friendly-days-on-a-guided-libya-coast-trip
 lang: en
 publishedAt: '2026-12-12'
 translationGroup: kid-friendly-days-on-a-guided-libya-coast-trip
-featuredImage: /media/posts/kid-friendly-days-on-a-guided-libya-coast-trip/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a2_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Kid friendly Libya coast days combine short ruin visits, sea air at Sabratha, Tripoli medina loops, and gentle pacing on licensed IntoLibya tours with shade, snacks, and realistic mileage.'

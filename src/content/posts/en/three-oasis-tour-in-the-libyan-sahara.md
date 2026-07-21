@@ -5,7 +5,7 @@ canonicalPath: /en/three-oasis-tour-in-the-libyan-sahara
 lang: en
 publishedAt: '2026-09-14'
 translationGroup: three-oasis-tour-in-the-libyan-sahara
-featuredImage: /media/posts/three-oasis-tour-in-the-libyan-sahara/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a34_jpg.webp
 draft: false
 galleries: []
 excerpt: 'A three oasis tour Libya travelers book when one lake is not enough. In the Ubari sand sea, several oasis pockets offer water, palms, and dune theatres with'

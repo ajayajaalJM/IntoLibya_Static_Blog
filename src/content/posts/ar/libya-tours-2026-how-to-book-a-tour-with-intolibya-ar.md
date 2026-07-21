@@ -6,7 +6,7 @@ lang: ar
 wpImportId: 7131
 publishedAt: '2026-03-11'
 translationGroup: libya-tours-2026-how-to-book-a-tour-with-intolibya
-featuredImage: /media/2025/09/IMG_3295-scaled.jpg
+featuredImage: /media/posts/_hero-pool/tripoli-abstract_jpg.webp
 excerpt: ولا تزال ليبيا واحدة من آخر وجهات غير مكتشفة بحق على الأرض. وترتفع المدن الرومانية القديمة من ساحل البحر الأبيض المتوسط، بينما تقطع طرق الكارافان خلال الكثبان الذهبية للصحراء. وفي الوقت نفسه، تحافظ المدن الشوفية على التقاليد القديمة القرون،
 seo:
   title: 'الجولات الليبية 2026: كيفية حجز جولة مع إنتوليبيا'

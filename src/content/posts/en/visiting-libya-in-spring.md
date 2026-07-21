@@ -5,7 +5,7 @@ canonicalPath: /en/visiting-libya-in-spring
 lang: en
 publishedAt: '2026-09-18'
 translationGroup: visiting-libya-in-spring
-featuredImage: /media/posts/visiting-libya-in-spring/hero.webp
+featuredImage: /media/2025/10/Leptis-Magna-Baths-scaled.jpg
 draft: false
 galleries: []
 excerpt: 'Libya in spring is one of the strongest answers to when you should go. March and April often combine comfortable coastal days with desert nights that chill'

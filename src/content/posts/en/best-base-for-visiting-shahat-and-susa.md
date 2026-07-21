@@ -5,7 +5,7 @@ canonicalPath: /en/best-base-for-visiting-shahat-and-susa
 lang: en
 publishedAt: '2026-11-18'
 translationGroup: best-base-for-visiting-shahat-and-susa
-featuredImage: /media/posts/best-base-for-visiting-shahat-and-susa/hero.webp
+featuredImage: /media/posts/_hero-pool/cyrene-dest_benghazi_webp.webp
 draft: false
 galleries: []
 excerpt: 'The best base for visiting Shahat and Susa is usually Benghazi hub logistics plus on route highland lodging arranged inside licensed IntoLibya east Cyrenaica itineraries.'

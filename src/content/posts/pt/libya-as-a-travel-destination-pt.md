@@ -6,7 +6,7 @@ lang: pt
 wpImportId: 6941
 publishedAt: '2026-03-11'
 translationGroup: libya-as-a-travel-destination
-featuredImage: /media/2025/09/IMG_3235-scaled.jpg
+featuredImage: /media/posts/can-tourists-visit-libya-yes-with-a-licensed-tour/hero.webp
 excerpt: Construir a Líbia como destino de viagem não é tarefa fácil, mas uma que nós (líbios) devemos organizar em torno e empurrar para como os prós superar os contras para o cidadão líbio médio e viajante global. A Líbia é um país que
 seo:
   title: Líbia como destino de viagem

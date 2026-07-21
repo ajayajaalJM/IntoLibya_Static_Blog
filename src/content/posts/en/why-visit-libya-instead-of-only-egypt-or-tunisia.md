@@ -5,7 +5,7 @@ canonicalPath: /en/why-visit-libya-instead-of-only-egypt-or-tunisia
 lang: en
 publishedAt: '2026-10-18'
 translationGroup: why-visit-libya-instead-of-only-egypt-or-tunisia
-featuredImage: /media/posts/why-visit-libya-instead-of-only-egypt-or-tunisia/hero.webp
+featuredImage: /media/2025/10/Leptis-Magna-Baths-scaled.jpg
 draft: false
 galleries: []
 excerpt: 'Why visit Libya instead of only Egypt or Tunisia? Because Libya offers empty UNESCO Roman cities, oasis architecture, and Sahara access with visitor density'

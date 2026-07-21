@@ -14,6 +14,19 @@ In the local writer (`npm run writer`), open the **QA** nav tab (or Dashboard �
 
 This stays in the writer only — it is not part of the public Astro site.
 
+## Images tab (local writer)
+
+Open **Images** in `npm run writer` to browse `public/media`, edit tags/alt/credits, copy URL / Markdown / HTML, and see English usage counts.
+
+- Uploads write a **lossless WebP master** plus responsive `.w{width}.webp` derivatives (400–1920). Content paths always point at the master.
+- Catalog: `data/media-catalog.json` (manual edits preserved). Rebuild with **Re-index** or `npm run media:index`.
+- Optional: `npm run media:backfill-derivatives` for older assets missing `.w*.webp` files.
+- Post/destination frontmatter may include private `tags` and `featuredImageAlt` (writer UX / SEO — no public tag pages).
+- Destination quick-tags come from `DESTINATION_TRANSLATION_GROUPS`. Do not auto-delete unused or credited pool assets.
+- **Duplicates:** **Review duplicates** always re-indexes first. **Auto-merge exact duplicates** consolidates every byte-identical group after one batch preview. In similar groups, select matching images to merge, or mark the entire group not similar; reviewed decisions persist in `data/media-duplicate-decisions.json`. Redundant files move to `media-quarantine/` (gitignored), not deleted. CLI: `npm run media:consolidate -- --list`.
+- Click an image to edit **default alt** (autosaves) and **per-use alts** on each English usage. “Fill missing per-use alts” only fills empty ones.
+- Public **image sitemap**: `/image-sitemap.xml` (also listed in `robots.txt`) — published masters only.
+
 ## Guest post prose (hard rule)
 
 Catalog Notes in `content-review/` (Soft CTA, SME confirm, Hotels stay vague, Accessible east, etc.) are **internal planning only**. Never paste them into `src/content/posts/` or destination bodies.

@@ -5,7 +5,7 @@ canonicalPath: /en/coastal-north-africa-history-from-leptis-to-alexandria-ideas
 lang: en
 publishedAt: '2026-12-31'
 translationGroup: coastal-north-africa-history-from-leptis-to-alexandria-ideas
-featuredImage: /media/posts/coastal-north-africa-history-from-leptis-to-alexandria-ideas/hero.webp
+featuredImage: /media/posts/_hero-pool/leptis-Leptis_Magna_90_8289923862_.jpg.webp
 draft: false
 galleries: []
 excerpt: 'Coastal history from Leptis Magna to Alexandria ideas: Roman Tripolitania, Cyrenaica, and Egypt sequenced across trips.'

@@ -6,7 +6,7 @@ lang: fr
 wpImportId: 6928
 publishedAt: '2026-03-11'
 translationGroup: archeology-in-libya
-featuredImage: /media/2025/09/IMG_7153-2-scaled.jpg
+featuredImage: /media/posts/_hero-pool/general-cdn_a20_jpg.webp
 excerpt: 'L’histoire de l’archéologie en Libye : une terre façonnée par l’archéologie temporelle en Libye. La Libye est une terre où les sables du désert rencontrent la mer. Ses paysages ont des secrets plus anciens que l’écriture. Sous ses montagnes et ses dunes, les gens sculptés, peints, construits,'
 seo:
   title: Archéologie en Libye
@@ -39,7 +39,7 @@ seo:
 <p>Rome a finalement conquis l&#8217;Afrique du Nord. En Libye, ils ont construit trois grandes villes: <a>Leptis Magna</a>, <a>Sabratha</a>, et Oea (aujourd&#8217;hui Tripoli).</p>
 <p><a href="https://intolibya.com/leptis-magna/">Leptis Magna</a> est à couper le souffle. Son port, sa basilique et son marché rivalisent à Rome. <a href="https://intolibya.com/sabratha/">Sabratha</a> possède un théâtre qui a autrefois fait écho aux pièces en latin et en grec. Ces ruines sont aujourd&#8217;hui des sites de l&#8217;UNESCO, des trésors mondiaux.</p>
 <p>Routes romaines reliant la côte au désert. Ils permettaient le commerce de l&#8217;or, de l&#8217;ivoire et du grain. Archéologues étudiant <a>céramique</a> En savoir plus sur ces réseaux commerciaux. Les charrues de poterie révèlent où les aliments ont été entreposés, vendus et consommés.</p>
-<figure class="wp-block-image size-large"><img loading="lazy" alt="an arch in Leptis Magna" class="wp-image-5707" decoding="async" height="1024" loading="lazy" sizes="auto, (max-width: 768px) 100vw, 768px" src="/media/2025/09/IMG_4037-768x1024.jpg" width="768"/></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" alt="an arch in Leptis Magna" class="wp-image-5707" decoding="async" height="1024" loading="lazy" sizes="auto, (max-width: 768px) 100vw, 768px" src="/media/2025/09/IMG_4037-scaled.jpg" width="768"/></figure>
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
 <h2 class="wp-block-heading">La foi et les nouveaux royaumes</h2>
 <p>Comme Rome s&#8217;est affaiblie, le christianisme s&#8217;est répandu. Des églises ont été construites à travers la Libye. Les mosaïques et les inscriptions montrent la dévotion et l&#8217;art.</p>

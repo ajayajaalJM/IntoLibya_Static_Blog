@@ -6,7 +6,7 @@ lang: en
 publishedAt: '2026-07-13'
 translationGroup: qasr-libya
 draft: false
-featuredImage: /media/destinations/qasr-libya/hero.webp
+featuredImage: /media/posts/_hero-pool/cyrene-dest-qasr-libya.webp
 excerpt: Qasr Libya holds a remarkable Byzantine mosaic museum in Libya’s Green Mountain—early Christian art amid Cyrenaica’s hills and archaeological quiet.
 seo:
   title: Qasr Libya - IntoLibya

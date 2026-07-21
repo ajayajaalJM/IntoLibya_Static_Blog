@@ -5,7 +5,7 @@ canonicalPath: /en/misrata-markets-as-a-modern-libya-city-stop
 lang: en
 publishedAt: '2026-12-29'
 translationGroup: misrata-markets-as-a-modern-libya-city-stop
-featuredImage: /media/posts/misrata-markets-as-a-modern-libya-city-stop/hero.webp
+featuredImage: /media/posts/_hero-pool/general-dest_misrata_webp.webp
 draft: false
 galleries: []
 excerpt: 'Misrata markets on licensed tours show modern Libyan city commerce and waterfront energy as living context beside heritage travel when routing allows on western circuits.'

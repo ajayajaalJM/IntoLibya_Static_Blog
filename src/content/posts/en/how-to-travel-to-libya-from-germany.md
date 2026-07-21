@@ -5,7 +5,7 @@ canonicalPath: /en/how-to-travel-to-libya-from-germany
 lang: en
 publishedAt: '2026-09-27'
 translationGroup: how-to-travel-to-libya-from-germany
-featuredImage: /media/posts/how-to-travel-to-libya-from-germany/hero.webp
+featuredImage: /media/2025/10/Leptis-Magna-Baths-scaled.jpg
 draft: false
 galleries: []
 excerpt: 'Travel to Libya from Germany is straightforward in process terms once you accept licensed sponsorship. German travelers often appreciate precise day lists,'

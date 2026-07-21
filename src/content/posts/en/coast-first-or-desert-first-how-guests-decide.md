@@ -5,7 +5,7 @@ canonicalPath: /en/coast-first-or-desert-first-how-guests-decide
 lang: en
 publishedAt: '2026-11-30'
 translationGroup: coast-first-or-desert-first-how-guests-decide
-featuredImage: /media/posts/coast-first-or-desert-first-how-guests-decide/hero.webp
+featuredImage: /media/posts/_hero-pool/sahara-dest-wadi-mathendous.webp
 draft: false
 galleries: []
 excerpt: 'Searchers who land here usually want a straight answer on timing, fit, and next steps for “Coast First or Desert First How Guests Decide”, not a recycled'

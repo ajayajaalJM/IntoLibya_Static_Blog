@@ -5,7 +5,7 @@ canonicalPath: /en/best-month-for-sahara-camping-in-libya
 lang: en
 publishedAt: '2026-09-24'
 translationGroup: best-month-for-sahara-camping-in-libya
-featuredImage: /media/posts/best-month-for-sahara-camping-in-libya/hero.webp
+featuredImage: /media/posts/_hero-pool/sahara-acacus_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Best month Sahara Libya is a core planning question for IntoLibya guests. This guide answers it with clear steps, tradeoffs, and booking next actions. The'

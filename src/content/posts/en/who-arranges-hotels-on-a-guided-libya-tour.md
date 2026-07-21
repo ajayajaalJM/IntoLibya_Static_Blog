@@ -5,7 +5,7 @@ canonicalPath: /en/who-arranges-hotels-on-a-guided-libya-tour
 lang: en
 publishedAt: '2026-10-28'
 translationGroup: who-arranges-hotels-on-a-guided-libya-tour
-featuredImage: /media/posts/who-arranges-hotels-on-a-guided-libya-tour/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a29_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Who arranges hotels on a guided Libya tour: IntoLibya confirms coastal hotels, oasis stays, and desert camps inside your licensed quote.'

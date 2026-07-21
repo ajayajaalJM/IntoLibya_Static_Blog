@@ -6,7 +6,7 @@ lang: ru
 wpImportId: 7130
 publishedAt: '2026-03-11'
 translationGroup: libya-tours-2026-how-to-book-a-tour-with-intolibya
-featuredImage: /media/2025/09/IMG_3295-scaled.jpg
+featuredImage: /media/posts/_hero-pool/tripoli-abstract_jpg.webp
 excerpt: Ливия остается одним из последних неоткрытых мест на Земле. Древнеримские города поднимаются от побережья Средиземного моря, а караванные маршруты прорезают золотые дюны Сахары. В то же время оазисные города сохраняют многовековые традиции.
 seo:
   title: 'Ливийские туры 2026: как забронировать тур в Ливию'

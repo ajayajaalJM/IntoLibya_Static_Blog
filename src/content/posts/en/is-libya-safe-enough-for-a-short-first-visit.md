@@ -5,7 +5,7 @@ canonicalPath: /en/is-libya-safe-enough-for-a-short-first-visit
 lang: en
 publishedAt: '2026-11-03'
 translationGroup: is-libya-safe-enough-for-a-short-first-visit
-featuredImage: /media/posts/is-libya-safe-enough-for-a-short-first-visit/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a29_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Yes it is. A four to seven day licensed western sampler is how many guests test Libya without overcommitting. Structure keeps a short first visit calm and complete.'

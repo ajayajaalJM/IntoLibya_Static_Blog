@@ -5,7 +5,7 @@ canonicalPath: /en/if-you-loved-luxor-why-leptis-magna-matters
 lang: en
 publishedAt: '2026-10-06'
 translationGroup: if-you-loved-luxor-why-leptis-magna-matters
-featuredImage: /media/posts/if-you-loved-luxor-why-leptis-magna-matters/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a20_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Luxor vs Leptis Magna is the question travelers ask after an Egypt trip that changed them. Luxor delivers pharaonic intensity: temples at dawn, tomb'

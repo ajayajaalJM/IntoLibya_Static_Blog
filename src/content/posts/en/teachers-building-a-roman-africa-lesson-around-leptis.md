@@ -5,7 +5,7 @@ canonicalPath: /en/teachers-building-a-roman-africa-lesson-around-leptis
 lang: en
 publishedAt: '2026-12-18'
 translationGroup: teachers-building-a-roman-africa-lesson-around-leptis
-featuredImage: /media/posts/teachers-building-a-roman-africa-lesson-around-leptis/hero.webp
+featuredImage: /media/posts/_hero-pool/leptis-Theatre_Leptis_Magna_Libya.jpg.webp
 draft: false
 galleries: []
 excerpt: 'Teachers building Roman Africa lessons around Leptis Magna use licensed IntoLibya study routes, full site days, comparative Sabratha stops, and pre trip classroom framing for student travel.'

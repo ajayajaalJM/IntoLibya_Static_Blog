@@ -5,7 +5,7 @@ canonicalPath: /en/ghadames-pearl-of-the-desert-guide
 lang: en
 publishedAt: '2026-09-01'
 translationGroup: ghadames-pearl-of-the-desert-guide
-featuredImage: /media/posts/ghadames-pearl-of-the-desert-guide/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a7_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Ghadames earned the nickname Pearl of the Desert the honest way: by surviving as a beautiful oasis town when the surrounding Sahara looks endless. Near'

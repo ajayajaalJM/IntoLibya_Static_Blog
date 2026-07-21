@@ -5,7 +5,7 @@ canonicalPath: /en/flying-to-libya-via-cairo
 lang: en
 publishedAt: '2026-07-25'
 translationGroup: flying-to-libya-via-cairo
-featuredImage: /media/posts/flying-to-libya-via-cairo/hero.webp
+featuredImage: /media/posts/_hero-pool/tripoli-cairo_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Cairo to Tripoli flights is one of the first questions travelers ask when planning with IntoLibya. This guide answers it with practical steps, honest'

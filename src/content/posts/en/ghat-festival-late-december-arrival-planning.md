@@ -5,7 +5,7 @@ canonicalPath: /en/ghat-festival-late-december-arrival-planning
 lang: en
 publishedAt: '2026-09-22'
 translationGroup: ghat-festival-late-december-arrival-planning
-featuredImage: /media/posts/ghat-festival-late-december-arrival-planning/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a37_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Late December arrival for the Ghat International Tourism Festival needs buffers, not only a festival ticket fantasy. Most guests still enter Libya through'

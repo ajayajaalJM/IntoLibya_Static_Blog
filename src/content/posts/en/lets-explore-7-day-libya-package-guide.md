@@ -5,7 +5,7 @@ canonicalPath: /en/lets-explore-7-day-libya-package-guide
 lang: en
 publishedAt: '2026-08-19'
 translationGroup: lets-explore-7-day-libya-package-guide
-featuredImage: /media/posts/lets-explore-7-day-libya-package-guide/hero.webp
+featuredImage: /media/posts/18-day-full-country-libya-itinerary/hero.webp
 draft: false
 galleries: []
 excerpt: 'A 7 day Libya tour is the length most first visitors should take seriously. The Lets Explore style western week adds desert town texture to the Roman coast'

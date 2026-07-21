@@ -5,7 +5,7 @@ canonicalPath: /en/three-countries-border-point-at-ghadames
 lang: en
 publishedAt: '2026-09-12'
 translationGroup: three-countries-border-point-at-ghadames
-featuredImage: /media/posts/three-countries-border-point-at-ghadames/hero.webp
+featuredImage: /media/posts/beach-holiday-in-tunisia-then-culture-in-libya/hero.webp
 draft: false
 galleries: []
 excerpt: 'The Algeria Tunisia Libya border point near Ghadames is pure geographic theatre. Travelers love standing where three countries touch, smiling at a marker,'

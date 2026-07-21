@@ -43,7 +43,7 @@ seo:
 
 <p class="wp-block-paragraph">The ruins are not just silent stone. They are a mirror. They remind us that Libyans have always lived in a rhythm that ties community, work, and faith into one whole.</p>
 
-<figure class="wp-block-image size-large"><img fetchpriority="high" decoding="async" width="768" height="1024" sizes="(max-width: 768px) 100vw, 768px" src="/media/2025/09/IMG_4037-768x1024.jpg" alt="an arch in Leptis Magna" class="wp-image-5707" /></figure>
+<figure class="wp-block-image size-large"><img fetchpriority="high" decoding="async" width="768" height="1024" sizes="(max-width: 768px) 100vw, 768px" src="/media/2025/09/IMG_4037-scaled.jpg" alt="an arch in Leptis Magna" class="wp-image-5707" /></figure>
 
 <h2 class="wp-block-heading"><strong>Closing Thought</strong></h2>
 

@@ -5,7 +5,7 @@ canonicalPath: /en/scam-anxiety-versus-real-tourist-risks-in-libya
 lang: en
 publishedAt: '2027-01-03'
 translationGroup: scam-anxiety-versus-real-tourist-risks-in-libya
-featuredImage: /media/posts/scam-anxiety-versus-real-tourist-risks-in-libya/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a39_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Scam anxiety often overshadows real tourist risks in Libya. Licensed sponsorship fixes most payment chaos; remaining risks are logistical, advisory, and behavioral.'

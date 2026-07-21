@@ -25,37 +25,37 @@ seo:
 
 <p class="wp-block-paragraph">Their journey began in <a href="/en/destination/sabratha">Sabratha</a>, where ancient Roman ruins sit right beside the Mediterranean Sea. The vast theatre and detailed carvings made it clear why this site is considered one of Libya’s great treasures.</p>
 
-<figure class="wp-block-image size-large"><img data-dominant-color="87807b" data-has-transparency="false" style="--dominant-color: #87807b;" fetchpriority="high" decoding="async" width="1024" height="768" sizes="(max-width: 1024px) 100vw, 1024px" src="/media/2025/12/588848438_18541185433018455_3900415649044028217_n-1024x768.jpg" alt="" class="wp-image-6253 not-transparent" /></figure>
+<figure class="wp-block-image size-large"><img data-dominant-color="87807b" data-has-transparency="false" style="--dominant-color: #87807b;" fetchpriority="high" decoding="async" width="1024" height="768" sizes="(max-width: 1024px) 100vw, 1024px" src="/media/2025/12/588507215_18540874564018455_434047416663652807_n.jpg" alt="" class="wp-image-6253 not-transparent" /></figure>
 
 <h3 class="wp-block-heading"><a href="https://intolibya.com/leptis-magna/">Leptis Magna</a></h3>
 
 <p class="wp-block-paragraph">From there they continued to <a href="/en/destination/leptis-magna">Leptis Magna</a>, a city that often surprises visitors with its size and level of preservation. Exploring the Arch of Septimius Severus, the Hadrianic Baths and the sprawling Forum with Spanish explanations helped them understand the stories behind the stones.</p>
 
-<figure class="wp-block-image size-large"><img data-dominant-color="a18871" data-has-transparency="false" style="--dominant-color: #a18871;" decoding="async" width="1024" height="768" sizes="(max-width: 1024px) 100vw, 1024px" src="/media/2025/12/588995993_18541029244018455_7853883102439429950_n-1024x768.jpg" alt="" class="wp-image-6260 not-transparent" /></figure>
+<figure class="wp-block-image size-large"><img data-dominant-color="a18871" data-has-transparency="false" style="--dominant-color: #a18871;" decoding="async" width="1024" height="768" sizes="(max-width: 1024px) 100vw, 1024px" src="/media/2025/12/588723216_18541306732018455_4682535793656268838_n.jpg" alt="" class="wp-image-6260 not-transparent" /></figure>
 
 <h3 class="wp-block-heading">Nalut &amp; Qaser El Haj</h3>
 
 <p class="wp-block-paragraph">The mountain town of Nalut offered a completely different atmosphere. High above the desert, they visited the Amazigh granary, learned about traditional Berber life and took in the panoramic views of the <a href="/en/destination/jebel-nafusa">Nafusa Mountains</a>.</p>
 
-<figure class="wp-block-image size-large"><img data-dominant-color="807575" data-has-transparency="false" style="--dominant-color: #807575;" decoding="async" width="1024" height="769" sizes="(max-width: 1024px) 100vw, 1024px" src="/media/2025/12/587777867_18541306723018455_1932802759767599244_n-1024x769.jpg" alt="" class="wp-image-6249 not-transparent" /></figure>
+<figure class="wp-block-image size-large"><img data-dominant-color="807575" data-has-transparency="false" style="--dominant-color: #807575;" decoding="async" width="1024" height="769" sizes="(max-width: 1024px) 100vw, 1024px" src="/media/2025/12/587777867_18541306723018455_1932802759767599244_n.jpg" alt="" class="wp-image-6249 not-transparent" /></figure>
 
 <h3 class="wp-block-heading"><a href="https://intolibya.com/ghadames/">Ghadames</a></h3>
 
 <p class="wp-block-paragraph"><a href="/en/destination/ghadames">Ghadames</a>, known as the Pearl of the Desert, was one of the highlights of their trip. The whitewashed old city, its shaded alleys and rooftop paths felt like walking through a living museum. With their translator, they were able to speak with local families, share tea and hear personal stories about life in this oasis.</p>
 
-<figure class="wp-block-image size-large"><img data-dominant-color="564037" data-has-transparency="false" style="--dominant-color: #564037;" loading="lazy" decoding="async" width="1024" height="768" sizes="(max-width: 1024px) 100vw, 1024px" src="/media/2025/12/588393664_18541504216018455_5578399368568140821_n-1024x768.jpg" alt="" class="wp-image-6242 not-transparent" /></figure>
+<figure class="wp-block-image size-large"><img data-dominant-color="564037" data-has-transparency="false" style="--dominant-color: #564037;" loading="lazy" decoding="async" width="1024" height="768" sizes="(max-width: 1024px) 100vw, 1024px" src="/media/posts/_hero-pool/ghadames-Ghadames_Panorama_April_2004.jpg.webp" alt="" class="wp-image-6242 not-transparent" /></figure>
 
 <h3 class="wp-block-heading"><a href="https://intolibya.com/tripoli/">Tripoli</a></h3>
 
 <p class="wp-block-paragraph">Their final stop was <a href="/en/destination/tripoli">Tripoli</a>. They explored the Old Town, visited the Red Castle and spent time in the city’s lively markets. They told us how much they appreciated being able to communicate freely during their stay, which made their experience more personal and meaningful.</p>
 
-<figure class="wp-block-image size-large"><img data-dominant-color="8e765f" data-has-transparency="false" style="--dominant-color: #8e765f;" loading="lazy" decoding="async" width="1024" height="769" sizes="(max-width: 1024px) 100vw, 1024px" src="/media/2025/12/588409481_18540874642018455_6936638243749543776_n-1024x769.jpg" alt="" class="wp-image-6264 not-transparent" /></figure>
+<figure class="wp-block-image size-large"><img data-dominant-color="8e765f" data-has-transparency="false" style="--dominant-color: #8e765f;" loading="lazy" decoding="async" width="1024" height="769" sizes="(max-width: 1024px) 100vw, 1024px" src="/media/posts/_hero-pool/leptis-Leptis_Magna.jpg.webp" alt="" class="wp-image-6264 not-transparent" /></figure>
 
 <h2 class="wp-block-heading">Their Impression of Libya</h2>
 
 <p class="wp-block-paragraph">Throughout their journey, the couple consistently mentioned how <strong>safe, comfortable and well-organised</strong> everything felt. Libya might be unfamiliar to many travelers, but with experienced guides, reliable transport and full language support, it becomes a destination that is not only accessible but deeply rewarding.</p>
 
-<figure class="wp-block-image size-large"><img data-dominant-color="87837c" data-has-transparency="false" style="--dominant-color: #87837c;" loading="lazy" decoding="async" width="1024" height="768" sizes="(max-width: 1024px) 100vw, 1024px" src="/media/2025/12/588952128_18541788997018455_4310813881741799310_n-1024x768.jpg" alt="" class="wp-image-6238 not-transparent" /></figure>
+<figure class="wp-block-image size-large"><img data-dominant-color="87837c" data-has-transparency="false" style="--dominant-color: #87837c;" loading="lazy" decoding="async" width="1024" height="768" sizes="(max-width: 1024px) 100vw, 1024px" src="/media/2025/12/588952128_18541788997018455_4310813881741799310_n.jpg" alt="" class="wp-image-6238 not-transparent" /></figure>
 
 <h2 class="wp-block-heading">Plan Your Own Trip With IntoLibya</h2>
 

@@ -5,7 +5,7 @@ canonicalPath: /en/how-to-plan-a-libya-trip-around-fixed-event-dates
 lang: en
 publishedAt: '2026-09-22'
 translationGroup: how-to-plan-a-libya-trip-around-fixed-event-dates
-featuredImage: /media/posts/how-to-plan-a-libya-trip-around-fixed-event-dates/hero.webp
+featuredImage: /media/posts/18-day-full-country-libya-itinerary/hero.webp
 draft: false
 galleries: []
 excerpt: 'Libya festival tour dates reverse the usual planning order. Instead of picking a season and then browsing options, you lock the event first and build'

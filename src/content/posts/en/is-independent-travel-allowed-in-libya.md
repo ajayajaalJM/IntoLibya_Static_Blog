@@ -5,7 +5,7 @@ canonicalPath: /en/is-independent-travel-allowed-in-libya
 lang: en
 publishedAt: '2026-08-18'
 translationGroup: is-independent-travel-allowed-in-libya
-featuredImage: /media/posts/is-independent-travel-allowed-in-libya/hero.webp
+featuredImage: /media/posts/18-day-full-country-libya-itinerary/hero.webp
 draft: false
 galleries: []
 excerpt: 'No. Unfortunately you will need a guide, but we can help with that. Independent tourist travel is not the model in Libya.'

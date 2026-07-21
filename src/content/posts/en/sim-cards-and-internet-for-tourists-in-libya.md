@@ -5,7 +5,7 @@ canonicalPath: /en/sim-cards-and-internet-for-tourists-in-libya
 lang: en
 publishedAt: '2026-07-27'
 translationGroup: sim-cards-and-internet-for-tourists-in-libya
-featuredImage: /media/posts/sim-cards-and-internet-for-tourists-in-libya/hero.webp
+featuredImage: /media/posts/can-tourists-visit-libya-yes-with-a-licensed-tour/hero.webp
 draft: false
 galleries: []
 excerpt: 'SIM card Libya is one of the first questions travelers ask when planning with IntoLibya. This guide answers it with practical steps, honest limits, and'

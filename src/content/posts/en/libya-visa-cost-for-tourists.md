@@ -5,7 +5,7 @@ canonicalPath: /en/libya-visa-cost-for-tourists
 lang: en
 publishedAt: '2026-07-22'
 translationGroup: libya-visa-cost-for-tourists
-featuredImage: /media/posts/libya-visa-cost-for-tourists/hero.webp
+featuredImage: /media/posts/_hero-pool/tripoli-abstract_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Libya visa cost for tourists is a stack, not a single sticker. The government eVisa portal charges fees that can vary by nationality. Your licensed tour has'

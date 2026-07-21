@@ -5,7 +5,7 @@ canonicalPath: /en/all-inclusive-vs-lean-libya-tours
 lang: en
 publishedAt: '2026-08-09'
 translationGroup: all-inclusive-vs-lean-libya-tours
-featuredImage: /media/posts/all-inclusive-vs-lean-libya-tours/hero.webp
+featuredImage: /media/posts/18-day-full-country-libya-itinerary/hero.webp
 draft: false
 galleries: []
 excerpt: 'Libya tour options is one of the first questions travelers ask when planning with IntoLibya. This guide answers it with practical steps, honest limits, and'

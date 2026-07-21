@@ -6,7 +6,7 @@ lang: en
 wpImportId: 5729
 publishedAt: '2025-09-07'
 translationGroup: acacus-mountains
-featuredImage: /media/2023/12/Screen-Shot-2023-12-20-at-4.03.35-PM.png
+featuredImage: /media/2025/12/588952128_18541788997018455_4310813881741799310_n.jpg
 excerpt: A UNESCO heritage site in Libya where stone and sand rule all.
 seo:
   title: Acacus Mountains - IntoLibya

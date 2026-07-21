@@ -5,7 +5,7 @@ canonicalPath: /en/what-language-support-guests-get-on-libya-tours
 lang: en
 publishedAt: '2026-12-03'
 translationGroup: what-language-support-guests-get-on-libya-tours
-featuredImage: /media/posts/what-language-support-guests-get-on-libya-tours/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a39_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Read this as a guest briefing for “What Language Support Guests Get on Libya Tours”. Prices and live inclusions stay in TourBuilder so the article does'

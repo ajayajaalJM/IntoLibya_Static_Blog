@@ -5,7 +5,7 @@ canonicalPath: /en/flying-tunis-to-tripoli-for-a-libya-tour
 lang: en
 publishedAt: '2026-08-17'
 translationGroup: flying-tunis-to-tripoli-for-a-libya-tour
-featuredImage: /media/posts/flying-tunis-to-tripoli-for-a-libya-tour/hero.webp
+featuredImage: /media/posts/beach-holiday-in-tunisia-then-culture-in-libya/hero.webp
 draft: false
 galleries: []
 excerpt: 'Tunis Tripoli flight is one of the first questions travelers ask when planning with IntoLibya. This guide answers it with practical steps, honest limits,'

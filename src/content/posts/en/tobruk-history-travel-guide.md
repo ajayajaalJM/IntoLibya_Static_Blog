@@ -5,7 +5,7 @@ canonicalPath: /en/tobruk-history-travel-guide
 lang: en
 publishedAt: '2026-09-05'
 translationGroup: tobruk-history-travel-guide
-featuredImage: /media/posts/tobruk-history-travel-guide/hero.webp
+featuredImage: /media/posts/_hero-pool/cyrene-dest-tobruk.webp
 draft: false
 galleries: []
 excerpt: 'Tobruk occupies a strategic notch on Libya’s far eastern Mediterranean shore. The harbor that made it valuable to empires also made it a focal point of the'

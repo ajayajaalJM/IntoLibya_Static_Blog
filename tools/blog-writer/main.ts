@@ -1,5 +1,6 @@
 import { LANGS, LANG_LABELS, type Lang } from '@lib/post-schema';
 import type { Gallery, GalleryImage, GalleryPosition } from '@lib/gallery-schema';
+import { DESTINATION_TRANSLATION_GROUPS } from '@lib/destination-schema';
 import {
   buildAllMarkdown,
   buildMarkdown,
@@ -12,6 +13,13 @@ import {
 } from './lib/post-markdown';
 import { createRichEditor, type RichEditor } from './lib/rich-editor';
 import { escapePlainField } from './lib/sanitize-html';
+import {
+  htmlSnippet,
+  initImagesTab,
+  openMediaPicker,
+  populateDestinationTagButtons,
+  renderTagChips,
+} from './lib/media-tab';
 
 type ProgressStatus =
   | 'disabled'
@@ -24,7 +32,15 @@ type ProgressStatus =
   | 'saved'
   | 'error';
 
-type WriterView = 'dashboard' | 'write' | 'library' | 'calendar' | 'destinations' | 'instagram' | 'qa';
+type WriterView =
+  | 'dashboard'
+  | 'write'
+  | 'library'
+  | 'calendar'
+  | 'destinations'
+  | 'images'
+  | 'instagram'
+  | 'qa';
 type CalendarFilter = 'all' | 'scheduled' | 'live' | 'draft';
 type CalendarPostStatus = 'scheduled' | 'live' | 'draft';
 
@@ -83,6 +99,8 @@ interface LoadedPost {
   translationGroup: string;
   publishedAt: string;
   featuredImage?: string;
+  featuredImageAlt?: string;
+  tags?: string[];
   draft?: boolean;
   seoTitle: string;
   seoDescription: string;
@@ -118,8 +136,11 @@ const viewWrite = document.getElementById('view-write') as HTMLElement;
 const viewLibrary = document.getElementById('view-library') as HTMLElement;
 const viewCalendar = document.getElementById('view-calendar') as HTMLElement;
 const viewDestinations = document.getElementById('view-destinations') as HTMLElement;
+const viewImages = document.getElementById('view-images') as HTMLElement;
 const viewInstagram = document.getElementById('view-instagram') as HTMLElement;
 const viewQa = document.getElementById('view-qa') as HTMLElement;
+const appNav = document.getElementById('writer-navigation') as HTMLElement;
+const navToggle = document.getElementById('nav-toggle') as HTMLButtonElement;
 const calendarGrid = document.getElementById('calendar-grid') as HTMLDivElement;
 const calendarMeta = document.getElementById('calendar-meta') as HTMLParagraphElement;
 const calendarMonthLabel = document.getElementById('calendar-month-label') as HTMLElement;
@@ -149,6 +170,8 @@ interface EditorSnapshot {
   baseSlug: string;
   publishedAt: string;
   featuredImage: string;
+  featuredImageAlt: string;
+  tags: string[];
   draft: boolean;
   seoTitle: string;
   seoDescription: string;
@@ -186,6 +209,8 @@ function captureSnapshot(): EditorSnapshot {
     baseSlug: baseSlugInput.value,
     publishedAt: dateInput.value,
     featuredImage: featuredImageInput.value,
+    featuredImageAlt: featuredImageAltInput.value,
+    tags: [...postTags],
     draft: draftCheckbox.checked,
     seoTitle: (form.elements.namedItem('seoTitle') as HTMLInputElement).value,
     seoDescription: (form.elements.namedItem('seoDescription') as HTMLTextAreaElement).value,
@@ -204,6 +229,8 @@ function restoreSnapshot(snapshot: EditorSnapshot) {
   baseSlugManual = Boolean(snapshot.baseSlug);
   dateInput.value = snapshot.publishedAt;
   featuredImageInput.value = snapshot.featuredImage;
+  featuredImageAltInput.value = snapshot.featuredImageAlt || '';
+  setPostTags(snapshot.tags || []);
   draftCheckbox.checked = snapshot.draft;
   (form.elements.namedItem('seoTitle') as HTMLInputElement).value = snapshot.seoTitle;
   (form.elements.namedItem('seoDescription') as HTMLTextAreaElement).value = snapshot.seoDescription;
@@ -266,6 +293,8 @@ async function runAutosave() {
         publishedAt: snapshot.publishedAt || new Date().toISOString().slice(0, 10),
         translationGroup: snapshot.translationGroup,
         featuredImage: snapshot.featuredImage.trim(),
+        featuredImageAlt: snapshot.featuredImageAlt?.trim(),
+        tags: snapshot.tags || [],
         galleries: sanitizeGalleries(snapshot.galleries),
         contentKind: snapshot.contentKind,
         draft: snapshot.draft,
@@ -320,6 +349,10 @@ const baseSlugInput = form.elements.namedItem('baseSlug') as HTMLInputElement;
 const titleInput = form.elements.namedItem('title') as HTMLInputElement;
 const dateInput = form.elements.namedItem('publishedAt') as HTMLInputElement;
 const featuredImageInput = form.elements.namedItem('featuredImage') as HTMLInputElement;
+const featuredImageAltInput = form.elements.namedItem('featuredImageAlt') as HTMLInputElement;
+const tagsHiddenInput = document.getElementById('tags-input') as HTMLInputElement;
+const postTagsChips = document.getElementById('post-tags-chips') as HTMLElement;
+const destinationTagButtons = document.getElementById('destination-tag-buttons') as HTMLElement;
 const draftCheckbox = document.getElementById('draft-checkbox') as HTMLInputElement;
 const socialThumbPanel = document.getElementById('social-thumb-panel') as HTMLElement | null;
 const socialThumbImg = document.getElementById('social-thumb-img') as HTMLImageElement | null;
@@ -345,6 +378,7 @@ let activeOutputLang: Lang = 'en';
 let editingGroup: string | null = null;
 let contentKind: ContentKind = 'post';
 let galleries: Gallery[] = [];
+let postTags: string[] = [];
 let translationsVisible = false;
 const translationDrafts = new Map<Lang, PostDraft>();
 const outputs = new Map<Lang, GeneratedFile>();
@@ -390,12 +424,48 @@ function setContentKind(kind: ContentKind) {
   syncPrimarySlugPreview();
 }
 
+function setPostTags(tags: string[]) {
+  postTags = [...new Set(tags.map((t) => t.trim()).filter(Boolean))];
+  tagsHiddenInput.value = postTags.join(',');
+  renderTagChips(postTagsChips, postTags, (tag) => {
+    setPostTags(postTags.filter((t) => t !== tag));
+    regeneratePreview();
+    scheduleAutosave();
+  });
+  populateDestinationTagButtons(
+    destinationTagButtons,
+    (tag) => {
+      if (postTags.includes(tag)) setPostTags(postTags.filter((t) => t !== tag));
+      else setPostTags([...postTags, tag]);
+      regeneratePreview();
+      scheduleAutosave();
+    },
+    new Set(postTags),
+  );
+}
+
+function preferredPickerTags(): string[] {
+  const fromTitle = titleInput.value
+    .toLowerCase()
+    .split(/[^a-z0-9-]+/)
+    .filter((t) => t.length > 3);
+  const destHits = [...DESTINATION_TRANSLATION_GROUPS].filter(
+    (d) =>
+      postTags.includes(d) ||
+      titleInput.value.toLowerCase().includes(d.replace(/-/g, ' ')) ||
+      baseSlugInput.value.includes(d),
+  );
+  return [...new Set([...postTags, ...destHits, ...fromTitle])].slice(0, 16);
+}
+
 function sharedMeta() {
   const baseSlug = baseSlugInput.value.trim() || slugify(titleInput.value.trim());
   return {
     publishedAt: dateInput.value || new Date().toISOString().slice(0, 10),
     translationGroup: baseSlug,
     featuredImage: featuredImageInput.value.trim(),
+    featuredImageAlt: featuredImageAltInput.value.trim(),
+    tags: [...postTags],
     galleries: sanitizeGalleries(galleries),
     contentKind: getContentKind(),
     draft: draftCheckbox.checked,
@@ -820,9 +890,10 @@ function renderGalleries() {
             aria-label="Drop gallery images"
           >
             <p><strong>Drop images</strong> or click to upload into this gallery</p>
-            <p class="hint">Compressed to WebP (max 1920px) into the media folder for this ${getContentKind()}.</p>
+            <p class="hint">Lossless WebP master + responsive derivatives into the media folder for this ${getContentKind()}.</p>
             <input type="file" accept="image/*" multiple hidden class="gallery-file" />
           </div>
+          <button type="button" class="btn-secondary g-from-library" data-gallery-index="${gIndex}">Add from library</button>
           <div class="gallery-images">${imagesHtml || '<p class="hint">No images yet — drop files above.</p>'}</div>
         </article>
       `;
@@ -912,6 +983,23 @@ function wireGalleryEditors() {
       });
     }
 
+    editor.querySelector('.g-from-library')?.addEventListener('click', () => {
+      openMediaPicker({
+        title: `Add to gallery ${gallery.id}`,
+        preferredTags: preferredPickerTags(),
+        onSelect: (item) => {
+          gallery.images.push({
+            src: item.path,
+            alt: item.defaultAlt || '',
+            caption: '',
+          });
+          renderGalleries();
+          regeneratePreview();
+          scheduleAutosave();
+        },
+      });
+    });
+
     editor.querySelectorAll<HTMLElement>('.gallery-image-row').forEach((row) => {
       const iIndex = Number(row.dataset.i);
       const image = gallery.images[iIndex];
@@ -994,7 +1082,7 @@ function wireGalleryEditors() {
 }
 
 async function createGalleryFromFiles(files: File[]) {
-  galleryUploadStatus.textContent = `Uploading & compressing ${files.length} image(s)…`;
+  galleryUploadStatus.textContent = `Uploading lossless master + derivatives for ${files.length} image(s)…`;
   const paths = await uploadImages(files);
   const id = `gallery-${galleries.length + 1}`;
   galleries.push({
@@ -1027,10 +1115,10 @@ function addGallery() {
   regeneratePreview();
 }
 
-async function uploadImages(files: File[]): Promise<string[]> {
+async function uploadImages(files: File[], kindOverride?: ContentKind | 'library'): Promise<string[]> {
   const slug = baseSlugInput.value.trim() || slugify(titleInput.value.trim()) || 'untitled';
   const body = new FormData();
-  body.append('kind', getContentKind());
+  body.append('kind', kindOverride || getContentKind());
   body.append('slug', slug);
   for (const file of files) body.append('images', file);
 
@@ -1247,6 +1335,9 @@ function resetWriter(kind: ContentKind = getContentKind()) {
   form.reset();
   setContentKind(kind);
   dateInput.value = new Date().toISOString().slice(0, 10);
+  featuredImageInput.value = '';
+  featuredImageAltInput.value = '';
+  setPostTags([]);
   draftCheckbox.checked = true; // New posts and destinations start as drafts
   baseSlugManual = false;
   bodyInput.value = '';
@@ -1293,6 +1384,8 @@ async function loadGroupIntoEditor(translationGroup: string, kind: ContentKind) 
   baseSlugManual = true;
   dateInput.value = english.publishedAt || new Date().toISOString().slice(0, 10);
   featuredImageInput.value = english.featuredImage ?? '';
+  featuredImageAltInput.value = english.featuredImageAlt ?? '';
+  setPostTags(Array.isArray(english.tags) ? english.tags : []);
   draftCheckbox.checked = english.draft === true;
   scheduleSocialThumbnailRefresh();
   (form.elements.namedItem('seoTitle') as HTMLInputElement).value = english.seoTitle ?? '';
@@ -1628,6 +1721,13 @@ function renderDashboardStats(stats: {
   };
   instagram: { count: number; updatedAt: string | null; homepageSlotsFilled: number };
   todos: { total: number; open: number; updatedAt: string | null };
+  media?: {
+    total: number;
+    unused: number;
+    missingAlt: number;
+    missingDerivatives: number;
+    duplicateGroups: number;
+  };
   generatedAt: string;
 }) {
   const postIncomplete =
@@ -1663,6 +1763,17 @@ function renderDashboardStats(stats: {
         stats.instagram.count < 9
           ? `<p class="stat-alert">Add ${9 - stats.instagram.count} more for a full homepage grid</p>`
           : `<p class="stat-ok">Homepage grid is full</p>`
+      }
+    </article>
+    <article class="stat-card">
+      <h3>Images</h3>
+      <p class="stat-number">${stats.media?.total ?? 0}</p>
+      <p class="stat-detail">${stats.media?.unused ?? 0} unused · ${stats.media?.missingAlt ?? 0} missing alt</p>
+      <p class="stat-detail">${stats.media?.missingDerivatives ?? 0} missing deriv · ${stats.media?.duplicateGroups ?? 0} dup groups</p>
+      ${
+        (stats.media?.total ?? 0) === 0
+          ? `<p class="stat-alert">Run Re-index on the Images tab</p>`
+          : `<p class="stat-ok">Catalog ready</p>`
       }
     </article>
     <article class="stat-card">
@@ -2150,11 +2261,17 @@ function showView(view: WriterView) {
   viewLibrary.classList.toggle('hidden', view !== 'library');
   viewCalendar.classList.toggle('hidden', view !== 'calendar');
   viewDestinations.classList.toggle('hidden', view !== 'destinations');
+  viewImages.classList.toggle('hidden', view !== 'images');
   viewInstagram.classList.toggle('hidden', view !== 'instagram');
   viewQa.classList.toggle('hidden', view !== 'qa');
   document.querySelectorAll<HTMLButtonElement>('.nav-link').forEach((btn) => {
-    btn.classList.toggle('is-active', btn.dataset.view === view);
+    const active = btn.dataset.view === view;
+    btn.classList.toggle('is-active', active);
+    if (active) btn.setAttribute('aria-current', 'page');
+    else btn.removeAttribute('aria-current');
   });
+  appNav.classList.remove('is-open');
+  navToggle.setAttribute('aria-expanded', 'false');
   if (view === 'library') {
     void loadLibraryList(
       libraryList,
@@ -2174,6 +2291,7 @@ function showView(view: WriterView) {
       'No destinations yet. Create one or run the migration script.',
     );
   }
+  if (view === 'images') void imagesTab.load();
   if (view === 'instagram') void loadInstagramFeed();
   if (view === 'qa') void loadQaBoard();
   if (view === 'dashboard') {
@@ -2432,6 +2550,12 @@ function downloadFile(filename: string, content: string) {
 
 buildTranslationPanels();
 setTranslationsVisible(false);
+setPostTags([]);
+const imagesTab = initImagesTab({
+  onOpenEditor: (group, kind) => {
+    void loadGroupIntoEditor(group, kind);
+  },
+});
 richEditor = createRichEditor(bodyEditorMount, {
   placeholder: 'Write your post or destination guide…',
   onChange: (html) => {
@@ -2439,13 +2563,27 @@ richEditor = createRichEditor(bodyEditorMount, {
     regeneratePreview();
     scheduleAutosave();
   },
+  onInsertImage: () => {
+    openMediaPicker({
+      title: 'Insert image into body',
+      preferredTags: preferredPickerTags(),
+      onSelect: (item) => {
+        const alt = item.defaultAlt || featuredImageAltInput.value.trim() || titleInput.value.trim();
+        richEditor.insertHtml(htmlSnippet(item.path, alt, item.width, item.height));
+        if (!featuredImageAltInput.value.trim() && item.defaultAlt) {
+          featuredImageAltInput.value = item.defaultAlt;
+        }
+        scheduleAutosave();
+      },
+    });
+  },
 });
 renderGalleries();
 regeneratePreview();
 updateUndoButton();
 scheduleSocialThumbnailRefresh();
 setupDropzone(heroDropzone, heroFileInput, async (files) => {
-  heroUploadStatus.textContent = 'Uploading & compressing…';
+  heroUploadStatus.textContent = 'Uploading lossless master + derivatives…';
   const paths = await uploadImages(files.slice(0, 1));
   featuredImageInput.value = paths[0];
   heroUploadStatus.textContent = `Hero saved: ${paths[0]}`;
@@ -2456,6 +2594,53 @@ setupDropzone(heroDropzone, heroFileInput, async (files) => {
 setupDropzone(newGalleryDropzone, newGalleryFileInput, async (files) => {
   await createGalleryFromFiles(files);
   scheduleAutosave();
+});
+
+const libraryUploadDropzone = document.getElementById('library-upload-dropzone') as HTMLElement | null;
+const libraryUploadFile = document.getElementById('library-upload-file') as HTMLInputElement | null;
+const libraryUploadStatus = document.getElementById('library-upload-status') as HTMLParagraphElement | null;
+if (libraryUploadDropzone && libraryUploadFile) {
+  setupDropzone(libraryUploadDropzone, libraryUploadFile, async (files) => {
+    if (libraryUploadStatus) libraryUploadStatus.textContent = `Uploading ${files.length}…`;
+    const paths = await uploadImages(files, 'library');
+    if (libraryUploadStatus) libraryUploadStatus.textContent = `Uploaded ${paths.length} to /media/library/`;
+    void imagesTab.load();
+  });
+}
+
+document.getElementById('browse-featured-image')?.addEventListener('click', () => {
+  openMediaPicker({
+    title: 'Choose featured image',
+    preferredTags: preferredPickerTags(),
+    onSelect: (item) => {
+      featuredImageInput.value = item.path;
+      if (item.defaultAlt && !featuredImageAltInput.value.trim()) {
+        featuredImageAltInput.value = item.defaultAlt;
+      }
+      scheduleSocialThumbnailRefresh();
+      regeneratePreview();
+      scheduleAutosave();
+    },
+  });
+});
+
+document.getElementById('add-gallery-from-library')?.addEventListener('click', () => {
+  openMediaPicker({
+    title: 'Create gallery from library',
+    preferredTags: preferredPickerTags(),
+    onSelect: (item) => {
+      const id = `gallery-${galleries.length + 1}`;
+      galleries.push({
+        id,
+        title: '',
+        position: 'after-hero',
+        images: [{ src: item.path, alt: item.defaultAlt || '', caption: '' }],
+      });
+      renderGalleries();
+      regeneratePreview();
+      scheduleAutosave();
+    },
+  });
 });
 
 toggleTranslationsBtn.addEventListener('click', () => {
@@ -2496,6 +2681,19 @@ document.querySelectorAll<HTMLButtonElement>('.nav-link').forEach((btn) => {
   btn.addEventListener('click', () => showView(btn.dataset.view as WriterView));
 });
 
+navToggle.addEventListener('click', () => {
+  const open = !appNav.classList.contains('is-open');
+  appNav.classList.toggle('is-open', open);
+  navToggle.setAttribute('aria-expanded', String(open));
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.key !== 'Escape' || !appNav.classList.contains('is-open')) return;
+  appNav.classList.remove('is-open');
+  navToggle.setAttribute('aria-expanded', 'false');
+  navToggle.focus();
+});
+
 document.querySelectorAll<HTMLButtonElement>('[data-dashboard]').forEach((btn) => {
   btn.addEventListener('click', () => {
     const action = btn.dataset.dashboard;
@@ -2503,7 +2701,7 @@ document.querySelectorAll<HTMLButtonElement>('[data-dashboard]').forEach((btn) =
       createChooser.classList.remove('hidden');
       return;
     }
-    if (action === 'library' || action === 'calendar' || action === 'destinations' || action === 'instagram' || action === 'qa') {
+    if (action === 'library' || action === 'calendar' || action === 'destinations' || action === 'images' || action === 'instagram' || action === 'qa') {
       showView(action);
     }
   });
@@ -2696,7 +2894,7 @@ document.getElementById('download-all')?.addEventListener('click', () => {
 });
 
 const hash = location.hash.replace('#', '') as WriterView;
-if (['write', 'library', 'calendar', 'destinations', 'instagram', 'qa'].includes(hash)) {
+if (['write', 'library', 'calendar', 'destinations', 'images', 'instagram', 'qa'].includes(hash)) {
   showView(hash);
 } else {
   showView('dashboard');

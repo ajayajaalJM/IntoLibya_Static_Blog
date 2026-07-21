@@ -5,7 +5,7 @@ canonicalPath: /en/what-makes-a-north-africa-trip-feel-authentic
 lang: en
 publishedAt: '2026-12-31'
 translationGroup: what-makes-a-north-africa-trip-feel-authentic
-featuredImage: /media/posts/what-makes-a-north-africa-trip-feel-authentic/hero.webp
+featuredImage: /media/posts/_hero-pool/general-dest_misrata_webp.webp
 draft: false
 galleries: []
 excerpt: 'Authentic North Africa travel means slow days, respectful contact, and Libya routes through Ghadames, Tripoli, and Leptis Magna.'

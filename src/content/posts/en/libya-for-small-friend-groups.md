@@ -5,7 +5,7 @@ canonicalPath: /en/libya-for-small-friend-groups
 lang: en
 publishedAt: '2026-10-02'
 translationGroup: libya-for-small-friend-groups
-featuredImage: /media/posts/libya-for-small-friend-groups/hero.webp
+featuredImage: /media/posts/18-day-full-country-libya-itinerary/hero.webp
 draft: false
 galleries: []
 excerpt: 'A private group Libya tour is often the sweet spot for friend crews who want shared memories without negotiating with strangers’ alarm clocks. Small groups'

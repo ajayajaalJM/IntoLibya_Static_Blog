@@ -5,7 +5,7 @@ canonicalPath: /en/desert-lakes-you-can-still-reach-in-north-africa
 lang: en
 publishedAt: '2026-11-21'
 translationGroup: desert-lakes-you-can-still-reach-in-north-africa
-featuredImage: /media/posts/desert-lakes-you-can-still-reach-in-north-africa/hero.webp
+featuredImage: /media/posts/_hero-pool/sahara-cdn_a36_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Desert lakes still reachable in North Africa include Libya''s Gaberoun and remote Waw an Namus alongside Egypt''s Siwa oases.'

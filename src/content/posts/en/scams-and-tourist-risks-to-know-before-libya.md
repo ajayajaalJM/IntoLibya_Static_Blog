@@ -5,7 +5,7 @@ canonicalPath: /en/scams-and-tourist-risks-to-know-before-libya
 lang: en
 publishedAt: '2026-08-07'
 translationGroup: scams-and-tourist-risks-to-know-before-libya
-featuredImage: /media/posts/scams-and-tourist-risks-to-know-before-libya/hero.webp
+featuredImage: /media/posts/_hero-pool/tripoli-abstract_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Libya tourist scams is one of the first questions travelers ask when planning with IntoLibya. This guide answers it with practical steps, honest limits, and'

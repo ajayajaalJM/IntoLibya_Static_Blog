@@ -14,6 +14,30 @@ import {
 import { sanitizeHtmlNode, sanitizePlainField } from './lib/sanitize-html-node';
 import { translateAllLanguages } from './lib/translate-provider';
 import { buildQaCardsFromPosts } from './lib/qa-scan';
+import {
+  ensureDerivativesForMaster,
+  slugifyUploadBasename,
+  writeLosslessMasterAndDerivatives,
+} from './lib/media-encode';
+import {
+  filterCatalogItems,
+  fillEmptyAltsFromDefault,
+  indexMediaCatalog,
+  patchMediaCatalogEntry,
+  readMediaCatalog,
+  summarizeCatalog,
+  updateMediaOccurrenceAlt,
+} from './lib/media-catalog';
+import {
+  confirmAllExactDuplicates,
+  confirmConsolidateGroup,
+  dismissSimilarGroup,
+  listConsolidationGroups,
+  previewAllExactDuplicates,
+  previewConsolidateGroup,
+} from './lib/media-consolidate';
+import { DESTINATION_TRANSLATION_GROUPS } from '../../src/lib/destination-schema';
+import { canonicalizeMediaPath } from '../../src/lib/media-paths';
 
 interface SavePayload {
   files: Array<{ path: string; content: string }>;
@@ -49,6 +73,8 @@ interface PostRecord {
   publishedAt: string;
   updatedAt: string;
   featuredImage?: string;
+  featuredImageAlt?: string;
+  tags?: string[];
   draft?: boolean;
   seoTitle: string;
   seoDescription: string;
@@ -672,6 +698,8 @@ async function loadContentRecords(
       publishedAt: String(data.publishedAt ?? '').slice(0, 10),
       updatedAt: stat.mtime.toISOString(),
       featuredImage: data.featuredImage ? String(data.featuredImage) : undefined,
+      featuredImageAlt: data.featuredImageAlt ? String(data.featuredImageAlt) : undefined,
+      tags: Array.isArray(data.tags) ? data.tags.map((t: unknown) => String(t)) : [],
       draft: data.draft === true,
       seoTitle: String(data.seo?.title ?? data.title ?? ''),
       seoDescription: String(data.seo?.description ?? ''),
@@ -1110,11 +1138,14 @@ export function blogWriterDevApiPlugin(repoRoot: string): Plugin {
 
             const body = await readBodyBuffer(req);
             const parsed = parseMultipart(body, boundary);
-            const kind = (parsed.fields.kind?.trim() || 'post') as 'post' | 'destination';
+            const kind = (parsed.fields.kind?.trim() || 'post') as
+              | 'post'
+              | 'destination'
+              | 'library';
             const slug =
               parsed.fields.slug?.trim().replace(/[^a-z0-9-]/gi, '-').toLowerCase() || 'untitled';
-            if (!['post', 'destination'].includes(kind)) {
-              json(res, 400, { ok: false, error: 'kind must be post or destination' });
+            if (!['post', 'destination', 'library'].includes(kind)) {
+              json(res, 400, { ok: false, error: 'kind must be post, destination, or library' });
               return;
             }
 
@@ -1126,36 +1157,345 @@ export function blogWriterDevApiPlugin(repoRoot: string): Plugin {
               return;
             }
 
-            const folder = kind === 'destination' ? 'destinations' : 'posts';
+            const folder =
+              kind === 'destination' ? 'destinations' : kind === 'library' ? 'library' : 'posts';
             const uploaded: string[] = [];
+            const derivatives: string[] = [];
 
             for (const file of imageFiles) {
-              const baseName = path
-                .basename(file.filename, path.extname(file.filename))
-                .toLowerCase()
-                .replace(/[^a-z0-9]+/g, '-')
-                .replace(/^-|-$/g, '')
-                .slice(0, 48) || `img-${Date.now()}`;
-              const relative = `/media/${folder}/${slug}/${baseName}.webp`;
-              const fullPath = path.join(repoRoot, 'public', relative.replace(/^\//, ''));
-              await fs.mkdir(path.dirname(fullPath), { recursive: true });
+              const baseName = slugifyUploadBasename(file.filename);
+              const relative =
+                kind === 'library'
+                  ? `/media/library/${baseName}.webp`
+                  : `/media/${folder}/${slug}/${baseName}.webp`;
 
-              const compressed = await sharp(file.data)
-                .rotate()
-                .resize({
-                  width: 1920,
-                  height: 1920,
-                  fit: 'inside',
-                  withoutEnlargement: true,
-                })
-                .webp({ quality: 80 })
-                .toBuffer();
-
-              await fs.writeFile(fullPath, compressed);
-              uploaded.push(relative);
+              const encoded = await writeLosslessMasterAndDerivatives(
+                repoRoot,
+                relative,
+                file.data,
+              );
+              uploaded.push(encoded.masterPath);
+              derivatives.push(...encoded.derivativePaths);
             }
 
-            json(res, 200, { ok: true, paths: uploaded });
+            json(res, 200, { ok: true, paths: uploaded, derivatives });
+            return;
+          }
+
+          if (req.method === 'GET' && url.pathname === '/api/media') {
+            const catalog = await readMediaCatalog(repoRoot);
+            const items = Object.values(catalog.items);
+            const filtered = filterCatalogItems(items, {
+              q: url.searchParams.get('q') || undefined,
+              tag: url.searchParams.get('tag') || undefined,
+              unused: url.searchParams.get('unused') === '1',
+              includePool: url.searchParams.get('includePool') === '1',
+              missingAlt: url.searchParams.get('missingAlt') === '1',
+              missingDerivatives: url.searchParams.get('missingDerivatives') === '1',
+              hasDuplicates: url.searchParams.get('hasDuplicates') === '1',
+              duplicateKind:
+                url.searchParams.get('duplicateKind') === 'exact' ||
+                url.searchParams.get('duplicateKind') === 'similar'
+                  ? (url.searchParams.get('duplicateKind') as 'exact' | 'similar')
+                  : undefined,
+            }).sort((a, b) => b.mtime.localeCompare(a.mtime));
+
+            const limit = Math.min(500, Math.max(1, Number(url.searchParams.get('limit') || 120)));
+            const offset = Math.max(0, Number(url.searchParams.get('offset') || 0));
+            const page = filtered.slice(offset, offset + limit);
+
+            json(res, 200, {
+              ok: true,
+              items: page,
+              total: filtered.length,
+              summary: summarizeCatalog(catalog),
+              destinations: [...DESTINATION_TRANSLATION_GROUPS],
+              updatedAt: catalog.updatedAt,
+            });
+            return;
+          }
+
+          if (req.method === 'GET' && url.pathname === '/api/media/destinations') {
+            json(res, 200, { ok: true, destinations: [...DESTINATION_TRANSLATION_GROUPS] });
+            return;
+          }
+
+          if (req.method === 'PATCH' && url.pathname === '/api/media') {
+            const payload = JSON.parse(await readBody(req)) as {
+              path?: string;
+              tags?: string[];
+              defaultAlt?: string;
+              credit?: string;
+              notes?: string;
+              preferredRoles?: string[];
+            };
+            const mediaPath = canonicalizeMediaPath(String(payload.path ?? ''));
+            if (!mediaPath.startsWith('/media/')) {
+              json(res, 400, { ok: false, error: 'path must be a /media/… URL' });
+              return;
+            }
+            try {
+              const item = await patchMediaCatalogEntry(repoRoot, mediaPath, {
+                tags: payload.tags,
+                defaultAlt: payload.defaultAlt,
+                credit: payload.credit,
+                notes: payload.notes,
+                preferredRoles: payload.preferredRoles,
+              });
+              json(res, 200, { ok: true, item });
+            } catch (err) {
+              json(res, 404, {
+                ok: false,
+                error: err instanceof Error ? err.message : 'Patch failed',
+              });
+            }
+            return;
+          }
+
+          if (req.method === 'POST' && url.pathname === '/api/media/index') {
+            const result = await indexMediaCatalog(repoRoot);
+            json(res, 200, {
+              ok: true,
+              summary: result.summary,
+              orphans: result.orphans.slice(0, 100),
+              updatedAt: result.catalog.updatedAt,
+            });
+            return;
+          }
+
+          if (req.method === 'POST' && url.pathname === '/api/media/ensure-derivatives') {
+            const payload = JSON.parse(await readBody(req)) as { paths?: string[] };
+            const paths = Array.isArray(payload.paths) ? payload.paths : [];
+            if (!paths.length) {
+              json(res, 400, { ok: false, error: 'paths array is required' });
+              return;
+            }
+            const results: Array<{
+              path: string;
+              created: string[];
+              existing: string[];
+              error?: string;
+            }> = [];
+            for (const rawPath of paths.slice(0, 100)) {
+              const mediaPath = canonicalizeMediaPath(String(rawPath));
+              try {
+                const out = await ensureDerivativesForMaster(repoRoot, mediaPath);
+                results.push({
+                  path: out.masterPath,
+                  created: out.created,
+                  existing: out.existing,
+                });
+              } catch (err) {
+                results.push({
+                  path: mediaPath,
+                  created: [],
+                  existing: [],
+                  error: err instanceof Error ? err.message : 'Failed',
+                });
+              }
+            }
+            // Refresh catalog metadata for touched masters (lightweight re-index of flags)
+            await indexMediaCatalog(repoRoot);
+            json(res, 200, { ok: true, results });
+            return;
+          }
+
+          if (req.method === 'GET' && url.pathname === '/api/media/duplicates') {
+            try {
+              const groups = await listConsolidationGroups(repoRoot);
+              json(res, 200, {
+                ok: true,
+                groups,
+                exact: groups.filter((g) => g.kind === 'exact').length,
+                similar: groups.filter((g) => g.kind === 'similar').length,
+              });
+            } catch (err) {
+              json(res, 500, {
+                ok: false,
+                error: err instanceof Error ? err.message : 'Failed to list duplicates',
+              });
+            }
+            return;
+          }
+
+          if (
+            req.method === 'POST' &&
+            url.pathname === '/api/media/duplicates/not-similar'
+          ) {
+            try {
+              const payload = JSON.parse(await readBody(req)) as {
+                groupId?: string;
+              };
+              if (!payload.groupId) {
+                json(res, 400, { ok: false, error: 'groupId is required' });
+                return;
+              }
+              const result = await dismissSimilarGroup(repoRoot, payload.groupId);
+              json(res, 200, { ok: true, ...result });
+            } catch (err) {
+              json(res, 400, {
+                ok: false,
+                error: err instanceof Error ? err.message : 'Review decision failed',
+              });
+            }
+            return;
+          }
+
+          if (req.method === 'POST' && url.pathname === '/api/media/consolidate/preview') {
+            try {
+              const payload = JSON.parse(await readBody(req)) as {
+                groupId?: string;
+                keeperPath?: string;
+                memberPaths?: string[];
+                fillEmptyAlts?: boolean;
+                explicitSimilarApproval?: boolean;
+              };
+              if (!payload.groupId) {
+                json(res, 400, { ok: false, error: 'groupId is required' });
+                return;
+              }
+              const preview = await previewConsolidateGroup(repoRoot, {
+                groupId: payload.groupId,
+                keeperPath: payload.keeperPath,
+                memberPaths: payload.memberPaths,
+                fillEmptyAlts: payload.fillEmptyAlts,
+                explicitSimilarApproval: payload.explicitSimilarApproval,
+              });
+              json(res, 200, { ok: true, preview });
+            } catch (err) {
+              json(res, 400, {
+                ok: false,
+                error: err instanceof Error ? err.message : 'Preview failed',
+              });
+            }
+            return;
+          }
+
+          if (req.method === 'POST' && url.pathname === '/api/media/consolidate/confirm') {
+            try {
+              const payload = JSON.parse(await readBody(req)) as {
+                previewToken?: string;
+                explicitSimilarApproval?: boolean;
+                dryRun?: boolean;
+              };
+              if (!payload.previewToken) {
+                json(res, 400, { ok: false, error: 'previewToken is required' });
+                return;
+              }
+              const result = await confirmConsolidateGroup(repoRoot, {
+                previewToken: payload.previewToken,
+                explicitSimilarApproval: payload.explicitSimilarApproval,
+                dryRun: payload.dryRun,
+              });
+              json(res, 200, result);
+            } catch (err) {
+              json(res, 400, {
+                ok: false,
+                error: err instanceof Error ? err.message : 'Consolidate failed',
+              });
+            }
+            return;
+          }
+
+          if (
+            req.method === 'POST' &&
+            url.pathname === '/api/media/consolidate/exact/preview'
+          ) {
+            try {
+              const preview = await previewAllExactDuplicates(repoRoot);
+              json(res, 200, { ok: true, preview });
+            } catch (err) {
+              json(res, 400, {
+                ok: false,
+                error: err instanceof Error ? err.message : 'Exact batch preview failed',
+              });
+            }
+            return;
+          }
+
+          if (
+            req.method === 'POST' &&
+            url.pathname === '/api/media/consolidate/exact/confirm'
+          ) {
+            try {
+              const payload = JSON.parse(await readBody(req)) as {
+                batchToken?: string;
+              };
+              if (!payload.batchToken) {
+                json(res, 400, { ok: false, error: 'batchToken is required' });
+                return;
+              }
+              const result = await confirmAllExactDuplicates(
+                repoRoot,
+                payload.batchToken,
+              );
+              json(res, 200, result);
+            } catch (err) {
+              json(res, 400, {
+                ok: false,
+                error: err instanceof Error ? err.message : 'Exact batch merge failed',
+              });
+            }
+            return;
+          }
+
+          if (req.method === 'POST' && url.pathname === '/api/media/occurrence-alt') {
+            try {
+              const payload = JSON.parse(await readBody(req)) as {
+                path?: string;
+                kind?: 'post' | 'destination';
+                translationGroup?: string;
+                occurrenceId?: string;
+                alt?: string;
+                allLanguages?: boolean;
+              };
+              if (
+                !payload.path ||
+                !payload.kind ||
+                !payload.translationGroup ||
+                !payload.occurrenceId ||
+                typeof payload.alt !== 'string'
+              ) {
+                json(res, 400, {
+                  ok: false,
+                  error: 'path, kind, translationGroup, occurrenceId, and alt are required',
+                });
+                return;
+              }
+              const result = await updateMediaOccurrenceAlt(repoRoot, {
+                mediaPath: payload.path,
+                kind: payload.kind,
+                translationGroup: payload.translationGroup,
+                occurrenceId: payload.occurrenceId,
+                alt: payload.alt,
+                allLanguages: payload.allLanguages,
+              });
+              json(res, 200, { ok: true, ...result });
+            } catch (err) {
+              json(res, 400, {
+                ok: false,
+                error: err instanceof Error ? err.message : 'Alt update failed',
+              });
+            }
+            return;
+          }
+
+          if (req.method === 'POST' && url.pathname === '/api/media/fill-empty-alts') {
+            try {
+              const payload = JSON.parse(await readBody(req)) as { path?: string };
+              if (!payload.path) {
+                json(res, 400, { ok: false, error: 'path is required' });
+                return;
+              }
+              const result = await fillEmptyAltsFromDefault(repoRoot, payload.path);
+              await indexMediaCatalog(repoRoot);
+              json(res, 200, { ok: true, ...result });
+            } catch (err) {
+              json(res, 400, {
+                ok: false,
+                error: err instanceof Error ? err.message : 'Fill empty alts failed',
+              });
+            }
             return;
           }
 
@@ -1202,6 +1542,8 @@ export function blogWriterDevApiPlugin(repoRoot: string): Plugin {
             }
             const todos = await readWriterTodos(repoRoot);
             const openTodos = todos.items.filter((t) => !t.done).length;
+            const mediaCatalog = await readMediaCatalog(repoRoot);
+            const mediaSummary = summarizeCatalog(mediaCatalog);
 
             json(res, 200, {
               ok: true,
@@ -1214,6 +1556,7 @@ export function blogWriterDevApiPlugin(repoRoot: string): Plugin {
                   open: openTodos,
                   updatedAt: todos.updatedAt,
                 },
+                media: mediaSummary,
                 generatedAt: new Date().toISOString(),
               },
             });

@@ -5,7 +5,7 @@ canonicalPath: /en/if-you-loved-tassili-see-the-acacus-mountains
 lang: en
 publishedAt: '2026-10-07'
 translationGroup: if-you-loved-tassili-see-the-acacus-mountains
-featuredImage: /media/posts/if-you-loved-tassili-see-the-acacus-mountains/hero.webp
+featuredImage: /media/posts/_hero-pool/sahara-acacus_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Tassili vs Acacus is the desert rock art conversation travelers start after Algeria opens their eyes. Tassili n’Ajjer is a stone plateau universe of arches,'

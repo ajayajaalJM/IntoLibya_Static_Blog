@@ -5,7 +5,7 @@ canonicalPath: /en/how-hot-does-the-libyan-sahara-get
 lang: en
 publishedAt: '2026-10-14'
 translationGroup: how-hot-does-the-libyan-sahara-get
-featuredImage: /media/posts/how-hot-does-the-libyan-sahara-get/hero.webp
+featuredImage: /media/posts/_hero-pool/sahara-sahara_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Sahara temperature Libya summers can push daytime heat above 40°C in desert regions, with peaks higher during extreme spells. Shoulder seasons are kinder.'

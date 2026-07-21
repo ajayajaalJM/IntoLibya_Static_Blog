@@ -5,7 +5,7 @@ canonicalPath: /en/sunset-in-the-sand-dunes-near-ghadames
 lang: en
 publishedAt: '2026-09-11'
 translationGroup: sunset-in-the-sand-dunes-near-ghadames
-featuredImage: /media/posts/sunset-in-the-sand-dunes-near-ghadames/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a8_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Ghadames sand dunes at sunset are the Sahara greeting card that still works in real life. After old town lanes and whitewashed shade, you ride out to open'

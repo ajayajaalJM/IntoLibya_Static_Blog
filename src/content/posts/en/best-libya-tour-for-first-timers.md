@@ -5,7 +5,7 @@ canonicalPath: /en/best-libya-tour-for-first-timers
 lang: en
 publishedAt: '2026-08-11'
 translationGroup: best-libya-tour-for-first-timers
-featuredImage: /media/posts/best-libya-tour-for-first-timers/hero.webp
+featuredImage: /media/posts/18-day-full-country-libya-itinerary/hero.webp
 draft: false
 galleries: []
 excerpt: 'Best Libya tour first time is one of the first questions travelers ask when planning with IntoLibya. This guide answers it with practical steps, honest'

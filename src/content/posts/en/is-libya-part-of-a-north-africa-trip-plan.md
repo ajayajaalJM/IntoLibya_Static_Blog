@@ -5,7 +5,7 @@ canonicalPath: /en/is-libya-part-of-a-north-africa-trip-plan
 lang: en
 publishedAt: '2026-10-23'
 translationGroup: is-libya-part-of-a-north-africa-trip-plan
-featuredImage: /media/posts/is-libya-part-of-a-north-africa-trip-plan/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a11_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Libya belongs on many North Africa maps when you want quiet UNESCO sites and desert depth beside Tunisia or Egypt chapters.'

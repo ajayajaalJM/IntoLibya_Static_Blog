@@ -5,7 +5,7 @@ canonicalPath: /en/morocco-tunisia-egypt-algeria-or-libya-which-fits-you
 lang: en
 publishedAt: '2026-10-24'
 translationGroup: morocco-tunisia-egypt-algeria-or-libya-which-fits-you
-featuredImage: /media/posts/morocco-tunisia-egypt-algeria-or-libya-which-fits-you/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a13_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Morocco, Tunisia, Egypt, Algeria, or Libya: match each country to your travel style before you book the wrong North Africa chapter.'

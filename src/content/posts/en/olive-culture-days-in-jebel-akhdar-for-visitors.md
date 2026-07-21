@@ -5,7 +5,7 @@ canonicalPath: /en/olive-culture-days-in-jebel-akhdar-for-visitors
 lang: en
 publishedAt: '2026-12-29'
 translationGroup: olive-culture-days-in-jebel-akhdar-for-visitors
-featuredImage: /media/posts/olive-culture-days-in-jebel-akhdar-for-visitors/hero.webp
+featuredImage: /media/posts/_hero-pool/cyrene-east_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Olive culture days in Jebel Akhdar show Green Mountain agriculture, grove walks, and food heritage on licensed east Libya routes when offered through IntoLibya.'

@@ -5,7 +5,7 @@ canonicalPath: /en/oasis-towns-of-north-africa-beyond-the-usual-list
 lang: en
 publishedAt: '2026-11-22'
 translationGroup: oasis-towns-of-north-africa-beyond-the-usual-list
-featuredImage: /media/posts/oasis-towns-of-north-africa-beyond-the-usual-list/hero.webp
+featuredImage: /media/posts/_hero-pool/sahara-cdn_a44_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Oasis towns beyond the usual list: Ghadames, Ghat, Siwa, and Tozeur compared for North Africa desert culture trips.'

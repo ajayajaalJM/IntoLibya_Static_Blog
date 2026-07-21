@@ -5,7 +5,7 @@ canonicalPath: /en/libya-after-you-have-already-seen-morocco
 lang: en
 publishedAt: '2026-10-02'
 translationGroup: libya-after-you-have-already-seen-morocco
-featuredImage: /media/posts/libya-after-you-have-already-seen-morocco/hero.webp
+featuredImage: /media/posts/beach-holiday-in-tunisia-then-culture-in-libya/hero.webp
 draft: false
 galleries: []
 excerpt: 'Libya vs Morocco travel is not a contest about which country is “better.” It is a question about what you want after souks, riads, and well worn desert camps. I'

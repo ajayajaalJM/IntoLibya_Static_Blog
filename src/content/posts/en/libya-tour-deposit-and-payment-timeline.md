@@ -5,7 +5,7 @@ canonicalPath: /en/libya-tour-deposit-and-payment-timeline
 lang: en
 publishedAt: '2026-08-10'
 translationGroup: libya-tour-deposit-and-payment-timeline
-featuredImage: /media/posts/libya-tour-deposit-and-payment-timeline/hero.webp
+featuredImage: /media/posts/_hero-pool/tripoli-abstract_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Libya tour deposit is one of the first questions travelers ask when planning with IntoLibya. This guide answers it with practical steps, honest limits, and'

@@ -6,7 +6,7 @@ lang: pl
 wpImportId: 7078
 publishedAt: '2026-03-11'
 translationGroup: ghat-discover-the-culture-people-and-heritage-of-the-sahara
-featuredImage: /media/2025/12/ghat.jpg
+featuredImage: /media/posts/_hero-pool/general-cdn_a37_jpg.webp
 excerpt: Głęboko w południowo-zachodniej Libii, w pobliżu granic Algierii i Nigru, leży historyczne miasto Ghat. Na pierwszy rzut oka może wydawać się odległe. Jednak po przyjeździe, staje się jasne, że Ghat nie jest odizolowany w
 seo:
   title: 'Ghat: Odkryj kulturę, ludzi i dziedzictwo Sahary'

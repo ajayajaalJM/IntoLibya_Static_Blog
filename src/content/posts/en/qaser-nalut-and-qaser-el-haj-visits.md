@@ -5,7 +5,7 @@ canonicalPath: /en/qaser-nalut-and-qaser-el-haj-visits
 lang: en
 publishedAt: '2026-09-13'
 translationGroup: qaser-nalut-and-qaser-el-haj-visits
-featuredImage: /media/posts/qaser-nalut-and-qaser-el-haj-visits/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a13_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Qaser Nalut and Qaser El Haj are the highland stops that make Jebel Nafusa click. These fortified granary complexes look like stone castles of harvest'

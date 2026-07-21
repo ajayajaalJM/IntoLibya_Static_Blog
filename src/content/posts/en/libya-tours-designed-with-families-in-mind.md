@@ -5,7 +5,7 @@ canonicalPath: /en/libya-tours-designed-with-families-in-mind
 lang: en
 publishedAt: '2026-11-05'
 translationGroup: libya-tours-designed-with-families-in-mind
-featuredImage: /media/posts/libya-tours-designed-with-families-in-mind/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a29_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Libya tours for families work when pacing, meal timing, and walking blocks respect mixed ages inside licensed IntoLibya itineraries with clear guides and realistic day lists.'

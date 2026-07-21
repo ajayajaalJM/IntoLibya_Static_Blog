@@ -5,7 +5,7 @@ canonicalPath: /en/luxury-travelers-who-prefer-empty-unesco-mornings
 lang: en
 publishedAt: '2026-12-17'
 translationGroup: luxury-travelers-who-prefer-empty-unesco-mornings
-featuredImage: /media/posts/luxury-travelers-who-prefer-empty-unesco-mornings/hero.webp
+featuredImage: /media/posts/_hero-pool/leptis-Leptis_magna_5476123499_.jpg.webp
 draft: false
 galleries: []
 excerpt: 'Luxury travelers who prefer empty UNESCO mornings in Libya get private vehicles, early site starts, and licensed IntoLibya pacing at Leptis Magna, Sabratha, and Shahat without queue culture.'

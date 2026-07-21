@@ -5,7 +5,7 @@ canonicalPath: /en/tunisia-vs-libya-for-history-travelers
 lang: en
 publishedAt: '2026-08-14'
 translationGroup: tunisia-vs-libya-for-history-travelers
-featuredImage: /media/posts/tunisia-vs-libya-for-history-travelers/hero.webp
+featuredImage: /media/posts/beach-holiday-in-tunisia-then-culture-in-libya/hero.webp
 draft: false
 galleries: []
 excerpt: 'Tunisia vs Libya is one of the first questions travelers ask when planning with IntoLibya. This guide answers it with practical steps, honest limits, and'

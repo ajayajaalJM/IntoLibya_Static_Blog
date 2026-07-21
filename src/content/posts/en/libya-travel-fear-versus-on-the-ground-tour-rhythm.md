@@ -5,7 +5,7 @@ canonicalPath: /en/libya-travel-fear-versus-on-the-ground-tour-rhythm
 lang: en
 publishedAt: '2026-12-07'
 translationGroup: libya-travel-fear-versus-on-the-ground-tour-rhythm
-featuredImage: /media/posts/libya-travel-fear-versus-on-the-ground-tour-rhythm/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a32_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Travel fear builds from headlines and unknowns. On the ground tour rhythm builds from pickups, site hours, meals, and sleep. Compare the two before you decide.'

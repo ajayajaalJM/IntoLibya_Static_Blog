@@ -5,7 +5,7 @@ canonicalPath: /en/libya-tours-for-photographers
 lang: en
 publishedAt: '2026-09-29'
 translationGroup: libya-tours-for-photographers
-featuredImage: /media/posts/libya-tours-for-photographers/hero.webp
+featuredImage: /media/posts/_hero-pool/sahara-acacus_jpg.webp
 draft: false
 galleries: []
 excerpt: 'A Libya photography tour is less about posing models and more about time, light, and access. Empty Roman streets at golden hour, dune lines after wind,'

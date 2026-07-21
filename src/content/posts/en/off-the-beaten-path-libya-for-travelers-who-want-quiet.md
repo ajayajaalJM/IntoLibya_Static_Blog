@@ -5,7 +5,7 @@ canonicalPath: /en/off-the-beaten-path-libya-for-travelers-who-want-quiet
 lang: en
 publishedAt: '2026-11-07'
 translationGroup: off-the-beaten-path-libya-for-travelers-who-want-quiet
-featuredImage: /media/posts/off-the-beaten-path-libya-for-travelers-who-want-quiet/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a34_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Quiet Libya travel means empty Roman sites, low density oasis lanes, and Sahara camps on licensed IntoLibya routes for travelers who hate queues and bus convoy culture.'

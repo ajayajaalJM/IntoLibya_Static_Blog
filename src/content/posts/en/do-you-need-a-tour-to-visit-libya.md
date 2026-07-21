@@ -5,7 +5,7 @@ canonicalPath: /en/do-you-need-a-tour-to-visit-libya
 lang: en
 publishedAt: '2026-08-17'
 translationGroup: do-you-need-a-tour-to-visit-libya
-featuredImage: /media/posts/do-you-need-a-tour-to-visit-libya/hero.webp
+featuredImage: /media/posts/18-day-full-country-libya-itinerary/hero.webp
 draft: false
 galleries: []
 excerpt: 'Yes you do. Visit with IntoLibya! Tourist travel to Libya needs a licensed tour with sponsorship, eVisa support, and guided days.'

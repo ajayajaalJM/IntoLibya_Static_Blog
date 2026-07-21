@@ -6,7 +6,7 @@ lang: it
 wpImportId: 6929
 publishedAt: '2026-03-11'
 translationGroup: archeology-in-libya
-featuredImage: /media/2025/09/IMG_7153-2-scaled.jpg
+featuredImage: /media/posts/_hero-pool/general-cdn_a20_jpg.webp
 excerpt: 'La storia dell’archeologia in Libia: una terra formata dall’archeologia del tempo in Libia. La Libia è una terra dove le sabbie desertiche incontrano il mare. I suoi paesaggi tengono segreti più vecchi della scrittura. Sotto le sue montagne e dune, persone scolpite, dipinte, costruito,'
 seo:
   title: Archeologia in Libia
@@ -39,7 +39,7 @@ seo:
 <p>Roma alla fine conquistò il Nord Africa. In Libia costruirono tre grandi città: <a>Leptis Magna</a>♪ <a>Sabratha</a>, e Oea (Tripoli moderna).</p>
 <p><a href="https://intolibya.com/leptis-magna/">Leptis Magna</a> è mozzafiato. Il suo porto, la basilica e il mercato rivale qualsiasi a Roma. <a href="https://intolibya.com/sabratha/">Sabratha</a> tiene un teatro che una volta riecheggiava con giochi in latino e greco. Queste rovine sono oggi siti UNESCO, in piedi come tesori globali.</p>
 <p>Le strade romane collegavano la costa al deserto. Hanno permesso il commercio di oro, avorio e grano. Gli archeologi studiano <a>ceramica</a> conoscere queste reti commerciali. I frammenti di ceramica rivelano dove il cibo era immagazzinato, venduto e consumato.</p>
-<figure class="wp-block-image size-large"><img loading="lazy" alt="an arch in Leptis Magna" class="wp-image-5707" decoding="async" height="1024" loading="lazy" sizes="auto, (max-width: 768px) 100vw, 768px" src="/media/2025/09/IMG_4037-768x1024.jpg" width="768"/></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" alt="an arch in Leptis Magna" class="wp-image-5707" decoding="async" height="1024" loading="lazy" sizes="auto, (max-width: 768px) 100vw, 768px" src="/media/2025/09/IMG_4037-scaled.jpg" width="768"/></figure>
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
 <h2 class="wp-block-heading">Fede e Nuovi Regni</h2>
 <p>Mentre Roma si indeboliva, il cristianesimo si diffuse. Le chiese furono costruite in tutta la Libia. Mosaici e iscrizioni mostrano devozione e arte.</p>

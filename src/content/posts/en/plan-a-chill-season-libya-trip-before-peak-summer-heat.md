@@ -5,7 +5,7 @@ canonicalPath: /en/plan-a-chill-season-libya-trip-before-peak-summer-heat
 lang: en
 publishedAt: '2026-10-20'
 translationGroup: plan-a-chill-season-libya-trip-before-peak-summer-heat
-featuredImage: /media/posts/plan-a-chill-season-libya-trip-before-peak-summer-heat/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a20_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Plan a chill season Libya trip between October and April while coast ruins stay walkable and Sahara days avoid July intensity. Early planning locks sponsorship slots before summer regret arrives.'

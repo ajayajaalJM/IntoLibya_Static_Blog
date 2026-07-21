@@ -5,7 +5,7 @@ canonicalPath: /en/sandboarding-near-ghadames-versus-ubari-dune-days
 lang: en
 publishedAt: '2026-12-27'
 translationGroup: sandboarding-near-ghadames-versus-ubari-dune-days
-featuredImage: /media/posts/sandboarding-near-ghadames-versus-ubari-dune-days/hero.webp
+featuredImage: /media/posts/beach-holiday-in-tunisia-then-culture-in-libya/hero.webp
 draft: false
 galleries: []
 excerpt: 'Sandboarding near Ghadames versus Ubari dune days compares western oasis edge sand with Fezzan dune lakes on licensed tours when sport add ons are offered in TourBuilder.'

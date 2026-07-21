@@ -5,7 +5,7 @@ canonicalPath: /en/what-do-you-need-from-me-to-start-a-libya-tour-booking
 lang: en
 publishedAt: '2026-10-27'
 translationGroup: what-do-you-need-from-me-to-start-a-libya-tour-booking
-featuredImage: /media/posts/what-do-you-need-from-me-to-start-a-libya-tour-booking/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a13_jpg.webp
 draft: false
 galleries: []
 excerpt: 'What IntoLibya needs to start your Libya tour booking: dates, group details, passport files, and honest pace notes for TourBuilder.'

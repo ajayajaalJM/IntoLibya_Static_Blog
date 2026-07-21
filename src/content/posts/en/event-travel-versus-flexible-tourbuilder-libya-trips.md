@@ -5,7 +5,7 @@ canonicalPath: /en/event-travel-versus-flexible-tourbuilder-libya-trips
 lang: en
 publishedAt: '2026-12-10'
 translationGroup: event-travel-versus-flexible-tourbuilder-libya-trips
-featuredImage: /media/posts/event-travel-versus-flexible-tourbuilder-libya-trips/hero.webp
+featuredImage: /media/posts/_hero-pool/general-dest_germa_webp.webp
 draft: false
 galleries: []
 excerpt: 'Read this as a guest briefing for “Event Travel Versus Flexible TourBuilder Libya Trips”. Prices and live inclusions stay in TourBuilder so the article'

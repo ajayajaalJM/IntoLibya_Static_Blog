@@ -6,7 +6,7 @@ lang: de
 wpImportId: 6817
 publishedAt: '2026-03-11'
 translationGroup: tripoli
-featuredImage: /media/2025/09/IMG_3235-scaled.jpg
+featuredImage: /media/posts/can-tourists-visit-libya-yes-with-a-licensed-tour/hero.webp
 excerpt: Warum Tripolis besuchen? Tripolis, die Hauptstadt Libyens, ist eine der faszinierendsten Städte Nordafrikas. Mit Blick auf die türkisfarbenen Gewässer des Mittelmeers ist diese lebhafte Metropole ein Ort, an dem Kulturen seit Tausenden von Jahren kollidiert haben. hat
 seo:
   title: Tripolis

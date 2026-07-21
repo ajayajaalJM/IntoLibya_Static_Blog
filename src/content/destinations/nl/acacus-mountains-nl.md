@@ -6,7 +6,7 @@ lang: nl
 wpImportId: 6893
 publishedAt: '2026-03-11'
 translationGroup: acacus-mountains
-featuredImage: /media/2023/12/Screen-Shot-2023-12-20-at-4.03.35-PM.png
+featuredImage: /media/2025/12/588952128_18541788997018455_4310813881741799310_n.jpg
 excerpt: Een UNESCO-erfgoed in Libië waar steen en zand heersen.
 seo:
   title: Acacusgebergte

@@ -5,7 +5,7 @@ canonicalPath: /en/prayer-timing-and-mosque-visits-on-libya-tour-days
 lang: en
 publishedAt: '2026-12-12'
 translationGroup: prayer-timing-and-mosque-visits-on-libya-tour-days
-featuredImage: /media/posts/prayer-timing-and-mosque-visits-on-libya-tour-days/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a32_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Prayer timing and mosque visits on Libya tour days work best when guests share salah preferences in TourBuilder and guides build rest stops into licensed IntoLibya itineraries.'

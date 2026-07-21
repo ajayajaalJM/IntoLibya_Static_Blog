@@ -5,7 +5,7 @@ canonicalPath: /en/how-to-travel-to-libya-from-norway
 lang: en
 publishedAt: '2026-12-21'
 translationGroup: how-to-travel-to-libya-from-norway
-featuredImage: /media/posts/how-to-travel-to-libya-from-norway/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a32_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Travel to Libya from Norway through licensed sponsorship, eVisa steps, and guided IntoLibya tours planned in TourBuilder before rigid flights.'

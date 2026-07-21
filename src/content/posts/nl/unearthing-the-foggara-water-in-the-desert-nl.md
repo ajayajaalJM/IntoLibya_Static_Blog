@@ -6,7 +6,7 @@ lang: nl
 wpImportId: 7014
 publishedAt: '2026-03-11'
 translationGroup: unearthing-the-foggara-water-in-the-desert
-featuredImage: /media/2025/10/Narrow-pathways-around-the-old-town-of-Ghadames-scaled.jpg
+featuredImage: /media/posts/beach-holiday-in-tunisia-then-culture-in-libya/hero.webp
 excerpt: 'In het hart van de Sahara, waar zand zich eindeloos uitstrekt en water schaars is, ontdekten oude volkeren een opmerkelijk geheim: zelfs in de zwaarste woestijn kon het leven bloeien. Dit geheim was de mistgara, een ingenieuze ondergrondse irrigatie systeem dat droeg'
 seo:
   title: 'De Foggara opgraven: Water in de woestijn'

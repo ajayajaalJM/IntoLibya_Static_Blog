@@ -5,7 +5,7 @@ canonicalPath: /en/shoulder-season-booking-windows-for-libya
 lang: en
 publishedAt: '2026-09-23'
 translationGroup: shoulder-season-booking-windows-for-libya
-featuredImage: /media/posts/shoulder-season-booking-windows-for-libya/hero.webp
+featuredImage: /media/posts/18-day-full-country-libya-itinerary/hero.webp
 draft: false
 galleries: []
 excerpt: 'Libya shoulder season usually means the sweet months around autumn and spring when weather helps both coast and desert without midsummer extremes. For'

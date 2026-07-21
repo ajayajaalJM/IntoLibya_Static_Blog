@@ -5,7 +5,7 @@ canonicalPath: /en/three-day-cyrenaica-sampler-benghazi-shahat-susa-highlands
 lang: en
 publishedAt: '2026-11-18'
 translationGroup: three-day-cyrenaica-sampler-benghazi-shahat-susa-highlands
-featuredImage: /media/posts/three-day-cyrenaica-sampler-benghazi-shahat-susa-highlands/hero.webp
+featuredImage: /media/posts/_hero-pool/cyrene-dest-jebel-akhdar.webp
 draft: false
 galleries: []
 excerpt: 'A three day Cyrenaica sampler links Benghazi hub days, Shahat uplands, Susa harbour, and Green Mountain viewpoints on licensed IntoLibya east routes when routing allows.'

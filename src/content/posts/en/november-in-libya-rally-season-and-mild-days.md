@@ -5,7 +5,7 @@ canonicalPath: /en/november-in-libya-rally-season-and-mild-days
 lang: en
 publishedAt: '2026-08-02'
 translationGroup: november-in-libya-rally-season-and-mild-days
-featuredImage: /media/posts/november-in-libya-rally-season-and-mild-days/hero.webp
+featuredImage: /media/posts/_hero-pool/rally-dest_waddan_webp.webp
 draft: false
 galleries: []
 excerpt: 'November in Libya often pairs milder coast temperatures with desert event energy when Rally Te Te is on the calendar. For many northern travelers, that'

@@ -5,7 +5,7 @@ canonicalPath: /en/double-shafra-sahara-trip-who-it-is-for
 lang: en
 publishedAt: '2026-09-16'
 translationGroup: double-shafra-sahara-trip-who-it-is-for
-featuredImage: /media/posts/double-shafra-sahara-trip-who-it-is-for/hero.webp
+featuredImage: /media/posts/_hero-pool/ghadames-dest_jebel_nafusa_webp.webp
 draft: false
 galleries: []
 excerpt: 'The Double Shafra Sahara trip is for travelers who want winter desert depth: longer outdoor blocks, camp facing nights, and landscapes that feel farther'

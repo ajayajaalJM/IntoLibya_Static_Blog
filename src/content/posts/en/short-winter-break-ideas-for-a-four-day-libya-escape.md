@@ -5,7 +5,7 @@ canonicalPath: /en/short-winter-break-ideas-for-a-four-day-libya-escape
 lang: en
 publishedAt: '2026-10-22'
 translationGroup: short-winter-break-ideas-for-a-four-day-libya-escape
-featuredImage: /media/posts/short-winter-break-ideas-for-a-four-day-libya-escape/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a11_jpg.webp
 draft: false
 galleries: []
 excerpt: 'A four day Libya winter escape works when you keep the map coastal and honest. Tripoli medina days plus one major ruin outing beat a rushed Sahara transfer that turns the break into airports and roads.'

@@ -6,7 +6,7 @@ lang: en
 publishedAt: '2026-07-13'
 translationGroup: misrata
 draft: false
-featuredImage: /media/destinations/misrata/hero.webp
+featuredImage: /media/posts/_hero-pool/general-dest_misrata_webp.webp
 excerpt: Why Visit Misrata? Libya’s commercial Mediterranean hub sits between Tripoli and the east—markets, coastal energy, and a window onto modern urban life.
 seo:
   title: Misrata - IntoLibya

@@ -5,7 +5,7 @@ canonicalPath: /en/north-africa-photography-trips-with-fewer-people-in-frame
 lang: en
 publishedAt: '2026-11-26'
 translationGroup: north-africa-photography-trips-with-fewer-people-in-frame
-featuredImage: /media/posts/north-africa-photography-trips-with-fewer-people-in-frame/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a39_jpg.webp
 draft: false
 galleries: []
 excerpt: 'North Africa photography with fewer people in frame: Libya ruin light, Acacus ranges, and Ghadames alleys on licensed tours.'

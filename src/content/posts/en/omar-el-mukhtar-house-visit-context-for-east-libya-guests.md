@@ -5,7 +5,7 @@ canonicalPath: /en/omar-el-mukhtar-house-visit-context-for-east-libya-guests
 lang: en
 publishedAt: '2026-12-26'
 translationGroup: omar-el-mukhtar-house-visit-context-for-east-libya-guests
-featuredImage: /media/posts/omar-el-mukhtar-house-visit-context-for-east-libya-guests/hero.webp
+featuredImage: /media/posts/_hero-pool/cyrene-dest-tobruk.webp
 draft: false
 galleries: []
 excerpt: 'Omar el Mukhtar house visits give east Libya guests resistance era context on licensed Cyrenaica routes when access and routing allow, framed respectfully by guides.'

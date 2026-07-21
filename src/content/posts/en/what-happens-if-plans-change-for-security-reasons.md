@@ -5,7 +5,7 @@ canonicalPath: /en/what-happens-if-plans-change-for-security-reasons
 lang: en
 publishedAt: '2026-08-06'
 translationGroup: what-happens-if-plans-change-for-security-reasons
-featuredImage: /media/posts/what-happens-if-plans-change-for-security-reasons/hero.webp
+featuredImage: /media/posts/18-day-full-country-libya-itinerary/hero.webp
 draft: false
 galleries: []
 excerpt: 'Libya tour itinerary changes is one of the first questions travelers ask when planning with IntoLibya. This guide answers it with practical steps, honest'

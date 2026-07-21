@@ -5,7 +5,7 @@ canonicalPath: /en/how-flights-work-when-a-tour-company-guides-your-libya-entry
 lang: en
 publishedAt: '2026-10-28'
 translationGroup: how-flights-work-when-a-tour-company-guides-your-libya-entry
-featuredImage: /media/posts/how-flights-work-when-a-tour-company-guides-your-libya-entry/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a20_jpg.webp
 draft: false
 galleries: []
 excerpt: 'If you are comparing options, keep Libya’s licensed model in view while you read “How Flights Work When a Tour Company Guides Your Libya Entry”:'

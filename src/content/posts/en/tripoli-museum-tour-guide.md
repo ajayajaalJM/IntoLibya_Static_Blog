@@ -5,7 +5,7 @@ canonicalPath: /en/tripoli-museum-tour-guide
 lang: en
 publishedAt: '2026-09-08'
 translationGroup: tripoli-museum-tour-guide
-featuredImage: /media/posts/tripoli-museum-tour-guide/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a2_jpg.webp
 draft: false
 galleries: []
 excerpt: 'A Tripoli museum tour turns the Red Castle complex into a decoder ring for Libya’s archaeology. Statues, mosaics, and inscriptions stop being anonymous'

@@ -6,7 +6,7 @@ lang: ru
 wpImportId: 6821
 publishedAt: '2026-03-11'
 translationGroup: tripoli
-featuredImage: /media/2025/09/IMG_3235-scaled.jpg
+featuredImage: /media/posts/can-tourists-visit-libya-yes-with-a-licensed-tour/hero.webp
 excerpt: Почему стоит посетить Триполи? Триполи, столица Ливии, является одним из самых интересных городов Северной Африки. С видом на бирюзовые воды Средиземного моря, этот шумный мегаполис является местом, где культуры сталкивались в течение тысяч лет. Оно имеет
 seo:
   title: Триполи

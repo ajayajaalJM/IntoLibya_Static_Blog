@@ -5,7 +5,7 @@ canonicalPath: /en/tripoli-ghadames-and-leptis-circuit
 lang: en
 publishedAt: '2026-08-23'
 translationGroup: tripoli-ghadames-and-leptis-circuit
-featuredImage: /media/posts/tripoli-ghadames-and-leptis-circuit/hero.webp
+featuredImage: /media/posts/beach-holiday-in-tunisia-then-culture-in-libya/hero.webp
 draft: false
 galleries: []
 excerpt: 'The classic Tripoli Ghadames Leptis circuit is the western story many travelers mean when they say they want Libya without a full Sahara expedition. You get'

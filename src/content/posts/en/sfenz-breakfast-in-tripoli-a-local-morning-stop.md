@@ -5,7 +5,7 @@ canonicalPath: /en/sfenz-breakfast-in-tripoli-a-local-morning-stop
 lang: en
 publishedAt: '2026-12-26'
 translationGroup: sfenz-breakfast-in-tripoli-a-local-morning-stop
-featuredImage: /media/posts/sfenz-breakfast-in-tripoli-a-local-morning-stop/hero.webp
+featuredImage: /media/posts/_hero-pool/tripoli-Medina_Tripoli_Libya_2008.jpg.webp
 draft: false
 galleries: []
 excerpt: 'Sfenz breakfast in Tripoli introduces guests to local morning street food culture on licensed city days when offered as a gentle start before museums or medina loops.'

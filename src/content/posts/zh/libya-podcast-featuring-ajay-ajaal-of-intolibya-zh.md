@@ -6,7 +6,7 @@ lang: zh
 wpImportId: 7091
 publishedAt: '2026-03-11'
 translationGroup: libya-podcast-featuring-ajay-ajaal-of-intolibya
-featuredImage: /media/2025/12/589103340_18540874717018455_8340220507546104241_n.jpg
+featuredImage: /media/2025/12/587777867_18541306723018455_1932802759767599244_n.jpg
 excerpt: 利比亚自豪地宣布了一个令人兴奋的里程碑。 我们的创始人阿贾伊·阿贾尔(Ajay Ajaal)正式出现在他的首个完全关注利比亚的国际旅行播客中. 在这个剧集中,我们与知名的业余旅行者播客一起讨论前往
 seo:
   title: 利比亚 Podcast Featuring Ajay Ajaal of Into Libya 的电影

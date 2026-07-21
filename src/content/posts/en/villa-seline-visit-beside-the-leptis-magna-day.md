@@ -5,7 +5,7 @@ canonicalPath: /en/villa-seline-visit-beside-the-leptis-magna-day
 lang: en
 publishedAt: '2026-11-13'
 translationGroup: villa-seline-visit-beside-the-leptis-magna-day
-featuredImage: /media/posts/villa-seline-visit-beside-the-leptis-magna-day/hero.webp
+featuredImage: /media/posts/_hero-pool/leptis-sabratha_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Villa Seline beside Leptis Magna adds mosaic rooms and domestic Roman scale to coast tour days on licensed IntoLibya routes when site access and hours align.'

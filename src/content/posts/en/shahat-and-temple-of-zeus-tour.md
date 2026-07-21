@@ -5,7 +5,7 @@ canonicalPath: /en/shahat-and-temple-of-zeus-tour
 lang: en
 publishedAt: '2026-09-16'
 translationGroup: shahat-and-temple-of-zeus-tour
-featuredImage: /media/posts/shahat-and-temple-of-zeus-tour/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a31_jpg.webp
 draft: false
 galleries: []
 excerpt: 'The Temple of Zeus Cyrene visit is a headline inside the wider Shahat experience of ancient Cyrene. In northeastern Libya’s hills, Greek monumental ambition'

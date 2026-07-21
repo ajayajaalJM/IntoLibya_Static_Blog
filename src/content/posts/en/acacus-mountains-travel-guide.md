@@ -5,7 +5,7 @@ canonicalPath: /en/acacus-mountains-travel-guide
 lang: en
 publishedAt: '2026-09-02'
 translationGroup: acacus-mountains-travel-guide
-featuredImage: /media/posts/acacus-mountains-travel-guide/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a39_jpg.webp
 draft: false
 galleries: []
 excerpt: 'The Acacus Mountains , also called Tadrart Acacus, are where Libya’s Sahara stops being a dune cliché and becomes a stone archive. Near Ghat in the'

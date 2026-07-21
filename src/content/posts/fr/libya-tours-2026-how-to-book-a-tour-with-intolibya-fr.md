@@ -6,7 +6,7 @@ lang: fr
 wpImportId: 7127
 publishedAt: '2026-03-11'
 translationGroup: libya-tours-2026-how-to-book-a-tour-with-intolibya
-featuredImage: /media/2025/09/IMG_3295-scaled.jpg
+featuredImage: /media/posts/_hero-pool/tripoli-abstract_jpg.webp
 excerpt: La Libye reste l’une des dernières destinations réellement inconnues sur terre. Les anciennes villes romaines s’élèvent de la côte méditerranéenne, tandis que les routes de caravanes traversent les dunes dorées du Sahara. En même temps, les villes oasis conservent des traditions séculaires,
 seo:
   title: 'Libye Tours 2026: Comment réserver une tournée avec...'

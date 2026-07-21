@@ -6,7 +6,7 @@ lang: pt
 wpImportId: 7129
 publishedAt: '2026-03-11'
 translationGroup: libya-tours-2026-how-to-book-a-tour-with-intolibya
-featuredImage: /media/2025/09/IMG_3295-scaled.jpg
+featuredImage: /media/posts/_hero-pool/tripoli-abstract_jpg.webp
 excerpt: A Líbia continua a ser um dos últimos destinos verdadeiramente desconhecidos na Terra. As antigas cidades romanas sobem da costa mediterrânea, enquanto as rotas das caravanas cortam as dunas douradas do Saara. Ao mesmo tempo, as cidades do oásis preservam tradições seculares,
 seo:
   title: 'Líbia Tours 2026: Como reservar um tour com IntoLibya'

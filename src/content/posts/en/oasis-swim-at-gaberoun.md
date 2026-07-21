@@ -5,7 +5,7 @@ canonicalPath: /en/oasis-swim-at-gaberoun
 lang: en
 publishedAt: '2026-09-13'
 translationGroup: oasis-swim-at-gaberoun
-featuredImage: /media/posts/oasis-swim-at-gaberoun/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a32_jpg.webp
 draft: false
 galleries: []
 excerpt: 'A Gaberoun swim is the Fezzan moment people struggle to describe without laughing in disbelief. You crest dunes, see a salt lake shining under desert sun,'

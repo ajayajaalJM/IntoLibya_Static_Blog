@@ -5,7 +5,7 @@ canonicalPath: /en/roman-ruins-without-the-crowds-in-north-africa
 lang: en
 publishedAt: '2026-10-25'
 translationGroup: roman-ruins-without-the-crowds-in-north-africa
-featuredImage: /media/posts/roman-ruins-without-the-crowds-in-north-africa/hero.webp
+featuredImage: /media/posts/_hero-pool/leptis-Leptis_Magna.jpg.webp
 draft: false
 galleries: []
 excerpt: 'Roman ruins without North Africa crowds: where Libya''s Leptis Magna and Sabratha beat busy Mediterranean day trip patterns.'

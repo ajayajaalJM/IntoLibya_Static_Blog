@@ -5,7 +5,7 @@ canonicalPath: /en/libya-for-older-travelers-who-want-support
 lang: en
 publishedAt: '2026-10-01'
 translationGroup: libya-for-older-travelers-who-want-support
-featuredImage: /media/posts/libya-for-older-travelers-who-want-support/hero.webp
+featuredImage: /media/posts/18-day-full-country-libya-itinerary/hero.webp
 draft: false
 galleries: []
 excerpt: 'Libya tours seniors is a core planning question for IntoLibya guests. This guide answers it with clear steps, tradeoffs, and booking next actions. Libya'

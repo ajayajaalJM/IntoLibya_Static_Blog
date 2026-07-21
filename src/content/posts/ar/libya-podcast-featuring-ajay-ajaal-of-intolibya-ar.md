@@ -6,7 +6,7 @@ lang: ar
 wpImportId: 7098
 publishedAt: '2026-03-11'
 translationGroup: libya-podcast-featuring-ajay-ajaal-of-intolibya
-featuredImage: /media/2025/12/589103340_18540874717018455_8340220507546104241_n.jpg
+featuredImage: /media/2025/12/587777867_18541306723018455_1932802759767599244_n.jpg
 excerpt: تفخر (إنتوليبيا) بإعلان معلم مثير وقد ظهر مؤسسنا آجاي آجال رسميا في أول منعطف سفري دولي يركز كليا على ليبيا. في هذه الحلقةِ نَنضمُّ إلى مركبِ السفر الهواةِ المعروفِ جيداً لمناقشة السفرِ
 seo:
   title: ليبيا Podcast Featuring Ajay Ajaal of IntoLibya

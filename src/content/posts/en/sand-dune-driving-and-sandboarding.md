@@ -5,7 +5,7 @@ canonicalPath: /en/sand-dune-driving-and-sandboarding
 lang: en
 publishedAt: '2026-09-14'
 translationGroup: sand-dune-driving-and-sandboarding
-featuredImage: /media/posts/sand-dune-driving-and-sandboarding/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a33_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Sandboarding Libya paired with dune driving is the Fezzan grin factory. Skilled drivers draw lines up soft mountains of sand while guests board down slopes'

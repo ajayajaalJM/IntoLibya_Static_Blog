@@ -6,7 +6,7 @@ lang: nl
 wpImportId: 6772
 publishedAt: '2026-03-11'
 translationGroup: how-to-travel-to-libya-from-europe-2025-guide
-featuredImage: /media/2023/12/Screen-Shot-2023-12-20-at-4.03.35-PM.png
+featuredImage: /media/2025/12/588952128_18541788997018455_4310813881741799310_n.jpg
 excerpt: Waarom Europeanen Libië moeten bezoeken Libië is een bestemming die mediterrane charme combineert met Sahara avontuur, met een rijke historische tapijt, prachtige kust uitzicht, en uitgestrekte woestijn landschappen. Van oude Romeinse steden als Leptis Magna en Sabritha tot de tijdloze
 seo:
   title: Hoe van Europa naar Libië te reizen

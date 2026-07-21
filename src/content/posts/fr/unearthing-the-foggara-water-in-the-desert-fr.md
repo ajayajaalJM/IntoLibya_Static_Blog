@@ -6,7 +6,7 @@ lang: fr
 wpImportId: 7017
 publishedAt: '2026-03-11'
 translationGroup: unearthing-the-foggara-water-in-the-desert
-featuredImage: /media/2025/10/Narrow-pathways-around-the-old-town-of-Ghadames-scaled.jpg
+featuredImage: /media/posts/beach-holiday-in-tunisia-then-culture-in-libya/hero.webp
 excerpt: 'Au cœur du Sahara, où le sable s’étend sans fin et où l’eau est rare, les peuples anciens ont découvert un secret remarquable : la vie pourrait s’épanouir même dans le désert le plus dur. Ce secret était la brumegara, un système d’irrigation souterrain ingénieux qui transportait'
 seo:
   title: 'Déterrer le Foggara : l''eau dans le désert'

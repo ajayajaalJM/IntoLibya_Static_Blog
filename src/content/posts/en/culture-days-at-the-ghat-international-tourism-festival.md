@@ -5,7 +5,7 @@ canonicalPath: /en/culture-days-at-the-ghat-international-tourism-festival
 lang: en
 publishedAt: '2026-09-22'
 translationGroup: culture-days-at-the-ghat-international-tourism-festival
-featuredImage: /media/posts/culture-days-at-the-ghat-international-tourism-festival/hero.webp
+featuredImage: /media/posts/_hero-pool/sahara-dest_ghat_webp.webp
 draft: false
 galleries: []
 excerpt: 'Culture days at the Ghat International Tourism Festival are why many guests accept the long journey southwest. The week is not only a logistics puzzle. It'

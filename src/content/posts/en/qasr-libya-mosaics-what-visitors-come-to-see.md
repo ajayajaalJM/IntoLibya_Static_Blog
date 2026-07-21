@@ -5,7 +5,7 @@ canonicalPath: /en/qasr-libya-mosaics-what-visitors-come-to-see
 lang: en
 publishedAt: '2026-11-15'
 translationGroup: qasr-libya-mosaics-what-visitors-come-to-see
-featuredImage: /media/posts/qasr-libya-mosaics-what-visitors-come-to-see/hero.webp
+featuredImage: /media/posts/_hero-pool/cyrene-dest-jebel-akhdar.webp
 draft: false
 galleries: []
 excerpt: 'Qasr Libya mosaics draw visitors to vivid floor art in a Green Mountain setting on licensed east Libya routes when museum access and routing align through IntoLibya.'

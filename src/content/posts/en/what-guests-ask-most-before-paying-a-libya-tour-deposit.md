@@ -5,7 +5,7 @@ canonicalPath: /en/what-guests-ask-most-before-paying-a-libya-tour-deposit
 lang: en
 publishedAt: '2026-10-30'
 translationGroup: what-guests-ask-most-before-paying-a-libya-tour-deposit
-featuredImage: /media/posts/what-guests-ask-most-before-paying-a-libya-tour-deposit/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a34_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Read this as a guest briefing for “What Guests Ask Most Before Paying a Libya Tour Deposit”. Prices and live inclusions stay in TourBuilder so the article'

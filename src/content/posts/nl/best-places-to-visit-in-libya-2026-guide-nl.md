@@ -6,7 +6,7 @@ lang: nl
 wpImportId: 7147
 publishedAt: '2026-03-11'
 translationGroup: best-places-to-visit-in-libya-2026-guide
-featuredImage: /media/2025/09/IMG_7153-2-scaled.jpg
+featuredImage: /media/posts/_hero-pool/general-cdn_a20_jpg.webp
 excerpt: Libië is een van de meest fascinerende bestemmingen in Noord-Afrika, hier zijn de beste plekken om te bezoeken in Libië dit jaar. Hoewel het minder bezocht blijft dan buurlanden, biedt het opmerkelijke geschiedenis, uitgestrekte woestijnlandschappen en levende culturele
 seo:
   title: Beste plaatsen om te bezoeken in Libië 2026 Gids

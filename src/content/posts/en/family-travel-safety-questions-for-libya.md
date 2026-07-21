@@ -5,7 +5,7 @@ canonicalPath: /en/family-travel-safety-questions-for-libya
 lang: en
 publishedAt: '2026-08-05'
 translationGroup: family-travel-safety-questions-for-libya
-featuredImage: /media/posts/family-travel-safety-questions-for-libya/hero.webp
+featuredImage: /media/posts/can-tourists-visit-libya-yes-with-a-licensed-tour/hero.webp
 draft: false
 galleries: []
 excerpt: 'Family travel to Libya works on licensed tours when pacing, medical access, checkpoint prep, and private flexibility match your youngest and oldest travelers.'

@@ -5,7 +5,7 @@ canonicalPath: /en/dress-code-for-travelers-in-libya
 lang: en
 publishedAt: '2026-07-28'
 translationGroup: dress-code-for-travelers-in-libya
-featuredImage: /media/posts/dress-code-for-travelers-in-libya/hero.webp
+featuredImage: /media/posts/beach-holiday-in-tunisia-then-culture-in-libya/hero.webp
 draft: false
 galleries: []
 excerpt: 'Dress code Libya is one of the first questions travelers ask when planning with IntoLibya. This guide answers it with practical steps, honest limits, and'

@@ -5,7 +5,7 @@ canonicalPath: /en/how-to-travel-to-libya-from-sweden
 lang: en
 publishedAt: '2026-11-10'
 translationGroup: how-to-travel-to-libya-from-sweden
-featuredImage: /media/posts/how-to-travel-to-libya-from-sweden/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a31_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Travel to Libya from Sweden through licensed sponsorship, eVisa steps, and guided IntoLibya tours planned in TourBuilder before rigid flights.'

@@ -5,7 +5,7 @@ canonicalPath: /en/how-to-book-a-libya-tour-with-intolibya
 lang: en
 publishedAt: '2026-08-08'
 translationGroup: how-to-book-a-libya-tour-with-intolibya
-featuredImage: /media/posts/how-to-book-a-libya-tour-with-intolibya/hero.webp
+featuredImage: /media/posts/18-day-full-country-libya-itinerary/hero.webp
 draft: false
 galleries: []
 excerpt: 'Book Libya tour is one of the first questions travelers ask when planning with IntoLibya. This guide answers it with practical steps, honest limits, and'

@@ -5,7 +5,7 @@ canonicalPath: /en/zuwarah-awessu-festival-context-for-curious-travelers
 lang: en
 publishedAt: '2027-01-05'
 translationGroup: zuwarah-awessu-festival-context-for-curious-travelers
-featuredImage: /media/posts/zuwarah-awessu-festival-context-for-curious-travelers/hero.webp
+featuredImage: /media/posts/_hero-pool/cyrene-dest-jebel-akhdar.webp
 draft: false
 galleries: []
 excerpt: 'Zuwarah Awessu festival context explains coastal Amazigh celebration timing for curious travelers planning western Libya routes when events align with licensed tours.'

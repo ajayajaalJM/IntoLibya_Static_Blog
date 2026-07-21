@@ -5,7 +5,7 @@ canonicalPath: /en/sabratha-travel-guide
 lang: en
 publishedAt: '2026-08-31'
 translationGroup: sabratha-travel-guide
-featuredImage: /media/posts/sabratha-travel-guide/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a16_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Sabratha is the Roman city that makes people gasp before they learn a single emperor’s name. Columns rise beside the Mediterranean. The famous theatre looks'

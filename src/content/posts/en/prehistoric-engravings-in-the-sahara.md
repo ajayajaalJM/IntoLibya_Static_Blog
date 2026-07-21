@@ -5,7 +5,7 @@ canonicalPath: /en/prehistoric-engravings-in-the-sahara
 lang: en
 publishedAt: '2026-09-15'
 translationGroup: prehistoric-engravings-in-the-sahara
-featuredImage: /media/posts/prehistoric-engravings-in-the-sahara/hero.webp
+featuredImage: /media/posts/_hero-pool/sahara-cdn_a38_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Acacus rock art is why many travelers accept long southwest transfers. Prehistoric engravings and paintings on sandstone walls record animals, people, and'

@@ -5,7 +5,7 @@ canonicalPath: /en/fezzan-desert-lakes-itinerary
 lang: en
 publishedAt: '2026-08-26'
 translationGroup: fezzan-desert-lakes-itinerary
-featuredImage: /media/posts/fezzan-desert-lakes-itinerary/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a32_jpg.webp
 draft: false
 galleries: []
 excerpt: 'A Fezzan itinerary built around desert lakes is pure Sahara mood: palms, salt edged water, and dunes that make your phone battery feel inadequate. The'

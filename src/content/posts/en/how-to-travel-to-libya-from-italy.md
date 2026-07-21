@@ -5,7 +5,7 @@ canonicalPath: /en/how-to-travel-to-libya-from-italy
 lang: en
 publishedAt: '2026-09-28'
 translationGroup: how-to-travel-to-libya-from-italy
-featuredImage: /media/posts/how-to-travel-to-libya-from-italy/hero.webp
+featuredImage: /media/posts/_hero-pool/leptis-sabratha_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Travel to Libya from Italy has geographic logic and deep historical echoes. Italian travelers interested in Roman Africa often feel instantly oriented at'

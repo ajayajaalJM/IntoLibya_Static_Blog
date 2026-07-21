@@ -5,7 +5,7 @@ canonicalPath: /en/visiting-libya-in-winter
 lang: en
 publishedAt: '2026-09-17'
 translationGroup: visiting-libya-in-winter
-featuredImage: /media/posts/visiting-libya-in-winter/hero.webp
+featuredImage: /media/posts/can-tourists-visit-libya-yes-with-a-licensed-tour/hero.webp
 draft: false
 galleries: []
 excerpt: 'Libya in winter rewards travelers who want cooler ruin walks and who will pack for cold desert nights. December through February is not a dead season. It is'

@@ -5,7 +5,7 @@ canonicalPath: /en/what-should-you-not-do-as-a-tourist-in-libya
 lang: en
 publishedAt: '2026-10-18'
 translationGroup: what-should-you-not-do-as-a-tourist-in-libya
-featuredImage: /media/posts/what-should-you-not-do-as-a-tourist-in-libya/hero.webp
+featuredImage: /media/posts/beach-holiday-in-tunisia-then-culture-in-libya/hero.webp
 draft: false
 galleries: []
 excerpt: 'Libya tourist etiquette starts with what not to do. Do not travel independently without licensed sponsorship. Do not photograph military sites, checkpoints,'

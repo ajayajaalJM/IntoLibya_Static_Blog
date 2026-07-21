@@ -5,7 +5,7 @@ canonicalPath: /en/what-is-included-in-an-all-inclusive-libya-tour
 lang: en
 publishedAt: '2026-08-08'
 translationGroup: what-is-included-in-an-all-inclusive-libya-tour
-featuredImage: /media/posts/what-is-included-in-an-all-inclusive-libya-tour/hero.webp
+featuredImage: /media/posts/18-day-full-country-libya-itinerary/hero.webp
 draft: false
 galleries: []
 excerpt: 'An all inclusive Libya tour tries to prepaid the predictable pieces of a licensed journey so you spend fewer evenings asking whether lunch is covered. It'

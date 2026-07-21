@@ -5,7 +5,7 @@ canonicalPath: /en/what-to-wear-for-chill-evenings-on-a-libya-winter-tour
 lang: en
 publishedAt: '2026-10-21'
 translationGroup: what-to-wear-for-chill-evenings-on-a-libya-winter-tour
-featuredImage: /media/posts/what-to-wear-for-chill-evenings-on-a-libya-winter-tour/hero.webp
+featuredImage: /media/posts/_hero-pool/general-dest_waw_an_namus_webp.webp
 draft: false
 galleries: []
 excerpt: 'Chill evenings on a Libya winter tour need layers, not a single heavy coat. Pack for mild coast afternoons, cold desert nights, and possible rain on ruin days without overfilling your bag.'

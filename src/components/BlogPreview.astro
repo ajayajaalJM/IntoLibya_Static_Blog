@@ -21,7 +21,7 @@ const posts = await getLatestPosts('en', 3);
             <div class="hero-arch mx-3 mt-3 h-36 overflow-hidden bg-sand">
               <OptimizedImage
                 src={post.data.featuredImage}
-                alt=""
+                alt={post.data.featuredImageAlt?.trim() || post.data.title}
                 width={640}
                 height={400}
                 widths={[320, 480, 640]}

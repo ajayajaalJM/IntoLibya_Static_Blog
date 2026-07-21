@@ -5,7 +5,7 @@ canonicalPath: /en/best-libya-tour-for-history-lovers
 lang: en
 publishedAt: '2026-08-12'
 translationGroup: best-libya-tour-for-history-lovers
-featuredImage: /media/posts/best-libya-tour-for-history-lovers/hero.webp
+featuredImage: /media/2025/10/Leptis-Magna-Baths-scaled.jpg
 draft: false
 galleries: []
 excerpt: 'Libya archaeology tour is one of the first questions travelers ask when planning with IntoLibya. This guide answers it with practical steps, honest limits,'

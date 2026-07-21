@@ -5,7 +5,7 @@ canonicalPath: /en/luxor-fans-why-leptis-magna-belongs-on-the-list
 lang: en
 publishedAt: '2026-11-25'
 translationGroup: luxor-fans-why-leptis-magna-belongs-on-the-list
-featuredImage: /media/posts/luxor-fans-why-leptis-magna-belongs-on-the-list/hero.webp
+featuredImage: /media/posts/_hero-pool/leptis-Leptis_Magna_-_Labdah_Libya_November_2004_6769449483_.jpg.webp
 draft: false
 galleries: []
 excerpt: 'Luxor fans should add Leptis Magna: Roman city scale and quiet theatres after Egypt temple crowds.'

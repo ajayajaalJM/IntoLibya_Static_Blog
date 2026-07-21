@@ -5,7 +5,7 @@ canonicalPath: /en/ghat-and-acacus-expedition-outline
 lang: en
 publishedAt: '2026-08-26'
 translationGroup: ghat-and-acacus-expedition-outline
-featuredImage: /media/posts/ghat-and-acacus-expedition-outline/hero.webp
+featuredImage: /media/posts/_hero-pool/sahara-dest_ghat_webp.webp
 draft: false
 galleries: []
 excerpt: 'A Ghat Acacus itinerary is the expedition outline Sahara romantics sketch on napkins. You are aiming at the oasis town of Ghat and the sculpted rock world'

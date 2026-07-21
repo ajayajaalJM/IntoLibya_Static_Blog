@@ -5,7 +5,7 @@ canonicalPath: /en/how-to-travel-to-libya-from-the-united-kingdom
 lang: en
 publishedAt: '2026-09-26'
 translationGroup: how-to-travel-to-libya-from-the-united-kingdom
-featuredImage: /media/posts/how-to-travel-to-libya-from-the-united-kingdom/hero.webp
+featuredImage: /media/posts/can-tourists-visit-libya-yes-with-a-licensed-tour/hero.webp
 draft: false
 galleries: []
 excerpt: 'Travel to Libya from UK is realistic for visitors who accept the licensed tour model. British travelers still need sponsorship documents, eVisa approval,'

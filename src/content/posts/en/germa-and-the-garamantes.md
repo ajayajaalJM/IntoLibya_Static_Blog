@@ -5,7 +5,7 @@ canonicalPath: /en/germa-and-the-garamantes
 lang: en
 publishedAt: '2026-09-03'
 translationGroup: germa-and-the-garamantes
-featuredImage: /media/posts/germa-and-the-garamantes/hero.webp
+featuredImage: /media/posts/_hero-pool/general-dest_germa_webp.webp
 draft: false
 galleries: []
 excerpt: 'Germa Libya stands on ground once called Garama, capital of the Garamantes. Long before modern borders, this Saharan civilization farmed, traded, and'

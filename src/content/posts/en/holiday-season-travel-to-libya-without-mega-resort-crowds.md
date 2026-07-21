@@ -5,7 +5,7 @@ canonicalPath: /en/holiday-season-travel-to-libya-without-mega-resort-crowds
 lang: en
 publishedAt: '2026-10-20'
 translationGroup: holiday-season-travel-to-libya-without-mega-resort-crowds
-featuredImage: /media/posts/holiday-season-travel-to-libya-without-mega-resort-crowds/hero.webp
+featuredImage: /media/posts/_hero-pool/general-event_event_total_solar_eclipse_2027_libya_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Holiday season travel to Libya skips mega resort crowds in favor of licensed coast days, empty ruin mornings, and desert camps with real sky. It is culture forward winter travel, not buffet line tourism.'

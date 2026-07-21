@@ -5,7 +5,7 @@ canonicalPath: /en/dietary-needs-how-to-tell-us-before-a-libya-tour
 lang: en
 publishedAt: '2026-12-03'
 translationGroup: dietary-needs-how-to-tell-us-before-a-libya-tour
-featuredImage: /media/posts/dietary-needs-how-to-tell-us-before-a-libya-tour/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a4_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Searchers who land here usually want a straight answer on timing, fit, and next steps for “Dietary Needs How to Tell Us Before a Libya Tour”, not a'

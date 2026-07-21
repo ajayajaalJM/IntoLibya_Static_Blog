@@ -5,7 +5,7 @@ canonicalPath: /en/how-to-describe-your-dream-libya-trip-in-one-message
 lang: en
 publishedAt: '2026-10-31'
 translationGroup: how-to-describe-your-dream-libya-trip-in-one-message
-featuredImage: /media/posts/how-to-describe-your-dream-libya-trip-in-one-message/hero.webp
+featuredImage: /media/posts/_hero-pool/general-dest_misrata_webp.webp
 draft: false
 galleries: []
 excerpt: 'Read this as a guest briefing for “How to Describe Your Dream Libya Trip in One Clear Brief”. Prices and live inclusions stay in TourBuilder so the'

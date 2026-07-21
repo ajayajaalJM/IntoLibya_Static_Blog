@@ -5,7 +5,7 @@ canonicalPath: /en/double-shafra-ghadames-trip-who-it-is-for
 lang: en
 publishedAt: '2026-09-15'
 translationGroup: double-shafra-ghadames-trip-who-it-is-for
-featuredImage: /media/posts/double-shafra-ghadames-trip-who-it-is-for/hero.webp
+featuredImage: /media/posts/_hero-pool/ghadames-Ghadames_Panorama_April_2004.jpg.webp
 draft: false
 galleries: []
 excerpt: 'The Double Shafra Ghadames trip is for travelers who want winter desert culture with a heritage town at the center, not only dune drama. Ghadames rewards'

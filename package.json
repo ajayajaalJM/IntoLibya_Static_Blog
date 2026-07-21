@@ -16,6 +16,9 @@
     "import:status": "tsx scripts/import-wordpress-to-md.ts --status",
     "validate:urls": "tsx scripts/validate-url-parity.ts",
     "writer": "node tools/blog-writer/serve.mjs",
+    "media:index": "tsx scripts/index-media.ts",
+    "media:backfill-derivatives": "tsx scripts/backfill-media-derivatives.ts",
+    "media:consolidate": "tsx scripts/consolidate-media-duplicates.ts",
     "translate:missing": "tsx scripts/translate-missing.ts",
     "migrate:destinations": "tsx scripts/migrate-places-to-destinations.ts",
     "sync:destination-redirects": "tsx scripts/sync-destination-short-redirects.ts"

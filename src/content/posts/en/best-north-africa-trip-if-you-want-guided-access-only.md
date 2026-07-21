@@ -5,7 +5,7 @@ canonicalPath: /en/best-north-africa-trip-if-you-want-guided-access-only
 lang: en
 publishedAt: '2026-10-25'
 translationGroup: best-north-africa-trip-if-you-want-guided-access-only
-featuredImage: /media/posts/best-north-africa-trip-if-you-want-guided-access-only/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a32_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Want guided access only in North Africa? See why licensed Libya tours fit travelers who prefer structure over freestyle logistics.'

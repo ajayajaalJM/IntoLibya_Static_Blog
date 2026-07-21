@@ -5,7 +5,7 @@ canonicalPath: /en/one-week-in-libya-if-you-love-unesco-sites
 lang: en
 publishedAt: '2026-08-29'
 translationGroup: one-week-in-libya-if-you-love-unesco-sites
-featuredImage: /media/posts/one-week-in-libya-if-you-love-unesco-sites/hero.webp
+featuredImage: /media/posts/beach-holiday-in-tunisia-then-culture-in-libya/hero.webp
 draft: false
 galleries: []
 excerpt: 'A UNESCO Libya itinerary for one week is a love letter to empty World Heritage drama. Libya’s listed sites are not theme parks. In a single western leaning'

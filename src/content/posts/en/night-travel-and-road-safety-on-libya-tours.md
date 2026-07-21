@@ -5,7 +5,7 @@ canonicalPath: /en/night-travel-and-road-safety-on-libya-tours
 lang: en
 publishedAt: '2026-08-04'
 translationGroup: night-travel-and-road-safety-on-libya-tours
-featuredImage: /media/posts/night-travel-and-road-safety-on-libya-tours/hero.webp
+featuredImage: /media/posts/_hero-pool/sahara-sahara_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Road safety Libya is one of the first questions travelers ask when planning with IntoLibya. This guide answers it with practical steps, honest limits, and'

@@ -5,7 +5,7 @@ canonicalPath: /en/friend-groups-booking-a-shared-private-libya-circuit
 lang: en
 publishedAt: '2026-12-16'
 translationGroup: friend-groups-booking-a-shared-private-libya-circuit
-featuredImage: /media/posts/friend-groups-booking-a-shared-private-libya-circuit/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a8_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Friend groups booking shared private Libya circuits split costs across one vehicle, customize ruin or desert emphasis, and coordinate passports through IntoLibya TourBuilder with one logistics lead.'

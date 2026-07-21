@@ -5,7 +5,7 @@ canonicalPath: /en/double-shafra-sahara-trip-explained
 lang: en
 publishedAt: '2026-09-21'
 translationGroup: double-shafra-sahara-trip-explained
-featuredImage: /media/posts/double-shafra-sahara-trip-explained/hero.webp
+featuredImage: /media/posts/_hero-pool/ghadames-event_event_double_shafra_desert_mens_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Double Shafra Sahara is a cohort style desert trip with fixed date energy rather than a fully private blank calendar. Travelers who like shared group'

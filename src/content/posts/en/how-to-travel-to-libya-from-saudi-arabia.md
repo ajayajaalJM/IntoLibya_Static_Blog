@@ -5,7 +5,7 @@ canonicalPath: /en/how-to-travel-to-libya-from-saudi-arabia
 lang: en
 publishedAt: '2026-11-09'
 translationGroup: how-to-travel-to-libya-from-saudi-arabia
-featuredImage: /media/posts/how-to-travel-to-libya-from-saudi-arabia/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a20_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Travel to Libya from Saudi Arabia through licensed sponsorship, eVisa steps, and guided IntoLibya tours planned in TourBuilder before rigid flights.'

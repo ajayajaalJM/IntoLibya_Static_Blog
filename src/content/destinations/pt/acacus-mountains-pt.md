@@ -6,7 +6,7 @@ lang: pt
 wpImportId: 6897
 publishedAt: '2026-03-11'
 translationGroup: acacus-mountains
-featuredImage: /media/2023/12/Screen-Shot-2023-12-20-at-4.03.35-PM.png
+featuredImage: /media/2025/12/588952128_18541788997018455_4310813881741799310_n.jpg
 excerpt: Um sítio de património da UNESCO na Líbia, onde a pedra e a areia dominam tudo.
 seo:
   title: Montanhas Acacus

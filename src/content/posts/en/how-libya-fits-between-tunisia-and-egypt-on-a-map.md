@@ -5,7 +5,7 @@ canonicalPath: /en/how-libya-fits-between-tunisia-and-egypt-on-a-map
 lang: en
 publishedAt: '2026-11-22'
 translationGroup: how-libya-fits-between-tunisia-and-egypt-on-a-map
-featuredImage: /media/posts/how-libya-fits-between-tunisia-and-egypt-on-a-map/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a31_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Libya sits between Tunisia and Egypt on the map: bridge flights, Roman coast ruins, and Cyrenaica east stories.'

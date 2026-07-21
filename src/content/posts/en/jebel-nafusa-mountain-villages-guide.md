@@ -5,7 +5,7 @@ canonicalPath: /en/jebel-nafusa-mountain-villages-guide
 lang: en
 publishedAt: '2026-09-04'
 translationGroup: jebel-nafusa-mountain-villages-guide
-featuredImage: /media/posts/jebel-nafusa-mountain-villages-guide/hero.webp
+featuredImage: /media/posts/_hero-pool/ghadames-dest_jebel_nafusa_webp.webp
 draft: false
 galleries: []
 excerpt: 'Jebel Nafusa lifts west of Tripoli into a limestone escarpment of Amazigh highland country. Fortified granaries and qasrs perch above valleys. Olive and fig'

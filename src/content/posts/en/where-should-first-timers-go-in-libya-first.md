@@ -5,7 +5,7 @@ canonicalPath: /en/where-should-first-timers-go-in-libya-first
 lang: en
 publishedAt: '2026-10-29'
 translationGroup: where-should-first-timers-go-in-libya-first
-featuredImage: /media/posts/where-should-first-timers-go-in-libya-first/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a2_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Read this as a guest briefing for “Where Should First Timers Go in Libya First”. Prices and live inclusions stay in TourBuilder so the article does not'

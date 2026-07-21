@@ -5,7 +5,7 @@ canonicalPath: /en/what-happens-on-day-one-after-you-land-in-libya
 lang: en
 publishedAt: '2026-10-29'
 translationGroup: what-happens-on-day-one-after-you-land-in-libya
-featuredImage: /media/posts/what-happens-on-day-one-after-you-land-in-libya/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a31_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Searchers who land here usually want a straight answer on timing, fit, and next steps for “What Happens on Day One After You Land in Libya”, not a'

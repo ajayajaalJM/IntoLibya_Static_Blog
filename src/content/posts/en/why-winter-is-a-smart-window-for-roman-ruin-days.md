@@ -5,7 +5,7 @@ canonicalPath: /en/why-winter-is-a-smart-window-for-roman-ruin-days
 lang: en
 publishedAt: '2026-10-21'
 translationGroup: why-winter-is-a-smart-window-for-roman-ruin-days
-featuredImage: /media/posts/why-winter-is-a-smart-window-for-roman-ruin-days/hero.webp
+featuredImage: /media/posts/_hero-pool/leptis-Leptis_Magna_Al-Khums_Libya_3.jpg.webp
 draft: false
 galleries: []
 excerpt: 'Winter is a smart window for Roman ruin days in Libya because heat stops chasing you off the stone. Leptis, Sabratha, and Cyrene country stay walkable with softer light and barely any queues.'

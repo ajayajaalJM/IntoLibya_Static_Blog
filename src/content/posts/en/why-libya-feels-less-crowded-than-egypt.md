@@ -5,7 +5,7 @@ canonicalPath: /en/why-libya-feels-less-crowded-than-egypt
 lang: en
 publishedAt: '2026-10-09'
 translationGroup: why-libya-feels-less-crowded-than-egypt
-featuredImage: /media/posts/why-libya-feels-less-crowded-than-egypt/hero.webp
+featuredImage: /media/2025/10/Leptis-Magna-Baths-scaled.jpg
 draft: false
 galleries: []
 excerpt: 'Libya less crowded than Egypt is not marketing poetry. It is visitor math. Egypt hosts one of the world’s densest heritage tourism systems around Giza,'

@@ -5,7 +5,7 @@ canonicalPath: /en/why-visit-tripoli
 lang: en
 publishedAt: '2026-08-30'
 translationGroup: why-visit-tripoli
-featuredImage: /media/posts/why-visit-tripoli/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a1_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Visit Tripoli if you want Libya’s capital to feel like a real city first and a postcard second. This is where most IntoLibya guests land, sleep off the'

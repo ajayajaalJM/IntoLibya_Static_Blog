@@ -5,7 +5,7 @@ canonicalPath: /en/city-walking-safety-on-guided-tripoli-days
 lang: en
 publishedAt: '2026-12-08'
 translationGroup: city-walking-safety-on-guided-tripoli-days
-featuredImage: /media/posts/city-walking-safety-on-guided-tripoli-days/hero.webp
+featuredImage: /media/posts/_hero-pool/tripoli-Eddruj_Mosque_Tripoli_Libya.JPG.webp
 draft: false
 galleries: []
 excerpt: 'Guided Tripoli walking days feel manageable when you follow local dress and photo cues, stay with your guide, and treat checkpoints as paperwork not theatre.'

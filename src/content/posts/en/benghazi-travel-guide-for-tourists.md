@@ -5,7 +5,7 @@ canonicalPath: /en/benghazi-travel-guide-for-tourists
 lang: en
 publishedAt: '2026-09-04'
 translationGroup: benghazi-travel-guide-for-tourists
-featuredImage: /media/posts/benghazi-travel-guide-for-tourists/hero.webp
+featuredImage: /media/posts/_hero-pool/cyrene-dest_benghazi_webp.webp
 draft: false
 galleries: []
 excerpt: 'To visit Benghazi is to meet eastern Libya as a lived in Mediterranean city, not only a string of ancient names. Benghazi sits where the sea meets'

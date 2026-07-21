@@ -5,7 +5,7 @@ canonicalPath: /en/siwa-style-oasis-travel-where-else-in-north-africa
 lang: en
 publishedAt: '2026-11-24'
 translationGroup: siwa-style-oasis-travel-where-else-in-north-africa
-featuredImage: /media/posts/siwa-style-oasis-travel-where-else-in-north-africa/hero.webp
+featuredImage: /media/posts/_hero-pool/general-dest_germa_webp.webp
 draft: false
 galleries: []
 excerpt: 'Siwa style oasis travel elsewhere in North Africa: Libya''s Gaberoun lakes and Ghadames compared with Tunisia and Morocco.'

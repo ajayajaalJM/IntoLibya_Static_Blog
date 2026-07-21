@@ -5,7 +5,7 @@ canonicalPath: /en/libya-in-january-sunshine-without-summer-desert-heat
 lang: en
 publishedAt: '2026-10-20'
 translationGroup: libya-in-january-sunshine-without-summer-desert-heat
-featuredImage: /media/posts/libya-in-january-sunshine-without-summer-desert-heat/hero.webp
+featuredImage: /media/posts/_hero-pool/sahara-acacus_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Libya in January delivers coast sunshine and manageable Sahara midday hours without July intensity. Nights still turn cold in the desert, so winter packing matters even when days feel gentle.'

@@ -5,7 +5,7 @@ canonicalPath: /en/can-you-combine-tunis-and-tripoli-in-one-journey
 lang: en
 publishedAt: '2026-08-16'
 translationGroup: can-you-combine-tunis-and-tripoli-in-one-journey
-featuredImage: /media/posts/can-you-combine-tunis-and-tripoli-in-one-journey/hero.webp
+featuredImage: /media/posts/beach-holiday-in-tunisia-then-culture-in-libya/hero.webp
 draft: false
 galleries: []
 excerpt: 'Tunis and Tripoli trip is one of the first questions travelers ask when planning with IntoLibya. This guide answers it with practical steps, honest limits,'

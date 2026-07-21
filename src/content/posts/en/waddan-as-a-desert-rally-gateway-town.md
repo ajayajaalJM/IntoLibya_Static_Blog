@@ -5,7 +5,7 @@ canonicalPath: /en/waddan-as-a-desert-rally-gateway-town
 lang: en
 publishedAt: '2026-08-02'
 translationGroup: waddan-as-a-desert-rally-gateway-town
-featuredImage: /media/posts/waddan-as-a-desert-rally-gateway-town/hero.webp
+featuredImage: /media/posts/_hero-pool/general-dest_waw_an_namus_webp.webp
 draft: false
 galleries: []
 excerpt: 'Waddan is the practical gateway for Rally Te Te energy: an oasis town that sits closer to desert motorsport than to the Roman coast fantasy most first'

@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "ignoredSimilarPairs": [
+    [
+      "/media/2023/12/IMG_7923.jpg",
+      "/media/posts/_hero-pool/ghadames-dest_jebel_nafusa_webp.webp"
+    ],
+    [
+      "/media/2023/12/IMG_7923.jpg",
+      "/media/posts/_hero-pool/ghadames-event_event_double_shafra_desert_mens_jpg.webp"
+    ],
+    [
+      "/media/posts/_hero-pool/ghadames-dest_jebel_nafusa_webp.webp",
+      "/media/posts/_hero-pool/ghadames-event_event_double_shafra_desert_mens_jpg.webp"
+    ],
+    [
+      "/media/2025/09/IMG_4544-scaled.jpg",
+      "/media/posts/_hero-pool/cyrene-dest-jebel-akhdar.webp"
+    ],
+    [
+      "/media/2025/09/IMG_4544-scaled.jpg",
+      "/media/posts/can-tourists-visit-libya-yes-with-a-licensed-tour/hero.webp"
+    ],
+    [
+      "/media/posts/_hero-pool/cyrene-dest-jebel-akhdar.webp",
+      "/media/posts/can-tourists-visit-libya-yes-with-a-licensed-tour/hero.webp"
+    ],
+    [
+      "/media/2025/09/temple-of-hercules-shahat.jpeg",
+      "/media/posts/_hero-pool/ghadames-event_event_double_shafra_desert_mens_jpg.webp"
+    ],
+    [
+      "/media/instagram/tripoli-medina.jpg",
+      "/media/instagram/tripoli-old-town.jpg"
+    ],
+    [
+      "/media/posts/_hero-pool/ghadames-event_event_double_shafra_desert_mens_jpg.webp",
+      "/media/posts/_hero-pool/leptis-Leptis_Magna.jpg.webp"
+    ]
+  ]
+}

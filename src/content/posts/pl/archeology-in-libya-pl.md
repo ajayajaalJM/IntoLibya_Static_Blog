@@ -6,7 +6,7 @@ lang: pl
 wpImportId: 6923
 publishedAt: '2026-03-11'
 translationGroup: archeology-in-libya
-featuredImage: /media/2025/09/IMG_7153-2-scaled.jpg
+featuredImage: /media/posts/_hero-pool/general-cdn_a20_jpg.webp
 excerpt: 'The Story of Archeology in Libya: A Land Shaped by Time Archeology in Libya. Libia to kraina, gdzie pustynne piaski spotykają się z morzem. Jego krajobrazy mają tajemnice starsze niż pisanie. Pod jego górami i wydmami, ludzie rzeźbieni, malowani, budowani,'
 seo:
   title: Archeologia w Libii
@@ -39,7 +39,7 @@ seo:
 <p>Rzym ostatecznie podbił Afrykę Północną. W Libii zbudowano trzy wielkie miasta: <a>Leptis Magna</a>, <a>Sabratha</a>oraz Oea (współczesny Trypolis).</p>
 <p><a href="https://intolibya.com/leptis-magna/">Leptis Magna</a> Zapiera dech w piersiach. Jego port, bazylika i rywal rynkowy w Rzymie. <a href="https://intolibya.com/sabratha/">Sabratha</a> posiada teatr, który kiedyś echo z sztuk po łacinie i grecku. Te ruiny są dziś miejscami UNESCO, stojącymi jako światowe skarby.</p>
 <p>Rzymskie drogi łączące wybrzeże z pustynią. Pozwolili na handel złotem, kością słoniową i ziarnem. Archeolodzy studiujący <a>ceramika</a> uczyć się o tych sieciach handlowych. Odłamki ceramiki ujawniają, gdzie żywność była przechowywana, sprzedawana i spożywana.</p>
-<figure class="wp-block-image size-large"><img loading="lazy" alt="an arch in Leptis Magna" class="wp-image-5707" decoding="async" height="1024" loading="lazy" sizes="auto, (max-width: 768px) 100vw, 768px" src="/media/2025/09/IMG_4037-768x1024.jpg" width="768"/></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" alt="an arch in Leptis Magna" class="wp-image-5707" decoding="async" height="1024" loading="lazy" sizes="auto, (max-width: 768px) 100vw, 768px" src="/media/2025/09/IMG_4037-scaled.jpg" width="768"/></figure>
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
 <h2 class="wp-block-heading">Wiara i nowe królestwa</h2>
 <p>Gdy Rzym osłabł, chrześcijaństwo się rozprzestrzeniło. Kościoły zbudowano w Libii. Mozaiki i napisy pokazują oddanie i sztukę.</p>

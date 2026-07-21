@@ -5,7 +5,7 @@ canonicalPath: /en/sample-day-by-day-coastal-libya
 lang: en
 publishedAt: '2026-08-28'
 translationGroup: sample-day-by-day-coastal-libya
-featuredImage: /media/posts/sample-day-by-day-coastal-libya/hero.webp
+featuredImage: /media/posts/_hero-pool/leptis-sabratha_jpg.webp
 draft: false
 galleries: []
 excerpt: 'A sample coastal Libya itinerary day by day plan helps you see how Mitiga arrivals, Roman sites, and Tripoli time actually fit without fantasy packing. This'

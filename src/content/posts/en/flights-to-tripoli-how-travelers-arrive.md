@@ -5,7 +5,7 @@ canonicalPath: /en/flights-to-tripoli-how-travelers-arrive
 lang: en
 publishedAt: '2026-07-24'
 translationGroup: flights-to-tripoli-how-travelers-arrive
-featuredImage: /media/posts/flights-to-tripoli-how-travelers-arrive/hero.webp
+featuredImage: /media/posts/can-tourists-visit-libya-yes-with-a-licensed-tour/hero.webp
 draft: false
 galleries: []
 excerpt: 'Flights to Tripoli are less about hunting a mythical daily direct from every hometown and more about choosing a workable hub, timing tickets after visa'

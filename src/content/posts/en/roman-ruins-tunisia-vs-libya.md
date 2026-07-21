@@ -5,7 +5,7 @@ canonicalPath: /en/roman-ruins-tunisia-vs-libya
 lang: en
 publishedAt: '2026-10-05'
 translationGroup: roman-ruins-tunisia-vs-libya
-featuredImage: /media/posts/roman-ruins-tunisia-vs-libya/hero.webp
+featuredImage: /media/2025/10/Leptis-Magna-Baths-scaled.jpg
 draft: false
 galleries: []
 excerpt: 'Roman ruins Tunisia vs Libya is a fair contest only if you admit both countries win different games. Tunisia offers Dougga, El Djem, Carthage fragments, and'

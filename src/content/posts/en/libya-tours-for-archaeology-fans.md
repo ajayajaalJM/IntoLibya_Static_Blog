@@ -5,7 +5,7 @@ canonicalPath: /en/libya-tours-for-archaeology-fans
 lang: en
 publishedAt: '2026-09-30'
 translationGroup: libya-tours-for-archaeology-fans
-featuredImage: /media/posts/libya-tours-for-archaeology-fans/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a20_jpg.webp
 draft: false
 galleries: []
 excerpt: 'A Libya archaeology tour is for people who want Roman urbanism without the queue, and for travelers ready to meet Greek and desert histories in the same'

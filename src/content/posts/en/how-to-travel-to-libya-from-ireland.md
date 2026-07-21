@@ -5,7 +5,7 @@ canonicalPath: /en/how-to-travel-to-libya-from-ireland
 lang: en
 publishedAt: '2026-12-22'
 translationGroup: how-to-travel-to-libya-from-ireland
-featuredImage: /media/posts/how-to-travel-to-libya-from-ireland/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a37_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Travel to Libya from Ireland through licensed sponsorship, eVisa steps, and guided IntoLibya tours planned in TourBuilder before rigid flights.'

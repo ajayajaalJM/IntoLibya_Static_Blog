@@ -5,7 +5,7 @@ canonicalPath: /en/is-tip-expected-on-libya-tours
 lang: en
 publishedAt: '2026-10-17'
 translationGroup: is-tip-expected-on-libya-tours
-featuredImage: /media/posts/is-tip-expected-on-libya-tours/hero.webp
+featuredImage: /media/posts/_hero-pool/tripoli-abstract_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Nope. Tipping is always optional, and some tour operators like IntoLibya do not accept tips.'

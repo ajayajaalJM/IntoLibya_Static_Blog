@@ -5,7 +5,7 @@ canonicalPath: /en/sample-day-by-day-sahara-libya
 lang: en
 publishedAt: '2026-08-28'
 translationGroup: sample-day-by-day-sahara-libya
-featuredImage: /media/posts/sample-day-by-day-sahara-libya/hero.webp
+featuredImage: /media/posts/_hero-pool/sahara-sahara_jpg.webp
 draft: false
 galleries: []
 excerpt: 'A sample Sahara day by day Libya outline shows how desert trips actually breathe. The point is not to memorize a fixed script. The point is to see why oasis'

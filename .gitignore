@@ -28,3 +28,6 @@ pnpm-debug.log*
 # Generated Open Graph post crops (rebuilt by `npm run generate:og` / prebuild)
 public/media/og/posts/
 public/og/
+
+# Writer duplicate-consolidation quarantine (reversible; do not deploy)
+media-quarantine/

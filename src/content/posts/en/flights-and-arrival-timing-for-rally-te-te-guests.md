@@ -5,7 +5,7 @@ canonicalPath: /en/flights-and-arrival-timing-for-rally-te-te-guests
 lang: en
 publishedAt: '2026-08-01'
 translationGroup: flights-and-arrival-timing-for-rally-te-te-guests
-featuredImage: /media/posts/flights-and-arrival-timing-for-rally-te-te-guests/hero.webp
+featuredImage: /media/posts/_hero-pool/rally-event_event_rally_te_te_waddan_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Rally Te Te guests should plan arrival timing around desert transfer reality, not only the cheapest fare into Tripoli. Most international visitors still'

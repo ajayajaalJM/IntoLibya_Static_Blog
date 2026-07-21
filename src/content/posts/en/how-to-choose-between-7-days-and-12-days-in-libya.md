@@ -5,7 +5,7 @@ canonicalPath: /en/how-to-choose-between-7-days-and-12-days-in-libya
 lang: en
 publishedAt: '2026-08-27'
 translationGroup: how-to-choose-between-7-days-and-12-days-in-libya
-featuredImage: /media/posts/how-to-choose-between-7-days-and-12-days-in-libya/hero.webp
+featuredImage: /media/posts/18-day-full-country-libya-itinerary/hero.webp
 draft: false
 galleries: []
 excerpt: 'Choosing 7 vs 12 days Libya is the decision that separates a complete western story from a coast plus Sahara adventure. Seven days can feel rich. Twelve'

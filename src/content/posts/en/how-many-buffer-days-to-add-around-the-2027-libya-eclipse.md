@@ -5,7 +5,7 @@ canonicalPath: /en/how-many-buffer-days-to-add-around-the-2027-libya-eclipse
 lang: en
 publishedAt: '2026-10-02'
 translationGroup: how-many-buffer-days-to-add-around-the-2027-libya-eclipse
-featuredImage: /media/posts/how-many-buffer-days-to-add-around-the-2027-libya-eclipse/hero.webp
+featuredImage: /media/posts/_hero-pool/cyrene-dest_benghazi_webp.webp
 draft: false
 galleries: []
 excerpt: 'Add enough buffer days around the 2027 Libya eclipse that a single delayed flight cannot erase totality. Most guests are calmer with at least one soft'

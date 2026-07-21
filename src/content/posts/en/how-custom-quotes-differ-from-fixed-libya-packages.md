@@ -5,7 +5,7 @@ canonicalPath: /en/how-custom-quotes-differ-from-fixed-libya-packages
 lang: en
 publishedAt: '2026-12-02'
 translationGroup: how-custom-quotes-differ-from-fixed-libya-packages
-featuredImage: /media/posts/how-custom-quotes-differ-from-fixed-libya-packages/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a37_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Searchers who land here usually want a straight answer on timing, fit, and next steps for “How Custom Quotes Differ From Fixed Libya Packages”, not a'

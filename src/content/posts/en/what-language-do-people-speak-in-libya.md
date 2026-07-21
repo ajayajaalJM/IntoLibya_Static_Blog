@@ -5,7 +5,7 @@ canonicalPath: /en/what-language-do-people-speak-in-libya
 lang: en
 publishedAt: '2026-10-11'
 translationGroup: what-language-do-people-speak-in-libya
-featuredImage: /media/posts/what-language-do-people-speak-in-libya/hero.webp
+featuredImage: /media/posts/can-tourists-visit-libya-yes-with-a-licensed-tour/hero.webp
 draft: false
 galleries: []
 excerpt: 'What language Libya travelers hear first is Arabic. Libyan Arabic dialects dominate daily life in cities and towns. Modern Standard Arabic appears in'

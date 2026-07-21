@@ -5,7 +5,7 @@ canonicalPath: /en/ghadames-festival-season-culture-notes-for-visitors
 lang: en
 publishedAt: '2027-01-04'
 translationGroup: ghadames-festival-season-culture-notes-for-visitors
-featuredImage: /media/posts/ghadames-festival-season-culture-notes-for-visitors/hero.webp
+featuredImage: /media/posts/_hero-pool/ghadames-event_event_double_shafra_ghadames_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Ghadames festival season culture notes help visitors plan late December oasis energy, lodging demand, and licensed IntoLibya routes when festival dates align with travel.'

@@ -5,7 +5,7 @@ canonicalPath: /en/adventure-time-libya-package-guide
 lang: en
 publishedAt: '2026-08-20'
 translationGroup: adventure-time-libya-package-guide
-featuredImage: /media/posts/adventure-time-libya-package-guide/hero.webp
+featuredImage: /media/posts/_hero-pool/sahara-acacus_jpg.webp
 draft: false
 galleries: []
 excerpt: 'A 12 day Libya tour is where coast and Sahara finally share the stage without crushing each other. Adventure Time style packages, and nearby fifteen day'

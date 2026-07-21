@@ -6,7 +6,7 @@ lang: nl
 wpImportId: 6926
 publishedAt: '2026-03-11'
 translationGroup: archeology-in-libya
-featuredImage: /media/2025/09/IMG_7153-2-scaled.jpg
+featuredImage: /media/posts/_hero-pool/general-cdn_a20_jpg.webp
 excerpt: 'Het verhaal van de archeologie in Libië: Een land gevormd door tijdarcheologie in Libië. Libië is een land waar woestijnzand de zee ontmoet. Zijn landschappen bevatten geheimen die ouder zijn dan schrijven. Onder de bergen en duinen, mensen gesneden, geschilderd, gebouwd,'
 seo:
   title: Archeologie in Libië
@@ -39,7 +39,7 @@ seo:
 <p>Rome veroverde uiteindelijk Noord-Afrika. In Libië bouwden ze drie grote steden: <a>Leptis Magna</a>, <a>Sabritha</a>, en Oea (modern Tripoli).</p>
 <p><a href="https://intolibya.com/leptis-magna/">Leptis Magna</a> is adembenemend. Zijn haven, basiliek en markt rivaal in Rome. <a href="https://intolibya.com/sabratha/">Sabritha</a> houdt een theater dat ooit echoed met toneelstukken in het Latijn en Grieks. Deze ruïnes zijn UNESCO-sites vandaag, staan als mondiale schatten.</p>
 <p>Romeinse wegen verbonden kust met woestijn. Ze lieten de handel in goud, ivoor en graan toe. Archeologen die <a>keramiek</a> leren over deze handelsnetwerken. Stukken aardewerk tonen waar voedsel werd opgeslagen, verkocht en geconsumeerd.</p>
-<figure class="wp-block-image size-large"><img loading="lazy" alt="an arch in Leptis Magna" class="wp-image-5707" decoding="async" height="1024" loading="lazy" sizes="auto, (max-width: 768px) 100vw, 768px" src="/media/2025/09/IMG_4037-768x1024.jpg" width="768"/></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" alt="an arch in Leptis Magna" class="wp-image-5707" decoding="async" height="1024" loading="lazy" sizes="auto, (max-width: 768px) 100vw, 768px" src="/media/2025/09/IMG_4037-scaled.jpg" width="768"/></figure>
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
 <h2 class="wp-block-heading">Geloof en nieuwe koninkrijken</h2>
 <p>Toen Rome verzwakte, verspreidde het christendom zich. Kerken werden gebouwd in heel Libië. Mozaïek en inscripties tonen toewijding en kunst.</p>

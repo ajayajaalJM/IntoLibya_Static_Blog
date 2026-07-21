@@ -5,7 +5,7 @@ canonicalPath: /en/how-to-travel-to-libya-from-spain
 lang: en
 publishedAt: '2026-09-29'
 translationGroup: how-to-travel-to-libya-from-spain
-featuredImage: /media/posts/how-to-travel-to-libya-from-spain/hero.webp
+featuredImage: /media/posts/can-tourists-visit-libya-yes-with-a-licensed-tour/hero.webp
 draft: false
 galleries: []
 excerpt: 'Travel to Libya from Spain is workable for travelers who want North African depth beyond familiar beach circuits. Spanish visitors follow the same sponsored'

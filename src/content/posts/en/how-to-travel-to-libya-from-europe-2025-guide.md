@@ -6,7 +6,7 @@ lang: en
 wpImportId: 5661
 publishedAt: '2025-08-31'
 translationGroup: how-to-travel-to-libya-from-europe-2025-guide
-featuredImage: /media/2023/12/Screen-Shot-2023-12-20-at-4.03.35-PM.png
+featuredImage: /media/2025/12/588952128_18541788997018455_4310813881741799310_n.jpg
 excerpt: Why Europeans Should Visit Libya Libya is a destination that blends Mediterranean charm with Sahara adventure, offering a rich historical tapestry, stunning coastal views, and vast desert landscapes. From ancient Roman cities like Leptis Magna and Sabratha to the timeless
 seo:
   title: How to Travel to Libya from Europe – 2025 Guide - IntoLibya

@@ -5,7 +5,7 @@ canonicalPath: /en/weather-odds-thinking-for-august-eclipse-travel-in-libya
 lang: en
 publishedAt: '2026-10-03'
 translationGroup: weather-odds-thinking-for-august-eclipse-travel-in-libya
-featuredImage: /media/posts/weather-odds-thinking-for-august-eclipse-travel-in-libya/hero.webp
+featuredImage: /media/posts/_hero-pool/cyrene-dest_benghazi_webp.webp
 draft: false
 galleries: []
 excerpt: 'Weather odds thinking for August eclipse travel in Libya means planning for heat, haze, and the small chance that clouds rewrite the view, without'

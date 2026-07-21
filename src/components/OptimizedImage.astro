@@ -1,7 +1,9 @@
 ---
 import { Picture } from 'astro:assets';
 import type { ImageMetadata } from 'astro';
+import { blogImageSrcSet, blogImageUrl, availableDerivativeWidths } from '../lib/blog-image-url';
 import { localizeMediaUrl, resolveLocalImage } from '../lib/local-images';
+import { canonicalizeMediaPath } from '../lib/media-paths';
 
 interface Props {
   src: string | ImageMetadata;
@@ -48,15 +50,20 @@ const uniqueWidths = [
 
 const fallbackHeight = height ?? Math.round(width * (2 / 3));
 
-/** Public /media files break Vercel Image Optimization — serve them directly. */
+/** Public /media files break Vercel Image Optimization — serve them (and on-disk derivatives) directly. */
 const usePlainPublicMedia = isPublicMedia && typeof resolved === 'string';
+const masterPath = usePlainPublicMedia ? canonicalizeMediaPath(srcString) : '';
+const derivWidths = usePlainPublicMedia ? availableDerivativeWidths(masterPath) : [];
+const plainSrc = usePlainPublicMedia ? blogImageUrl(masterPath, width) : srcString;
+const plainSrcSet = usePlainPublicMedia ? blogImageSrcSet(masterPath) : '';
 ---
 
 {
   usePlainPublicMedia ? (
     <picture class={pictureClass}>
       <img
-        src={srcString}
+        src={plainSrc}
+        srcset={plainSrcSet || undefined}
         alt={alt}
         width={width}
         height={fallbackHeight}
@@ -65,6 +72,7 @@ const usePlainPublicMedia = isPublicMedia && typeof resolved === 'string';
         loading={loading}
         fetchpriority={fetchpriority}
         decoding={decoding}
+        data-deriv-count={derivWidths.length || undefined}
       />
     </picture>
   ) : (

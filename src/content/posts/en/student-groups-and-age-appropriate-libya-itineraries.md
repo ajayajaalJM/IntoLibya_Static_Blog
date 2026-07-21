@@ -5,7 +5,7 @@ canonicalPath: /en/student-groups-and-age-appropriate-libya-itineraries
 lang: en
 publishedAt: '2027-01-07'
 translationGroup: student-groups-and-age-appropriate-libya-itineraries
-featuredImage: /media/posts/student-groups-and-age-appropriate-libya-itineraries/hero.webp
+featuredImage: /media/posts/_hero-pool/general-dest_misrata_webp.webp
 draft: false
 galleries: []
 excerpt: 'Student groups need age appropriate Libya itineraries with shorter ruin blocks, chaperone ratios, licensed IntoLibya sponsorship, and desert segments matched to maturity and outdoor experience.'

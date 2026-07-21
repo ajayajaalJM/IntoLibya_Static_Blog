@@ -5,7 +5,7 @@ canonicalPath: /en/traditional-horse-racing-near-leptis-magna-for-guests
 lang: en
 publishedAt: '2026-12-24'
 translationGroup: traditional-horse-racing-near-leptis-magna-for-guests
-featuredImage: /media/posts/traditional-horse-racing-near-leptis-magna-for-guests/hero.webp
+featuredImage: /media/2025/10/Leptis-Magna-Baths-scaled.jpg
 draft: false
 galleries: []
 excerpt: 'Traditional horse racing near Leptis Magna may appear on licensed western coast tours when local events align with your dates, confirmed through IntoLibya TourBuilder.'

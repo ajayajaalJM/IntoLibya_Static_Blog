@@ -5,7 +5,7 @@ canonicalPath: /en/luxury-north-africa-without-only-atlas-and-nile-icons
 lang: en
 publishedAt: '2026-11-30'
 translationGroup: luxury-north-africa-without-only-atlas-and-nile-icons
-featuredImage: /media/posts/luxury-north-africa-without-only-atlas-and-nile-icons/hero.webp
+featuredImage: /media/posts/_hero-pool/general-event_event_total_solar_eclipse_2027_libya_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Luxury North Africa beyond Atlas riads and Nile cruises: private Libya tours with quiet Leptis Magna mornings.'

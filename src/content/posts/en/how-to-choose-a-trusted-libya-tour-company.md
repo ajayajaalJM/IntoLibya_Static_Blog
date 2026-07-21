@@ -5,7 +5,7 @@ canonicalPath: /en/how-to-choose-a-trusted-libya-tour-company
 lang: en
 publishedAt: '2026-08-06'
 translationGroup: how-to-choose-a-trusted-libya-tour-company
-featuredImage: /media/posts/how-to-choose-a-trusted-libya-tour-company/hero.webp
+featuredImage: /media/posts/18-day-full-country-libya-itinerary/hero.webp
 draft: false
 galleries: []
 excerpt: 'Best Libya tour company is one of the first questions travelers ask when planning with IntoLibya. This guide answers it with practical steps, honest limits,'

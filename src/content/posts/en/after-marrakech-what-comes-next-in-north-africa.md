@@ -5,7 +5,7 @@ canonicalPath: /en/after-marrakech-what-comes-next-in-north-africa
 lang: en
 publishedAt: '2026-11-19'
 translationGroup: after-marrakech-what-comes-next-in-north-africa
-featuredImage: /media/posts/after-marrakech-what-comes-next-in-north-africa/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a16_jpg.webp
 draft: false
 galleries: []
 excerpt: 'After Marrakech, many North Africa travelers choose Libya for Leptis Magna scale or Tunisia for easy archaeology next.'

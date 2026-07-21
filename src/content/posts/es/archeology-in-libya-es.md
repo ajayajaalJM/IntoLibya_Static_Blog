@@ -6,7 +6,7 @@ lang: es
 wpImportId: 6922
 publishedAt: '2026-03-11'
 translationGroup: archeology-in-libya
-featuredImage: /media/2025/09/IMG_7153-2-scaled.jpg
+featuredImage: /media/posts/_hero-pool/general-cdn_a20_jpg.webp
 excerpt: 'La historia de la arqueología en Libia: una tierra formada por la arqueología del tiempo en Libia. Libia es una tierra donde las arenas del desierto se encuentran con el mar. Sus paisajes tienen secretos más antiguos que escribir. Debajo de sus montañas y dunas, la gente tallada, pintada, construida,'
 seo:
   title: Arqueología en Libia
@@ -39,7 +39,7 @@ seo:
 <p>Roma finalmente conquistó África del Norte. En Libia construyeron tres grandes ciudades: <a>Leptis Magna</a>, <a>Sabratha</a>, y Oea ( Trípoli moderna).</p>
 <p><a href="https://intolibya.com/leptis-magna/">Leptis Magna</a> es impresionante. Su puerto, basílica y mercado rivalizan en Roma. <a href="https://intolibya.com/sabratha/">Sabratha</a> tiene un teatro que una vez resonó con obras de teatro en latín y griego. Estas ruinas son hoy sitios de la UNESCO, de pie como tesoros globales.</p>
 <p>Las carreteras romanas conectan la costa al desierto. Permitieron el comercio de oro, marfil y grano. Arqueólogos que estudian <a>cerámica</a> aprender acerca de estas redes comerciales. Los fragmentos de cerámica revelan dónde se almacenaban, vendían y consumían los alimentos.</p>
-<figure class="wp-block-image size-large"><img loading="lazy" alt="an arch in Leptis Magna" class="wp-image-5707" decoding="async" height="1024" loading="lazy" sizes="auto, (max-width: 768px) 100vw, 768px" src="/media/2025/09/IMG_4037-768x1024.jpg" width="768"/></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" alt="an arch in Leptis Magna" class="wp-image-5707" decoding="async" height="1024" loading="lazy" sizes="auto, (max-width: 768px) 100vw, 768px" src="/media/2025/09/IMG_4037-scaled.jpg" width="768"/></figure>
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
 <h2 class="wp-block-heading">Fe y nuevos reinos</h2>
 <p>Mientras Roma se debilitaba, el cristianismo se extendía. Las iglesias se construyeron a través de Libia. Mosaicos e inscripciones muestran devoción y arte.</p>

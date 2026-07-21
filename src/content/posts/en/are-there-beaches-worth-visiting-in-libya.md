@@ -5,7 +5,7 @@ canonicalPath: /en/are-there-beaches-worth-visiting-in-libya
 lang: en
 publishedAt: '2026-10-13'
 translationGroup: are-there-beaches-worth-visiting-in-libya
-featuredImage: /media/posts/are-there-beaches-worth-visiting-in-libya/hero.webp
+featuredImage: /media/posts/_hero-pool/leptis-sabratha_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Beaches in Libya exist along a long Mediterranean coast, and some stretches are genuinely beautiful. They are not the primary product most international'

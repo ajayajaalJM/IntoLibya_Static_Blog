@@ -5,7 +5,7 @@ canonicalPath: /en/private-libya-tour-vs-group-tour
 lang: en
 publishedAt: '2026-08-10'
 translationGroup: private-libya-tour-vs-group-tour
-featuredImage: /media/posts/private-libya-tour-vs-group-tour/hero.webp
+featuredImage: /media/posts/18-day-full-country-libya-itinerary/hero.webp
 draft: false
 galleries: []
 excerpt: 'Private Libya tour is one of the first questions travelers ask when planning with IntoLibya. This guide answers it with practical steps, honest limits, and'

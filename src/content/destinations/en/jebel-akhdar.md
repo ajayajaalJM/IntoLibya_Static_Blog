@@ -6,7 +6,7 @@ lang: en
 publishedAt: '2026-07-13'
 translationGroup: jebel-akhdar
 draft: false
-featuredImage: /media/destinations/jebel-akhdar/hero.webp
+featuredImage: /media/posts/_hero-pool/cyrene-dest-jebel-akhdar.webp
 excerpt: Why Visit Jebel Akhdar? Libya’s Green Mountain rises above Cyrenaica with forests, farmland, and cool highland air—the living landscape behind Cyrene and Apollonia.
 seo:
   title: Jebel Akhdar - IntoLibya

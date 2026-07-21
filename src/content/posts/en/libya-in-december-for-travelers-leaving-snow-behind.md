@@ -5,7 +5,7 @@ canonicalPath: /en/libya-in-december-for-travelers-leaving-snow-behind
 lang: en
 publishedAt: '2026-10-19'
 translationGroup: libya-in-december-for-travelers-leaving-snow-behind
-featuredImage: /media/posts/libya-in-december-for-travelers-leaving-snow-behind/hero.webp
+featuredImage: /media/posts/_hero-pool/cyrene-dest-tobruk.webp
 draft: false
 galleries: []
 excerpt: 'Libya in December gives snow weary travelers coast daylight and ruin walks without midsummer heat. Desert camps still turn cold at night, so pack warmth alongside your escape from northern winter.'

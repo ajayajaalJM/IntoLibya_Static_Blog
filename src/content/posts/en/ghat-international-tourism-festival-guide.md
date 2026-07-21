@@ -5,7 +5,7 @@ canonicalPath: /en/ghat-international-tourism-festival-guide
 lang: en
 publishedAt: '2026-09-20'
 translationGroup: ghat-international-tourism-festival-guide
-featuredImage: /media/posts/ghat-international-tourism-festival-guide/hero.webp
+featuredImage: /media/posts/_hero-pool/sahara-event_event_ghat_international_tourism_festival_jpg.webp
 draft: false
 galleries: []
 excerpt: 'The Ghat tourism festival is a culture first desert gathering that draws visitors toward southwestern Libya’s oasis energy, Tuareg heritage, and Sahara'

@@ -5,7 +5,7 @@ canonicalPath: /en/algeria-vs-libya-for-sahara-expeditions
 lang: en
 publishedAt: '2026-08-15'
 translationGroup: algeria-vs-libya-for-sahara-expeditions
-featuredImage: /media/posts/algeria-vs-libya-for-sahara-expeditions/hero.webp
+featuredImage: /media/posts/_hero-pool/sahara-sahara_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Algeria vs Libya Sahara is one of the first questions travelers ask when planning with IntoLibya. This guide answers it with practical steps, honest limits,'

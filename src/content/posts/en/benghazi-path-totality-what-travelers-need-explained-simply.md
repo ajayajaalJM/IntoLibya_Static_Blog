@@ -5,7 +5,7 @@ canonicalPath: /en/benghazi-path-totality-what-travelers-need-explained-simply
 lang: en
 publishedAt: '2026-10-01'
 translationGroup: benghazi-path-totality-what-travelers-need-explained-simply
-featuredImage: /media/posts/benghazi-path-totality-what-travelers-need-explained-simply/hero.webp
+featuredImage: /media/posts/_hero-pool/cyrene-dest-qasr-libya.webp
 draft: false
 galleries: []
 excerpt: 'Benghazi path totality, explained simply: eastern Libya sits in a meaningful corridor for the August 2027 total solar eclipse, and many guest plans will'

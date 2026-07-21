@@ -6,7 +6,7 @@ lang: pt
 wpImportId: 7019
 publishedAt: '2026-03-11'
 translationGroup: unearthing-the-foggara-water-in-the-desert
-featuredImage: /media/2025/10/Narrow-pathways-around-the-old-town-of-Ghadames-scaled.jpg
+featuredImage: /media/posts/beach-holiday-in-tunisia-then-culture-in-libya/hero.webp
 excerpt: 'No coração do Saara, onde a areia se estende infinitamente e a água é escassa, os povos antigos descobriram um segredo notável: a vida poderia florescer mesmo no deserto mais duro. Este segredo era o nevoeiro, um engenhoso sistema de irrigação subterrânea que transportava'
 seo:
   title: 'Descoberta do Foggara: Água no deserto'

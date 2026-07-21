@@ -5,7 +5,7 @@ canonicalPath: /en/booking-a-libya-tour-from-abroad-timeline
 lang: en
 publishedAt: '2026-08-21'
 translationGroup: booking-a-libya-tour-from-abroad-timeline
-featuredImage: /media/posts/booking-a-libya-tour-from-abroad-timeline/hero.webp
+featuredImage: /media/posts/_hero-pool/tripoli-abstract_jpg.webp
 draft: false
 galleries: []
 excerpt: 'To book Libya tour from abroad without panic, treat the process as a timeline, not a single click. You are coordinating an operator, sponsorship, an eVisa,'

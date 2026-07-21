@@ -5,7 +5,7 @@ canonicalPath: /en/seasoned-expeditioner-18-day-libya-package-guide
 lang: en
 publishedAt: '2026-08-20'
 translationGroup: seasoned-expeditioner-18-day-libya-package-guide
-featuredImage: /media/posts/seasoned-expeditioner-18-day-libya-package-guide/hero.webp
+featuredImage: /media/posts/18-day-full-country-libya-itinerary/hero.webp
 draft: false
 galleries: []
 excerpt: 'An 18 day Libya tour is the Seasoned Expeditioner answer when you want the country as a whole story, not a highlight reel. Full country style packages exist'

@@ -5,7 +5,7 @@ canonicalPath: /en/best-time-to-visit-libya
 lang: en
 publishedAt: '2026-09-17'
 translationGroup: best-time-to-visit-libya
-featuredImage: /media/posts/best-time-to-visit-libya/hero.webp
+featuredImage: /media/posts/_hero-pool/sahara-sahara_jpg.webp
 draft: false
 galleries: []
 excerpt: 'The best time to visit Libya for most tourists is autumn through spring, roughly October through April, when coastal ruins stay walkable and Sahara nights'

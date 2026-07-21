@@ -5,7 +5,7 @@ canonicalPath: /en/12-day-libya-adventure-itinerary
 lang: en
 publishedAt: '2026-08-13'
 translationGroup: 12-day-libya-adventure-itinerary
-featuredImage: /media/posts/12-day-libya-adventure-itinerary/hero.webp
+featuredImage: /media/posts/_hero-pool/sahara-acacus_jpg.webp
 draft: false
 galleries: []
 excerpt: '12 day Libya itinerary is one of the first questions travelers ask when planning with IntoLibya. This guide answers it with practical steps, honest limits,'

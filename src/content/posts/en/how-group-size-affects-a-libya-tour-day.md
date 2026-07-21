@@ -5,7 +5,7 @@ canonicalPath: /en/how-group-size-affects-a-libya-tour-day
 lang: en
 publishedAt: '2027-01-01'
 translationGroup: how-group-size-affects-a-libya-tour-day
-featuredImage: /media/posts/how-group-size-affects-a-libya-tour-day/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a3_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Read this as a guest briefing for “How Group Size Affects a Libya Tour Day”. Prices and live inclusions stay in TourBuilder so the article does not age'

@@ -5,7 +5,7 @@ canonicalPath: /en/acacus-mountains-camping-night
 lang: en
 publishedAt: '2026-09-15'
 translationGroup: acacus-mountains-camping-night
-featuredImage: /media/posts/acacus-mountains-camping-night/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a39_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Acacus camping is the overnight that turns a rock art expedition into a full sensory memory. After sandstone corridors and prehistoric panels, you sleep'

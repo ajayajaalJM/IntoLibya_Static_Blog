@@ -5,7 +5,7 @@ canonicalPath: /en/north-africa-holiday-planner-where-libya-fits
 lang: en
 publishedAt: '2026-10-07'
 translationGroup: north-africa-holiday-planner-where-libya-fits
-featuredImage: /media/posts/north-africa-holiday-planner-where-libya-fits/hero.webp
+featuredImage: /media/posts/beach-holiday-in-tunisia-then-culture-in-libya/hero.webp
 draft: false
 galleries: []
 excerpt: 'A North Africa itinerary works best when you stop treating the Maghreb as one interchangeable beach and ruin buffet. Morocco, Tunisia, Algeria, Egypt, and'

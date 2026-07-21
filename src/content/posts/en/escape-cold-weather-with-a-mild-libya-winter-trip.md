@@ -5,7 +5,7 @@ canonicalPath: /en/escape-cold-weather-with-a-mild-libya-winter-trip
 lang: en
 publishedAt: '2026-10-19'
 translationGroup: escape-cold-weather-with-a-mild-libya-winter-trip
-featuredImage: /media/posts/escape-cold-weather-with-a-mild-libya-winter-trip/hero.webp
+featuredImage: /media/posts/_hero-pool/general-dest_misrata_webp.webp
 draft: false
 galleries: []
 excerpt: 'A mild Libya winter trip trades northern gloom for usable daylight on the coast. It is not tropical heat. It is walkable ruins, softer sun, and desert nights that still need warm layers.'

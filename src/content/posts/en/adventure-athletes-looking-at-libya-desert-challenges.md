@@ -5,7 +5,7 @@ canonicalPath: /en/adventure-athletes-looking-at-libya-desert-challenges
 lang: en
 publishedAt: '2027-01-06'
 translationGroup: adventure-athletes-looking-at-libya-desert-challenges
-featuredImage: /media/posts/adventure-athletes-looking-at-libya-desert-challenges/hero.webp
+featuredImage: /media/posts/_hero-pool/general-dest_germa_webp.webp
 draft: false
 galleries: []
 excerpt: 'Adventure athletes considering Libya desert challenges need honest heat talk, licensed expedition support, optional sport add ons when offered, and fitness realism on IntoLibya Sahara routes.'

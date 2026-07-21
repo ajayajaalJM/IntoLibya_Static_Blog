@@ -6,7 +6,7 @@ lang: de
 wpImportId: 7126
 publishedAt: '2026-03-11'
 translationGroup: libya-tours-2026-how-to-book-a-tour-with-intolibya
-featuredImage: /media/2025/09/IMG_3295-scaled.jpg
+featuredImage: /media/posts/_hero-pool/tripoli-abstract_jpg.webp
 excerpt: Libyen bleibt eines der letzten wirklich unentdeckten Ziele auf der Erde. Alte römische Städte steigen von der Mittelmeerküste, während Caravanrouten durch die goldenen Dünen der Sahara schneiden. Gleichzeitig bewahren Oasis Städte Jahrhunderte alte Traditionen,
 seo:
   title: 'Libyen Touren 2026: Wie man eine Tour mit IntoLibya buchen'

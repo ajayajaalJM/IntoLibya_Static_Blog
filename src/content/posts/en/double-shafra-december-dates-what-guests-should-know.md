@@ -5,7 +5,7 @@ canonicalPath: /en/double-shafra-december-dates-what-guests-should-know
 lang: en
 publishedAt: '2026-09-15'
 translationGroup: double-shafra-december-dates-what-guests-should-know
-featuredImage: /media/posts/double-shafra-december-dates-what-guests-should-know/hero.webp
+featuredImage: /media/posts/_hero-pool/ghadames-Ghadames.jpg.webp
 draft: false
 galleries: []
 excerpt: 'Double Shafra December dates matter because they turn a flexible Libya idea into a fixed winter week. When the live TourBuilder listing is on the'

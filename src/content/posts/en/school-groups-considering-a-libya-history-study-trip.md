@@ -5,7 +5,7 @@ canonicalPath: /en/school-groups-considering-a-libya-history-study-trip
 lang: en
 publishedAt: '2026-12-14'
 translationGroup: school-groups-considering-a-libya-history-study-trip
-featuredImage: /media/posts/school-groups-considering-a-libya-history-study-trip/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a39_jpg.webp
 draft: false
 galleries: []
 excerpt: 'School groups considering Libya history study trips need licensed sponsorship, teacher led discipline, age appropriate site pacing, and IntoLibya coordination for passports, insurance, and learning goals.'

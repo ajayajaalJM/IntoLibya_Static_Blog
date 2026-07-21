@@ -6,7 +6,7 @@ lang: de
 wpImportId: 6927
 publishedAt: '2026-03-11'
 translationGroup: archeology-in-libya
-featuredImage: /media/2025/09/IMG_7153-2-scaled.jpg
+featuredImage: /media/posts/_hero-pool/general-cdn_a20_jpg.webp
 excerpt: 'Die Geschichte der Archäologie in Libyen: Ein Land, das von Zeitarchäologie in Libyen geprägt ist. Libyen ist ein Land, in dem Wüstensande das Meer treffen. Seine Landschaften halten Geheimnisse älter als schreiben. Unterhalb seiner Berge und Dünen, Menschen geschnitzt, bemalt, gebaut,'
 seo:
   title: Archäologie in Libyen
@@ -39,7 +39,7 @@ seo:
 <p>Rom eroberte schließlich Nordafrika. In Libyen bauten sie drei große Städte: <a>Leptis Magna</a>, <a>Sabratha</a>, und Oea (moderne Tripolis).</p>
 <p><a href="https://intolibya.com/leptis-magna/">Leptis Magna</a> ist atemberaubend. Sein Hafen, Basilika und Marktplatz Rivale in Rom. <a href="https://intolibya.com/sabratha/">Sabratha</a> hält ein Theater, das einmal mit Theaterstücken in Latein und Griechisch Echo. Diese Ruinen sind heute UNESCO-Standorte als globale Schätze.</p>
 <p>Römische Straßen verbindet Küste mit Wüste. Sie erlaubten den Handel mit Gold, Elfenbein und Getreide. Archäologen studieren <a>Keramik</a> über diese Handelsnetze lernen. Scherben der Keramik zeigen, wo Nahrung gelagert, verkauft und verbraucht wurde.</p>
-<figure class="wp-block-image size-large"><img loading="lazy" alt="an arch in Leptis Magna" class="wp-image-5707" decoding="async" height="1024" loading="lazy" sizes="auto, (max-width: 768px) 100vw, 768px" src="/media/2025/09/IMG_4037-768x1024.jpg" width="768"/></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" alt="an arch in Leptis Magna" class="wp-image-5707" decoding="async" height="1024" loading="lazy" sizes="auto, (max-width: 768px) 100vw, 768px" src="/media/2025/09/IMG_4037-scaled.jpg" width="768"/></figure>
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
 <h2 class="wp-block-heading">Glaube und Neue Königreiche</h2>
 <p>Als Rom schwächte, verbreitete sich das Christentum. Kirchen wurden über Libyen gebaut. Mosaiken und Inschriften zeigen Hingabe und Kunst.</p>

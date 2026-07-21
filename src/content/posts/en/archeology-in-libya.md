@@ -6,7 +6,7 @@ lang: en
 wpImportId: 5859
 publishedAt: '2025-09-11'
 translationGroup: archeology-in-libya
-featuredImage: /media/2025/09/IMG_7153-2-scaled.jpg
+featuredImage: /media/posts/_hero-pool/general-cdn_a20_jpg.webp
 excerpt: 'The Story of Archeology in Libya: A Land Shaped by Time Archeology in Libya. Libya is a land where desert sands meet the sea. Its landscapes hold secrets older than writing. Beneath its mountains and dunes, people carved, painted, built,'
 seo:
   title: Archeology in Libya - IntoLibya
@@ -63,7 +63,7 @@ seo:
 
 <p class="wp-block-paragraph">Roman roads connected coast to desert. They allowed trade in gold, ivory, and grain. Archaeologists studying <a>ceramics</a> learn about these trade networks. Shards of pottery reveal where food was stored, sold, and consumed.</p>
 
-<figure class="wp-block-image size-large"><img decoding="async" width="768" height="1024" sizes="(max-width: 768px) 100vw, 768px" src="/media/2025/09/IMG_4037-768x1024.jpg" alt="an arch in Leptis Magna" class="wp-image-5707" /></figure>
+<figure class="wp-block-image size-large"><img decoding="async" width="768" height="1024" sizes="(max-width: 768px) 100vw, 768px" src="/media/2025/09/IMG_4037-scaled.jpg" alt="an arch in Leptis Magna" class="wp-image-5707" /></figure>
 
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
 

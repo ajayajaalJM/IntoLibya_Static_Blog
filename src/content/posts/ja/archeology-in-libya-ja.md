@@ -6,7 +6,7 @@ lang: ja
 wpImportId: 6924
 publishedAt: '2026-03-11'
 translationGroup: archeology-in-libya
-featuredImage: /media/2025/09/IMG_7153-2-scaled.jpg
+featuredImage: /media/posts/_hero-pool/general-cdn_a20_jpg.webp
 excerpt: 'リビアの考古学の物語: リビアの時間の考古学によって形成された土地. リビアは、砂漠の砂が海を満たしている土地です。 その風景は、文章よりも古い秘密を保持します。 山と砂丘の下、彫刻、塗装、造られた人々'
 seo:
   title: リビアの考古学
@@ -39,7 +39,7 @@ seo:
 <p>ローマは最終的に北アフリカを征服しました。 Libya では 3 つの都市を建てました。 <a>Leptisマグナ</a>, <a>サブラサ</a>, と Oea (modern Tripoli).</p>
 <p><a href="https://intolibya.com/leptis-magna/">Leptisマグナ</a> 呼吸器です。 ローマの港、バシリカ、マーケットプレースライバル。 <a href="https://intolibya.com/sabratha/">サブラサ</a> かつてラテン語とギリシャ語で遊びにエコーされた劇場を保持しています。 これらの遺跡は、世界の宝物として立っている今日のユネスコのサイトです。</p>
 <p>ローマの道路は砂漠に海岸を接続しました。 彼らは金、アイボリー、穀物で取引を許可しました。 考古学者の研究 <a>セラミックス</a> これらの取引ネットワークについて学びます。 食料が保存され、販売され、消費された場所を明らかにする陶器の破片。</p>
-<figure class="wp-block-image size-large"><img loading="lazy" alt="an arch in Leptis Magna" class="wp-image-5707" decoding="async" height="1024" loading="lazy" sizes="auto, (max-width: 768px) 100vw, 768px" src="/media/2025/09/IMG_4037-768x1024.jpg" width="768"/></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" alt="an arch in Leptis Magna" class="wp-image-5707" decoding="async" height="1024" loading="lazy" sizes="auto, (max-width: 768px) 100vw, 768px" src="/media/2025/09/IMG_4037-scaled.jpg" width="768"/></figure>
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
 <h2 class="wp-block-heading">信仰と新しい王国</h2>
 <p>ローマが弱くなり、キリスト教が広がります。 教会はリビアに建てられました。 モザイクと碑文は、献身と芸術を示しています。</p>

@@ -5,7 +5,7 @@ canonicalPath: /en/who-are-the-tuareg-in-libya
 lang: en
 publishedAt: '2026-10-14'
 translationGroup: who-are-the-tuareg-in-libya
-featuredImage: /media/posts/who-are-the-tuareg-in-libya/hero.webp
+featuredImage: /media/posts/_hero-pool/sahara-dest_ghat_webp.webp
 draft: false
 galleries: []
 excerpt: 'Tuareg Libya communities are traditionally nomadic and semi nomadic Amazigh people of the central Sahara, with strong presence in the southwest around Ghat'

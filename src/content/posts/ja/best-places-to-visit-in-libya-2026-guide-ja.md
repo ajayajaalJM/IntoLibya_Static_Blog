@@ -6,7 +6,7 @@ lang: ja
 wpImportId: 7145
 publishedAt: '2026-03-11'
 translationGroup: best-places-to-visit-in-libya-2026-guide
-featuredImage: /media/2025/09/IMG_7153-2-scaled.jpg
+featuredImage: /media/posts/_hero-pool/general-cdn_a20_jpg.webp
 excerpt: リビアは、北アフリカで最も魅力的な目的地の1つです。今年は、リビアで訪れるのに最適な場所です。 近隣諸国よりも少ないままですが、驚くべき歴史、広大な砂漠の風景、そして生きた文化を提供しています
 seo:
   title: Libya 2026ガイドで訪問する最高の場所

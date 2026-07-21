@@ -5,7 +5,7 @@ canonicalPath: /en/leptis-magna-guided-tour-tips
 lang: en
 publishedAt: '2026-09-09'
 translationGroup: leptis-magna-guided-tour-tips
-featuredImage: /media/posts/leptis-magna-guided-tour-tips/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a20_jpg.webp
 draft: false
 galleries: []
 excerpt: 'A Leptis Magna tour rewards travelers who treat the site like a city, not a selfie railing. With an IntoLibya guide, you walk forums, baths, theatre spaces,'

@@ -11,6 +11,9 @@ import { galleriesAt, galleryImageObjects } from '../lib/galleries';
 import { LANG_LABELS, type Lang } from '../lib/post-schema';
 import { ogPathForFeaturedImage } from '../lib/og';
 import { extractRelatedReading, resolveRelatedCards } from '../lib/related-reading';
+import { buildImageObject, readMediaCatalogDimensions } from '../lib/image-sitemap';
+import { fileURLToPath } from 'node:url';
+import path from 'node:path';
 
 export async function getStaticPaths() {
   const posts = await getAllPosts();
@@ -55,7 +58,19 @@ const hreflangAlternates = [
   { lang: 'x-default', href: `${siteUrl}${post.data.canonicalPath}` },
 ];
 
-const imageObjects = galleryImageObjects(galleries, siteUrl);
+const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
+const mediaMeta = await readMediaCatalogDimensions(repoRoot);
+const imageObjects = galleryImageObjects(galleries, siteUrl, mediaMeta);
+const heroMeta = mediaMeta.get(post.data.featuredImage);
+const heroObject = buildImageObject(siteUrl, {
+  src: post.data.featuredImage,
+  alt: post.data.featuredImageAlt?.trim() || heroMeta?.defaultAlt || post.data.title,
+  name: post.data.title,
+  width: heroMeta?.width,
+  height: heroMeta?.height,
+  credit: heroMeta?.credit,
+});
+if (heroObject) imageObjects.unshift(heroObject);
 
 const jsonLd: Record<string, unknown>[] = [
   {
@@ -65,7 +80,11 @@ const jsonLd: Record<string, unknown>[] = [
     description: post.data.seo.description,
     datePublished: post.data.publishedAt.toISOString(),
     mainEntityOfPage: post.data.seo.canonical,
-    image: [`${siteUrl}${ogImage}`, ...imageObjects.map((img) => img.contentUrl)],
+    primaryImageOfPage: heroObject || undefined,
+    image: [
+      `${siteUrl}${ogImage}`,
+      ...imageObjects.map((img) => img.contentUrl as string),
+    ],
     author: { '@type': 'Organization', name: 'IntoLibya', url: siteUrl },
     publisher: { '@type': 'Organization', name: 'IntoLibya', url: siteUrl },
     inLanguage: lang,
@@ -100,7 +119,7 @@ const jsonLd: Record<string, unknown>[] = [
 
       <OptimizedImage
         src={post.data.featuredImage}
-        alt=""
+        alt={post.data.featuredImageAlt?.trim() || post.data.title}
         width={1200}
         height={675}
         widths={[640, 960, 1200]}

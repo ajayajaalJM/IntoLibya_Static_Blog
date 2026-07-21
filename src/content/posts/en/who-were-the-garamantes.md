@@ -5,7 +5,7 @@ canonicalPath: /en/who-were-the-garamantes
 lang: en
 publishedAt: '2026-10-14'
 translationGroup: who-were-the-garamantes
-featuredImage: /media/posts/who-were-the-garamantes/hero.webp
+featuredImage: /media/posts/_hero-pool/sahara-sahara_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Garamantes were an ancient Saharan people who built a powerful oasis civilization in Libya’s Fezzan. Classical writers knew them as desert rulers and'

@@ -6,7 +6,7 @@ lang: ja
 wpImportId: 7090
 publishedAt: '2026-03-11'
 translationGroup: libya-podcast-featuring-ajay-ajaal-of-intolibya
-featuredImage: /media/2025/12/589103340_18540874717018455_8340220507546104241_n.jpg
+featuredImage: /media/2025/12/587777867_18541306723018455_1932802759767599244_n.jpg
 excerpt: IntoLibyaは、エキサイティングなマイルストーンを発表しました。 私たちの創設者Ajay Ajaalは、Libyaで完全に焦点を絞った最初の国際旅行ポッドキャストに正式に登場しました。 このエピソードでは、私たちはよく知られているアマチュアトラベラポッドキャストに参加して旅行を議論します
 seo:
   title: IntoLibyaのAjay Ajaalを特徴とするLibya Podcast

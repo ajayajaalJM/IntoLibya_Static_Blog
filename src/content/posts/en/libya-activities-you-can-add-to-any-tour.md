@@ -5,7 +5,7 @@ canonicalPath: /en/libya-activities-you-can-add-to-any-tour
 lang: en
 publishedAt: '2026-08-22'
 translationGroup: libya-activities-you-can-add-to-any-tour
-featuredImage: /media/posts/libya-activities-you-can-add-to-any-tour/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a1_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Libya activities are how you tune a package without inventing a brand new country. TourBuilder lists live experiences you can add to many itineraries: city'

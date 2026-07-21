@@ -5,7 +5,7 @@ canonicalPath: /en/jebel-nafusa-and-coast-combo-plan
 lang: en
 publishedAt: '2026-08-27'
 translationGroup: jebel-nafusa-and-coast-combo-plan
-featuredImage: /media/posts/jebel-nafusa-and-coast-combo-plan/hero.webp
+featuredImage: /media/posts/_hero-pool/ghadames-dest_jebel_nafusa_webp.webp
 draft: false
 galleries: []
 excerpt: 'A Jebel Nafusa itinerary paired with the coast is the combo plan for travelers who want more than beachfront ruins and less than a full Fezzan expedition.'

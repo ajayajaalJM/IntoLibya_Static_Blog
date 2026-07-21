@@ -5,7 +5,7 @@ canonicalPath: /en/mosques-of-tripoli-tour-etiquette
 lang: en
 publishedAt: '2026-09-09'
 translationGroup: mosques-of-tripoli-tour-etiquette
-featuredImage: /media/posts/mosques-of-tripoli-tour-etiquette/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a4_jpg.webp
 draft: false
 galleries: []
 excerpt: 'A Tripoli mosques tour is less about collecting interiors and more about learning how to be a guest in sacred space. Tripoli ’s historic mosques hold'

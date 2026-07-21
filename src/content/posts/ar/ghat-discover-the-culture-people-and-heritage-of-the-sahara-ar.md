@@ -6,7 +6,7 @@ lang: ar
 wpImportId: 7087
 publishedAt: '2026-03-11'
 translationGroup: ghat-discover-the-culture-people-and-heritage-of-the-sahara
-featuredImage: /media/2025/12/ghat.jpg
+featuredImage: /media/posts/_hero-pool/general-cdn_a37_jpg.webp
 excerpt: وفي عمق جنوب غرب ليبيا، بالقرب من حدود الجزائر والنيجر، تقع مدينة الغات التاريخية. في النظرة الأولى قد تبدو بعيدة على أي حال، بمجرد وصولك، يصبح واضحا أن غات ليس معزولا في
 seo:
   title: 'Ghat: Discover the Culture, People, and Heritage of the...'

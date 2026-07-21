@@ -5,7 +5,7 @@ canonicalPath: /en/ramadan-travel-tips-for-visitors-to-libya
 lang: en
 publishedAt: '2026-09-23'
 translationGroup: ramadan-travel-tips-for-visitors-to-libya
-featuredImage: /media/posts/ramadan-travel-tips-for-visitors-to-libya/hero.webp
+featuredImage: /media/posts/can-tourists-visit-libya-yes-with-a-licensed-tour/hero.webp
 draft: false
 galleries: []
 excerpt: 'Ramadan travel Libya is possible and often deeply memorable, but the public rhythm changes. Daytime eating and drinking in public spaces can be more'

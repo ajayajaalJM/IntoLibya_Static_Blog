@@ -5,7 +5,7 @@ canonicalPath: /en/how-women-guests-describe-feeling-safe-in-libya
 lang: en
 publishedAt: '2026-12-09'
 translationGroup: how-women-guests-describe-feeling-safe-in-libya
-featuredImage: /media/posts/how-women-guests-describe-feeling-safe-in-libya/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a33_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Women guests on licensed Libya tours often describe feeling safe as structure plus modest dress plus guide access, not as internet slogans for or against travel.'

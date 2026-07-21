@@ -6,7 +6,7 @@ lang: nl
 wpImportId: 6816
 publishedAt: '2026-03-11'
 translationGroup: tripoli
-featuredImage: /media/2025/09/IMG_3235-scaled.jpg
+featuredImage: /media/posts/can-tourists-visit-libya-yes-with-a-licensed-tour/hero.webp
 excerpt: Waarom Tripoli bezoeken? Tripoli, de hoofdstad van Libië, is een van Noord-Afrika’s meest fascinerende steden. Met uitzicht op de turquoise wateren van de Middellandse Zee, is deze bruisende metropool een plek waar culturen al duizenden jaren botsen. Het heeft
 seo:
   title: Tripoli

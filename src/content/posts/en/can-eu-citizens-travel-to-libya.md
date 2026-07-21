@@ -5,7 +5,7 @@ canonicalPath: /en/can-eu-citizens-travel-to-libya
 lang: en
 publishedAt: '2026-07-24'
 translationGroup: can-eu-citizens-travel-to-libya
-featuredImage: /media/posts/can-eu-citizens-travel-to-libya/hero.webp
+featuredImage: /media/2025/10/Leptis-Magna-Baths-scaled.jpg
 draft: false
 galleries: []
 excerpt: 'Libya visa EU citizens is one of the first questions travelers ask when planning with IntoLibya. This guide answers it with practical steps, honest limits,'

@@ -5,7 +5,7 @@ canonicalPath: /en/how-long-before-travel-should-guests-send-documents
 lang: en
 publishedAt: '2026-10-30'
 translationGroup: how-long-before-travel-should-guests-send-documents
-featuredImage: /media/posts/how-long-before-travel-should-guests-send-documents/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a32_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Read this as a guest briefing for “How Long Before Travel Should Guests Send Documents”. Prices and live inclusions stay in TourBuilder so the article'

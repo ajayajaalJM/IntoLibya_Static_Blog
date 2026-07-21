@@ -5,7 +5,7 @@ canonicalPath: /en/leptis-magna-travel-guide
 lang: en
 publishedAt: '2026-08-30'
 translationGroup: leptis-magna-travel-guide
-featuredImage: /media/posts/leptis-magna-travel-guide/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a20_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Leptis Magna is the archaeological reason many travelers finally book Libya. On the Mediterranean east of Tripoli , this Roman city still feels like a place'

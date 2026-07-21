@@ -6,7 +6,7 @@ lang: it
 wpImportId: 7084
 publishedAt: '2026-03-11'
 translationGroup: ghat-discover-the-culture-people-and-heritage-of-the-sahara
-featuredImage: /media/2025/12/ghat.jpg
+featuredImage: /media/posts/_hero-pool/general-cdn_a37_jpg.webp
 excerpt: Nel sud-ovest della Libia, vicino ai confini dell’Algeria e del Niger, si trova la città storica di Ghat. A prima vista, può sembrare remoto. Tuttavia, una volta arrivato, diventa chiaro che Ghat non è isolato a
 seo:
   title: 'Ghat: Scopri la cultura, la gente e il patrimonio del Sahara'

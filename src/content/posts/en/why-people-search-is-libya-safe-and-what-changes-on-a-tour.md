@@ -5,7 +5,7 @@ canonicalPath: /en/why-people-search-is-libya-safe-and-what-changes-on-a-tour
 lang: en
 publishedAt: '2026-11-02'
 translationGroup: why-people-search-is-libya-safe-and-what-changes-on-a-tour
-featuredImage: /media/posts/why-people-search-is-libya-safe-and-what-changes-on-a-tour/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a13_jpg.webp
 draft: false
 galleries: []
 excerpt: 'People search is Libya safe because headlines and advisories describe a whole country while tours describe a week. Licensed structure is what turns that search into a plan.'

@@ -5,7 +5,7 @@ canonicalPath: /en/how-much-does-a-libya-tour-cost
 lang: en
 publishedAt: '2026-08-09'
 translationGroup: how-much-does-a-libya-tour-cost
-featuredImage: /media/posts/how-much-does-a-libya-tour-cost/hero.webp
+featuredImage: /media/posts/18-day-full-country-libya-itinerary/hero.webp
 draft: false
 galleries: []
 excerpt: 'Libya tour costs vary because trips vary: four quiet coastal days do not price like a deep Sahara expedition with camps, long transfers, and more staff'

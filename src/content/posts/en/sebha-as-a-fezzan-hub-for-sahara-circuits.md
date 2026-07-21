@@ -5,7 +5,7 @@ canonicalPath: /en/sebha-as-a-fezzan-hub-for-sahara-circuits
 lang: en
 publishedAt: '2026-12-27'
 translationGroup: sebha-as-a-fezzan-hub-for-sahara-circuits
-featuredImage: /media/posts/sebha-as-a-fezzan-hub-for-sahara-circuits/hero.webp
+featuredImage: /media/posts/_hero-pool/sahara-dest_ghat_webp.webp
 draft: false
 galleries: []
 excerpt: 'Sebha serves as a Fezzan hub for Sahara circuits linking desert camps, Ubari approaches, and southwestern routing on licensed IntoLibya expeditions when season allows.'

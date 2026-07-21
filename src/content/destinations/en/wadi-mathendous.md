@@ -6,7 +6,7 @@ lang: en
 publishedAt: '2026-07-13'
 translationGroup: wadi-mathendous
 draft: false
-featuredImage: /media/destinations/wadi-mathendous/hero.webp
+featuredImage: /media/posts/_hero-pool/sahara-dest-wadi-mathendous.webp
 excerpt: Why Visit Wadi Mathendous? Prehistoric rock art on the Messak plateau—Sahara expedition country near the Germa–Acacus corridor of Fezzan.
 seo:
   title: Wadi Mathendous - IntoLibya

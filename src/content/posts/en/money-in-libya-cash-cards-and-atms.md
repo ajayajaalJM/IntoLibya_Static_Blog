@@ -5,7 +5,7 @@ canonicalPath: /en/money-in-libya-cash-cards-and-atms
 lang: en
 publishedAt: '2026-07-26'
 translationGroup: money-in-libya-cash-cards-and-atms
-featuredImage: /media/posts/money-in-libya-cash-cards-and-atms/hero.webp
+featuredImage: /media/posts/can-tourists-visit-libya-yes-with-a-licensed-tour/hero.webp
 draft: false
 galleries: []
 excerpt: 'Money in Libya confuses visitors because the big costs are prepaid while the small costs feel oddly cash shaped. You are not backpacking on ATMs alone. You'

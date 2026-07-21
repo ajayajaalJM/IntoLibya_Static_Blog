@@ -5,7 +5,7 @@ canonicalPath: /en/how-to-visit-libya-as-a-tourist-in-2026
 lang: en
 publishedAt: '2026-07-21'
 translationGroup: how-to-visit-libya-as-a-tourist-in-2026
-featuredImage: /media/posts/how-to-visit-libya-as-a-tourist-in-2026/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a1_jpg.webp
 draft: false
 galleries: []
 excerpt: 'How to visit Libya is one of the first questions travelers ask when planning with IntoLibya. This guide answers it with practical steps, honest limits, and'

@@ -5,7 +5,7 @@ canonicalPath: /en/tarmisa-viewpoint-in-the-nafusa-mountains
 lang: en
 publishedAt: '2026-12-25'
 translationGroup: tarmisa-viewpoint-in-the-nafusa-mountains
-featuredImage: /media/posts/tarmisa-viewpoint-in-the-nafusa-mountains/hero.webp
+featuredImage: /media/posts/_hero-pool/ghadames-Ghadames_Panorama_April_2004.jpg.webp
 draft: false
 galleries: []
 excerpt: 'Tarmisa viewpoint in the Jebel Nafusa highlands offers dramatic escarpment views on licensed western tours when routing through Nalut and highland lanes allows.'

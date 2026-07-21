@@ -5,7 +5,7 @@ canonicalPath: /en/east-libya-history-itinerary
 lang: en
 publishedAt: '2026-08-26'
 translationGroup: east-libya-history-itinerary
-featuredImage: /media/posts/east-libya-history-itinerary/hero.webp
+featuredImage: /media/posts/_hero-pool/cyrene-east_jpg.webp
 draft: false
 galleries: []
 excerpt: 'An east Libya itinerary is for travelers who want Greek and later history layers beyond the western Roman hits. When access allows, the east offers Benghazi'

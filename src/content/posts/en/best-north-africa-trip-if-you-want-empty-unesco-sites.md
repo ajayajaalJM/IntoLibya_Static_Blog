@@ -5,7 +5,7 @@ canonicalPath: /en/best-north-africa-trip-if-you-want-empty-unesco-sites
 lang: en
 publishedAt: '2026-10-10'
 translationGroup: best-north-africa-trip-if-you-want-empty-unesco-sites
-featuredImage: /media/posts/best-north-africa-trip-if-you-want-empty-unesco-sites/hero.webp
+featuredImage: /media/posts/beach-holiday-in-tunisia-then-culture-in-libya/hero.webp
 draft: false
 galleries: []
 excerpt: 'Empty UNESCO North Africa is the brief for travelers tired of selfie congestion at world famous stones. Among Maghreb and Nile options, Libya currently'

@@ -6,7 +6,7 @@ lang: zh
 wpImportId: 6815
 publishedAt: '2026-03-11'
 translationGroup: tripoli
-featuredImage: /media/2025/09/IMG_3235-scaled.jpg
+featuredImage: /media/posts/can-tourists-visit-libya-yes-with-a-licensed-tour/hero.webp
 excerpt: 为什么要访问的黎波里? 利比亚首都的黎波里是北非最迷人的城市之一. 俯瞰地中海的绿洲水域, 这个繁忙的大都会是一个文化相撞数千年的地方。 它已经
 seo:
   title: 的黎波里

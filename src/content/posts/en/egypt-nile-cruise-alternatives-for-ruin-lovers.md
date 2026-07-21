@@ -5,7 +5,7 @@ canonicalPath: /en/egypt-nile-cruise-alternatives-for-ruin-lovers
 lang: en
 publishedAt: '2026-10-26'
 translationGroup: egypt-nile-cruise-alternatives-for-ruin-lovers
-featuredImage: /media/posts/egypt-nile-cruise-alternatives-for-ruin-lovers/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a37_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Nile cruise not your only option: Libya''s Leptis Magna and Sabratha offer ruin lovers a quieter Roman Africa chapter.'

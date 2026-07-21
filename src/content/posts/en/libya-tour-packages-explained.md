@@ -5,7 +5,7 @@ canonicalPath: /en/libya-tour-packages-explained
 lang: en
 publishedAt: '2026-08-08'
 translationGroup: libya-tour-packages-explained
-featuredImage: /media/posts/libya-tour-packages-explained/hero.webp
+featuredImage: /media/posts/18-day-full-country-libya-itinerary/hero.webp
 draft: false
 galleries: []
 excerpt: 'Libya tour packages exist because most travelers do not want to invent checkpoint logistics from a spreadsheet. They want a shape that already works, then a'

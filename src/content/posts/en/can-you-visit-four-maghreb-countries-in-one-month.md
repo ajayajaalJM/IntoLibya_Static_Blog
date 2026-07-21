@@ -5,7 +5,7 @@ canonicalPath: /en/can-you-visit-four-maghreb-countries-in-one-month
 lang: en
 publishedAt: '2026-11-20'
 translationGroup: can-you-visit-four-maghreb-countries-in-one-month
-featuredImage: /media/posts/can-you-visit-four-maghreb-countries-in-one-month/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a20_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Four Maghreb countries in one month is possible on paper but tight; Tunisia plus Libya is the smarter two country pair.'

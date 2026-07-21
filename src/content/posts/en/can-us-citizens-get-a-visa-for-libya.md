@@ -5,7 +5,7 @@ canonicalPath: /en/can-us-citizens-get-a-visa-for-libya
 lang: en
 publishedAt: '2026-07-23'
 translationGroup: can-us-citizens-get-a-visa-for-libya
-featuredImage: /media/posts/can-us-citizens-get-a-visa-for-libya/hero.webp
+featuredImage: /media/posts/can-tourists-visit-libya-yes-with-a-licensed-tour/hero.webp
 draft: false
 galleries: []
 excerpt: 'Libya visa for US citizens is one of the first questions travelers ask when planning with IntoLibya. This guide answers it with practical steps, honest'

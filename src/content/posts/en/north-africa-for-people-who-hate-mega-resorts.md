@@ -5,7 +5,7 @@ canonicalPath: /en/north-africa-for-people-who-hate-mega-resorts
 lang: en
 publishedAt: '2026-12-30'
 translationGroup: north-africa-for-people-who-hate-mega-resorts
-featuredImage: /media/posts/north-africa-for-people-who-hate-mega-resorts/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a2_jpg.webp
 draft: false
 galleries: []
 excerpt: 'North Africa without mega resorts: licensed Libya heritage tours, Tunisian medinas, and desert routes over tower beaches.'

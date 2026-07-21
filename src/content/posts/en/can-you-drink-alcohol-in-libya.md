@@ -5,7 +5,7 @@ canonicalPath: /en/can-you-drink-alcohol-in-libya
 lang: en
 publishedAt: '2026-10-17'
 translationGroup: can-you-drink-alcohol-in-libya
-featuredImage: /media/posts/can-you-drink-alcohol-in-libya/hero.webp
+featuredImage: /media/posts/_hero-pool/tripoli-abstract_jpg.webp
 draft: false
 galleries: []
 excerpt: 'No. Libya is a dry country. Public sale and consumption of alcohol are restricted. Plan soft drinks, tea, and juice instead.'

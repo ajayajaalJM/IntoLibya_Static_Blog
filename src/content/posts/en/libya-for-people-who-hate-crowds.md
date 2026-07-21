@@ -5,7 +5,7 @@ canonicalPath: /en/libya-for-people-who-hate-crowds
 lang: en
 publishedAt: '2026-10-04'
 translationGroup: libya-for-people-who-hate-crowds
-featuredImage: /media/posts/libya-for-people-who-hate-crowds/hero.webp
+featuredImage: /media/2025/10/Leptis-Magna-Baths-scaled.jpg
 draft: false
 galleries: []
 excerpt: 'Uncrowded Libya travel is not a marketing line invented for this page. It is the ordinary condition at major sites when you visit with a licensed tour in'

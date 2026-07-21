@@ -5,7 +5,7 @@ canonicalPath: /en/is-eastern-libya-open-for-tourists
 lang: en
 publishedAt: '2026-07-31'
 translationGroup: is-eastern-libya-open-for-tourists
-featuredImage: /media/posts/is-eastern-libya-open-for-tourists/hero.webp
+featuredImage: /media/posts/_hero-pool/cyrene-east_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Yes it is! Eastern Libya can be open for tourists on licensed itineraries when access supports it. Confirm your dates with IntoLibya.'

@@ -5,7 +5,7 @@ canonicalPath: /en/algeria-sahara-dreams-what-libya-offers-instead
 lang: en
 publishedAt: '2026-11-24'
 translationGroup: algeria-sahara-dreams-what-libya-offers-instead
-featuredImage: /media/posts/algeria-sahara-dreams-what-libya-offers-instead/hero.webp
+featuredImage: /media/posts/_hero-pool/sahara-cdn_a45_jpg.webp
 draft: false
 galleries: []
 excerpt: 'When Algeria Sahara plans stall, Libya offers Ghadames, Acacus rock art, and Fezzan lakes on licensed tourist routes.'

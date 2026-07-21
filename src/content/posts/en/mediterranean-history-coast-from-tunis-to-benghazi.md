@@ -5,7 +5,7 @@ canonicalPath: /en/mediterranean-history-coast-from-tunis-to-benghazi
 lang: en
 publishedAt: '2026-11-23'
 translationGroup: mediterranean-history-coast-from-tunis-to-benghazi
-featuredImage: /media/posts/mediterranean-history-coast-from-tunis-to-benghazi/hero.webp
+featuredImage: /media/posts/_hero-pool/cyrene-dest_benghazi_webp.webp
 draft: false
 galleries: []
 excerpt: 'Mediterranean history from Tunis to Benghazi: Carthage, Leptis Magna, Sabratha, and Cyrenaica on one sea.'

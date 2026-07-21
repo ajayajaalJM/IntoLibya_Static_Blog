@@ -5,7 +5,7 @@ canonicalPath: /en/search-north-africa-find-libya-when-you-want-space
 lang: en
 publishedAt: '2026-10-27'
 translationGroup: search-north-africa-find-libya-when-you-want-space
-featuredImage: /media/posts/search-north-africa-find-libya-when-you-want-space/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a11_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Searching North Africa for space often leads to Libya: quiet Leptis Magna, Ghadames, and licensed routes away from crowds.'

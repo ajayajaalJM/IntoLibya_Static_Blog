@@ -5,7 +5,7 @@ canonicalPath: /en/tolmeita-guided-tour-of-greek-ruins-for-travelers
 lang: en
 publishedAt: '2026-11-13'
 translationGroup: tolmeita-guided-tour-of-greek-ruins-for-travelers
-featuredImage: /media/posts/tolmeita-guided-tour-of-greek-ruins-for-travelers/hero.webp
+featuredImage: /media/posts/_hero-pool/cyrene-dest-qasr-libya.webp
 draft: false
 galleries: []
 excerpt: 'Tolmeita guided tours explore Greek east Libya ruins with licensed IntoLibya routing toward Ptolemais when live access and eastern circuits allow on Cyrenaica focused trips.'

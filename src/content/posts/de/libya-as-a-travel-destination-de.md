@@ -6,7 +6,7 @@ lang: de
 wpImportId: 6938
 publishedAt: '2026-03-11'
 translationGroup: libya-as-a-travel-destination
-featuredImage: /media/2025/09/IMG_3235-scaled.jpg
+featuredImage: /media/posts/can-tourists-visit-libya-yes-with-a-licensed-tour/hero.webp
 excerpt: Libyen als Reiseziel zu bauen, ist keine leichte Aufgabe, aber eine, die wir (Libyen) organisieren müssen und für die Profis überwiegen die Kons für den durchschnittlichen libyschen Bürger und globalen Reisenden. Libyen ist ein Land, das
 seo:
   title: Libyen als Reiseziel

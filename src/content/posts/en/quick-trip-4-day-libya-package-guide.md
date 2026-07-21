@@ -5,7 +5,7 @@ canonicalPath: /en/quick-trip-4-day-libya-package-guide
 lang: en
 publishedAt: '2026-08-19'
 translationGroup: quick-trip-4-day-libya-package-guide
-featuredImage: /media/posts/quick-trip-4-day-libya-package-guide/hero.webp
+featuredImage: /media/posts/18-day-full-country-libya-itinerary/hero.webp
 draft: false
 galleries: []
 excerpt: 'A 4 day Libya tour is the honest short answer when vacation days are scarce and you still want proof that tourist Libya is real. The Quick Trip style'

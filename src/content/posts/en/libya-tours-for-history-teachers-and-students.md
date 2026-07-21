@@ -5,7 +5,7 @@ canonicalPath: /en/libya-tours-for-history-teachers-and-students
 lang: en
 publishedAt: '2026-10-03'
 translationGroup: libya-tours-for-history-teachers-and-students
-featuredImage: /media/posts/libya-tours-for-history-teachers-and-students/hero.webp
+featuredImage: /media/2025/10/Leptis-Magna-Baths-scaled.jpg
 draft: false
 galleries: []
 excerpt: 'An educational tour Libya plan works when learning goals drive the day list. History teachers and students get uncommon access to Roman urban fabric,'

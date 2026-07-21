@@ -5,7 +5,7 @@ canonicalPath: /en/what-is-leptis-magna-famous-for
 lang: en
 publishedAt: '2026-10-15'
 translationGroup: what-is-leptis-magna-famous-for
-featuredImage: /media/posts/what-is-leptis-magna-famous-for/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a20_jpg.webp
 draft: false
 galleries: []
 excerpt: 'What is Leptis Magna famous for? It is one of the most complete Roman cities on the Mediterranean, a UNESCO World Heritage site in Libya known for its'

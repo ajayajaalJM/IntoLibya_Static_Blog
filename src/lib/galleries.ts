@@ -1,5 +1,6 @@
 import type { Gallery } from './gallery-schema';
 import { galleryMarkerRegex } from './gallery-schema';
+import { buildImageObject } from './image-sitemap';
 
 export type BodySegment =
   | { type: 'html'; html: string }
@@ -50,17 +51,22 @@ export function galleriesAt(
 export function galleryImageObjects(
   galleries: Gallery[] | undefined,
   siteUrl: string,
+  metaByPath?: Map<string, { width: number; height: number; credit: string; defaultAlt: string }>,
 ): Array<Record<string, unknown>> {
   const objects: Array<Record<string, unknown>> = [];
   for (const gallery of galleries ?? []) {
     for (const image of gallery.images) {
-      objects.push({
-        '@type': 'ImageObject',
-        contentUrl: `${siteUrl}${image.src}`,
-        description: image.alt,
+      const meta = metaByPath?.get(image.src);
+      const obj = buildImageObject(siteUrl, {
+        src: image.src,
+        alt: image.alt || meta?.defaultAlt,
         caption: image.caption || image.alt,
         name: gallery.title || image.alt,
+        width: meta?.width,
+        height: meta?.height,
+        credit: meta?.credit,
       });
+      if (obj) objects.push(obj);
     }
   }
   return objects;

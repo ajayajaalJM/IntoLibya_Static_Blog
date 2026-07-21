@@ -5,7 +5,7 @@ canonicalPath: /en/rock-art-destinations-across-the-sahara-compared
 lang: en
 publishedAt: '2026-11-21'
 translationGroup: rock-art-destinations-across-the-sahara-compared
-featuredImage: /media/posts/rock-art-destinations-across-the-sahara-compared/hero.webp
+featuredImage: /media/posts/_hero-pool/sahara-cdn_a38_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Compare Sahara rock art in Libya''s Acacus, Algeria''s Tassili, and shorter Morocco or Tunisia introductions by access and depth.'

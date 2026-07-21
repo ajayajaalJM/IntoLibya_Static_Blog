@@ -5,7 +5,7 @@ canonicalPath: /en/how-intolibya-works-with-group-organizers-step-by-step
 lang: en
 publishedAt: '2026-11-07'
 translationGroup: how-intolibya-works-with-group-organizers-step-by-step
-featuredImage: /media/posts/how-intolibya-works-with-group-organizers-step-by-step/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a13_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Group organizers planning Libya tours coordinate one lead contact, passport lists, TourBuilder quotes, sponsorship timing, and eVisa batches through IntoLibya step by step.'

@@ -6,7 +6,7 @@ lang: ja
 wpImportId: 7123
 publishedAt: '2026-03-11'
 translationGroup: libya-tours-2026-how-to-book-a-tour-with-intolibya
-featuredImage: /media/2025/09/IMG_3295-scaled.jpg
+featuredImage: /media/posts/_hero-pool/tripoli-abstract_jpg.webp
 excerpt: リビアは、地球上の最後の真に未発見された目的地の1つです。 古代ローマの都市は、サハラの黄金の砂をカットしながら、地中海沿岸から上昇します。 同時に、オアシスの町は昔の伝統を守り、
 seo:
   title: 'リビアツアー2026: IntoLibyaでツアーを予約する方法'

@@ -6,7 +6,7 @@ lang: en
 publishedAt: '2026-07-13'
 translationGroup: waw-an-namus
 draft: false
-featuredImage: /media/destinations/waw-an-namus/hero.webp
+featuredImage: /media/posts/_hero-pool/general-dest_waw_an_namus_webp.webp
 excerpt: Deep in the Libyan Sahara, Waw an Namus is a black volcanic crater ringed by oasis lakes — one of North Africa’s most remote expedition destinations.
 seo:
   title: Waw an Namus - IntoLibya

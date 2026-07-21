@@ -6,7 +6,7 @@ lang: nl
 wpImportId: 7081
 publishedAt: '2026-03-11'
 translationGroup: ghat-discover-the-culture-people-and-heritage-of-the-sahara
-featuredImage: /media/2025/12/ghat.jpg
+featuredImage: /media/posts/_hero-pool/general-cdn_a37_jpg.webp
 excerpt: Diep in het zuidwesten van Libië, dicht bij de grenzen van Algerije en Niger, ligt de historische stad Ghat. Op het eerste gezicht lijkt het misschien afgelegen. Echter, zodra je aankomt, wordt het duidelijk dat Ghat niet geïsoleerd is op
 seo:
   title: 'Ghat: Ontdek de cultuur, het volk en het erfgoed van de...'

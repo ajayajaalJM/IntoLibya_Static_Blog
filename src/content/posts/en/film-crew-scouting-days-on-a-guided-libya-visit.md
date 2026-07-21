@@ -5,7 +5,7 @@ canonicalPath: /en/film-crew-scouting-days-on-a-guided-libya-visit
 lang: en
 publishedAt: '2027-01-05'
 translationGroup: film-crew-scouting-days-on-a-guided-libya-visit
-featuredImage: /media/posts/film-crew-scouting-days-on-a-guided-libya-visit/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a4_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Film crew scouting days on guided Libya visits require licensed sponsorship, early filming briefs, drone and permit clarity, and IntoLibya pacing that protects access at ruins and desert locations.'

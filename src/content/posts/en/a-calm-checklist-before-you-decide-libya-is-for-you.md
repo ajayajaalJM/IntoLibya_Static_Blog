@@ -5,7 +5,7 @@ canonicalPath: /en/a-calm-checklist-before-you-decide-libya-is-for-you
 lang: en
 publishedAt: '2026-11-04'
 translationGroup: a-calm-checklist-before-you-decide-libya-is-for-you
-featuredImage: /media/posts/a-calm-checklist-before-you-decide-libya-is-for-you/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a7_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Before you decide Libya is for you, run this calm checklist: advisory reading, licensed structure, insurance, pacing, family briefing, and a concrete TourBuilder route.'

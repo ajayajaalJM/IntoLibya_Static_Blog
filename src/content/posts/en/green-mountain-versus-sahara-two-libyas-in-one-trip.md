@@ -5,7 +5,7 @@ canonicalPath: /en/green-mountain-versus-sahara-two-libyas-in-one-trip
 lang: en
 publishedAt: '2026-11-17'
 translationGroup: green-mountain-versus-sahara-two-libyas-in-one-trip
-featuredImage: /media/posts/green-mountain-versus-sahara-two-libyas-in-one-trip/hero.webp
+featuredImage: /media/posts/_hero-pool/sahara-event_event_ghat_international_tourism_festival_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Green Mountain versus Sahara in one Libya trip contrasts highland air and east heritage with desert camps and dune horizons on licensed IntoLibya routes when days and season allow.'

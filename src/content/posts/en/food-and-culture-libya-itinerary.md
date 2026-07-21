@@ -5,7 +5,7 @@ canonicalPath: /en/food-and-culture-libya-itinerary
 lang: en
 publishedAt: '2026-08-25'
 translationGroup: food-and-culture-libya-itinerary
-featuredImage: /media/posts/food-and-culture-libya-itinerary/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a3_jpg.webp
 draft: false
 galleries: []
 excerpt: 'A Libya food tour itinerary is really a culture itinerary with better lunch plans. You will still see ruins and desert towns. The difference is how often'

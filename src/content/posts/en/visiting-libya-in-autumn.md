@@ -5,7 +5,7 @@ canonicalPath: /en/visiting-libya-in-autumn
 lang: en
 publishedAt: '2026-09-18'
 translationGroup: visiting-libya-in-autumn
-featuredImage: /media/posts/visiting-libya-in-autumn/hero.webp
+featuredImage: /media/posts/beach-holiday-in-tunisia-then-culture-in-libya/hero.webp
 draft: false
 galleries: []
 excerpt: 'Libya in autumn is many travelers’ favorite season. October and November bring warm days that still respect human skin, desert nights with a pleasant chill,'

@@ -5,7 +5,7 @@ canonicalPath: /en/festivals-in-libya-worth-planning-around
 lang: en
 publishedAt: '2026-09-19'
 translationGroup: festivals-in-libya-worth-planning-around
-featuredImage: /media/posts/festivals-in-libya-worth-planning-around/hero.webp
+featuredImage: /media/posts/_hero-pool/sahara-dest_ghat_webp.webp
 draft: false
 galleries: []
 excerpt: 'Festivals in Libya worth planning around are the rare dates that justify building an entire sponsored trip. Most IntoLibya journeys run on flexible seasonal'

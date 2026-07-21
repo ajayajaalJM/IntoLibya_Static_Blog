@@ -5,7 +5,7 @@ canonicalPath: /en/east-libya-sightseeing-ideas-around-an-eclipse-trip
 lang: en
 publishedAt: '2026-10-03'
 translationGroup: east-libya-sightseeing-ideas-around-an-eclipse-trip
-featuredImage: /media/posts/east-libya-sightseeing-ideas-around-an-eclipse-trip/hero.webp
+featuredImage: /media/posts/_hero-pool/cyrene-east_jpg.webp
 draft: false
 galleries: []
 excerpt: 'East Libya sightseeing around an eclipse trip is how smart guests keep August 2027 from becoming only two minutes of darkness. The sky appointment is the'

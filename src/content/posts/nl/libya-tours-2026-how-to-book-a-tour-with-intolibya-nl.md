@@ -6,7 +6,7 @@ lang: nl
 wpImportId: 7125
 publishedAt: '2026-03-11'
 translationGroup: libya-tours-2026-how-to-book-a-tour-with-intolibya
-featuredImage: /media/2025/09/IMG_3295-scaled.jpg
+featuredImage: /media/posts/_hero-pool/tripoli-abstract_jpg.webp
 excerpt: Libië blijft een van de laatste werkelijk onontdekte bestemmingen op aarde. Oude Romeinse steden stijgen van de Middellandse Zeekust, terwijl caravanroutes door de gouden duinen van de Sahara. Tegelijkertijd behouden oasesteden eeuwenoude tradities,
 seo:
   title: 'Libië Tours 2026: Hoe een Tour boeken met IntoLibya'

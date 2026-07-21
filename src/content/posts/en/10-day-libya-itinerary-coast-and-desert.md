@@ -5,7 +5,7 @@ canonicalPath: /en/10-day-libya-itinerary-coast-and-desert
 lang: en
 publishedAt: '2026-08-13'
 translationGroup: 10-day-libya-itinerary-coast-and-desert
-featuredImage: /media/posts/10-day-libya-itinerary-coast-and-desert/hero.webp
+featuredImage: /media/posts/_hero-pool/sahara-sahara_jpg.webp
 draft: false
 galleries: []
 excerpt: '10 day Libya itinerary is one of the first questions travelers ask when planning with IntoLibya. This guide answers it with practical steps, honest limits,'

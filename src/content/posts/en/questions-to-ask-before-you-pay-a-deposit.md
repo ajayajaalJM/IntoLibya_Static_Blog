@@ -5,7 +5,7 @@ canonicalPath: /en/questions-to-ask-before-you-pay-a-deposit
 lang: en
 publishedAt: '2026-08-22'
 translationGroup: questions-to-ask-before-you-pay-a-deposit
-featuredImage: /media/posts/questions-to-ask-before-you-pay-a-deposit/hero.webp
+featuredImage: /media/posts/_hero-pool/tripoli-abstract_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Smart questions before booking Libya tour deposits protect your money and your mood. A deposit with IntoLibya starts licensed sponsorship and real planning.'

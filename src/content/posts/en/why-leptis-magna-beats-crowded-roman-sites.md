@@ -5,7 +5,7 @@ canonicalPath: /en/why-leptis-magna-beats-crowded-roman-sites
 lang: en
 publishedAt: '2026-08-31'
 translationGroup: why-leptis-magna-beats-crowded-roman-sites
-featuredImage: /media/posts/why-leptis-magna-beats-crowded-roman-sites/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a20_jpg.webp
 draft: false
 galleries: []
 excerpt: 'If you are hunting the best preserved Roman city Africa still lets you explore without elbowing strangers, Leptis Magna is the honest answer. Pompeii has'

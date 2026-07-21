@@ -5,7 +5,7 @@ canonicalPath: /en/scuba-diving-on-the-libya-coast
 lang: en
 publishedAt: '2026-09-10'
 translationGroup: scuba-diving-on-the-libya-coast
-featuredImage: /media/posts/scuba-diving-on-the-libya-coast/hero.webp
+featuredImage: /media/posts/_hero-pool/leptis-sabratha_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Scuba diving Libya is the surprise chapter for travelers who thought the country was only dust and columns. Along parts of the Mediterranean coast, clear'

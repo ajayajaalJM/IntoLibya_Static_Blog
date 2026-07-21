@@ -5,7 +5,7 @@ canonicalPath: /en/7-day-western-libya-itinerary
 lang: en
 publishedAt: '2026-08-12'
 translationGroup: 7-day-western-libya-itinerary
-featuredImage: /media/posts/7-day-western-libya-itinerary/hero.webp
+featuredImage: /media/posts/18-day-full-country-libya-itinerary/hero.webp
 draft: false
 galleries: []
 excerpt: '7 day Libya itinerary is one of the first questions travelers ask when planning with IntoLibya. This guide answers it with practical steps, honest limits,'

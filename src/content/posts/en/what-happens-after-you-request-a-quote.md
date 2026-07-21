@@ -5,7 +5,7 @@ canonicalPath: /en/what-happens-after-you-request-a-quote
 lang: en
 publishedAt: '2026-08-21'
 translationGroup: what-happens-after-you-request-a-quote
-featuredImage: /media/posts/what-happens-after-you-request-a-quote/hero.webp
+featuredImage: /media/posts/18-day-full-country-libya-itinerary/hero.webp
 draft: false
 galleries: []
 excerpt: 'The Libya tour quote process feels mysterious until you see the sequence. After you request a quote with IntoLibya, you are not dropped into a silent void.'

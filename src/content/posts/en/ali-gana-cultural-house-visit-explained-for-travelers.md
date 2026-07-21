@@ -5,7 +5,7 @@ canonicalPath: /en/ali-gana-cultural-house-visit-explained-for-travelers
 lang: en
 publishedAt: '2026-11-12'
 translationGroup: ali-gana-cultural-house-visit-explained-for-travelers
-featuredImage: /media/posts/ali-gana-cultural-house-visit-explained-for-travelers/hero.webp
+featuredImage: /media/posts/_hero-pool/general-dest_germa_webp.webp
 draft: false
 galleries: []
 excerpt: 'Ali Gana cultural house visits introduce guests to Libyan home hospitality, craft context, and living tradition inside licensed western tours when offered and confirmed in TourBuilder.'

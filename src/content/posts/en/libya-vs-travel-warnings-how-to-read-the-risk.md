@@ -5,7 +5,7 @@ canonicalPath: /en/libya-vs-travel-warnings-how-to-read-the-risk
 lang: en
 publishedAt: '2026-08-03'
 translationGroup: libya-vs-travel-warnings-how-to-read-the-risk
-featuredImage: /media/posts/libya-vs-travel-warnings-how-to-read-the-risk/hero.webp
+featuredImage: /media/posts/_hero-pool/tripoli-abstract_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Libya travel risk is one of the first questions travelers ask when planning with IntoLibya. This guide answers it with practical steps, honest limits, and'

@@ -6,7 +6,7 @@ lang: en
 wpImportId: 5977
 publishedAt: '2025-10-12'
 translationGroup: unearthing-the-foggara-water-in-the-desert
-featuredImage: /media/2025/10/Narrow-pathways-around-the-old-town-of-Ghadames-scaled.jpg
+featuredImage: /media/posts/beach-holiday-in-tunisia-then-culture-in-libya/hero.webp
 excerpt: 'In the heart of the Sahara, where sand stretches endlessly and water is scarce, ancient peoples discovered a remarkable secret: life could flourish even in the harshest desert. This secret was the foggara, an ingenious underground irrigation system that carried'
 seo:
   title: 'Unearthing the Foggara: Water in the Desert - IntoLibya'

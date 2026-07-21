@@ -6,7 +6,7 @@ lang: zh
 wpImportId: 6771
 publishedAt: '2026-03-11'
 translationGroup: how-to-travel-to-libya-from-europe-2025-guide
-featuredImage: /media/2023/12/Screen-Shot-2023-12-20-at-4.03.35-PM.png
+featuredImage: /media/2025/12/588952128_18541788997018455_4310813881741799310_n.jpg
 excerpt: 为何欧洲人应该访问利比亚利比亚, 从古罗马城市,如莱普提斯马格纳和萨布拉塔 到永恒
 seo:
   title: 如何从欧洲前往利比亚 -- -- 2025年指南

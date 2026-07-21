@@ -5,7 +5,7 @@ canonicalPath: /en/off-grid-feeling-without-going-fully-independent-in-libya
 lang: en
 publishedAt: '2026-12-19'
 translationGroup: off-grid-feeling-without-going-fully-independent-in-libya
-featuredImage: /media/posts/off-grid-feeling-without-going-fully-independent-in-libya/hero.webp
+featuredImage: /media/posts/_hero-pool/cyrene-dest-tobruk.webp
 draft: false
 galleries: []
 excerpt: 'Off grid feeling Libya trips combine Sahara remoteness and empty ruins with licensed IntoLibya support so travelers enjoy wilderness sensation without illegal independent travel risks.'

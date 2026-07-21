@@ -6,7 +6,7 @@ lang: ru
 wpImportId: 7152
 publishedAt: '2026-03-11'
 translationGroup: best-places-to-visit-in-libya-2026-guide
-featuredImage: /media/2025/09/IMG_7153-2-scaled.jpg
+featuredImage: /media/posts/_hero-pool/general-cdn_a20_jpg.webp
 excerpt: Ливия является одним из самых интересных мест в Северной Африке, здесь находятся лучшие места для посещения в этом году. Хотя он остается менее посещаемым, чем соседние страны, он предлагает замечательную историю, обширные пустынные ландшафты и живую культуру.
 seo:
   title: Лучшие места для посещения в Ливии 2026

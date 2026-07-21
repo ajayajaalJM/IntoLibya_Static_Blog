@@ -5,7 +5,7 @@ canonicalPath: /en/safety-for-older-travelers-on-supported-libya-itineraries
 lang: en
 publishedAt: '2027-01-02'
 translationGroup: safety-for-older-travelers-on-supported-libya-itineraries
-featuredImage: /media/posts/safety-for-older-travelers-on-supported-libya-itineraries/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a34_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Older travelers do well on supported Libya itineraries when pacing, medical access, and rest days are planned honestly on a licensed private or small group tour.'

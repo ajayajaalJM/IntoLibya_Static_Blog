@@ -5,7 +5,7 @@ canonicalPath: /en/passport-photos-and-forms-guests-usually-send-first
 lang: en
 publishedAt: '2026-10-28'
 translationGroup: passport-photos-and-forms-guests-usually-send-first
-featuredImage: /media/posts/passport-photos-and-forms-guests-usually-send-first/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a1_jpg.webp
 draft: false
 galleries: []
 excerpt: 'If you are comparing options, keep Libya’s licensed model in view while you read “Passport Photos and Forms Guests Usually Send First”: sponsorship is the'

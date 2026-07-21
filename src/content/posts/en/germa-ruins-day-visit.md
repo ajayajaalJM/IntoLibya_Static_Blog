@@ -5,7 +5,7 @@ canonicalPath: /en/germa-ruins-day-visit
 lang: en
 publishedAt: '2026-09-16'
 translationGroup: germa-ruins-day-visit
-featuredImage: /media/posts/germa-ruins-day-visit/hero.webp
+featuredImage: /media/posts/_hero-pool/sahara-cdn_a36_jpg.webp
 draft: false
 galleries: []
 excerpt: 'A Germa ruins tour is for travelers who like their Sahara with a civilization attached. At Germa , ancient Garama’s capital story surfaces through ruins,'

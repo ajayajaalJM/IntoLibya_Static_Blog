@@ -29,7 +29,7 @@ seo:
 <h2 class="wp-block-heading"><strong>المشي الروينز اليوم</strong></h2>
 <p>للمشي ليبتس ماغنا الآن هو الانتقال من خلال طبقات من الوقت. تخطو أسفل أرشيف سيفيران، نحت بالإنتصارات المنسية منذ وقت طويل، ومع ذلك تسمع صدى عمال الميناء يصيحون بعشرات اللغات. واقفة في الباسيليكا، حيث تجادل القضاة مرة في القضايا، ويتصورون صحافة الهيئات والأصوات التي تناقش العدالة. تَمْشي مِنْ الموسيقياتِ التي مرّة تَجْمعُ في غرفِ الطعام الخاصةِ ويَتسائلُ عن العائلاتِ التي كَلتْ هناك، سعادتهم ومخاوفهم لَيسَ مختلفَ جداً مِنْ ملكِنا.</p>
 <p>الخراب ليست مجرد حجر صامت إنها مرآة They remind us that Libyans have always lived in a rhythm that ties community, work, and faith into one whole.</p>
-<figure class="wp-block-image size-large"><img loading="lazy" loading="lazy" alt="an arch in Leptis Magna" class="wp-image-5707" decoding="async" height="1024" loading="lazy" sizes="auto, (max-width: 768px) 100vw, 768px" src="/media/2025/09/IMG_4037-768x1024.jpg" width="768"/></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" loading="lazy" alt="an arch in Leptis Magna" class="wp-image-5707" decoding="async" height="1024" loading="lazy" sizes="auto, (max-width: 768px) 100vw, 768px" src="/media/2025/09/IMG_4037-scaled.jpg" width="768"/></figure>
 <h2 class="wp-block-heading"><strong>الفكر الختامي</strong></h2>
 <p>إن ليبتس ماغنا ليست ميتة؛ وهي تتنفس في أسواق ليبيا، وفي عمل صيادينها ومزارعينها، وفي ضيافة أسرتها، وفي وحدة إيمانها. المدينة تظهر لنا أن الحياة ليست فقط حول النصب التذكارية أو الامبراطورية، ولكن عن الناس الذين يعيشون في تدفق وهمي حيث كل شيء يرتبط.</p>
 <p>وعندما تزورون ليبتس ماغنا اليوم، لا تروا الخراب فحسب. تخطو إلى استمرارية الحياة، حيث الماضي لا يزال يهمس في الحاضر. ليبيا تدعوك إلى المشي في هذه الشوارع والشعور كيف أمس واليوم جزء من نفس القصة</p>

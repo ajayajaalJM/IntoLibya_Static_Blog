@@ -5,7 +5,7 @@ canonicalPath: /en/can-you-add-extra-days-after-a-fixed-libya-package
 lang: en
 publishedAt: '2027-01-02'
 translationGroup: can-you-add-extra-days-after-a-fixed-libya-package
-featuredImage: /media/posts/can-you-add-extra-days-after-a-fixed-libya-package/hero.webp
+featuredImage: /media/posts/_hero-pool/general-dest_germa_webp.webp
 draft: false
 galleries: []
 excerpt: 'If you are comparing options, keep Libya’s licensed model in view while you read “Can You Add Extra Days After a Fixed Libya Package”: sponsorship is the'

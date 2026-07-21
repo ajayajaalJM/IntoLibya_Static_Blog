@@ -5,7 +5,7 @@ canonicalPath: /en/desert-camping-morocco-tunisia-algeria-or-libya
 lang: en
 publishedAt: '2026-10-10'
 translationGroup: desert-camping-morocco-tunisia-algeria-or-libya
-featuredImage: /media/posts/desert-camping-morocco-tunisia-algeria-or-libya/hero.webp
+featuredImage: /media/posts/_hero-pool/sahara-sahara_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Desert camping in Morocco, Tunisia, Algeria, or Libya compared: comfort, crowds, depth, and licensed Libya oasis routes.'

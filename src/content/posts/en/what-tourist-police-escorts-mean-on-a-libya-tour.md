@@ -5,7 +5,7 @@ canonicalPath: /en/what-tourist-police-escorts-mean-on-a-libya-tour
 lang: en
 publishedAt: '2026-08-02'
 translationGroup: what-tourist-police-escorts-mean-on-a-libya-tour
-featuredImage: /media/posts/what-tourist-police-escorts-mean-on-a-libya-tour/hero.webp
+featuredImage: /media/posts/18-day-full-country-libya-itinerary/hero.webp
 draft: false
 galleries: []
 excerpt: 'Libya tourist police is one of the first questions travelers ask when planning with IntoLibya. This guide answers it with practical steps, honest limits,'

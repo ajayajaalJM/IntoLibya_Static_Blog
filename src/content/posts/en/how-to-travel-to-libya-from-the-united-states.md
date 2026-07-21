@@ -5,7 +5,7 @@ canonicalPath: /en/how-to-travel-to-libya-from-the-united-states
 lang: en
 publishedAt: '2026-09-26'
 translationGroup: how-to-travel-to-libya-from-the-united-states
-featuredImage: /media/posts/how-to-travel-to-libya-from-the-united-states/hero.webp
+featuredImage: /media/posts/can-tourists-visit-libya-yes-with-a-licensed-tour/hero.webp
 draft: false
 galleries: []
 excerpt: 'Travel to Libya from USA starts with a licensed tour, not with a spontaneous backpacker ticket. US travelers need sponsorship, eVisa timing, and insurance'

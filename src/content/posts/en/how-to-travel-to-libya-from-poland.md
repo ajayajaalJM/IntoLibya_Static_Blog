@@ -5,7 +5,7 @@ canonicalPath: /en/how-to-travel-to-libya-from-poland
 lang: en
 publishedAt: '2026-11-08'
 translationGroup: how-to-travel-to-libya-from-poland
-featuredImage: /media/posts/how-to-travel-to-libya-from-poland/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a1_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Travel to Libya from Poland through licensed sponsorship, eVisa steps, and guided IntoLibya tours planned in TourBuilder before rigid flights.'

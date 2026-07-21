@@ -32,7 +32,7 @@ seo:
 <h3 class="wp-block-heading"><strong>ガットと最後のキャラバン</strong></h3>
 <p>更に南に、ガットの町は、深い砂漠の前の最終点の1つをマークしました。 周囲の砂丘の上には、その古い要塞が高まっていますが、アカカス山脈は近くをバラにしました。 ニジェールとマリに向かって広大なサハラを横断してキャラバンを案内したトゥアレグのトレーダーのための会議場になりました。</p>
 <p>19世紀にもわたっても、数百のカメルのキャラバンは、これらのルートを渡しました。 旅は数か月続くことができ、すべてのオアシス、井戸、または途中での決済は砂漠の物語の一部となった。 単なる方法ではありませんでした。 文明と伝統が何千年も続く場所の玄関口でした。</p>
-<figure class="wp-block-image size-large"><img loading="lazy" alt="Prehistoric drawings" class="wp-image-6102 not-transparent" data-dominant-color="a37c5e" data-has-transparency="false" decoding="async" height="1024" loading="lazy" sizes="auto, (max-width: 768px) 100vw, 768px" src="/media/2025/11/Prehistoric-drawings-found-miles-from-where-a-mummy-was-excavated-768x1024.jpg" style="--dominant-color: #a37c5e;" width="768"/></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" alt="Prehistoric drawings" class="wp-image-6102 not-transparent" data-dominant-color="a37c5e" data-has-transparency="false" decoding="async" height="1024" loading="lazy" sizes="auto, (max-width: 768px) 100vw, 768px" src="/media/2025/11/Prehistoric-drawings-found-miles-from-where-a-mummy-was-excavated-scaled.jpg" style="--dominant-color: #a37c5e;" width="768"/></figure>
 <hr class="wp-block-separator has-alpha-channel-opacity"/>
 <h3 class="wp-block-heading"><strong>世界の橋</strong></h3>
 <p>今日、砂漠は静かで静かに見えるかもしれませんが、リビアの古代の貿易ネットワークは永続的な遺産を残しました。 ガーマの遺跡やガダムの陰影の路地を歩くと、ラクダベルの音、砂漠のお茶の香り、そしてかつてのエンパイアを結ぶ人々や物の動きを想像することができます。 リビアは歴史の端になかった。 中央にありました。</p>

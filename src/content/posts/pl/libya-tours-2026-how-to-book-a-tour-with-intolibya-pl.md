@@ -6,7 +6,7 @@ lang: pl
 wpImportId: 7122
 publishedAt: '2026-03-11'
 translationGroup: libya-tours-2026-how-to-book-a-tour-with-intolibya
-featuredImage: /media/2025/09/IMG_3295-scaled.jpg
+featuredImage: /media/posts/_hero-pool/tripoli-abstract_jpg.webp
 excerpt: Libia pozostaje jednym z ostatnich naprawdę nieodkrytych miejsc na ziemi. Starożytne rzymskie miasta wznoszą się z wybrzeża Morza Śródziemnego, podczas gdy karawany przedzierają się przez złote wydmy Sahary. W tym samym czasie miasta oazy zachowują wieki starych tradycji,
 seo:
   title: 'Libia Tours 2026: Jak rezerwować wycieczkę z IntoLibya'

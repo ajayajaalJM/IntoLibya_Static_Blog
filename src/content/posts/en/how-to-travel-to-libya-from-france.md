@@ -5,7 +5,7 @@ canonicalPath: /en/how-to-travel-to-libya-from-france
 lang: en
 publishedAt: '2026-09-28'
 translationGroup: how-to-travel-to-libya-from-france
-featuredImage: /media/posts/how-to-travel-to-libya-from-france/hero.webp
+featuredImage: /media/2025/10/Leptis-Magna-Baths-scaled.jpg
 draft: false
 galleries: []
 excerpt: 'Travel to Libya from France suits visitors who already love North African history and want a less crowded chapter. French travelers still enter through'

@@ -5,7 +5,7 @@ canonicalPath: /en/how-to-customize-a-libya-itinerary-before-you-book
 lang: en
 publishedAt: '2026-08-21'
 translationGroup: how-to-customize-a-libya-itinerary-before-you-book
-featuredImage: /media/posts/how-to-customize-a-libya-itinerary-before-you-book/hero.webp
+featuredImage: /media/posts/18-day-full-country-libya-itinerary/hero.webp
 draft: false
 galleries: []
 excerpt: 'A custom Libya itinerary works best when you customize before you fall in love with a random day count. TourBuilder lets you start from a live package, then'

@@ -5,7 +5,7 @@ canonicalPath: /en/is-the-libyan-sahara-safe-for-camping-guests
 lang: en
 publishedAt: '2026-12-08'
 translationGroup: is-the-libyan-sahara-safe-for-camping-guests
-featuredImage: /media/posts/is-the-libyan-sahara-safe-for-camping-guests/hero.webp
+featuredImage: /media/posts/_hero-pool/general-dest_waw_an_namus_webp.webp
 draft: false
 galleries: []
 excerpt: 'Yes it is. Sahara camp nights belong on licensed longer itineraries with proper season, vehicles, and desert guides. Freestyle camping is not the tourist model.'

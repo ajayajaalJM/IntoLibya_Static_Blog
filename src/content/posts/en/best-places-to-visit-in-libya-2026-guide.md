@@ -6,7 +6,7 @@ lang: en
 wpImportId: 6530
 publishedAt: '2026-02-27'
 translationGroup: best-places-to-visit-in-libya-2026-guide
-featuredImage: /media/2025/09/IMG_7153-2-scaled.jpg
+featuredImage: /media/posts/_hero-pool/general-cdn_a20_jpg.webp
 excerpt: Libya is one of the most fascinating destinations in North Africa, here are the best places to visit in Libya this year. Although it remains less visited than neighbouring countries, it offers remarkable history, vast desert landscapes, and living cultural
 seo:
   title: Best Places to Visit in Libya 2026 Guide - IntoLibya

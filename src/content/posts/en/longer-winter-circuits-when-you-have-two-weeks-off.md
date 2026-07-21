@@ -5,7 +5,7 @@ canonicalPath: /en/longer-winter-circuits-when-you-have-two-weeks-off
 lang: en
 publishedAt: '2026-10-22'
 translationGroup: longer-winter-circuits-when-you-have-two-weeks-off
-featuredImage: /media/posts/longer-winter-circuits-when-you-have-two-weeks-off/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a13_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Two weeks off opens longer winter circuits across coastal Libya, the Green Mountain, and Sahara camps without summer heat stress. Pace recovery days and regional flights inside a licensed arc.'

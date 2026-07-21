@@ -5,7 +5,7 @@ canonicalPath: /en/ptolemais-tolmeita-why-greek-east-libya-matters
 lang: en
 publishedAt: '2026-11-15'
 translationGroup: ptolemais-tolmeita-why-greek-east-libya-matters
-featuredImage: /media/posts/ptolemais-tolmeita-why-greek-east-libya-matters/hero.webp
+featuredImage: /media/posts/_hero-pool/cyrene-dest_benghazi_webp.webp
 draft: false
 galleries: []
 excerpt: 'Ptolemais and Tolmeita show why Greek east Libya matters for Cyrenaica travelers exploring Shahat, Susa, and Mediterranean heritage on licensed IntoLibya eastern routes.'

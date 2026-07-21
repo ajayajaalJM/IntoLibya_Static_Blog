@@ -5,7 +5,7 @@ canonicalPath: /en/off-the-beaten-path-north-africa-for-second-timers
 lang: en
 publishedAt: '2026-11-28'
 translationGroup: off-the-beaten-path-north-africa-for-second-timers
-featuredImage: /media/posts/off-the-beaten-path-north-africa-for-second-timers/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a7_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Off the beaten path North Africa for second timers: Libya Roman and Cyrenaica sites after Morocco or Egypt first trips.'

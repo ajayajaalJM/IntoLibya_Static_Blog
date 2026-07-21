@@ -6,7 +6,7 @@ lang: ru
 wpImportId: 7020
 publishedAt: '2026-03-11'
 translationGroup: unearthing-the-foggara-water-in-the-desert
-featuredImage: /media/2025/10/Narrow-pathways-around-the-old-town-of-Ghadames-scaled.jpg
+featuredImage: /media/posts/beach-holiday-in-tunisia-then-culture-in-libya/hero.webp
 excerpt: 'В самом сердце Сахары, где песок тянется бесконечно, а воды мало, древние народы открыли замечательную тайну: жизнь могла процветать даже в самой суровой пустыне. Этот секрет был туманом, гениальной подземной ирригационной системой, которая несла'
 seo:
   title: 'Оригинальное название: The Foggara: Water in the Desert'

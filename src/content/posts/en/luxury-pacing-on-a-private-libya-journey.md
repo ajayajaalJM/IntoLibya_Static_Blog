@@ -5,7 +5,7 @@ canonicalPath: /en/luxury-pacing-on-a-private-libya-journey
 lang: en
 publishedAt: '2026-11-06'
 translationGroup: luxury-pacing-on-a-private-libya-journey
-featuredImage: /media/posts/luxury-pacing-on-a-private-libya-journey/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a33_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Luxury Libya travel means private timing, empty UNESCO mornings, and calm transfers on licensed IntoLibya routes rather than invented five star promises or freestyle independence.'

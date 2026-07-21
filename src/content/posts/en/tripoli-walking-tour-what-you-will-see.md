@@ -5,7 +5,7 @@ canonicalPath: /en/tripoli-walking-tour-what-you-will-see
 lang: en
 publishedAt: '2026-09-08'
 translationGroup: tripoli-walking-tour-what-you-will-see
-featuredImage: /media/posts/tripoli-walking-tour-what-you-will-see/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a1_jpg.webp
 draft: false
 galleries: []
 excerpt: 'A Tripoli walking tour is how the capital stops being an airport hotel and becomes a place you can feel in your feet. On a licensed IntoLibya day, you move'

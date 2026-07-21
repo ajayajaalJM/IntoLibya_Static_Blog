@@ -5,7 +5,7 @@ canonicalPath: /en/how-many-unesco-sites-does-libya-have
 lang: en
 publishedAt: '2026-10-11'
 translationGroup: how-many-unesco-sites-does-libya-have
-featuredImage: /media/posts/how-many-unesco-sites-does-libya-have/hero.webp
+featuredImage: /media/2025/10/Leptis-Magna-Baths-scaled.jpg
 draft: false
 galleries: []
 excerpt: 'UNESCO sites in Libya: Libya has five UNESCO World Heritage listings that travelers care about most. They are Archaeological Site of Leptis Magna ,'

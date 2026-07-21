@@ -5,7 +5,7 @@ canonicalPath: /en/how-to-build-a-maghreb-circuit-that-includes-libya
 lang: en
 publishedAt: '2026-10-26'
 translationGroup: how-to-build-a-maghreb-circuit-that-includes-libya
-featuredImage: /media/posts/how-to-build-a-maghreb-circuit-that-includes-libya/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a8_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Build a Maghreb circuit that includes Libya without overland fantasy: sequencing Tunisia, flights, and licensed coast routes.'

@@ -5,7 +5,7 @@ canonicalPath: /en/libya-entry-requirements-checklist
 lang: en
 publishedAt: '2026-07-29'
 translationGroup: libya-entry-requirements-checklist
-featuredImage: /media/posts/libya-entry-requirements-checklist/hero.webp
+featuredImage: /media/posts/_hero-pool/tripoli-abstract_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Libya entry requirements is one of the first questions travelers ask when planning with IntoLibya. This guide answers it with practical steps, honest'

@@ -5,7 +5,7 @@ canonicalPath: /en/north-africa-destinations-ranked-for-empty-unesco-sites
 lang: en
 publishedAt: '2026-10-23'
 translationGroup: north-africa-destinations-ranked-for-empty-unesco-sites
-featuredImage: /media/posts/north-africa-destinations-ranked-for-empty-unesco-sites/hero.webp
+featuredImage: /media/posts/_hero-pool/leptis-Circus_Leptis_Magna_Libya.JPG.webp
 draft: false
 galleries: []
 excerpt: 'Compare North Africa UNESCO sites for crowd levels: where Libya, Tunisia, Egypt, and Algeria win on quiet monumental mornings.'

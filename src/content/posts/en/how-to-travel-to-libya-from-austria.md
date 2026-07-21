@@ -5,7 +5,7 @@ canonicalPath: /en/how-to-travel-to-libya-from-austria
 lang: en
 publishedAt: '2027-01-08'
 translationGroup: how-to-travel-to-libya-from-austria
-featuredImage: /media/posts/how-to-travel-to-libya-from-austria/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a4_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Travel to Libya from Austria through licensed sponsorship, eVisa steps, and guided IntoLibya tours planned in TourBuilder before rigid flights.'

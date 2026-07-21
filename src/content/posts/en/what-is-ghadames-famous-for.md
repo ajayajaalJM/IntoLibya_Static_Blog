@@ -5,7 +5,7 @@ canonicalPath: /en/what-is-ghadames-famous-for
 lang: en
 publishedAt: '2026-10-16'
 translationGroup: what-is-ghadames-famous-for
-featuredImage: /media/posts/what-is-ghadames-famous-for/hero.webp
+featuredImage: /media/posts/beach-holiday-in-tunisia-then-culture-in-libya/hero.webp
 draft: false
 galleries: []
 excerpt: 'What is Ghadames famous for? Ghadames is a UNESCO listed oasis old town in western Libya, celebrated for its covered whitewashed streets, intricate desert'

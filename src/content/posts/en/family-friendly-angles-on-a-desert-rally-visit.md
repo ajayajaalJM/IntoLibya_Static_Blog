@@ -5,7 +5,7 @@ canonicalPath: /en/family-friendly-angles-on-a-desert-rally-visit
 lang: en
 publishedAt: '2026-08-03'
 translationGroup: family-friendly-angles-on-a-desert-rally-visit
-featuredImage: /media/posts/family-friendly-angles-on-a-desert-rally-visit/hero.webp
+featuredImage: /media/posts/_hero-pool/sahara-event_event_ghat_international_tourism_festival_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Family friendly Rally Te Te travel is possible when pacing stays honest and nobody pretends the desert is a theme park. Children and teens who like'

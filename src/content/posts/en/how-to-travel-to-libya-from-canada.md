@@ -5,7 +5,7 @@ canonicalPath: /en/how-to-travel-to-libya-from-canada
 lang: en
 publishedAt: '2026-09-26'
 translationGroup: how-to-travel-to-libya-from-canada
-featuredImage: /media/posts/how-to-travel-to-libya-from-canada/hero.webp
+featuredImage: /media/posts/can-tourists-visit-libya-yes-with-a-licensed-tour/hero.webp
 draft: false
 galleries: []
 excerpt: 'Travel to Libya from Canada follows the same core rule as other far markets: licensed sponsorship first, then eVisa, then flights that match the paperwork.'

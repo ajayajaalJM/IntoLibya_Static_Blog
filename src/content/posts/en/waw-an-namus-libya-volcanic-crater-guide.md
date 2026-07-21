@@ -5,7 +5,7 @@ canonicalPath: /en/waw-an-namus-libya-volcanic-crater-guide
 lang: en
 publishedAt: '2026-09-03'
 translationGroup: waw-an-namus-libya-volcanic-crater-guide
-featuredImage: /media/posts/waw-an-namus-libya-volcanic-crater-guide/hero.webp
+featuredImage: /media/posts/_hero-pool/general-dest_waw_an_namus_webp.webp
 draft: false
 galleries: []
 excerpt: 'Waw an Namus looks like a rumor until you see it: a volcanic caldera of dark basalt and ash, holding small oasis lakes in the deep Libyan Sahara. The name'

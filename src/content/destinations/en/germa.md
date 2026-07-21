@@ -6,7 +6,7 @@ lang: en
 publishedAt: '2026-07-13'
 translationGroup: germa
 draft: false
-featuredImage: /media/destinations/germa/hero.webp
+featuredImage: /media/posts/_hero-pool/general-dest_germa_webp.webp
 excerpt: In the Fezzan heartland, Germa marks ancient Garama — capital of the Garamantes — where Saharan civilization wrote an early chapter of Libyan history.
 seo:
   title: Germa - IntoLibya

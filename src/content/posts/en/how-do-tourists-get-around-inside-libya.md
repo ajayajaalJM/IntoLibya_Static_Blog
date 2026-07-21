@@ -5,7 +5,7 @@ canonicalPath: /en/how-do-tourists-get-around-inside-libya
 lang: en
 publishedAt: '2026-10-16'
 translationGroup: how-do-tourists-get-around-inside-libya
-featuredImage: /media/posts/how-do-tourists-get-around-inside-libya/hero.webp
+featuredImage: /media/posts/18-day-full-country-libya-itinerary/hero.webp
 draft: false
 galleries: []
 excerpt: 'Transport in Libya tourists use is almost always arranged by the licensed tour operator. International visitors do not freestyle the country on public buses'

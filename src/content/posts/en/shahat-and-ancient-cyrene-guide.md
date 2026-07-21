@@ -5,7 +5,7 @@ canonicalPath: /en/shahat-and-ancient-cyrene-guide
 lang: en
 publishedAt: '2026-09-05'
 translationGroup: shahat-and-ancient-cyrene-guide
-featuredImage: /media/posts/shahat-and-ancient-cyrene-guide/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a31_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Cyrene Libya lives today around Shahat , where Greek settlers founded a powerful city in the seventh century before Christ. Nestled in northeastern hills,'

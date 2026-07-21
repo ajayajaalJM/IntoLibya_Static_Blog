@@ -5,7 +5,7 @@ canonicalPath: /en/greek-ruins-egypt-vs-east-libya
 lang: en
 publishedAt: '2026-10-05'
 translationGroup: greek-ruins-egypt-vs-east-libya
-featuredImage: /media/posts/greek-ruins-egypt-vs-east-libya/hero.webp
+featuredImage: /media/posts/_hero-pool/cyrene-east_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Cyrene vs Egypt temples is less a rivalry than a category error. Egypt’s Greek and Greco Roman threads sit inside a larger pharaonic tourism universe of'

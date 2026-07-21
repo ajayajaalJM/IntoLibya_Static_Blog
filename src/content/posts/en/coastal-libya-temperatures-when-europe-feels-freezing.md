@@ -5,7 +5,7 @@ canonicalPath: /en/coastal-libya-temperatures-when-europe-feels-freezing
 lang: en
 publishedAt: '2026-12-10'
 translationGroup: coastal-libya-temperatures-when-europe-feels-freezing
-featuredImage: /media/posts/coastal-libya-temperatures-when-europe-feels-freezing/hero.webp
+featuredImage: /media/posts/_hero-pool/sabratha-Ancient_Theatre_-_Sabratha_-_Libya_07.jpg.webp
 draft: false
 galleries: []
 excerpt: 'Coastal Libya winter temperatures feel mild when Europe freezes, yet evenings still need a jacket. Expect walkable ruin days, cool nights, and realistic sunshine without tropical beach promises.'

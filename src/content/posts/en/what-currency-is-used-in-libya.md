@@ -5,7 +5,7 @@ canonicalPath: /en/what-currency-is-used-in-libya
 lang: en
 publishedAt: '2026-10-12'
 translationGroup: what-currency-is-used-in-libya
-featuredImage: /media/posts/what-currency-is-used-in-libya/hero.webp
+featuredImage: /media/posts/_hero-pool/tripoli-abstract_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Currency in Libya is the Libyan dinar. Prices you see locally are in dinars. Tourists on licensed tours usually prepay major trip costs to the operator in'

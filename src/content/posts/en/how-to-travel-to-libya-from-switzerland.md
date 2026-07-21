@@ -5,7 +5,7 @@ canonicalPath: /en/how-to-travel-to-libya-from-switzerland
 lang: en
 publishedAt: '2026-12-23'
 translationGroup: how-to-travel-to-libya-from-switzerland
-featuredImage: /media/posts/how-to-travel-to-libya-from-switzerland/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a39_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Travel to Libya from Switzerland through licensed sponsorship, eVisa steps, and guided IntoLibya tours planned in TourBuilder before rigid flights.'

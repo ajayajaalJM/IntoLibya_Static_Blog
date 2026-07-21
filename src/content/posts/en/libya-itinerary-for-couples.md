@@ -5,7 +5,7 @@ canonicalPath: /en/libya-itinerary-for-couples
 lang: en
 publishedAt: '2026-08-29'
 translationGroup: libya-itinerary-for-couples
-featuredImage: /media/posts/libya-itinerary-for-couples/hero.webp
+featuredImage: /media/2025/10/Leptis-Magna-Baths-scaled.jpg
 draft: false
 galleries: []
 excerpt: 'A Libya honeymoon itinerary style plan for couples is less about rose petals and more about shared wonder with private pacing. Libya is romantic in the old'

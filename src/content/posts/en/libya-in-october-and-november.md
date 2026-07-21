@@ -5,7 +5,7 @@ canonicalPath: /en/libya-in-october-and-november
 lang: en
 publishedAt: '2026-09-25'
 translationGroup: libya-in-october-and-november
-featuredImage: /media/posts/libya-in-october-and-november/hero.webp
+featuredImage: /media/posts/beach-holiday-in-tunisia-then-culture-in-libya/hero.webp
 draft: false
 galleries: []
 excerpt: 'Libya October travel, and November right beside it, sits in the heart of the tourist sweet spot. Days on the coast stay warm without midsummer punishment.'

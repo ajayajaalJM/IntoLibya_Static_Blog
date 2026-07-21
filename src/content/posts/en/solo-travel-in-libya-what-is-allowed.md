@@ -5,7 +5,7 @@ canonicalPath: /en/solo-travel-in-libya-what-is-allowed
 lang: en
 publishedAt: '2026-07-31'
 translationGroup: solo-travel-in-libya-what-is-allowed
-featuredImage: /media/posts/solo-travel-in-libya-what-is-allowed/hero.webp
+featuredImage: /media/posts/18-day-full-country-libya-itinerary/hero.webp
 draft: false
 galleries: []
 excerpt: 'Solo travel Libya is one of the first questions travelers ask when planning with IntoLibya. This guide answers it with practical steps, honest limits, and'

@@ -5,7 +5,7 @@ canonicalPath: /en/east-libya-or-west-libya-how-to-choose-your-first-region
 lang: en
 publishedAt: '2026-12-01'
 translationGroup: east-libya-or-west-libya-how-to-choose-your-first-region
-featuredImage: /media/posts/east-libya-or-west-libya-how-to-choose-your-first-region/hero.webp
+featuredImage: /media/posts/_hero-pool/cyrene-dest-jebel-akhdar.webp
 draft: false
 galleries: []
 excerpt: 'First time Libya visitors choose west or east by trip length, routing live windows, and appetite for Roman coast classics versus Greek Cyrenaica and Green Mountain highlands.'

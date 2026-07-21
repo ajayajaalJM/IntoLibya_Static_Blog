@@ -5,7 +5,7 @@ canonicalPath: /en/rain-chances-on-libya-winter-coast-days
 lang: en
 publishedAt: '2026-10-23'
 translationGroup: rain-chances-on-libya-winter-coast-days
-featuredImage: /media/posts/rain-chances-on-libya-winter-coast-days/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a16_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Rain on Libya winter coast days is possible, not the main story. Pack a shell layer for ruin visits, keep Tripoli museum backups in mind, and let TourBuilder flex days without treating showers as trip failure.'

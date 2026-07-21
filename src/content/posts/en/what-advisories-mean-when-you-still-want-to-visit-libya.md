@@ -5,7 +5,7 @@ canonicalPath: /en/what-advisories-mean-when-you-still-want-to-visit-libya
 lang: en
 publishedAt: '2026-11-04'
 translationGroup: what-advisories-mean-when-you-still-want-to-visit-libya
-featuredImage: /media/posts/what-advisories-mean-when-you-still-want-to-visit-libya/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a37_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Travel advisories describe broad national risk for citizens. A licensed itinerary describes your week. Read both honestly if you still want to visit Libya.'

@@ -5,7 +5,7 @@ canonicalPath: /en/after-egypt-crowds-where-do-history-travelers-go
 lang: en
 publishedAt: '2026-10-24'
 translationGroup: after-egypt-crowds-where-do-history-travelers-go
-featuredImage: /media/posts/after-egypt-crowds-where-do-history-travelers-go/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a1_jpg.webp
 draft: false
 galleries: []
 excerpt: 'After crowded Egypt temples, history travelers often turn to Libya''s quiet Roman cities and Greek Cyrenaica on licensed tours.'

@@ -5,7 +5,7 @@ canonicalPath: /en/lunch-in-a-traditional-home-in-ghadames
 lang: en
 publishedAt: '2026-09-12'
 translationGroup: lunch-in-a-traditional-home-in-ghadames
-featuredImage: /media/posts/lunch-in-a-traditional-home-in-ghadames/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a11_jpg.webp
 draft: false
 galleries: []
 excerpt: 'A Ghadames home lunch is the activity that converts whitewashed walls into a living welcome. Instead of only walking past courtyard doors, you sit where'

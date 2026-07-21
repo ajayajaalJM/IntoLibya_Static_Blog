@@ -6,7 +6,7 @@ lang: en
 publishedAt: '2026-07-13'
 translationGroup: benghazi
 draft: false
-featuredImage: /media/destinations/benghazi/hero.webp
+featuredImage: /media/posts/_hero-pool/cyrene-dest_benghazi_webp.webp
 excerpt: Benghazi is Cyrenaica’s coastal hub—culture, Mediterranean light, and the gateway to East Libya’s Greek ruins and Green Mountain landscapes.
 seo:
   title: Benghazi - IntoLibya

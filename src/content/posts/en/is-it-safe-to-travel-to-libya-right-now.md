@@ -5,7 +5,7 @@ canonicalPath: /en/is-it-safe-to-travel-to-libya-right-now
 lang: en
 publishedAt: '2026-07-30'
 translationGroup: is-it-safe-to-travel-to-libya-right-now
-featuredImage: /media/posts/is-it-safe-to-travel-to-libya-right-now/hero.webp
+featuredImage: /media/posts/can-tourists-visit-libya-yes-with-a-licensed-tour/hero.webp
 draft: false
 galleries: []
 excerpt: 'Is it safe to travel to Libya right now? For tourists who use a licensed operator, complete the eVisa process, and follow guided itineraries with tourist'

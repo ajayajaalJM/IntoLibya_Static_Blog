@@ -5,7 +5,7 @@ canonicalPath: /en/modern-history-curiosity-how-guides-handle-traveler-questions
 lang: en
 publishedAt: '2026-12-13'
 translationGroup: modern-history-curiosity-how-guides-handle-traveler-questions
-featuredImage: /media/posts/modern-history-curiosity-how-guides-handle-traveler-questions/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a37_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Modern history curiosity on Libya tours gets thoughtful guide context on city days, museums, and living communities without turning licensed IntoLibya trips into unstructured debate forums.'

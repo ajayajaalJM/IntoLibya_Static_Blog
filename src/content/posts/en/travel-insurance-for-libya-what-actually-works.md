@@ -5,7 +5,7 @@ canonicalPath: /en/travel-insurance-for-libya-what-actually-works
 lang: en
 publishedAt: '2026-07-26'
 translationGroup: travel-insurance-for-libya-what-actually-works
-featuredImage: /media/posts/travel-insurance-for-libya-what-actually-works/hero.webp
+featuredImage: /media/posts/_hero-pool/tripoli-abstract_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Travel insurance Libya is one of the first questions travelers ask when planning with IntoLibya. This guide answers it with practical steps, honest limits,'

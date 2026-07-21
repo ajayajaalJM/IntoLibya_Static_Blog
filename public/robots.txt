@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://intolibya.com/sitemap-index.xml
+Sitemap: https://intolibya.com/image-sitemap.xml

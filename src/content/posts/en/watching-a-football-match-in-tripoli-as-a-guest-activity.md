@@ -5,7 +5,7 @@ canonicalPath: /en/watching-a-football-match-in-tripoli-as-a-guest-activity
 lang: en
 publishedAt: '2027-01-12'
 translationGroup: watching-a-football-match-in-tripoli-as-a-guest-activity
-featuredImage: /media/posts/watching-a-football-match-in-tripoli-as-a-guest-activity/hero.webp
+featuredImage: /media/posts/_hero-pool/tripoli-Naga_Mosque_Exterior_Tripoli_Libya.JPG.webp
 draft: false
 galleries: []
 excerpt: 'Watching a football match in Tripoli gives guests modern city energy on licensed tours when fixtures and routing allow, with guide briefings on stadium etiquette and safety.'

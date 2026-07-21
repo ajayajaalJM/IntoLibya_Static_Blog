@@ -5,7 +5,7 @@ canonicalPath: /en/insurance-proof-and-emergency-contacts-guests-prepare
 lang: en
 publishedAt: '2026-12-05'
 translationGroup: insurance-proof-and-emergency-contacts-guests-prepare
-featuredImage: /media/posts/insurance-proof-and-emergency-contacts-guests-prepare/hero.webp
+featuredImage: /media/posts/_hero-pool/cyrene-dest-tobruk.webp
 draft: false
 galleries: []
 excerpt: 'Read this as a guest briefing for “Insurance Proof and Emergency Contacts Guests Prepare”. Prices and live inclusions stay in TourBuilder so the article'

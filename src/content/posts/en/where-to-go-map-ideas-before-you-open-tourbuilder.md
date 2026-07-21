@@ -5,7 +5,7 @@ canonicalPath: /en/where-to-go-map-ideas-before-you-open-tourbuilder
 lang: en
 publishedAt: '2026-11-01'
 translationGroup: where-to-go-map-ideas-before-you-open-tourbuilder
-featuredImage: /media/posts/where-to-go-map-ideas-before-you-open-tourbuilder/hero.webp
+featuredImage: /media/posts/_hero-pool/general-event_event_total_solar_eclipse_2027_libya_jpg.webp
 draft: false
 galleries: []
 excerpt: 'If you are comparing options, keep Libya’s licensed model in view while you read “Where to Go Map Ideas Before You Open TourBuilder”: sponsorship is the'

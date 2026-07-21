@@ -5,7 +5,7 @@ canonicalPath: /en/what-to-pack-for-a-libya-tour
 lang: en
 publishedAt: '2026-07-27'
 translationGroup: what-to-pack-for-a-libya-tour
-featuredImage: /media/posts/what-to-pack-for-a-libya-tour/hero.webp
+featuredImage: /media/posts/_hero-pool/sahara-sahara_jpg.webp
 draft: false
 galleries: []
 excerpt: 'What to pack Libya is one of the first questions travelers ask when planning with IntoLibya. This guide answers it with practical steps, honest limits, and'

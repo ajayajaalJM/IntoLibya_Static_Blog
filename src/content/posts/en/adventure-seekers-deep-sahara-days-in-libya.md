@@ -5,7 +5,7 @@ canonicalPath: /en/adventure-seekers-deep-sahara-days-in-libya
 lang: en
 publishedAt: '2026-12-13'
 translationGroup: adventure-seekers-deep-sahara-days-in-libya
-featuredImage: /media/posts/adventure-seekers-deep-sahara-days-in-libya/hero.webp
+featuredImage: /media/posts/_hero-pool/sahara-cdn_a44_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Adventure seekers on Libya Sahara days get dune travel, oasis camps, and remote routing on licensed IntoLibya expeditions with honest fitness talk and season windows outside peak heat.'

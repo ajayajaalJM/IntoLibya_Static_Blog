@@ -5,7 +5,7 @@ canonicalPath: /en/how-northern-travelers-use-libya-as-a-warm-season-bridge
 lang: en
 publishedAt: '2026-12-11'
 translationGroup: how-northern-travelers-use-libya-as-a-warm-season-bridge
-featuredImage: /media/posts/how-northern-travelers-use-libya-as-a-warm-season-bridge/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a1_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Northern travelers use Libya as a warm season bridge between cold home months and summer heat, pairing mild coast weeks with licensed IntoLibya tours and smart season choice.'

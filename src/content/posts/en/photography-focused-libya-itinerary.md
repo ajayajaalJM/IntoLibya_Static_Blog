@@ -5,7 +5,7 @@ canonicalPath: /en/photography-focused-libya-itinerary
 lang: en
 publishedAt: '2026-08-25'
 translationGroup: photography-focused-libya-itinerary
-featuredImage: /media/posts/photography-focused-libya-itinerary/hero.webp
+featuredImage: /media/posts/_hero-pool/sahara-acacus_jpg.webp
 draft: false
 galleries: []
 excerpt: 'A Libya photography tour itinerary is less about collecting pins and more about collecting light. You still need licensed sponsorship and a runnable route.'

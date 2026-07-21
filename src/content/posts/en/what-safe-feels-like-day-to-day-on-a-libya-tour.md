@@ -5,7 +5,7 @@ canonicalPath: /en/what-safe-feels-like-day-to-day-on-a-libya-tour
 lang: en
 publishedAt: '2026-11-03'
 translationGroup: what-safe-feels-like-day-to-day-on-a-libya-tour
-featuredImage: /media/posts/what-safe-feels-like-day-to-day-on-a-libya-tour/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a1_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Safe on a Libya tour often feels like ordinary logistics: airport pickup, checkpoint paperwork, guided site hours, and evenings with a known plan. Here is a typical rhythm.'

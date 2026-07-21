@@ -6,7 +6,7 @@ lang: zh
 wpImportId: 7146
 publishedAt: '2026-03-11'
 translationGroup: best-places-to-visit-in-libya-2026-guide
-featuredImage: /media/2025/09/IMG_7153-2-scaled.jpg
+featuredImage: /media/posts/_hero-pool/general-cdn_a20_jpg.webp
 excerpt: 利比亚是北非最迷人的目的地之一,这里是今年访问利比亚的最佳地点。 虽然它仍然少于邻国,但它提供了卓越的历史、广阔的沙漠景观和活的文化
 seo:
   title: 利比亚最佳访问地点 2026年指南

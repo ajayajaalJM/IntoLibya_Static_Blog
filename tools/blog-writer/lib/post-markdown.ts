@@ -56,6 +56,8 @@ export function buildMarkdown(
     publishedAt: string;
     translationGroup: string;
     featuredImage: string;
+    featuredImageAlt?: string;
+    tags?: string[];
     galleries?: Gallery[];
     contentKind?: ContentKind;
     draft?: boolean;
@@ -84,6 +86,8 @@ export function buildMarkdown(
   };
   if (shared.draft) fm.draft = true;
   if (excerpt) fm.excerpt = excerpt;
+  if (shared.featuredImageAlt?.trim()) fm.featuredImageAlt = shared.featuredImageAlt.trim();
+  if (shared.tags?.length) fm.tags = [...new Set(shared.tags.map((t) => t.trim()).filter(Boolean))];
 
   const yamlBlock = yamlDump(fm, { lineWidth: -1 }).trimEnd();
   const body = draft.body.trim();
@@ -103,6 +107,8 @@ export function buildAllMarkdown(
     publishedAt: string;
     translationGroup: string;
     featuredImage: string;
+    featuredImageAlt?: string;
+    tags?: string[];
     galleries?: Gallery[];
     contentKind?: ContentKind;
     draft?: boolean;

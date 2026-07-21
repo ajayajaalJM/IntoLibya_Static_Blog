@@ -5,7 +5,7 @@ canonicalPath: /en/carthage-fans-what-to-see-next-across-the-border
 lang: en
 publishedAt: '2026-11-25'
 translationGroup: carthage-fans-what-to-see-next-across-the-border
-featuredImage: /media/posts/carthage-fans-what-to-see-next-across-the-border/hero.webp
+featuredImage: /media/posts/_hero-pool/leptis-Leptis_Magna_-_Labdah_Libya_November_2004_6769449051_.jpg.webp
 draft: false
 galleries: []
 excerpt: 'Carthage fans crossing into Libya: Sabratha theatre and Leptis Magna extend the Phoenician Roman coast story.'

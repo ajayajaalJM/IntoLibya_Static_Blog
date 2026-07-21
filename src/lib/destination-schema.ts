@@ -19,6 +19,13 @@ export const destinationFrontmatterSchema = z.object({
   draft: z.boolean().default(false),
   /** Required hero image — used on the destination page and as the social OG image. */
   featuredImage: z.string().min(1, 'featuredImage (hero) is required'),
+  /** Optional descriptive alt for the hero (SEO / a11y). */
+  featuredImageAlt: z.string().optional(),
+  /**
+   * Writer-only topic/place tags for search and image recommendations.
+   * Not used for public tag pages in this phase.
+   */
+  tags: z.array(z.string()).default([]),
   excerpt: z.string().optional(),
   seo: z.object({
     title: z.string(),

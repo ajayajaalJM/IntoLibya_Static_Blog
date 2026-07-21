@@ -5,7 +5,7 @@ canonicalPath: /en/destination/waddan
 lang: en
 publishedAt: '2026-07-20'
 translationGroup: waddan
-featuredImage: /media/destinations/waddan/hero.webp
+featuredImage: /media/posts/_hero-pool/rally-dest_waddan_webp.webp
 galleries: []
 seo:
   title: Waddan - IntoLibya

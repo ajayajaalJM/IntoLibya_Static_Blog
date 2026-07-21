@@ -5,7 +5,7 @@ canonicalPath: /en/tunisia-beach-week-then-libya-culture-week
 lang: en
 publishedAt: '2026-11-19'
 translationGroup: tunisia-beach-week-then-libya-culture-week
-featuredImage: /media/posts/tunisia-beach-week-then-libya-culture-week/hero.webp
+featuredImage: /media/posts/_hero-pool/sabratha-Ancient_Theatre_-_Sabratha_-_Libya_01.jpg.webp
 draft: false
 galleries: []
 excerpt: 'Tunisia beach week then Libya culture week: pair Mediterranean recovery with Leptis Magna and Sabratha on a licensed tour.'

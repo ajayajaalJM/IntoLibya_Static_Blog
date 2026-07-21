@@ -6,7 +6,7 @@ lang: zh
 wpImportId: 7080
 publishedAt: '2026-03-11'
 translationGroup: ghat-discover-the-culture-people-and-heritage-of-the-sahara
-featuredImage: /media/2025/12/ghat.jpg
+featuredImage: /media/posts/_hero-pool/general-cdn_a37_jpg.webp
 excerpt: 位于利比亚西南部深处,靠近阿尔及利亚和尼日尔的边界,是历史上的城镇加特. 乍一看,它可能看起来很遥远。 然而,一旦你到达, 很明显,加特不是孤立的
 seo:
   title: 'Ghat:发现撒哈拉的文化、人民和遗产'

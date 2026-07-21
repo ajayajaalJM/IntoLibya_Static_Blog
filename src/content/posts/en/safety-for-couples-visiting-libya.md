@@ -5,7 +5,7 @@ canonicalPath: /en/safety-for-couples-visiting-libya
 lang: en
 publishedAt: '2026-08-01'
 translationGroup: safety-for-couples-visiting-libya
-featuredImage: /media/posts/safety-for-couples-visiting-libya/hero.webp
+featuredImage: /media/2025/10/Leptis-Magna-Baths-scaled.jpg
 draft: false
 galleries: []
 excerpt: 'Libya for couples is one of the first questions travelers ask when planning with IntoLibya. This guide answers it with practical steps, honest limits, and'

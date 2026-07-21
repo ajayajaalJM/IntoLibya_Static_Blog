@@ -6,7 +6,7 @@ lang: en
 wpImportId: 6343
 publishedAt: '2025-12-22'
 translationGroup: ghat-discover-the-culture-people-and-heritage-of-the-sahara
-featuredImage: /media/2025/12/ghat.jpg
+featuredImage: /media/posts/_hero-pool/general-cdn_a37_jpg.webp
 excerpt: Deep in the southwest of Libya, close to the borders of Algeria and Niger, lies the historic town of Ghat. At first glance, it may seem remote. However, once you arrive, it becomes clear that Ghat is not isolated at
 seo:
   title: 'Ghat: Discover the Culture, People, and Heritage of the Sahara - IntoLibya'

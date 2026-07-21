@@ -5,7 +5,7 @@ canonicalPath: /en/ghadames-cafe-stories-a-slow-afternoon-activity
 lang: en
 publishedAt: '2027-01-08'
 translationGroup: ghadames-cafe-stories-a-slow-afternoon-activity
-featuredImage: /media/posts/ghadames-cafe-stories-a-slow-afternoon-activity/hero.webp
+featuredImage: /media/posts/_hero-pool/ghadames-dest_jebel_nafusa_webp.webp
 draft: false
 galleries: []
 excerpt: 'Ghadames café stories offer slow afternoon hospitality in oasis old quarter context on licensed western tours when offered and confirmed through TourBuilder.'

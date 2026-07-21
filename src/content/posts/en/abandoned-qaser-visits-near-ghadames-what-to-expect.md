@@ -5,7 +5,7 @@ canonicalPath: /en/abandoned-qaser-visits-near-ghadames-what-to-expect
 lang: en
 publishedAt: '2026-11-12'
 translationGroup: abandoned-qaser-visits-near-ghadames-what-to-expect
-featuredImage: /media/posts/abandoned-qaser-visits-near-ghadames-what-to-expect/hero.webp
+featuredImage: /media/posts/_hero-pool/ghadames-dest_jebel_nafusa_webp.webp
 draft: false
 galleries: []
 excerpt: 'Abandoned qaser visits near Ghadames offer desert architecture texture and quiet ridge views on licensed tours when routing and local access allow, confirmed through TourBuilder.'

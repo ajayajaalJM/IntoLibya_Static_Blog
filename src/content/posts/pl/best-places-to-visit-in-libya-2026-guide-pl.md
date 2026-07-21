@@ -6,7 +6,7 @@ lang: pl
 wpImportId: 7144
 publishedAt: '2026-03-11'
 translationGroup: best-places-to-visit-in-libya-2026-guide
-featuredImage: /media/2025/09/IMG_7153-2-scaled.jpg
+featuredImage: /media/posts/_hero-pool/general-cdn_a20_jpg.webp
 excerpt: Libia jest jednym z najbardziej fascynujących miejsc w Afryce Północnej, oto najlepsze miejsca do odwiedzenia w tym roku w Libii. Mimo że pozostaje ona mniej odwiedzana niż kraje sąsiadujące, oferuje niezwykłą historię, ogromne pustynne krajobrazy i żywą kulturę
 seo:
   title: Najlepsze miejsca do odwiedzenia w Libii 2026 Przewodnik

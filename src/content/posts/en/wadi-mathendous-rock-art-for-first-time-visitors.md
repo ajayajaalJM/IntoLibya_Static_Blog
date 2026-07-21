@@ -5,7 +5,7 @@ canonicalPath: /en/wadi-mathendous-rock-art-for-first-time-visitors
 lang: en
 publishedAt: '2026-11-16'
 translationGroup: wadi-mathendous-rock-art-for-first-time-visitors
-featuredImage: /media/posts/wadi-mathendous-rock-art-for-first-time-visitors/hero.webp
+featuredImage: /media/posts/_hero-pool/sahara-dest-wadi-mathendous.webp
 draft: false
 galleries: []
 excerpt: 'Wadi Mathendous rock art introduces first time visitors to ancient engravings in Sahara routing on licensed IntoLibya expeditions when season, access, and guide protocols allow.'

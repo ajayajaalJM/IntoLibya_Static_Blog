@@ -5,7 +5,7 @@ canonicalPath: /en/why-some-north-africa-trips-feel-overcrowded
 lang: en
 publishedAt: '2026-10-25'
 translationGroup: why-some-north-africa-trips-feel-overcrowded
-featuredImage: /media/posts/why-some-north-africa-trips-feel-overcrowded/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a33_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Why some North Africa trips feel overcrowded: fame, cruises, and day trip geometry, and where Libya still offers space.'

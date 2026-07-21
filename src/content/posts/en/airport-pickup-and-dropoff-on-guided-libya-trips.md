@@ -5,7 +5,7 @@ canonicalPath: /en/airport-pickup-and-dropoff-on-guided-libya-trips
 lang: en
 publishedAt: '2026-12-02'
 translationGroup: airport-pickup-and-dropoff-on-guided-libya-trips
-featuredImage: /media/posts/airport-pickup-and-dropoff-on-guided-libya-trips/hero.webp
+featuredImage: /media/posts/_hero-pool/tripoli-Bin_Saber_Mosque_Tripoli_Libya.JPG.webp
 draft: false
 galleries: []
 excerpt: 'If you are comparing options, keep Libya’s licensed model in view while you read “Airport Pickup and Dropoff on Guided Libya Trips”: sponsorship is the'

@@ -5,7 +5,7 @@ canonicalPath: /en/real-guest-experiences-feeling-safe-in-libya
 lang: en
 publishedAt: '2026-08-07'
 translationGroup: real-guest-experiences-feeling-safe-in-libya
-featuredImage: /media/posts/real-guest-experiences-feeling-safe-in-libya/hero.webp
+featuredImage: /media/posts/beach-holiday-in-tunisia-then-culture-in-libya/hero.webp
 draft: false
 galleries: []
 excerpt: 'Libya tour reviews safety is one of the first questions travelers ask when planning with IntoLibya. This guide answers it with practical steps, honest'

@@ -5,7 +5,7 @@ canonicalPath: /en/sabratha-roman-ruins-tour-tips
 lang: en
 publishedAt: '2026-09-10'
 translationGroup: sabratha-roman-ruins-tour-tips
-featuredImage: /media/posts/sabratha-roman-ruins-tour-tips/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a16_jpg.webp
 draft: false
 galleries: []
 excerpt: 'A Sabratha tour is the coastal Roman day that makes people quiet for a second when the theatre faces the sea. Columns, stage architecture, and Mediterranean'

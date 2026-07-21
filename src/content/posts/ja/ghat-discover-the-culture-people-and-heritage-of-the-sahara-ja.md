@@ -6,7 +6,7 @@ lang: ja
 wpImportId: 7079
 publishedAt: '2026-03-11'
 translationGroup: ghat-discover-the-culture-people-and-heritage-of-the-sahara
-featuredImage: /media/2025/12/ghat.jpg
+featuredImage: /media/posts/_hero-pool/general-cdn_a37_jpg.webp
 excerpt: リビアの南西部に深く、アルジェリアとニジェールの国境に近い、ガットの歴史的な町です。 一見すると、リモートのようです。 しかし、到着すると、ガットが隔離されていないことが明らかになります
 seo:
   title: 'ガット:サハラの文化、人、そして遺産を発見'

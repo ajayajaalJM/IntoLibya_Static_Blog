@@ -5,7 +5,7 @@ canonicalPath: /en/ghadames-dress-experience-etiquette-for-visitors
 lang: en
 publishedAt: '2027-01-09'
 translationGroup: ghadames-dress-experience-etiquette-for-visitors
-featuredImage: /media/posts/ghadames-dress-experience-etiquette-for-visitors/hero.webp
+featuredImage: /media/posts/_hero-pool/ghadames-event_event_double_shafra_desert_mens_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Ghadames dress experience etiquette helps visitors respect traditional clothing demonstrations on licensed oasis tours when cultural activities are offered in TourBuilder.'

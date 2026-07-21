@@ -5,7 +5,7 @@ canonicalPath: /en/desert-camping-styles-across-morocco-tunisia-algeria-libya
 lang: en
 publishedAt: '2026-11-29'
 translationGroup: desert-camping-styles-across-morocco-tunisia-algeria-libya
-featuredImage: /media/posts/desert-camping-styles-across-morocco-tunisia-algeria-libya/hero.webp
+featuredImage: /media/posts/_hero-pool/rally-dest_waddan_webp.webp
 draft: false
 galleries: []
 excerpt: 'Desert camping styles compared: Morocco theatre, Tunisia samplers, Algeria expeditions, and Libya oasis plus Fezzan camps.'

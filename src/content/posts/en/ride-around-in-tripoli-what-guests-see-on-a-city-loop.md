@@ -5,7 +5,7 @@ canonicalPath: /en/ride-around-in-tripoli-what-guests-see-on-a-city-loop
 lang: en
 publishedAt: '2026-11-11'
 translationGroup: ride-around-in-tripoli-what-guests-see-on-a-city-loop
-featuredImage: /media/posts/ride-around-in-tripoli-what-guests-see-on-a-city-loop/hero.webp
+featuredImage: /media/posts/_hero-pool/tripoli-Kharruba_Mosque_on_Fnaydga_Street_Tripoli_Libya.JPG.webp
 draft: false
 galleries: []
 excerpt: 'A ride around Tripoli on a licensed tour shows medina lanes, mosque exteriors, museum context, and Mediterranean city rhythm as a gentle first day or cultural add on through IntoLibya.'

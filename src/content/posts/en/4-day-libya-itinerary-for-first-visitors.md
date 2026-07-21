@@ -5,7 +5,7 @@ canonicalPath: /en/4-day-libya-itinerary-for-first-visitors
 lang: en
 publishedAt: '2026-08-12'
 translationGroup: 4-day-libya-itinerary-for-first-visitors
-featuredImage: /media/posts/4-day-libya-itinerary-for-first-visitors/hero.webp
+featuredImage: /media/posts/_hero-pool/tripoli-tour4_jpg.webp
 draft: false
 galleries: []
 excerpt: '4 day Libya itinerary is one of the first questions travelers ask when planning with IntoLibya. This guide answers it with practical steps, honest limits,'

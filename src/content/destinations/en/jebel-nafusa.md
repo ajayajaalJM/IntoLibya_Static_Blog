@@ -6,7 +6,7 @@ lang: en
 publishedAt: '2026-07-13'
 translationGroup: jebel-nafusa
 draft: false
-featuredImage: /media/destinations/jebel-nafusa/hero.webp
+featuredImage: /media/posts/_hero-pool/ghadames-dest_jebel_nafusa_webp.webp
 excerpt: West of Tripoli, Jebel Nafusa rises into Berber mountain villages, fortified qasrs, and olive country that feels a world apart from the coast.
 seo:
   title: Jebel Nafusa - IntoLibya

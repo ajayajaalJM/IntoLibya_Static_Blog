@@ -5,7 +5,7 @@ canonicalPath: /en/unesco-sites-in-libya-a-traveler-map
 lang: en
 publishedAt: '2026-09-07'
 translationGroup: unesco-sites-in-libya-a-traveler-map
-featuredImage: /media/posts/unesco-sites-in-libya-a-traveler-map/hero.webp
+featuredImage: /media/2025/10/Leptis-Magna-Baths-scaled.jpg
 draft: false
 galleries: []
 excerpt: 'UNESCO sites Libya still offers are not theoretical pins on a forgotten map. They are walkable places on licensed itineraries: Roman cities by the western'

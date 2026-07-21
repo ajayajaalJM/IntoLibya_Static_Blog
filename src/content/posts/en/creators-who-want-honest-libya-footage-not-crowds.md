@@ -5,7 +5,7 @@ canonicalPath: /en/creators-who-want-honest-libya-footage-not-crowds
 lang: en
 publishedAt: '2026-12-17'
 translationGroup: creators-who-want-honest-libya-footage-not-crowds
-featuredImage: /media/posts/creators-who-want-honest-libya-footage-not-crowds/hero.webp
+featuredImage: /media/posts/_hero-pool/general-dest_germa_webp.webp
 draft: false
 galleries: []
 excerpt: 'Creators filming honest Libya footage without crowds need licensed IntoLibya routes, photography rule discipline, consent ethics, and pacing that protects access at empty ruins and desert camps.'

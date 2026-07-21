@@ -5,7 +5,7 @@ canonicalPath: /en/north-africa-winter-sun-without-only-going-to-egypt
 lang: en
 publishedAt: '2026-10-19'
 translationGroup: north-africa-winter-sun-without-only-going-to-egypt
-featuredImage: /media/posts/north-africa-winter-sun-without-only-going-to-egypt/hero.webp
+featuredImage: /media/posts/_hero-pool/general-dest_germa_webp.webp
 draft: false
 galleries: []
 excerpt: 'North Africa winter sun does not have to mean another Nile cruise queue. Libya offers mild coast days, empty Roman mornings, and licensed desert chapters when Egypt feels too familiar.'

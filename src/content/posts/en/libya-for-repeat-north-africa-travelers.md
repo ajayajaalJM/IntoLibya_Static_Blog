@@ -5,7 +5,7 @@ canonicalPath: /en/libya-for-repeat-north-africa-travelers
 lang: en
 publishedAt: '2026-10-04'
 translationGroup: libya-for-repeat-north-africa-travelers
-featuredImage: /media/posts/libya-for-repeat-north-africa-travelers/hero.webp
+featuredImage: /media/posts/beach-holiday-in-tunisia-then-culture-in-libya/hero.webp
 draft: false
 galleries: []
 excerpt: 'Your next North Africa trip after Tunisia, Egypt, Morocco, or Algeria can be Libya if you want higher emptiness and a sponsored expedition style rather than'

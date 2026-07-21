@@ -5,7 +5,7 @@ canonicalPath: /en/ghadames-old-town-walking-tour
 lang: en
 publishedAt: '2026-09-11'
 translationGroup: ghadames-old-town-walking-tour
-featuredImage: /media/posts/ghadames-old-town-walking-tour/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a7_jpg.webp
 draft: false
 galleries: []
 excerpt: 'A Ghadames walking tour is the best way to read the Pearl of the Desert instead of merely photographing it. Covered lanes, whitewashed walls, and rooftop'

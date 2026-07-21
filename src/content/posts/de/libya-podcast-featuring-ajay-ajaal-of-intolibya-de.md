@@ -6,7 +6,7 @@ lang: de
 wpImportId: 7093
 publishedAt: '2026-03-11'
 translationGroup: libya-podcast-featuring-ajay-ajaal-of-intolibya
-featuredImage: /media/2025/12/589103340_18540874717018455_8340220507546104241_n.jpg
+featuredImage: /media/2025/12/587777867_18541306723018455_1932802759767599244_n.jpg
 excerpt: IntoLibya ist stolz, einen spannenden Meilenstein bekannt zu geben. Unser Gründer Ajay Ajaal ist offiziell in seiner ersten internationalen Reise Podcast, konzentriert sich ganz auf Libyen. In dieser Folge treten wir dem bekannten Amateur Traveler Podcast bei, um Reise zu diskutieren
 seo:
   title: Libyen Podcast mit Ajay Ajaal von IntoLibya

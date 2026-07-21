@@ -5,7 +5,7 @@ canonicalPath: /en/safety-questions-friends-will-ask-before-your-libya-trip
 lang: en
 publishedAt: '2026-12-06'
 translationGroup: safety-questions-friends-will-ask-before-your-libya-trip
-featuredImage: /media/posts/safety-questions-friends-will-ask-before-your-libya-trip/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a2_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Friends will ask blunt safety questions before your Libya trip. Here are calm answers about licensed tours, checkpoints, advisories, and what you can honestly promise.'

@@ -5,7 +5,7 @@ canonicalPath: /en/how-to-travel-to-libya-from-the-netherlands
 lang: en
 publishedAt: '2026-11-08'
 translationGroup: how-to-travel-to-libya-from-the-netherlands
-featuredImage: /media/posts/how-to-travel-to-libya-from-the-netherlands/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a16_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Travel to Libya from the Netherlands through licensed sponsorship, eVisa steps, and guided IntoLibya tours planned in TourBuilder before rigid flights.'

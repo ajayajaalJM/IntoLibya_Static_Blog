@@ -6,7 +6,7 @@ lang: ar
 wpImportId: 6822
 publishedAt: '2026-03-11'
 translationGroup: tripoli
-featuredImage: /media/2025/09/IMG_3235-scaled.jpg
+featuredImage: /media/posts/can-tourists-visit-libya-yes-with-a-licensed-tour/hero.webp
 excerpt: لماذا زيارة طرابلس؟ إن طرابلس، عاصمة ليبيا، هي واحدة من أكثر المدن فاحشة في شمال أفريقيا. فوق مياه البحر الأبيض المتوسط، هذا المتروبوليس المحطم هو المكان الذي تصادمت فيه الثقافات لآلاف السنين. هو
 seo:
   title: طرابلس

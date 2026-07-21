@@ -5,7 +5,7 @@ canonicalPath: /en/combining-ghat-festival-with-an-acacus-camp-night
 lang: en
 publishedAt: '2026-09-23'
 translationGroup: combining-ghat-festival-with-an-acacus-camp-night
-featuredImage: /media/posts/combining-ghat-festival-with-an-acacus-camp-night/hero.webp
+featuredImage: /media/posts/_hero-pool/sahara-sahara_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Combining Ghat festival days with an Acacus camp night is one of the richest winter ideas in southwest Libya, and one of the easiest to overpack. Festival'

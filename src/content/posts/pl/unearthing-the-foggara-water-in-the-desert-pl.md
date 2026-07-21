@@ -6,7 +6,7 @@ lang: pl
 wpImportId: 7011
 publishedAt: '2026-03-11'
 translationGroup: unearthing-the-foggara-water-in-the-desert
-featuredImage: /media/2025/10/Narrow-pathways-around-the-old-town-of-Ghadames-scaled.jpg
+featuredImage: /media/posts/beach-holiday-in-tunisia-then-culture-in-libya/hero.webp
 excerpt: 'W sercu Sahary, gdzie piasek rozciąga się bez końca, a woda jest rzadka, starożytni ludzie odkryli niezwykły sekret: życie może kwitnąć nawet na najsurowszej pustyni. Ten sekret to mggara, pomysłowy podziemny system nawadniania, który nosił'
 seo:
   title: 'Unething Foggara: Woda na pustyni'

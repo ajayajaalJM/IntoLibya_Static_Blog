@@ -5,7 +5,7 @@ canonicalPath: /en/libya-for-digital-creators-and-travel-bloggers
 lang: en
 publishedAt: '2026-10-01'
 translationGroup: libya-for-digital-creators-and-travel-bloggers
-featuredImage: /media/posts/libya-for-digital-creators-and-travel-bloggers/hero.webp
+featuredImage: /media/posts/beach-holiday-in-tunisia-then-culture-in-libya/hero.webp
 draft: false
 galleries: []
 excerpt: 'Libya travel content rewards creators who care about place more than crowd sourced clichés. Empty theatres, desert nights, and oasis towns give you frames'

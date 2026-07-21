@@ -5,7 +5,7 @@ canonicalPath: /en/film-and-photo-scouts-looking-at-north-africa-locations
 lang: en
 publishedAt: '2027-01-01'
 translationGroup: film-and-photo-scouts-looking-at-north-africa-locations
-featuredImage: /media/posts/film-and-photo-scouts-looking-at-north-africa-locations/hero.webp
+featuredImage: /media/posts/_hero-pool/general-dest_waw_an_namus_webp.webp
 draft: false
 galleries: []
 excerpt: 'Film and photo scouts in North Africa: Leptis Magna, Sabratha, Ghadames, and Acacus locations on permitted Libya routes.'

@@ -5,7 +5,7 @@ canonicalPath: /en/sahara-trips-compared-across-north-africa-borders
 lang: en
 publishedAt: '2026-10-24'
 translationGroup: sahara-trips-compared-across-north-africa-borders
-featuredImage: /media/posts/sahara-trips-compared-across-north-africa-borders/hero.webp
+featuredImage: /media/posts/_hero-pool/sahara-acacus_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Compare Sahara trips in Morocco, Tunisia, Algeria, and Libya by depth, access, camps, and whether coast ruins fit the same journey.'

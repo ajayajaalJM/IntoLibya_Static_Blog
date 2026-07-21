@@ -5,7 +5,7 @@ canonicalPath: /en/religious-heritage-curiosity-on-guided-libya-city-days
 lang: en
 publishedAt: '2026-12-20'
 translationGroup: religious-heritage-curiosity-on-guided-libya-city-days
-featuredImage: /media/posts/religious-heritage-curiosity-on-guided-libya-city-days/hero.webp
+featuredImage: /media/posts/_hero-pool/general-cdn_a11_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Religious heritage curiosity on guided Libya city days explores mosque architecture, medina lanes, and living faith communities in Tripoli and Ghadames with respectful etiquette on licensed tours.'

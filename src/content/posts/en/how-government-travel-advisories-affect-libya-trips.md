@@ -5,7 +5,7 @@ canonicalPath: /en/how-government-travel-advisories-affect-libya-trips
 lang: en
 publishedAt: '2026-07-30'
 translationGroup: how-government-travel-advisories-affect-libya-trips
-featuredImage: /media/posts/how-government-travel-advisories-affect-libya-trips/hero.webp
+featuredImage: /media/posts/_hero-pool/tripoli-abstract_jpg.webp
 draft: false
 galleries: []
 excerpt: 'Libya travel advisory is one of the first questions travelers ask when planning with IntoLibya. This guide answers it with practical steps, honest limits,'

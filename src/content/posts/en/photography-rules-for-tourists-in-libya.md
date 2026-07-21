@@ -5,7 +5,7 @@ canonicalPath: /en/photography-rules-for-tourists-in-libya
 lang: en
 publishedAt: '2026-07-28'
 translationGroup: photography-rules-for-tourists-in-libya
-featuredImage: /media/posts/photography-rules-for-tourists-in-libya/hero.webp
+featuredImage: /media/2025/10/Leptis-Magna-Baths-scaled.jpg
 draft: false
 galleries: []
 excerpt: 'Photography rules Libya is one of the first questions travelers ask when planning with IntoLibya. This guide answers it with practical steps, honest limits,'
