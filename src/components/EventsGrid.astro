@@ -91,7 +91,9 @@ function eventDescription(e: EventItem): string {
               <div class="mt-5 flex flex-col gap-3 sm:flex-row">
                 <a
                   href={eventBookingUrl(e.id)}
-                  data-ga-event="cta_click"
+                  data-ga-item-id={e.id}
+                  data-ga-item-type="event"
+                  data-ga-item-name={e.title}
                   data-ga-label="Book Event"
                   class="btn-primary flex-1 justify-center py-3 text-sm"
                 >

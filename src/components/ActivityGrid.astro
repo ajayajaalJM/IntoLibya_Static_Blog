@@ -56,9 +56,13 @@ function activityMeta(a: Activity): string {
     </div>
     {activities.length ? (
       <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-        {activities.map((a) => (
+        {activities.map((a, index) => (
           <a
             href={activityUrl(a)}
+            data-ga-item-id={a.id}
+            data-ga-item-type="activity"
+            data-ga-item-name={a.title}
+            data-ga-item-index={String(index)}
             class="card group flex flex-col overflow-hidden border-l-8 border-mint transition hover:-translate-y-1 active:scale-[0.99]"
           >
             <div class="tile-media mx-3 mt-3 h-36">

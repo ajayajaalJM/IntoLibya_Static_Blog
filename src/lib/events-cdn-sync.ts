@@ -131,7 +131,9 @@ function renderEventCard(e: EventItem): HTMLElement {
       <div class="mt-5 flex flex-col gap-3 sm:flex-row">
         <a
           href="${escapeHtml(eventBookingUrl(e.id))}"
-          data-ga-event="cta_click"
+          data-ga-item-id="${escapeHtml(e.id)}"
+          data-ga-item-type="event"
+          data-ga-item-name="${escapeHtml(e.title)}"
           data-ga-label="Book Event"
           class="btn-primary flex-1 justify-center py-3 text-sm"
         >Book Now →</a>

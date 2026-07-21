@@ -21,7 +21,8 @@
     "media:consolidate": "tsx scripts/consolidate-media-duplicates.ts",
     "translate:missing": "tsx scripts/translate-missing.ts",
     "migrate:destinations": "tsx scripts/migrate-places-to-destinations.ts",
-    "sync:destination-redirects": "tsx scripts/sync-destination-short-redirects.ts"
+    "sync:destination-redirects": "tsx scripts/sync-destination-short-redirects.ts",
+    "test:analytics": "tsx scripts/test-analytics.ts"
   },
   "dependencies": {
     "@astrojs/markdown-remark": "^7.2.1",

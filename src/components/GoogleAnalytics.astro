@@ -1,16 +1,38 @@
 ---
 /**
- * Loads GA4 when PUBLIC_GA_MEASUREMENT_ID is set (see .env.example).
- * Tracks page views plus categorized clicks for CTAs, nav, contact, social, TourBuilder, and blog.
+ * Loads GA4 when PUBLIC_GA_MEASUREMENT_ID is set (shared stream with TourBuilder).
+ * See docs/ANALYTICS.md — event taxonomy + TourBuilder sessionStorage handoff.
  */
+import type { ContentMeta } from '../lib/analytics';
+
+interface Props extends ContentMeta {}
+
+const {
+  content_type: contentType = '',
+  content_id: contentId = '',
+  content_language: contentLanguage = '',
+} = Astro.props as Props;
+
 const measurementId = (import.meta.env.PUBLIC_GA_MEASUREMENT_ID ?? '').trim();
+const pageMeta = {
+  site_area: 'blog',
+  content_type: contentType || undefined,
+  content_id: contentId || undefined,
+  content_language: contentLanguage || undefined,
+};
 const bootScript = measurementId
   ? `
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 window.gtag = gtag;
 gtag('js', new Date());
-gtag('config', ${JSON.stringify(measurementId)}, { anonymize_ip: true, send_page_view: true });
+gtag('config', ${JSON.stringify(measurementId)}, {
+  anonymize_ip: true,
+  send_page_view: true,
+  site_area: 'blog'
+});
+gtag('set', 'user_properties', { site_area: 'blog' });
+window.__IL_PAGE_META__ = ${JSON.stringify(pageMeta)};
 `.trim()
   : '';
 ---
@@ -20,276 +42,129 @@ gtag('config', ${JSON.stringify(measurementId)}, { anonymize_ip: true, send_page
     <>
       <script async src={`https://www.googletagmanager.com/gtag/js?id=${measurementId}`}></script>
       <script is:inline set:html={bootScript} />
-      <script is:inline>
-        (function () {
-          if (typeof window.gtag !== 'function') return;
+      <script>
+        import {
+          buildHandoffContext,
+          classifyLink,
+          HANDOFF_STORAGE_KEY,
+          isTourBuilderHref,
+          SITE_AREA_BLOG,
+        } from '../lib/analytics';
 
-          function textOf(el) {
-            return (el.textContent || '').replace(/\s+/g, ' ').trim().slice(0, 120);
+        type PageMeta = {
+          site_area?: string;
+          content_type?: string;
+          content_id?: string;
+          content_language?: string;
+        };
+
+        function textOf(el: Element) {
+          return (el.textContent || '').replace(/\s+/g, ' ').trim().slice(0, 120);
+        }
+
+        function sectionOf(el: Element) {
+          const tagged = el.closest('[data-ga-section]');
+          if (tagged) return tagged.getAttribute('data-ga-section') || '';
+          if (el.closest('header')) return 'header';
+          if (el.closest('footer')) return 'footer';
+          if (el.closest('.hero-full, [data-hero]')) return 'hero';
+          if (el.closest('aside#mobile-nav, .mobile-drawer')) return 'mobile_nav';
+          if (el.closest('article')) return 'article';
+          if (el.closest('main')) return 'main';
+          return 'page';
+        }
+
+        function pageMeta(): PageMeta {
+          return (window as any).__IL_PAGE_META__ || { site_area: SITE_AREA_BLOG };
+        }
+
+        function track(payload: Record<string, unknown> | null | undefined) {
+          if (!payload || !payload.event || typeof window.gtag !== 'function') return;
+          const event = String(payload.event);
+          const params: Record<string, unknown> = {};
+          for (const key of Object.keys(payload)) {
+            if (key !== 'event' && payload[key] !== undefined) params[key] = payload[key];
+          }
+          const meta = pageMeta();
+          params.site_area = SITE_AREA_BLOG;
+          params.page_location = window.location.href;
+          params.page_path = window.location.pathname;
+          if (meta.content_type) params.content_type = params.content_type || meta.content_type;
+          if (meta.content_id) params.content_id = params.content_id || meta.content_id;
+          if (meta.content_language) {
+            params.content_language = params.content_language || meta.content_language;
           }
 
-          function sectionOf(el) {
-            if (el.closest('[data-ga-section]')) {
-              return el.closest('[data-ga-section]').getAttribute('data-ga-section') || '';
-            }
-            if (el.closest('header')) return 'header';
-            if (el.closest('footer')) return 'footer';
-            if (el.closest('.hero-full, [data-hero]')) return 'hero';
-            if (el.closest('aside#mobile-nav, .mobile-drawer')) return 'mobile_nav';
-            if (el.closest('article')) return 'article';
-            if (el.closest('main')) return 'main';
-            return 'page';
+          // GA4 items[] for select_item
+          if (event === 'select_item' && params.item_id) {
+            params.items = [
+              {
+                item_id: params.item_id,
+                item_name: params.item_name || params.link_text,
+                item_category: params.item_category,
+                item_list_name: params.item_list_name || params.section,
+                index: params.index,
+              },
+            ];
           }
 
-          function hostOf(url) {
-            try {
-              return new URL(url, window.location.href).hostname.replace(/^www\./, '');
-            } catch {
-              return '';
-            }
+          window.gtag('event', event, params);
+        }
+
+        function storeHandoff(anchor: HTMLAnchorElement, payload: Record<string, unknown>) {
+          if (!isTourBuilderHref(anchor.href)) return;
+          try {
+            const meta = pageMeta();
+            const raw = buildHandoffContext({
+              entry_page: window.location.pathname,
+              entry_content_id: String(meta.content_id || ''),
+              entry_section: String(payload.section || sectionOf(anchor) || ''),
+              entry_item_id: String(payload.item_id || ''),
+            });
+            sessionStorage.setItem(HANDOFF_STORAGE_KEY, raw);
+          } catch {
+            /* ignore */
           }
+        }
 
-          function pathOf(url) {
-            try {
-              return new URL(url, window.location.href).pathname;
-            } catch {
-              return url || '';
-            }
-          }
+        document.addEventListener(
+          'click',
+          (e) => {
+            const target = e.target;
+            if (!(target instanceof Element)) return;
 
-          function classify(anchor) {
-            const href = anchor.getAttribute('href') || '';
-            const explicitEvent = anchor.getAttribute('data-ga-event');
-            const explicitLabel = anchor.getAttribute('data-ga-label') || textOf(anchor);
-            const section = sectionOf(anchor);
-            const linkUrl = href;
-            const linkText = explicitLabel;
-            const path = pathOf(href);
-            const host = hostOf(href);
-            const siteHost = window.location.hostname.replace(/^www\./, '');
-            const outbound = Boolean(host && host !== siteHost);
-
-            if (explicitEvent) {
-              const payload = {
-                event: explicitEvent,
-                link_url: linkUrl,
-                link_text: linkText,
-                section: section,
-                outbound: outbound,
-              };
-              if (explicitEvent === 'cta_click') {
-                payload.cta_name = (anchor.getAttribute('data-ga-cta') || linkText)
-                  .toLowerCase()
-                  .replace(/[^a-z0-9]+/g, '_')
-                  .replace(/^_|_$/g, '');
-              }
-              return payload;
+            const anchor = target.closest('a[href]');
+            if (anchor instanceof HTMLAnchorElement) {
+              const payload = classifyLink({
+                href: anchor.getAttribute('href') || anchor.href,
+                text: textOf(anchor),
+                section: sectionOf(anchor),
+                explicitEvent: anchor.getAttribute('data-ga-event'),
+                explicitLabel: anchor.getAttribute('data-ga-label'),
+                explicitCta: anchor.getAttribute('data-ga-cta'),
+                itemId: anchor.getAttribute('data-ga-item-id'),
+                itemType: anchor.getAttribute('data-ga-item-type'),
+                itemName: anchor.getAttribute('data-ga-item-name'),
+                itemIndex: anchor.getAttribute('data-ga-item-index'),
+                siteHost: window.location.hostname,
+                base: window.location.href,
+              });
+              track(payload);
+              storeHandoff(anchor, payload);
+              return;
             }
 
-            if (href.startsWith('tel:')) {
-              return {
-                event: 'contact_click',
-                contact_method: 'phone',
-                link_url: linkUrl,
-                link_text: linkText,
-                section: section,
-              };
+            const btn = target.closest('[data-ga-event]');
+            if (btn instanceof HTMLElement && !(btn instanceof HTMLAnchorElement)) {
+              track({
+                event: btn.getAttribute('data-ga-event') || 'ui_click',
+                link_text: btn.getAttribute('data-ga-label') || textOf(btn),
+                section: sectionOf(btn),
+              });
             }
-            if (href.startsWith('mailto:')) {
-              return {
-                event: 'contact_click',
-                contact_method: 'email',
-                link_url: linkUrl,
-                link_text: linkText,
-                section: section,
-              };
-            }
-            if (/wa\.me|whatsapp\.com/i.test(href)) {
-              return {
-                event: 'contact_click',
-                contact_method: 'whatsapp',
-                link_url: linkUrl,
-                link_text: linkText,
-                section: section,
-              };
-            }
-
-            if (/facebook\.com|fb\.com/i.test(host)) {
-              return {
-                event: 'social_click',
-                social_network: 'facebook',
-                link_url: linkUrl,
-                link_text: linkText,
-                section: section,
-              };
-            }
-            if (/instagram\.com/i.test(host)) {
-              return {
-                event: 'social_click',
-                social_network: 'instagram',
-                link_url: linkUrl,
-                link_text: linkText,
-                section: section,
-              };
-            }
-            if (/youtube\.com|youtu\.be/i.test(host)) {
-              return {
-                event: 'social_click',
-                social_network: 'youtube',
-                link_url: linkUrl,
-                link_text: linkText,
-                section: section,
-              };
-            }
-            if (/twitter\.com|x\.com|tiktok\.com|linkedin\.com/i.test(host)) {
-              return {
-                event: 'social_click',
-                social_network: host.split('.')[0],
-                link_url: linkUrl,
-                link_text: linkText,
-                section: section,
-              };
-            }
-
-            if (/\/tourbuilder\/booking\/?$/i.test(path) || /\/tourbuilder\/booking\?/i.test(href)) {
-              return {
-                event: 'cta_click',
-                cta_name: 'build_trip',
-                link_url: linkUrl,
-                link_text: linkText,
-                section: section,
-              };
-            }
-            if (/\/tourbuilder\/search\/?/i.test(path)) {
-              return {
-                event: 'cta_click',
-                cta_name: 'browse_activities',
-                link_url: linkUrl,
-                link_text: linkText,
-                section: section,
-              };
-            }
-            if (/\/tourbuilder\/activity\//i.test(path)) {
-              return {
-                event: 'tourbuilder_click',
-                item_type: 'activity',
-                link_url: linkUrl,
-                link_text: linkText,
-                section: section,
-              };
-            }
-            if (/\/tourbuilder\/tour-packages/i.test(path) || /[?&]tourId=/i.test(href) || /[?&]selectedTour=/i.test(href)) {
-              return {
-                event: 'tourbuilder_click',
-                item_type: 'tour_package',
-                link_url: linkUrl,
-                link_text: linkText,
-                section: section,
-              };
-            }
-            if (/\/tourbuilder\/festivals-and-events/i.test(path) || /[?&]eventId=/i.test(href) || /[?&]selectedEvent=/i.test(href)) {
-              return {
-                event: 'tourbuilder_click',
-                item_type: 'event',
-                link_url: linkUrl,
-                link_text: linkText,
-                section: section,
-              };
-            }
-            if (/\/tourbuilder(\/|$)/i.test(path)) {
-              return {
-                event: 'tourbuilder_click',
-                item_type: 'hub',
-                link_url: linkUrl,
-                link_text: linkText,
-                section: section,
-              };
-            }
-
-            if (/^\/(en|ar|de|es|fr|it|ja|nl|pl|pt|ru|zh)(\/|$)/i.test(path)) {
-              const isHub = /^\/(en|ar|de|es|fr|it|ja|nl|pl|pt|ru|zh)\/?$/i.test(path);
-              return {
-                event: 'blog_click',
-                item_type: isHub ? 'hub' : 'post',
-                link_url: linkUrl,
-                link_text: linkText,
-                section: section,
-              };
-            }
-
-            if (section === 'header' || section === 'mobile_nav') {
-              return {
-                event: 'nav_click',
-                link_url: linkUrl,
-                link_text: linkText,
-                section: section,
-              };
-            }
-            if (section === 'footer') {
-              return {
-                event: 'footer_click',
-                link_url: linkUrl,
-                link_text: linkText,
-                section: section,
-              };
-            }
-
-            if (outbound) {
-              return {
-                event: 'outbound_click',
-                link_url: linkUrl,
-                link_domain: host,
-                link_text: linkText,
-                section: section,
-              };
-            }
-
-            return {
-              event: 'link_click',
-              link_url: linkUrl,
-              link_text: linkText,
-              section: section,
-            };
-          }
-
-          function track(payload) {
-            if (!payload || !payload.event) return;
-            var event = payload.event;
-            var params = {};
-            for (var key in payload) {
-              if (key !== 'event' && Object.prototype.hasOwnProperty.call(payload, key)) {
-                params[key] = payload[key];
-              }
-            }
-            params.page_location = window.location.href;
-            params.page_path = window.location.pathname;
-            window.gtag('event', event, params);
-          }
-
-          document.addEventListener(
-            'click',
-            function (e) {
-              var target = e.target;
-              if (!(target instanceof Element)) return;
-
-              var anchor = target.closest('a[href]');
-              if (anchor instanceof HTMLAnchorElement) {
-                track(classify(anchor));
-                return;
-              }
-
-              var btn = target.closest('[data-ga-event]');
-              if (btn instanceof HTMLElement && !(btn instanceof HTMLAnchorElement)) {
-                track({
-                  event: btn.getAttribute('data-ga-event') || 'ui_click',
-                  link_text: btn.getAttribute('data-ga-label') || textOf(btn),
-                  section: sectionOf(btn),
-                });
-              }
-            },
-            true,
-          );
-        })();
+          },
+          true,
+        );
       </script>
     </>
   )

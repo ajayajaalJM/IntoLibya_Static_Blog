@@ -25,6 +25,9 @@ interface Props {
   jsonLd?: Record<string, unknown> | Record<string, unknown>[];
   /** Optional LCP image preload (from getImage). */
   lcpImage?: { src: string; type?: string };
+  /** GA4 content taxonomy (shared stream with TourBuilder). */
+  contentType?: string;
+  contentId?: string;
 }
 
 const {
@@ -42,6 +45,8 @@ const {
   hreflangAlternates = [],
   jsonLd,
   lcpImage,
+  contentType,
+  contentId,
 } = Astro.props;
 
 const site = getSiteConfig();
@@ -123,7 +128,11 @@ const authorName = articleAuthor || siteName;
     {jsonLd && (
       <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
     )}
-    <GoogleAnalytics />
+    <GoogleAnalytics
+      content_type={contentType}
+      content_id={contentId}
+      content_language={lang}
+    />
   </head>
   <body class="min-h-screen flex flex-col">
     <Header />

@@ -56,13 +56,16 @@ Optional paid fallback: set `TRANSLATE_PROVIDER=openai` and `OPENAI_API_KEY`.
 
 ## Google Analytics
 
-Set your GA4 Measurement ID in `.env` (and in Vercel env vars for production):
+Blog and TourBuilder web share GA4 stream **`G-H6N6QW4W7T`**.
 
 ```bash
-PUBLIC_GA_MEASUREMENT_ID=G-XXXXXXXXXX
+PUBLIC_GA_MEASUREMENT_ID=G-H6N6QW4W7T
 ```
 
-When set, every page loads GA4 and fires click events for CTAs, nav, footer, contact (phone / email / WhatsApp), social, TourBuilder cards, blog links, and outbound links. Leave blank to disable.
+Leave blank to disable. Full taxonomy, handoff, and DebugView steps: [docs/ANALYTICS.md](docs/ANALYTICS.md).  
+GA4 Admin dimensions / Explorations: see TourBuilder `docs/GA4_CUSTOM_DIMENSIONS.md`.
+
+Run classifier tests: `npm run test:analytics`
 
 ## Images
 

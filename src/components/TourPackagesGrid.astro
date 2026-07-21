@@ -37,9 +37,13 @@ try {
 
     {tours.length ? (
       <div class="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
-        {tours.map((t) => (
+        {tours.map((t, index) => (
           <a
             href={tourBookingUrl(t.id)}
+            data-ga-item-id={t.id}
+            data-ga-item-type="tour"
+            data-ga-item-name={t.title}
+            data-ga-item-index={String(index)}
             class="card group flex flex-col overflow-hidden border-l-8 border-brass transition hover:-translate-y-1 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brass"
           >
             <div class="hero-arch mx-3 mt-3 h-36 overflow-hidden bg-sand sm:mx-3 sm:mt-3 sm:h-40">
