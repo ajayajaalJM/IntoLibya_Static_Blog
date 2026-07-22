@@ -20,6 +20,7 @@
     "media:backfill-derivatives": "tsx scripts/backfill-media-derivatives.ts",
     "media:consolidate": "tsx scripts/consolidate-media-duplicates.ts",
     "translate:missing": "tsx scripts/translate-missing.ts",
+    "translate:status": "tsx scripts/translate-missing.ts --status",
     "migrate:destinations": "tsx scripts/migrate-places-to-destinations.ts",
     "sync:destination-redirects": "tsx scripts/sync-destination-short-redirects.ts",
     "test:analytics": "tsx scripts/test-analytics.ts"

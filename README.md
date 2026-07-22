@@ -48,9 +48,14 @@ Full steps: [content-review/mac-mini-translation-runbook.md](content-review/mac-
 
 ```bash
 # On the Mac Mini, after git pull + ollama pull qwen2.5:14b:
-npm run translate:missing -- --dry-run --langs es --limit 5
-npm run translate:missing -- --langs es
+npm run translate:status
+npm run translate:missing -- --dry-run --wave 1 --limit 5
+npm run translate:missing -- --wave 1 --kind destinations
+npm run translate:missing -- --wave 1 --kind posts --limit 20   # chunk overnight; re-run to resume
+npm run translate:missing -- --wave 1 --retry-failed
 ```
+
+Progress is checkpointed in `.translate-state/` (gitignored). Re-run the same command after a crash — completed locale files are skipped.
 
 Optional paid fallback: set `TRANSLATE_PROVIDER=openai` and `OPENAI_API_KEY`.
 

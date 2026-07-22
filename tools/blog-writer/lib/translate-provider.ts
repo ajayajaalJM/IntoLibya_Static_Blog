@@ -19,9 +19,18 @@ export interface TranslateOptions {
 const TARGET_LANGS = LANGS.filter((lang): lang is Exclude<Lang, 'en'> => lang !== 'en');
 
 const DEFAULT_OLLAMA_BASE = 'http://127.0.0.1:11434/v1';
-const DEFAULT_OLLAMA_MODEL = 'qwen2.5:14b';
+const DEFAULT_OLLAMA_MODEL = 'gpt-oss:20b-cloud';
+const DEFAULT_OLLAMA_FALLBACK_MODEL = 'qwen3:4b';
 const DEFAULT_OPENAI_MODEL = 'gpt-4o-mini';
 const DEFAULT_CHUNK_WORDS = 1200;
+
+export interface TranslateEndpoint {
+  baseUrl: string;
+  model: string;
+  apiKey?: string;
+  jsonMode: boolean;
+  name: TranslateProviderName;
+}
 
 function providerName(): TranslateProviderName {
   const raw = (process.env.TRANSLATE_PROVIDER || 'ollama').toLowerCase().trim();
@@ -33,6 +42,7 @@ function ollamaConfig() {
   return {
     baseUrl: (process.env.OLLAMA_BASE_URL || DEFAULT_OLLAMA_BASE).replace(/\/$/, ''),
     model: process.env.OLLAMA_MODEL || DEFAULT_OLLAMA_MODEL,
+    fallbackModel: process.env.OLLAMA_FALLBACK_MODEL || DEFAULT_OLLAMA_FALLBACK_MODEL,
   };
 }
 
@@ -284,20 +294,34 @@ async function translateOneLanguage(
   return { title, body, seoTitle, seoDescription };
 }
 
-function resolveEndpoint(): {
-  baseUrl: string;
-  model: string;
-  apiKey?: string;
-  jsonMode: boolean;
-  name: TranslateProviderName;
-} {
+function resolveEndpoint(): TranslateEndpoint {
   const name = providerName();
   if (name === 'openai') {
     const cfg = openaiConfig();
     return { ...cfg, jsonMode: true, name };
   }
   const cfg = ollamaConfig();
-  return { ...cfg, jsonMode: false, name };
+  return { baseUrl: cfg.baseUrl, model: cfg.model, jsonMode: false, name };
+}
+
+function resolveOllamaEndpoints(): TranslateEndpoint[] {
+  const cfg = ollamaConfig();
+  const models = [cfg.model];
+  if (cfg.fallbackModel && cfg.fallbackModel !== cfg.model) {
+    models.push(cfg.fallbackModel);
+  }
+  return models.map((model) => ({
+    baseUrl: cfg.baseUrl,
+    model,
+    jsonMode: false,
+    name: 'ollama' as const,
+  }));
+}
+
+function resolveEndpoints(): TranslateEndpoint[] {
+  const name = providerName();
+  if (name === 'openai') return [resolveEndpoint()];
+  return resolveOllamaEndpoints();
 }
 
 /**
@@ -314,22 +338,27 @@ export async function translateFields(
   const targets = (options.targets ?? TARGET_LANGS).filter((l) => l !== 'en');
   if (!targets.length) return {};
 
-  const endpoint = resolveEndpoint();
+  const endpoints = resolveEndpoints();
   const chunkWordLimit = options.chunkWordLimit ?? DEFAULT_CHUNK_WORDS;
   const result: Partial<Record<Lang, TranslateFields>> = {};
 
   for (const lang of targets) {
     let lastError: Error | null = null;
-    for (let attempt = 1; attempt <= 2; attempt++) {
-      try {
-        result[lang] = await translateOneLanguage(input, lang, endpoint, chunkWordLimit);
-        lastError = null;
-        break;
-      } catch (err) {
-        lastError = err instanceof Error ? err : new Error(String(err));
-        if (attempt === 2) break;
+
+    for (const endpoint of endpoints) {
+      for (let attempt = 1; attempt <= 2; attempt++) {
+        try {
+          result[lang] = await translateOneLanguage(input, lang, endpoint, chunkWordLimit);
+          lastError = null;
+          break;
+        } catch (err) {
+          lastError = err instanceof Error ? err : new Error(String(err));
+          if (attempt === 2) break;
+        }
       }
+      if (result[lang]) break;
     }
+
     if (lastError) throw lastError;
   }
 
@@ -356,12 +385,22 @@ export async function translateAllLanguages(
 export function getTranslateProviderInfo(): {
   provider: TranslateProviderName;
   model: string;
+  fallbackModel?: string;
   baseUrl: string;
 } {
   const endpoint = resolveEndpoint();
+  if (endpoint.name === 'openai') {
+    return {
+      provider: endpoint.name,
+      model: endpoint.model,
+      baseUrl: endpoint.baseUrl,
+    };
+  }
+  const cfg = ollamaConfig();
   return {
     provider: endpoint.name,
-    model: endpoint.model,
-    baseUrl: endpoint.baseUrl,
+    model: cfg.model,
+    fallbackModel: cfg.fallbackModel !== cfg.model ? cfg.fallbackModel : undefined,
+    baseUrl: cfg.baseUrl,
   };
 }
